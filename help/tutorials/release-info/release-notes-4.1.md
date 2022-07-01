@@ -1,9 +1,10 @@
 ---
 title: Notas de la versión | Versión de las guías de Adobe Experience Manager 4.1
-description: 'Última versión de las guías de Adobe Experience Manager '
-source-git-commit: 714d335d95c54fb02b0fe02ad112fa36719dc970
+description: Última versión de las guías de Adobe Experience Manager
+exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
+source-git-commit: 7fc8eb3ea46eee89eac4d5779f14d61aa6106505
 workflow-type: tm+mt
-source-wordcount: '2983'
+source-wordcount: '2973'
 ht-degree: 3%
 
 ---
@@ -18,7 +19,7 @@ Puede actualizar fácilmente su versión actual de las guías de Adobe Experienc
 * Si utiliza la versión 3.8.5, deberá actualizar a la versión 4.0.x antes de actualizar a la versión 4.1.
 * Si está en una versión anterior a la 3.8.5, consulte la sección actualización en la guía de instalación específica del producto.
 
-Para obtener más información, consulte [Instrucciones de actualización](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-1/Adobe-Experience-Manager-Guides_Upgrade-Instructions_EN.pdf).
+Para obtener más información, consulte [Instrucciones de actualización](assets/Adobe-Experience-Manager-Guides_Upgrade-Instructions_EN.pdf).
 
 ## Matriz de compatibilidad
 
@@ -289,4 +290,3 @@ Los errores corregidos en varias áreas se enumeran a continuación:
 * Las imágenes de SVG que no se representan correctamente en los modos de autor del Editor XML. (9426)
 * No se respeta la línea de base al publicar mediante salesforce. (8953)
 * No está presente la capacidad para borrar la asignación de ruta de la configuración de preferencias de usuario. (8534)
-
