@@ -131,7 +131,7 @@ El filtro mejorado del Repositorio le permite buscar texto con una amplia varied
 
    ![Criterios de filtro](images/lesson-5/filter-criteria.png)
 
-Las búsquedas se pueden restringir a temas DITA o Mapas DITA. Puede buscar archivos de imagen no DITA, multimedia u otros documentos dentro de la ruta seleccionada. Incluso puede restringir la búsqueda a Elementos DITA o filtrar por archivo de cierre de compra.
+Las búsquedas se pueden restringir a temas DITA o mapas DITA. Puede buscar archivos de imagen no DITA, multimedia u otros documentos dentro de la ruta seleccionada. Incluso puede restringir la búsqueda a Elementos DITA o filtrar por archivo de cierre de compra.
 
 ## Explorar la vista Mapa
 
