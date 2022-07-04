@@ -2,7 +2,7 @@
 title: Condiciones
 description: Trabajo con condiciones en AEM guías
 exl-id: 2cb670d9-1a22-47c6-8409-52d1d526010a
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 01083e771baced42146044bf319d3897a2c5f51b
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 3%
@@ -31,11 +31,11 @@ Los archivos de muestra que puede utilizar para esta lección se proporcionan en
 
 5. Rellene los campos obligatorios.
 
-   ・ El Nombre debe corresponder a un atributo utilizado para la creación de perfiles.
+   - El nombre debe corresponder a un atributo utilizado para la creación de perfiles.
 
-   ・ El valor es la entrada exacta que se utilizará en la fuente de código DITA.
+   - El valor es la entrada exacta que se utilizará en la fuente de código DITA.
 
-   ・ La etiqueta es la palabra que verá el usuario que está introduciendo atributos.
+   - Label es la palabra que verá el usuario que está introduciendo atributos.
 
 6. Haga clic en [!UICONTROL **Guardar**].
 
@@ -104,7 +104,6 @@ Los mapas del esquema de sujetos son una forma especializada de ditamap y están
    >[!IMPORTANT]
    >
    >Importante: el mapa raíz seleccionado debe ser el mapa que contiene el esquema de sujeto.
-
 
    ![Preferencias de usuario](images/lesson-13/user-preferences-2.png)
 

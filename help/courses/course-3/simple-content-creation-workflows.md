@@ -2,7 +2,7 @@
 title: Flujos de trabajo simples para la creación de contenido
 description: Creación de contenido en AEM guías
 exl-id: e4b8e512-0688-44f7-b981-78af33b57b08
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 92c269c4a5f73317345bbd0ab247951656426ff4
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 2%
@@ -37,13 +37,13 @@ Las imágenes se pueden agregar directamente desde una unidad local.
 
 3. Uso **Propiedades de contenido** en el panel lateral derecho para modificar el
 
-   ・ escala
+   - scale
 
-   • position
+   - position
 
-   ・ alineación, o
+   - alineación, o
 
-   ・ otros atributos.
+   - otros atributos.
 
    ![Propiedades de contenido](images/lesson-15/content-properties.png)
 
@@ -98,7 +98,6 @@ Es posible que los usuarios deseen descargar un PDF del tema actual para marcarl
 3. Select **Localizar en**.
 
 4. Elija una de las opciones siguientes: **Repositorio** o **Mapa** para ir a la ubicación del tema que desee.
-
 
 ## Versión de un tema
 
@@ -183,7 +182,6 @@ El número de versión se actualiza.
    - El historial de versiones con etiquetas se muestra a la izquierda.
 
    ![Historial de versiones](images/lesson-15/version-history.png)
-
 
 4. Haga clic en una versión para acceder a opciones como **Revertir a esta versión** y **Vista previa de la versión**.
 

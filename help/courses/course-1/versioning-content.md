@@ -2,7 +2,7 @@
 title: Creación de versiones del contenido en [!DNL AEM Guides]
 description: Creación de versiones del contenido en [!DNL Adobe Experience Manager Guides]
 exl-id: 766af002-d17b-4d27-b4d1-baaacc4579ca
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 97254946f5ee732fe3b93ff60dd9ef51a379b9f4
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 1%
@@ -29,8 +29,9 @@ Al generar una versión de un documento, se crea una instantánea de su estado a
    Las etiquetas le permiten especificar la versión que desea incluir al publicar.
 
    >[!NOTE]
-   > 
-   > Si el programa está configurado con etiquetas predefinidas, puede seleccionarlas para garantizar un etiquetado coherente.
+   >
+   >Si el programa está configurado con etiquetas predefinidas, puede seleccionarlas para garantizar un etiquetado coherente.
+
 1. Seleccione **Guardar**.
 
    Ha creado una nueva versión del tema y se actualiza el número de versión. La primera versión de un documento será la versión 1.0.

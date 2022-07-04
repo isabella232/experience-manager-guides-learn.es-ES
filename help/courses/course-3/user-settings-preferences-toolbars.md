@@ -2,7 +2,7 @@
 title: Preferencias de usuario, Configuración del editor y Barras de herramientas del editor
 description: Cambio de las preferencias de usuario y la configuración del editor en AEM guías
 exl-id: 8cb099e4-d985-4eeb-b1a5-0e372b04d218
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 3d81727cdf4a58921724b0f1aa93b0700f821f60
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 2%
@@ -25,13 +25,13 @@ Las etiquetas son indicaciones visuales que indican los límites de un elemento.
 
    Las etiquetas aparecen dentro del tema. Con la vista de etiquetas puede:
 
-   ・ Seleccione el contenido de un elemento haciendo clic en la etiqueta de apertura o cierre.
+   - Para seleccionar el contenido de un elemento, haga clic en la etiqueta de apertura o cierre.
 
-   ・ Expandir o contraer etiquetas haciendo clic en el signo + o - en la etiqueta .
+   - Expanda o contraiga etiquetas haciendo clic en el signo + o - en la etiqueta .
 
-   ・ Utilice el menú contextual para cortar, copiar o pasar el elemento seleccionado.
+   - Utilice el menú contextual para cortar, copiar o pasar el elemento seleccionado.
 
-   ・ Arrastre y suelte los elementos seleccionando la etiqueta y soltando el elemento en una ubicación válida.
+   - Arrastre y suelte los elementos seleccionando la etiqueta y soltando el elemento en una ubicación válida.
 
 2. Haga clic en el [!UICONTROL **Alternar vista de etiquetas**] para ocultar las etiquetas.
 
@@ -75,11 +75,11 @@ La barra de herramientas situada en la parte superior derecha de la pantalla per
 
 ![Modos](images/lesson-2/modes.png)
 
-・ Seleccione **Autor** para ver la estructura y el contenido mientras trabaja con un tema.
+- Select **Autor** para ver la estructura y el contenido mientras trabaja con un tema.
 
-・ Seleccione **Fuente** para mostrar el XML subyacente que constituye el tema.
+- Select **Fuente** para mostrar el XML subyacente que constituye el tema.
 
-・ Seleccione **Vista previa** para mostrar cómo se mostrará un tema cuando lo vea un usuario en su explorador.
+- Select **Vista previa** para mostrar cómo se mostrará un tema cuando lo vea un usuario en su explorador.
 
 ## Cambiar el tema con las preferencias de usuario
 

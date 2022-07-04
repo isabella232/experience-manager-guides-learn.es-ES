@@ -2,7 +2,7 @@
 title: Revisión ortográfica y búsqueda/sustitución
 description: Uso de la revisión ortográfica y búsqueda/sustitución en AEM guías
 exl-id: 5f39618d-a919-4d3c-a4de-2896f2d1bf20
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 0b4326b02ef52f5de77c3f26c18feec84567cebb
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 2%
@@ -37,9 +37,9 @@ Es posible que desee utilizar una herramienta de revisión ortográfica distinta
 
 3. Hay dos opciones:
 
-   ・ **Revisión ortográfica del explorador** — la configuración predeterminada en la que la revisión ortográfica utiliza el diccionario integrado del explorador.
+   - **Revisión ortográfica del explorador** — la configuración predeterminada en la que la revisión ortográfica utiliza el diccionario integrado del explorador.
 
-   ・ **Revisión de ortografía AEM** utilice esto para crear una lista de palabras personalizada usando el diccionario personalizado de AEM.
+   - **Revisión de ortografía AEM** utilice esto para crear una lista de palabras personalizada usando el diccionario personalizado de AEM.
 
 4. Choose **Revisión de ortografía AEM**.
 
@@ -59,19 +59,17 @@ El administrador puede cambiar la configuración para que el diccionario de AEM 
 
    ![Nodo de configuración de CRXDE Lite](images/lesson-11/config-node.png)
 
-
 4. Cree un nuevo archivo.
 
    a. Haga clic con el botón derecho en la carpeta de configuración.
-b. Choose **Crear > Crear archivo**.
+
+   b. Choose **Crear > Crear archivo**.
 
    ![Nueva creación de archivos de diccionario](images/lesson-11/new-dictionary-file.png)
-
 
    c. Asigne un nombre al archivo _**user_dictionary.txt**_.
 
    ![Texto del diccionario del usuario](images/lesson-11/user-dictionary.png)
-
 
    d. Haga clic en [!UICONTROL **OK**].
 
@@ -109,12 +107,11 @@ Es posible que los autores tengan que reiniciar la sesión del Editor web para o
 
 4. Elija una de las opciones siguientes:
 
-   ・ **Archivo de cierre de compra antes de reemplazar** — si lo habilita un administrador, el archivo se desprotegerá automáticamente antes de reemplazar los términos de búsqueda.
+   - **Archivo de cierre de compra antes de reemplazar** — si lo habilita un administrador, el archivo se desprotegerá automáticamente antes de reemplazar los términos de búsqueda.
 
-   ・ **Sólo palabra completa** — restringe la búsqueda para que devuelva solamente la palabra o frase exacta ingresada.
+   - **Sólo palabra completa** — restringe la búsqueda para que devuelva solamente la palabra o frase exacta ingresada.
 
    ![Buscar reemplazo en el repositorio](images/lesson-11/repository-find-replace.png)
-
 
 5. Haga clic en el [!UICONTROL **Aplicar filtro**] para seleccionar la ruta en el Repositorio donde desea realizar la búsqueda.
 

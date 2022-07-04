@@ -2,7 +2,7 @@
 title: Uso de imágenes en AEM guías
 description: Uso de imágenes en las guías de Adobe Experience Manager
 exl-id: 8b920a9a-bedb-434c-b6fb-3569ce4b7a81
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1f8fe099be2b4123eec6f7c973668b415097ac45
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 0%
@@ -27,10 +27,10 @@ Puede descargar el archivo de imagen de ejemplo desde [aquí.](assets/working-wi
 
    ![Cargar recursos](images/lesson-4/upload-assets.png)
 
-
 1. Seleccione la imagen que desee cargar desde el sistema local y seleccione **Apertura**.
 
    La variable [!UICONTROL Cargar recursos] se abre.
+
 1. Select **Cargar**.
 
 ## Inserción de una imagen en un tema
@@ -52,7 +52,6 @@ Para lo siguiente, asegúrese de que el tema esté abierto en el editor de docum
 1. Seleccione el **Insertar imagen** icono.
 
    ![Icono Insertar imagen](images/lesson-4/insert-image.png)
-
 
    Aparecerá el cuadro de diálogo Insertar imagen.
 
@@ -88,9 +87,11 @@ Como ha realizado un cambio significativo en el tema, puede que ahora le resulte
 1. En el campo Rótulos de versión , introduzca las etiquetas relevantes.
 
    Las etiquetas le permiten especificar la versión que desea incluir al publicar.
+
    >[!NOTE]
    > 
    > Si el programa está configurado con etiquetas predefinidas, puede seleccionarlas para garantizar un etiquetado coherente.
+
 1. Seleccione **Guardar**.
 
    Ha creado una nueva versión del tema y se actualiza el número de versión.

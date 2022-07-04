@@ -2,7 +2,7 @@
 title: Seguimiento de cambios
 description: Seguimiento de cambios en las guías de AEM
 exl-id: 57779920-b3b4-44be-a1fb-89ea7c89eef7
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 7bc636b4aceee327d86cfa74a9f8e61e0ad0a1cf
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 0%
@@ -92,9 +92,9 @@ Cuando trabaja en un entorno de varios autores, puede resultar difícil rastrear
 
 4. En Opciones, elija:
 
-   ・ **Seguimiento de cambios desde la versión seleccionada**: Esta opción muestra todas las actualizaciones de contenido en forma de cambios rastreados. A continuación, puede optar por aceptar o rechazar cambios en el documento de uno en uno o de vez en cuando.
+   - **Seguimiento de cambios desde la versión seleccionada**: Esta opción muestra todas las actualizaciones de contenido en forma de cambios rastreados. A continuación, puede optar por aceptar o rechazar cambios en el documento de uno en uno o de vez en cuando.
 
-   ・ **Revertir a la versión seleccionada**: Esta opción revierte la versión actual del documento a la versión seleccionada. No proporciona ningún control sobre qué contenido se acepta o rechaza.
+   - **Revertir a la versión seleccionada**: Esta opción revierte la versión actual del documento a la versión seleccionada. No proporciona ningún control sobre qué contenido se acepta o rechaza.
 
 5. Haga clic en [!UICONTROL **Listo**].
 

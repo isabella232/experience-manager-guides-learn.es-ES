@@ -2,7 +2,7 @@
 title: Creación de contenido en [!DNL AEM Guides]
 description: Creación de contenido en [!DNL Adobe Experience Manager Guides]
 exl-id: f7cfc5c8-414f-4480-a9c9-b9920975a55d
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 6959927315c7afc62a7423e835a36895c76fdc6d
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 1%
@@ -24,6 +24,7 @@ Una vez que se haya familiarizado con la interfaz de usuario, puede empezar a cr
 1. Seleccione el **+** y **Carpeta**.
 
    ![+ icono](images/lesson-3/+-icon.png)
+
 1. Asigne un título a la carpeta.
 1. Seleccione **Crear**.
 Ha creado una carpeta nueva que ahora se muestra en el Repositorio. Esta carpeta es su hogar para todo el contenido del curso.
@@ -37,6 +38,7 @@ Ahora podemos crear una carpeta dentro de la nueva carpeta para que contenga im�
    ![Icono de elipsis](images/lesson-3/ellipses-icon.png)
 
    Se muestra el menú Opciones.
+
 1. Select **Crear \> Carpeta**.
    ![Creación de una subcarpeta](images/lesson-3/create-subfolder-with-markings.png)
 
@@ -49,6 +51,7 @@ Ahora podemos crear una carpeta dentro de la nueva carpeta para que contenga im�
    ![Icono de elipsis](images/lesson-3/ellipses-icon.png)
 
    Se muestra el menú Opciones.
+
 1. Select **Crear \> Tema**.
 
    ![Creación de un nuevo tema](images/lesson-3/create-topic-with-markings.png)
@@ -93,6 +96,7 @@ Puede guardar el trabajo en cualquier momento con Guardar o Guardar como nueva v
    >[!NOTE]
    > 
    > Si el programa está configurado con etiquetas predefinidas, puede seleccionarlas para garantizar un etiquetado coherente.
+
 1. Seleccione **Guardar**.
 
    Ha creado una nueva versión del tema y se actualiza el número de versión.
