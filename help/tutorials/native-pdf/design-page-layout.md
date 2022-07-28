@@ -1,14 +1,16 @@
 ---
 title: Función de publicación de PDF nativo | Diseño de un diseño de página
-description: 'Aprenda a diseñar el diseño de la página para presentar información en diferentes secciones de la salida del PDF. '
+description: Aprenda a diseñar el diseño de la página para presentar información en diferentes secciones de la salida del PDF.
 hide: true
 hidefromtoc: true
-source-git-commit: 97c7337684e4afb8352912e53d6a59939f7d182f
+exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
+source-git-commit: 64e8ab1288674437f6182010ce4963b3780e98a9
 workflow-type: tm+mt
 source-wordcount: '3289'
 ht-degree: 0%
 
 ---
+
 
 # Diseño de un diseño de página
 
@@ -85,7 +87,7 @@ Por ejemplo, si desea insertar una imagen en el área del encabezado de la prime
 
 1. Haga clic en Editar encabezado (<img src="./assets/header-icon.svg" width="25">) para colocar el cursor en el área del encabezado.
 
-1. Haga clic en Inert Image (<img src="./assets/insert-image-icon.svg" width="25"> ) icono.
+1. Haga clic en Inert Image (<img src="./assets/insert-image-icon.svg" width="25">) icono.
 
    Aparecerá la ventana emergente Seleccionar ruta.
 
@@ -135,6 +137,8 @@ En el siguiente ejemplo, insertaremos un número de página y un título de tema
 
    <img src="./assets/insert-page-number-field.svg" width="400">
 
+   <br>
+
    >[!NOTE]
    >
    >También puede editar el formato de todos los campos, excepto el formato predeterminado. Para ello, haga clic en el icono Editar junto al formato que desea editar, realice cambios y haga clic en Aceptar.
@@ -169,9 +173,9 @@ En el siguiente ejemplo, insertaremos un número de página y un título de tema
 
       <img src="./assets/topic-title-moved-right-footer.png" width="500">
 
-| Lado del desarrollador: | <img src="./assets/developer-corner-icon.svg" width="40"> |
+| Lado del desarrollador: | <img src="./assets/developer-corner-icon.svg" width="25"> |
 |--- |--- |
-Si desea trabajar directamente con el CSS y el código del HTML, también puede conseguirlo yendo la vista Origen del diseño de página y realizando cambios en el código. El siguiente fragmento de código muestra la misma configuración de pie de página realizada a través del código:
+| Si desea trabajar directamente con el CSS y el código del HTML, también puede conseguirlo yendo la vista Origen del diseño de página y realizando cambios en el código. El siguiente fragmento de código muestra la misma configuración de pie de página realizada a través del código: |
 
 ```md
 …
@@ -217,6 +221,8 @@ En el siguiente ejemplo, insertaremos una tabla de contenido de capítulo en el 
 
    <img src="./assets/chapter-toc-updated.png" width="400">
 
+   <br>
+
    >[!NOTE]
    >
    >El PDF publicado finalmente solo mostrará las entradas de la tabla de contenido en función del contenido de sus capítulos. Si no tiene encabezados de nivel 5 en un capítulo, no se mostrarán en el resultado final.
@@ -258,6 +264,8 @@ Para crear un diseño de página con varias columnas, realice los pasos siguient
    Como se muestra en el ejemplo siguiente, la propiedad Columna de expansión del texto del encabezado se establece en todo. Esto garantiza que, aunque el documento sea de varias columnas, el encabezado abarque todas las columnas.
 
    <img src="./assets/element-span-across-columns.png" width="400">
+
+   <br>
 
    >[!IMPORTANT]
    Puede aplicar la propiedad Columna de expansión a cualquier elemento DITA.
@@ -385,4 +393,3 @@ Para obtener más información sobre el uso de estas propiedades, consulte la do
 * **Contexto**: Contiene propiedades para incluir una imagen de fondo o un tono de color. Puede configurar el tamaño de la imagen (estableciendo Alto o Ancho), Repetir el fondo (como repetición, no repetición, redondo o más) y Posición de fondo (como arriba izquierda, centro derecho, centro inferior o más).
 
 * **Múltiples columnas**: Contiene propiedades para configurar propiedades de varias columnas para la página o cualquier elemento específico, como la tabla de contenido del capítulo. Para obtener más información sobre las propiedades y cómo utilizarlas, consulte _Trabajar con diseño de página de varias columnas_.
-
