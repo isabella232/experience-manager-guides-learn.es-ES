@@ -4,7 +4,7 @@ description: Aprenda a diseñar el diseño de la página para presentar informac
 hide: true
 hidefromtoc: true
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
-source-git-commit: 2607a02867765b8f78134ab4e37012e8b08e222c
+source-git-commit: 651409beb88468bfb5ab35e45028b01fccd91cd5
 workflow-type: tm+mt
 source-wordcount: '3289'
 ht-degree: 0%
@@ -137,7 +137,7 @@ En el siguiente ejemplo, insertaremos un número de página y un título de tema
 
    <img src="./assets/insert-page-number-field.svg" width="400">
 
-   <img src="./assets/transparent-background.png" width="30">
+   <img src="./assets/transparent-background.png" width="70">
 
    >[!NOTE]
    >
@@ -173,8 +173,9 @@ En el siguiente ejemplo, insertaremos un número de página y un título de tema
 
       <img src="./assets/topic-title-moved-right-footer.png" width="500">
 
-| Lado del desarrollador: | <img src="./assets/developer-corner-icon.svg" width="25"> |
-|--- |--- |
+| _Ámbito del desarrollador_: <img src="./assets/developer-corner-icon.svg" width="25"> |
+|---|
+
 Si desea trabajar directamente con el CSS y el código del HTML, también puede conseguirlo yendo la vista Origen del diseño de página y realizando cambios en el código. El siguiente fragmento de código muestra la misma configuración de pie de página realizada a través del código:
 
 ```md
@@ -206,7 +207,7 @@ En el siguiente ejemplo, insertaremos una tabla de contenido de capítulo en el 
    La tabla de contenido del capítulo predeterminada se inserta en el área de contenido.
 
    <img src="./assets/chapter-toc-default.png" width="400">
-    <img src="./assets/transparent-background.png" width="30">
+    <img src="./assets/transparent-background.png" width="70">
 
    >[!NOTE]
    >
@@ -222,7 +223,7 @@ En el siguiente ejemplo, insertaremos una tabla de contenido de capítulo en el 
 
    <img src="./assets/chapter-toc-updated.png" width="400">
 
-   <img src="./assets/transparent-background.png" width="30">
+   <img src="./assets/transparent-background.png" width="70">
 
    >[!NOTE]
    >
@@ -266,7 +267,7 @@ Para crear un diseño de página con varias columnas, realice los pasos siguient
 
    <img src="./assets/element-span-across-columns.png" width="400">
 
-   <img src="./assets/transparent-background.png" width="30">
+   <img src="./assets/transparent-background.png" width="70">
 
    >[!IMPORTANT]
    Puede aplicar la propiedad Columna de expansión a cualquier elemento DITA.
