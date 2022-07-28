@@ -3,9 +3,9 @@ title: Función de publicación de PDF nativo | Diseño de un diseño de página
 description: 'Aprenda a diseñar el diseño de la página para presentar información en diferentes secciones de la salida del PDF. '
 hide: true
 hidefromtoc: true
-source-git-commit: 77256556d9222ffd096a599e5875c94108ebb8ed
+source-git-commit: 97c7337684e4afb8352912e53d6a59939f7d182f
 workflow-type: tm+mt
-source-wordcount: '3300'
+source-wordcount: '3289'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,10 @@ La configuración de los diseños de página de la sección **Plantilla > Config
 
 Los diferentes diseños de página de la plantilla de PDF se pueden personalizar aún más si se tienen diferentes diseños de página de primer, derecho o izquierdo. Puede diseñar estas páginas de forma diferente utilizando el diseñador de diseño de página.
 
-> **Nota**: Si desea tener un diseño de página único para una sección del libro, no es necesario crear los diseños de página primero, derecho o izquierdo.
+>[!NOTE]
+>
+>Si desea tener un diseño de página único para una sección del libro, no es necesario crear los diseños de página primero, derecho o izquierdo.
+
 
 Tenga en cuenta los siguientes puntos al crear los diseños de página:
 
@@ -56,7 +59,7 @@ El siguiente ejemplo le guiará por el proceso de creación de variantes de un d
 
    De forma predeterminada, al crear un diseño de página, también se abre para su edición. La siguiente captura de pantalla muestra un diseño de página en blanco (predeterminado):
 
-   <img src="./assets/default-blank-page-layout.png" height="400">
+   <img src="./assets/default-blank-page-layout.png" width="300">
 
    El encabezado, pie de página y área de contenido de una plantilla se crean de forma predeterminada. Puede personalizar fácilmente estas áreas mediante las herramientas, las propiedades de página y las propiedades de contenido que se proporcionan en la interfaz de usuario. Para una configuración avanzada, puede usar la vista Origen y agregar el HTML personalizado y el código CSS.
 
@@ -76,7 +79,9 @@ Por ejemplo, si desea insertar una imagen en el área del encabezado de la prime
 
 1. Abra el diseño de página necesario para editarlo.
 
-   > **Nota**: Consulte _Personalización de un diseño de página_ para abrir un diseño de página para personalizarlo o editarlo.
+   >[!NOTE]
+   >
+   >Consulte _Personalización de un diseño de página_ para abrir un diseño de página para personalizarlo o editarlo.
 
 1. Haga clic en Editar encabezado (<img src="./assets/header-icon.svg" width="25">) para colocar el cursor en el área del encabezado.
 
@@ -114,7 +119,9 @@ En el siguiente ejemplo, insertaremos un número de página y un título de tema
 
 1. Abra el diseño de página necesario para editarlo.
 
-   Nota: Consulte _Personalización de un diseño de página_ para abrir un diseño de página para personalizarlo o editarlo.
+   >[!NOTE]
+   >
+   >Consulte _Personalización de un diseño de página_ para abrir un diseño de página para personalizarlo o editarlo.
 
 1. Haga clic en Editar pie de página (![](./assets/footer-icon.svg)) para colocar el cursor en el área del pie de página.
 
@@ -128,7 +135,9 @@ En el siguiente ejemplo, insertaremos un número de página y un título de tema
 
    <img src="./assets/insert-page-number-field.svg" width="400">
 
-   > **Nota**: También puede editar el formato de todos los campos, excepto el formato predeterminado. Para ello, haga clic en el icono Editar junto al formato que desea editar, realice cambios y haga clic en Aceptar.
+   >[!NOTE]
+   >
+   >También puede editar el formato de todos los campos, excepto el formato predeterminado. Para ello, haga clic en el icono Editar junto al formato que desea editar, realice cambios y haga clic en Aceptar.
 
    El campo de número de página predeterminado se inserta en el área de pie de página del diseño de página.
 
@@ -160,8 +169,8 @@ En el siguiente ejemplo, insertaremos un número de página y un título de tema
 
       <img src="./assets/topic-title-moved-right-footer.png" width="500">
 
-> **Lado del desarrollador:**  ![](./assets/developer-corner-icon.svg)
-
+| Lado del desarrollador: | <img src="./assets/developer-corner-icon.svg" width="40"> |
+|--- |--- |
 Si desea trabajar directamente con el CSS y el código del HTML, también puede conseguirlo yendo la vista Origen del diseño de página y realizando cambios en el código. El siguiente fragmento de código muestra la misma configuración de pie de página realizada a través del código:
 
 ```md
@@ -183,7 +192,9 @@ En el siguiente ejemplo, insertaremos una tabla de contenido de capítulo en el 
 
 1. Abra el diseño de página necesario para editarlo.
 
-   Nota: Consulte _Personalización de un diseño de página_ para abrir un diseño de página para personalizarlo o editarlo.
+   >[!NOTE]
+   >
+   >Consulte _Personalización de un diseño de página_ para abrir un diseño de página para personalizarlo o editarlo.
 
 1. Coloque el cursor en el área de contenido del diseño de página.
 1. Haga clic en la tabla de contenido del capítulo (<img src="./assets/chapter-toc-icon.svg">) icono.
@@ -192,7 +203,9 @@ En el siguiente ejemplo, insertaremos una tabla de contenido de capítulo en el 
 
    <img src="./assets/chapter-toc-default.png" width="400">
 
-   > **Nota**: La tabla de contenido del capítulo predeterminado contiene los encabezados del 1 al 4. En este caso, el encabezado 1 es el propio título del capítulo. Por lo tanto, es posible que no desee volver a incluir el título del capítulo en la tabla de contenido o que desee aumentar el nivel de encabezados que desee en la tabla de contenido. Puede personalizar la tabla de contenido cambiando las propiedades.
+   >[!NOTE]
+   >
+   >La tabla de contenido del capítulo predeterminado contiene los encabezados del 1 al 4. En este caso, el encabezado 1 es el propio título del capítulo. Por lo tanto, es posible que no desee volver a incluir el título del capítulo en la tabla de contenido o que desee aumentar el nivel de encabezados que desee en la tabla de contenido. Puede personalizar la tabla de contenido cambiando las propiedades.
 
 1. Abra el panel Propiedades de contenido del HTML para personalizar los niveles de encabezado de la tabla de contenido.
 
@@ -204,7 +217,9 @@ En el siguiente ejemplo, insertaremos una tabla de contenido de capítulo en el 
 
    <img src="./assets/chapter-toc-updated.png" width="400">
 
-   > **Nota**: El PDF publicado finalmente solo mostrará las entradas de la tabla de contenido en función del contenido de sus capítulos. Si no tiene encabezados de nivel 5 en un capítulo, no se mostrarán en el resultado final.
+   >[!NOTE]
+   >
+   >El PDF publicado finalmente solo mostrará las entradas de la tabla de contenido en función del contenido de sus capítulos. Si no tiene encabezados de nivel 5 en un capítulo, no se mostrarán en el resultado final.
 
 ## Trabajar con diseño de página de varias columnas
 
@@ -214,7 +229,9 @@ Para crear un diseño de página con varias columnas, realice los pasos siguient
 
 1. Abra el diseño de página necesario para editarlo.
 
-   > **Nota**: Consulte _Personalización de un diseño de página_ para abrir un diseño de página para personalizarlo o editarlo.
+   >[!NOTE]
+   >
+   >Consulte _Personalización de un diseño de página_ para abrir un diseño de página para personalizarlo o editarlo.
 
 1. Como el diseño de varias columnas se aplica al contenido, excluyendo el área de encabezado y pie de página, debe seleccionar el elemento de contenido en la ruta de exploración.
 
@@ -228,7 +245,9 @@ Para crear un diseño de página con varias columnas, realice los pasos siguient
 
    * **Anchura de columna:** Especifique el ancho de una columna en una presentación de varias columnas. De forma predeterminada, el tamaño se establece en píxeles (px); también se puede especificar en pt, rem, em, % o en unidades.
 
-      >**Nota:** Si no especifica un tamaño, las columnas se ajustan automáticamente al tamaño de los márgenes de página dados.
+      >[!NOTE]
+      >
+      >Si no especifica un tamaño, las columnas se ajustan automáticamente al tamaño de los márgenes de página dados.
 
    * **Diferencia entre columnas** : Especifique el espacio entre columnas individuales.
 
@@ -240,7 +259,7 @@ Para crear un diseño de página con varias columnas, realice los pasos siguient
 
    <img src="./assets/element-span-across-columns.png" width="400">
 
-   >[**IMPORTANTE**]
+   >[!IMPORTANT]
    Puede aplicar la propiedad Columna de expansión a cualquier elemento DITA.
 
    * **Relleno de columna** : Especifique cómo rellena el contenido las columnas. De forma predeterminada, se establece en Balance , que rellena cada columna con la misma cantidad de contenido.
@@ -248,7 +267,7 @@ Para crear un diseño de página con varias columnas, realice los pasos siguient
    * **Regla de columna** : Si desea tener una línea entre columnas, utilice esta propiedad para definir los estilos de línea o de regla. Especifique los valores de Estilo, Color y Ancho de la regla para agregar una línea entre columnas.
 
 
-## Uso de las propiedades de página para una orientación de página diferente**
+## Uso de las propiedades de página para una orientación de página diferente
 
 Al diseñar un diseño de página, es esencial tener control sobre las distintas propiedades de página. La función PDF nativo encapsula todas las propiedades de página principales en el panel Propiedades de página . El panel Propiedades de página proporciona acceso a varias propiedades en las siguientes secciones:
 
@@ -268,7 +287,7 @@ Al diseñar un diseño de página, es esencial tener control sobre las distintas
 
 Veamos un ejemplo en el que se utiliza una combinación de orientación de página vertical y horizontal y propiedades de rotación de vista. En este ejemplo, crearemos un PDF con orientación vertical predeterminada, pero una tabla se procesará en orientación horizontal con contenido en vista de 90 grados en sentido horario. El resultado final tendrá un aspecto similar al siguiente:
 
-<img src="./assets/portrait-landscape-page-layouts.png" height="800">
+<img src="./assets/portrait-landscape-page-layouts.png" width="400">
 
 En la salida anterior, la información de la Lista de contactos se presenta en modo horizontal con contenido también rotado en 90 grados. El contenido restante se muestra en el modo vertical normal.
 
@@ -338,7 +357,7 @@ Siga estos pasos para realizar las tareas anteriores:
 
    1. En el **Propiedades de contenido** , agregue `outputclass` propiedad con `landscape-style` como valor de propiedad.
 
-      <img src="./assets/new-style-table-outputclass.png" height="400">
+      <img src="./assets/new-style-table-outputclass.png" width="300">
 
    1. Haga clic en **Guardar todo** para guardar el archivo actualizado.
 
@@ -350,7 +369,8 @@ El PDF final tendrá el contenido de la tabla representado en modo horizontal, c
 
 El panel Propiedades de contenido permite actualizar fácilmente el aspecto de los elementos en el diseño de página. Las propiedades del panel Propiedades del contenido se dividen en las siguientes secciones:
 
->**Nota**: Para obtener más información sobre el uso de estas propiedades, consulte la documentación de W3C CSS Page Media Standards .
+>[!NOTE]
+Para obtener más información sobre el uso de estas propiedades, consulte la documentación de W3C CSS Page Media Standards .
 
 * **Atributos**: Contiene las propiedades ID, Class y Translate. Si establece la propiedad Translate en no, el contenido de ese elemento específico no se traduce.
 
