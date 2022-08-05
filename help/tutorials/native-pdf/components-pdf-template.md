@@ -3,9 +3,10 @@ title: Función de publicación de PDF nativo | Componentes de una plantilla de 
 description: Conozca los distintos componentes de una plantilla de PDF y cómo personalizarlos y configurarlos.
 hide: true
 hidefromtoc: true
-source-git-commit: 698469293e41558753ff6aada92f050f45be867a
+exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
+source-git-commit: e0602e325fec014fe5a9ebe231b0c62611a4e52d
 workflow-type: tm+mt
-source-wordcount: '2208'
+source-wordcount: '2295'
 ht-degree: 0%
 
 ---
@@ -39,6 +40,19 @@ La configuración del componente Diseños de página permite diseñar la estruct
 1. Haga clic en **Listo**.
 
    El nuevo diseño se crea y se agrega en Diseños de página.
+
+### Duplicación de un diseño de página
+
+1. En el **Plantillas** de la plantilla que desea duplicar, haga doble clic en **Diseños de página** o haga clic en el botón **>** icono antes **Diseños de página**.
+
+   Esto muestra la lista de diseños de página dentro de la plantilla.
+
+1. Pase el ratón sobre el diseño de página que desee duplicar y haga clic en (*Opciones* icono) **...** y seleccione **Duplicar** en el menú contextual.
+
+1. En el _Duplicar diseño_ , escriba un nombre para el diseño de página.
+
+1. Haga clic en **Listo**.
+Se crea y se agrega una copia del diseño de página seleccionado en Diseños de página.
 
 ### Personalización de un diseño de página
 
