@@ -4,30 +4,34 @@ description: Conozca los distintos componentes de una plantilla de PDF y cómo p
 hide: true
 hidefromtoc: true
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: e0602e325fec014fe5a9ebe231b0c62611a4e52d
+source-git-commit: 563a301e4db20cd8076eaffd970d53b7a8743449
 workflow-type: tm+mt
-source-wordcount: '2295'
+source-wordcount: '2275'
 ht-degree: 0%
 
 ---
 
-# Componentes de una plantilla de PDF
+# Componentes de una plantilla de PDF {#components-pdf-template}
 
 Una plantilla de PDF tiene cuatro componentes: Diseños de página, hojas de estilo, recursos y configuración. Puede crear una plantilla personalizando estos componentes individuales y asociándola con un ajuste preestablecido de salida mientras genera una salida de PDF. Las secciones siguientes tratan en detalle estos componentes y su proceso de personalización.
 
 
-## Crear y personalizar diseños de página
+## Crear y personalizar diseños de página {#create-customize-page-layout}
 
 La configuración del componente Diseños de página permite diseñar la estructura de una página definiendo el encabezado, el pie de página y el área de contenido de una página. Con el editor de diseño de página WYSIWYG, se puede crear un diseño de página para diferentes secciones de un PDF, como las portadas frontal y posterior, el capítulo, la tabla de contenido (TOC), el índice, la página en blanco, la lista de figuras (LOF), la lista de tablas (LOT), el glosario o crear un diseño para una página personalizada. En Configuración de plantilla de PDF, puede asignar un diseño de página con diferentes secciones dentro de un PDF, que luego se utilizan para generar el resultado del PDF.
 
-### Crear un nuevo diseño de página
+### Crear un nuevo diseño de página {#create-page-layout}
 
-> **Nota**: Existen diseños de página de ejemplo que se envían fuera de la caja. Puede personalizarlos o crear nuevos diseños de página.
+>[!NOTE]
+>
+>Existen diseños de página de ejemplo que se envían fuera de la caja. Puede personalizarlos o crear nuevos diseños de página.
 
 1. En el Editor web, vaya a la **Salida** pestaña .
 1. Expanda la barra lateral izquierda y haga clic en **Plantillas**.
 1. Abra la plantilla con la que desee trabajar.
-   > **Nota**: Puede abrir una plantilla haciendo doble clic en su nombre o haciendo clic en el icono > situado junto a su nombre.
+   >[!NOTE]
+   >
+   >Puede abrir una plantilla haciendo doble clic en su nombre o haciendo clic en el icono > situado junto a su nombre.
 1. Para crear un nuevo diseño de página, siga uno de estos procedimientos:
    * Pase el ratón **Diseños de página** y haga clic en (*Opciones* icono) **...** y elija **Nuevo diseño de página**.
    * En el **Plantillas** , haga clic en el **+** junto a **Plantillas** y elija **Diseño de página** en el menú contextual.
@@ -36,12 +40,14 @@ La configuración del componente Diseños de página permite diseñar la estruct
 
       <img src="assets/add-layout-2.png" alt="Cuadro de diálogo Agregar diseño" width="250">
 1. Especifique un nombre para el nuevo diseño de página.
-   > **Nota:** Evite utilizar caracteres especiales al dar nombre a un diseño de página. Un espacio en el nombre se sustituye por un guión bajo &quot;_&quot;.
+   >[!NOTE]
+   >
+   >Evite utilizar caracteres especiales al dar nombre a un diseño de página. Un espacio en el nombre se sustituye por un guión bajo &quot;_&quot;.
 1. Haga clic en **Listo**.
 
    El nuevo diseño se crea y se agrega en Diseños de página.
 
-### Duplicación de un diseño de página
+### Duplicación de un diseño de página {#duplicate-page-layout}
 
 1. En el **Plantillas** de la plantilla que desea duplicar, haga doble clic en **Diseños de página** o haga clic en el botón **>** icono antes **Diseños de página**.
 
@@ -54,7 +60,7 @@ La configuración del componente Diseños de página permite diseñar la estruct
 1. Haga clic en **Listo**.
 Se crea y se agrega una copia del diseño de página seleccionado en Diseños de página.
 
-### Personalización de un diseño de página
+### Personalización de un diseño de página {#customize-page-layout}
 
 1. En el **Plantillas** de la plantilla que desea editar, haga doble clic en **Diseños de página** o haga clic en el botón **>** icono antes **Diseños de página**.
 
@@ -66,13 +72,13 @@ Se crea y se agrega una copia del diseño de página seleccionado en Diseños de
    Se abre el editor de diseño de página para personalizarlo.
 1. Una vez que haya realizado los cambios deseados, haga clic en *Guardar todo* (o `Crl+S`).
 
-   Para obtener más información sobre la definición de elementos de diseño individuales, como encabezado, pie de página, número de página, título, etc., consulte *Trabajo con elementos de diseño de página*.
+   Para obtener más información sobre la definición de elementos de diseño individuales, como encabezado, pie de página, número de página, título, etc., consulte [Diseño de un diseño de página](design-page-layout.md).
 
-## Utilice hojas de estilo para personalizar el PDF
+## Utilice hojas de estilo para personalizar el PDF {#stylesheet-customization}
 
 La configuración del componente Hojas de estilo le permite aplicar estilo a los componentes de diseño de página y al contenido DITA mediante el editor WYSIWYG o trabajar directamente con el archivo CSS. Puede crear sus propios estilos o personalizar las propiedades de estilo predeterminadas. El editor WYSIWYG le permite acceder a la mayoría de las propiedades que necesitaría para aplicar estilo al diseño de la página o al contenido DITA. Para personalizaciones avanzadas, puede trabajar directamente en la vista Origen.
 
-### Crear una nueva hoja de estilo
+### Crear una nueva hoja de estilo {#create-stylesheet}
 
 Aunque los archivos CSS se proporcionan para el contenido y el diseño, puede crear una nueva hoja de estilo para aplicar varias personalizaciones a un tipo de estilo específico que luego se puede aplicar a un componente de destino. De forma predeterminada, los archivos CSS de muestra están agrupados dentro del producto. Estos archivos CSS están pensados para ayudarle a organizar la información de estilo entre contenido y diseños. Puede combinar estos estilos en un solo archivo CSS o en varios archivos.
 
@@ -92,7 +98,7 @@ Para crear una hoja de estilo, siga los siguientes pasos:
 
    Se crea y agrega una nueva hoja de estilo en la sección Hojas de estilo .
 
-### Crear un nuevo estilo
+### Crear un nuevo estilo {#create-style}
 
 De forma predeterminada, los archivos CSS contienen estilos para encabezado, párrafo, carácter, hipervínculo, imagen, tabla, div, página y otros estilos. Puede anular el formato de estilo predeterminado o crear un nuevo estilo.
 
@@ -114,7 +120,7 @@ Para crear un nuevo estilo, siga los pasos a continuación:
 
    Se crea y se añade un nuevo estilo bajo el estilo base.
 
-### Personalización de un estilo nuevo o predefinido
+### Personalización de un estilo nuevo o predefinido {#customize-style}
 
 Una vez que haya creado un nuevo archivo CSS con estilos predeterminados o desee personalizar estilos en un archivo CSS existente, puede utilizar el editor de estilos para hacerlo.
 
@@ -134,7 +140,9 @@ Para personalizar un estilo, siga los siguientes pasos:
 
 1. Para personalizar un estilo, haga doble clic en un estilo o haga clic en el icono > antes de un estilo para verlo y personalizarlo con el editor Estilos.
 
-## Trabajar con recursos
+para obtener más información sobre cómo trabajar con los estilos más comunes, consulte [Trabajar con estilos de contenido comunes](stylesheet.md)
+
+## Trabajar con recursos {#work-with-resources}
 
 Es un contenedor para todos los recursos utilizados para diseñar una plantilla. Puede considerarla una carpeta que contiene recursos como imágenes de fondo, fuentes personalizadas, logotipos y mucho más. Cada vez que se añade un recurso en la plantilla, este se carga o se desprotege en la carpeta de recursos. A continuación, puede utilizar estos recursos para personalizar o diseñar las plantillas de PDF.
 
@@ -146,13 +154,16 @@ Para agregar un archivo de recursos a la carpeta Recursos, siga los siguientes p
    <img src="assets/resources-import-assets.png" alt="Carga de recursos" width="300">
 
    La ruta en la que se cargará el archivo de recursos se muestra en la **Seleccionar carpeta de recursos** campo .
-   > **Nota:** No puede cambiar la ruta para cargar recursos. De forma predeterminada, todos los recursos se almacenan en la sección `/content/dam/dita-templates/pdf/<PDF-template-name>` carpeta.
+   >[!NOTE]
+   >
+   >No puede cambiar la ruta para cargar recursos. De forma predeterminada, todos los recursos se almacenan en la sección `/content/dam/dita-templates/pdf/<PDF-template-name>` carpeta.
 
 1. Haga clic en **Elegir archivos** para examinar el archivo de recursos desde el equipo local
+
 1. Haga clic en **Cargar**.
 El archivo seleccionado se importa y se muestra en la carpeta Recursos .
 
-## Configuración avanzada del PDF
+## Configuración avanzada del PDF {#advanced-pdf-settings}
 
 Utilice la sección Configuración para definir la configuración avanzada del diseño de página del PDF, empezando por el PDF de página impar o par, los formatos de las referencias cruzadas y permitiendo la impresión de marcas en el PDF final que se genera con la plantilla.
 
@@ -181,10 +192,12 @@ Defina los ajustes básicos de configuración para iniciar un capítulo desde un
    Aquí puede observar que la configuración del primer capítulo de PDF avanzado no tiene número de página, ya que contiene temas anidados o secundarios. Mientras que un número de página si se asigna a Apéndice y Legal porque son temas independientes sin ningún tema secundario.
 
 * **Formato del encabezado**: Utilice la lista desplegable para seleccionar las líneas de encabezado Punteado, Sólido o Espacio para conectar los niveles de encabezado con sus números de página correspondientes.
-Para aplicar estructura de TDC y niveles de encabezado de estilo, consulte *Definir tabla de contenido*.
+Para aplicar estructura de TDC y niveles de encabezado de estilo, consulte [Agregar una tabla de contenido de capítulo](design-page-layout.md#add-chapter-toc).
 
-   > **Nota**: Si es desarrollador de CSS, también puede definir el formato de encabezado directamente en el archivo CSS.
-* **Usar marcador de continuación de tabla**: Seleccione esta opción para definir marcadores para tablas largas que se extienden por varias páginas. Para obtener más información sobre el uso de marcadores de continuación de tabla, consulte Uso de marcadores de continuación de tabla.
+   >[!NOTE]
+   >
+   >Si es desarrollador de CSS, también puede definir el formato de encabezado directamente en el archivo CSS.
+* **Usar marcador de continuación de tabla**: Seleccione esta opción para definir marcadores para tablas largas que se extienden por varias páginas. <!--For more information on using table continuation markers, see Use table continuation markers.-->
 
 **Diseños de página**
 
@@ -195,7 +208,7 @@ Si no ha creado un diseño para una sección en particular del documento, simple
 Del mismo modo, si desea una portada y una página anterior, debe tener un diseño de página creado y aplicado en la configuración. De lo contrario, el PDF no contendrá las páginas de portada y de atrás.
 
 
-Para obtener más información sobre los diseños de página, consulte *Configuración del diseño de página*.
+Para obtener más información sobre los diseños de página, consulte [Diseño de un diseño de página](design-page-layout.md).
 
 **Imprimir**
 
@@ -212,10 +225,12 @@ Configure los ajustes de producción de impresión para asignar marcas de impres
 * **Tamaño del cuadro de medios**: Es el tamaño general de la página, incluido el área extendida ocupada por las marcas de impresora. Utilice la opción desplegable para seleccionar el tamaño de la página de salida del PDF o crear su propio tamaño personalizado.
 
 * **Espacio de color**: Se le da la opción de elegir entre espacios de color RGB o CMYK para imprimir el documento PDF. Elija RGB para mostrar el PDF generado digitalmente y CMYK para impresión física. Los colores definidos en el documento se convierten al espacio de color elegido.
-   > **Nota**: Es necesario un perfil de color ICC para la creación de PDF/A si se utiliza espacio de color CMYK.
+   >[!NOTE]
+   >
+   >Es necesario un perfil de color ICC para la creación de PDF/A si se utiliza espacio de color CMYK.
 
-   Para obtener más información sobre la aplicación de esta configuración de impresión, consulte *Preferencias de impresión*.
+   <!--For more information on applying these print settings, see *Printing preferences*.-->
 
 **Referencias cruzadas**
 
-Utilice la pestaña Cross-reference para definir cómo se publican las referencias cruzadas en el PDF. Puede dar formato a las referencias cruzadas para el título del tema, tablas, figuras y mucho más. Para obtener más información, consulte *Formato de referencias cruzadas*.
+Utilice la pestaña Cross-reference para definir cómo se publican las referencias cruzadas en el PDF. Puede dar formato a las referencias cruzadas para el título del tema, tablas, figuras y mucho más. <!--For more information, see *Format cross-references*.-->

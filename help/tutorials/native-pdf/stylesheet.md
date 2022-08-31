@@ -3,7 +3,7 @@ title: Función de publicación de PDF nativo | Trabajar con estilos de contenid
 description: Aprenda a crear hojas de estilo y crear estilos para el contenido.
 hide: true
 hidefromtoc: true
-source-git-commit: 78db1486af3eb99b165a136d6bae6f7f15a1b527
+source-git-commit: 563a301e4db20cd8076eaffd970d53b7a8743449
 workflow-type: tm+mt
 source-wordcount: '3500'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 ---
 
 
-# Trabajar con estilos de contenido comunes
+# Trabajar con estilos de contenido comunes {#work-with-common-styles}
 
 Una hoja de estilo contiene las definiciones de estilos para los elementos que se utilizan en la salida del PDF. Puede elegir trabajar con las hojas de estilo de ejemplo o crear otras nuevas. En la mayoría de los casos, la creación de una copia de la hoja de estilo de ejemplo de OOTB le ayudará a empezar rápidamente.
 
@@ -36,7 +36,7 @@ Las siguientes secciones tratan la configuración de estilo más utilizada en fo
 >
 >En los ejemplos siguientes, se da por hecho que está trabajando con la hoja de estilo de ejemplo incluida con el producto.
 
-## Trabajar con estilos de encabezado
+## Trabajar con estilos de encabezado {#heading-styles}
 
 Los estilos de encabezado encapsulan todos los estilos básicos para los encabezados utilizados en el contenido. OOTB obtendrá 6 estilos de encabezado base y un estilo de encabezado para el título del tema/capítulo y el apéndice. En un documento estructurado, el H1 representa el título del tema o capítulo y los H2 a H6 se utilizan para subtemas o secciones dentro de un tema o capítulo. Esta jerarquía de encabezados se aplica automáticamente al contenido cada vez que se encuentra el encabezado correspondiente.
 
@@ -44,7 +44,7 @@ Los estilos de encabezado encapsulan todos los estilos básicos para los encabez
 >
 >Puede crear sus propios estilos de encabezado personalizados y estos se pueden usar en el contenido mediante la clase de salida. Para obtener más información, consulte el paso 4 de *Usar la orientación de la página y la rotación de la vista* ejemplo.
 
-### Crear encabezados de nivel de capítulo personalizados
+### Crear encabezados de nivel de capítulo personalizados {#create-chapter-level-heading}
 
 En un libro (o un mapa de libros), trabajará con los capítulos. Los estilos de encabezado base están diseñados de tal manera que se apliquen en los encabezados de nivel de capítulo sin ninguna personalización. Sin embargo, si desea crear encabezados especializados para el contenido, tendrá que crearlos. Por ejemplo, el valor predeterminado `h1.chapter` se aplica al título del capítulo. Si desea que el título del capítulo aparezca en un estilo diferente, debe personalizar la variable `h1.chapter` estilo. Del mismo modo, puede crear estilos personalizados para los subencabezados del capítulo. Por ejemplo, si desea crear un estilo personalizado para todos los 2<sup>nd</sup> y 3<sup>rd</sup> encabezados de nivel en el capítulo y, a continuación, debe crear un nuevo estilo como `h2.chatper` y `h3.chatper`.
 
@@ -66,7 +66,7 @@ Un nuevo estilo de encabezado con el nombre `h2.chapter` se crea y se agrega en 
 
 Una vez que haya creado un estilo, puede personalizar las propiedades del estilo con el editor de estilos.
 
-### Crear encabezados de número automático
+### Crear encabezados de número automático {#auto-number-heading}
 
 Uno de los estilos de salida más utilizados son los encabezados numerados automáticamente. Estos encabezados representan los números de capítulo, tema y subtema. Los encabezados de número automático son diferentes de los estilos de lista en los que a una lista de elementos de un tema se les asignan números automáticos.
 
@@ -129,11 +129,11 @@ Las propiedades del estilo h1 se muestran en el panel Propiedades junto con su V
 
    <img src="./assets/auto-number-output.png" width="500">
 
-## Trabajar con estilos de párrafo
+## Trabajar con estilos de párrafo {#paragraph-style}
 
 Se puede crear un estilo de párrafo para aplicar un formato especial a todo un párrafo. Sin embargo, con la seudoclase, puede aplicar un estilo solo a una parte específica del texto. En el siguiente ejemplo, se creará un estilo de párrafo para usar el estilo de la tapa de colocación.
 
-### Crear el estilo de la tapa desplegable
+### Crear el estilo de la tapa desplegable {#drop-cap-style}
 
 En las revistas se utiliza un estilo de capuchón (o capital perdido) y en los documentos literarios donde el primer carácter de un párrafo o sección tiene un estilo especial. Puede lograr el mismo efecto utilizando la función Publicación de PDF nativo.
 
@@ -164,11 +164,11 @@ Como `p` se asigna con la variable `<p>` en DITA, no es necesario añadir explí
 
 <img src="./assets/char-style-drop-cap.png" width="500">
 
-## Trabajar con estilos de carácter
+## Trabajar con estilos de carácter {#char-style}
 
 Con los estilos de carácter, puede crear estilos para dar formato a caracteres o palabras dentro del contenido. Por ejemplo, puede crear un estilo de carácter para el código en línea o el nombre de archivo, o bien crear un estilo que utilice varios formatos de estilo en el contenido seleccionado.
 
-### Crear un estilo de carácter en línea
+### Crear un estilo de carácter en línea {#inline-char-style}
 
 El formato de caracteres en línea o de palabras en un párrafo es un estilo muy común. El proceso de creación de un estilo en línea implica dos tareas: primero, crear un nuevo estilo en la hoja de estilo y, segundo, aplicar el estilo en el contenido utilizando la variable `outputclass` atributo.
 
@@ -210,7 +210,7 @@ En el siguiente ejemplo se muestra el formato de negrita cursiva que se está ap
 
 <img src="./assets/char-format-applied.png" width="500">
 
-## Personalizar estilo de lista
+## Personalizar estilo de lista {#custom-list-style}
 
 Los estilos de lista contienen la configuración de estilo predeterminada para las listas ordenadas y sin ordenar. Puede personalizar fácilmente estos estilos de lista para satisfacer los requisitos de documentación.
 
@@ -269,7 +269,7 @@ En el siguiente ejemplo, personalizaremos el estilo de lista numerada u ordenada
       <img src="./assets/list-number-format-final.png" width="500">
 
 
-## Trabajo con estilo de tabla
+## Trabajo con estilo de tabla {#table-styles}
 
 Con las hojas de estilo, puede diseñar *n* número de estilos de tabla. Con los estilos de tabla, puede diseñar cómo se completa la tabla, una fila o columna en particular. Con el control en el estilo de nivel de celda, puede crear estilos de tabla muy presentables.
 
@@ -320,7 +320,7 @@ En el siguiente ejemplo, vemos cómo crear un estilo de tabla y las distintas op
 
    <img src="./assets/table-final-design.png" width="500">
 
-## Trabajar con otros estilos
+## Trabajar con otros estilos {#other-styles}
 
 Si está trabajando con contenido estructurado (DITA), observará que casi todos los elementos DITA tienen una asignación de estilos en la hoja de estilo predeterminada. Por ejemplo, una `<shortdesc>` el estilo del elemento se define en **Otro estilo** > **.short desc** definición de estilo. Puede personalizar fácilmente cualquiera de estos estilos y se aplican automáticamente en la salida de PDF generada a partir del contenido estructurado. Esto significa que, a diferencia de otros estilos personalizados, no es necesario agregar un `outputclass` en el contenido para estos estilos.
 

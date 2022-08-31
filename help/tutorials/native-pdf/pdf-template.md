@@ -3,14 +3,15 @@ title: Función de publicación de PDF nativo | Personalización y configuració
 description: Aprenda a personalizar y configurar los distintos componentes de la función de PDF nativo.
 hide: true
 hidefromtoc: true
-source-git-commit: 0f18d9f7d7967b6f25c5d05b54a22f65e9fc20f7
+exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
+source-git-commit: 563a301e4db20cd8076eaffd970d53b7a8743449
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 0%
 
 ---
 
-# plantilla de PDF
+# plantilla de PDF {#PDF-template}
 
 El uso de una plantilla garantiza la coherencia en el diseño y la estructura del contenido. Como las plantillas están predefinidas, puede evitar cualquier modificación en el formato de los problemas que se presenten en cada proyecto o actualización nuevos. Las plantillas le permiten diseñar diseños de página, aplicar estilo al contenido y aplicar diversas configuraciones para personalizar el PDF.
 
@@ -31,7 +32,7 @@ Para crear una nueva plantilla de PDF, siga los pasos a continuación:
 
 La nueva plantilla se crea y se añade en la variable *Plantillas* panel.
 
-## Duplicación de una plantilla de PDF
+## Duplicación de una plantilla de PDF {#duplicate-pdf-template}
 
 Si desea crear una plantilla nueva con los mismos diseños de página y formato que los de una plantilla existente, puede crear una copia. Una vez duplicada una plantilla, puede personalizar aún más sus componentes según sea necesario.
 
@@ -53,7 +54,7 @@ Para duplicar una plantilla de PDF existente, siga los pasos a continuación:
 
    Se crea y se agrega una plantilla duplicada en Plantillas.
 
-## Personalización de una plantilla de PDF
+## Personalización de una plantilla de PDF {#customize-pdf-template}
 
 Las plantillas se pueden personalizar modificando los componentes de la plantilla y aplicando formatos de estilo mediante hojas de estilo.
 
@@ -71,13 +72,11 @@ Para personalizar una plantilla de PDF, siga los siguientes pasos:
    <img src="assets/customize-pdf-template.png" alt="Personalizar tutoriales de PDF" width="350">
 
    Los distintos componentes de plantilla que puede personalizar se clasifican en las siguientes secciones:
-   * Diseños de página: Un PDF típico contiene páginas diferentes, como portada o página de título, tabla de contenido, capítulo, índice, etc. La sección Diseños de página le permite diseñar la apariencia de diferentes páginas que formarían su PDF. Además del aspecto, también puede definir la organización de elementos de página, como el encabezado, el pie de página y las áreas de contenido de una página. Para obtener más información sobre la personalización del diseño de una página, consulte ***Crear y personalizar diseños de página***.
-   * Hojas de estilo: La configuración de la sección Hojas de estilo le permite personalizar el aspecto de los componentes del diseño de página, como la tabla de contenido, el índice, el glosario y mucho más. Además, también puede personalizar los estilos del contenido DITA como encabezados, párrafos, listas, etc. Para obtener más información sobre el uso de las hojas de estilo, consulte ***Utilice hojas de estilo para personalizar el PDF***.
-   * Recursos: Almacene archivos de recursos que necesitaría personalizar o diseñar plantillas de PDF. Los recursos como logotipos, fuentes personalizadas, imágenes de fondo y mucho más se almacenan en Recursos. Para obtener más información sobre la utilización de los recursos, consulte ***Trabajar con recursos***.
-   * Configuración: Configure los ajustes de salida para generar un PDF con la plantilla . Esta sección le permite definir la asignación de plantillas para varias páginas en un PDF, en la página de inicio de capítulos, en los marcadores de impresión, etc. Para obtener más información sobre cómo aplicar la configuración, consulte ***Configuración avanzada del PDF***.
+   * Diseños de página: Un PDF típico contiene páginas diferentes, como portada o página de título, tabla de contenido, capítulo, índice, etc. La sección Diseños de página le permite diseñar la apariencia de diferentes páginas que formarían su PDF. Además del aspecto, también puede definir la organización de elementos de página, como el encabezado, el pie de página y las áreas de contenido de una página. Para obtener más información sobre la personalización del diseño de una página, consulte [Crear y personalizar diseños de página](components-pdf-template.md#create-customize-page-layout).
+   * Hojas de estilo: La configuración de la sección Hojas de estilo le permite personalizar el aspecto de los componentes del diseño de página, como la tabla de contenido, el índice, el glosario y mucho más. Además, también puede personalizar los estilos del contenido DITA como encabezados, párrafos, listas, etc. Para obtener más información sobre el uso de las hojas de estilo, consulte [Utilice hojas de estilo para personalizar el PDF](components-pdf-template.md#stylesheet-customization).
+   * Recursos: Almacene archivos de recursos que necesitaría personalizar o diseñar plantillas de PDF. Los recursos como logotipos, fuentes personalizadas, imágenes de fondo y mucho más se almacenan en Recursos. Para obtener más información sobre la utilización de los recursos, consulte [Trabajar con recursos](components-pdf-template.md#work-with-resources).
+   * Configuración: Configure los ajustes de salida para generar un PDF con la plantilla . Esta sección le permite definir la asignación de plantillas para varias páginas en un PDF, en la página de inicio de capítulos, en los marcadores de impresión, etc. Para obtener más información sobre cómo aplicar la configuración, consulte [Configuración avanzada del PDF](components-pdf-template.md#advanced-pdf-settings).
 1. Para personalizar un componente de plantilla, haga doble clic en un componente de plantilla o haga clic en el icono > antes de hacerlo.
 
    Por ejemplo, haga doble clic en *Diseños de página* o haga clic en el botón *>* icono antes *Diseños de página* para ver los diseños de página disponibles.
 1. Una vez que haya realizado los cambios deseados, haga clic en *Guardar todo* (o `Ctrl+S`).
-
-

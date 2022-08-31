@@ -4,23 +4,23 @@ description: Aprenda a diseñar el diseño de la página para presentar informac
 hide: true
 hidefromtoc: true
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
-source-git-commit: f8af7d7180b3d70d17e1410885017212dec721ef
+source-git-commit: 563a301e4db20cd8076eaffd970d53b7a8743449
 workflow-type: tm+mt
-source-wordcount: '4688'
+source-wordcount: '4686'
 ht-degree: 0%
 
 ---
 
 
-# Diseño de un diseño de página
+# Diseño de un diseño de página {#design-page-layout}
 
 Al crear un documento de PDF, tendría diferentes secciones para presentar diferentes tipos de información. Por ejemplo, un documento de PDF comenzaría desde una portada o portada, que tendría el logotipo de su empresa, el título del libro o la información de la versión. Luego habría capítulos, apéndices o páginas del glosario. Cada sección de un documento PDF tiene un aspecto diferente y se logra creando y personalizando el diseño de página.
 
 Al diseñar el diseño de la página, puede definir los distintos elementos que la componen. Por ejemplo, puede definir el tamaño de página, los márgenes, el encabezado y pie de página, la orientación y otras especificaciones de página en una página. La función Publicación de PDF nativos le permite diseñar su página según el [Estándares de medios de página](https://www.w3.org/TR/css-page-3/). La mayoría de los ajustes que se tratan en los estándares de medios pagados se pueden personalizar fácilmente mediante la interfaz de usuario de la función Publicación de PDF nativos . Para algunos otros formatos de nivel avanzado, puede utilizar la vista Origen para escribir su propio código CSS.
 
-Una vez que haya diseñado los diseños de página, debe asociar estos diseños con sus secciones respectivas en la configuración de Diseño de página del PDF. Consulte la _Crear y personalizar diseños de página_ para obtener más información sobre cómo crear y abrir un diseño de página para su personalización.
+Una vez que haya diseñado los diseños de página, debe asociar estos diseños con sus secciones respectivas en la configuración de Diseño de página del PDF. Consulte la [Crear y personalizar diseños de página](components-pdf-template.md#create-customize-page-layout) para obtener más información sobre cómo crear y abrir un diseño de página para su personalización.
 
-## Tipos de diseños de página
+## Tipos de diseños de página {#types-of-page-layout}
 
 Un documento de PDF generalmente contiene las siguientes secciones:
 
@@ -33,11 +33,11 @@ Un documento de PDF generalmente contiene las siguientes secciones:
 * Índice
 * Página de fondo
 
-Estas secciones necesitarían un diseño de página correspondiente para presentar la información en un formato específico. Además, también puede tener una página en blanco que se utilice como usuario que rellena para iniciar un nuevo capítulo desde una página impar o par. En ese caso, puede utilizar el diseño de página predeterminado o crear un diseño de página para una página en blanco. Consulte _Crear un nuevo diseño de página_ para obtener más información.
+Estas secciones necesitarían un diseño de página correspondiente para presentar la información en un formato específico. Además, también puede tener una página en blanco que se utilice como usuario que rellena para iniciar un nuevo capítulo desde una página impar o par. En ese caso, puede utilizar el diseño de página predeterminado o crear un diseño de página para una página en blanco. Consulte [Crear un nuevo diseño de página](components-pdf-template.md#create-page-layout) para obtener más información.
 
 La configuración de los diseños de página de la sección **Plantilla > Configuración** permite definir el diseño de página que se utilizará para las diferentes secciones del PDF. Cada diseño de página puede tener además diferentes variantes de página: primera, derecha o izquierda.
 
-### Crear las variantes de diseño de la primera página, derecha o izquierda
+### Crear las variantes de diseño de la primera página, derecha o izquierda {#page-layout-variants}
 
 Los diferentes diseños de página de la plantilla de PDF se pueden personalizar aún más si se tienen diferentes variantes de diseño de página de inicio, derecha o izquierda. Puede diseñar estas páginas de forma diferente utilizando el diseñador de diseño de página.
 
@@ -61,7 +61,7 @@ Tenga en cuenta los siguientes puntos al crear los diseños de página:
 
    >[!NOTE]
    >
-   >Si no crea un diseño de página en blanco independiente, se utilizará el diseño de página predeterminado. Para crear un diseño de página, consulte _Crear un nuevo diseño de página_.
+   >Si no crea un diseño de página en blanco independiente, se utilizará el diseño de página predeterminado. Para crear un diseño de página, consulte [Crear un nuevo diseño de página](components-pdf-template.md#create-page-layout).
 
 El siguiente ejemplo le guiará por el proceso de creación de variantes de un diseño de página:
 
@@ -85,7 +85,7 @@ El siguiente ejemplo le guiará por el proceso de creación de variantes de un d
 
 El diseño de página seleccionado se crea mediante una copia del diseño de capítulo base. Esto significa que si ha realizado cambios en el diseño predeterminado de la página del capítulo, los mismos cambios se replican en el diseño de la página variante en el momento de la creación del diseño de la página.
 
-## Trabajo con las Propiedades de página de un diseño de página
+## Trabajo con las Propiedades de página de un diseño de página {#page-props-page-layout}
 
 Al diseñar un diseño de página, es esencial tener control sobre las distintas propiedades de página. La función Publicación de PDF nativo encapsula todas las propiedades de página principales en el panel Propiedades de página . El panel Propiedades de página proporciona acceso a varias propiedades en las siguientes secciones:
 
@@ -93,7 +93,7 @@ Al diseñar un diseño de página, es esencial tener control sobre las distintas
 >
 >El panel Propiedades de página encapsula las propiedades y sigue las reglas definidas en la sección [Estándares de medios de página](https://www.w3.org/TR/css-page-3/).
 
-* **Tamaño de página** : Especifique el tamaño de página que desee usar para el diseño de página. La lista desplegable Tamaño de la página le permite elegir entre más de 15 tamaños de página. También puede crear un diseño de página utilizando un tamaño de página personalizado; consulte **Definir el tamaño de la página** para obtener más información.
+* **Tamaño de página** : Especifique el tamaño de página que desee usar para el diseño de página. La lista desplegable Tamaño de la página le permite elegir entre más de 15 tamaños de página. También puede crear un diseño de página utilizando un tamaño de página personalizado; consulte [Definir el tamaño de la página](design-page-layout.md#set-the-page-size) para obtener más información.
 
 * **Orientación** : Especifique la orientación de página que se utilizará para el diseño de página. Puede elegir entre las orientaciones de página Vertical u Horizontal. Tenga en cuenta que puede elegir que se apliquen distintas orientaciones a distintas variantes de página en un diseño de página. Por ejemplo, si el contenido contiene una tabla amplia o una imagen grande, puede crear un diseño de página horizontal y aplicarlo a una tabla o imagen más amplia.
 
@@ -109,7 +109,7 @@ Al diseñar un diseño de página, es esencial tener control sobre las distintas
 
 * **Nota al pie** : Especifique las propiedades para mostrar las notas al pie en la salida. Puede elegir especificar los márgenes y las propiedades de relleno junto con un estilo de borde.
 
-### Definir el tamaño de la página
+### Definir el tamaño de la página {#set-page-size}
 
 Lo primero que debe definir en un diseño de página es el tamaño de la página. En las Propiedades de página, hay más de 15 tamaños de página que puede elegir para un diseño de página. También puede crear un tamaño de página personalizado siguiendo estos pasos:
 
@@ -117,7 +117,7 @@ Lo primero que debe definir en un diseño de página es el tamaño de la página
 
    >[!NOTE]
    >
-   >Consulte _Personalización de un diseño de página_ para abrir un diseño de página para personalizarlo o editarlo.
+   >Consulte [Personalización de un diseño de página](components-pdf-template.md#customize-page-layout) para abrir un diseño de página para personalizarlo o editarlo.
 
 1. En el panel derecho, haga clic en **Propiedades de página**.
 1. En el **Tamaño de página** lista desplegable, seleccione **Personalizado**.
@@ -130,7 +130,7 @@ Lo primero que debe definir en un diseño de página es el tamaño de la página
    >
    >Algunas de las unidades más utilizadas son px (píxeles), pt (puntos), rem, em, % (porcentaje) y in (pulgadas).
 
-### Usar la orientación de la página y la rotación de la vista
+### Usar la orientación de la página y la rotación de la vista {#page-orientation-rotation}
 
 Veamos un ejemplo en el que se utiliza una combinación de orientación de página vertical y horizontal y propiedades de rotación de vista. En este ejemplo, crearemos un PDF con orientación vertical predeterminada, pero una tabla se procesará en orientación horizontal con contenido en vista de 90 grados en sentido horario. El resultado final tendrá un aspecto similar al siguiente:
 
@@ -215,7 +215,7 @@ Siga estos pasos para realizar las tareas anteriores:
 
 El PDF final tendrá el contenido de la tabla representado en modo horizontal, como se muestra al principio del ejemplo.
 
-### Agregar una imagen de fondo
+### Agregar una imagen de fondo {#add-bg-image}
 
 Según sus necesidades, es posible que desee agregar una imagen de fondo que aparezca en cada primera página de un resultado de capítulo (PDF). Las propiedades Fondo de las Propiedades de página permiten agregar fácilmente una imagen de fondo. Puede elegir replicar esta imagen en una página y colocar la imagen en cualquier lugar del área superior, inferior o central de la página.
 
@@ -225,7 +225,7 @@ Por ejemplo, para insertar una imagen de fondo en la parte central del área de 
 
    >[!NOTE]
    >
-   >Consulte _Personalización de un diseño de página_ para abrir un diseño de página para personalizarlo o editarlo.
+   >Consulte [Personalización de un diseño de página](components-pdf-template.md#customize-page-layout) para abrir un diseño de página para personalizarlo o editarlo.
 
 1. Haga clic en cualquier lugar del área de contenido.
 
@@ -255,13 +255,13 @@ La siguiente captura de pantalla muestra la imagen de fondo con la propiedad Rep
 
 <img src="./assets/background-image.png" width="500">
 
-## Trabajar con encabezado y pie de página
+## Trabajar con encabezado y pie de página {#work-header-footer}
 
 Cuando se incluye información en un encabezado o pie de página de un diseño de página, dicha información se repite en todas las páginas que utilizan dicho diseño de página. Normalmente, el área del encabezado se utiliza para el título del capítulo o tema y el área del pie de página se utiliza para mostrar los números de página.
 
 Al crear un nuevo diseño de página, el área de encabezado y pie de página se crea de forma predeterminada. Puede realizar muchas personalizaciones en el área de encabezado y pie de página de un diseño de página. Por ejemplo, puede insertar una imagen (como un logotipo), variables (que contengan información dinámica) o contenido estático.
 
-### Cambiar los márgenes y líneas del encabezado y pie de página
+### Cambiar los márgenes y líneas del encabezado y pie de página {#header-footer-margins}
 
 De forma predeterminada, los márgenes de encabezado y pie de página se establecen en 1 pulgada. Puede cambiar este valor predeterminado cambiando la configuración Margen del panel Propiedades de página . Siga estos pasos para cambiar el tamaño del encabezado y del pie de página:
 
@@ -269,7 +269,7 @@ De forma predeterminada, los márgenes de encabezado y pie de página se estable
 
    >[!NOTE]
    >
-   >Consulte _Personalización de un diseño de página_ para abrir un diseño de página para personalizarlo o editarlo.
+   >Consulte [Personalización de un diseño de página](components-pdf-template.md#customize-page-layout) para abrir un diseño de página para personalizarlo o editarlo.
 
 1. En el panel derecho, haga clic en **Propiedades de página**.
 1. Expanda el **Diseño** para obtener más información.
@@ -301,7 +301,7 @@ Si desea trabajar directamente con el CSS y el código del HTML, puede cambiar l
 >
 >En el ejemplo anterior, se utilizan distintas unidades para especificar los valores de los márgenes.
 
-### Eliminación del encabezado y el pie de página
+### Eliminación del encabezado y el pie de página {#remove-header-footer}
 
 La superposición de encabezado y pie de página en los márgenes superior e inferior. Técnicamente, esto significa que si desea tener un encabezado y un pie de página en el diseño de la página, debe reservar el espacio necesario en los márgenes superior e inferior.
 
@@ -310,7 +310,7 @@ Si no desea que un diseño de página tenga un encabezado y un pie de página, h
 * Si desea conservar los márgenes superior e inferior, deje el área del encabezado y pie de página en blanco.
 * Si no desea conservar los márgenes superior e inferior (como el diseño de la portada y trasera de una revista), puede quitar los márgenes estableciendo las propiedades de margen superior e inferior en 0. Esto no deja espacio para el encabezado y el pie de página.
 
-### Añadir una imagen o un logotipo en el encabezado
+### Añadir una imagen o un logotipo en el encabezado {#add-image-header}
 
 Según sus necesidades, es posible que desee agregar una imagen que aparezca en el área de encabezado (o en cualquier otra parte) del diseño de la página. Existen dos formas de agregar una imagen al diseño de página:
 
@@ -327,7 +327,7 @@ Para insertar una imagen como el logotipo de su empresa en el área del encabeza
 
 >[!NOTE]
 >
->Consulte _Personalización de un diseño de página_ para abrir un diseño de página para personalizarlo o editarlo.
+>Consulte [Personalización de un diseño de página](components-pdf-template.md#customize-page-layout) para abrir un diseño de página para personalizarlo o editarlo.
 
 1. Haga clic en Editar encabezado (<img src="./assets/header-icon.svg" width="25">) para colocar el cursor en el área del encabezado.
 
@@ -341,9 +341,9 @@ La siguiente captura de pantalla muestra una imagen de ejemplo añadida en el á
 
 <img src="./assets/image-in-header-area.png" width="500">
 
-Una vez insertada la imagen, puede modificar sus atributos para darle el aspecto que desee. La forma más sencilla de cambiar el aspecto de una imagen o cualquier otro elemento del diseño de la página, utilice el panel Propiedades del contenido . Consulte _Trabajo con el panel Propiedades del contenido_ para las distintas propiedades disponibles a través de la interfaz de usuario para personalizar.
+Una vez insertada la imagen, puede modificar sus atributos para darle el aspecto que desee. La forma más sencilla de cambiar el aspecto de una imagen o cualquier otro elemento del diseño de la página, utilice el panel Propiedades del contenido . Consulte [Trabajo con el panel Propiedades del contenido](design-page-layout.md#work-with-content-properties-panel) para las distintas propiedades disponibles a través de la interfaz de usuario para personalizar.
 
-### Añadir campos y metadatos
+### Añadir campos y metadatos {#add-fields-metadata}
 
 Los campos son muy útiles cuando desea insertar un fragmento de información predefinido. Por ejemplo, puede incluir un campo Título del capítulo en el área del encabezado del capítulo que se sustituya por el título del capítulo real cuando se publique.
 
@@ -361,7 +361,7 @@ Existen las siguientes categorías para los campos que puede insertar en el dise
 
 Cada una de estas categorías de campos contiene diferentes variaciones en las que se puede insertar la información del campo. Por ejemplo, un campo de fecha puede tener diferentes variaciones, como `YYYY-MM-DD`, `MM/DD/YY`, `MM/DD/YYYY` y así sucesivamente. Del mismo modo, Número de página puede tener variaciones en forma de formatos romanos, decimales o incluso de configuración regional, como _Árabe_, _Devanagari_, _Hebreo_, y más.
 
-Además de los campos predefinidos, también puede añadir información de metadatos como variables o campos en el diseño de página. Estos metadatos se almacenan en el contenido de asignación DITA de origen y se pueden insertar fácilmente en el diseño de página. Para obtener más información, consulte _Trabajar con campos y metadatos_.
+Además de los campos predefinidos, también puede añadir información de metadatos como variables o campos en el diseño de página. Estos metadatos se almacenan en el contenido de asignación DITA de origen y se pueden insertar fácilmente en el diseño de página. Para obtener más información, consulte [Añadir campos y metadatos](design-page-layout.md#add-fields-and-metadata).
 
 En el siguiente ejemplo, insertaremos un número de página y un título de capítulo en el área de pie de página de un diseño de página.
 
@@ -369,7 +369,7 @@ En el siguiente ejemplo, insertaremos un número de página y un título de cap�
 
    >[!NOTE]
    >
-   >Consulte _Personalización de un diseño de página_ para abrir un diseño de página para personalizarlo o editarlo.
+   >Consulte [Personalización de un diseño de página](components-pdf-template.md#customize-page-layout) para abrir un diseño de página para personalizarlo o editarlo.
 
 1. Haga clic en el **Editar pie de página** (![](./assets/footer-icon.svg)) para colocar el cursor en el área del pie de página.
 
@@ -387,7 +387,7 @@ En el siguiente ejemplo, insertaremos un número de página y un título de cap�
 
    >[!NOTE]
    >
-   >También puede editar el formato de todos los campos, excepto el formato predeterminado. Para ello, haga clic en el icono Editar junto al formato que desea editar, realice cambios y haga clic en Aceptar. Para obtener más información, consulte _Trabajar con campos y metadatos_.
+   >También puede editar el formato de todos los campos, excepto el formato predeterminado. Para ello, haga clic en el icono Editar junto al formato que desea editar, realice cambios y haga clic en Aceptar. Para obtener más información, consulte [Añadir campos y metadatos](design-page-layout.md#add-fields-and-metadata).
 
    El campo de número de página predeterminado se inserta en el área de pie de página del diseño de página.
 
@@ -433,7 +433,7 @@ Si desea trabajar directamente con el CSS y el código del HTML, también puede 
 …
 ```
 
-## Trabajo con área de contenido
+## Trabajo con área de contenido {#content-area}
 
 El área de contenido es el área más grande en términos de espacio de contenido. El área de contenido se rellena con el contenido del tema. En algunos casos especiales, puede añadir contenido repetitivo en el área de contenido. Este contenido se publica en la ubicación especificada en el diseño de página. Por ejemplo, el encabezado de la tabla de contenido, glosario e índice se puede añadir como contenido repetitivo, que se publica &quot;tal cual&quot; en la salida final. Otro ejemplo es la tabla de contenido del capítulo, que generalmente se agrega en la primera página de cada capítulo.
 
@@ -441,7 +441,7 @@ Una de las personalizaciones más utilizadas en el área de contenido es el dise
 
 En las secciones siguientes, se tratan varios escenarios para personalizar el área de contenido.
 
-### Agregar una tabla de contenido de capítulo
+### Agregar una tabla de contenido de capítulo {#add-chapter-toc}
 
 Una tabla de contenido de capítulo sirve como referencia rápida para que los lectores sepan qué hay en el capítulo. Normalmente, se añade una tabla de contenido de capítulo al principio de un capítulo. Por lo tanto, si desea utilizar una tabla de contenido de capítulo, puede agregarla al área de contenido del diseño de página de capítulo principal o la primera variante de diseño de página de un capítulo.
 
@@ -455,7 +455,7 @@ En el siguiente ejemplo, insertaremos una tabla de contenido de capítulo en el 
 
    >[!NOTE]
    >
-   >Consulte _Personalización de un diseño de página_ para abrir un diseño de página para personalizarlo o editarlo.
+   >Consulte [Personalización de un diseño de página](components-pdf-template.md#customize-a-page-layout) para abrir un diseño de página para personalizarlo o editarlo.
 
 1. Coloque el cursor en el área de contenido del diseño de página.
 
@@ -489,7 +489,7 @@ La apariencia de la tabla de contenido predeterminada se puede personalizar medi
 >
 >Actualmente, si realiza actualizaciones de estilo en una hoja de estilo, es posible que no se refleje en la vista previa del contenido. Sin embargo, la salida se procesa con los estilos actualizados.
 
-### Trabajar con diseño de página de varias columnas
+### Trabajar con diseño de página de varias columnas {#multi-column-layout}
 
 Los diseños de página de varias columnas son muy comunes en la publicación de revistas o índices en un libro. La función Publicación de PDF nativos permite dividir fácilmente el documento en varias columnas. Si utiliza diferentes diseños de página, puede elegir mantener solamente una sección específica dividida en varias columnas, mientras mantiene las demás secciones en un único diseño de columna (o normal).
 
@@ -499,7 +499,7 @@ Para crear un diseño de página con varias columnas, realice los pasos siguient
 
    >[!NOTE]
    >
-   >Consulte _Personalización de un diseño de página_ para abrir un diseño de página para personalizarlo o editarlo.
+   >Consulte [Personalización de un diseño de página](components-pdf-template.md#customize-a-page-layout) para abrir un diseño de página para personalizarlo o editarlo.
 
 1. Como el diseño de varias columnas se aplica al contenido, excluyendo el área de encabezado y pie de página, debe seleccionar el elemento de contenido en la ruta de exploración.
 
@@ -536,7 +536,7 @@ Para crear un diseño de página con varias columnas, realice los pasos siguient
    * **Regla de columna** : Si desea tener una línea entre columnas, utilice esta propiedad para definir los estilos de línea o de regla. Especifique los valores de Estilo, Color y Ancho de la regla para agregar una línea entre columnas.
 
 
-## Trabajo con el panel Propiedades del contenido
+## Trabajo con el panel Propiedades del contenido {#work-with-content-props}
 
 El panel Propiedades de contenido permite actualizar fácilmente el aspecto de los elementos en el diseño de página. Las propiedades del panel Propiedades del contenido se dividen en las siguientes secciones:
 
