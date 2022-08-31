@@ -4,9 +4,9 @@ description: Aprenda a diseñar el diseño de la página para presentar informac
 hide: true
 hidefromtoc: true
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
-source-git-commit: 563a301e4db20cd8076eaffd970d53b7a8743449
+source-git-commit: 7b96fe9e8fad0e017626be04f5c41c1e42e7469d
 workflow-type: tm+mt
-source-wordcount: '4686'
+source-wordcount: '4649'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ Al diseñar un diseño de página, es esencial tener control sobre las distintas
 >
 >El panel Propiedades de página encapsula las propiedades y sigue las reglas definidas en la sección [Estándares de medios de página](https://www.w3.org/TR/css-page-3/).
 
-* **Tamaño de página** : Especifique el tamaño de página que desee usar para el diseño de página. La lista desplegable Tamaño de la página le permite elegir entre más de 15 tamaños de página. También puede crear un diseño de página utilizando un tamaño de página personalizado; consulte [Definir el tamaño de la página](design-page-layout.md#set-the-page-size) para obtener más información.
+* **Tamaño de página** : Especifique el tamaño de página que desee usar para el diseño de página. La lista desplegable Tamaño de la página le permite elegir entre más de 15 tamaños de página. También puede crear un diseño de página utilizando un tamaño de página personalizado; consulte [Definir el tamaño de la página](#set-page-size) para obtener más información.
 
 * **Orientación** : Especifique la orientación de página que se utilizará para el diseño de página. Puede elegir entre las orientaciones de página Vertical u Horizontal. Tenga en cuenta que puede elegir que se apliquen distintas orientaciones a distintas variantes de página en un diseño de página. Por ejemplo, si el contenido contiene una tabla amplia o una imagen grande, puede crear un diseño de página horizontal y aplicarlo a una tabla o imagen más amplia.
 
@@ -341,7 +341,7 @@ La siguiente captura de pantalla muestra una imagen de ejemplo añadida en el á
 
 <img src="./assets/image-in-header-area.png" width="500">
 
-Una vez insertada la imagen, puede modificar sus atributos para darle el aspecto que desee. La forma más sencilla de cambiar el aspecto de una imagen o cualquier otro elemento del diseño de la página, utilice el panel Propiedades del contenido . Consulte [Trabajo con el panel Propiedades del contenido](design-page-layout.md#work-with-content-properties-panel) para las distintas propiedades disponibles a través de la interfaz de usuario para personalizar.
+Una vez insertada la imagen, puede modificar sus atributos para darle el aspecto que desee. La forma más sencilla de cambiar el aspecto de una imagen o cualquier otro elemento del diseño de la página, utilice el panel Propiedades del contenido . Consulte [Trabajo con el panel Propiedades del contenido](#work-with-content-props) para las distintas propiedades disponibles a través de la interfaz de usuario para personalizar.
 
 ### Añadir campos y metadatos {#add-fields-metadata}
 
@@ -361,7 +361,7 @@ Existen las siguientes categorías para los campos que puede insertar en el dise
 
 Cada una de estas categorías de campos contiene diferentes variaciones en las que se puede insertar la información del campo. Por ejemplo, un campo de fecha puede tener diferentes variaciones, como `YYYY-MM-DD`, `MM/DD/YY`, `MM/DD/YYYY` y así sucesivamente. Del mismo modo, Número de página puede tener variaciones en forma de formatos romanos, decimales o incluso de configuración regional, como _Árabe_, _Devanagari_, _Hebreo_, y más.
 
-Además de los campos predefinidos, también puede añadir información de metadatos como variables o campos en el diseño de página. Estos metadatos se almacenan en el contenido de asignación DITA de origen y se pueden insertar fácilmente en el diseño de página. Para obtener más información, consulte [Añadir campos y metadatos](design-page-layout.md#add-fields-and-metadata).
+Además de los campos predefinidos, también puede añadir información de metadatos como variables o campos en el diseño de página. Estos metadatos se almacenan en el contenido de asignación DITA de origen y se pueden insertar fácilmente en el diseño de página. <!--For more information, see [Add fields and metadata](design-page-layout.md#add-fields-and-metadata).-->
 
 En el siguiente ejemplo, insertaremos un número de página y un título de capítulo en el área de pie de página de un diseño de página.
 
@@ -387,7 +387,7 @@ En el siguiente ejemplo, insertaremos un número de página y un título de cap�
 
    >[!NOTE]
    >
-   >También puede editar el formato de todos los campos, excepto el formato predeterminado. Para ello, haga clic en el icono Editar junto al formato que desea editar, realice cambios y haga clic en Aceptar. Para obtener más información, consulte [Añadir campos y metadatos](design-page-layout.md#add-fields-and-metadata).
+   >También puede editar el formato de todos los campos, excepto el formato predeterminado. Para ello, haga clic en el icono Editar junto al formato que desea editar, realice cambios y haga clic en Aceptar. Para obtener más información, consulte [Añadir campos y metadatos](#add-fields-metadata).
 
    El campo de número de página predeterminado se inserta en el área de pie de página del diseño de página.
 
@@ -449,7 +449,7 @@ En el siguiente ejemplo, insertaremos una tabla de contenido de capítulo en el 
 
 >[!NOTE]
 >
->Para este procedimiento, se da por hecho que se ha creado la variante First page para un diseño de página de capítulo. Para obtener instrucciones sobre cómo crear una variante de página, consulte _Crear las variantes de diseño de la primera página, derecha o izquierda_.
+>Para este procedimiento, se da por hecho que se ha creado la variante First page para un diseño de página de capítulo. Para obtener instrucciones sobre cómo crear una variante de página, consulte [Crear las variantes de diseño de la primera página, derecha o izquierda](#page-layout-variants).
 
 1. Abra el diseño de página necesario para editarlo.
 
@@ -483,7 +483,7 @@ En el siguiente ejemplo, insertaremos una tabla de contenido de capítulo en el 
    >
    >El PDF publicado finalmente solo mostrará las entradas de la tabla de contenido en función del contenido de sus capítulos. Si no tiene encabezados de nivel 5 en un capítulo, no se mostrarán en el resultado final.
 
-La apariencia de la tabla de contenido predeterminada se puede personalizar mediante las hojas de estilo. El estilo que comienza con `chaptoc-level-#` (like `chaptoc-level-1`, `chaptoc-level-2`, etc.) se utilizan para personalizar los estilos de la tabla de contenido del capítulo. Para obtener más información sobre los elementos de hojas de estilo utilizados en la tabla de contenido y cómo personalizarlos, consulte _Personalización de la TDC de capítulo predeterminada_.
+La apariencia de la tabla de contenido predeterminada se puede personalizar mediante las hojas de estilo. El estilo que comienza con `chaptoc-level-#` (like `chaptoc-level-1`, `chaptoc-level-2`, etc.) se utilizan para personalizar los estilos de la tabla de contenido del capítulo. <!--For more details on the stylesheet elements used in the TOC and how to customize them, see _Customize default chapter TOC_-->.
 
 >[!IMPORTANT]
 >
@@ -519,7 +519,7 @@ Para crear un diseño de página con varias columnas, realice los pasos siguient
 
    * **Diferencia entre columnas** : Especifique el espacio entre columnas individuales.
 
-   * **Intervalo de columna** : Si desea que cualquier elemento del diseño de la página abarque varias columnas, debe utilizar esta propiedad. Esto se logra modificando el estilo del elemento deseado mediante las hojas de estilo; para obtener más información, consulte _Sección que explica la personalización de estilos_.
+   * **Intervalo de columna** : Si desea que cualquier elemento del diseño de la página abarque varias columnas, debe utilizar esta propiedad. Esto se logra modificando el estilo del elemento deseado mediante las hojas de estilo. <!--for more information see _Section explaining style customization_-->.
 
    En el diseño de página, si desea que un determinado texto aparezca en la primera página de todos los diseños de página de capítulo, puede agregarlo a la variante Primera página del diseño de página de capítulo.
 
@@ -549,4 +549,4 @@ El panel Propiedades de contenido permite actualizar fácilmente el aspecto de l
 * **Diseño** : Contiene propiedades para configurar el diseño de un elemento en el diseño de página. Puede definir Alto, Ancho, Márgenes y Relleno (para arriba, abajo, izquierda o derecha), Horizontal o Vertical, Flotante (como Izquierda, Derecha o Ninguno), Borrar (como izquierda, derecha, ambos o ninguno), Posición del elemento (como absoluta, fija, relativa o más), Visualización (como bloque, contenido, corrección o más), Índice Z, Transparencia, Transformación (mediante rotación o escalado) y Transformar origen (por X y desplazamiento Y).
 
 * **Contexto** : Contiene propiedades para incluir una imagen de fondo o un tono de color. Puede configurar el tamaño de la imagen (estableciendo Alto o Ancho), Repetir el fondo (como repetición, no repetición, redondo o más) y Posición de fondo (como arriba izquierda, centro derecho, centro inferior o más).
-* **Múltiples columnas** : Contiene propiedades para configurar propiedades de varias columnas para la página o cualquier elemento específico, como la tabla de contenido del capítulo. Para obtener más información sobre las propiedades y cómo utilizarlas, consulte _Trabajar con diseño de página de varias columnas_.
+* **Múltiples columnas** : Contiene propiedades para configurar propiedades de varias columnas para la página o cualquier elemento específico, como la tabla de contenido del capítulo. Para obtener más información sobre las propiedades y cómo utilizarlas, consulte [Trabajar con diseño de página de varias columnas](#multi-column-layout).
