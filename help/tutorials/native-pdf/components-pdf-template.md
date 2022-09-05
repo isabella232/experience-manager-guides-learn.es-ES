@@ -1,10 +1,8 @@
 ---
 title: Función de publicación de PDF nativo | Componentes de una plantilla de PDF
 description: Conozca los distintos componentes de una plantilla de PDF y cómo personalizarlos y configurarlos.
-hide: true
-hidefromtoc: true
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 563a301e4db20cd8076eaffd970d53b7a8743449
+source-git-commit: a1367a6915e760e533bb984705f4be37596b5477
 workflow-type: tm+mt
 source-wordcount: '2275'
 ht-degree: 0%
@@ -165,7 +163,7 @@ El archivo seleccionado se importa y se muestra en la carpeta Recursos .
 
 ## Configuración avanzada del PDF {#advanced-pdf-settings}
 
-Utilice la sección Configuración para definir la configuración avanzada del diseño de página del PDF, empezando por el PDF de página impar o par, los formatos de las referencias cruzadas y permitiendo la impresión de marcas en el PDF final que se genera con la plantilla.
+Utilice la sección Configuración para definir la configuración avanzada del diseño de página del PDF, comenzando por el PDF de página impar o par, los formatos de las referencias cruzadas y permitiendo la impresión de marcas en el PDF final que se genera con la plantilla.
 
 Para configurar, haga clic en **Configuración** en el **Plantillas** para ver las siguientes opciones:
 

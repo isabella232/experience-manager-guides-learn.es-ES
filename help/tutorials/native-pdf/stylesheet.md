@@ -1,9 +1,7 @@
 ---
 title: Función de publicación de PDF nativo | Trabajar con estilos de contenido comunes
 description: Aprenda a crear hojas de estilo y crear estilos para el contenido.
-hide: true
-hidefromtoc: true
-source-git-commit: cbd5f4b0763bf4087d016f3d3c8d723518f0b8e7
+source-git-commit: a1367a6915e760e533bb984705f4be37596b5477
 workflow-type: tm+mt
 source-wordcount: '3496'
 ht-degree: 0%
