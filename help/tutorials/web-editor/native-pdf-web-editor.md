@@ -2,10 +2,10 @@
 title: PDF nativo | Generación de salida de PDF
 description: Generar salida de PDF en las guías de Adobe Experience Manager as a Cloud Service
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: 1b46f5e496e6c974abeba019a9d3174d5bc5315c
+source-git-commit: d832e78b690b533f44dc2205e9fea483d9213c58
 workflow-type: tm+mt
-source-wordcount: '2170'
-ht-degree: 0%
+source-wordcount: '2299'
+ht-degree: 1%
 
 ---
 
@@ -62,7 +62,7 @@ Se abre el panel Ajuste preestablecido.
    * Haga clic en el icono + con **Ajustes preestablecidos** para añadir un nuevo ajuste preestablecido de salida de **Tipo: PDF**
 3. Para definir la configuración de un ajuste preestablecido de PDF existente:
    * Haga clic en el  **Opciones** ![opciones](assets/options.svg) junto al ajuste preestablecido de salida deseado y seleccione **Editar**.
-Puede usar las siguientes opciones en la **General**, **Diseño**, **Seguridad** y **Avanzadas** para configurar un ajuste preestablecido de salida de PDF:
+Puede usar las siguientes opciones en la **General**, **Metadatos**, **Diseño**, **Seguridad** y **Avanzadas** para configurar un ajuste preestablecido de salida de PDF:
 
 **General**
 
@@ -74,6 +74,23 @@ Utilice para especificar la configuración básica de salida, como especificar l
 | **Archivo PDF** | Especifique un nombre de archivo para guardar el PDF. De forma predeterminada, el nombre del archivo PDF agrega el nombre de asignación DITA junto con el nombre del ajuste preestablecido. Por ejemplo, ditamap es &quot;TestMap&quot; y el nombre del ajuste preestablecido es &quot;preset1&quot;, el nombre predeterminado del pdf será &quot;TestMap_preset1.pdf&quot;. |
 | **Aplicar condiciones usando** | Para el contenido condicional, elija entre las siguientes opciones para generar una salida de PDF basada en esas condiciones: <br>* **Ninguno aplicado** Seleccione esta opción si no desea aplicar ninguna condición en el mapa y el contenido de origen. <br> * **Archivo Ditaval** Seleccione un archivo DITAVAL para generar contenido condicional. Para seleccionar, haga clic en con Ajuste preestablecido de condición y busque el archivo. <br> * **Ajuste preestablecido de condición** Seleccione un ajuste preestablecido de condición en la lista desplegable para aplicar una condición al publicar la salida. Esta opción está visible si ha añadido una condición para el archivo de asignación DITA. Los ajustes condicionales están disponibles en la ficha Ajustes preestablecidos de condición de la consola de asignación DITA. Para obtener más información sobre el ajuste preestablecido de condición, consulte [Usar ajustes preestablecidos de condición](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html). <br> |
 | **Usar línea de base** | Si ha creado una Línea de base para el mapa DITA seleccionado, seleccione esta opción para especificar la versión que desea publicar. Consulte [Trabajo con línea de base](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html) para obtener más información. |
+
+**Metadatos**
+
+Los metadatos son la descripción o definición del contenido. Los metadatos ayudan en la administración de contenido y ayudan a buscar archivos en Internet.
+
+Utilice la pestaña Metadatos para definir el título, el autor, el asunto y las palabras clave de la salida del PDF. Estos metadatos se asignan a los metadatos de la ficha Descripción de las Propiedades del documento del PDF de salida.
+
+**Nota**: Estos metadatos anulan los metadatos definidos a nivel de libro.
+
+![ficha metadatos](assets/pdf-metadata.png)
+
+| Configuración | Descripción |
+|---|---|
+| **Título** | Especifique un título corto y claro para definir el documento. |
+| **Autor** | Especifique los nombres de los autores que crearon el documento. |
+| **Asunto** | Defina el asunto o la colección con la que está relacionado el documento. |
+| **Palabras clave** | Utilice palabras clave relevantes para mejorar la optimización de su motor de búsqueda (SEO) y ayudar a los usuarios a encontrar el contenido relacionado. |
 
 **Diseño**
 
