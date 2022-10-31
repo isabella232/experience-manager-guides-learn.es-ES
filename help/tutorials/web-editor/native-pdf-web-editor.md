@@ -2,16 +2,16 @@
 title: PDF nativo | Generación de salida de PDF
 description: Generar salida de PDF en las guías de Adobe Experience Manager as a Cloud Service
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: d832e78b690b533f44dc2205e9fea483d9213c58
+source-git-commit: e7fe44f6d0c0ce08d5f94140474212c280b41f52
 workflow-type: tm+mt
-source-wordcount: '2299'
+source-wordcount: '2297'
 ht-degree: 1%
 
 ---
 
 # Salida del PDF de publicación
 
-Con la solución AEM Guías, puede generar PDF de temas individuales o un archivo de mapa completo. Puede publicar el contenido en formato de PDF mediante uno de los tres métodos siguientes:
+Con AEM guías, puede generar PDF de temas individuales o un archivo de mapa completo. Puede publicar el contenido en formato de PDF mediante uno de los tres métodos siguientes:
 
 * **DITA-OT**
 
