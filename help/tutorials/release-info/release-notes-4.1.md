@@ -2,9 +2,9 @@
 title: Notas de la versión | Versión de las guías de Adobe Experience Manager 4.1
 description: Última versión de las guías de Adobe Experience Manager
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
-source-git-commit: f74126c1eb7bccf0c9464cbe9b1138af5bd4938f
+source-git-commit: 0bddd791e7fb6e6f8eb0f8e2ad73146a758ffc47
 workflow-type: tm+mt
-source-wordcount: '3275'
+source-wordcount: '3400'
 ht-degree: 3%
 
 ---
@@ -119,6 +119,18 @@ Para obtener más información, consulte la sección Requisitos técnicos en la 
 ## Nuevas funciones y mejoras
 
 AEM guías proporciona muchas mejoras y nuevas funciones en la versión 4.1:
+
+### Publicación del PDF nativo
+
+También se ha añadido compatibilidad con la creación de un PDF nativo en la versión 4.1 de AEM guías. Se ha introducido un nuevo motor de publicación con las siguientes funciones:
+* Creación de una plantilla CSS
+* Crear distintas plantillas de página
+* Plantillas de PDF de diseño que incluyen plantillas de página y CSS
+* Publicar contenido de mapas y temas en formato de PDF
+
+### Compatibilidad con la ruta del sitio de la base de conocimientos en la publicación basada en artículos
+
+AEM guías proporciona la función de publicación basada en artículos para generar de forma incremental un resultado de uno o más temas o publicar el contenido en una plataforma de base de conocimientos. Con la versión 4.1, tiene una opción adicional para elegir la ruta del sitio de la Base de conocimiento a la que se debe publicar el tema o el mapa. Una vez seleccionada la ruta, la salida se genera en la ruta especificada.
 
 ### Editor web mejorado
 
