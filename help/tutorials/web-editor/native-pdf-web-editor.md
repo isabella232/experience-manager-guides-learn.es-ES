@@ -2,9 +2,9 @@
 title: PDF nativo | Generación de salida de PDF
 description: Generar salida de PDF en las guías de Adobe Experience Manager as a Cloud Service
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: e7fe44f6d0c0ce08d5f94140474212c280b41f52
+source-git-commit: e03ef8e99b2d60dc8d34a76d0a02180eab41e35f
 workflow-type: tm+mt
-source-wordcount: '2297'
+source-wordcount: '2663'
 ht-degree: 1%
 
 ---
@@ -56,11 +56,14 @@ Para crear o configurar un ajuste preestablecido de salida de PDF:
 
 1. En la ficha Salida , haga clic en **Ajustes preestablecidos** en la barra lateral izquierda.
 Se abre el panel Ajuste preestablecido.
-   ![panel preestablecido](assets/preset-panel.png)
-2. En la salida **Ajustes preestablecidos** realice una de las siguientes acciones:
+
+<img src="assets/preset-panel.png" alt="panel preestablecido" width="600">
+
+1. En la salida **Ajustes preestablecidos** realice una de las siguientes acciones:
    * Haga doble clic en un ajuste preestablecido de salida de PDF predefinido para verlo.
    * Haga clic en el icono + con **Ajustes preestablecidos** para añadir un nuevo ajuste preestablecido de salida de **Tipo: PDF**
-3. Para definir la configuración de un ajuste preestablecido de PDF existente:
+
+1. Para definir la configuración de un ajuste preestablecido de PDF existente:
    * Haga clic en el  **Opciones** ![opciones](assets/options.svg) junto al ajuste preestablecido de salida deseado y seleccione **Editar**.
 Puede usar las siguientes opciones en la **General**, **Metadatos**, **Diseño**, **Seguridad** y **Avanzadas** para configurar un ajuste preestablecido de salida de PDF:
 
@@ -70,10 +73,12 @@ Utilice para especificar la configuración básica de salida, como especificar l
 
 | Configuración | Descripción |
 | --- | --- |
-| **Ruta de salida** | La ruta dentro del repositorio de AEM donde se almacena la salida del PDF. Asegúrese de que la ruta de salida no esté ubicada dentro de la carpeta del proyecto. Si se deja en blanco, la salida se genera en la ubicación de salida de mapa DITA predeterminada. |
-| **Archivo PDF** | Especifique un nombre de archivo para guardar el PDF. De forma predeterminada, el nombre del archivo PDF agrega el nombre de asignación DITA junto con el nombre del ajuste preestablecido. Por ejemplo, ditamap es &quot;TestMap&quot; y el nombre del ajuste preestablecido es &quot;preset1&quot;, el nombre predeterminado del pdf será &quot;TestMap_preset1.pdf&quot;. |
-| **Aplicar condiciones usando** | Para el contenido condicional, elija entre las siguientes opciones para generar una salida de PDF basada en esas condiciones: <br>* **Ninguno aplicado** Seleccione esta opción si no desea aplicar ninguna condición en el mapa y el contenido de origen. <br> * **Archivo Ditaval** Seleccione un archivo DITAVAL para generar contenido condicional. Para seleccionar, haga clic en con Ajuste preestablecido de condición y busque el archivo. <br> * **Ajuste preestablecido de condición** Seleccione un ajuste preestablecido de condición en la lista desplegable para aplicar una condición al publicar la salida. Esta opción está visible si ha añadido una condición para el archivo de asignación DITA. Los ajustes condicionales están disponibles en la ficha Ajustes preestablecidos de condición de la consola de asignación DITA. Para obtener más información sobre el ajuste preestablecido de condición, consulte [Usar ajustes preestablecidos de condición](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html). <br> |
+| **Ruta de salida** | La ruta dentro del repositorio de AEM donde se almacena la salida del PDF. Asegúrese de que la ruta de salida no esté ubicada dentro de la carpeta del proyecto. Si se deja en blanco, la salida se genera en la ubicación de salida de mapa DITA predeterminada.<br>También puede utilizar las siguientes variables predeterminadas para definir la Ruta de salida. Puede utilizar una sola variable o una combinación de variables para definir esta opción. <br> `${map_filename}`: Utiliza el nombre de los archivos de asignación DITA para crear la ruta de destino. <br> `${map_title}`: Utiliza el título del mapa DITA para crear la ruta de destino. <br>`${preset_name}`: Utiliza el nombre del ajuste preestablecido de salida para crear la ruta de destino. <br> `${language_code}`: Utiliza el código de idioma donde se encuentra el archivo de asignación para crear la ruta de destino. <br> `${map_parentpath}`: Utiliza la ruta completa del archivo de asignación para crear la ruta de destino.  <br>`${path_after_langfolder}`: Utiliza la ruta del archivo de asignación después de la carpeta de idioma para crear la ruta de destino. |
+| **Archivo PDF** | Especifique un nombre de archivo para guardar el PDF. De forma predeterminada, el nombre del archivo PDF agrega el nombre de asignación DITA junto con el nombre del ajuste preestablecido. Por ejemplo, ditamap es &quot;TestMap&quot; y el nombre del ajuste preestablecido es &quot;preset1&quot;, el nombre predeterminado del pdf será &quot;TestMap_preset1.pdf&quot;. <br>También puede utilizar las siguientes variables predeterminadas para definir el archivo PDF. Puede utilizar una sola variable o una combinación de variables para definir esta opción. <br>`${map_filename}`<br>`${map_title}`<br>`${preset_name}` <br> `${language_code}`. |
+| **Aplicar condiciones usando** | Para el contenido condicional, elija entre las siguientes opciones para generar una salida de PDF basada en esas condiciones: <br>* **Ninguno aplicado** Seleccione esta opción si no desea aplicar ninguna condición en el mapa y el contenido de origen. <br>* **Archivo Ditaval** Seleccione un archivo DITAVAL para generar contenido condicional. Para seleccionar, haga clic en con Ajuste preestablecido de condición y busque el archivo. <br> * **Ajuste preestablecido de condición** Seleccione un ajuste preestablecido de condición en la lista desplegable para aplicar una condición al publicar la salida. Esta opción está visible si ha añadido una condición para el archivo de asignación DITA. Los ajustes condicionales están disponibles en la ficha Ajustes preestablecidos de condición de la consola de asignación DITA. Para obtener más información sobre el ajuste preestablecido de condición, consulte [Usar ajustes preestablecidos de condición](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html). <br> |
 | **Usar línea de base** | Si ha creado una Línea de base para el mapa DITA seleccionado, seleccione esta opción para especificar la versión que desea publicar. Consulte [Trabajo con línea de base](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html) para obtener más información. |
+| **Crear PDF con barra de cambios entre versiones publicadas** | Utilice las siguientes opciones para crear un PDF que muestre las diferencias de contenido entre dos versiones mediante barras de cambios:   <br>* **Línea de base de la versión anterior** Elija la versión de línea de base que desea comparar con la versión actual u otra línea de base. Aparecerá una barra de cambios en el PDF para indicar el contenido modificado. Una barra de cambios es una línea vertical que identifica visualmente el contenido nuevo o revisado. La barra de cambios aparece a la izquierda del contenido que se ha insertado, cambiado o eliminado. <br> **Nota**: Si selecciona **Usar línea de base** y elija una línea de base para publicar, la comparación se realizará entre las dos versiones de línea de base seleccionadas. Por ejemplo, si elige la línea de base Versión 1.3 en **Usar línea de base** y la versión 1.1 en **Línea de base de la versión anterior**, la comparación se realizará entre la versión de base 1.1 y la versión de base 1.3. <br>* **Mostrar texto agregado** Seleccione para mostrar el texto insertado en color verde y subrayado. Esta opción está seleccionada de forma predeterminada. <br> * **Mostrar texto eliminado** Seleccione esta opción para mostrar el texto eliminado en color rojo y marcado con un tachado. Esta opción está seleccionada de forma predeterminada. <br>**Nota** También puede personalizar el estilo de la barra de cambios, el contenido insertado o el contenido eliminado mediante la hoja de estilo.<br> |
+| **Flujo de trabajo de posgeneración** | Seleccione para mostrar una lista desplegable que contenga todos los flujos de trabajo configurados en AEM. Puede seleccionar el flujo de trabajo que desea ejecutar después de finalizar el flujo de trabajo de generación de PDF. |
 
 **Metadatos**
 
@@ -83,7 +88,8 @@ Utilice la pestaña Metadatos para definir el título, el autor, el asunto y las
 
 **Nota**: Estos metadatos anulan los metadatos definidos a nivel de libro.
 
-![ficha metadatos](assets/pdf-metadata.png)
+<img src="assets/pdf-metadata.png" alt="ficha metadatos" width="600">
+
 
 | Configuración | Descripción |
 |---|---|
@@ -147,6 +153,6 @@ Puede ver una barra de progreso junto al ajuste preestablecido de salida selecci
 6. Una vez finalizada la generación de salida, haga clic en  **Ver salida** ![ver salida](assets/view-output.svg) en la barra superior para ver el resultado.\
    A **Correcto** está visible en la esquina inferior derecha de la pantalla.
 Si una salida no se realiza correctamente, se muestra el siguiente mensaje de error.
-   ![registro de errores](assets/error-log.png)
+<img src="assets/error-log.png" alt="registro de errores" width="250">
 
 Para ver el registro de errores, haga clic en **Rechazar**, pase el ratón sobre la ficha preestablecida seleccionada y haga clic en ![opciones](assets/options.svg) **Opciones** > **Ver registro**.

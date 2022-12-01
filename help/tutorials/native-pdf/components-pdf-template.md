@@ -2,9 +2,9 @@
 title: Función de publicación de PDF nativo | Componentes de una plantilla de PDF
 description: Conozca los distintos componentes de una plantilla de PDF y cómo personalizarlos y configurarlos.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: a1367a6915e760e533bb984705f4be37596b5477
+source-git-commit: f693ebb6a96ed9898050a754e10a74db235299fe
 workflow-type: tm+mt
-source-wordcount: '2275'
+source-wordcount: '2516'
 ht-degree: 0%
 
 ---
@@ -149,7 +149,7 @@ Para agregar un archivo de recursos a la carpeta Recursos, siga los siguientes p
 
    Se abrirá el cuadro de diálogo Cargar recursos .
 
-   <img src="assets/resources-import-assets.png" alt="Carga de recursos" width="300">
+   <img src="assets/resources-import-assets.png" alt="Carga de activos" width="300">
 
    La ruta en la que se cargará el archivo de recursos se muestra en la **Seleccionar carpeta de recursos** campo .
    >[!NOTE]
@@ -180,12 +180,13 @@ Defina los ajustes básicos de configuración para iniciar un capítulo desde un
    * **Usar encabezados hasta el nivel**: Permite ajustar el número de niveles de encabezado que se mostrarán en la estructura de TDC de su PDF.
    * **No mostrar el número de página del primer nivel en la tabla de contenido**: Seleccione esta opción para ocultar los números de página correspondientes para todos los capítulos que contienen temas anidados o secundarios. Considere el siguiente ejemplo en el que se crea una salida sin seleccionar esta opción.
 
-   <img src="assets/page-number-in-toc.png" alt="Carga de recursos" width="250">
+   <img src="assets/page-number-in-toc.png" alt="Carga de activos" width="250">
 
    En el ejemplo anterior, Configuración avanzada de PDF, Apéndice y Legal son los encabezados de tema de primer nivel o títulos de capítulo. Se asigna un número de página a todos estos encabezados.
 
    Ahora, si selecciona esta opción y genera el resultado, obtendrá la siguiente tabla de contenido:
-   <img src="assets/page-number-missing-in-toc.png" alt="Carga de recursos" width="250">
+
+   <img src="assets/page-number-missing-in-toc.png" alt="Carga de activos" width="250">
 
    Aquí puede observar que la configuración del primer capítulo de PDF avanzado no tiene número de página, ya que contiene temas anidados o secundarios. Mientras que un número de página si se asigna a Apéndice y Legal porque son temas independientes sin ningún tema secundario.
 
@@ -201,10 +202,35 @@ Para aplicar estructura de TDC y niveles de encabezado de estilo, consulte [Agre
 
 La configuración de Diseños de página le permite controlar por completo la especificación del diseño de página que se utilizará para una sección específica del documento. Por ejemplo, para seleccionar un diseño para la Tabla de contenido, haga clic en el menú desplegable en el campo TDC y seleccione el diseño que ha diseñado para generar la TDC.
 
-Si no ha creado un diseño para una sección en particular del documento, simplemente puede elegir un diseño que sirva como diseño predeterminado para esas secciones o temas. El diseño de página predeterminado se aplica a todas las secciones que no tengan un diseño de página dedicado.
+Las siguientes opciones de configuración están disponibles en la sección Diseño de página :
 
-Del mismo modo, si desea una portada y una página anterior, debe tener un diseño de página creado y aplicado en la configuración. De lo contrario, el PDF no contendrá las páginas de portada y de atrás.
+<img src="assets/template-page-layout.png" alt="Diseños de página" width="550">
 
+
+**Diseño de página predeterminado**: Seleccione un diseño de página que actúe como diseño predeterminado para todas las páginas del PDF. Este es el diseño de página base que se aplica a las secciones o temas en los que no se ha creado un diseño de página dedicado.
+
+**Diseño de página para diferentes secciones**: Puede elegir asignar un diseño de página con las siguientes secciones de la salida del PDF:
+* TDC
+* Lista de figuras
+* Lista de tablas
+* Capítulos y temas
+* Índice
+* Glosario
+
+Si no desea mostrar una sección en particular en la salida del PDF, puede desactivarla activando el interruptor de alternancia en desactivado.
+
+**Capítulo y temas** el diseño siempre está habilitado y **Glosario** layout siempre está desactivado de forma predeterminada. No puede conmutarlas.
+
+También puede definir el orden en que se generan estas diferentes secciones en el PDF. Si desea cambiar el orden predeterminado de estas páginas, pase el ratón por la izquierda de un diseño de página y haga clic en el icono de barras de puntos para arrastrar y soltar el diseño de página en la ubicación deseada.
+El PDF contendrá los diseños de página habilitados en el orden en que los haya organizado aquí.
+
+**Diseño de página para páginas vacías**: También puede especificar el diseño de página para las páginas vacías. El diseño seleccionado se aplicará a todas las páginas vacías. Por ejemplo, si ha diseñado un diseño de página en blanco para todas las páginas vacías, seleccione **En blanco** en la lista desplegable y todas las páginas vacías del documento tendrán el diseño de página en blanco.
+
+**Portada de página y página anterior**: Si ha diseñado un diseño de portada de página, asígnelo a la variable **Página de portada** . Del mismo modo, si tiene un diseño de página anterior, asígnelo a la variable **Página Atrás** . Si no se han creado diseños de portada o de página anterior, se aplica el diseño de página predeterminado.
+
+>[!NOTE]
+>
+>La configuración del mapa de libros tiene prioridad sobre la configuración del diseño de página.
 
 Para obtener más información sobre los diseños de página, consulte [Diseño de un diseño de página](design-page-layout.md).
 

@@ -2,10 +2,10 @@
 title: Versiones de AEM Guías
 description: Últimas versiones de AEM Guías y versiones de AEM previas
 exl-id: 780697a9-bdc6-40c2-b258-64639fe30f88
-source-git-commit: 4066b22849271f29b5339dbd2f1bfa0946cdbd8b
+source-git-commit: f693ebb6a96ed9898050a754e10a74db235299fe
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 1%
+source-wordcount: '1114'
+ht-degree: 0%
 
 ---
 
@@ -13,17 +13,39 @@ ht-degree: 1%
 
 [!DNL Adobe Experience Manager Guides] es una aplicación implementada en AEM. Es una potente solución de administración de contenido de componentes (CCMS) de nivel empresarial que permite la compatibilidad nativa con DITA en Adobe Experience Manager, lo que permite a los AEM gestionar la creación y el envío de contenido basado en DITA.
 
-## Explicación de UUID frente a no UUID
+AEM paquetes de guías están disponibles en dos variantes: compilaciones de UUID y de Non-UUID .
 
-[!DNL AEM Guides] los paquetes están disponibles en dos modos: compilaciones de UUID y de no UUID.
+## Compilaciones UUID y no UUID
 
-Los clientes deberán decidir entre el UUID y el modo que no sea UUID en el momento de la primera configuración (conéctese con el gestor de éxito de los clientes para tomar una decisión basada en su uso).
+Las principales diferencias entre las compilaciones de UUID y no UUID son las siguientes:
 
-Al actualizar desde una versión de [!DNL AEM Guides] en una versión más reciente, los clientes deberán asegurarse de que eligen el mismo modo (UUID/no UUID) para que coincida con su modo existente. Una compilación que no es UUID no debe actualizarse directamente a una compilación UUID. Pasar de la compilación que no es UUID a la compilación UUID necesitaría migración de contenido.
+|  | UUID build | Compilación no UUID |
+|---|---|---|
+| **Identificación de activos** | Todos los recursos se identifican mediante la ruta del recurso en el repositorio. | Todos los recursos se identifican con su UUID (ID único generado por el sistema cuando el recurso se cargó por primera vez). |
+| **Creación de referencias** | Todas las referencias de contenido se crean en función de sus rutas. | Todas las referencias de contenido se crean en función de su UUID. |
+
+### Ventajas de la compilación de UUID
+
+* La instalación de UUID es más eficaz:
+   * Las referencias son independientes de la ruta: El sistema de gestión de referencias es consciente de los vínculos, ya que las referencias se crean basándose en UUID y no en las rutas.
+   * Las operaciones de mover/actualizar son eficientes: Los UUID permanecen iguales aunque los recursos se muevan a otra ruta del repositorio. Por lo tanto, no es necesario procesar las referencias entre los recursos en las operaciones de movimiento/actualización.
+* La compilación de UUID es prospectiva, ya que utilizamos este marco para la configuración de nube de AEM guías también.
+
+
+### Elija entre las dos compilaciones
+
+* Si es un cliente nuevo, le recomendamos que utilice la compilación de UUID.
+* Si ya es cliente de , puede elegir pasar a la compilación de UUID, ya que la migración de la compilación de no UUID a UUID ahora es posible. Para obtener más información, consulte la *Migración de contenido que no es UUID a UUID* en la sección **Instale y configure las guías de Adobe Experience Manager.**
+
+>[!NOTE]
+>
+>* Los clientes deberán decidir entre el UUID y el modo que no sea UUID en el momento de la primera configuración (en caso de que necesite ayuda, conéctese con el gestor de éxito del cliente para tomar una decisión basada en su uso).
+>* Al actualizar de una versión de AEM guías a una versión más reciente, los clientes deberán asegurarse de que eligen el mismo modo (UUID/no UUID) para que coincida con su modo existente. Una compilación que no es UUID no debe actualizarse directamente a una compilación UUID. Al pasar de la compilación que no es de UUID a la compilación de UUID, sería necesario migrar el contenido.
+
 
 **Actualización de compilaciones**
 
-Cuando actualiza de una versión anterior a una versión más reciente de [!DNL AEM Guides], es posible que necesite ejecutar algunas secuencias de comandos de migración. Consulte las Notas de la versión y la documentación específica de la versión para obtener instrucciones sobre la actualización.
+Cuando actualiza de una versión anterior a una versión más reciente de [!DNL AEM Guides], es posible que deba ejecutar secuencias de comandos de migración. Consulte las Notas de la versión y la documentación específica de la versión para obtener instrucciones sobre la actualización.
 
 No todas las rutas de actualización son compatibles directamente. Por ejemplo, la actualización directa a la versión 4.0 solo es posible desde la versión 3.8. Si está en una versión anterior a la 3.8, consulte la documentación específica de su versión para obtener instrucciones de actualización [Archivo de ayuda](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 Póngase en contacto con el gestor de éxito del cliente para validar la ruta de actualización.
