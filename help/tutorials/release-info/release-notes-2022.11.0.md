@@ -1,9 +1,10 @@
 ---
 title: Notas de la versión | Guías de Adobe Experience Manager as a Cloud Service, versión de noviembre de 2022
 description: Última versión de las guías de Adobe Experience Manager as a Cloud Service
-source-git-commit: 549417d6a45508d0afe98574499f1694ae32e708
+exl-id: 9f329ec1-dd74-47cc-8567-3fadd962584a
+source-git-commit: 84ff7619722fbda2787ce4c27cc69b5f71e25927
 workflow-type: tm+mt
-source-wordcount: '1423'
+source-wordcount: '1370'
 ht-degree: 2%
 
 ---
@@ -131,7 +132,6 @@ Ahora también puede generar el TOC en los mapas DITA utilizando una configuraci
 
 Los errores corregidos en varias áreas se enumeran a continuación:
 
-* PDF nativo | Una nota al pie en el encabezado de tabla lleva a un texto de nota al pie de página en negrita y centrado en el pie de página dentro de la salida del PDF. (10610)
 * PDF nativo | `conkeyref` no se resuelve en la salida del PDF generado. (10564)
 * PDF nativo | Se producen problemas al acceder a los metadatos de un mapa en la salida del PDF. (10556)
 * PDF nativo | El estilo en línea se utiliza para generar etiquetas en lugar del nombre de clase.  (10498)
@@ -141,7 +141,6 @@ Los errores corregidos en varias áreas se enumeran a continuación:
 * Tenga en cuenta que dentro de una etiqueta para que sea una conref no se muestra en la vista previa. (10559)
 * Al pulsar Retroceso al final de un elemento de lista, se elimina toda la lista. (10540)
 * Al utilizar un PDF nativo, exporte el anidado `<indexterm>` no están anidadas en el índice. (10521)
-* Al utilizar la publicación de línea de base incorrecta `cq:tags` se seleccionan (se eligen de la copia de trabajo actual en lugar de la copia de versión). (10494)
 * **Sangría automática** falta en la vista de origen. (10448)
 * El primer carácter de un elemento de lista se pierde mientras la lista se crea en el editor. (10447)
 * Se muestran varias ventanas emergentes si se cambia cualquier versión de recurso DITA y se guarda en la ventana de edición de línea de base. (10399)
@@ -150,7 +149,6 @@ Los errores corregidos en varias áreas se enumeran a continuación:
 * El procesamiento posterior está bloqueado para toda la carpeta de idiomas cuyos recursos están presentes en un proyecto de traducción activo. (10332)
 * La ficha Plantilla del Editor XML no está visible para los administradores de perfiles de carpetas. (10266)
 * Los problemas de navegación se producen en el Editor web después de la actualización a la versión 4.0. (10159)
-* El primer carácter se rompe en coreano durante la creación en el Editor web. (10049)
 * Los archivos SVG no se muestran en el modo Vista previa. (10010)
 * Si la ficha Salida del editor contiene más ajustes preestablecidos, la sección de ajustes preestablecidos no se puede desplazar y no se mostrarán todos. (9787)
 * **Editar** y **Anotar** las opciones de una imagen no funcionan correctamente en la vista de columna. (8758)
