@@ -2,9 +2,9 @@
 title: Notas de la versión | Guías de Adobe Experience Manager as a Cloud Service, versión de noviembre de 2022
 description: Última versión de las guías de Adobe Experience Manager as a Cloud Service
 exl-id: 9f329ec1-dd74-47cc-8567-3fadd962584a
-source-git-commit: 84ff7619722fbda2787ce4c27cc69b5f71e25927
+source-git-commit: 0663ed4434fdf583a9446891f944d94b85f375c6
 workflow-type: tm+mt
-source-wordcount: '1370'
+source-wordcount: '1372'
 ht-degree: 2%
 
 ---
@@ -101,9 +101,7 @@ En el panel de traducción, también puede ver la columna Etiqueta de versión .
 <img src="assets/send-translation.png" alt="enviar para traducción" width="600">
 
 
-## Mejoras en la publicación de PDF nativos
-
-### PDF con barra de cambios que muestra la diferencia entre las versiones del documento
+### PDF nativo | PDF con barra de cambios que muestra la diferencia entre las versiones del documento
 
 Ahora puede crear un PDF que muestre las diferencias de contenido entre dos versiones con la barra de cambios. Puede elegir comparar la versión actual con una línea de base de la versión anterior o comparar las dos versiones de línea de base seleccionadas.
 
@@ -113,7 +111,7 @@ Aparece una barra de cambios en el PDF para indicar el contenido modificado, ins
 * Mostrar el contenido insertado en color verde y subrayado
 * Mostrar el contenido eliminado en color rojo y marcado con tachado
 
-### Compatibilidad de variables para Ruta de salida y Nombre de archivo del PDF
+### PDF nativo | Compatibilidad de variables para Ruta de salida y nombre de archivo del PDF
 
 Ahora también puede utilizar las siguientes variables predeterminadas para definir la ruta de salida y el archivo de PDF. Puede utilizar una o una combinación de variables para definir estas opciones:
 * `${map_filename}`
@@ -124,7 +122,7 @@ Ahora también puede utilizar las siguientes variables predeterminadas para defi
 * `${path_after_langfolder}` (solo para la ruta de salida)
 
 
-### Generar tabla de contenido para mapas DITA y reordenar diseños de página
+### PDF nativo | Generar tabla de contenido para mapas DITA y reordenar diseños de página
 
 Ahora también puede generar el TOC en los mapas DITA utilizando una configuración de PDF avanzada de la plantilla. Puede optar por habilitar o deshabilitar la visualización de los distintos diseños de página y también reordenar su posición.
 
