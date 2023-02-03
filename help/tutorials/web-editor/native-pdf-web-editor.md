@@ -2,9 +2,9 @@
 title: PDF nativo | Generación de salida de PDF
 description: Generar salida de PDF en las guías de Adobe Experience Manager as a Cloud Service
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: e03ef8e99b2d60dc8d34a76d0a02180eab41e35f
+source-git-commit: 618030a32b6cc8d703e71d4eb91a340cb89a413b
 workflow-type: tm+mt
-source-wordcount: '2663'
+source-wordcount: '2666'
 ht-degree: 1%
 
 ---
@@ -124,7 +124,7 @@ Utilice las siguientes opciones para especificar la configuración avanzada para
 | Configuración | Descripción |
 | --- | --- |
 | **Crear PDF accesible (etiquetado)** | Seleccione esta opción para generar un PDF con etiquetas. Un PDF etiquetado facilita a los lectores de pantalla la lectura y navegación por contenido, hipervínculos, marcadores, etc. Por ejemplo, si una tabla está etiquetada, el lector de pantalla sabrá que está leyendo la tabla y no solo líneas y texto. |
-| **Combinar PDF incluidos en la tabla de contenido** | Seleccione esta opción para combinar los PDF existentes en la salida agregándolos a la Tabla de contenido. Los PDF se insertan en la ubicación representada en la tabla de contenido y las páginas se incrementan en consecuencia. |
+| **Combinar PDF incluidos en la tabla de contenido** | Seleccione esta opción para combinar los PDF existentes en la salida agregándolos al mapa DITA como archivo de recursos. Los PDF se insertan en la ubicación representada en el mapa y las páginas se incrementan en consecuencia. |
 | **Incrustar fuentes usadas** | Seleccione esta opción cuando utilice fuentes que no estén instaladas en el equipo del usuario final. Con esta opción seleccionada, las fuentes usadas se incrustan en el PDF, lo que garantiza que el usuario pueda ver el PDF como desea incluso aunque las fuentes no estén instaladas en su equipo. <br> **Nota**: Una fuente solo se puede incrustar si contiene una configuración del proveedor de fuentes que permita su incrustación. Asegúrese de que dispone de la configuración o licencia necesarias antes de incrustar una fuente. |
 | **Uso de la división mediante guiones automática** | Con la división mediante guiones automática activada, las palabras al final de las líneas se desglosan en lugares gramaticalmente correctos con un guión. |
 | **Habilitar JavaScript** | Active esta opción si tiene un código JavaScript que desee utilizar para transformar el contenido de forma dinámica antes de generar un PDF. |
