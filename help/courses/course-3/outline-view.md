@@ -2,7 +2,7 @@
 title: Vista Esquema
 description: Uso de la vista de esquema en AEM guías
 exl-id: 300f550f-dc79-4971-b8ba-43fe8499ea02
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 La vista de esquema ofrece una amplia gama de funciones cuando se trabaja con un documento estructurado. Expanda y contraiga la vista, navegue por la estructura, trabaje con Atributos (por ejemplo, para crear un nuevo ID) y reorganice, desajuste y reestructura elementos haciendo clic en un botón.
 
->[!VIDEO](https://video.tv.adobe.com/v/342767)
+>[!VIDEO](https://video.tv.adobe.com/v/342767?quality=12&learn=on)
 
 ## Expandir y contraer la vista Esquema
 

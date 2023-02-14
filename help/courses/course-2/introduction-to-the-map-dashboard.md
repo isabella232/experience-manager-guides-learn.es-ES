@@ -2,7 +2,7 @@
 title: Introducción al tablero de mapas
 description: Introducción al tablero de mapas
 exl-id: c2efa073-15e7-42a0-aaa8-04859b0fdf62
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 A continuación encontrará una descripción general de las principales funciones del tablero de mapas.
 
->[!VIDEO](https://video.tv.adobe.com/v/339040)
+>[!VIDEO](https://video.tv.adobe.com/v/339040?quality=12&learn=on)
 
 ## Abra un mapa en el panel Mapa
 
@@ -49,7 +49,7 @@ La ficha Temas muestra una lista de todos sus temas dentro del mapa.
 
 ![images/topics.png](images/topics.png)
 
-La selección de la casilla de verificación de un tema le permite realizar acciones adicionales. Puede editarlo, regenerarlo y mostrar, aplicar u ocultar sus etiquetas.
+La selección de la casilla de verificación de un tema permite realizar acciones adicionales. Puede editarlo, regenerarlo y mostrar, aplicar u ocultar sus etiquetas.
 
 ### Ajustes preestablecidos de condición
 

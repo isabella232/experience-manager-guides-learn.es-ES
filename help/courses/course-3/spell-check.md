@@ -2,7 +2,7 @@
 title: Revisión ortográfica y búsqueda/sustitución
 description: Uso de la revisión ortográfica y búsqueda/sustitución en AEM guías
 exl-id: 5f39618d-a919-4d3c-a4de-2896f2d1bf20
-source-git-commit: 0b4326b02ef52f5de77c3f26c18feec84567cebb
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 2%
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 El Editor de guías de AEM tiene potentes funciones de revisión ortográfica y de búsqueda y reemplazo.
 
->[!VIDEO](https://video.tv.adobe.com/v/342768)
+>[!VIDEO](https://video.tv.adobe.com/v/342768?quality=12&learn=on)
 
 Corregir un error ortográfico
 
@@ -37,9 +37,9 @@ Es posible que desee utilizar una herramienta de revisión ortográfica distinta
 
 3. Hay dos opciones:
 
-   - **Revisión ortográfica del explorador** — la configuración predeterminada en la que la revisión ortográfica utiliza el diccionario integrado del explorador.
+   - **Revisión ortográfica del explorador** — la configuración predeterminada en la que la revisión ortográfica utiliza el diccionario integrado del navegador.
 
-   - **Revisión de ortografía AEM** utilice esto para crear una lista de palabras personalizada usando el diccionario personalizado de AEM.
+   - **Revisión de ortografía AEM** — use esto para crear una lista de palabras personalizada usando AEM diccionario personalizado.
 
 4. Choose **Revisión de ortografía AEM**.
 

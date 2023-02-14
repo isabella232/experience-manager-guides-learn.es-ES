@@ -2,7 +2,7 @@
 title: Flujos de trabajo simples para la creación de contenido
 description: Creación de contenido en AEM guías
 exl-id: e4b8e512-0688-44f7-b981-78af33b57b08
-source-git-commit: 92c269c4a5f73317345bbd0ab247951656426ff4
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 2%
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 El Editor de guías de AEM tiene varios métodos abreviados que simplifican el flujo de trabajo de creación de contenido. Estos accesos directos permiten a los usuarios agregar y modificar rápidamente imágenes, trabajar con varios temas a la vez, corregir errores, descargar PDF de temas y trabajar con versiones y etiquetas.
 
->[!VIDEO](https://video.tv.adobe.com/v/342770)
+>[!VIDEO](https://video.tv.adobe.com/v/342770?quality=12&learn=on)
 
 ## Añada una imagen
 

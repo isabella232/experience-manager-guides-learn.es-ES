@@ -2,10 +2,10 @@
 title: Publicación con condiciones
 description: Publicación con condiciones con las guías de Adobe Experience Manager
 exl-id: ea94824a-884b-447f-9562-e6c629b8133b
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '359'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 La publicación condicional permite escribir una fuente de contenido para una o más audiencias, productos o plataformas. Esta información se puede publicar dinámicamente y solo se incluye contenido específicamente requerido en la salida.
 
->[!VIDEO](https://video.tv.adobe.com/v/339041)
+>[!VIDEO](https://video.tv.adobe.com/v/339041?quality=12&learn=on)
 
 ## Preparación del ejercicio
 

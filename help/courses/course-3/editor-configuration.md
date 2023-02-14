@@ -2,7 +2,7 @@
 title: Configuración del Editor de guías de AEM
 description: Configuración del editor para AEM guías
 exl-id: 437d9598-4afc-431f-81bd-6762e22656b7
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 0%
@@ -15,7 +15,7 @@ Si trabaja en un entorno restrictivo, puede elegir qué características pueden 
 
 Los archivos de muestra que puede utilizar para esta lección se proporcionan en el archivo . [xmleditorconfiguration.zip](assets/xmleditorconfiguration.zip).
 
->[!VIDEO](https://video.tv.adobe.com/v/342762)
+>[!VIDEO](https://video.tv.adobe.com/v/342762?quality=12&learn=on)
 
 ## Personalización de la configuración predeterminada de la interfaz de usuario del Editor
 

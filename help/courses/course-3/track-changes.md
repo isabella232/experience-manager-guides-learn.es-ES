@@ -2,10 +2,10 @@
 title: Seguimiento de cambios
 description: Seguimiento de cambios en las guías de AEM
 exl-id: 57779920-b3b4-44be-a1fb-89ea7c89eef7
-source-git-commit: 7bc636b4aceee327d86cfa74a9f8e61e0ad0a1cf
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '512'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Puede realizar un seguimiento de todas las actualizaciones realizadas en un documento activando el modo Seguimiento de cambios . Este modo permite a usted y a su equipo capturar todas las inserciones y eliminaciones durante el proceso de revisión del documento.
 
->[!VIDEO](https://video.tv.adobe.com/v/342763)
+>[!VIDEO](https://video.tv.adobe.com/v/342763?quality=12&learn=on)
 
 ## Trabajar con la función de seguimiento de cambios
 

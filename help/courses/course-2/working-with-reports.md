@@ -2,7 +2,7 @@
 title: Uso de informes
 description: Uso de informes en [!DNL Adobe Experience Manager Guides]
 exl-id: 755506a6-c416-4a8c-8359-8db7e63a90a4
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 La ficha Informes del panel de mapas le permite identificar y resolver vínculos rotos, contenido al que se hace referencia y reutilizado (conrefs), referencias cruzadas u otra información que falte.
 
->[!VIDEO](https://video.tv.adobe.com/v/339039)
+>[!VIDEO](https://video.tv.adobe.com/v/339039?quality=12&learn=on)
 
 ## Preparación del ejercicio
 

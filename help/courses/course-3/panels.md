@@ -2,7 +2,7 @@
 title: Paneles
 description: Uso de paneles en AEM guías
 exl-id: 24ecfc93-3540-4efa-ae85-afb346454b7f
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '1446'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 El Editor web de guías de AEM se divide en varias secciones, incluidas una barra de herramientas principal, una barra de herramientas secundaria, un panel izquierdo, un área de edición de contenido y un panel derecho.
 
->[!VIDEO](https://video.tv.adobe.com/v/342760)
+>[!VIDEO](https://video.tv.adobe.com/v/342760?quality=12&learn=on)
 
 ## Cambiar el tamaño del panel izquierdo
 
@@ -263,7 +263,7 @@ El panel derecho contiene un método abreviado para iniciar un flujo de trabajo 
 
 3. En el cuadro de diálogo Crear tarea de revisión , rellene los campos como sea necesario.
 
-4. Haga clic en [!UICONTROL **Siguiente**]. 
+4. Haga clic en [!UICONTROL **Siguiente**].
 
 Se crea la tarea de revisión.
 

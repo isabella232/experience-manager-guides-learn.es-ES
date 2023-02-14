@@ -2,7 +2,7 @@
 title: Perfiles de carpeta
 description: Creación y uso de perfiles de carpeta para guías de AEM
 exl-id: 5a0daa68-51ae-42d0-8320-6e8bdb1fe545
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 1%
@@ -15,7 +15,7 @@ AEM proporciona acceso rápido a las herramientas de configuración. Al personal
 
 Los archivos de muestra que puede utilizar para esta lección se proporcionan en el archivo . [folderprofiles.zip](assets/folderprofiles.zip).
 
->[!VIDEO](https://video.tv.adobe.com/v/342758)
+>[!VIDEO](https://video.tv.adobe.com/v/342758?quality=12&learn=on)
 
 ## Acceso a perfiles de carpeta
 
