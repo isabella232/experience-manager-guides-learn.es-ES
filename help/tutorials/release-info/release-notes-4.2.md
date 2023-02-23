@@ -1,9 +1,10 @@
 ---
 title: Notas de la versión | Versión de las guías de Adobe Experience Manager 4.2
 description: Última versión de las guías de Adobe Experience Manager
-source-git-commit: 2fb46bdfb7f42fd9b3ef19343700009818c5b4f2
+exl-id: 8a7fef77-63af-462f-89c5-054ab31e079b
+source-git-commit: 890d64aed5f4005e3f4d3143bc35804e39036ad3
 workflow-type: tm+mt
-source-wordcount: '3681'
+source-wordcount: '3668'
 ht-degree: 2%
 
 ---
@@ -251,12 +252,12 @@ Aparece una barra de cambios en el PDF para indicar el contenido modificado, ins
 ### PDF nativo | Compatibilidad de variables para Ruta de salida y nombre de archivo del PDF
 
 Ahora también puede utilizar las siguientes variables predeterminadas para definir la ruta de salida y el archivo de PDF. Puede utilizar una o una combinación de variables para definir estas opciones:
-* ${map_filename}
-* ${map_title}
-* ${preset_name}
-* ${language_code}
-* ${map_parentpath} (solo para la ruta de salida)
-* ${path_after_langfolder} (solo para la ruta de salida)
+* `${map_filename}`
+* `${map_title}`
+* `${preset_name}`
+* `${language_code}`
+* `${map_parentpath}` (solo para la ruta de salida)
+* `${path_after_langfolder}` (solo para la ruta de salida)
 
 ### PDF nativo | Generar tabla de contenido para mapas DITA y reordenar diseños de página
 
