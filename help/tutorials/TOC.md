@@ -2,9 +2,9 @@
 user-guide-title: Tutoriales para AEM Guides
 user-guide-description: Lea nuestra colección de tutoriales para Adobe Experience Manager Guides.
 breadcrumb-title: Tutoriales de AEM Guides
-source-git-commit: ae85e78b428f1962945d3212f1b42839dbbe3096
+source-git-commit: fefff9510c94c1917da694e30ffaf90bb887b577
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '179'
 ht-degree: 18%
 
 ---
@@ -57,3 +57,4 @@ ht-degree: 18%
       + [Traducir contenido](./knowledge-base/expert-sessions/translating-content-using-aem-guides-oct22.md)
       + [Administrar contenido mediante líneas de base](./knowledge-base/expert-sessions/baselines-dec22.md)
       + [Creación de contenido basado en web](./knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
+      + [Aspectos básicos de la publicación del PDF nativo](./knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
