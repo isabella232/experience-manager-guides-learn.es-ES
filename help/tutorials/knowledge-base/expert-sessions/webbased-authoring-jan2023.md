@@ -2,9 +2,9 @@
 title: Creación de contenido basado en web
 description: Aprenda a crear contenido estructurado mediante el editor web.
 exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
-source-git-commit: cb7cb66eb4ba81120afb43582867e859661b434c
+source-git-commit: 285dbf9ea7eb5eb4288dfbdfc977d35b2feef111
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ En esta sesión, aprenderá lo siguiente:
 
 ## Próxima reunión de expertos
 
-- **Tema** - Publicación nativa de PDF *(en función de los resultados de la encuesta)*
+- **Tema** - [Aspectos básicos de la publicación del PDF nativo](native-pdf-publishing-essentials-feb23.md)
 - **Programado el** - 23 de febrero de 2023
 
 ## Contáctenos

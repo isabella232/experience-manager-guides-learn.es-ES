@@ -1,9 +1,9 @@
 ---
 title: Aspectos básicos de la publicación del PDF nativo
 description: Aprenda a publicar un PDF con el motor pdf nativo en las guías de AEM.
-source-git-commit: b79e7287cdf7eaff0a6fa47d94e12c8928a44b49
+source-git-commit: 285dbf9ea7eb5eb4288dfbdfc977d35b2feef111
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ En esta sesión, aprenderá lo siguiente:
 
 - **Vídeos de funciones** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **Guía del usuario** - [Contenido de creación](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/configuring/config-native-pdf-publish/pdf-template.html?lang=en)
+- **Guía del usuario** - [Publicación del PDF nativo](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/configuring/config-native-pdf-publish/pdf-template.html?lang=en)
 
 - **Foro de la comunidad** - Para interacciones comunitarias específicas de sesión en el Experience League, visite  [Foro de guías AEM](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
@@ -53,7 +53,7 @@ En esta sesión, aprenderá lo siguiente:
 
 ## Próxima reunión de expertos
 
-- **Tema** - Publicación e informes *(en función de los resultados de la encuesta)*
+- **Tema** - TBD *(a la espera de los resultados de la encuesta)*
 - **Programado el** - 30 de marzo de 2023
 
 ## Contáctenos
