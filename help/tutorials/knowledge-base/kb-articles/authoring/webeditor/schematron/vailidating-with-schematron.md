@@ -1,60 +1,60 @@
 ---
-title: Compatibilidad con schematron en webeditor
-description: Uso de schematron en webeditor
-source-git-commit: 2a036ec628424f0dedfdb69a5e860906ca100cc6
+title: Compatibilidad con Schematron en el editor web
+description: Uso de Schematron en el editor web
+exl-id: 3e61432f-d81e-446e-b0ad-560f5b9fa91a
+source-git-commit: f3c8ec973d3a6369d6135a33f61584c8bf7d083d
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 0%
 
 ---
 
+# Control de la calidad del contenido en el editor web
 
-# Control de la calidad del contenido dentro del editor web
+AEM Este artículo ofrece una descripción general de las posibilidades de validación dentro del editor web de Guides de.
+Al diseñar, el editor web aprovecha la configuración de esquema DITA en el sistema para obligar a los usuarios a crear contenido compatible con DITA. Con esto, todo el contenido almacenado en el sistema es contenido DITA estructurado, reutilizable y válido.
 
-Este artículo ofrece información general sobre las posibilidades de validación dentro del editor web de guías de AEM.
-Por medio del editor web de diseño, aprovecha la configuración del esquema DITA en el sistema para obligar a los usuarios a crear contenido compatible con DITA. Con esto, todo el contenido almacenado en el sistema es contenido DITA estructurado, reutilizable y válido.
+Más allá de la compatibilidad con las reglas DITA, el editor web también admite la validación de contenido en función de &quot;*Schematron*&quot; reglas.
 
-Además de la compatibilidad con las reglas de DITA, el editor web también admite la validación de contenido basado en &quot;*Esquatrón*&quot;.
+&quot;*Schematron*&quot; hace referencia a un lenguaje de validación basado en reglas que se utiliza para definir pruebas para un archivo XML. Puede importar los archivos de Schematron y también editarlos en el Editor Web. Con un fichero &quot;Schematron&quot; se pueden definir determinadas reglas y, a continuación, validarlas para un tema DITA o un mapa. Las reglas de Schematron pueden garantizar la coherencia de la estructura XML mediante la imposición de restricciones definidas como reglas. Estas restricciones están impulsadas por PYME que son propietarias de la calidad y coherencia del contenido.
 
-&quot;*Esquatrón*&quot; hace referencia a un lenguaje de validación basado en reglas utilizado para definir pruebas para un archivo XML. Puede importar los archivos de Esquema y editarlos también en el Editor web. Con un archivo &quot;schematron&quot; puede definir determinadas reglas y después validarlas para un tema DITA o un mapa. Las reglas de esquema pueden garantizar la coherencia de la estructura XML mediante la imposición de restricciones definidas como reglas. Estas restricciones están impulsadas por las PYME que son propietarias de la calidad y la coherencia del contenido.
-
-    NOTA: El editor web admite el esquema ISO.
-
-
-## Cómo funciona &quot;Schemaatron&quot; en el editor web
-
-### Configuración de reglas de esquema
-
-Consulte la sección &quot;Compatibilidad con archivos de esquema&quot; en la sección [Guía del usuario](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=148)
+    NOTA: El editor web es compatible con ISO Schematron.
 
 
-### Aplicar reglas de validación al guardar archivos
+## Saber cómo funciona &quot;Schematron&quot; en el editor web
 
-La configuración de Webeditor permite a los usuarios de energía configurar reglas o archivos de esquema que se ejecutan cada vez que un usuario actualiza el contenido. Para obtener más información, consulte la sección &quot;Validación&quot; en [Guía del usuario](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=58)
+### Configuración de reglas de Schematron
 
-![Definir reglas a partir de la configuración del editor web](../../../assets/authoring/schematron-editorsettings-validation-tab.png)
+Consulte la sección &quot;Compatibilidad con archivos de Schematron&quot; en la [Guía del usuario](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=148)
+
+
+### Aplicar reglas de validación al guardar el archivo
+
+La configuración de Editor web permite a los usuarios avanzados configurar las reglas o archivos de Schematron que se ejecutarán cada vez que un usuario actualice el contenido. Para obtener más información, consulte la sección Validación en [Guía del usuario](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=58)
+
+![Establecer reglas a partir de la configuración del editor web](../../../assets/authoring/schematron-editorsettings-validation-tab.png)
 
 
 ### ¿Puede ejecutar la validación manualmente?
 
-Sí, como autor/usuario durante la creación de contenido, puede utilizar el panel Esquatrón de webeditor para cargar un archivo de esquema y ejecutar validaciones en el archivo abierto en editor.
+Sí, como autor/usuario mientras crea contenido, puede utilizar el panel Schematron en el editor web para cargar un archivo schematron y ejecutar validaciones en el archivo abierto en el editor.
 
-    Para que esto funcione, el administrador de perfiles de carpetas debe permitir que todos los usuarios agreguen archivos de esquema en el panel Validación. Ver configuración del editor (captura de pantalla proporcionada anteriormente)
+    Para que esto funcione, el administrador de perfiles de carpeta debe permitir que todos los usuarios agreguen archivos Schemtron en el panel Validación. Consulte la configuración del editor (captura de pantalla anterior)
 
-![Elegir archivo de esquema](../../../assets/authoring/schematron-rightpanel-validation-addsch.png)
+![Elegir archivo de Schematron](../../../assets/authoring/schematron-rightpanel-validation-addsch.png)
 ![Ejecutar validación](../../../assets/authoring/schematron-rightpanel-validation-runsch.png)
 
 
 ### Reglas compatibles
 
-La versión actual de AEM guías admite la validación utilizando reglas basadas en &quot;aserción&quot; únicamente. (consulte [recurso frente a informe](https://schematron.com/document/205.html)) Todavía no se admiten reglas basadas en &quot;Informes&quot;.
+AEM La versión actual de las Guías de admite la validación mediante reglas basadas en la &quot;Afirmación&quot; únicamente. (consulte [recurso o informe](https://schematron.com/document/205.html)) Todavía no se admiten reglas basadas en &quot;Informes&quot;.
 
 
-### Ejemplos y más ayuda sobre las reglas de esquema
+### Ejemplos y más ayuda sobre las reglas de Schematron
 
 #### Ejemplos de uso
 
-- Compruebe si un vínculo es externo y si tiene el ámbito &quot;externo&quot;
+- Compruebe si un vínculo es externo y si tiene un ámbito &quot;externo&quot;
 
    ```
    <sch:pattern>
@@ -66,7 +66,7 @@ La versión actual de AEM guías admite la validación utilizando reglas basadas
    </sch:pattern>
    ```
 
-- Compruebe si hay al menos un &quot;topicref&quot; en un mapa o al menos un &quot;li&quot; debajo de un &quot;ul&quot;
+- Compruebe si hay al menos una &quot;referencia de tema&quot; en un mapa o al menos una &quot;li&quot; debajo de una &quot;ul&quot;
 
    ```
    <sch:pattern>
@@ -84,7 +84,7 @@ La versión actual de AEM guías admite la validación utilizando reglas basadas
    </sch:pattern>
    ```
 
-- El elemento &quot;indexterm&quot; siempre debe estar presente en un &quot;prolog&quot;
+- El elemento &quot;indexterm&quot; siempre debe estar presente en un &quot;prólogo&quot;
 
    ```
    <sch:pattern>
@@ -98,6 +98,6 @@ La versión actual de AEM guías admite la validación utilizando reglas basadas
 
 #### Recursos
 
-- Explicación  [Conceptos básicos del esquema](https://da2022.xatapult.com/#what-is-schematron)
-- Más información sobre [Reglas de aserción en el esquema](https://www.xml.com/pub/a/2003/11/12/schematron.html#Assertions)
-- [Archivo de esquema de muestra](../../../assets/authoring/sample_schematron.sch)
+- Comprensión  [Conceptos básicos de Schematron](https://da2022.xatapult.com/#what-is-schematron)
+- Más información sobre [Reglas de aserción en Schematron](https://www.xml.com/pub/a/2003/11/12/schematron.html#Assertions)
+- [Archivo de Schematron de muestra](../../../assets/authoring/sample_schematron.sch)
