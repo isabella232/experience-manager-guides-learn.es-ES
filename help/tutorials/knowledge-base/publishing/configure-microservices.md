@@ -1,7 +1,7 @@
 ---
 title: AEM Configuración de una nueva publicación basada en microservicios para guías de la aplicación de la as a Cloud Service
 description: AEM Aprenda a configurar nuevas publicaciones basadas en microservicios para guías de.
-source-git-commit: afbc1712cf45dd0b570e20683946af6a86edae7e
+source-git-commit: c2981b5635353eb84c9e46a03de1b1ed07aa5bf3
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Como el nuevo servicio de publicación en la nube está protegido por la autenti
 
 Realice los siguientes pasos para crear configuraciones de IMS en la consola de Adobe Developer:
 
-1. Abra la consola de desarrollador: `https://developer.adobe.com/console`.
+1. Abra Developer Console: `https://developer.adobe.com/console`.
 
 1. Cambiar a **Proyectos** desde la parte superior.
 
