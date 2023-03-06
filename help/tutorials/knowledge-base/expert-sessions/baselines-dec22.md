@@ -2,18 +2,18 @@
 title: Administrar contenido mediante líneas de base
 description: Aprenda a utilizar líneas de base para administrar el contenido de forma eficaz.
 exl-id: 3fc2e889-b255-4e8d-9750-ab61337107ae
-source-git-commit: cb7cb66eb4ba81120afb43582867e859661b434c
+source-git-commit: 3d12389dbd7458a74bb9b9ec488e83bf39c8c9bf
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
 
 # Administrar contenido mediante líneas de base
 
-La administración de versiones en AEM guías se realiza mediante una línea de base que le permite elegir una versión de los temas y recursos, que luego se puede utilizar para publicar o traducir.
+AEM La administración de versiones en Guías de se realiza mediante una línea de base que le permite elegir una versión de los temas y recursos, que luego se puede utilizar para la publicación o traducción.
 
-## Información general de la sesión
+## Resumen de sesión
 
 En esta sesión, aprenderá a utilizar líneas de base para administrar el contenido de forma eficaz.
 
@@ -26,36 +26,31 @@ En esta sesión, aprenderá a utilizar líneas de base para administrar el conte
 - **Fecha** - 8 de diciembre de 2022
 - **Número de asistentes** - 64
 - **Duración** - 60 minutos
-- **Audiencia** - Clientes, socios y empleados del Adobe
+- **Audiencia** - Clientes, socios y empleados de Adobe
 
-## Principales tomas
+## Puntos clave
 
 En esta sesión, aprenderá lo siguiente:
-- Diferentes operaciones de línea de base en AEM guías
+- AEM Diferentes operaciones de línea de base en las guías de la
 - Descargar, publicar y traducir con una línea de base
 - Prácticas recomendadas para usar una línea de base
-- Eche un vistazo a una nueva función que se presentará próximamente, **Crear líneas de base dinámicas**
+- Un vistazo a una nueva funcionalidad, **Crear líneas base dinámicas**
 
 ## Recursos relacionados
 
 - **Vídeos de funciones** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **Guía del usuario** - [Trabajo con línea de base](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)
+- **Guía del usuario** - [Trabajar con línea base](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)
 
-- **Foro de la comunidad** - Para interacciones comunitarias específicas de sesión en el Experience League, visite [Foro de guías AEM](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Foro de la comunidad** - Para interacciones de la comunidad específicas de la sesión en Experience League, visite [AEM Foro de guías de](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
->Las funciones que se muestran en esta sesión están disponibles en las siguientes versiones de AEM guías:
-> - On-prem 4.1 y posteriores
-> - Cloud Services 2211 y posteriores
+>AEM Las funciones que se muestran en esta sesión están disponibles en las siguientes versiones de las Guías de:
+> - On-Prem 4.1 y posterior
+> - Cloud Services 2211 y posterior
 
 
-## Próxima reunión de expertos
+## Contáctenos.
 
-- **Tema** - [Creación de contenido basado en web](webbased-authoring-jan2023.md)
-- **Programado el** - 19 de enero de 2023
-
-## Contáctenos
-
-Para cualquier consulta, envíenos un correo electrónico a <techcomm@adobe.com>
+Si tiene cualquier pregunta, envíenos un correo electrónico a <techcomm@adobe.com>

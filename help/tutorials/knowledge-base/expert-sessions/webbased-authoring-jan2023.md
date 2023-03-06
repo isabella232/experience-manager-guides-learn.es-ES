@@ -2,20 +2,20 @@
 title: Creación de contenido basado en web
 description: Aprenda a crear contenido estructurado mediante el editor web.
 exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
-source-git-commit: 285dbf9ea7eb5eb4288dfbdfc977d35b2feef111
+source-git-commit: 3d12389dbd7458a74bb9b9ec488e83bf39c8c9bf
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
 
 # Creación de contenido basado en web
 
-AEM guías incluye un editor web para la creación de contenido estructurado. Puede trabajar con una experiencia de creación simplificada basada en la web, pero sin embargo, puede optar por utilizar o habilitar capacidades potentes como validación de contenido condicional, revisión ortográfica, reutilización de contenido, validación de referencia, nombres descriptivos y ecuaciones matemáticas de autor.
+AEM Guías de viene con un editor web integrado para crear contenido estructurado. Puede trabajar con una experiencia de creación simplificada basada en la web, pero aun así puede elegir utilizar o habilitar potentes funcionalidades como validación de contenido condicional, revisión ortográfica, reutilización de contenido, validación de referencias, nombres prácticos y ecuaciones matemáticas de autor.
 
-## Información general de la sesión
+## Resumen de sesión
 
-En esta sesión, aprenderá a crear, publicar y administrar contenido con el editor web.
+En esta sesión, aprenderá a crear, publicar y administrar contenido mediante el editor web.
 
 ## Grabación de sesión
 
@@ -26,36 +26,31 @@ En esta sesión, aprenderá a crear, publicar y administrar contenido con el edi
 - **Fecha** - 19 de enero de 2023
 - **Número de asistentes** - 89
 - **Duración** - 60 minutos
-- **Audiencia** - Clientes, socios y empleados del Adobe
+- **Audiencia** - Clientes, socios y empleados de Adobe
 
-## Principales tomas
+## Puntos clave
 
 En esta sesión, aprenderá lo siguiente:
-- Configuración del editor web
-- Utilice las funcionalidades del editor web para mejorar la productividad de los autores
-- Ampliar e integrar las funciones disponibles
-- Personalización del editor web personalizando estilos o marcas
+- Configure las opciones del editor web
+- Uso de las funciones de editor web para mejorar la productividad de los autores
+- Ampliación e integración de las funciones disponibles
+- Personalice el editor web personalizando los estilos o la marca.
 
 ## Recursos relacionados
 
 - **Vídeos de funciones** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **Guía del usuario** - [Contenido de creación](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map/authoring-content.html)
+- **Guía del usuario** - [Contenido del autor](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map/authoring-content.html)
 
-- **Foro de la comunidad** - Para interacciones comunitarias específicas de sesión en el Experience League, visite  [Foro de guías AEM](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Foro de la comunidad** - Para interacciones de la comunidad específicas de la sesión en Experience League, visite  [AEM Foro de guías de](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
-> Las funciones que se muestran en esta sesión están disponibles en las siguientes versiones de AEM guías:
-> - On-prem 4.1.3 o posterior
-> - Cloud Services 2211 y posteriores
+> AEM Las funciones que se muestran en esta sesión están disponibles en las siguientes versiones de las Guías de:
+> - Local 4.1.3 o posterior
+> - Cloud Services 2211 y posterior
 
 
-## Próxima reunión de expertos
+## Contáctenos.
 
-- **Tema** - [Aspectos básicos de la publicación del PDF nativo](native-pdf-publishing-essentials-feb23.md)
-- **Programado el** - 23 de febrero de 2023
-
-## Contáctenos
-
-Para cualquier consulta, envíenos un correo electrónico a <techcomm@adobe.com>
+Si tiene cualquier pregunta, envíenos un correo electrónico a <techcomm@adobe.com>

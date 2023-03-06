@@ -2,18 +2,18 @@
 title: Traducir contenido
 description: Aprenda a traducir el contenido a varios idiomas.
 exl-id: c8dacbdc-4b0b-44ca-82d4-889cd83741ff
-source-git-commit: cb7cb66eb4ba81120afb43582867e859661b434c
+source-git-commit: 3d12389dbd7458a74bb9b9ec488e83bf39c8c9bf
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '183'
 ht-degree: 2%
 
 ---
 
 # Traducir contenido
 
-AEM Guías proporciona la solución definitiva para la creación de contenido multilingüe con capacidades de traducción sólidas.
+AEM Guías de traducción proporciona la solución definitiva para la creación de contenido multilingüe con capacidades de traducción sólidas.
 
-## Información general de la sesión
+## Resumen de sesión
 
 En esta sesión, aprenderá sobre el proceso de traducción, el mecanismo de integración y la rentabilidad de los flujos de trabajo de traducción humana y automática.
 
@@ -26,13 +26,13 @@ En esta sesión, aprenderá sobre el proceso de traducción, el mecanismo de int
 - **Fecha** - 27 de octubre de 2022
 - **Número de asistentes** - 94
 - **Duración** - 60 minutos
-- **Audiencia** - Clientes, socios y empleados del Adobe
+- **Audiencia** - Clientes, socios y empleados de Adobe
 
-## Principales tomas
+## Puntos clave
 
 En esta sesión, aprenderá lo siguiente:
-- Razones por las que las empresas invierten en la traducción para mejorar su negocio
-- Mecanismo del marco disponible y proceso de traducción
+- Razones por las que las empresas invierten en traducción para mejorar su negocio
+- Mecanismo del marco de trabajo disponible y proceso de traducción
 - Automatización del flujo de trabajo de traducción, las API y el panel
 - Prácticas recomendadas para la traducción de contenido estructurado
 
@@ -42,20 +42,15 @@ En esta sesión, aprenderá lo siguiente:
 
 - **Guía del usuario** - [Traducir contenido](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ftranslation.html)
 
-- **Foro de la comunidad** - Para interacciones comunitarias específicas de sesión en el Experience League, visite [Foro de guías AEM](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)
+- **Foro de la comunidad** - Para interacciones de la comunidad específicas de la sesión en Experience League, visite [AEM Foro de guías de](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)
 
 >[!NOTE]
 >
-> Las funciones que se muestran en esta sesión están disponibles en las siguientes versiones de AEM guías:
-> - On-prem 4.1 o posterior
+> AEM Las funciones que se muestran en esta sesión están disponibles en las siguientes versiones de las Guías de:
+> - Local 4.1 o posterior
 > - Cloud Services 2207 o posterior
 
 
-## Próxima reunión de expertos
+## Contáctenos.
 
-- **Tema** - [Administrar contenido mediante líneas de base](baselines-dec22.md)
-- **Programado el** - 8 de diciembre de 2022
-
-## Contáctenos
-
-Para cualquier consulta, envíenos un correo electrónico a <techcomm@adobe.com>
+Si tiene cualquier pregunta, envíenos un correo electrónico a <techcomm@adobe.com>
