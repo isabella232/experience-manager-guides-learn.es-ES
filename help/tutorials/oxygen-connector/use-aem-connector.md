@@ -1,10 +1,16 @@
 ---
-source-git-commit: 2e1f1644e5f22fc928ad813f46137a3f284df022
+title: Complemento de oxígeno para guías de Adobe Experience Manager
+description: Aprenda a utilizar el complemento Oxygen para las guías de Adobe Experience Manager para crear y administrar su contenido.
+hide: true
+hidefromtoc: true
+source-git-commit: d52a3c2a09a5a3d8e572191b4f4ebf1aa25f30df
 workflow-type: tm+mt
-source-wordcount: '5800'
+source-wordcount: '5812'
 ht-degree: 1%
 
 ---
+
+
 # Complemento de oxígeno para guías de Adobe Experience Manager {#id1645H6010Q5}
 
 El complemento Oxygen para Adobe Experience Manager AEM Guides \(más adelante denominado complemento Oxygen para guías de la guía) le permite conectar Oxygen XML Author con el repositorio Adobe Experience Manager AEM \(\) para crear y administrar contenido. AEM Puede utilizar el complemento para examinar, buscar y abrir archivos, desproteger y proteger archivos, cargar carpetas y archivos en el repositorio de. AEM AEM El panel Guías de la aplicación de escritorio de le permite marcar las carpetas deseadas \(del repositorio de\) a la lista de carpetas favoritas para acceder rápidamente a ellas. AEM AEM Además, puede instalar un paquete en la interfaz web y abrir los archivos DITA en Oxygen XML Author directamente desde la interfaz web de la.
@@ -17,7 +23,7 @@ AEM El complemento Oxygen para guías de está disponible a través de su portal
 
 Una vez que tenga el instalador, instálelo en el equipo local donde esté instalado Oxygen XML Author. AEM Antes de comenzar el proceso de instalación, debe asegurarse de que su sistema cumpla los requisitos técnicos para instalar el complemento de oxígeno para guías de la.
 
-### Requisitos técnicos { .section}
+### Requisitos técnicos
 
 - Oxygen XML Author versión 24.1
 
@@ -30,7 +36,7 @@ Una vez que tenga el instalador, instálelo en el equipo local donde esté insta
 - Java Development Kit
    - Oracle SE 8 JRE 1.8
 
-### Instalar el complemento en Windows { .section}
+### Instalación del complemento en Windows
 
 **Importante:**
 
@@ -42,18 +48,18 @@ Realice los siguientes pasos en el sistema donde está instalado Oxygen XML Auth
 
    Aparecerá la pantalla de bienvenida del asistente de instalación.
 
-2. Clic **Siguiente** y busque la ubicación donde esté disponible el archivo .exe de Oxygen XML Author.
+1. Clic **Siguiente** y busque la ubicación donde esté disponible el archivo .exe de Oxygen XML Author.
 
-3. Seleccione el archivo y haga clic en **Abrir**.
+1. Seleccione el archivo y haga clic en **Abrir**.
 
    La ubicación del archivo seleccionado se agrega en el asistente de instalación.
 
-4. Haga clic en **Siguiente**.
+1. Haga clic en **Siguiente**.
 
-5. Clic **Instalar**.
+1. Clic **Instalar**.
 
-6. Clic **Finalizar** para cerrar el asistente de instalación.
-7. Inicie Oxygen XML Author.
+1. Clic **Finalizar** para cerrar el asistente de instalación.
+1. Inicie Oxygen XML Author.
 
    AEM El panel Guías de la se muestra en Oxygen XML Author.
 
@@ -64,7 +70,7 @@ Realice los siguientes pasos en el sistema donde está instalado Oxygen XML Auth
    AEM Si no ve el panel Guías de, consulte las soluciones en la sección Solución de problemas:[AEM Falta el panel Guías de](#id192BH200ZAX).
 
 
-### Instalar el complemento en Mac { .section}
+### Instalación del complemento en Mac
 
 **Importante:**
 
@@ -72,9 +78,9 @@ Si tiene una versión anterior del complemento instalado en el sistema, asegúre
 
 Realice los siguientes pasos en el sistema donde está instalado Oxygen XML Author:
 
-1. Busque el archivo .dmg del complemento en su sistema.
+1. Localice el archivo .dmg del complemento en su sistema.
 
-2. Haga doble clic en el archivo .dmg para abrir el contenido del archivo.
+1. Haga doble clic en el archivo .dmg para abrir el contenido del archivo.
 
    El archivo .dmg contiene una carpeta aem-connector-x.x y un archivo aem-connector-x.x-setup.
 
@@ -82,10 +88,10 @@ Realice los siguientes pasos en el sistema donde está instalado Oxygen XML Auth
 
    x.x en los nombres de archivo es el número de versión del complemento.
 
-3. Copie la carpeta aem-connector-x.x en la carpeta de complementos de Oxygen XML Author.
-4. Haga doble clic en el archivo aem-connector-x.x-setup para iniciar el instalador.
+1. Copie la carpeta aem-connector-x.x en la carpeta de complementos de Oxygen XML Author.
+1. Haga doble clic en el archivo aem-connector-x.x-setup para iniciar el instalador.
 
-5. Inicie Oxygen XML Author.
+1. Inicie Oxygen XML Author.
 
    AEM El panel Guías de la se muestra en Oxygen XML Author.
 
@@ -96,14 +102,14 @@ Realice los siguientes pasos en el sistema donde está instalado Oxygen XML Auth
    AEM Si no ve el panel Guías de, consulte las soluciones en la sección Solución de problemas:[AEM Falta el panel Guías de](#id192BH200ZAX).
 
 
-### AEM Instale el paquete para habilitar la función de edición de documentos desde la interfaz web de {#id182CE0Q0TY4 .section}
+### AEM Instale el paquete para habilitar la función de edición de documentos desde la interfaz web de {#id182CE0Q0TY4}
 
 AEM Como autor, puede abrir y editar sus mapas o temas DITA en Oxygen XML Author directamente desde la interfaz web de la. AEM AEM AEM Para habilitar esta función en interfaz web, el administrador de la debe instalar un paquete en la instancia de creación de la aplicación.
 
 AEM Como administrador de la, realice los siguientes pasos para instalar el paquete:
 
 1. Obtenga el archivo .zip del paquete de su equipo de TI.
-2. AEM Inicie sesión en la instancia de *\(como administrador\)* y vaya al Administrador de paquetes CRX. La URL predeterminada para acceder al administrador de paquetes es
+1. AEM Inicie sesión en la instancia de *\(como administrador\)* y vaya al Administrador de paquetes CRX. La URL predeterminada para acceder al administrador de paquetes es
 
    ```
    http://<server name>:<port>/crx/packmgr/index.jsp
@@ -113,18 +119,18 @@ AEM Como administrador de la, realice los siguientes pasos para instalar el paqu
 
    ![](images/package-manager.png)
 
-3. Para cargar el paquete Oxygen, haga clic en **Cargar paquete**.
-4. En el cuadro de diálogo Cargar paquete, vaya al archivo del paquete Oxygen que descargó en el paso 1 y haga clic en Aceptar.
+1. Para cargar el paquete Oxygen, haga clic en **Cargar paquete**.
+1. En el cuadro de diálogo Cargar paquete, vaya al archivo del paquete Oxygen que descargó en el paso 1 y haga clic en Aceptar.
 
    AEM El paquete se cargará en la instancia de la.
 
-5. Para iniciar el proceso de instalación, haga clic en **Instalar**.
+1. Para iniciar el proceso de instalación, haga clic en **Instalar**.
 
    ![](images/oxygen-package.png)
 
-6. En el diálogo Instalar paquete, haga clic en **Instalar**.
-7. Una vez finalizada la instalación, haga clic en el botón Inicio en la esquina superior izquierda del Administrador de paquetes CRX.
-8. Seleccione un archivo DITA en la carpeta de recursos.
+1. En el diálogo Instalar paquete, haga clic en **Instalar**.
+1. Una vez finalizada la instalación, haga clic en el botón Inicio en la esquina superior izquierda del Administrador de paquetes CRX.
+1. Seleccione un archivo DITA en la carpeta de recursos.
 
    **Editar en oxígeno** está disponible en la barra de herramientas. Para obtener más información sobre esta opción, consulte [AEM Abrir el tema DITA en Oxygen XML Author desde la interfaz web de la interfaz de usuario de](#id182CE0I905Z).
 
@@ -141,7 +147,7 @@ Después de descargar e instalar el complemento, debe configurar lo siguiente pa
 - **Configuración general** AEM : Configuración de conexión para el complemento, como la URL del servidor de, detalles de inicio de sesión, etc.
 - **Preferencia para la personalización de atributos de perfil**: Esta configuración es necesaria para los esquemas de atributos de generación de perfiles de los conjuntos de documentación.
 
-### Configuración de autenticación web { .section}
+### Configuración de autenticación web
 
 JxBrowser se utiliza para la autenticación SSO mediante el complemento Conector de oxígeno. Es un navegador basado en cromo. Para java 9+, se requiere acceso a las API no públicas y el usuario debe conceder explícitamente este acceso a JxBrowser. Para obtener más información, consulte [Solución de problemas de JxBrowser](https://jxbrowser-support.teamdev.com/docs/guides/troubleshooting/issues.html).
 
@@ -181,7 +187,7 @@ Añada las siguientes líneas en oxygenAuthor.bat
 
 Debe ejecutar oxígeno desde oxygenAuthor.sh para Mac y oxygenAuthor.bat para Windows como administrador.
 
-### Configuración general { .section}
+### Configuración general
 
 Realice los siguientes pasos para configurar las opciones de conexión en el complemento Oxygen para Adobe Experience Manager Guides:
 
@@ -189,7 +195,7 @@ Realice los siguientes pasos para configurar las opciones de conexión en el com
 
    ![](images/Settings.png)
 
-2. Especifique los siguientes detalles:
+1. Especifique los siguientes detalles:
    - **URL del servidor** AEM : URL del servidor de, por ejemplo:
 
       ```
@@ -212,45 +218,45 @@ Realice los siguientes pasos para configurar las opciones de conexión en el com
    - **Abrir archivo cuando está desprotegido**: si se selecciona, abre los archivos en el cierre de compra.
    - **Cerrar archivo al protegerlo**: si se selecciona, cierra los archivos al registrarse. Antes de cerrar el archivo, aparece una ventana emergente en la que puede especificar los comentarios de la versión.
    - **Mostrar cuadro de diálogo Registrar al cerrar el archivo**: si se selecciona, aparece una ventana emergente al cerrar un archivo. En la ventana emergente, puede elegir proteger el archivo o cerrarlo sin protegerlo.
-   - **Archivo de desprotección automática al abrir**: si se selecciona, al hacer doble clic en un archivo, se extrae automáticamente y se abre para su edición. En caso de que el archivo ya esté desprotegido, simplemente se abrirá para editarlo. Si esta opción no está seleccionada, al abrir un archivo en el que no haya ningún bloqueo, se abrirá en modo de solo lectura.
-3. Haga clic en **Aceptar**.
+   - **Archivo de desprotección automática al abrir**: si se selecciona, al hacer doble clic en un archivo, se extrae automáticamente y se abre para su edición. En caso de que el archivo ya esté desprotegido, simplemente se abrirá para editarlo. Si esta opción no está seleccionada, al abrir un archivo sin bloqueo se abre en modo de solo lectura.
+1. Haga clic en **Aceptar**.
 
-### Preferencia para la personalización de atributos de perfil {#id1827K0D0OHT .section}
+### Preferencia para la personalización de atributos de perfil {#id1827K0D0OHT}
 
 AEM Es necesario configurar las preferencias en Oxygen XML Author para utilizar el atributo de generación de perfiles asociado a los temas DITA en el repositorio de la.
 
 Siga estos pasos para configurar los atributos de generación de perfiles:
 
 1. Haga clic en Oxygen XML Author **Opciones** \> **Preferencias**.
-2. En el **Asociación de tipo de documento** pestaña, seleccione **DITA** y haga clic en **Ampliar**.
+1. En el **Asociación de tipo de documento** pestaña, seleccione **DITA** y haga clic en **Ampliar**.
 
    ![](images/document_type_association.png)
 
-3. En el **Classpath** pestaña, seleccione com.adobe.o2.connector en la **Usar el cargador de clase principal del complemento con ID** menú desplegable.
+1. En el **Classpath** pestaña, seleccione com.adobe.o2.connector en la **Usar el cargador de clase principal del complemento con ID** menú desplegable.
 
    ![](images/DITA%20Extension.png)
 
-4. En el **Extensiones** , realice los cambios siguientes:
-5. 
+1. En el **Extensiones** , realice los cambios siguientes:
+1. 
    - Clic **Elegir** junto al **Escuchador de estado de extensión de autor** bajo **Extensiones individuales** y seleccione CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn en el **Clase** lista. Haga clic en **Aceptar**.
 - Clic **Elegir** junto al **Editor de valores de atributos personalizados de autor** bajo **Extensiones individuales** y seleccione CustomValueEditor - com.adobe.o2.framework.extn en la **Clase** lista. Haga clic en **Aceptar**.
 La siguiente captura de pantalla muestra el **Extensión** Ficha para temas de DITA:
 
    ![](images/dita-topic-extension-tab.png)
 
-6. Clic **OK** en todos los cuadros de diálogo para guardar los cambios.
+1. Clic **OK** en todos los cuadros de diálogo para guardar los cambios.
 
-### Configurar la extensión de mapa DITA { .section}
+### Configuración de la extensión de mapa DITA
 
 AEM La configuración de la extensión de mapa DITA es necesaria para permitir la apertura de archivos de mapa en Oxygen XML Author directamente desde la interfaz web de la. Estas configuraciones son similares a las configuraciones de generación de perfiles de atributos realizadas en el procedimiento anterior.
 
 Siga estos pasos para configurar la extensión de mapa DITA:
 
 1. Haga clic en Oxygen XML Author **Opciones** \> **Preferencias**.
-2. En el **Asociación de tipo de documento** pestaña, seleccione **Mapa DITA** y haga clic en **Ampliar**.
-3. En el **Classpath** pestaña, seleccione com.adobe.o2.connector en la **Usar el cargador de clase principal del complemento con ID** menú desplegable.
-4. En el **Extensiones** , realice los cambios siguientes:
-5. 
+1. En el **Asociación de tipo de documento** pestaña, seleccione **Mapa DITA** y haga clic en **Ampliar**.
+1. En el **Classpath** pestaña, seleccione com.adobe.o2.connector en la **Usar el cargador de clase principal del complemento con ID** menú desplegable.
+1. En el **Extensiones** , realice los cambios siguientes:
+1. 
    - Clic **Elegir** junto al **Escuchador de estado de extensión de autor** bajo **Extensiones individuales** y seleccione CustomDITAMapAuthorExtensionStateListener - com.adobe.o2.framework.extn en el **Clase** lista. Haga clic en **Aceptar**.
 - Clic **Elegir** junto al **Editor de valores de atributos personalizados de autor** bajo **Extensiones individuales** y seleccione CustomValueEditor - com.adobe.o2.framework.extn en la **Clase** lista. Haga clic en **Aceptar**.
 - *\(Opcional\)* Si no desea resolver las referencias al abrir un archivo de asignación, debe realizar la siguiente configuración adicional:
@@ -261,11 +267,11 @@ Siga estos pasos para configurar la extensión de mapa DITA:
 
    ![](images/dita-map-extension-tab.png)
 
-6. Clic **OK** en todos los cuadros de diálogo para guardar los cambios.
+1. Clic **OK** en todos los cuadros de diálogo para guardar los cambios.
 
 ## AEM Trabajar con el complemento de oxígeno para guías de {#id1826JG00WY4}
 
-### AEM Panel Guías de la {.section}
+### AEM Panel Guías de
 
 AEM En la siguiente pantalla se muestra el panel Guías de.
 
@@ -287,12 +293,12 @@ AEM En la siguiente pantalla se muestra el panel Guías de.
 - **Configuración**: Puede utilizar esta opción para abrir el cuadro de diálogo Preferencias generales del complemento.
 - **Cerrar sesión** AEM : seleccione esta opción para cerrar la conexión con el servidor de. Esta opción solo está disponible si utiliza el modo Autenticación web.
 
-### Funciones del menú contextual { .section}
+### Funciones del menú contextual
 
 AEM AEM Las funciones del complemento Oxygen para guías de están disponibles al hacer clic con el botón derecho en una carpeta o archivo del repositorio de. Las funciones disponibles para las carpetas son diferentes de los archivos. AEM A continuación se muestra una lista completa de funciones en el menú contextual del Complemento de oxígeno para guías de:
 
 - **Abrir**: abre el archivo seleccionado o expande la carpeta seleccionada.
-- **Abrir en** AEM : puede elegir abrir el archivo seleccionado en el Editor web de las guías de la aplicación, en el Tablero de mapas o en el Editor de mapas de las guías de la aplicación. Para obtener más información sobre estas opciones, consulte [AEM Abra el archivo en el editor de guías de.](#id195GH0V30KX).
+- **Abrir en** AEM : puede elegir abrir el archivo seleccionado en el Editor web de las guías de la aplicación, en el Tablero de mapas o en el Editor de mapas de las guías de la aplicación. Para obtener más información sobre estas opciones, consulte [AEM Abrir archivo en el editor de Guías de](#id195GH0V30KX).
 - **Fecha de salida** AEM : extrae un archivo del repositorio de la. Para obtener más información, consulte [Archivos de desprotección](#id195HC020TS4).
 - **Salida con dependientes**: extrae un archivo con sus referencias directas. Para obtener más información, consulte [Archivos de desprotección](#id195HC020TS4).
 - **Cierre de compra con dependientes de solo lectura**: extrae el archivo seleccionado junto con sus dependientes. No puede realizar ningún cambio en los archivos dependientes. Para obtener más información, consulte [Archivos de desprotección](#id195HC020TS4).
@@ -305,24 +311,24 @@ AEM AEM Las funciones del complemento Oxygen para guías de están disponibles a
 - **Cargar archivo\(s\)**: carga uno o varios archivos. Para obtener más información, consulte [Carga de archivos y carpetas](#id195HC03F03J).
 - **Cargar con dependientes**: carga archivos DITA \(XML, DITA, Book map o DITA map\) con sus dependientes. Para obtener más información, consulte [Carga de archivos y carpetas](#id195HC03F03J).
 - **Cargar carpeta** AEM : carga una carpeta en el repositorio de. Para obtener más información, consulte [Carga de archivos y carpetas](#id195HC03F03J).
-- **Añadir a Favoritos**: añade una carpeta a *Favoritos* AEM en el panel Guías de la. AEM Se recomienda añadir la carpeta de trabajo aquí, lo que facilita la sincronización de archivos y el estado del archivo desde la ubicación de la carpeta de trabajo de la carpeta de trabajo de la carpeta de trabajo de la carpeta de trabajo de la carpeta de.
+- **Añadir a Favoritos**: añade una carpeta a *Favoritos* AEM en el panel Guías de la. AEM Se recomienda agregar la carpeta de trabajo aquí, lo que facilita la sincronización de archivos y el estado del archivo desde el punto de vista de la vista de la vista de la vista de la vista de los archivos
 - **Eliminar de Favoritos**: quita una carpeta de *Favoritos*. Para obtener más información, consulte [Agregar o quitar Favoritos](#id195HC04405P).
 - **Ver metadatos**: muestra metadatos como la clase DITA, el título, el tipo, el UUID y otra información del documento asociada a un archivo. Para obtener más información, consulte [Visualización de los metadatos de un archivo](#id195GHN0H05C).
 - **Ver versiones**: muestra el historial de versiones de un archivo. Para obtener más información, consulte [Ver el historial de versiones de un archivo](#id195GI000D5Q).
 
-### Abra un archivo en Oxygen XML Author {#id195GHJ0A0UB .section}
+### Abra un archivo en Oxygen XML Author {#id195GHJ0A0UB}
 
 AEM Una vez que se haya conectado al repositorio de, puede abrir los archivos para editarlos en Oxygen XML Author. Realice los siguientes pasos para abrir un archivo para editarlo en Oxygen XML Author:
 
 1. AEM Haga clic con el botón secundario del mouse (ratón) en un archivo del panel Guías de la aplicación que desee abrir para editarlo.
 
-2. Seleccionar **Abrir** en el menú contextual.
+1. Seleccionar **Abrir** en el menú contextual.
 
    El archivo se abre en el editor de Oxygen XML Author.
 
    ![](images/guid-in-file-tab.png)
 
-   Cuando pasa el puntero del ratón sobre la pestaña de un archivo, se le muestra la ruta del servidor junto con su UUID. En la captura de pantalla anterior, se resalta el UUID del documento.
+   Cuando pasa el puntero del ratón sobre la pestaña de un archivo, se muestra la ruta del servidor junto con su UUID. En la captura de pantalla anterior, se resalta el UUID del documento.
 
 
 Si ha seleccionado la variable **Archivo de desprotección automática al abrir** opción \(en el cuadro de diálogo Preferencias\) y, al abrir un archivo, el archivo se desprotege automáticamente y está disponible para su edición. Para abrir un archivo, puede hacer doble clic en su nombre o hacer clic con el botón derecho en el nombre del archivo y elegir **Abrir** en el menú contextual. Si no se selecciona esta opción, el archivo se abre en modo de solo lectura.
@@ -331,13 +337,13 @@ Si ha seleccionado la variable **Archivo de desprotección automática al abrir*
 
 También puede hacer doble clic en un archivo para abrirlo.
 
-### AEM Abra el archivo en el editor de guías de. {#id195GH0V30KX .section}
+### AEM Abrir archivo en el editor de Guías de {#id195GH0V30KX}
 
-AEM Si desea utilizar los editores disponibles en las Guías de, puede hacerlo seleccionando la opción requerida en el menú contextual. AEM Siga estos pasos para utilizar el editor de las guías de la en lugar del editor de Oxygen XML Author:
+AEM Si desea utilizar los editores disponibles en las Guías de, puede hacerlo seleccionando la opción requerida en el menú contextual. AEM Realice los siguientes pasos para utilizar el editor de las guías de la en lugar del editor de Oxygen XML Author:
 
 1. AEM Haga clic con el botón secundario del mouse (ratón) en un archivo del panel Guías de la aplicación que desee abrir para editarlo.
 
-2. Seleccionar **Abrir en** en el menú contextual, elija una de las siguientes opciones:
+1. Seleccionar **Abrir en** en el menú contextual, elija una de las siguientes opciones:
 
 - **Editor de temas web**: Si el archivo que está abriendo es un archivo .xml o .dita, puede abrirlo para editarlo en el Editor Web. Elija la **Editor de temas web** para abrir el archivo seleccionado y editarlo en el Editor Web.
 
@@ -346,12 +352,12 @@ AEM Si desea utilizar los editores disponibles en las Guías de, puede hacerlo s
 - **Editor de mapas DITA web**: si desea abrir el archivo .ditamap para editarlo en el Editor de mapas, elija esta opción. Con la opción Editor de mapas DITA, se pueden añadir o quitar temas, añadir tablas de relación y realizar otras operaciones en el mapa.
 
 
-### Archivos de desprotección {#id195HC020TS4 .section}
+### Archivos de desprotección {#id195HC020TS4}
 
 AEM Cuando retira un archivo, se almacena localmente en el sistema y se bloquea para su edición en el repositorio de. Siga estos pasos para desproteger un archivo:
 
 1. AEM Haga clic con el botón secundario en un archivo en el panel Guías de.
-2. Seleccione una de las siguientes opciones:
+1. Seleccione una de las siguientes opciones:
    - **Salida:** AEM Extrae un archivo del repositorio de la aplicación y lo pone a disposición de los usuarios para que lo editen.
    - **Salida con dependientes**: extrae un archivo con sus referencias directas. Puede realizar cambios en las páginas principales y secundarias mediante esta opción. AEM Oxygen Plugin for Guides admite la comprobación de un nivel de dependientes. Por ejemplo, el Mapa A hace referencia al Tema A y el Tema A hace referencia al Tema B. Si se retira el Mapa A, se retirará el Tema A independientemente de su nivel en la jerarquía del índice. Sin embargo, no comprobará el Tema B porque no está directamente vinculado desde el Mapa A.
    - **Cierre de compra con dependientes de solo lectura**: retira un archivo y descarga sus dependientes en el equipo local como copias de solo lectura. No puede realizar ningún cambio en los archivos dependientes.
@@ -370,13 +376,13 @@ En la captura de pantalla anterior, se muestra un archivo desprotegido por otro 
 
 AEM Si el archivo desprotegido se elimina o se mueve a cualquier otra carpeta de la lista de carpetas, aparecerá un mensaje de error al proteger el archivo. AEM Asegúrese de que el archivo desprotegido no se mueve ni se elimina mediante la interfaz Web de la interfaz de usuario de la aplicación de seguridad de la aplicación de seguridad de la aplicación de seguridad de la aplicación (Web).
 
-### Proteger un archivo {#id182CF0J0FHS .section}
+### Proteger un archivo {#id182CF0J0FHS}
 
 AEM Cuando se protege un archivo, la copia local del sistema se almacena en el repositorio de la y se elimina el bloqueo del archivo. Siga estos pasos para proteger un archivo:
 
 1. Guarde el archivo haciendo clic en **Archivo** \> **Guardar**.
 
-2. Haga clic con el botón secundario del mouse (ratón) en un archivo desprotegido y elija una de las dos opciones siguientes:
+1. Haga clic con el botón secundario del mouse (ratón) en un archivo desprotegido y elija una de las dos opciones siguientes:
 
    - **Check-In** AEM : Incorpora el archivo seleccionado del sistema local en el repositorio de.
    - **Registro con dependientes:** Si ha retirado un archivo junto con sus dependientes, utilice esta opción para proteger todos los archivos dependientes en una sola operación. Al seleccionar esta opción, se muestra el cuadro de diálogo Proteger con todos los archivos dependientes. Haga clic en Aceptar para proteger todos los archivos a la vez.
@@ -391,19 +397,19 @@ AEM Cuando se protege un archivo, la copia local del sistema se almacena en el r
 
       AEM Del mismo modo, si ha protegido un archivo dependiente a través de la opción de archivo, la lista de archivos no se actualiza en Oxygen Author hasta que realice una operación de actualización de carpeta y actualización de archivos desprotegidos. AEM Si realiza un registro con dependientes con algunos archivos registrados a través de la opción de registro, obtendrá un error que enumera los archivos que no se han podido registrar.
 
-3. \(Opcional\) En el cuadro de diálogo Proteger, agregue un comentario en **Comentarios de versión** cuadro de texto.
+1. \(Opcional\) En el cuadro de diálogo Proteger, agregue un comentario en **Comentarios de versión** cuadro de texto.
 
    **Nota:**
 
    AEM Este comentario se muestra en el historial de versiones del archivo en el que se ha realizado la.
 
-4. Haga clic en **Aceptar**.
+1. Haga clic en **Aceptar**.
 
 **Nota:**
 
 AEM Si el archivo desprotegido se elimina o se mueve a cualquier otra carpeta de la lista de carpetas, aparecerá un mensaje de error al proteger el archivo. AEM Asegúrese de que el archivo desprotegido no se mueve ni se elimina mediante la interfaz Web de la interfaz de usuario de la aplicación de seguridad de la aplicación de seguridad de la aplicación de seguridad de la aplicación (Web).
 
-### AEM Archivos desprotegidos en la vista de guías de la comunidad de usuarios de la sección {.section}
+### AEM Archivos desprotegidos en la vista Guías de la
 
 Cuando tiene archivos en varias carpetas, no es fácil averiguar cuántos archivos están desprotegidos en una vista. AEM AEM Guías de proporciona Archivos desprotegidos en la Vista de guías de la aplicación de la que se proporciona una instantánea completa de los archivos desprotegidos actualmente. AEM AEM Con esta vista, puede averiguar fácilmente qué archivos ha comprobado en el repositorio de mediante las guías de la. Siga estos pasos para acceder a esta vista y trabajar con ella:
 
@@ -413,7 +419,7 @@ Cuando tiene archivos en varias carpetas, no es fácil averiguar cuántos archiv
 
    ![](images/files-checkedout-view.png)
 
-2. Haga clic con el botón derecho en un archivo de esta vista para obtener las siguientes opciones:
+1. Haga clic con el botón derecho en un archivo de esta vista para obtener las siguientes opciones:
 
    - [Abrir](#id195GH0V30KX)
    - [Abrir en](#id195GH0V30KX)
@@ -432,12 +438,12 @@ Cuando tiene archivos en varias carpetas, no es fácil averiguar cuántos archiv
 - Puede ordenar la lista de archivos según sus nombres de archivo, título o ruta de acceso. Si se desprotege un nuevo archivo, éste aparece ordenado en la vista.
 
 
-### Carga de archivos y carpetas {#id195HC03F03J .section}
+### Carga de archivos y carpetas {#id195HC03F03J}
 
 Siga estos pasos para cargar archivos o carpetas:
 
 1. AEM Haga clic con el botón secundario en una carpeta del panel Guías de la.
-2. Seleccione una de las siguientes opciones:
+1. Seleccione una de las siguientes opciones:
    - **Cargar archivo\(s\)** AEM : seleccione esta opción para cargar uno o varios archivos en la carpeta seleccionada en el repositorio de. En el diálogo Seleccionar archivos \(s\) para cargar, seleccione los archivos y haga clic en **Abrir**.
    - **Cargar con dependientes**: seleccione esta opción para cargar un fichero DITA con sus dependientes. En el diálogo Seleccionar archivo para cargar, seleccione los archivos y haga clic en **Abrir**.
    - **Cargar carpeta** AEM : seleccione esta opción para cargar una carpeta en el repositorio de la. En el cuadro de diálogo Elegir, seleccione la carpeta y haga clic en **Elegir**.
@@ -461,7 +467,7 @@ AEM Se deben tener en cuenta los siguientes puntos al mover o copiar contenido d
 - AEM Cuando extraiga contenido del repositorio de y realice cambios en el sistema local, asegúrese de que el nombre del archivo no cambie en el momento de cargarlo.
 
 
-### Agregar o quitar Favoritos {#id195HC04405P .section}
+### Agregar o quitar Favoritos {#id195HC04405P}
 
 AEM Realice los siguientes pasos para agregar o quitar una carpeta a la carpeta Favoritos en el panel Guías de:
 
@@ -470,26 +476,26 @@ AEM Realice los siguientes pasos para agregar o quitar una carpeta a la carpeta 
    - Haga clic con el botón derecho en una carpeta de **Favoritos** carpeta y seleccione **Eliminar de Favoritos**.
    - AEM Haga clic con el botón derecho en una carpeta del repositorio de en **DAM** carpeta que ya se ha añadido como favorita y seleccione **Eliminar de Favoritos**.
 
-### Ver el historial de versiones de un archivo {#id195GI000D5Q .section}
+### Ver el historial de versiones de un archivo {#id195GI000D5Q}
 
 Siga estos pasos para ver el historial de versiones de un archivo:
 
 1. AEM Haga clic con el botón derecho en un archivo en el panel Guías de.
 
-2. Seleccionar **Ver versiones** en el menú contextual.
+1. Seleccionar **Ver versiones** en el menú contextual.
 
    El historial de versiones del archivo se muestra en el cuadro de diálogo Versiones.
 
    ![](images/version-history.png)
 
 
-### Visualización de los metadatos de un archivo {#id195GHN0H05C .section}
+### Visualización de los metadatos de un archivo {#id195GHN0H05C}
 
 Siga estos pasos para ver los metadatos de un archivo:
 
 1. AEM Haga clic con el botón derecho en un archivo en el panel Guías de.
 
-2. Seleccionar **Ver metadatos** en el menú contextual.
+1. Seleccionar **Ver metadatos** en el menú contextual.
 
    Los metadatos del archivo, como la clase DITA, el estado del documento, la fecha de modificación, el tamaño, el título y el UUID, se muestran en el cuadro de diálogo Metadatos.
 
@@ -503,15 +509,15 @@ AEM AEM Puede buscar temas en el repositorio de mediante la barra de búsqueda d
 Siga estos pasos para buscar temas:
 
 1. AEM Seleccione una carpeta en el repositorio de en la que desee buscar un tema.
-2. Introduzca la consulta de búsqueda \(por ejemplo, `introduction`AEM \) en la barra de búsqueda del complemento de oxígeno para guías de la.
-3. Haga clic en el botón de búsqueda o pulse Intro.
+1. Introduzca la consulta de búsqueda \(por ejemplo, `introduction`AEM \) en la barra de búsqueda del complemento de oxígeno para guías de.
+1. Haga clic en el botón de búsqueda o pulse Intro.
 
    El resultado se muestra en la ficha Resultados de la búsqueda como una lista con la ruta de acceso del archivo. Si no hay resultados que coincidan con la consulta de búsqueda, no se encontraron resultados en &lt;path of=&quot;&quot; the=&quot;&quot; selected=&quot;&quot; folder=&quot;&quot;> se muestra el mensaje.
 
    ![](images/Search.png)
 
-4. \(Opcional\) Haga doble clic en un archivo en el resultado de la búsqueda para abrirlo en Oxygen XML Author.
-5. AEM Para volver a la vista Repositorio de, siga uno de estos procedimientos:
+1. \(Opcional\) Haga doble clic en un archivo en el resultado de la búsqueda para abrirlo en Oxygen XML Author.
+1. AEM Para volver a la vista Repositorio de, siga uno de estos procedimientos:
    - AEM Para ver la vista Repositorio de sin borrar los resultados de la búsqueda, haga clic en **Examinar** pestaña.
    - AEM Para borrar los resultados de la búsqueda y ver el repositorio de, haga clic en el icono Eliminar búsqueda.
 
@@ -533,22 +539,22 @@ Realice los siguientes pasos para abrir un tema DITA en Oxygen XML Author:
 
    Si el tema no está extraído, primero se extrae y, a continuación, se abre en Oxígeno en el modo de edición.
 
-2. Seleccione Oxygen XML Author *&lt;version>* en el **Iniciar aplicación** cuadro de mensaje. Puede seleccionar **AEM Recordar mi elección para los vínculos de la** para guardar su preferencia.
+1. Seleccione Oxygen XML Author *&lt;version>* en el **Iniciar aplicación** cuadro de mensaje. Puede seleccionar **AEM Recordar mi elección para los vínculos de la** para guardar su preferencia.
 
 **Edición de un tema DITA**
 
 Realice los siguientes pasos para editar un tema DITA en Oxygen XML Author:
 
 1. Seleccione y desproteja un tema de los recursos.
-2. Clic **Editar en oxígeno** en la barra de herramientas.
+1. Clic **Editar en oxígeno** en la barra de herramientas.
 
    **Nota:**
 
    Si el tema no está extraído, primero se extrae y, a continuación, se abre en Oxígeno en el modo de edición.
 
-3. Seleccione Oxygen XML Author *&lt;version>* en el **Iniciar aplicación** cuadro de mensaje. Puede seleccionar **AEM Recordar mi elección para los vínculos de la** para guardar su preferencia.
-4. Edite el tema en Oxygen XML Author.
-5. AEM Consulte el tema en el Complemento de oxígeno para guías de la.
+1. Seleccione Oxygen XML Author *&lt;version>* en el **Iniciar aplicación** cuadro de mensaje. Puede seleccionar **AEM Recordar mi elección para los vínculos de la** para guardar su preferencia.
+1. Edite el tema en Oxygen XML Author.
+1. AEM Consulte el tema en el Complemento de oxígeno para guías de la.
 
    AEM Para obtener más información sobre cómo registrar un tema con el complemento Oxygen para guías de la, consulte [Proteger un archivo](#id182CF0J0FHS).
 
@@ -568,18 +574,18 @@ AEM Asegúrese de haber añadido los atributos condicionales en la configuració
 Realice los siguientes pasos para agregar atributos condicionales al contenido en Oxygen XML Author:
 
 1. Cierre la compra y abra un tema en *AEM Complemento de oxígeno para guías de la*.
-2. Seleccione la parte del contenido donde desea aplicar los atributos condicionales.
-3. Haga doble clic en el atributo condicional en el panel Atributos del Autor XML de Oxygen.
+1. Seleccione la parte del contenido donde desea aplicar los atributos condicionales.
+1. Haga doble clic en el atributo condicional en el panel Atributos del Autor XML de Oxygen.
 
    ![](images/attribute-panel.png)
 
-4. En el **Disponible** en el cuadro de diálogo Editar atributo, seleccione el atributo y haga clic en **Añadir**.
+1. En el **Disponible** en el cuadro de diálogo Editar atributo, seleccione el atributo y haga clic en **Añadir**.
 
    La siguiente pantalla muestra `audience` atributos.
 
    ![](images/edit-attributes.png)
 
-5. Haga clic en **Aceptar**.
+1. Haga clic en **Aceptar**.
 
    Los atributos se añaden al contenido.
 
@@ -588,7 +594,7 @@ Realice los siguientes pasos para agregar atributos condicionales al contenido e
 
 Este tema cubre algunos de los problemas más comunes que podría tener al trabajar con el complemento, junto con sus soluciones.
 
-### AEM Falta el panel Guías de {#id192BH200ZAX .section}
+### AEM Falta el panel Guías de {#id192BH200ZAX}
 
 AEM Problema : Si no ve el panel Guías de la en Oxygen XML Author, pruebe las siguientes soluciones:
 
@@ -596,7 +602,7 @@ Solución 1: : 1.  En Oxygen XML Author, habilite el complemento.
 
     Haga clic en **Opciones** \> **Preferencias** \> **Complementos** y seleccione **Complemento de oxígeno para guías de Adobe Experience Manager**.
 
-2. Reinicie Oxygen XML Author.
+1. Reinicie Oxygen XML Author.
 
 
 AEM AEM Solución 2: si sigue sin ver el panel Guías de, habilite la ventana Guías de.
@@ -610,7 +616,7 @@ Solución 3: : desinstale y vuelva a instalar el complemento Oxygen para las gu�
     - En Mac, acceda a la carpeta aem-connector-x.x en la carpeta de complementos de Oxygen XML Author y muévala a **Papelera**. A continuación, vacíe la carpeta **Papelera**.
 
 
-### Configurar el puerto para la transformación DITA-OT { .section}
+### Configurar el puerto para la transformación DITA-OT
 
 Problema : Cuando se ejecuta cualquier transformación DITA-OT en archivos procesados por el complemento, la transformación falla con el siguiente error:
 
@@ -620,7 +626,7 @@ Solución : este problema se ha solucionado añadiendo un servidor proxy entre D
 
     Realice los siguientes pasos para cambiar el puerto predeterminado del servidor proxy:
     
-    1.  Vaya al directorio principal de \(user’s\).
+    1.  Vaya al directorio de inicio de \(user\).
     
     2.  Cree un archivo llamado aem\_connector\_proxy.
     
@@ -631,13 +637,13 @@ Solución : este problema se ha solucionado añadiendo un servidor proxy entre D
     5.  Reinicie Oxygen XML Author y ejecute la transformación DITA-OT.
 
 
-### AEM El panel Guías no busca la ubicación del archivo abierto { .section}
+### AEM El panel Guías no busca la ubicación del archivo abierto
 
 AEM Problema: Cuando elige abrir un archivo para editarlo en Oxygen XML Author desde el servidor de, el archivo se abre para editarlo en Oxygen XML Author. AEM Sin embargo, el panel Guías de la aplicación no muestra la ubicación del archivo en el árbol de navegación.
 
 Solución: este problema se ha observado en escenarios en los que la ruta de archivo contiene /content/dam dos veces. AEM De forma predeterminada, todos los recursos de los recursos de se almacenan en la carpeta /content/dam. Si carga o crea una estructura de carpetas que también contiene /content/dam, se observa este problema. Puede realizar todas las operaciones normales con estos archivos, pero su ubicación en el árbol de navegación no se muestra de forma predeterminada. Para acceder a dicho archivo en el árbol de navegación, debe examinar manualmente la ubicación del archivo. Tenga en cuenta que en el árbol de navegación, la ruta duplicada /content/dam se reemplaza por /content/assets.
 
-### Configurar el registro { .section}
+### Configurar el registro
 
 AEM Problema: De forma predeterminada, el complemento de oxígeno para guías de no genera ningún registro, lo que dificulta la depuración de cualquier escenario de error.
 
