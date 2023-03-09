@@ -1,9 +1,7 @@
 ---
 title: Complemento de oxígeno para guías de Adobe Experience Manager
 description: Aprenda a utilizar el complemento Oxygen para las guías de Adobe Experience Manager para crear y administrar su contenido.
-hide: true
-hidefromtoc: true
-source-git-commit: d52a3c2a09a5a3d8e572191b4f4ebf1aa25f30df
+source-git-commit: 50b1b02c69ff81d4ee050d02ed945e88fac9dae0
 workflow-type: tm+mt
 source-wordcount: '5812'
 ht-degree: 1%
@@ -509,7 +507,7 @@ AEM AEM Puede buscar temas en el repositorio de mediante la barra de búsqueda d
 Siga estos pasos para buscar temas:
 
 1. AEM Seleccione una carpeta en el repositorio de en la que desee buscar un tema.
-1. Introduzca la consulta de búsqueda \(por ejemplo, `introduction`AEM \) en la barra de búsqueda del complemento de oxígeno para guías de.
+1. Introduzca la consulta de búsqueda \(por ejemplo, `introduction`AEM \) en la barra de búsqueda del complemento de oxígeno para guías de la.
 1. Haga clic en el botón de búsqueda o pulse Intro.
 
    El resultado se muestra en la ficha Resultados de la búsqueda como una lista con la ruta de acceso del archivo. Si no hay resultados que coincidan con la consulta de búsqueda, no se encontraron resultados en &lt;path of=&quot;&quot; the=&quot;&quot; selected=&quot;&quot; folder=&quot;&quot;> se muestra el mensaje.
