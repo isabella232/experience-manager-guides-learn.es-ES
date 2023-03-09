@@ -1,5 +1,5 @@
 ---
-source-git-commit: f79a387de64a31dc62455992c54fc82dc6235ebc
+source-git-commit: 2e1f1644e5f22fc928ad813f46137a3f284df022
 workflow-type: tm+mt
 source-wordcount: '5800'
 ht-degree: 1%
@@ -503,7 +503,7 @@ AEM AEM Puede buscar temas en el repositorio de mediante la barra de búsqueda d
 Siga estos pasos para buscar temas:
 
 1. AEM Seleccione una carpeta en el repositorio de en la que desee buscar un tema.
-2. Introduzca la consulta de búsqueda \(por ejemplo, `introduction`AEM \) en la barra de búsqueda del complemento de oxígeno para guías de.
+2. Introduzca la consulta de búsqueda \(por ejemplo, `introduction`AEM \) en la barra de búsqueda del complemento de oxígeno para guías de la.
 3. Haga clic en el botón de búsqueda o pulse Intro.
 
    El resultado se muestra en la ficha Resultados de la búsqueda como una lista con la ruta de acceso del archivo. Si no hay resultados que coincidan con la consulta de búsqueda, no se encontraron resultados en &lt;path of=&quot;&quot; the=&quot;&quot; selected=&quot;&quot; folder=&quot;&quot;> se muestra el mensaje.
@@ -633,33 +633,33 @@ Solución : este problema se ha solucionado añadiendo un servidor proxy entre D
 
 ### AEM El panel Guías no busca la ubicación del archivo abierto { .section}
 
-AEM Problema : Cuando elige abrir un archivo para editarlo en Oxygen XML Author desde el servidor de, el archivo se abre para editarlo en Oxygen XML Author. AEM Sin embargo, el panel Guías de la aplicación no muestra la ubicación del archivo en el árbol de navegación.
+AEM Problema: Cuando elige abrir un archivo para editarlo en Oxygen XML Author desde el servidor de, el archivo se abre para editarlo en Oxygen XML Author. AEM Sin embargo, el panel Guías de la aplicación no muestra la ubicación del archivo en el árbol de navegación.
 
-Solución : este problema se ha observado en escenarios en los que la ruta de archivo contiene /content/dam dos veces. AEM De forma predeterminada, todos los recursos de los recursos de se almacenan en la carpeta /content/dam. Si carga o crea una estructura de carpetas que también contiene /content/dam, se observa este problema. Puede realizar todas las operaciones normales con estos archivos, pero su ubicación en el árbol de navegación no se muestra de forma predeterminada. Para acceder a dicho archivo en el árbol de navegación, debe examinar manualmente la ubicación del archivo. Tenga en cuenta que en el árbol de navegación, la ruta duplicada /content/dam se reemplaza por /content/assets.
+Solución: este problema se ha observado en escenarios en los que la ruta de archivo contiene /content/dam dos veces. AEM De forma predeterminada, todos los recursos de los recursos de se almacenan en la carpeta /content/dam. Si carga o crea una estructura de carpetas que también contiene /content/dam, se observa este problema. Puede realizar todas las operaciones normales con estos archivos, pero su ubicación en el árbol de navegación no se muestra de forma predeterminada. Para acceder a dicho archivo en el árbol de navegación, debe examinar manualmente la ubicación del archivo. Tenga en cuenta que en el árbol de navegación, la ruta duplicada /content/dam se reemplaza por /content/assets.
 
 ### Configurar el registro { .section}
 
-AEM Problema: De forma predeterminada, el complemento Oxygen para guías de no genera ningún registro, lo que dificulta la depuración de cualquier escenario de error.
+AEM Problema: De forma predeterminada, el complemento de oxígeno para guías de no genera ningún registro, lo que dificulta la depuración de cualquier escenario de error.
 
 Solución: realice los siguientes pasos para habilitar la función de generación de registros en el complemento:
 
     1.  Vaya a la ubicación de instalación de Oxygen XML Author.
     
-    2.  Abra el archivo oxygenAuthor19.1.vmoptions en un editor de texto.
+    1.  Abra el archivo oxygenAuthor19.1.vmoptions en un editor de texto.
     
     **Nota:**
     
     El número de versión del archivo puede variar en función del número de versión de la aplicación instalada en el sistema.
     
-    3.  Anexe la línea siguiente en el archivo:
+    1.  Anexe la línea siguiente en el archivo:
     
     &quot;
     -Djava.util.logging.config.file=./log.properties
     &quot;
     
-    4.  Guarde y cierre el archivo.
+    1.  Guarde y cierre el archivo.
     
-    5.  En la misma ubicación, cree un archivo denominado log.properties con el siguiente contenido:
+    1.  En la misma ubicación, cree un archivo denominado log.properties con el siguiente contenido:
     
     &quot;
     handlers=java.util.logging.FileHandler
@@ -671,9 +671,9 @@ Solución: realice los siguientes pasos para habilitar la función de generació
     java.util.logging.FileHandler.format=[%1$tF %1$tT] [%4$s] %5$s %n
     &quot;
     
-    6.  Guarde y cierre el archivo.
+    1.  Guarde y cierre el archivo.
     
-    7.  Inicie Oxygen XML Author.
+    1.  Inicie Oxygen XML Author.
     
     
     El complemento ahora crea registros en el directorio principal del usuario con el nombre de archivo aem-pluginX.log \(*donde X indica el número de rotación*\).
