@@ -1,9 +1,9 @@
 ---
 title: Complemento de oxígeno para guías de Adobe Experience Manager
 description: Aprenda a utilizar el complemento Oxygen para las guías de Adobe Experience Manager para crear y administrar su contenido.
-source-git-commit: 50b1b02c69ff81d4ee050d02ed945e88fac9dae0
+source-git-commit: c3d50c3fc9f12d98942b6cb68512e01559b47d93
 workflow-type: tm+mt
-source-wordcount: '5812'
+source-wordcount: '5792'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,9 @@ El complemento Oxygen para Adobe Experience Manager AEM Guides \(más adelante d
 
 AEM El complemento Oxygen para guías de está disponible a través de su portal de distribución de software de Adobe. Busque &quot;oxígeno&quot; en la pestaña Experience Manager y, a continuación, descargue el programa de instalación del complemento desde su [Portal de distribución de software de Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html).
 
-**Nota:** Compruebe la compatibilidad de la versión del conector de oxígeno en las notas de la versión para las guías específicas de Adobe Experience Manager.
+>[!NOTE]
+>
+>Compruebe la compatibilidad de la versión del conector de oxígeno en las notas de la versión para las guías específicas de Adobe Experience Manager.
 
 Una vez que tenga el instalador, instálelo en el equipo local donde esté instalado Oxygen XML Author. AEM Antes de comenzar el proceso de instalación, debe asegurarse de que su sistema cumpla los requisitos técnicos para instalar el complemento de oxígeno para guías de la.
 
@@ -36,9 +38,9 @@ Una vez que tenga el instalador, instálelo en el equipo local donde esté insta
 
 ### Instalación del complemento en Windows
 
-**Importante:**
-
-Si tiene una versión anterior del complemento instalado en el sistema, asegúrese de desinstalarlo antes de iniciar el proceso de instalación. Consulte la **Desinstalación de paquetes** de la sección [Cómo trabajar con paquetes](https://helpx.adobe.com/es/experience-manager/6-4/sites/administering/using/package-manager.html) artículo para obtener instrucciones de desinstalación.
+>[!IMPORTANT]
+>
+>Si tiene una versión anterior del complemento instalado en el sistema, asegúrese de desinstalarlo antes de iniciar el proceso de instalación. Consulte la **Desinstalación de paquetes** de la sección [Cómo trabajar con paquetes](https://helpx.adobe.com/es/experience-manager/6-4/sites/administering/using/package-manager.html) artículo para obtener instrucciones de desinstalación.
 
 Realice los siguientes pasos en el sistema donde está instalado Oxygen XML Author:
 
@@ -63,16 +65,16 @@ Realice los siguientes pasos en el sistema donde está instalado Oxygen XML Auth
 
    ![](images/oxygen-aem-connector.png)
 
-   **Nota:**
-
-   AEM Si no ve el panel Guías de, consulte las soluciones en la sección Solución de problemas:[AEM Falta el panel Guías de](#id192BH200ZAX).
+   >[!NOTE]
+   >
+   >AEM Si no ve el panel Guías de, consulte las soluciones en la sección Solución de problemas:[AEM Falta el panel Guías de](#id192BH200ZAX).
 
 
 ### Instalación del complemento en Mac
 
-**Importante:**
-
-Si tiene una versión anterior del complemento instalado en el sistema, asegúrese de desinstalarlo antes de iniciar el proceso de instalación. Consulte la **Desinstalación de paquetes** de la sección [Cómo trabajar con paquetes](https://helpx.adobe.com/es/experience-manager/6-4/sites/administering/using/package-manager.html) instrucciones de desinstalación del artículo.
+>[!IMPORTANT]
+>
+>Si tiene una versión anterior del complemento instalado en el sistema, asegúrese de desinstalarlo antes de iniciar el proceso de instalación. Consulte la **Desinstalación de paquetes** de la sección [Cómo trabajar con paquetes](https://helpx.adobe.com/es/experience-manager/6-4/sites/administering/using/package-manager.html) instrucciones de desinstalación del artículo.
 
 Realice los siguientes pasos en el sistema donde está instalado Oxygen XML Author:
 
@@ -82,9 +84,9 @@ Realice los siguientes pasos en el sistema donde está instalado Oxygen XML Auth
 
    El archivo .dmg contiene una carpeta aem-connector-x.x y un archivo aem-connector-x.x-setup.
 
-   **Nota:**
-
-   x.x en los nombres de archivo es el número de versión del complemento.
+   >[!NOTE]
+   >
+   >x.x en los nombres de archivo es el número de versión del complemento.
 
 1. Copie la carpeta aem-connector-x.x en la carpeta de complementos de Oxygen XML Author.
 1. Haga doble clic en el archivo aem-connector-x.x-setup para iniciar el instalador.
@@ -95,9 +97,9 @@ Realice los siguientes pasos en el sistema donde está instalado Oxygen XML Auth
 
    ![](images/oxygen-aem-connector-mac.png)
 
-   **Nota:**
-
-   AEM Si no ve el panel Guías de, consulte las soluciones en la sección Solución de problemas:[AEM Falta el panel Guías de](#id192BH200ZAX).
+   >[!NOTE]
+   >
+   >AEM Si no ve el panel Guías de, consulte las soluciones en la sección Solución de problemas:[AEM Falta el panel Guías de](#id192BH200ZAX).
 
 
 ### AEM Instale el paquete para habilitar la función de edición de documentos desde la interfaz web de {#id182CE0Q0TY4}
@@ -132,9 +134,9 @@ AEM Como administrador de la, realice los siguientes pasos para instalar el paqu
 
    **Editar en oxígeno** está disponible en la barra de herramientas. Para obtener más información sobre esta opción, consulte [AEM Abrir el tema DITA en Oxygen XML Author desde la interfaz web de la interfaz de usuario de](#id182CE0I905Z).
 
-   **Nota:**
-
-   El **Editar en oxígeno** Esta opción está visible al seleccionar un tema DITA. Si selecciona varios temas, la opción no estará visible.
+   >[!NOTE]
+   >
+   >El **Editar en oxígeno** Esta opción está visible al seleccionar un tema DITA. Si selecciona varios temas, la opción no estará visible.
 
 
 ## AEM Configuración del complemento Oxygen para guías de {#id1826KF00AHS}
@@ -151,7 +153,9 @@ JxBrowser se utiliza para la autenticación SSO mediante el complemento Conector
 
 AEM Actualice los archivos dados para configurar los ajustes de autenticación web en el complemento Oxygen para guías de usuario de la red (Oxygen Plugin for Guides):
 
-**Nota:** Realice una copia de seguridad del archivo antes de actualizarlo.
+>[!NOTE]
+>
+>Realice una copia de seguridad del archivo antes de actualizarlo.
 
 **Para Mac y Oxygen 24.1**
 
@@ -181,9 +185,9 @@ Añada las siguientes líneas en oxygenAuthor.bat
 -Djdk.module.illegalAccess=permit -Djava.ipc.external=true
 ```
 
-**Nota:**
-
-Debe ejecutar oxígeno desde oxygenAuthor.sh para Mac y oxygenAuthor.bat para Windows como administrador.
+>[!NOTE]
+>
+>Debe ejecutar oxígeno desde oxygenAuthor.sh para Mac y oxygenAuthor.bat para Windows como administrador.
 
 ### Configuración general
 
@@ -191,7 +195,7 @@ Realice los siguientes pasos para configurar las opciones de conexión en el com
 
 1. AEM En el panel Guías de, haga clic en el icono de configuración y, a continuación, seleccione **Configuración**.
 
-   ![](images/Settings.png)
+   ![](images/settings.png)
 
 1. Especifique los siguientes detalles:
    - **URL del servidor** AEM : URL del servidor de, por ejemplo:
@@ -202,9 +206,9 @@ Realice los siguientes pasos para configurar las opciones de conexión en el com
 
       AEM En la URL anterior, especifique el nombre de host y el puerto del servidor en el que está implementado el servidor de la unidad de administración de datos ().
 
-      **Importante:**
-
-      AEM Si el servidor de está implementado en el puerto 80 o 443, no es necesario especificarlo en la dirección URL.
+      >[!IMPORTANT]
+      >
+      >AEM Si el servidor de está implementado en el puerto 80 o 443, no es necesario especificarlo en la dirección URL.
 
    - **Autenticación:** Elegir entre **Básico \(Nombre de usuario/Contraseña\)** o **Autenticación web**. En caso de seleccionar **Básico** autenticación debe introducir el **Nombre de usuario** y **Contraseña** en el cuadro de diálogo Preferencias.
 
@@ -232,7 +236,7 @@ Siga estos pasos para configurar los atributos de generación de perfiles:
 
 1. En el **Classpath** pestaña, seleccione com.adobe.o2.connector en la **Usar el cargador de clase principal del complemento con ID** menú desplegable.
 
-   ![](images/DITA%20Extension.png)
+   ![](images/dita-extension.png)
 
 1. En el **Extensiones** , realice los cambios siguientes:
 1. 
@@ -286,7 +290,9 @@ AEM En la siguiente pantalla se muestra el panel Guías de.
 - **Connect** AEM : seleccione esta opción para conectarse al servidor de la. AEM La opción se desactiva cuando Oxygen XML Author está conectado al servidor de la.
 - **Actualizar** AEM : seleccione esta opción para obtener el estado más reciente de los archivos y la carpeta del repositorio de.
 
-   **Nota:** Asegúrese de guardar los archivos antes de actualizarlos. Al seleccionar **Actualizar** , recibirá una advertencia para guardar los archivos antes de actualizarlos. Si no ha guardado los archivos, puede hacer clic en **Cancelar** y los salvas.
+   >[!NOTE]
+   >
+   >Asegúrese de guardar los archivos antes de actualizarlos. Al seleccionar **Actualizar** , recibirá una advertencia para guardar los archivos antes de actualizarlos. Si no ha guardado los archivos, puede hacer clic en **Cancelar** y los salvas.
 
 - **Configuración**: Puede utilizar esta opción para abrir el cuadro de diálogo Preferencias generales del complemento.
 - **Cerrar sesión** AEM : seleccione esta opción para cerrar la conexión con el servidor de. Esta opción solo está disponible si utiliza el modo Autenticación web.
@@ -331,9 +337,9 @@ AEM Una vez que se haya conectado al repositorio de, puede abrir los archivos pa
 
 Si ha seleccionado la variable **Archivo de desprotección automática al abrir** opción \(en el cuadro de diálogo Preferencias\) y, al abrir un archivo, el archivo se desprotege automáticamente y está disponible para su edición. Para abrir un archivo, puede hacer doble clic en su nombre o hacer clic con el botón derecho en el nombre del archivo y elegir **Abrir** en el menú contextual. Si no se selecciona esta opción, el archivo se abre en modo de solo lectura.
 
-**Nota:**
-
-También puede hacer doble clic en un archivo para abrirlo.
+>[!NOTE]
+>
+>También puede hacer doble clic en un archivo para abrirlo.
 
 ### AEM Abrir archivo en el editor de Guías de {#id195GH0V30KX}
 
@@ -370,9 +376,9 @@ Cuando un archivo está desprotegido, el icono del archivo cambia para mostrar s
 
 En la captura de pantalla anterior, se muestra un archivo desprotegido por otro usuario con un icono de candado de color negro \(A\). El archivo desprotegido por el usuario actual se muestra con un candado \(B\) de color verde.
 
-**Nota:**
-
-AEM Si el archivo desprotegido se elimina o se mueve a cualquier otra carpeta de la lista de carpetas, aparecerá un mensaje de error al proteger el archivo. AEM Asegúrese de que el archivo desprotegido no se mueve ni se elimina mediante la interfaz Web de la interfaz de usuario de la aplicación de seguridad de la aplicación de seguridad de la aplicación de seguridad de la aplicación (Web).
+>[!NOTE]
+>
+>AEM Si el archivo desprotegido se elimina o se mueve a cualquier otra carpeta de la lista de carpetas, aparecerá un mensaje de error al proteger el archivo. AEM Asegúrese de que el archivo desprotegido no se mueve ni se elimina mediante la interfaz Web de la interfaz de usuario de la aplicación de seguridad de la aplicación de seguridad de la aplicación de seguridad de la aplicación (Web).
 
 ### Proteger un archivo {#id182CF0J0FHS}
 
@@ -397,15 +403,15 @@ AEM Cuando se protege un archivo, la copia local del sistema se almacena en el r
 
 1. \(Opcional\) En el cuadro de diálogo Proteger, agregue un comentario en **Comentarios de versión** cuadro de texto.
 
-   **Nota:**
-
-   AEM Este comentario se muestra en el historial de versiones del archivo en el que se ha realizado la.
+   >[!NOTE]
+   >
+   >AEM Este comentario se muestra en el historial de versiones del archivo en el que se ha realizado la.
 
 1. Haga clic en **Aceptar**.
 
-**Nota:**
-
-AEM Si el archivo desprotegido se elimina o se mueve a cualquier otra carpeta de la lista de carpetas, aparecerá un mensaje de error al proteger el archivo. AEM Asegúrese de que el archivo desprotegido no se mueve ni se elimina mediante la interfaz Web de la interfaz de usuario de la aplicación de seguridad de la aplicación de seguridad de la aplicación de seguridad de la aplicación (Web).
+>[!NOTE]
+>
+>AEM Si el archivo desprotegido se elimina o se mueve a cualquier otra carpeta de la lista de carpetas, aparecerá un mensaje de error al proteger el archivo. AEM Asegúrese de que el archivo desprotegido no se mueve ni se elimina mediante la interfaz Web de la interfaz de usuario de la aplicación de seguridad de la aplicación de seguridad de la aplicación de seguridad de la aplicación (Web).
 
 ### AEM Archivos desprotegidos en la vista Guías de la
 
@@ -512,7 +518,7 @@ Siga estos pasos para buscar temas:
 
    El resultado se muestra en la ficha Resultados de la búsqueda como una lista con la ruta de acceso del archivo. Si no hay resultados que coincidan con la consulta de búsqueda, no se encontraron resultados en &lt;path of=&quot;&quot; the=&quot;&quot; selected=&quot;&quot; folder=&quot;&quot;> se muestra el mensaje.
 
-   ![](images/Search.png)
+   ![](images/search.png)
 
 1. \(Opcional\) Haga doble clic en un archivo en el resultado de la búsqueda para abrirlo en Oxygen XML Author.
 1. AEM Para volver a la vista Repositorio de, siga uno de estos procedimientos:
@@ -523,9 +529,9 @@ Siga estos pasos para buscar temas:
 
 AEM Puede abrir y editar el tema DITA en Oxygen XML Author desde la interfaz web de la interfaz de usuario de la aplicación de. AEM Para activar esta opción, debe instalar un paquete en el. Para obtener más información sobre la instalación de paquetes, consulte [AEM Instale el paquete para habilitar la función de edición de documentos desde la interfaz web de](#id182CE0Q0TY4).
 
-**Nota:**
-
-El **Editar en oxígeno** AEM es accesible desde varios lugares de la zona de trabajo: cuando se selecciona un tema, cuando se obtiene una vista previa del mismo, o desde la ficha Temas e informes de la consola de mapas de DITA. Si selecciona varios temas, la opción no estará visible en la barra de herramientas.
+>[!NOTE]
+>
+>El **Editar en oxígeno** AEM es accesible desde varios lugares de la zona de trabajo: cuando se selecciona un tema, cuando se obtiene una vista previa del mismo, o desde la ficha Temas e informes de la consola de mapas de DITA. Si selecciona varios temas, la opción no estará visible en la barra de herramientas.
 
 **Abrir un tema DITA**
 
@@ -533,9 +539,9 @@ Realice los siguientes pasos para abrir un tema DITA en Oxygen XML Author:
 
 1. Seleccione un tema en los recursos y haga clic en **Editar en oxígeno** en la barra de herramientas.
 
-   **Nota:**
-
-   Si el tema no está extraído, primero se extrae y, a continuación, se abre en Oxígeno en el modo de edición.
+   >[!NOTE]
+   >
+   >Si el tema no está extraído, primero se extrae y, a continuación, se abre en Oxígeno en el modo de edición.
 
 1. Seleccione Oxygen XML Author *&lt;version>* en el **Iniciar aplicación** cuadro de mensaje. Puede seleccionar **AEM Recordar mi elección para los vínculos de la** para guardar su preferencia.
 
@@ -546,9 +552,9 @@ Realice los siguientes pasos para editar un tema DITA en Oxygen XML Author:
 1. Seleccione y desproteja un tema de los recursos.
 1. Clic **Editar en oxígeno** en la barra de herramientas.
 
-   **Nota:**
-
-   Si el tema no está extraído, primero se extrae y, a continuación, se abre en Oxígeno en el modo de edición.
+   >[!NOTE]
+   >
+   >Si el tema no está extraído, primero se extrae y, a continuación, se abre en Oxígeno en el modo de edición.
 
 1. Seleccione Oxygen XML Author *&lt;version>* en el **Iniciar aplicación** cuadro de mensaje. Puede seleccionar **AEM Recordar mi elección para los vínculos de la** para guardar su preferencia.
 1. Edite el tema en Oxygen XML Author.
@@ -556,18 +562,18 @@ Realice los siguientes pasos para editar un tema DITA en Oxygen XML Author:
 
    AEM Para obtener más información sobre cómo registrar un tema con el complemento Oxygen para guías de la, consulte [Proteger un archivo](#id182CF0J0FHS).
 
-   **Nota:**
-
-   AEM AEM Asegúrese de proteger el tema con el complemento Oxygen para guías de. Si lo hace desde la interfaz web de la interfaz de usuario, los cambios que realice en Oxygen XML Author no se guardarán en la versión protegida del tema.
+   >[!NOTE]
+   >
+   >AEM AEM Asegúrese de proteger el tema con el complemento Oxygen para guías de. Si lo hace desde la interfaz web de la interfaz de usuario, los cambios que realice en Oxygen XML Author no se guardarán en la versión protegida del tema.
 
 
 ## Trabajo con perfiles de atributos {#id1827JA002YK}
 
 AEM Guías de la permite crear y asociar fácilmente atributos condicionales utilizando los atributos DITA relevantes. Puede definir atributos condicionales en el nivel global o de carpeta. Las condiciones definidas globalmente son visibles en todos los proyectos y las condiciones a nivel de carpeta solo son visibles en proyectos creados dentro de la carpeta especificada. Los autores de contenido pueden utilizar estos atributos condicionales para condicionar el contenido de sus temas o mapas DITA que crean o utilizan. AEM AEM Para obtener más información acerca de cómo crear atributos condicionales en la aplicación de las guías de uso de la, consulte la sección sobre la configuración de atributos condicionales de la variable *Configurar atributos condicionales para perfiles globales o de nivel de carpeta* de la sección Instalación y configuración de las guías de Adobe Experience Manager.
 
-**Nota:**
-
-AEM Asegúrese de haber añadido los atributos condicionales en la configuración de y de haber configurado el atributo de forma que se pueda usar el parámetro de configuración de la variable. [Preferencia para la personalización de atributos de perfil](#id1827K0D0OHT) antes de agregar atributos condicionales al contenido.
+>[!NOTE]
+>
+>AEM Asegúrese de haber añadido los atributos condicionales en la configuración de y de haber configurado el atributo de forma que se pueda usar el parámetro de configuración de la variable. [Preferencia para la personalización de atributos de perfil](#id1827K0D0OHT) antes de agregar atributos condicionales al contenido.
 
 Realice los siguientes pasos para agregar atributos condicionales al contenido en Oxygen XML Author:
 
@@ -651,9 +657,9 @@ Solución: realice los siguientes pasos para habilitar la función de generació
     
     1.  Abra el archivo oxygenAuthor19.1.vmoptions en un editor de texto.
     
-    **Nota:**
-    
-    El número de versión del archivo puede variar en función del número de versión de la aplicación instalada en el sistema.
+    >[!NOTA]
+    >
+    >El número de versión del archivo puede variar en función del número de versión de la aplicación instalada en el sistema.
     
     1.  Anexe la línea siguiente en el archivo:
     
