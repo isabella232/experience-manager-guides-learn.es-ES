@@ -1,7 +1,7 @@
 ---
 title: Función de publicación de PDF nativo | Trabajar con estilos de barras de cambios personalizados
 description: Aprenda a aplicar estilos en las barras de cambios.
-source-git-commit: 79de97e667bffae8d120deee68a0a82011047cf5
+source-git-commit: b6fd82fd09c04a3deefab51b1064a3b6aea73e47
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -12,8 +12,7 @@ ht-degree: 0%
 
 Una barra de cambios es una línea vertical que identifica visualmente el contenido nuevo o revisado. AEM guías le permite mostrar una barra de cambios a la izquierda del contenido modificado dentro de los temas y también los temas modificados en la tabla de contenido de la salida del PDF.
 
-Para obtener más información sobre cómo mostrar la barra de cambios, consulte *Crear PDF con barra de cambios entre versiones publicadas* configurar en
-[Salida del PDF de publicación](../web-editor/native-pdf-web-editor.md).
+Para obtener más información sobre cómo mostrar la barra de cambios, consulte *Crear PDF con barra de cambios entre versiones publicadas* configurar en [Salida del PDF de publicación](../web-editor/native-pdf-web-editor.md).
 
 ## Se ha cambiado el contenido de los temas
 
