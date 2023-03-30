@@ -1,7 +1,7 @@
 ---
 title: Informes en AEM guías
 description: Conozca qué informes están disponibles en AEM para ayudar a los usuarios a mejorar la calidad del contenido.
-source-git-commit: 91afddedb73a54a3148afe13b456e9a83eeeb0f7
+source-git-commit: b1527db4ee7ee5847026b1ba12c668557c23766f
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 1%
@@ -38,16 +38,16 @@ En esta sesión, compartiremos los informes predeterminados disponibles para los
 
 ## Principales tomas
 
-En esta sesión, aprenderá lo siguiente:
+En esta sesión, aprendió lo siguiente:
 - Importancia de los informes en el sistema de recopilación de datos
-- Qué informes están disponibles de forma predeterminada
-- ¿Cómo se puede ampliar la capacidad de los informes?
+- ¿Qué informes están disponibles de forma predeterminada?
+- ¿Cómo puede ampliar las capacidades de informes?
 - Ejemplos de informes de contenido
 
 
 ## Recursos relacionados
 
-- En esta sesión hemos demostrado varios informes. Para crear informes similares, consulte los pasos indicados en el documento adjunto. [Descargar PDF](./assets/aem-guides-expert-session-reports-documentation.pdf)
+- En este período de sesiones hemos demostrado varios informes. Para crear informes similares, consulte los pasos indicados en el documento adjunto. [Descargar PDF](./assets/aem-guides-expert-session-reports-documentation.pdf)
 
 - **Vídeos de funciones** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en)
 
