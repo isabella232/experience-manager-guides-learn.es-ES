@@ -1,26 +1,26 @@
 ---
 title: Informes en AEM guías
 description: Conozca qué informes están disponibles en AEM para ayudar a los usuarios a mejorar la calidad del contenido.
-source-git-commit: b1527db4ee7ee5847026b1ba12c668557c23766f
+source-git-commit: aa5cbe2b8a8be8d7aa8b57d27f71e4a319dd5ccf
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 1%
+source-wordcount: '278'
+ht-degree: 0%
 
 ---
 
-# Creación de contenido basado en web
+# Informes en AEM guías
 
 En una configuración organizativa, debe verificar la integridad general del contenido antes de insertar los documentos para su consumo por parte de los usuarios finales. Esta necesidad se vuelve aún más esencial en entornos multiusuario y de gran escala donde el contenido puede reutilizarse en diferentes contextos, por lo que validar el contenido o el documento es una necesidad. En el contexto del contenido estructurado, existen algunos tipos de informes específicos que normalmente se necesitan.
 
 
 ## Información general de la sesión
 
-En esta sesión, compartiremos los informes predeterminados disponibles para los usuarios. En términos generales, abarcaremos los siguientes tipos de informes:
-- Capacidad de informes de activos AEM
+En esta sesión, mostramos los informes listos para usar disponibles para los usuarios. Abarcamos ampliamente lo siguiente:
 - Informes de documentos (mapa) y temas
 - Informes de metadatos y opciones de administración de metadatos masivos
-- Ver estadísticas de reutilización de contenido
-- Complejidad de la importación de contenido
+- Informes de reutilización de contenido
+- Corrección en la importación de contenido
+- Aprovechamiento de la capacidad de informes de AEM Assets
 
 
 ## Grabación de sesión
@@ -40,14 +40,13 @@ En esta sesión, compartiremos los informes predeterminados disponibles para los
 
 En esta sesión, aprendió lo siguiente:
 - Importancia de los informes en el sistema de recopilación de datos
-- ¿Qué informes están disponibles de forma predeterminada?
-- ¿Cómo puede ampliar las capacidades de informes?
-- Ejemplos de informes de contenido
+- informes predeterminados disponibles
+- ejemplos de informes de contenido
 
 
 ## Recursos relacionados
 
-- En este período de sesiones hemos demostrado varios informes. Para crear informes similares, consulte los pasos indicados en el documento adjunto. [Descargar PDF](./assets/aem-guides-expert-session-reports-documentation.pdf)
+- [Descargar PDF](./assets/aem-guides-expert-session-reports-documentation.pdf) para crear informes similares a los casos de uso mostrados en la sesión.
 
 - **Vídeos de funciones** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en)
 
@@ -58,8 +57,8 @@ En esta sesión, aprendió lo siguiente:
 >[!NOTE]
 >
 > Las funciones que se muestran en esta sesión están disponibles en las siguientes versiones de AEM guías:
-> - On-prem 4.2 o posterior
-> - Cloud Services 2302 o posterior
+> - local: 4.2 o posterior
+> - Cloud Services: 2302 o posterior
 
 
 
