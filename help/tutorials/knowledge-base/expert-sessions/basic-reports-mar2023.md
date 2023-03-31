@@ -1,9 +1,9 @@
 ---
 title: Informes en AEM guías
 description: Conozca qué informes están disponibles en AEM para ayudar a los usuarios a mejorar la calidad del contenido.
-source-git-commit: 98c81b20a5ae6347d7c06a98112564d5a5b3d81b
+source-git-commit: b909e6848c3f81e3350c1ce07165d5ea00564345
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ En esta sesión, aprendió lo siguiente:
 
 ## Recursos relacionados
 
-- **[Descargar PDF](./assets/aem-guides-expert-session-reports-documentation.pdf)** para comprender los detalles de los informes mostrados en la sesión.
+- **[Descargar el manual de AEM guías](./assets/aem-guides-expert-session-reports-documentation.pdf)** para comprender los detalles de los informes mostrados en la sesión.
 
 - **Vídeos de funciones** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en)
 
