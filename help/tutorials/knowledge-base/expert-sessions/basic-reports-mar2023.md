@@ -1,10 +1,11 @@
 ---
 title: Informes en AEM guías
 description: Conozca qué informes están disponibles en AEM para ayudar a los usuarios a mejorar la calidad del contenido.
-source-git-commit: b909e6848c3f81e3350c1ce07165d5ea00564345
+exl-id: f0d761ff-efea-452c-bb8e-865f34a182fc
+source-git-commit: 7871a54f3181fd114e24e0e10cfc15351cefd761
 workflow-type: tm+mt
 source-wordcount: '280'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -36,7 +37,7 @@ En esta sesión, mostramos los informes listos para usar disponibles para los us
 - **Audiencia** - Clientes, socios y empleados del Adobe
 
 
-## Principales tomas
+## Puntos clave
 
 En esta sesión, aprendió lo siguiente:
 - Importancia de los informes en el sistema de recopilación de datos
@@ -64,7 +65,7 @@ En esta sesión, aprendió lo siguiente:
 
 ## Próxima reunión de expertos
 
-- **Tema** - TBD *(a la espera de los resultados de la encuesta)*
+- **Tema** - Configuración de contenido y plantilla
 - **Programado el** - 27 de abril de 2023
 
 
