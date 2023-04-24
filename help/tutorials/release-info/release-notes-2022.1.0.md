@@ -2,7 +2,7 @@
 title: Notas de la versión para [!DNL AEM Guides], versión de enero de 2022
 description: Versión de enero de [!DNL Adobe Experience Manager Guides] as a Cloud Service
 exl-id: b2da77fa-f17c-440b-be59-acaafcd9a57c
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '2429'
 ht-degree: 3%
@@ -15,8 +15,8 @@ ht-degree: 3%
 
 Actualice su [!DNL Adobe Experience Manager Guides] as a Cloud Service (posteriormente denominado [!DNL AEM Guides] as a Cloud Service) realizando los siguientes pasos:
 1. Compruebe el código Git de los Cloud Services y cambie a la rama configurada en la canalización de Cloud Services correspondiente al entorno que desea actualizar.
-2. Actualizar `<dox.version>` propiedad en `/dox/dox.installer/pom.xml` del código Git de sus Cloud Services a 2022.1.78.
-3. Confirme los cambios y ejecute la canalización de Cloud Services para actualizar a la versión de enero de [!DNL AEM Guides] as a Cloud Service.
+1. Actualizar `<dox.version>` propiedad en `/dox/dox.installer/pom.xml` del código Git de sus Cloud Services a 2022.1.78.
+1. Confirme los cambios y ejecute la canalización de Cloud Services para actualizar a la versión de enero de [!DNL AEM Guides] as a Cloud Service.
 
 ## Matriz de compatibilidad
 
@@ -34,7 +34,7 @@ Esta sección enumera la matriz de compatibilidad para las aplicaciones de softw
 
 | [!DNL AEM Guides] Versión en nube | Ventanas del conector de oxígeno | Conector de oxígeno Mac | Editar en ventanas de oxígeno | Editar en Oxygen Mac |
 | --- | --- | --- | --- | --- |
-| 2022.1.0 | 2.4.0 | 2.4.0 | 2.2 | 2,2 |
+| 2022.1.0 | 2.4.0 | 2.4.0 | 2.2 | 2.2 |
 |  |  |  |  |  |
 
 
@@ -188,7 +188,7 @@ Los errores corregidos en varias áreas se enumeran a continuación:
 * La opción de protección se desactiva una vez que el archivo se ha extraído de AEM mediante Editar en Oxygen. (7471)
 
 
-### Crítica
+### Revisión
 
 * La sincronización en tiempo real no funciona para los comentarios. (7661)
 

@@ -2,7 +2,7 @@
 title: Claves
 description: Las claves permiten incluir información de variables en al trabajar con DITA en AEM guías
 exl-id: cb64e094-fe6d-4a5e-8f0e-25ae58aaa2c6
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Los archivos de muestra que puede utilizar para esta lección se proporcionan en
 
    h. Select [!UICONTROL **Extraer**] en la parte superior derecha de la pantalla.
 
-2. Cuando finalice la extracción, haga clic en [!UICONTROL **Vaya a la carpeta de destino**].
+1. Cuando finalice la extracción, haga clic en [!UICONTROL **Vaya a la carpeta de destino**].
 
    ![Confirmación](images/lesson-9/go-to-target.png)
 
@@ -69,9 +69,9 @@ Para utilizar correctamente las claves, las preferencias de usuario deben hacer 
 
    g. **Guardar** las Preferencias de usuario.
 
-2. Vaya a la **Vista Mapa**.
+1. Vaya a la **Vista Mapa**.
 
-3. Abra el mapa especificado.
+1. Abra el mapa especificado.
 
 Las claves se han resuelto.
 
@@ -79,11 +79,11 @@ Las claves se han resuelto.
 
 1. Abra un mapa con un mapa raíz especificado.
 
-2. Seleccione una Clave.
+1. Seleccione una Clave.
 
    ![Menú desplegable Clave](images/lesson-9/hybrid-key.png)
 
-3. Inserte una nueva clave.
+1. Inserte una nueva clave.
 
    a. Haga clic en una ubicación válida en el mapa.
 
@@ -95,7 +95,7 @@ Las claves se han resuelto.
 
    d. Haga clic en [!UICONTROL **Insertar**].
 
-4. Agregue topicmeta dentro de la clave.
+1. Agregue topicmeta dentro de la clave.
 
    a. Haga clic en el [!UICONTROL **Insertar elemento**] en la barra de herramientas superior.
 
@@ -103,7 +103,7 @@ Las claves se han resuelto.
 
    b. En el cuadro de diálogo Insertar elemento, busque y seleccione &quot;topicmeta&quot;.
 
-5. Agregue palabras clave dentro del tema.
+1. Agregue palabras clave dentro del tema.
 
    a. Haga clic en el [!UICONTROL **Insertar elemento**] en la barra de herramientas superior.
 
@@ -111,7 +111,7 @@ Las claves se han resuelto.
 
    b. En el cuadro de diálogo Insertar elemento, busque y seleccione &quot;palabras clave&quot;.
 
-6. Agregue una palabra clave dentro de la meta de tema.
+1. Agregue una palabra clave dentro de la meta de tema.
 
    a. Haga clic en el [!UICONTROL **Insertar elemento**] en la barra de herramientas superior.
 
@@ -119,7 +119,7 @@ Las claves se han resuelto.
 
    b. En el **Insertar elemento** diálogo, buscar y seleccionar &quot;palabra clave&quot;
 
-7. Escriba el valor de la clave en la palabra clave.
+1. Escriba el valor de la clave en la palabra clave.
 
 En el mapa, la clave debería tener este aspecto:
 
@@ -131,16 +131,16 @@ Los fragmentos de código son fragmentos de contenido pequeños que se pueden re
 
 1. Seleccione un elemento keydef en el mapa.
 
-2. En el menú contextual, haga clic en [!UICONTROL **Crear fragmento**].
+1. En el menú contextual, haga clic en [!UICONTROL **Crear fragmento**].
 
-3. En el cuadro de diálogo Nuevo fragmento, añada un Título y una Descripción.
+1. En el cuadro de diálogo Nuevo fragmento, añada un Título y una Descripción.
 También es posible que desee eliminar las claves o definiciones de palabras clave existentes del Contenido.
 
-4. Haga clic en [!UICONTROL **Crear**].
+1. Haga clic en [!UICONTROL **Crear**].
 
-5. En el panel izquierdo, seleccione **Fragmentos**.
+1. En el panel izquierdo, seleccione **Fragmentos**.
 
-6. Arrastre y suelte el fragmento que acaba de crear desde el panel Fragmentos hasta el mapa.
+1. Arrastre y suelte el fragmento que acaba de crear desde el panel Fragmentos hasta el mapa.
 
-7. Actualice la clave según sea necesario mediante Propiedades de contenido.
+1. Actualice la clave según sea necesario mediante Propiedades de contenido.
 Cuando se guarde y actualice, este conjunto de claves estará disponible para cualquier usuario que haya definido un mapa que contenga el mismo mapa raíz.

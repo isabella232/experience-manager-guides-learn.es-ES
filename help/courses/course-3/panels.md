@@ -2,7 +2,7 @@
 title: Paneles
 description: Uso de paneles en AEM guías
 exl-id: 24ecfc93-3540-4efa-ae85-afb346454b7f
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '1446'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Los paneles persistentes, como el panel izquierdo, son ajustables en tamaño.
 
 1. Coloque el cursor en el borde del panel.
 
-2. Cuando aparezca la flecha con dos puntas, haga clic y arrastre hacia dentro o hacia fuera, según sea necesario.
+1. Cuando aparezca la flecha con dos puntas, haga clic y arrastre hacia dentro o hacia fuera, según sea necesario.
 
 ## Expandir o contraer la barra lateral del panel izquierdo
 
@@ -31,7 +31,7 @@ La vista expandida muestra los nombres y los iconos que aparecen como Consejos d
 
    ![Expandir barra lateral](images/lesson-5/expand-sidebar.png)
 
-2. Haga clic en el [!UICONTROL **Barra lateral**] para contraer el panel.
+1. Haga clic en el [!UICONTROL **Barra lateral**] para contraer el panel.
 
    ![Contraer barra lateral](images/lesson-5/collapse-sidebar.png)
 
@@ -41,15 +41,15 @@ En el panel izquierdo, Favoritos le permite crear una lista de documentos espec�
 
 1. Select **Favoritos** en el panel izquierdo.
 
-2. Haga clic en el [!UICONTROL **Más**] icono.
+1. Haga clic en el [!UICONTROL **Más**] icono.
 
    ![Favoritos más](images/lesson-5/favorites-plus.png)
 
-3. En el cuadro de diálogo Nueva colección, introduzca un **Título** y **Descripción**.
+1. En el cuadro de diálogo Nueva colección, introduzca un **Título** y **Descripción**.
 
    Tenga en cuenta que seleccionar Público significa que otros usuarios pueden ver este Favorito.
 
-4. Haga clic en [!UICONTROL **Crear**].
+1. Haga clic en [!UICONTROL **Crear**].
 
 Ahora ha creado una colección de Favoritos.
 
@@ -59,19 +59,19 @@ Después de crear una colección, puede empezar a agregarle Favoritos.
 
 1. Select **Vista del repositorio** en el panel izquierdo.
 
-2. Haga clic en el [!UICONTROL **Elipsis**] situado junto a un tema para acceder a las opciones contextuales.
+1. Haga clic en el [!UICONTROL **Elipsis**] situado junto a un tema para acceder a las opciones contextuales.
 
-3. Select **Agregar a** > **Favoritos**.
+1. Select **Agregar a** > **Favoritos**.
 
-4. En el cuadro de diálogo Agregar a favoritos, elija **Nueva colección** o **Colección existente**.
+1. En el cuadro de diálogo Agregar a favoritos, elija **Nueva colección** o **Colección existente**.
 
    Aquí, elegiremos agregar a una colección existente.
 
    ![Cuadro de diálogo Favoritos](images/lesson-5/add-to-favorites-dialog.png)
 
-5. Si es necesario, seleccione una colección en la lista desplegable.
+1. Si es necesario, seleccione una colección en la lista desplegable.
 
-6. Haga clic en [!UICONTROL **Agregar**].
+1. Haga clic en [!UICONTROL **Agregar**].
 
 El tema se agregará a la colección Favoritos que haya elegido. Puede verlo en el menú Favoritos .
 
@@ -81,23 +81,23 @@ Otra forma de agregar un tema a Favoritos es a partir de un tema abierto en el E
 
 1. Vaya a la **Vista del repositorio**.
 
-2. Haga doble clic en un tema para abrirlo.
+1. Haga doble clic en un tema para abrirlo.
 
-3. Haga clic con el botón derecho en el **Ficha Título** en el Editor para acceder a las opciones contextuales.
+1. Haga clic con el botón derecho en el **Ficha Título** en el Editor para acceder a las opciones contextuales.
 
-4. Choose **Agregar a** > **Favoritos**.
+1. Choose **Agregar a** > **Favoritos**.
 
    ![Agregar a favoritos](images/lesson-5/addto-favorites.png)
 
-5. En el cuadro de diálogo Agregar a favoritos, elija **Nueva colección** o **Colección existente**.
+1. En el cuadro de diálogo Agregar a favoritos, elija **Nueva colección** o **Colección existente**.
 
    Aquí, elegiremos agregar a una nueva colección.
 
-6. En el cuadro de diálogo Nueva colección, introduzca un **Título** y **Descripción**.
+1. En el cuadro de diálogo Nueva colección, introduzca un **Título** y **Descripción**.
 
    Tenga en cuenta que al seleccionar **Público** significa que otros usuarios pueden ver este Favorito.
 
-7. Haga clic en [!UICONTROL **Crear**].
+1. Haga clic en [!UICONTROL **Crear**].
 
 El nuevo favorito se ha creado y agrupado. Puede verlo en el menú Favoritos .
 
@@ -107,11 +107,11 @@ Es fácil ver qué temas ya agregó a sus colecciones de Favoritos.
 
 1. Select [!UICONTROL **Favoritos**] en el panel izquierdo.
 
-2. En Favoritos, haga clic en el [!UICONTROL **Flecha**] junto a una colección para ver su contenido.
+1. En Favoritos, haga clic en el [!UICONTROL **Flecha**] junto a una colección para ver su contenido.
 
    ![Ver favoritos](images/lesson-5/view-favorites.png)
 
-3. Haga clic en el [!UICONTROL **Elipsis**] junto a un tema para que aparezcan opciones contextuales, incluida la opción para eliminarla de la lista Favoritos.
+1. Haga clic en el [!UICONTROL **Elipsis**] junto a un tema para que aparezcan opciones contextuales, incluida la opción para eliminarla de la lista Favoritos.
 
 ## Filtrar una búsqueda en la vista Repositorio
 
@@ -119,15 +119,15 @@ El filtro mejorado del Repositorio le permite buscar texto con una amplia varied
 
 1. Vaya a **Vista del repositorio**.
 
-2. Haga clic en el [!UICONTROL **Filtrar búsqueda**] icono.
+1. Haga clic en el [!UICONTROL **Filtrar búsqueda**] icono.
 
    ![Icono de filtro del repositorio](images/lesson-5/repository-filter-icon.png)
 
-3. Escriba el texto en la ruta seleccionada o elija una ruta nueva si es necesario.
+1. Escriba el texto en la ruta seleccionada o elija una ruta nueva si es necesario.
 
    La lista de archivos se actualiza a medida que escribe texto en el filtro.
 
-4. Haga clic en el icono de flecha situado junto a una categoría de búsqueda para limitar aún más la búsqueda si es necesario.
+1. Haga clic en el icono de flecha situado junto a una categoría de búsqueda para limitar aún más la búsqueda si es necesario.
 
    ![Criterios de filtro](images/lesson-5/filter-criteria.png)
 
@@ -169,21 +169,21 @@ Los fragmentos son pequeños fragmentos de contenido que se pueden reutilizar co
 
 1. Abra un tema en el Editor.
 
-2. Seleccione un elemento dentro del tema.
+1. Seleccione un elemento dentro del tema.
 
-3. Haga clic en el botón secundario del ratón dentro del elemento .
+1. Haga clic en el botón secundario del ratón dentro del elemento .
 
-4. En el menú resultante, seleccione Crear [!UICONTROL **Fragmento**].
+1. En el menú resultante, seleccione Crear [!UICONTROL **Fragmento**].
 
    ![Crear fragmento](images/lesson-5/create-snippet.png)
 
-5. En el cuadro de diálogo Nuevo fragmento, agregue una **Título** y **Descripción**.
+1. En el cuadro de diálogo Nuevo fragmento, agregue una **Título** y **Descripción**.
 
-6. Edite el fragmento según sea necesario.
+1. Edite el fragmento según sea necesario.
 
    Tenga en cuenta que una comprobación contextual le avisará visualmente si introduce un error en el contenido.
 
-7. Haga clic en [!UICONTROL **Crear**].
+1. Haga clic en [!UICONTROL **Crear**].
 
 El fragmento se añade a la lista de fragmentos de texto disponibles. Está listo para arrastrarse y soltarse en una ubicación válida del tema.
 
@@ -205,11 +205,11 @@ Las Propiedades de contenido del panel derecho incluyen información específica
 
 1. Abra un tema en **Editor XML**.
 
-2. Seleccione un **element**.
+1. Seleccione un **element**.
 
    Propiedades de contenido muestra el tipo y los atributos actuales del elemento.
 
-3. Escriba un nuevo **Valor** para el elemento .
+1. Escriba un nuevo **Valor** para el elemento .
 
    ![Nuevo valor](images/lesson-5/new-value.png)
 
@@ -221,31 +221,31 @@ Propiedades del archivo muestra información adicional sobre todo el tema abiert
 
 1. Abra un tema en el Editor.
 
-2. Haga clic en el [!UICONTROL  **Propiedades del archivo**] en el panel derecho.
+1. Haga clic en el [!UICONTROL  **Propiedades del archivo**] en el panel derecho.
 
    ![Icono de Propiedades del archivo](images/lesson-5/file-properties-icon.png)
 
-3. Configure las variables **Estado del documento** a **Editar**. Tenga en cuenta que la lista Referencias está actualmente en blanco.
+1. Configure las variables **Estado del documento** a **Editar**. Tenga en cuenta que la lista Referencias está actualmente en blanco.
 
    ![Sin referncias](images/lesson-5/no-references.png)
 
-4. Cierre el tema.
+1. Cierre el tema.
 
-5. Select [!UICONTROL **Vista del repositorio**] en el panel izquierdo.
+1. Select [!UICONTROL **Vista del repositorio**] en el panel izquierdo.
 
-6. Abra un mapa.
+1. Abra un mapa.
 
    La vista cambia a Vista de mapa.
 
-7. Haga clic en el [!UICONTROL **Editar**] icono.
+1. Haga clic en el [!UICONTROL **Editar**] icono.
 
    ![Icono Editar mapa](images/lesson-5/edit-map-icon.png)
 
-8. Una vez que el mapa esté abierto para edición, vuelva a cambiar a **Vista del repositorio**.
+1. Una vez que el mapa esté abierto para edición, vuelva a cambiar a **Vista del repositorio**.
 
-9. Arrastre y suelte el tema con el que está trabajando en el mapa.
+1. Arrastre y suelte el tema con el que está trabajando en el mapa.
 
-10. Haga clic en el [!UICONTROL **Guardar**] en la barra de herramientas superior.
+1. Haga clic en el [!UICONTROL **Guardar**] en la barra de herramientas superior.
 
 El tema se agrega al mapa. Ahora, al abrir el tema y comprobar las Propiedades del archivo, puede ver que las Referencias se actualizan para reflejar que el tema se utiliza en el mapa especificado.
 
@@ -257,13 +257,13 @@ El panel derecho contiene un método abreviado para iniciar un flujo de trabajo 
 
    ![Icono Revisar](images/lesson-5/review-icon.png)
 
-2. Haga clic en [!UICONTROL **Crear revisión**].
+1. Haga clic en [!UICONTROL **Crear revisión**].
 
    ![Crear revisión](images/lesson-5/create-review.png)
 
-3. En el cuadro de diálogo Crear tarea de revisión , rellene los campos como sea necesario.
+1. En el cuadro de diálogo Crear tarea de revisión , rellene los campos como sea necesario.
 
-4. Haga clic en [!UICONTROL **Siguiente**].
+1. Haga clic en [!UICONTROL **Siguiente**].
 
 Se crea la tarea de revisión.
 

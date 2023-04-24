@@ -2,7 +2,7 @@
 title: Configuración del Editor de guías de AEM
 description: Configuración del editor para AEM guías
 exl-id: 437d9598-4afc-431f-81bd-6762e22656b7
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 0%
@@ -25,17 +25,17 @@ Siempre puede descargar la configuración predeterminada de la interfaz de usuar
 
    ![Icono de herramientas](images/reuse/tools-icon.png)
 
-2. Select **Guías** en el panel izquierdo.
+1. Select **Guías** en el panel izquierdo.
 
-3. Haga clic en el [!UICONTROL **Perfiles de carpeta**] mosaico.
+1. Haga clic en el [!UICONTROL **Perfiles de carpeta**] mosaico.
 
    ![Perfiles de carpeta](images/reuse/folder-profiles-tile.png)
 
-4. Seleccione un perfil de carpeta.
+1. Seleccione un perfil de carpeta.
 
-5. Haga clic en el [!UICONTROL **Configuración del Editor XML**] pestaña .
+1. Haga clic en el [!UICONTROL **Configuración del Editor XML**] pestaña .
 
-6. Haga clic en [!UICONTROL **Descargar**] Predeterminado.
+1. Haga clic en [!UICONTROL **Descargar**] Predeterminado.
 
    ![Descargar predeterminado](images/lesson-4/download-default.png)
 
@@ -47,15 +47,15 @@ Después de personalizar la configuración de la interfaz de usuario, puede carg
 
 1. Dentro del perfil de carpeta, haga clic en la [!UICONTROL **Configuración del Editor XML**] pestaña .
 
-2. En la configuración de la interfaz de usuario del Editor XML, haga clic en [!UICONTROL **Cargar**].
+1. En la configuración de la interfaz de usuario del Editor XML, haga clic en [!UICONTROL **Cargar**].
 
    ![Cargar](images/lesson-4/upload.png)
 
-3. Haga doble clic en el archivo para la configuración de la interfaz de usuario modificada o, como se muestra aquí, en el archivo de muestra proporcionado.
+1. Haga doble clic en el archivo para la configuración de la interfaz de usuario modificada o, como se muestra aquí, en el archivo de muestra proporcionado.
 
    ![Archivo de configuración de muestra](images/lesson-4/sample-config-file.png)
 
-4. Haga clic en [!UICONTROL **Guardar**] en la esquina superior izquierda de la pantalla.
+1. Haga clic en [!UICONTROL **Guardar**] en la esquina superior izquierda de la pantalla.
 
 Ha cargado correctamente la configuración de la interfaz de usuario modificada.
 
@@ -67,17 +67,17 @@ Al igual que con la configuración de la interfaz de usuario, puede descargar el
 
    ![Icono de herramientas](images/reuse/tools-icon.png)
 
-2. Select **Guías** en el panel izquierdo.
+1. Select **Guías** en el panel izquierdo.
 
-3. Haga clic en el [!UICONTROL **Perfiles de carpeta**] mosaico.
+1. Haga clic en el [!UICONTROL **Perfiles de carpeta**] mosaico.
 
    ![Perfiles de carpeta](images/reuse/folder-profiles-tile.png)
 
-4. Seleccione un perfil de carpeta.
+1. Seleccione un perfil de carpeta.
 
-5. Haga clic en el [!UICONTROL **Configuración del Editor XML**] pestaña .
+1. Haga clic en el [!UICONTROL **Configuración del Editor XML**] pestaña .
 
-6. En Diseño de plantilla CSS, haga clic en [!UICONTROL **Descargar**].
+1. En Diseño de plantilla CSS, haga clic en [!UICONTROL **Descargar**].
 
    ![Descargar CSS](images/lesson-4/download-css.png)
 
@@ -89,15 +89,15 @@ Después de personalizar el diseño de la plantilla CSS, puede cargarlo. Tenga e
 
 1. Dentro del perfil de carpeta, haga clic en la [!UICONTROL **Configuración del Editor XML**] pestaña .
 
-2. En Diseño de plantilla CSS, haga clic en [!UICONTROL **Cargar**].
+1. En Diseño de plantilla CSS, haga clic en [!UICONTROL **Cargar**].
 
    ![Cargar CSS](images/lesson-4/upload-css.png)
 
-3. Haga doble clic en el archivo para su propio diseño CSS personalizado o en el archivo de muestra proporcionado que se muestra aquí.
+1. Haga doble clic en el archivo para su propio diseño CSS personalizado o en el archivo de muestra proporcionado que se muestra aquí.
 
    ![Archivo CSS de muestra](images/lesson-4/sample-css-file.png)
 
-4. Haga clic en [!UICONTROL **Guardar**] en la esquina superior izquierda de la pantalla.
+1. Haga clic en [!UICONTROL **Guardar**] en la esquina superior izquierda de la pantalla.
 Ha cargado correctamente el diseño de plantilla CSS personalizada.
 
 ## Editar fragmentos del editor XML
@@ -108,25 +108,25 @@ Los fragmentos son fragmentos de contenido reutilizables que pueden ser específ
 
    ![Icono de herramientas](images/reuse/tools-icon.png)
 
-2. Select **Guías** en el panel izquierdo.
+1. Select **Guías** en el panel izquierdo.
 
-3. Haga clic en el [!UICONTROL **Perfiles de carpeta**] mosaico.
+1. Haga clic en el [!UICONTROL **Perfiles de carpeta**] mosaico.
 
    ![Perfiles de carpeta](images/reuse/folder-profiles-tile.png)
 
-4. Seleccione un perfil de carpeta.
+1. Seleccione un perfil de carpeta.
 
-5. Haga clic en el [!UICONTROL **Configuración del Editor XML**] pestaña .
+1. Haga clic en el [!UICONTROL **Configuración del Editor XML**] pestaña .
 
-6. En Fragmentos del Editor XML, haga clic en **Cargar**.
+1. En Fragmentos del Editor XML, haga clic en **Cargar**.
 
    ![Cargar fragmentos](images/lesson-4/upload-snippets.png)
 
-7. Elija sus propios fragmentos o use las muestras proporcionadas.
+1. Elija sus propios fragmentos o use las muestras proporcionadas.
 
    ![Fragmento de ejemplo](images/lesson-4/sample-snippet.png)
 
-8. Haga clic en [!UICONTROL **Guardar**] en la esquina superior izquierda de la pantalla.
+1. Haga clic en [!UICONTROL **Guardar**] en la esquina superior izquierda de la pantalla.
 
 Ha añadido correctamente nuevos fragmentos de texto al editor.
 
@@ -138,17 +138,17 @@ De forma predeterminada, los autores pueden crear etiquetas de su elección y as
 
    ![Icono de herramientas](images/reuse/tools-icon.png)
 
-2. Select **Guías** en el panel izquierdo.
+1. Select **Guías** en el panel izquierdo.
 
-3. Haga clic en el [!UICONTROL **Perfiles de carpeta**] mosaico.
+1. Haga clic en el [!UICONTROL **Perfiles de carpeta**] mosaico.
 
    ![Perfiles de carpeta](images/reuse/folder-profiles-tile.png)
 
-4. Seleccione un perfil de carpeta.
+1. Seleccione un perfil de carpeta.
 
-5. Haga clic en el [!UICONTROL **Configuración del Editor XML**] pestaña .
+1. Haga clic en el [!UICONTROL **Configuración del Editor XML**] pestaña .
 
-6. En Etiquetas de versiones de contenido XML, haga clic en [!UICONTROL **Descargar**].
+1. En Etiquetas de versiones de contenido XML, haga clic en [!UICONTROL **Descargar**].
 
    ![Descargar etiquetas](images/lesson-4/download-labels.png)
 
@@ -160,14 +160,14 @@ Una vez que haya descargado y modificado las etiquetas, puede cargar el tema Eti
 
 1. Dentro del perfil de carpeta, haga clic en la [!UICONTROL **Configuración del Editor XML**] pestaña .
 
-2. En Etiquetas de versiones de contenido XML, haga clic en [!UICONTROL **Cargar**].
+1. En Etiquetas de versiones de contenido XML, haga clic en [!UICONTROL **Cargar**].
 
    ![Cargar etiquetas](images/lesson-4/upload-labels.png)
 
-3. Haga doble clic en el archivo para sus propias etiquetas personalizadas o en el archivo de muestra proporcionado que se muestra aquí.
+1. Haga doble clic en el archivo para sus propias etiquetas personalizadas o en el archivo de muestra proporcionado que se muestra aquí.
 
    ![Archivo de etiquetas de ejemplo](images/lesson-4/sample-labels-file.png)
 
-4. Haga clic en [!UICONTROL **Guardar**] en la esquina superior izquierda de la pantalla.
+1. Haga clic en [!UICONTROL **Guardar**] en la esquina superior izquierda de la pantalla.
 
 Ha cargado correctamente etiquetas de versión de contenido XML personalizadas.

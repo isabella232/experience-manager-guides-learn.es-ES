@@ -2,7 +2,7 @@
 title: Notas de la versión para [!DNL AEM Guides], versión de febrero de 2022
 description: Versión de febrero de [!DNL Adobe Experience Manager Guides] as a Cloud Service
 exl-id: eb7ff475-bb5b-4d32-b291-024147fbfed1
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 3%
@@ -15,8 +15,8 @@ ht-degree: 3%
 
 Actualice su [!DNL Adobe Experience Manager Guides] as a Cloud Service (posteriormente denominado [!DNL AEM Guides] as a Cloud Service) realizando los siguientes pasos:
 1. Compruebe el código Git de los Cloud Services y cambie a la rama configurada en la canalización de Cloud Services correspondiente al entorno que desea actualizar.
-2. Actualizar `<dox.version>` propiedad en `/dox/dox.installer/pom.xml` del código Git de sus Cloud Services a 2022.2.114.
-3. Confirme los cambios y ejecute la canalización de Cloud Services para actualizar a la versión de febrero de [!DNL AEM Guides] as a Cloud Service.
+1. Actualizar `<dox.version>` propiedad en `/dox/dox.installer/pom.xml` del código Git de sus Cloud Services a 2022.2.114.
+1. Confirme los cambios y ejecute la canalización de Cloud Services para actualizar a la versión de febrero de [!DNL AEM Guides] as a Cloud Service.
 
 ## Matriz de compatibilidad
 
@@ -78,7 +78,7 @@ Cuando selecciona descargar el mapa DITA, la solicitud se pone en cola y recibe 
 
 ![Descarga de mapas](assets/download-map-prompt.png)
 
-### Crítica
+### Revisión
 
 Puede mencionar los detalles en el campo de descripción de la tarea de revisión y se muestra en el mensaje de correo electrónico enviado al revisor.
 

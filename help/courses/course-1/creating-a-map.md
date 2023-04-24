@@ -2,7 +2,7 @@
 title: Cree un mapa en [!DNL AEM Guides]
 description: Obtenga información sobre cómo crear un mapa en [!DNL Adobe Experience Manager Guides]
 exl-id: e38a7fd5-2a29-4248-8e8f-e6a87e1eae9c
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 1%
@@ -82,7 +82,7 @@ El contenido se abre en [!UICONTROL Vista previa].
 Puede editar la jerarquía de temas dentro del mapa.
 
 1. Haga clic en el icono de un tema para seleccionarlo.
-2. Utilice las flechas para degradar y promocionar elementos respectivamente.
+1. Utilice las flechas para degradar y promocionar elementos respectivamente.
 
    ![Icono del repositorio](images/lesson-8/left-right.png)
 

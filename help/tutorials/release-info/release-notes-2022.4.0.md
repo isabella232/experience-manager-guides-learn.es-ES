@@ -2,7 +2,7 @@
 title: Notas de la versión | Guías de Adobe Experience Manager as a Cloud Service, versión de abril de 2022
 description: Versión de abril de las guías de Adobe Experience Manager as a Cloud Service
 exl-id: c735ba24-a803-454b-8723-57dacf90061b
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 3%
@@ -15,8 +15,8 @@ ht-degree: 3%
 
 Actualice su [!DNL Adobe Experience Manager Guides] as a Cloud Service (posteriormente denominado *[!DNL AEM Guides]as a Cloud Service*) realizando los siguientes pasos:
 1. Compruebe el código Git de los Cloud Services y cambie a la rama configurada en la canalización de Cloud Services correspondiente al entorno que desea actualizar.
-2. Actualizar `<dox.version>` propiedad en `/dox/dox.installer/pom.xml` del código Git de sus Cloud Services a 2022.4.133.
-3. Confirme los cambios y ejecute la canalización de Cloud Services para actualizar a la versión de abril de [!DNL AEM Guides] as a Cloud Service.
+1. Actualizar `<dox.version>` propiedad en `/dox/dox.installer/pom.xml` del código Git de sus Cloud Services a 2022.4.133.
+1. Confirme los cambios y ejecute la canalización de Cloud Services para actualizar a la versión de abril de [!DNL AEM Guides] as a Cloud Service.
 
 ## Matriz de compatibilidad
 
@@ -34,7 +34,7 @@ Esta sección enumera la matriz de compatibilidad para las aplicaciones de softw
 
 | Versión de AEM Guías en la nube | Ventanas del conector de oxígeno | Conector de oxígeno Mac |
 | --- | --- | --- |
-| 2022.4.0 | 2,5,6 | 2,5,6 |
+| 2022.4.0 | 2.5.6 | 2.5.6 |
 |  |  |  |
 
 *La línea de base y las condiciones creadas en AEM son compatibles con las versiones de FMPS a partir de 2020.2.
@@ -52,8 +52,8 @@ Una referencia de clave de contenido DITA inserta una parte del contenido de un 
 Ahora las referencias clave se resuelven sobre la base del mapa raíz configurado en el siguiente orden de prioridad:
 
 1. Preferencias de usuario
-2. Panel Vista Mapa
-3. Perfil de carpeta
+1. Panel Vista Mapa
+1. Perfil de carpeta
 
 Para obtener más información, consulte *Resolución de referencias clave* en la guía de usuario.
 

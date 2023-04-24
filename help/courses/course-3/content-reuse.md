@@ -2,10 +2,10 @@
 title: Reutilización de contenido
 description: Uso recurrente de las funciones en las guías AEM
 exl-id: 453c5a09-0bcf-4760-87fc-df3ea4a3a30a
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '355'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -21,17 +21,17 @@ Cuando se realiza un cambio en un tema de origen reutilizable, la información s
 
 1. Vaya a la **Repositorio**.
 
-2. Haga clic en el **menú contextual** junto a la carpeta reutilizar.
+1. Haga clic en el **menú contextual** junto a la carpeta reutilizar.
 
-3. Choose **Crear > Tema dita**.
+1. Choose **Crear > Tema dita**.
 
-4. Rellene los campos del cuadro de diálogo Crear nuevo tema . Por ejemplo:
+1. Rellene los campos del cuadro de diálogo Crear nuevo tema . Por ejemplo:
 
    ![Confirmación](images/lesson-8/new-topic-dialog.png)
 
-5. Haga clic en [!UICONTROL **Crear**].
+1. Haga clic en [!UICONTROL **Crear**].
 
-6. Agregue contenido al tema según sea necesario.
+1. Agregue contenido al tema según sea necesario.
 
 ## Añadir un nuevo elemento reutilizable a un tema
 
@@ -41,24 +41,24 @@ Existen varios métodos para añadir elementos reutilizables. En este caso, el p
 
 1. Haga clic en el tema en una ubicación válida.
 
-2. Seleccione el **Insertar contenido reutilizable** en la barra de herramientas superior.
+1. Seleccione el **Insertar contenido reutilizable** en la barra de herramientas superior.
 
    ![Confirmación](images/lesson-8/insert-reuse-icon.png)
 
-3. En el cuadro de diálogo Reutilizar contenido , haga clic en el botón [!UICONTROL **Carpeta**] icono.
+1. En el cuadro de diálogo Reutilizar contenido , haga clic en el botón [!UICONTROL **Carpeta**] icono.
 
-4. Vaya a la carpeta requerida.
+1. Vaya a la carpeta requerida.
 
-5. Elija un tema con componentes reutilizables.
+1. Elija un tema con componentes reutilizables.
 Por ejemplo:
 
    ![Confirmación](images/lesson-8/reusable-topic.png)
 
-6. Haga clic en [!UICONTROL **Select**].
+1. Haga clic en [!UICONTROL **Select**].
 
-7. Elija un componente específico para reutilizarlo.
+1. Elija un componente específico para reutilizarlo.
 
-8. Haga clic en [!UICONTROL **Select**].
+1. Haga clic en [!UICONTROL **Select**].
 
 El elemento reutilizable se ha insertado en el tema.
 
@@ -66,19 +66,19 @@ El elemento reutilizable se ha insertado en el tema.
 
 1. Vaya a **Contenido reutilizable** en el panel izquierdo.
 
-2. Haga clic en el [!UICONTROL **Agregar**] en el panel Contenido reutilizable.
+1. Haga clic en el [!UICONTROL **Agregar**] en el panel Contenido reutilizable.
 
    ![Confirmación](images/lesson-8/reuse-contents-icon.png)
 
-3. Vaya a una carpeta.
+1. Vaya a una carpeta.
 
-4. Seleccione uno o varios temas específicos.
+1. Seleccione uno o varios temas específicos.
 
-5. Haga clic en [!UICONTROL **Agregar**].
+1. Haga clic en [!UICONTROL **Agregar**].
 
-6. Desde el panel Contenido reutilizable, expanda **Información general de elementos**.
+1. Desde el panel Contenido reutilizable, expanda **Información general de elementos**.
 
-7. Arrastre y suelte un elemento en el tema en una ubicación válida.
+1. Arrastre y suelte un elemento en el tema en una ubicación válida.
 
 El elemento reutilizable se ha insertado en el tema.
 
@@ -88,12 +88,12 @@ La entrada que acaba de crear es un elemento reutilizable. Por lo tanto, requier
 
 1. Haga clic dentro de la entrada.
 
-2. En el panel Propiedades del contenido, haga clic en el menú desplegable debajo de Atributo.
+1. En el panel Propiedades del contenido, haga clic en el menú desplegable debajo de Atributo.
 
-3. Select **ID**.
+1. Select **ID**.
 
-4. Escriba un nombre lógico para el valor.
+1. Escriba un nombre lógico para el valor.
 
-5. Guarde o cree una versión del tema para que el cambio se refleje en el Repositorio.
+1. Guarde o cree una versión del tema para que el cambio se refleje en el Repositorio.
 
 El ID y el valor se han asignado al elemento .

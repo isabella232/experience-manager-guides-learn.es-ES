@@ -2,7 +2,7 @@
 title: Creación y publicación de líneas de base
 description: Creación y publicación con líneas de base en [!DNL Adobe Experience Manager Guides]
 exl-id: 3c229c30-f2e0-4fb0-b60c-7bae60ef1a5b
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 1%
@@ -24,7 +24,7 @@ Puede acceder a las líneas de base en el tablero de mapas.
    ![ellipsis-map-dashboard.png](images/ellipsis-map-dashboard.png)
 El tablero Mapa se abre en otra ficha.
 
-2. Select **Líneas de base**.
+1. Select **Líneas de base**.
 
    ![baseline-tab.png](images/baseline-tab.png)
 
@@ -38,18 +38,18 @@ Se muestra la ficha Líneas base .
 
    Se muestra la información de la nueva línea base. Su nombre predeterminado se basa en la fecha de creación.
 
-2. Asigne un nombre nuevo a la línea de base, si es necesario.
+1. Asigne un nombre nuevo a la línea de base, si es necesario.
 
-3. En el encabezado &quot;Set the version based on&quot; (Establecer la versión en función de), seleccione el círculo para Label.
+1. En el encabezado &quot;Set the version based on&quot; (Establecer la versión en función de), seleccione el círculo para Label.
    ![set-the-version.png](images/set-the-version.png)
 
    >[!NOTE]
    >
    >NOTA: La variable *Usar la versión más reciente si la etiqueta no está presente* está seleccionada de forma predeterminada. Si no se selecciona esta opción y en el mapa existen temas o archivos multimedia sin la etiqueta elegida, el proceso de creación de Línea de base fallará.
 
-4. Introduzca la etiqueta que desee utilizar.
+1. Introduzca la etiqueta que desee utilizar.
 
-5. Seleccione **Guardar**.
+1. Seleccione **Guardar**.
 
 Se crea la línea de base. Se muestra una tabla de todos los temas y su información asociada.
 
@@ -67,17 +67,17 @@ También puede crear líneas de base que sean una instantánea a tiempo.
 
    ![create-baseline.png](images/create-baseline.png)
 
-2. En el encabezado &quot;Establecer la versión en función de&quot;, seleccione el círculo de &quot;Versión activada&quot;.
+1. En el encabezado &quot;Establecer la versión en función de&quot;, seleccione el círculo de &quot;Versión activada&quot;.
 
    ![version-on.png](images/version-on.png)
 
-3. Seleccione el icono de calendario y especifique la fecha y la hora que desee.
+1. Seleccione el icono de calendario y especifique la fecha y la hora que desee.
 
    ![calendar.png](images/calendar.png)
 
-4. Asigne un nombre nuevo a la línea base si es necesario.
+1. Asigne un nombre nuevo a la línea base si es necesario.
 
-5. Seleccione **Guardar**.
+1. Seleccione **Guardar**.
 
 Se crea la línea de base. Se muestra una tabla de todos los temas y su información asociada.
 
@@ -87,13 +87,13 @@ Puede que desee asignar una nueva etiqueta de forma masiva a todo el contenido d
 
 1. Seleccione la línea de base para la que desea añadir etiquetas.
 
-2. Select **Agregar etiquetas**.
+1. Select **Agregar etiquetas**.
 
    ![add-labels.png](images/add-labels.png)
 
    Aparece el cuadro de diálogo Agregar etiqueta .
 
-3. Introduzca la etiqueta que desea asignar y seleccione **Agregar**.
+1. Introduzca la etiqueta que desea asignar y seleccione **Agregar**.
 
 La etiqueta se ha añadido a todos los temas.
 
@@ -101,25 +101,25 @@ La etiqueta se ha añadido a todos los temas.
 
 1. Vaya a la ficha Ajustes preestablecidos de salida en el panel de mapas.
 
-2. Active la casilla AEM sitio .
+1. Active la casilla AEM sitio .
 
    ![aem-site-check.png](images/aem-site-checkbox.png)
 
-3. Seleccione **Editar**.
+1. Seleccione **Editar**.
 
    ![edit-aem.png](images/edit-aem.png)
 
    Se muestra una nueva página.
 
-4. Seleccione la casilla de verificación Usar línea de base y elija la línea de base que desee utilizar en la lista desplegable.
+1. Seleccione la casilla de verificación Usar línea de base y elija la línea de base que desee utilizar en la lista desplegable.
 
    ![baseline.png](images/baseline.png)
 
-5. Select **Listo**.
+1. Select **Listo**.
 
    ![done.png](images/done.png)
 
-6. Select **Generar**.
+1. Select **Generar**.
 
    ![generate.png](images/generate.png)
 
@@ -129,20 +129,20 @@ La etiqueta se ha añadido a todos los temas.
 
 1. Vaya a la pestaña Salidas en el panel de mapas.
 
-2. Seleccione el texto de la columna Configuración de generación para abrir el resultado.
+1. Seleccione el texto de la columna Configuración de generación para abrir el resultado.
    ![aem-site-link.png](images/aem-site-link.png)
 
 ## Eliminación de una línea de base
 
 1. En la pestaña Líneas de base, seleccione la línea de base que desee eliminar.
 
-2. Select **Eliminar**.
+1. Select **Eliminar**.
 
    ![remove-baseline.png](images/remove-baseline.png)
 
    Aparece el cuadro de diálogo Quitar línea de base .
 
-3. Select **Eliminar**.
+1. Select **Eliminar**.
 
 Se elimina la línea base.
 
@@ -150,11 +150,11 @@ Se elimina la línea base.
 
 1. En la pestaña Líneas de base, seleccione la línea de base que desee duplicar.
 
-2. Select **Duplicar**.
+1. Select **Duplicar**.
 
    ![duplicate.png](images/duplicate.png)
 
-3. Seleccione **Guardar**.
+1. Seleccione **Guardar**.
 
    ![save.png](images/save.png)
 
@@ -165,21 +165,21 @@ Se crea la línea de base duplicada.
 Puede especificar directamente la versión de un tema utilizado en una línea de base.
 
 1. En la pestaña Líneas de base, seleccione la línea de base que desee modificar.
-2. Seleccione **Editar**.
+1. Seleccione **Editar**.
 
    ![edit-aem.png](images/edit-aem.png)
 
-3. Select **Examinar todos los temas**.
+1. Select **Examinar todos los temas**.
 
    ![browse-all-themes.png](images/browse-all-topics.png)
 
    Se muestra una tabla de temas y su información asociada.
 
-4. Para los temas que desee modificar, seleccione la versión que desee en la lista desplegable de la columna Versión .
+1. Para los temas que desee modificar, seleccione la versión que desee en la lista desplegable de la columna Versión .
 
    ![version-dropdown.png](images/version-dropdown.png)
 
-5. Seleccione **Guardar**.
+1. Seleccione **Guardar**.
 
 Se han guardado los cambios. La línea de base utilizará ahora las versiones del tema que haya especificado.
 
@@ -191,17 +191,17 @@ En este caso, creamos un ajuste preestablecido de salida basado en una línea de
 
 1. Vaya a la ficha Ajustes preestablecidos de salida en el panel de mapas.
 
-2. Seleccione **Crear**.
+1. Seleccione **Crear**.
 
    ![create-output-preset.png](images/create-output-preset.png)
 
    Se muestra una nueva página de ajuste preestablecido de salida, denominada Nueva salida.
-3. En el campo Nombre de configuración , introduzca un nombre descriptivo.
+1. En el campo Nombre de configuración , introduzca un nombre descriptivo.
 
-4. Active la casilla de verificación Usar línea de base y seleccione la línea de base que desee en el menú desplegable.
+1. Active la casilla de verificación Usar línea de base y seleccione la línea de base que desee en el menú desplegable.
 
    ![baseline.png](images/baseline.png)
 
-5. Select **Listo**.
+1. Select **Listo**.
 
 Se ha creado el nuevo ajuste preestablecido de salida y se muestra en la página de ajustes preestablecidos de salida.

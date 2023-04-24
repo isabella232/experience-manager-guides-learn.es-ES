@@ -2,7 +2,7 @@
 title: Explicación de la interfaz de usuario de AEM en [!DNL AEM Guides]
 description: Explicación de la interfaz de usuario de AEM en [!DNL Adobe Experience Manager Guides]
 exl-id: 955a05ed-92d3-480e-9c6b-a0ff362cc464
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 2%
@@ -18,7 +18,7 @@ Obtenga información sobre la administración de recursos, archivos y carpetas e
 ## Acceso al Editor XML
 
 1. En la pantalla de inicio de sesión, introduzca su nombre de usuario y contraseña y seleccione **[!UICONTROL Iniciar sesión]**.
-2. Select **[!UICONTROL Editor XML]** en la página AEM Navegación .
+1. Select **[!UICONTROL Editor XML]** en la página AEM Navegación .
 
 ## Vistas del Editor XML
 
@@ -81,7 +81,7 @@ Puede volver al Editor XML desde cualquier vista de la interfaz de usuario de As
 
 1. Seleccione el tema que desee editar en la lista.
 El tema se muestra en la interfaz de usuario de Assets.
-2. Select **Editar** en la barra de herramientas superior.
+1. Select **Editar** en la barra de herramientas superior.
 Se le devolverá al Editor XML.
 
 ### Volver desde la vista de tarjeta

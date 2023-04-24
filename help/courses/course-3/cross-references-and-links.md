@@ -2,7 +2,7 @@
 title: Referencias cruzadas y vínculos
 description: Creación de referencias cruzadas y vínculos en AEM guías
 exl-id: bee7d50f-cbdd-4ac8-b15b-101febc4ae80
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Es posible crear una referencia cruzada externa arrastrando y soltando un tema d
 
 1. Abra un archivo en el que desee insertar una referencia cruzada externa.
 
-2. Asigne un ID al elemento al que desea hacer referencia.
+1. Asigne un ID al elemento al que desea hacer referencia.
 
    a. Haga clic dentro del elemento .
 
@@ -34,15 +34,15 @@ Es posible crear una referencia cruzada externa arrastrando y soltando un tema d
 
    d. Ver el elemento y su valor en **Vista Esquema** si lo desea.
 
-3. **Guardar** el tema para garantizar que el Repositorio tenga el ID actualizado.
+1. **Guardar** el tema para garantizar que el Repositorio tenga el ID actualizado.
 
-4. Haga clic en el [!UICONTROL **Referencia**] en la barra de herramientas superior.
+1. Haga clic en el [!UICONTROL **Referencia**] en la barra de herramientas superior.
 
    ![Barra de herramientas](images/lesson-7/references-icon.png)
 
-5. En el **Referencia de contenido** , seleccione el ID y el emparejamiento de elementos que desea insertar como referencia cruzada.
+1. En el **Referencia de contenido** , seleccione el ID y el emparejamiento de elementos que desea insertar como referencia cruzada.
 
-6. Haga clic en [!UICONTROL **Select**].
+1. Haga clic en [!UICONTROL **Select**].
 
 Se ha añadido la referencia cruzada al tema.
 
@@ -57,9 +57,9 @@ Algunas modificaciones pueden provocar referencias cruzadas rotas. Entre ellas s
 
 1. Vaya a la **Vista Esquema** en el panel izquierdo.
 
-2. Haga clic en el [!UICONTROL **Filtro**] icono.
+1. Haga clic en el [!UICONTROL **Filtro**] icono.
 
-3. Select **Vínculos rotos**.
+1. Select **Vínculos rotos**.
 
    ![Menú desplegable Filtro](images/lesson-7/broken-links.png)
 

@@ -2,7 +2,7 @@
 title: Solución de problemas de publicación
 description: Solución de problemas de publicación de errores en [!DNL Adobe Experience Manager Guides]
 exl-id: b37ea3e7-59cf-4fc5-8fae-e1fadd26f8d8
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -53,7 +53,7 @@ El archivo de registro generado se puede abrir para su revisión.
 
    ![error-log](images/error-log.png)
 
-2. Desplácese por el registro de errores.
+1. Desplácese por el registro de errores.
 
 ## Mostrar y ocultar tipos de error
 
@@ -63,7 +63,7 @@ El registro de errores muestra cada tipo de error en un color único.
 
 1. **Select** o **anular selección** cualquier tipo de error para mostrar u ocultar el resaltado.
 
-2. Desplazamiento por los errores utilizando la variable **next** o **previous** botones (flechas).
+1. Desplazamiento por los errores utilizando la variable **next** o **previous** botones (flechas).
 
 ## Resolución de errores
 

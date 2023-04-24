@@ -2,10 +2,10 @@
 title: PDF nativo | Generación de salida de PDF
 description: Generar salida de PDF en las guías de Adobe Experience Manager as a Cloud Service
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: cc7ae2e5445cca11e169667d3af8aa9de93809b9
+source-git-commit: b9cf70ac957bfacbf9a6bf4c3b32d4f73c2b1287
 workflow-type: tm+mt
-source-wordcount: '2666'
-ht-degree: 1%
+source-wordcount: '2755'
+ht-degree: 0%
 
 ---
 
@@ -74,7 +74,7 @@ Utilice para especificar la configuración básica de salida, como especificar l
 | Configuración | Descripción |
 | --- | --- |
 | **Ruta de salida** | La ruta dentro del repositorio de AEM donde se almacena la salida del PDF. Asegúrese de que la ruta de salida no esté ubicada dentro de la carpeta del proyecto. Si se deja en blanco, la salida se genera en la ubicación de salida de mapa DITA predeterminada.<br>También puede utilizar las siguientes variables predeterminadas para definir la Ruta de salida. Puede utilizar una sola variable o una combinación de variables para definir esta opción. <br> `${map_filename}`: Utiliza el nombre de los archivos de asignación DITA para crear la ruta de destino. <br> `${map_title}`: Utiliza el título del mapa DITA para crear la ruta de destino. <br>`${preset_name}`: Utiliza el nombre del ajuste preestablecido de salida para crear la ruta de destino. <br> `${language_code}`: Utiliza el código de idioma donde se encuentra el archivo de asignación para crear la ruta de destino. <br> `${map_parentpath}`: Utiliza la ruta completa del archivo de asignación para crear la ruta de destino.  <br>`${path_after_langfolder}`: Utiliza la ruta del archivo de asignación después de la carpeta de idioma para crear la ruta de destino. |
-| **Archivo PDF** | Especifique un nombre de archivo para guardar el PDF. De forma predeterminada, el nombre del archivo PDF agrega el nombre de asignación DITA junto con el nombre del ajuste preestablecido. Por ejemplo, ditamap es &quot;TestMap&quot; y el nombre del ajuste preestablecido es &quot;preset1&quot;, el nombre predeterminado del pdf será &quot;TestMap_preset1.pdf&quot;. <br>También puede utilizar las siguientes variables predeterminadas para definir el archivo PDF. Puede utilizar una sola variable o una combinación de variables para definir esta opción. <br>`${map_filename}`<br>`${map_title}`<br>`${preset_name}` <br> `${language_code}`. |
+| **Archivo PDF** | Especifique un nombre de archivo para guardar el PDF. De forma predeterminada, el nombre del archivo PDF agrega el nombre de asignación DITA junto con el nombre del ajuste preestablecido. Por ejemplo, ditamap es &#39;TestMap&#39; y el nombre del ajuste preestablecido es &#39;preset1&#39;, entonces el nombre predeterminado del pdf será &#39;TestMap_preset1.pdf&#39;. <br>También puede utilizar las siguientes variables predeterminadas para definir el archivo PDF. Puede utilizar una sola variable o una combinación de variables para definir esta opción. <br>`${map_filename}`<br>`${map_title}`<br>`${preset_name}` <br> `${language_code}`. |
 | **Aplicar condiciones usando** | Para el contenido condicional, elija entre las siguientes opciones para generar una salida de PDF basada en esas condiciones: <br><ul> <li> **Ninguno aplicado** Seleccione esta opción si no desea aplicar ninguna condición en el mapa y el contenido de origen. <br><li> **Archivo Ditaval** Seleccione un archivo DITAVAL para generar contenido condicional. Para seleccionar, haga clic en con Ajuste preestablecido de condición y busque el archivo. <br> <li> **Ajuste preestablecido de condición** Seleccione un ajuste preestablecido de condición en la lista desplegable para aplicar una condición al publicar la salida. Esta opción está visible si ha añadido una condición para el archivo de asignación DITA. Los ajustes condicionales están disponibles en la ficha Ajustes preestablecidos de condición de la consola de asignación DITA. Para obtener más información sobre el ajuste preestablecido de condición, consulte [Usar ajustes preestablecidos de condición](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html). <br> </ul> |
 | **Usar línea de base** | Si ha creado una Línea de base para el mapa DITA seleccionado, seleccione esta opción para especificar la versión que desea publicar. Consulte [Trabajo con línea de base](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html) para obtener más información. |
 | **Crear PDF con barra de cambios entre versiones publicadas** | Utilice las siguientes opciones para crear un PDF que muestre las diferencias de contenido entre dos versiones mediante barras de cambios:   <br><ul><li> **Línea de base de la versión anterior** Elija la versión de línea de base que desea comparar con la versión actual u otra línea de base. Aparecerá una barra de cambios en el PDF para indicar el contenido modificado. Una barra de cambios es una línea vertical que identifica visualmente el contenido nuevo o revisado. La barra de cambios aparece a la izquierda del contenido que se ha insertado, cambiado o eliminado. <br> **Nota**: Si selecciona **Usar línea de base** y elija una línea de base para publicar, la comparación se realizará entre las dos versiones de línea de base seleccionadas. Por ejemplo, si elige la línea de base Versión 1.3 en **Usar línea de base** y la versión 1.1 en **Línea de base de la versión anterior**, la comparación se realizará entre la versión de base 1.1 y la versión de base 1.3. <br><li> **Mostrar texto agregado** Seleccione para mostrar el texto insertado en color verde y subrayado. Esta opción está seleccionada de forma predeterminada. <br> <li> **Mostrar texto eliminado** Seleccione esta opción para mostrar el texto eliminado en color rojo y marcado con un tachado. Esta opción está seleccionada de forma predeterminada. <br>**Nota** También puede personalizar el estilo de la barra de cambios, el contenido insertado o el contenido eliminado mediante la hoja de estilo.<br></ul> |
@@ -84,19 +84,36 @@ Utilice para especificar la configuración básica de salida, como especificar l
 
 Los metadatos son la descripción o definición del contenido. Los metadatos ayudan en la administración de contenido y ayudan a buscar archivos en Internet.
 
-Utilice la pestaña Metadatos para definir el título, el autor, el asunto y las palabras clave de la salida del PDF. Estos metadatos se asignan a los metadatos de la ficha Descripción de las Propiedades del documento del PDF de salida.
+Utilice la ficha Metadatos para establecer los campos de metadatos del autor, como el nombre, el título del documento, las palabras clave, la información de copyright y otros campos de datos para la salida del PDF. También puede agregar metadatos personalizados para la salida del PDF.
+
+Estos metadatos se asignan a los metadatos de la ficha Descripción de las Propiedades del documento del PDF de salida.
 
 **Nota**: Estos metadatos anulan los metadatos definidos a nivel de libro.
 
 <img src="assets/pdf-metadata.png" alt="ficha metadatos" width="600">
 
+Desde los ajustes preestablecidos de salida, **seleccionar PDF** > **Metadatos** para agregar y personalizar opciones de metadatos.
+* **Proporcionar XMP archivo**
 
-| Configuración | Descripción |
-|---|---|
-| **Título** | Especifique un título corto y claro para definir el documento. |
-| **Autor** | Especifique los nombres de los autores que crearon el documento. |
-| **Asunto** | Defina el asunto o la colección con la que está relacionado el documento. |
-| **Palabras clave** | Utilice palabras clave relevantes para mejorar la optimización de su motor de búsqueda (SEO) y ayudar a los usuarios a encontrar el contenido relacionado. |
+   Los campos de metadatos se pueden rellenar directamente mediante la importación [XMP](https://www.adobe.com/products/xmp.html) (Plataforma de metadatos extensible). Puede descargar un archivo de XMP de muestra desde aquí.
+
+[Descargar](assets/SampleXMP.xmp)
+
+   Como alternativa, puede generar un archivo XMP usando Adobe Acrobat.
+   1. Haga clic en **Archivo** > **Propiedades** en Acrobat.
+   1. En **Descripción**, haga clic en **Metadatos adicionales**.
+   1. En el panel izquierdo, seleccione **Avanzadas**.
+   1. Haga clic en **Guardar**.
+
+   XMP archivo se guarda en el dispositivo.
+
+* **Proporcionar nombres y valores de metadatos**
+
+   1. Añada el nombre seleccionando en la lista desplegable o agregando metadatos personalizados escribiendo directamente en el campo nombre .
+   1. Introduzca el valor de los metadatos y haga clic en el icono &quot;+&quot;.
+Los metadatos se añaden a la lista de metadatos del PDF.
+
+
 
 **Diseño**
 
@@ -106,7 +123,7 @@ Utilice para definir los diseños de página y especificar las opciones de vista
 | --- | --- |
 | **Plantilla de PDF** | Las plantillas de PDF proporcionan una estructura clara para definir los diseños de página, el estilo del contenido y la aplicación de diversas configuraciones a la salida del PDF. Seleccione en las opciones desplegables de plantilla de PDF para elegir la plantilla que prefiera. |
 | **Visualización de la página** | Utilice la visualización de página para la vista de página que muestra cómo se muestra el PDF cuando se abre. Seleccione en las opciones desplegables Visualización de página (Page Display) para elegir una vista preferida. <br><ul><li> **Predeterminado**  Se muestra según la configuración predeterminada del visor del PDF en el equipo de un usuario.  <br> <li> **Vista de una sola página** Muestra una página a la vez.   <br> <li> **Desplazamiento en una sola página** Muestra una sola página en una columna vertical continua.  <br> <li> **Dos vistas de página** Muestra el pliego de dos páginas una al lado de la otra. .<br> <li> **Desplazamiento de dos páginas** Muestra el desplazamiento de dos páginas en paralelo con el desplazamiento continuo. </ul> |
-| **Zoom** | Seleccione para cambiar el tamaño de la vista de página que muestra cómo se muestra el PDF cuando se abre.  <br><ul><li> **Predeterminado** Se muestra según la configuración predeterminada del visor del PDF en el equipo de un usuario    <br> <li> **100 %** Hace que la página aparezca en su tamaño real.     <br> <li> **Ajustar página** Define el ancho y el alto de la página para que se ajusten al panel del documento. .<br> <li> **Ajustar anchura de página** Define el ancho de la página para que ocupe el ancho del panel del documento.  <br> <li> **Ajustar altura de página** Hace que la altura de la página se rellene con la altura del panel del documento. </ul> |
+| **Acercar o alejar** | Seleccione para cambiar el tamaño de la vista de página que muestra cómo se muestra el PDF cuando se abre.  <br><ul><li> **Predeterminado** Se muestra según la configuración predeterminada del visor del PDF en el equipo de un usuario    <br> <li> **100 %** Hace que la página aparezca en su tamaño real.     <br> <li> **Ajustar página** Define el ancho y el alto de la página para que se ajusten al panel del documento. .<br> <li> **Ajustar anchura de página** Define el ancho de la página para que ocupe el ancho del panel del documento.  <br> <li> **Ajustar altura de página** Hace que la altura de la página se rellene con la altura del panel del documento. </ul> |
 
 **Seguridad**
 
@@ -143,14 +160,14 @@ Una vez configurado el ajuste preestablecido de salida, puede generar resultados
 1. En el **Autor** , seleccione **Repositorio** Ver.\
    Se abrirá el panel Repositorio .
 
-2. En el panel Repositorio, abra el archivo de asignación DITA en **Vista Mapa**.
+1. En el panel Repositorio, abra el archivo de asignación DITA en **Vista Mapa**.
 
-3. En el **Salida** , haga clic en **Ajustes preestablecidos** para ver el panel Ajustes preestablecidos .
+1. En el **Salida** , haga clic en **Ajustes preestablecidos** para ver el panel Ajustes preestablecidos .
 Para crear o configurar un ajuste preestablecido de salida, consulte [Crear un ajuste preestablecido de salida de PDF](#create-output-preset).
-4. Para guardar la configuración, haga clic en el botón **Guardar todo** ![guardar todo](assets/SaveFloppy_icon.svg) en la esquina superior izquierda de la barra de herramientas estándar en la vista Salida.
-5. Haga clic en el **Generar ajuste preestablecido** ![generar ajuste preestablecido](assets/generate-output.svg) en la barra superior.
+1. Para guardar la configuración, haga clic en el botón **Guardar todo** ![guardar todo](assets/SaveFloppy_icon.svg) en la esquina superior izquierda de la barra de herramientas estándar en la vista Salida.
+1. Haga clic en el **Generar ajuste preestablecido** ![generar ajuste preestablecido](assets/generate-output.svg) en la barra superior.
 Puede ver una barra de progreso junto al ajuste preestablecido de salida seleccionado en el panel Ajustes preestablecidos de salida.
-6. Una vez finalizada la generación de salida, haga clic en  **Ver salida** ![ver salida](assets/view-output.svg) en la barra superior para ver el resultado.\
+1. Una vez finalizada la generación de salida, haga clic en  **Ver salida** ![ver salida](assets/view-output.svg) en la barra superior para ver el resultado.\
    A **Correcto** está visible en la esquina inferior derecha de la pantalla.
 Si una salida no se realiza correctamente, se muestra el siguiente mensaje de error.
 <img src="assets/error-log.png" alt="registro de errores" width="250">

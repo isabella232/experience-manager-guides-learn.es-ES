@@ -2,7 +2,7 @@
 title: Vista Esquema
 description: Uso de la vista de esquema en AEM guías
 exl-id: 300f550f-dc79-4971-b8ba-43fe8499ea02
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 0%
@@ -31,7 +31,7 @@ La vista Esquema cambia de expandida a contraída.
 
 1. Haga clic en cualquier elemento para ir a esa ubicación.
 
-2. Haga clic en el [!UICONTROL **Elipsis**] junto a un elemento para acceder a las opciones de acceso directo.
+1. Haga clic en el [!UICONTROL **Elipsis**] junto a un elemento para acceder a las opciones de acceso directo.
 
    ![Menú contextual](images/lesson-6/shortcut-options.png)
 
@@ -41,7 +41,7 @@ Se puede generar automáticamente un nuevo ID en función de la configuración d
 
 1. Haga clic en el [!UICONTROL **Elipsis**] junto a cualquier elemento.
 
-2. Choose **Generar ID**.
+1. Choose **Generar ID**.
 
    ![Menú contextual Elipsis](images/lesson-6/ellipsis-popup.png)
 
@@ -53,7 +53,7 @@ Los elementos se pueden reordenar dentro de la vista Esquema.
 
 1. Haga clic y arrastre un elemento a otra ubicación de la vista Esquema.
 
-2. Coloque el elemento encima de otro elemento para reemplazarlo. Esta acción se indica con un cuadro cuadrado alrededor del elemento que se va a reemplazar.
+1. Coloque el elemento encima de otro elemento para reemplazarlo. Esta acción se indica con un cuadro cuadrado alrededor del elemento que se va a reemplazar.
 
    O bien
 
@@ -63,13 +63,13 @@ Los elementos se pueden reordenar dentro de la vista Esquema.
 
 1. Seleccione el elemento .
 
-2. Haga clic en el [!UICONTROL **Elipsis**].
+1. Haga clic en el [!UICONTROL **Elipsis**].
 
-3. Select **Cambiar nombre de elemento**.
+1. Select **Cambiar nombre de elemento**.
 
    ![Cambiar el nombre del elemento, menú contextual](images/lesson-6/rename-before.png)
 
-4. Haga doble clic en un nuevo nombre de elemento.
+1. Haga doble clic en un nuevo nombre de elemento.
 
 Se ha cambiado el nombre del elemento.
 
@@ -77,9 +77,9 @@ Se ha cambiado el nombre del elemento.
 
 1. Seleccione el elemento que desee desajustar.
 
-2. Haga clic en el [!UICONTROL **Elipsis**].
+1. Haga clic en el [!UICONTROL **Elipsis**].
 
-3. Select [!UICONTROL **Desajustar elemento**].
+1. Select [!UICONTROL **Desajustar elemento**].
 
 El contenido permanece, pero la estructura se ha eliminado.
 
@@ -89,7 +89,7 @@ El contenido permanece, pero la estructura se ha eliminado.
 
    ![Filtros](images/lesson-6/filter-icon.png)
 
-2. Elija una de las opciones siguientes: **Todo** para mostrar todos los elementos o **Vínculos rotos** para buscar y corregir referencias rotas.
+1. Elija una de las opciones siguientes: **Todo** para mostrar todos los elementos o **Vínculos rotos** para buscar y corregir referencias rotas.
 
 ## Buscar con vista de esquema
 
@@ -99,4 +99,4 @@ Una búsqueda puede restringirse y arrojar resultados en función de un elemento
 
    ![Barra de búsqueda](images/lesson-6/search-bar.png)
 
-2. Elija el resultado más relevante para sus necesidades.
+1. Elija el resultado más relevante para sus necesidades.

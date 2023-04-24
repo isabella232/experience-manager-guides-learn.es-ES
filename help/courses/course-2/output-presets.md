@@ -2,10 +2,10 @@
 title: Ajustes preestablecidos de salida
 description: Un ajuste preestablecido de salida es una colección de propiedades de publicación que se han asignado a un mapa
 exl-id: b0c64737-48a0-4337-8a7f-35d1deb03366
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -29,13 +29,13 @@ Se muestra un ajuste preestablecido de salida cuando se abre una asignación en 
 
 1. Seleccione un ajuste preestablecido de salida de línea base. Por ejemplo, se puede seleccionar AEM o PDF si el nuevo ajuste preestablecido que se va a crear es para un sitio o para proporcionar contenido de Adobe PDF.
 
-2. Haga clic en **Crear**.
+1. Haga clic en **Crear**.
 
-3. Si es necesario, seleccione un Tipo de salida.
+1. Si es necesario, seleccione un Tipo de salida.
 
-4. En función del tipo de salida, configure las opciones.
+1. En función del tipo de salida, configure las opciones.
 
-5. Haga clic en **Listo**.
+1. Haga clic en **Listo**.
 
 ## Editar un ajuste preestablecido de salida
 
@@ -43,14 +43,14 @@ Los ajustes preestablecidos de salida están predefinidos, pero se pueden person
 
 1. Abra el tablero de mapas.
 
-2. Seleccione el **Ajustes preestablecidos de salida** pestaña .
+1. Seleccione el **Ajustes preestablecidos de salida** pestaña .
 
-3. Seleccione un ajuste preestablecido de salida.
+1. Seleccione un ajuste preestablecido de salida.
 
-4. Haga clic en **Editar**.
+1. Haga clic en **Editar**.
 
-5. Modifique la configuración según sea necesario.
+1. Modifique la configuración según sea necesario.
 
    ![Editar-Salida-Ajuste preestablecido](images/edit-output-preset.png)
 
-6. Haga clic en **Listo**.
+1. Haga clic en **Listo**.

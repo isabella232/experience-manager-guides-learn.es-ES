@@ -2,7 +2,7 @@
 title: Notas de la versión | Guías de Adobe Experience Manager as a Cloud Service, versión de octubre de 2022
 description: Versión de octubre de las guías de Adobe Experience Manager as a Cloud Service
 exl-id: 38638080-625c-49c3-9e54-56cc23831546
-source-git-commit: 4183162142f5f6291fdb6e832e10b46a3c0da73a
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 4%
@@ -15,8 +15,8 @@ ht-degree: 4%
 
 Actualice las guías actuales de Adobe Experience Manager as a Cloud Service (más adelante, *Guías AEM as a Cloud Service*) realizando los siguientes pasos:
 1. Compruebe el código Git de los Cloud Services y cambie a la rama configurada en la canalización de Cloud Services correspondiente al entorno que desea actualizar.
-2. Actualizar `<dox.version>` propiedad en `/dox/dox.installer/pom.xml` del código Git de sus Cloud Services a 2022.10.183.
-3. Confirme los cambios y ejecute la canalización de Cloud Services para actualizar a la versión de octubre de AEM guías as a Cloud Service.
+1. Actualizar `<dox.version>` propiedad en `/dox/dox.installer/pom.xml` del código Git de sus Cloud Services a 2022.10.183.
+1. Confirme los cambios y ejecute la canalización de Cloud Services para actualizar a la versión de octubre de AEM guías as a Cloud Service.
 
 ## Matriz de compatibilidad
 
@@ -35,7 +35,7 @@ Esta sección enumera la matriz de compatibilidad para las aplicaciones de softw
 
 | AEM guías como una versión en la nube | Ventanas del conector de oxígeno | Conector de oxígeno Mac | Editar en ventanas de oxígeno | Editar en Oxygen Mac |
 | --- | --- | --- | --- | --- |
-| 2022.10.0 | 2,7,13 | 2,7,13 | 2.3 | 2,3 |
+| 2022.10.0 | 2.7.13 | 2.7.13 | 2.3 | 2.3 |
 |  |  |  |  |
 
 

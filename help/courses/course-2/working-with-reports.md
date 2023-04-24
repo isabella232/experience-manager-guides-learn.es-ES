@@ -2,7 +2,7 @@
 title: Uso de informes
 description: Uso de informes en [!DNL Adobe Experience Manager Guides]
 exl-id: 755506a6-c416-4a8c-8359-8db7e63a90a4
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 0%
@@ -27,11 +27,11 @@ Puede descargar archivos de muestra para el ejercicio aquí.
 
    ![ellipses-9.png](images/ellipses-9.png)
 
-2. Select **[!UICONTROL Cargar recursos]**.
+1. Select **[!UICONTROL Cargar recursos]**.
 
    ![upload-assets.png](images/upload-assets.png)
 
-3. Seleccione los archivos que desea cargar en la carpeta y seleccione **Cargar**.
+1. Seleccione los archivos que desea cargar en la carpeta y seleccione **Cargar**.
 
 Los archivos DITA se abren y debe revisarlos para ver si hay problemas con contenido faltante, conrefs o referencias cruzadas.
 
@@ -41,15 +41,15 @@ Los archivos DITA se abren y debe revisarlos para ver si hay problemas con conte
 
    ![ellipses-9.png](images/ellipses-9.png)
 
-2. Select **Crear > Mapa**.
+1. Select **Crear > Mapa**.
 
    ![create-map.png](images/create-map.png)
 
    Aparece el cuadro de diálogo Crear nuevo mapa .
 
-3. En el campo Plantilla , seleccione **Bookmap** (o **Mapa** en función del tipo de contenido que esté creando) en el menú desplegable y asigne un título a la asignación.
+1. En el campo Plantilla , seleccione **Bookmap** (o **Mapa** en función del tipo de contenido que esté creando) en el menú desplegable y asigne un título a la asignación.
 
-4. Seleccione **Crear**.
+1. Seleccione **Crear**.
 
 Se crea el mapa y el carril izquierdo cambia automáticamente de la vista Repositorio a la vista Mapa.
 
@@ -60,22 +60,22 @@ Este es el icono Editar y le permite abrir el mapa en el editor.
 
    ![edit-map.png](images/edit-map.png)
 
-2. Vuelva a la vista Repositorio seleccionando el icono Repositorio .
+1. Vuelva a la vista Repositorio seleccionando el icono Repositorio .
 
    ![repository-button.png](images/repository-button.png)
 
-3. Añada un tema al mapa arrastrándolo y soltándolo desde el Repositorio en el mapa del editor.
+1. Añada un tema al mapa arrastrándolo y soltándolo desde el Repositorio en el mapa del editor.
 El indicador de línea le mostrará dónde se colocará el tema.
 
-4. Siga agregando temas según sea necesario.
+1. Siga agregando temas según sea necesario.
 
-5. Cuando termine, seleccione **Guardar como nueva versión.**
+1. Cuando termine, seleccione **Guardar como nueva versión.**
 
    ![save-as-new-version.png](images/save-as-new-version.png)
 
-6. En el *Comentarios para la nueva versión* , introduzca un comentario descriptivo.
+1. En el *Comentarios para la nueva versión* , introduzca un comentario descriptivo.
 
-7. Seleccione **Guardar**.
+1. Seleccione **Guardar**.
 
 ## Generación de un resultado de sitio AEM
 
@@ -84,16 +84,16 @@ El indicador de línea le mostrará dónde se colocará el tema.
    ![open-map-dashboard.png](images/open-map-dashboard.png)
 
    El tablero Mapa se abre en otra ficha.
-2. En la ficha Ajustes preestablecidos de salida, seleccione **Sitio AEM**.
+1. En la ficha Ajustes preestablecidos de salida, seleccione **Sitio AEM**.
 
    ![aem-site-check](images/aem-site-checkbox.png)
 
-3. Select **Generar**.
+1. Select **Generar**.
 
-4. Vaya a la página Resultados para ver el estado de las salidas generadas.
+1. Vaya a la página Resultados para ver el estado de las salidas generadas.
 Si hay errores, la pestaña Outputs puede mostrar un círculo naranja bajo la columna Generation Setting en lugar de verde, indicando que la generación ha finalizado.
 
-5. Seleccione el vínculo en la columna Configuración de generación para abrir la salida generada.
+1. Seleccione el vínculo en la columna Configuración de generación para abrir la salida generada.
 Revise el resultado para ver si falta contenido.
 
 ## La ficha Informes
@@ -114,9 +114,9 @@ Si faltan imágenes en los archivos, una causa común podría ser que el conteni
 
    ![image-ellipsis.png](images/image-ellipsis.png)
 
-2. Select **[!UICONTROL Cargar recursos]** y seleccione las imágenes que faltan.
+1. Select **[!UICONTROL Cargar recursos]** y seleccione las imágenes que faltan.
 
-3. Select **Cargar**.
+1. Select **Cargar**.
 
 Se han cargado las imágenes que faltan. Ahora, un resultado de AEM del sitio recién generado mostrará estas imágenes, y la ficha Informes ya no mostrará ningún error de imagen que falte.
 
@@ -132,11 +132,11 @@ Además del [!UICONTROL Cargar recursos] , puede cargar recursos arrastrándolos
 
    ![reuse-ellipsis.png](images/reuse-ellipsis.png)
 
-2. Select **Ver en la interfaz de usuario de Assets**.
+1. Select **Ver en la interfaz de usuario de Assets**.
 
    ![assets_ui.png](images/assets_ui.png)
 
-3. Arrastre y suelte el archivo en la carpeta .
+1. Arrastre y suelte el archivo en la carpeta .
 El archivo se carga y se resuelve el error de referencia.
 
 Todos los errores se han resuelto. La página Informes indicará que no hay más errores y la generación de un sitio AEM da como resultado un resultado completo sin componentes faltantes.

@@ -2,7 +2,7 @@
 title: Publicación del resultado predeterminado en AEM guías
 description: Publicación de la salida predeterminada en [!DNL Adobe Experience Manager Guides]
 exl-id: 97a259dd-4266-4a7b-8677-3fa261714687
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -25,13 +25,13 @@ Hay varios ajustes preestablecidos de salida disponibles para elegir. Esta guía
 
    El tablero Mapa se abre en otra ficha.
 
-2. En la ficha Ajustes preestablecidos de salida, seleccione AEM sitio y PDF.
+1. En la ficha Ajustes preestablecidos de salida, seleccione AEM sitio y PDF.
 
    ![Ajustes preestablecidos de salida](images/lesson-9/pdf-aem.png)
 
-3. Select **Generar.**
+1. Select **Generar.**
 
-4. Vaya a la página Resultados para ver el estado de las salidas generadas.
+1. Vaya a la página Resultados para ver el estado de las salidas generadas.
 
    Un círculo verde indica que la generación ha finalizado.
 

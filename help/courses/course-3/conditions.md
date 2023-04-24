@@ -2,10 +2,10 @@
 title: Condiciones
 description: Trabajo con condiciones en AEM guías
 exl-id: 2cb670d9-1a22-47c6-8409-52d1d526010a
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -21,15 +21,15 @@ Los archivos de muestra que puede utilizar para esta lección se proporcionan en
 
 1. Seleccione el **Perfiles de carpeta** mosaico.
 
-2. Haga clic en [!UICONTROL **Atributos condicionales**].
+1. Haga clic en [!UICONTROL **Atributos condicionales**].
 
-3. Haga clic en [!UICONTROL **Editar**] en la esquina superior izquierda del perfil.
+1. Haga clic en [!UICONTROL **Editar**] en la esquina superior izquierda del perfil.
 
-4. Haga clic en [!UICONTROL **Agregar**].
+1. Haga clic en [!UICONTROL **Agregar**].
 
    ![Condiciones en los perfiles de carpeta](images/lesson-13/add-name.png)
 
-5. Rellene los campos obligatorios.
+1. Rellene los campos obligatorios.
 
    - El nombre debe corresponder a un atributo utilizado para la creación de perfiles.
 
@@ -37,7 +37,7 @@ Los archivos de muestra que puede utilizar para esta lección se proporcionan en
 
    - Label es la palabra que verá el usuario que está introduciendo atributos.
 
-6. Haga clic en [!UICONTROL **Guardar**].
+1. Haga clic en [!UICONTROL **Guardar**].
 
 >[!NOTE]
 >
@@ -49,11 +49,11 @@ Si no se ha asignado ningún perfil de carpeta personalizado a un concepto, pued
 
 1. En el **Vista del repositorio**, haga clic en el elemento con el que desee trabajar para seleccionarlo.
 
-2. En el **Propiedades de contenido** , haga clic en el [!UICONTROL **Atributo**] lista desplegable.
+1. En el **Propiedades de contenido** , haga clic en el [!UICONTROL **Atributo**] lista desplegable.
 
-3. Elija el atributo que desea asignar.
+1. Elija el atributo que desea asignar.
 
-4. Agregue un **Valor**.
+1. Agregue un **Valor**.
 
 El atributo y el emparejamiento de valores ahora se asignan al elemento seleccionado.
 
@@ -73,9 +73,9 @@ El panel Condiciones permite la asignación controlada de pares de atributos y v
 
    c. Haga clic en [!UICONTROL **Guardar**].
 
-2. En el panel condiciones, expanda los menús desplegables para Audiencia y Plataforma. Tenga en cuenta que las condiciones disponibles son específicas del perfil de carpeta.
+1. En el panel condiciones, expanda los menús desplegables para Audiencia y Plataforma. Tenga en cuenta que las condiciones disponibles son específicas del perfil de carpeta.
 
-3. Arrastre y suelte una condición en el elemento deseado para asignarla.
+1. Arrastre y suelte una condición en el elemento deseado para asignarla.
 
 ## Asignar un esquema de sujeto
 
@@ -83,11 +83,11 @@ Los mapas del esquema de sujetos son una forma especializada de ditamap y están
 
 1. Vaya a la **Vista del repositorio**.
 
-2. Seleccione un mapa que haga referencia al diagrama de esquema de sujeto. Este ejemplo utiliza el mapa llamado _Diseño y diseño_.
+1. Seleccione un mapa que haga referencia al diagrama de esquema de sujeto. Este ejemplo utiliza el mapa llamado _Diseño y diseño_.
 
    ![Preferencias de usuario](images/lesson-13/subject-scheme-map.png)
 
-3. Configure las preferencias de usuario.
+1. Configure las preferencias de usuario.
 
    a. Haga clic en el [!UICONTROL **Preferencias de usuario**] icono.
 
@@ -119,6 +119,6 @@ Se ha asignado el sistema de temas.
 
 1. Vaya a **Configuración del editor**.
 
-2. Seleccione el **Condiciones** pestaña .
+1. Seleccione el **Condiciones** pestaña .
 
-3. Marque la casilla . **Mostrar esquema de asunto en el panel Condiciones**
+1. Marque la casilla . **Mostrar esquema de asunto en el panel Condiciones**
