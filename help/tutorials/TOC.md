@@ -2,9 +2,9 @@
 user-guide-title: Tutoriales para AEM Guides
 user-guide-description: Lea nuestra colección de tutoriales para Adobe Experience Manager Guides.
 breadcrumb-title: Tutoriales de AEM Guides
-source-git-commit: b841ea84c473fbd4781589618e50cfbbb6b43b9e
+source-git-commit: e75005906ab280d577914b879b866cd0a3f83b5a
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '715'
 ht-degree: 7%
 
 ---
@@ -190,6 +190,7 @@ ht-degree: 7%
             + Esquatrón {#schematron}
                + [Validación del esquema](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
       + Publicación {#publishing}
+         + [Configuración AEM entorno para la publicación de PDF nativos](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
          + [FMPS y guías](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
       + Flujos de trabajo {#workflows}
          + [Flujo de trabajo de posgeneración](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
