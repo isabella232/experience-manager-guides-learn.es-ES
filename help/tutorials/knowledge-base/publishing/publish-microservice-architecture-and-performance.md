@@ -1,7 +1,7 @@
 ---
 title: Arquitectura y rendimiento del microservicio de Cloud Publishing
 description: Comprenda cómo el nuevo microservicio permite la publicación escalable en AEMaaCS.
-source-git-commit: a8466a16cea7df7757d15005baaf73a39c7952ea
+source-git-commit: 2e45f132ced5ac29118a7301f104bedc03c93253
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Esta restricción de recursos fue la principal motivación para crear un servici
 
 El servicio utiliza las soluciones de nube de vanguardia de Adobe, como App Builder, IO Eventing e IMS, para crear una oferta sin servidor. Estos servicios se basan en sí mismos en los estándares del sector ampliamente aceptados, como Kubernetes y docker.
 
-Cada solicitud al nuevo microservicio de publicación se ejecuta en un contenedor de docker aislado que ejecuta solo una solicitud de publicación a la vez. Si se reciben nuevas solicitudes de publicación, se crean automáticamente varios contenedores nuevos. Esta configuración de contenedor único por solicitud permite que el microservicio ofrezca el mejor rendimiento a los clientes sin introducir riesgos de seguridad. Estos contenedores se descartan una vez finalizada la publicación, lo que libera los recursos utilizados.
+Cada solicitud al nuevo microservicio de publicación se ejecuta en un contenedor de docker aislado que ejecuta solo una solicitud de publicación a la vez. Si se reciben nuevas solicitudes de publicación, se crean automáticamente varios contenedores nuevos. Esta configuración de contenedor único por solicitud permite que el microservicio ofrezca el mejor rendimiento a los clientes sin introducir riesgos de seguridad. Estos contenedores se descartan una vez finalizada la publicación, lo que libera los recursos no utilizados.
 
 Todas estas comunicaciones están garantizadas por Adobe IMS mediante autenticación y autorización basadas en JWT y se ejecutan mediante HTTPS.
 
