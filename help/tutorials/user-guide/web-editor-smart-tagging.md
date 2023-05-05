@@ -1,13 +1,13 @@
 ---
 title: Etiquetado inteligente
 description: Aprenda a etiquetado inteligente
-source-git-commit: 528dd5d33f38c29809e7e7dafd77d860daaba8db
+exl-id: 73d8d012-6bf0-416b-8180-0c90844e50cb
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
 
 ---
-
 
 # Etiquetado inteligente {#id216KH0ID0Y8}
 
@@ -23,12 +23,12 @@ Siga estos pasos para crear etiquetas inteligentes:
 1. Abra el tema en el modo Vista previa y seleccione **Volver a procesar recursos** de la barra de herramientas principal.
 1. Seleccione Extracción de palabras clave XML para extraer palabras clave relevantes.
 
-   ![](images/smart-tag-reprocess-asset.png)
+   ![](images/smart-tag-reprocess-asset.png){width="300" align="left"}
 
 1. Seleccione la opción Ejecutar proceso posterior . Se muestra un mensaje al iniciar correctamente la herramienta.
 1. Las etiquetas se extraen automáticamente y se pueden ver en la página Propiedades del tema seleccionado.
 
-   ![](images/properties-smart-tags.png)
+   ![](images/properties-smart-tags.png){width="800" align="left"}
 
    >[!NOTE]
    >
@@ -38,4 +38,3 @@ Siga estos pasos para crear etiquetas inteligentes:
 *Póngase en contacto con el equipo de éxito del cliente para habilitar esta función en el entorno. Esto no está habilitado como parte de la compatibilidad predeterminada.*
 
 **Tema principal:**[ Administrar metadatos](manage-metadata.md)
-

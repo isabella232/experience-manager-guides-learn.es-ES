@@ -1,13 +1,13 @@
 ---
 title: Etiquetado masivo de contenido DITA
 description: Aprenda a etiquetar masivamente contenido DITA
-source-git-commit: 528dd5d33f38c29809e7e7dafd77d860daaba8db
+exl-id: 0e855575-e62f-4dc7-869c-7fd3ec61ffdb
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '688'
 ht-degree: 0%
 
 ---
-
 
 # Etiquetado masivo de contenido DITA {#id179SG0TN05Z}
 
@@ -31,7 +31,7 @@ Utilice la función de etiquetado masivo para aplicar varias etiquetas a la vez.
 
 1. Seleccione los temas o el submapa en el que desea aplicar las etiquetas.
 
-   ![](images/apply-tags-uuid.png)
+   ![](images/apply-tags-uuid.png){width="650" align="left"}
 
 
    >[!NOTE]
@@ -106,4 +106,3 @@ Siga estos pasos para eliminar todas las etiquetas de uno o varios temas:
 Si tiene una larga lista de etiquetas aplicadas a sus temas, es posible que le resulte un poco complicado navegar. Puede ocultar fácilmente las etiquetas en desde la vista de la consola de asignación DITA haciendo clic en el icono Ocultar etiquetas . Del mismo modo, cuando las etiquetas no están visibles, al hacer clic en Mostrar etiquetas se muestran todas las etiquetas.
 
 **Tema principal:**[ Administrar metadatos](manage-metadata.md)
-

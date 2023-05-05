@@ -1,13 +1,13 @@
 ---
 title: Crear ajustes preestablecidos de salida desde el Editor web
 description: Obtenga información sobre cómo crear ajustes preestablecidos de salida desde el Editor web
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 7fde0057-06a5-428e-a91b-9e9386a56270
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 0%
 
 ---
-
 
 # Crear ajustes preestablecidos de salida desde el Editor web {#id218CL400JW3}
 
@@ -27,7 +27,7 @@ Realice los siguientes pasos para crear ajustes preestablecidos de salida para s
 
 1. En el **Salida** , seleccione el icono + para crear un ajuste preestablecido de salida para su mapa DITA.
 
-   ![](images/output-tab-preset_cs.png)
+   ![](images/output-tab-preset_cs.png){width="350" align="left"}
 
 1. Introduzca el nombre del ajuste preestablecido en el cuadro de diálogo Agregar ajuste preestablecido y haga clic en **Agregar**.
 
@@ -43,20 +43,19 @@ Realice los siguientes pasos para crear ajustes preestablecidos de salida para s
    1. En el **Artículos** , seleccione los temas para los que desea generar el resultado.
 1. Seleccione el **Generar ajuste preestablecido** en la parte superior para generar la salida.
 
-   ![](images/add-preset-articles-tab_cs.png)
+   ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
 
 1. Verá el estado del proceso de generación de salida. La variable **Temas** lista los temas para los que se genera el resultado mientras se usa la variable **Estado** muestra el estado de publicación de cada tema.
 
    Para ver el resultado, pase el puntero del ratón sobre el tema y haga clic en Ver salida.
 
-   ![](images/add-preset-output-generated_cs.png)
+   ![](images/add-preset-output-generated_cs.png){width="800" align="left"}
 
 
 >[!NOTE]
 >
 > También puede editar, cambiar el nombre, duplicar o eliminar un ajuste preestablecido de salida existente desde el menú Opciones.
 
-![](images/edit-preset_cs.png)
+![](images/edit-preset_cs.png){width="550" align="left"}
 
 **Tema principal:**[ Publicación basada en artículos desde el Editor web](web-editor-article-publishing.md)
-

@@ -1,13 +1,13 @@
 ---
 title: Creación de un mapa
 description: Obtenga información sobre cómo crear un mapa
-source-git-commit: 66915827a0b169069cc482763f0f50b9e9b6aa64
+exl-id: d35ee09f-f951-4866-a2b1-e4b19f76e7a1
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 0%
 
 ---
-
 
 # Creación de un mapa {#id176FEN0D05Z}
 
@@ -25,7 +25,7 @@ Siga estos pasos para crear un archivo de asignación:
    >
    > La forma en que se hace referencia a los temas en un archivo de mapa depende de la plantilla de mapa. Por ejemplo, si selecciona la plantilla Mapa, el tema hace referencia a \(`topicref`\) se utilizan para hacer referencia a temas. En el caso de un Bookmap, las referencias de temas se crean utilizando la variable `chapter` en DITA.
 
-   ![](images/map-template.png)
+   ![](images/map-template.png){width="650" align="left"}
 
 1. En la página Propiedades, especifique el mapa **Título**.
 
@@ -41,7 +41,7 @@ Siga estos pasos para crear un archivo de asignación:
 
    Cada nuevo archivo de asignación que cree desde la interfaz de usuario de Assets **Crear** \> **Mapa DITA** o al Editor web se le asigna un ID de asignación único. Además, el nuevo mapa se guarda como la última copia de trabajo en DAM. Hasta que no guarde una revisión de un mapa recién creado, no verá ningún número de versión en el Historial de versiones. Si abre el mapa para editarlo, la información de la versión se muestra en la esquina superior derecha de la pestaña del archivo de mapa:
 
-   ![](images/first-version-map-none.png)
+   ![](images/first-version-map-none.png){width="650" align="left"}
 
    La información de la versión de un mapa recién creado se muestra como *ninguno*. Cuando guarda una nueva versión, se le asigna un número de versión 1.0. Para obtener más información sobre cómo guardar una nueva versión, consulte [Guardar como nueva versión](web-editor-features.md#save-as-new-version-id209ME400GXA).
 
@@ -53,4 +53,3 @@ Siga estos pasos para crear un archivo de asignación:
 
 
 **Tema principal:**[ Trabajar con el Editor de mapas](map-editor.md)
-

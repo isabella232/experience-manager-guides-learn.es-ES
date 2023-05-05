@@ -1,13 +1,13 @@
 ---
 title: Generar salida del panel Repositorio
 description: Obtenga información sobre cómo generar resultados desde el panel Repositorio
-source-git-commit: a78a775406c07c1ec12665cdb00f65ca91f03f95
+exl-id: 3dea81c3-1e57-4f14-9afe-6b075bd410e0
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 0%
 
 ---
-
 
 # Generar salida del panel Repositorio o del panel Vista de mapa {#id218CL6010AE}
 
@@ -28,16 +28,16 @@ Realice los siguientes pasos para generar resultados para uno o más temas en el
 1. En el **Autor** , seleccione el tema en el mapa DITA que desea publicar.
 
 1. Select **Generación rápida** en el menú Opciones del tema seleccionado.
-   ![](images/select-topic-options-menu_cs.png)
+   ![](images/select-topic-options-menu_cs.png){width="650" align="left"}
 
 1. Para publicar un tema utilizado en un solo mapa DITA, seleccione los ajustes preestablecidos de salida del mapa que desee usar para publicar y haga clic en **Generar**.
-   ![](images/select-preset_cs.png)
+   ![](images/select-preset_cs.png){width="350" align="left"}
 
 1. Verá el estado del proceso de generación de salida. Para ver el resultado, pase el puntero del ratón sobre el tema y haga clic en Ver salida.
 
 1. Si tiene un tema común que se utiliza en varios temas, seleccione los distintos mapas DITA y también los ajustes preestablecidos de salida que desee utilizar para publicar y haga clic en **Generar.**
 
-   ![](images/select-preset-multiple-maps_cs.png)
+   ![](images/select-preset-multiple-maps_cs.png){width="350" align="left"}
 
 1. Verá el estado del proceso de generación de salida.
 
@@ -46,7 +46,7 @@ Realice los siguientes pasos para generar resultados para uno o más temas en el
    - **Mapa**: Muestra los mapas DITA que contienen el tema seleccionado.
    - **Estado**: Muestra el estado de publicación de cada tema.
 Para ver el resultado, pase el puntero del ratón sobre el tema y haga clic en Ver salida.
-      ![](images/output-multiple-maps_cs.png)
+      ![](images/output-multiple-maps_cs.png){width="800" align="left"}
 
 
 ## Generar salida para un mapa DITA desde el Editor Web
@@ -57,7 +57,7 @@ Realice los siguientes pasos para generar resultados para todo el mapa DITA:
 
 1. Select **Generación rápida** en el menú Opciones de su mapa DITA.
 
-   ![](images/select-map-options-menu_cs.png)
+   ![](images/select-map-options-menu_cs.png){width="650" align="left"}
 
 1. Seleccione los ajustes preestablecidos de salida de su mapa DITA que desea utilizar para publicar y haga clic en **Generar.**
 
@@ -78,10 +78,9 @@ Realice los siguientes pasos para generar resultados para más de un tema en el 
    >
    > Solo verá los ajustes preestablecidos de salida del mapa DITA actual que contienen todos los temas seleccionados.
 
-   ![](images/generate-output-multiple-topics_cs.png)
+   ![](images/generate-output-multiple-topics_cs.png){width="650" align="left"}
 
 1. Verá el estado del proceso de generación de salida. Para ver el resultado, pase el puntero del ratón sobre el tema y haga clic en Ver salida.
 
 
 **Tema principal:**[ Publicación basada en artículos desde el Editor web](web-editor-article-publishing.md)
-

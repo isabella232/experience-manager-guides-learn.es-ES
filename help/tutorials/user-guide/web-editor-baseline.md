@@ -1,13 +1,13 @@
 ---
 title: Crear y administrar líneas de base desde el Editor web
 description: Obtenga información sobre cómo crear y administrar líneas de base desde el Editor web
-source-git-commit: 873111892d5b479f80a40c0b18cda9b538f5a1de
+exl-id: 9e390489-16f5-4f9a-a821-5150a66c2ed4
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '1190'
 ht-degree: 0%
 
 ---
-
 
 # Crear y administrar líneas de base desde el Editor web {#id223MB0ZF043}
 
@@ -24,7 +24,7 @@ Puede crear una línea de base desde el Editor web siguiendo estos pasos:
 1. En el panel Repositorio, abra el archivo de asignación DITA en la vista Mapa.
 1. Haga clic en el **Administrar** pestaña . La variable **Línea de base** muestra las líneas de base del mapa DITA.
 
-   ![](images/baseline-manage.png)
+   ![](images/baseline-manage.png){width="800" align="left"}
 
 1. En el **Línea de base** , haga clic en el icono + en la parte superior derecha. Puede crear una línea de base con una versión específica de los temas y el contenido al que se hace referencia disponible en una fecha y hora específicas, o con una etiqueta definida para una versión de los temas.
 1. Introduzca un nombre para la línea base en **Nombre de línea de base**.
@@ -52,7 +52,7 @@ Puede crear una línea de base desde el Editor web siguiendo estos pasos:
 
    Las líneas de base basadas en etiquetas se actualizan dinámicamente. Si genera una línea de base, descarga una línea de base o crea un proyecto de traducción con una línea de base, los archivos se seleccionan dinámicamente en función de las etiquetas actualizadas. Por ejemplo, si ha utilizado la versión 1.2 de un tema con Label Release 1.0 para la línea de base y la versión 1.5 actualizada posteriormente con Label Release 1.0, la línea de base se actualizará dinámicamente y se utilizará la versión 1.5.
 
-   ![](images/dynamic-baseline.png)
+   ![](images/dynamic-baseline.png){width="550" align="left"}
 
    - **Seleccionar etiquetas**: Si los temas tienen etiquetas especificadas para ellos, las etiquetas se enumeran en la variable **Seleccionar etiquetas** lista desplegable. Puede elegir la etiqueta\(s\) de la lista. A las etiquetas seleccionadas primero se les da mayor prioridad que a las posteriores.
 1. **Referencias indirectas**: Para las referencias indirectas dentro del mapa DITA, se ofrecen las siguientes opciones:
@@ -74,7 +74,7 @@ Puede administrar las líneas de base existentes mediante las distintas funcione
 - Puede ver o editar el contenido de una línea de base existente haciendo doble clic en la línea de base de la lista del panel Línea de base. La ventana de edición de línea de base del centro muestra el archivo de asignación DITA, el contenido o los temas del mapa y el contenido al que se hace referencia.
 
 
-![](images/baseline-options.png)
+![](images/baseline-options.png){width="550" align="left"}
 
 También puede realizar las siguientes operaciones en la línea de base desde el menú Opciones:
 
@@ -92,7 +92,7 @@ También puede realizar las siguientes operaciones en la línea de base desde el
 
 Uso del icono Filtros en la sección **Filtros de línea de base** , puede aplicar filtros en la línea de base abierta en la ventana de edición de línea de base:
 
-![](images/baseline-filter.png)
+![](images/baseline-filter.png){width="350" align="left"}
 
 - Filtre los archivos en función de su nombre o ubicación.
 - Filtre los archivos en función de los valores de diferentes columnas, como Tipo de archivo, Tipo de referencia, etc.
@@ -107,4 +107,3 @@ Uso del icono Filtros en la sección **Filtros de línea de base** , puede aplic
 Una vez editada la línea de base, puede hacer clic en el botón **Guardar** en la parte superior para guardar los cambios en la línea base. Puede hacer clic en el botón **Restablecer** si no desea guardar el cambio y restablecer la línea de base. Al hacer clic en el botón **Restablecer** se muestra una advertencia que indica que se perderán los cambios sin guardar.
 
 **Tema principal:**[ Trabajar con el Editor web](web-editor.md)
-

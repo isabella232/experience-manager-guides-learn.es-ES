@@ -1,13 +1,13 @@
 ---
 title: Trabajar con el Editor de mapas básico
 description: Aprenda a trabajar con el Editor de mapas básico
-source-git-commit: af5c64312a608affe95fd552b3dd1b2e05ea2b8e
+exl-id: 85194806-db3f-442b-a551-540d148d26ec
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '1394'
 ht-degree: 0%
 
 ---
-
 
 # Trabajar con el Editor de mapas básico {#id1942CM005Y4}
 
@@ -37,7 +37,7 @@ Realice los siguientes pasos para crear el archivo de asignación:
 
    El archivo de mapa se abre para su edición en el Editor de mapas. Con el Editor de mapas, se crea un mapa utilizando los temas disponibles actualmente que se muestran en el carril Referencias .
 
-   ![](images/dita-map-01.png)
+   ![](images/dita-map-01.png){width="800" align="left"}
 
 1. Al usar la variable **Referencias** , vaya a la carpeta que contiene los temas o submapas que desea agregar.
 
@@ -66,13 +66,13 @@ Realice los siguientes pasos para crear el archivo de asignación:
 
 La barra de herramientas principal del Editor de mapas básico permite realizar las siguientes tareas:
 
-![](images/ditamap-toolbar-actions.png)
+![](images/ditamap-toolbar-actions.png){width="800" align="left"}
 
 **A: Buscar**
 
 Puede buscar e incluir los temas requeridos de DAM. Al hacer clic en este icono, aparece el cuadro de diálogo Buscar :
 
-![](images/search-dita-map.png)
+![](images/search-dita-map.png){width="800" align="left"}
 
 Introduzca las palabras clave que desee buscar, estas palabras clave se encuentran en los valores de nombre de archivo, contenido e incluso atributos del tema. Una vez que los resultados de la búsqueda estén disponibles, seleccione los temas deseados y haga clic en el botón Comprobar para añadir los archivos seleccionados al final de la estructura del mapa. Puede filtrar los resultados de la búsqueda especificando los parámetros Modificar fecha .
 
@@ -100,19 +100,19 @@ En el **Modo predeterminado**, al hacer clic en un vínculo de tema, se muestra 
 **Nota:** En el modo predeterminado, puede utilizar los métodos abreviados del teclado para deshacer \(`Ctrl+z`\) o rehacer \(`Ctrl+y`\) la última acción.
 
 
-![](images/dita-map-invalid-source.png)
+![](images/dita-map-invalid-source.png){width="650" align="left"}
 
 **G: Propiedades de mapa**
 
 Visualice el cuadro de diálogo Propiedades del mapa, donde puede establecer los atributos y la información de metadatos para el mapa. Para agregar un atributo, haga clic en el botón **Agregar** en la esquina inferior izquierda del cuadro de diálogo para obtener la variable **Atributo** lista desplegable. En la lista, seleccione el atributo que desee añadir. Si el atributo seleccionado tiene valores predefinidos especificados en el DTD, esos valores se presentarán en una nueva lista desplegable. Puede seleccionar el valor que desee en la lista desplegable. Si no hay ningún valor predefinido, se le mostrará un cuadro de texto para introducir un valor para el atributo seleccionado.
 
-![](images/map-properties.png)
+![](images/map-properties.png){width="300" align="left"}
 
 ## Funciones disponibles a nivel de tema en el Editor de mapas básico
 
 Cuando pasa el puntero del ratón sobre un tema o un archivo de subasignación en el Editor de mapas básico, puede realizar las siguientes tareas:
 
-![](images/ditamap-actions.png)
+![](images/ditamap-actions.png){width="650" align="left"}
 
 **A: Mover a la izquierda o a la derecha**
 
@@ -123,7 +123,7 @@ Haga clic en los iconos de flecha izquierda o derecha para mover el tema a la iz
 Haga clic en el icono Propiedades para abrir el cuadro de diálogo Propiedades del tema. Con este cuadro de diálogo, puede establecer los atributos del tema y la información de metadatos. Para obtener más información sobre los atributos y metadatos de tema estándar, consulte la [topicref](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) documentación en la especificación del lenguaje DITA OASIS.
 
 
-![](images/map-properties-metadata.png)
+![](images/map-properties-metadata.png){width="350" align="left"}
 
 **C: Agregar nueva referencia**
 
@@ -155,7 +155,7 @@ Siga estos pasos para trabajar con tablas de relación en el Editor de mapas bá
 
 1. Select **Reltable** en la barra de herramientas.
 
-   ![](images/reltable.png)
+   ![](images/reltable.png){width="650" align="left"}
 
 1. Arrastre y suelte los temas de la lista de temas al editor Reltable .
 
@@ -163,13 +163,13 @@ Siga estos pasos para trabajar con tablas de relación en el Editor de mapas bá
    >
    > Puede agregar temas desde cualquier carpeta en el carril Referencias.
 
-   ![](images/create-reltable.png)
+   ![](images/create-reltable.png){width="550" align="left"}
 
 1. Para agregar un encabezado a la tabla de relaciones, haga clic en **Agregar nuevo encabezado**.
 
 1. Para agregar una columna a la tabla de relaciones, haga clic en **Agregar una columna**.
 
-   ![](images/complete-reltable.png)
+   ![](images/complete-reltable.png){width="550" align="left"}
 
 1. Haga clic en **Guardar**.
 
@@ -189,4 +189,3 @@ Si desea eliminar un tema de la tabla, haga clic en el icono de cruz situado jun
 Si desea eliminar la tabla de relación, haga clic en cualquier lugar fuera de la tabla de relación y luego en Eliminar.
 
 **Tema principal:**[ Trabajar con el Editor de mapas](map-editor.md)
-

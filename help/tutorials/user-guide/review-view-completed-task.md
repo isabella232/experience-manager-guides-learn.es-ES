@@ -1,13 +1,13 @@
 ---
 title: Ver una tarea de revisión completada
 description: Obtenga información sobre cómo ver una tarea de revisión completada
-source-git-commit: 176aee433300ce8d4d9cfbab2edb007acae4de87
+exl-id: 37f10fc3-e4ca-4e73-a887-65c7e9496f5e
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
-
 
 # Ver una tarea de revisión completada
 
@@ -19,8 +19,7 @@ Como revisor, puede ver un indicador en el panel de comentarios para mostrar que
 
 Sin embargo, puede buscar o filtrar cualquier comentario. También puede elegir mostrar u ocultar las condiciones y mostrar el contenido condicional según corresponda. Puede descargar los archivos adjuntos, pero no puede cargarlos ni eliminarlos para los comentarios.
 
-<img src="images/complete-task-reviewer.png" alt="revisor de tareas de revisión completado" width="800">
-
+![](images/complete-task-reviewer.png){width="800" align="left"}
 
 
 ## Como autor
@@ -29,7 +28,6 @@ Como autor, puede ver el estado como cerrado en el panel de revisión. Puede lee
 
 Sin embargo, puede buscar o filtrar cualquier comentario. Puede descargar los archivos adjuntos, pero no puede cargarlos ni eliminarlos para los comentarios.
 
-<img src="images/completed-task-author.png" alt=" autor de tareas de revisión completado" width="800">
+![](images/completed-task-author.png){width="800" align="left"}
 
 Por lo tanto, como revisor o autor puede ver el contenido revisado junto con los comentarios, pero no puede realizar ningún cambio en una tarea de revisión completada.
-

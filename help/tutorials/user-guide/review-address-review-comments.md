@@ -1,13 +1,13 @@
 ---
 title: Comentarios de revisión de direcciones
 description: Obtenga información sobre cómo dirigir comentarios de revisión
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 04f6114d-601f-4e92-a303-18a6dd309a49
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 0%
 
 ---
-
 
 # Comentarios de revisión de direcciones {#id2056B0X0KBI}
 
@@ -19,7 +19,7 @@ Un autor puede enviar comentarios en un documento desde el Editor web. Se propor
 >
 > Al tratar los comentarios de revisión \(para un documento de revisión activo\), asegúrese de no abrir el tema de revisión en varias pestañas con la vista de etiquetas completa habilitada, no cambie entre los modos de vista Autor y Origen.
 
-![](images/comments-page-web-editor_cs.png)
+![](images/comments-page-web-editor_cs.png){width="650" align="left"}
 
 En el modo Editor web , el panel derecho contiene los iconos Revisar y Rastrear cambios . El panel Revisión muestra todos los comentarios realizados en el documento por los revisores. El panel Cambios rastreados muestra el estado de todos los comentarios insertados y eliminados del documento.
 
@@ -41,11 +41,11 @@ En el modo Editor web , el panel derecho contiene los iconos Revisar y Rastrear 
 
    Si desea incorporar el cambio sugerido \(inserción o eliminación\) de una en una, simplemente haga clic con el botón derecho en el comentario del contenido y seleccione Aceptar cambio o Rechazar cambio. Según la selección, el comentario se acepta o rechaza. En caso de comentarios aceptados, el contenido se añade en el contenido; y en caso de rechazo, se elimina del contenido. Además, el estado del comentario cambia en el panel Revisión.
 
-   ![](images/import-comment-accept-web-editor_cs.png)
+   ![](images/import-comment-accept-web-editor_cs.png){width="800" align="left"}
 
    También puede utilizar la función de revisión del panel derecho para aceptar o rechazar comentarios. Al hacer clic en cualquier comentario se resalta el comentario del documento.
 
-   ![](images/changes-tab_cs.png)
+   ![](images/changes-tab_cs.png){width="800" align="left"}
 
    >[!IMPORTANT]
    >
@@ -61,4 +61,3 @@ En el modo Editor web , el panel derecho contiene los iconos Revisar y Rastrear 
 
 
 **Tema principal:**[ Revisión de temas o mapas](review.md)
-

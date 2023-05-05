@@ -1,13 +1,13 @@
 ---
 title: Crear mapas basados en plantillas personalizadas
 description: Obtenga información sobre cómo crear mapas basados en plantillas personalizadas
-source-git-commit: 66915827a0b169069cc482763f0f50b9e9b6aa64
+exl-id: 02513148-3876-4549-962a-9984f619030f
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
 
 ---
-
 
 # Crear mapas basados en plantillas personalizadas {#id225VF0808MP}
 
@@ -33,7 +33,7 @@ Siga estos pasos para crear una plantilla de tema:
 
 1. En el **IU de recursos**, vaya a la carpeta dita-templates .
 
-   ![](images/dita-templates.png)
+   ![](images/dita-templates.png){width="800" align="left"}
 
 1. Haga clic en **temas** carpeta para abrirla. Haga clic en **Crear \> Plantilla DITA**.
 1. En la página Modelo, seleccione **Tema** y haga clic en **Siguiente.**
@@ -55,7 +55,7 @@ Siga estos pasos para crear una plantilla de asignación:
 1. Haga clic en **mapas** para abrirla.
 1. Haga clic en **Crear \> Plantilla DITA.**
 
-   ![](images/create-dita-template.png)
+   ![](images/create-dita-template.png){width="300" align="left"}
 
 1. En la página Modelo, seleccione **Mapa** y haga clic en **Siguiente**.
 1. En la página Propiedades, especifique la plantilla de asignación **Título**.
@@ -104,7 +104,11 @@ Si no utiliza llaves alrededor del título, el mapa DITA resultante solo selecci
 Ejemplo
 
 ```XML
-<title>	<sub>		<b>{title}</b>	</sub></title>
+<title>    
+    <sub>        
+        <b>{title}</b>    
+    </sub>
+</title>
 ```
 
 ## Utilice la plantilla de asignación para crear nuevos mapas
@@ -144,4 +148,3 @@ El mapa genera todos los recursos a los que se hace referencia dentro de la carp
 - Si se crea otro mapa o tema en el mismo nivel de la carpeta, los nombres de los recursos recién creados se añaden a 0, 1, 2, etc. Puede elegir abrir el mapa para editarlo o guardar el archivo de mapa en el repositorio.
 
 **Tema principal:**[ Trabajar con el Editor de mapas](map-editor.md)
-

@@ -1,13 +1,13 @@
 ---
 title: Usar etiquetas
 description: Aprenda a utilizar etiquetas
-source-git-commit: 331871308035441f047b1ed588215b586daf3d28
+exl-id: 3ea56d06-537f-4bfd-922d-df1f23e61a20
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
 
 ---
-
 
 # Usar etiquetas {#id164JBG0M0T1}
 
@@ -33,8 +33,7 @@ Siga estos pasos para agregar una etiqueta al tema:
 
    Las etiquetas se muestran en el Historial de versiones del tema seleccionado. La siguiente captura de pantalla muestra las etiquetas *Versión de x.x* y *Guía del usuario* se ha añadido a la versión resaltada del tema.
 
-
-![](images/labels.png)
+   ![](images/labels.png){width="300" align="left"}
 
 >[!NOTE]
 >
@@ -49,12 +48,11 @@ Siga los siguientes pasos para eliminar una etiqueta:
 
    En el Historial de versiones, verá todas las versiones de un tema y las etiquetas adjuntas a ellos. La siguiente imagen muestra un ejemplo de diferentes versiones de un tema y una versión tiene etiquetas agregadas.
 
-   ![](images/labels.png)
+   ![](images/labels.png){width="300" align="left"}
 
 1. Haga clic en el botón eliminar \(**X**\) para eliminar la etiqueta.
 
-   ![](images/delete-labels.png)
+   ![](images/delete-labels.png){width="300" align="left"}
 
 
 **Tema principal:**[ Trabajar con el Editor web](web-editor.md)
-

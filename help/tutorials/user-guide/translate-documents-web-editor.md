@@ -1,13 +1,13 @@
 ---
 title: Traducción de documentos desde el Editor Web
 description: Obtenga información sobre cómo traducir documentos desde el Editor web
-source-git-commit: 331871308035441f047b1ed588215b586daf3d28
+exl-id: 02fc2b51-5b9a-4ad6-9e2e-726ab7602514
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '1517'
 ht-degree: 1%
 
 ---
-
 
 # Traducción de documentos desde el Editor Web {#id21BKF0Z0YZF}
 
@@ -46,7 +46,7 @@ Antes de realizar los pasos de este procedimiento, asegúrese de que ha creado l
    >
    > El idioma muestra solo aquellos idiomas para los que se crea una carpeta de idioma en paralelo al idioma de origen. Tampoco se muestra una carpeta de idioma creada en otro nivel, como un nivel inferior desde la carpeta del idioma de origen. Asegúrese de crear todas las carpetas de idioma de destino en el mismo nivel que la carpeta de idioma de origen.
 
-   ![](images/translation-languages.png)
+   ![](images/translation-languages.png){width="350" align="left"}
 
 1. También puede utilizar las siguientes opciones:
 
@@ -72,11 +72,11 @@ Antes de realizar los pasos de este procedimiento, asegúrese de que ha creado l
    - **Etiqueta de Target**: Etiqueta de la versión seleccionada del archivo de destino
 1. Haga clic en **Enviar para traducción** en la esquina superior derecha.
 
-   ![](images/translation-send.png)
+   ![](images/translation-send.png){width="800" align="left"}
 
 1. En el menú desplegable, seleccione **Crear un nuevo proyecto de traducción**.
 
-   ![](images/translation-project-types.png)
+   ![](images/translation-project-types.png){width="350" align="left"}
 
    Además de un nuevo proyecto de traducción, también puede seleccionar entre las siguientes opciones:
 
@@ -107,7 +107,7 @@ Para añadir la etiqueta de versión de origen en la copia de destino, el admini
 
 Por ejemplo, si tiene algunos archivos de origen con la etiqueta de versión `Release 1.0` aplicados a ellos, también puede pasar la etiqueta de origen \(`Release 1.0`\) al archivo traducido.
 
-![](images/translation-pass-source-label.png)
+![](images/translation-pass-source-label.png){width="650" align="left"}
 
 >[!NOTE]
 >
@@ -117,7 +117,7 @@ Por ejemplo, si tiene algunos archivos de origen con la etiqueta de versión `Re
 
 AEM guías proporciona la función para comprobar las diferencias entre la versión seleccionada y la última versión de origen traducida de los temas. Puede elegir traducir la variable **Sin sincronización** archivos basados en los cambios realizados.
 
-![](images/translation-version-diff.png)
+![](images/translation-version-diff.png){width="800" align="left"}
 
 Seleccione el **Mostrar diferencia** icono \(![](images/show-difference-icon.svg)\) para ver las diferencias entre la última versión traducida y la versión actual del archivo seleccionado.
 
@@ -127,7 +127,7 @@ Seleccione el **Mostrar diferencia** icono \(![](images/show-difference-icon.svg
 
 La variable **Diferencia de versiones** se abre. Muestra la variable **Última versión traducida** y **Versión seleccionada** a la izquierda. La ventana de vista previa muestra las diferencias entre la última versión traducida y la versión seleccionada del tema.
 
-![](images/version-diff.png)
+![](images/version-diff.png){width="650" align="left"}
 
 ## Descartar recursos fuera de sincronización
 
@@ -138,7 +138,7 @@ Para descartar el estado de falta de sincronización, realice los siguientes pas
 1. Seleccione los recursos fuera de sincronización para los que desea cambiar el estado.
 1. Seleccione el **Marcar en sincronización** botón \(![](images/translation-mark-in-sync-icon.svg)\) en la parte superior. La variable **Marcar en sincronización** se abre.
 
-   ![](images/translation-mark-in-sync.png)
+   ![](images/translation-mark-in-sync.png){width="550" align="left"}
 
 1. Haga clic en **Forzar sincronización**. Establece el estado en Sincronizado para los recursos sin sincronizar seleccionados.
 
@@ -156,7 +156,6 @@ Es posible que algunas de las referencias del panel de traducción estén en est
 
 Haga clic en el nombre de la referencia en el cuadro de diálogo para abrirla en el modo de previsualización. También puede hacer clic en el proyecto de traducción para iniciar la traducción.
 
-![](images/translation-in-progress.png)
+![](images/translation-in-progress.png){width="550" align="left"}
 
 **Tema principal:**[ Trabajar con el Editor web](web-editor.md)
-

@@ -1,13 +1,13 @@
 ---
 title: Reasignar tarea de revisión mediante notificación
 description: Obtenga información sobre cómo reasignar tarea de revisión mediante notificación
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: d20865a8-2c30-4bd7-8594-64e0ccdb665a
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 0%
 
 ---
-
 
 # Reasignar tarea de revisión mediante notificación {#id21BNH03M0KS}
 
@@ -28,7 +28,7 @@ Realice los siguientes pasos para volver a asignar una tarea de revisión desde 
    >
    > El revisor debe tener los permisos para reasignar y debe formar parte del grupo usuario-administrador.
 
-   ![](images/reassign-user-inbox.png)
+   ![](images/reassign-user-inbox.png){width="800" align="left"}
 
 1. Select **Reasignar**.
 
@@ -37,4 +37,3 @@ Una vez reasignada la tarea de revisión, la columna Assignee muestra el nombre 
 El revisor asignado recibe una notificación en la Bandeja de entrada para la tarea de revisión reasignada.
 
 **Tema principal:**[ Revisión de temas o mapas](review.md)
-

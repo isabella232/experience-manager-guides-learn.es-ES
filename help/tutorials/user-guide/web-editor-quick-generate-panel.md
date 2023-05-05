@@ -1,13 +1,13 @@
 ---
 title: Usar panel de generación rápida
 description: Aprenda a utilizar el panel Generación rápida
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: d48803d9-470c-4679-8def-72b45a85917b
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 0%
 
 ---
-
 
 # Utilizar el panel Generación rápida para generar y ver resultados {#id22AKE050F5L}
 
@@ -17,7 +17,7 @@ AEM guías proporciona una **Generación rápida** integrado dentro del Editor w
 >
 > La variable **Generación rápida** para el mapa DITA abierto en el panel Vista de mapa.
 
-![](images/quick-generate-map-view.png)
+![](images/quick-generate-map-view.png){width="800" align="left"}
 
 Realice los siguientes pasos para generar la salida de la variable **Generación rápida** panel:
 
@@ -28,4 +28,3 @@ Realice los siguientes pasos para generar la salida de la variable **Generación
 1. Haga clic en **Ver salida** \( ![](images/view-output-icon.svg)\) de un ajuste preestablecido específico para ver el resultado generado para el ajuste preestablecido.
 
 **Tema principal:**[ Trabajar con el Editor web](web-editor.md)
-
