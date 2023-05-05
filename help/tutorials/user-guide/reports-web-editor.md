@@ -1,13 +1,13 @@
 ---
 title: Informe de mapa DITA del Editor web
 description: Obtenga información sobre cómo asignar DITA informe desde el Editor web
-source-git-commit: 895d9bd3587c871d5223df5b71403d10bdc3d762
+exl-id: b1011cec-6374-4026-bf1c-54a1981c760e
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '1608'
 ht-degree: 0%
 
 ---
-
 
 # Informe de mapa DITA del Editor web {#id231HF0Z0NXA}
 
@@ -25,9 +25,10 @@ Puede crear un informe de los temas siguiendo estos pasos:
 1. Haga clic en el **Administrar** pestaña .
 1. Hacer doble clic **Lista de temas** a la izquierda. Se muestra la lista de temas presentes en el mapa DITA.
 
-   ![](images/web-editor-topiclist-panel.png)
+   ![](images/web-editor-topiclist-panel.png){width="800" align="left"}
 
 1. En el **Filtros** El panel le permite filtrar los temas en función de la variable **Tipo de referencia** \(directo o indirecto\), **Estado del documento** \ (estado actual de los temas). Por ejemplo, si los temas están en estado Editar, En revisión o Revisado, se enumeran\) o **Autor** del tema.
+
 1. También puede utilizar las siguientes opciones de filtrado de temas para elegir mostrar las siguientes columnas en la lista:
 
    - **Tema** El título del tema se especifica en el mapa DITA. Puede hacer clic en el tema para editarlo.
@@ -57,7 +58,7 @@ Para ver los metadatos de las referencias en el mapa DITA actual, realice los si
 1. Haga clic en el **Administrar** pestaña .
 1. Hacer doble clic **Metadatos** a la izquierda. Se muestra la lista de metadatos de todas las referencias del mapa DITA. Esto incluye también las referencias de medios.
 
-   ![](images/web-editor-metadata-panel.png)
+   ![](images/web-editor-metadata-panel.png){width="800" align="left"}
 
 1. En el **Filtros** , puede filtrar los temas en función de la variable **Estado del documento** \ (estado actual de los temas). Por ejemplo, si los temas están en estado Editar, En revisión o Revisado, se enumeran\), **Referencias** \(directo o indirecto\), **Tipo de archivo** \(Mapa, Tema e Imagen\) de la referencia.
 1. También puede elegir ver solo la variable **Archivos sin etiquetas** o también elija etiquetas específicas en la **Etiquetas** para ver los archivos asociados a ellos.
@@ -92,7 +93,7 @@ Para ver los metadatos de las referencias en el mapa DITA actual, realice los si
 
 1. Select **Administrar** desde arriba.
 
-   ![](images/web-editor-manage-metadata.png)
+   ![](images/web-editor-manage-metadata.png){width="350" align="left"}
 
 1. Si desea agregar nuevas etiquetas, seleccione nuevas etiquetas en la lista desplegable para aplicarlas a todos los temas seleccionados. También puede eliminar cualquier etiqueta haciendo clic en el icono de cruz situado cerca de la etiqueta .
 
@@ -114,11 +115,11 @@ La variable **Multimedia** El informe proporciona información detallada sobre e
 
    - Cuando realiza el pedido **Multimedia**, el nombre****del contenido multimedia se muestra en la primera columna y, a continuación, los nombres de todas las referencias en las que se han utilizado, se muestran en otra columna de la misma fila. Por ejemplo, la siguiente captura de pantalla muestra el WarmCoolForC.gif multimedia en la primera columna y tres referencias en las que se utiliza, se muestran en la tercera columna de la misma fila.
 
-      ![](images/multimedia-report-file-order.png)
+      ![](images/multimedia-report-file-order.png){width="650" align="left"}
 
    - Si realiza el pedido por **Se usa en** , verá la vista transpuesta donde los nombres de las referencias en las que se han utilizado multimedia se enumeran en la primera columna, mientras que los nombres multimedia se enumeran en otra columna en filas independientes. Por ejemplo, la siguiente captura de pantalla muestra los nombres de las tres referencias \(Ajuste de la temperatura del asiento, Cambio de la visualización de la temperatura del asiento y Área de la tripulación\) en la primera columna y el elemento multimedia WarmCoolForC.gif se muestra en la tercera columna en tres filas independientes.
 
-      ![](images/multimedia-report-used-in-order.png)
+      ![](images/multimedia-report-used-in-order.png){width="650" align="left"}
 
 1. Puede filtrar el contenido multimedia en función de la variable **Tipo multimedia** y **Tipo de referencia**. La lista de archivos multimedia se muestra en función de su selección en la lista desplegable . Por ejemplo, puede elegir mostrar solo las referencias de audio en el mapa DITA, y un archivo muestra solamente las referencias de audio utilizadas en él.
 
@@ -138,10 +139,11 @@ La variable **Multimedia** El informe proporciona información detallada sobre e
    >[!NOTE]
    >
    > Haga clic en **Actualizar** para obtener una nueva lista de multimedia y ver cualquier cambio en su archivo de mapa o si se actualiza cualquier multimedia dentro de su mapa DITA.
+
 1. También puede hacer clic y reproducir un archivo de audio o vídeo en el Editor web. Puede cambiar el volumen o la vista del vídeo. En el menú de accesos directos también tiene las opciones para descargar, cambiar la velocidad de reproducción o ver la imagen en imagen.
-   ![](images/video-web-editor.png)
+
+   ![](images/video-web-editor.png){width="800" align="left"}
 
 1. Haga clic en **Descargar CSV** para descargar la instantánea actual del contenido multimedia en el mapa de DITA. El CSV contiene las columnas seleccionadas y el contenido multimedia filtrado en la variable **Multimedia** vista. A continuación, puede abrir este archivo CSV multimedia en cualquier editor CSV.
 
 **Tema principal:**[ Informes](reports-intro.md)
-

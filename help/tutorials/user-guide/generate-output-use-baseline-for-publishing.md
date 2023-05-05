@@ -1,13 +1,13 @@
 ---
 title: Trabajo con línea de base
 description: Aprenda a trabajar con la línea de base
-source-git-commit: 8b6294425c6e60d1c5b37d98e99114014a104ee6
+exl-id: dcafab53-c388-48c3-9455-e4251cdda17d
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '1917'
 ht-degree: 0%
 
 ---
-
 
 # Trabajo con línea de base {#id1825FI0J0PF}
 
@@ -46,8 +46,7 @@ Siga estos pasos para crear una línea de base:
 1. En **Configurar la versión en función de**, seleccione una de las siguientes opciones:
 
    - **Etiqueta**: Seleccione esta opción para elegir los temas según la etiqueta que se les haya aplicado. Introduzca una etiqueta para filtrar la lista en función de la cadena introducida. En la lista filtrada, puede elegir una etiqueta para seleccionar temas y otros recursos que tengan la etiqueta especificada.
-
-      Al seleccionar **Etiqueta**, también se le ofrece una opción adicional para utilizar la versión más reciente de los temas a los que no se les ha aplicado la etiqueta especificada. Si no selecciona esta opción y hay algún tema o archivo multimedia que no tenga la etiqueta especificada en ella, el proceso de creación de la línea de base fallará. Para obtener más información sobre cómo agregar etiquetas, consulte [Usar etiquetas](web-editor-use-label.md#).
+   Al seleccionar **Etiqueta**, también se le ofrece una opción adicional para utilizar la versión más reciente de los temas a los que no se les ha aplicado la etiqueta especificada. Si no selecciona esta opción y hay algún tema o archivo multimedia que no tenga la etiqueta especificada en ella, el proceso de creación de la línea de base fallará. Para obtener más información sobre cómo agregar etiquetas, consulte [Usar etiquetas](web-editor-use-label.md#).
 
    - **Versión en** &lt;*marca de tiempo*\>: Selecciona la versión de los temas en la fecha y hora especificadas. Tenga en cuenta que la hora especificada aquí corresponde a la zona horaria del servidor de AEM. Si el servidor se encuentra en una zona horaria diferente, los temas se recogerán según la zona horaria del servidor y no la zona horaria local.
 
@@ -55,7 +54,7 @@ Siga estos pasos para crear una línea de base:
 
 1. Si desea utilizar una versión diferente para uno o más temas, puede hacerlo seleccionando manualmente esos temas. Haga clic en **Examinar tema**, seleccione el tema para el que desea utilizar una versión diferente. En la lista desplegable Seleccionar una versión para el tema seleccionado, seleccione una versión del tema que desee utilizar en la línea base y haga clic en **OK**.
 
-   ![](images/baseline-select-version-drop-down.png)
+   ![](images/baseline-select-version-drop-down.png){width="800" align="left"}
 
    La información sobre el tema y su versión seleccionada se almacena en el servidor. Puede repetir este paso para cambiar la versión seleccionada para varios temas.
 
@@ -133,7 +132,7 @@ Realice los siguientes pasos para agregar una etiqueta a varios temas y contenid
 
 1. Haga clic en **Agregar etiquetas**.
 
-   ![](images/add-label-baseline-uuid.png)
+   ![](images/add-label-baseline-uuid.png){width="800" align="left"}
 
 1. En el **Agregar etiqueta** , especifique una etiqueta única para asociarla a esta línea de base.
 
@@ -144,7 +143,7 @@ Realice los siguientes pasos para agregar una etiqueta a varios temas y contenid
    - Haga clic en **Agregar**.
 La etiqueta especificada se agrega al mapa DITA y a los temas y el contenido a los que se hace referencia.
 
-      ![](images/label-added-baseline-uuid.png)
+      ![](images/label-added-baseline-uuid.png){width="650" align="left"}
 
 
 ## Exportar línea de base traducida {#id196SE600GHS}
@@ -163,7 +162,7 @@ Siga estos pasos para exportar una línea de base traducida:
 
 1. En el **Traducción** expanda la pestaña **Línea de base** disponible en el carril izquierdo.
 
-   ![](images/export-baseline.png)
+   ![](images/export-baseline.png){width="800" align="left"}
 
 1. Seleccione el **Usar línea de base** y seleccione la línea de base que desea exportar.
 
@@ -177,4 +176,3 @@ Siga estos pasos para exportar una línea de base traducida:
 
 
 **Tema principal:**[ Generación de resultados](generate-output.md)
-

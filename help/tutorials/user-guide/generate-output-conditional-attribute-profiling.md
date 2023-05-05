@@ -1,13 +1,13 @@
 ---
 title: Creación condicional de perfiles de atributos
 description: Aprenda a crear perfiles de atributos condicionales
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 31b0ffe6-44e7-459d-a8df-a64ec868768c
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 0%
 
 ---
-
 
 # Creación condicional de perfiles de atributos {#id1843I0HN0Y4}
 
@@ -43,7 +43,7 @@ Para definir atributos condicionales, realice los siguientes pasos:
 
    La siguiente captura de pantalla muestra la definición de `platform` atributo con valor de `unix` y una etiqueta de `Red Hat Linux`.
 
-   ![](images/add-profile.png)
+   ![](images/add-profile.png){width="800" align="left"}
 
 1. Si desea agregar más valores para el mismo atributo, haga clic en el botón **+** e introduzca un valor y una etiqueta adicionales.
 
@@ -54,7 +54,6 @@ Para definir atributos condicionales, realice los siguientes pasos:
 
 La variable `platform` se almacena en el sistema. Cuando un autor decide usar la variable `platform` en un tema DITA de una carpeta, verán los valores en la ficha Propiedades del Editor web.
 
-![](images/properties-tab.png)
+![](images/properties-tab.png){width="350" align="left"}
 
 **Tema principal:**[ Generación de resultados](generate-output.md)
-

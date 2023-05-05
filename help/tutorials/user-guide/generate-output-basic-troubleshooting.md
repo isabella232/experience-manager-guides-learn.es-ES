@@ -1,13 +1,13 @@
 ---
 title: Solución de problemas básicos
 description: Obtenga información sobre cómo solucionar problemas básicos
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: b5ab2618-6f11-4aaa-8471-09521f8bb512
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 0%
 
 ---
-
 
 # Solución de problemas básicos {#id1821I0Y0G0A}
 
@@ -21,7 +21,7 @@ Realice los siguientes pasos para ver y comprobar el archivo de registro de gene
 
    La variable **General** de **Productos generados** muestra los iconos para proporcionar una pista visual sobre el éxito o el fracaso de la generación de salida.
 
-   ![](images/output-general-settings.png)
+   ![](images/output-general-settings.png){width="300" align="left"}
 
    En la captura de pantalla anterior, los iconos primero y tercero muestran la generación de salida fallida. El segundo icono muestra una generación de salida correcta, pero con mensajes. La última es una generación de salida exitosa sin ningún mensaje.
 
@@ -29,7 +29,7 @@ Realice los siguientes pasos para ver y comprobar el archivo de registro de gene
 
    El archivo de registro se abre en una nueva pestaña.
 
-   ![](images/log-file.png)
+   ![](images/log-file.png){width="800" align="left"}
 
 1. Aplique los filtros siguientes para resaltar el texto en el archivo de registro:
    - Mortal: Resalta los errores fatales en el archivo de registro con color rosa.
@@ -61,15 +61,15 @@ Realice los siguientes pasos para copiar y comprobar el archivo de registro de g
 
    - *Error relacionado con el archivo de asignación DITA*: En caso de que se encuentre un error en el archivo de asignación DITA o en cualquier otro archivo contenido en el mapa DITA, el archivo de registro contendrá una cadena, &quot;COMPILACIÓN FALLIDA&quot;. Puede comprobar la información proporcionada en el archivo de registro para localizar el archivo erróneo y solucionar el problema.
 
-      En el siguiente fragmento de archivo de registro de muestra, puede ver la variable `BUILD FAILED` junto con el motivo del error.
+   En el siguiente fragmento de archivo de registro de muestra, puede ver la variable `BUILD FAILED` junto con el motivo del error.
 
-      ![](images/dita-error-in-log-file.png)
+   ![](images/dita-error-in-log-file.png){width="650" align="left"}
 
-      - *Error relacionado con las guías de AEM*: El otro tipo de error que se puede identificar en el archivo de registro está relacionado con AEM propio proceso de guías. En este caso, el archivo de asignación DITA se analiza correctamente, pero el proceso de generación de salida falla debido a algún error interno en las guías de AEM. Para este tipo de errores, debe solicitar ayuda al equipo de asistencia técnica.
+   - *Error relacionado con las guías de AEM*: El otro tipo de error que se puede identificar en el archivo de registro está relacionado con AEM propio proceso de guías. En este caso, el archivo de asignación DITA se analiza correctamente, pero el proceso de generación de salida falla debido a algún error interno en las guías de AEM. Para este tipo de errores, debe solicitar ayuda al equipo de asistencia técnica.
 
-         En el siguiente fragmento de archivo de registro de muestra, puede ver la variable `BUILD SUCCESSFUL` , seguido de otro error técnico.
+   En el siguiente fragmento de archivo de registro de muestra, puede ver la variable `BUILD SUCCESSFUL` , seguido de otro error técnico.
 
-         ![](images/process-error-in-log-file.png)
+   ![](images/process-error-in-log-file.png){width="650" align="left"}
 
 
 ## Resolver error de compilación de JSP
@@ -90,4 +90,3 @@ Siga estos pasos para resolver este problema:
 
 
 **Tema principal:**[ Generación de resultados](generate-output.md)
-

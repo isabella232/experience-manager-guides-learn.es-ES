@@ -1,13 +1,13 @@
 ---
 title: Informe de reutilización de contenido
 description: Descubra más información sobre el informe de reutilización de contenido
-source-git-commit: bb7a8d49e5425b7fc856277c054558c75394fcb2
+exl-id: 658ae0fd-9032-4480-b9e4-fe4fec261e72
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 0%
 
 ---
-
 
 # Informe de reutilización de contenido {#id205BB900OQD}
 
@@ -31,7 +31,7 @@ Siga estos pasos para ver el informe de reutilización de contenido:
 
 1. Haga clic en **Generar informe** para obtener el informe de reutilización de contenido.
 
-   ![](images/content-reuse-uuid.png)
+   ![](images/content-reuse-uuid.png){width="800" align="left"}
 
    La página del informe se divide en dos partes:
 
@@ -61,4 +61,3 @@ Siga estos pasos para ver el informe de reutilización de contenido:
 > También puede exportar el informe de reutilización de contenido en formato CSV. Para ello, haga clic en el vínculo Export to CSV en la esquina superior izquierda de la pantalla y elija una ubicación para guardar el archivo CSV. A continuación, puede abrir este archivo CSV en cualquier editor CSV.
 
 **Tema principal:**[ Informes](reports-intro.md)
-

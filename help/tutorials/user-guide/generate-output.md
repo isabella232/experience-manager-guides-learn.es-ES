@@ -1,13 +1,13 @@
 ---
 title: Generación de resultados
 description: Aprenda a generar resultados
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 32fc32f8-16b1-4c3c-a6e2-abfb8fba9e66
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
-
 
 # Generación de resultados {#id1645H8040HD}
 
@@ -43,29 +43,4 @@ La información de las siguientes secciones está destinada a editores que utili
 >[!IMPORTANT]
 >
 > Las funciones descritas en este tema están disponibles para los usuarios con editores o privilegios de administrador únicamente.
-
-- **[Explicación de los ajustes preestablecidos de salida](generate-output-understand-presets.md)**
-
-- **[Utilice variables para configurar las opciones Ruta de destino, Nombre del sitio o Nombre de archivo](generate-output-use-variables.md)**
-
-- **[Crear, editar, duplicar o eliminar un ajuste preestablecido de salida](generate-output-create-edit-preset.md)**
-
-- **[Pasa los metadatos a la salida utilizando DITA-OT](pass-metadata-dita-ot.md)**
-
-- **[Creación condicional de perfiles de atributos](generate-output-conditional-attribute-profiling.md)**
-
-- **[Usar ajustes preestablecidos de condición](generate-output-use-condition-presets.md)**
-
-- **[Trabajo con línea de base](generate-output-use-baseline-for-publishing.md)**
-
-- **[Generar salida para un mapa DITA desde la consola de asignación](generate-output-for-a-dita-map.md)**
-
-- **[Usar la colección de mapas para la generación de resultados](generate-output-use-map-collection-output-generation.md)**
-
-- **[Administrar tareas de publicación mediante el panel Publicar](generate-output-publish-dashboard.md)**
-
-- **[Solución de problemas básicos](generate-output-basic-troubleshooting.md)**
-
-- **[Activación masiva de contenido publicado](conf-bulk-activation.md)**
-
 

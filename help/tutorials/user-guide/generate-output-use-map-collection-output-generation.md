@@ -1,13 +1,13 @@
 ---
 title: Usar la colección de mapas para la generación de resultados
 description: Aprenda a utilizar la colección de mapas para la generación de resultados
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 32e3af6c-9670-42cc-8dbe-9f99fbc60adf
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 1%
 
 ---
-
 
 # Usar la colección de mapas para la generación de resultados {#id1723F20G0HS}
 
@@ -25,7 +25,7 @@ Para crear una colección de mapas y agregar mapas DITA a la colección, realice
 
    Si el vínculo Asignar colecciones no está disponible, seleccione la opción **Navegación** en el carril izquierdo y, a continuación, haga clic en **Asignar colecciones**.
 
-   ![](images/access-map-collection-left-rail.png)
+   ![](images/access-map-collection-left-rail.png){width="350" align="left"}
 
 1. Introduzca un Título para la colección de mapas.
 1. Haga clic en **Crear**.
@@ -47,8 +47,7 @@ Para crear una colección de mapas y agregar mapas DITA a la colección, realice
 
    Los archivos de asignación DITA se añaden a la colección de mapas.
 
-
-![](images/maps_presets_62_63.png)
+   ![](images/maps_presets_62_63.png){width="800" align="left"}
 
 Las siguientes opciones de filtrado y los detalles de asignación se muestran en la página de recopilación:
 
@@ -93,7 +92,6 @@ Para configurar y generar la salida mediante una colección de mapas, realice lo
 
 Similar a la forma de cancelar una tarea de generación de salida de la variable [Consola de asignación DITA](generate-output-for-a-dita-map.md#id2061H100T5Z) o [Publicar tablero](generate-output-publish-dashboard.md#), puede cancelar una tarea de generación de salida desde una colección de mapas. Acceda a la pestaña Salidas de una colección de mapas, vaya a la tarea de publicación que desea cancelar y haga clic en el botón **Cancelar este trabajo** para cancelar la tarea de publicación.
 
-![](images/cancel-publish-task-map-collection.png)
+![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
 
 **Tema principal:**[ Generación de resultados](generate-output.md)
-

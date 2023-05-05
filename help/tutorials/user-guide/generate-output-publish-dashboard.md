@@ -1,13 +1,13 @@
 ---
 title: Administrar tareas de publicación mediante el panel Publicar
 description: Obtenga información sobre cómo administrar las tareas de publicación mediante el panel Publicar
-source-git-commit: 8b6294425c6e60d1c5b37d98e99114014a104ee6
+exl-id: 5ede608d-f905-44b7-9147-ab678ad68ee7
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 0%
 
 ---
-
 
 # Administrar tareas de publicación mediante el panel Publicar {#id205CC08305Z}
 
@@ -15,7 +15,7 @@ Cuando tiene un gran conjunto de tareas de publicación ejecutándose en su sist
 
 El panel Publicar proporciona una descripción general completa de todas las tareas de publicación que se están realizando en el sistema.
 
-![](images/publish-dashboard.png)
+![](images/publish-dashboard.png){width="800" align="left"}
 
 El panel Publicar contiene los siguientes detalles:
 
@@ -37,7 +37,7 @@ El panel izquierdo del panel Publicar proporciona las siguientes opciones de fil
 
 - **Ajuste preestablecido de salida** : seleccione uno o varios ajustes preestablecidos de salida para los que desea ver las tareas de publicación activas actualmente. En la siguiente captura de pantalla, las tareas de publicación se filtran para mostrar solo las tareas que utilizan el ajuste preestablecido de salida AEM Sitio :
 
-![](images/publish-dashboard-preset-filter.png)
+   ![](images/publish-dashboard-preset-filter.png){width="800" align="left"}
 
 - **Iniciado por** - Seleccione un nombre de usuario de la lista para mostrar las tareas de publicación iniciadas por el usuario seleccionado.
 
@@ -61,7 +61,7 @@ Realice los siguientes pasos para acceder al panel Publicar:
 
    Si hace clic en el vínculo Nombre de archivo, se muestra la consola de asignación DITA del mapa seleccionado.
 
-   ![](images/publish-dashboard-click-filename-link.png)
+   ![](images/publish-dashboard-click-filename-link.png){width="800" align="left"}
 
 
 >[!NOTE]
@@ -76,14 +76,13 @@ Realice los siguientes pasos para cancelar una tarea de generación de salida de
 
 1. En la lista de tareas de publicación activas, haga clic en el icono de eliminación de una tarea que desee cancelar.
 
-   ![](images/publish-dashboard-cancel-task.png)
+   ![](images/publish-dashboard-cancel-task.png){width="800" align="left"}
 
 1. Haga clic en **Sí** en el mensaje Confirmar cancelación .
 
    Se acepta el comando cancel y se intenta cancelar mientras la tarea permanezca activa. Una vez finalizada correctamente la tarea, se elimina de la lista de tareas activas actualmente. El estado de la tarea también se actualiza en la consola de asignación DITA como Cancelado. En la siguiente captura de pantalla, la variable *HTML5* se cancela desde el panel Publicar y su estado también se cambia en la consola de asignación DITA.
 
-   ![](images/cancelled-output-task.png)
+   ![](images/cancelled-output-task.png){width="800" align="left"}
 
 
 **Tema principal:**[ Generación de resultados](generate-output.md)
-

@@ -1,13 +1,13 @@
 ---
 title: JSON
 description: Aprenda a utilizar JSON
-source-git-commit: 8b6294425c6e60d1c5b37d98e99114014a104ee6
+exl-id: 0a938cc2-1a6f-4ee4-ad7e-f94ad2a0cf94
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '660'
 ht-degree: 1%
 
 ---
-
 
 # JSON {#id231KK0180T4}
 
@@ -38,7 +38,7 @@ Las siguientes opciones están disponibles para el ajuste preestablecido JSON:
 >
 > También puede editar el archivo JSON en el Editor web.
 
-| Opciones de salida JSON | Descripción |
+| Opciones de JSON | Descripción |
 | --- | --- |
 | Ruta de salida | La ruta dentro del repositorio de AEM donde se almacena la salida JSON. |
 | Archivo de índice | Puede asignar un nombre al archivo de índice que está creando para la salida JSON. De forma predeterminada, selecciona el nombre de archivo del mapa DITA y añade un sufijo (como `map_filename_index.json`).<br><br>También puede utilizar variables al configurar el archivo de índice. Para obtener más información sobre el uso de variables, consulte [Utilice variables para configurar las opciones Ruta de destino, Nombre del sitio o Nombre de archivo](generate-output-use-variables.md#id18BUG70K05Z). |
@@ -48,4 +48,3 @@ Las siguientes opciones están disponibles para el ajuste preestablecido JSON:
 | Flujo de trabajo de posgeneración | Al elegir esta opción, se muestra una nueva lista desplegable Flujo de trabajo de posgeneración que contiene todos los flujos de trabajo configurados en AEM. Debe seleccionar un flujo de trabajo que desee ejecutar después de completar el flujo de trabajo de generación de resultados.<br><br>**Nota**: Para obtener más información sobre la creación de un flujo de trabajo personalizado de generación posterior a la salida, consulte _Personalización del flujo de trabajo de generación posterior a la salida_ en la guía as a Cloud Service Instalar y configurar guías de Adobe Experience Manager . |
 
 **Tema principal:**[ Explicación de los ajustes preestablecidos de salida](generate-output-understand-presets.md)
-

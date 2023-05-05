@@ -1,13 +1,13 @@
 ---
 title: Sitio AEM
 description: Obtenga información sobre cómo AEM el sitio
-source-git-commit: 23d6c87b525f0763990166e46f4bd4ac2d6e7cd5
+exl-id: 8523ec55-d7f3-439d-96e8-163c7632f73c
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '2545'
 ht-degree: 0%
 
 ---
-
 
 # Sitio AEM {#id205BE3008SW}
 
@@ -86,7 +86,7 @@ Para simplificar la publicación de mapas complejos y temas que se vinculan a ot
 
 El contexto de publicación le permite especificar qué tema debe utilizarse desde qué mapa para publicar un resultado específico. Vamos a entender esto con la ayuda de un ejemplo, digamos que tiene cuatro carpetas: muestra a, muestra b, muestra c y muestra d. Cada carpeta contiene un mapa DITA: Mapa DITA A, Mapa DITA B, Mapa DITA C y Mapa DITA D. La vinculación de mapas cruzados se producirá cuando un tema del Mapa DITA A vincule a un tema del Mapa DITA B, C o D. En la siguiente captura de pantalla, un tema de concepto de muestra contiene enlaces \(o referencias\) a archivos que forman parte de otros Mapas DITA.
 
-![](images/sample-concept-link-to-other.png){width="450" align="left"}
+![](images/sample-concept-link-to-other.png){width="350" align="left"}
 
 Ahora, cuando configure la configuración de publicación del sitio AEM para el archivo de mapa que contiene este tema, puede seleccionar qué contexto de publicación para el contenido vinculado se utilizará al publicar. Un contexto de publicación es una combinación de asignación DITA y su ajuste preestablecido de salida. El ajuste preestablecido de salida, a su vez, contiene una versión específica del contenido y los ajustes preestablecidos condicionales. Esta combinación completa de asignación DITA, ajuste preestablecido de salida, versión \(archivos\) y condiciones definen el contexto de publicación de un mapa vinculado.
 
@@ -143,8 +143,7 @@ Si está utilizando `conref` en el contenido, se publica como contenido normal o
 
 Puede buscar una cadena en la salida AEM Sitio . De forma predeterminada, puede buscar la cadena solo en los títulos. Para buscar la cadena en el contenido o en el cuerpo de la salida del sitio AEM, póngase en contacto con el administrador del sistema para habilitar la propiedad flatening.enabled .
 
-
-<img src="images/aem-output-search.png" alt="Resultado de la búsqueda AEM sitio" width="800">
+![Resultado de la búsqueda AEM sitio](images/aem-output-search.png){width="650" align="left"}
 
 Para obtener más información, consulte *Configuración del aplanamiento de AEM estructura de nodos del sitio* en la guía Instalar y configurar guías de Adobe Experience Manager .
 

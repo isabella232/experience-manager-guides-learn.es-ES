@@ -1,13 +1,13 @@
 ---
 title: Informe de estado de conversión
 description: Obtenga información sobre cómo crear un informe de estado de conversión
-source-git-commit: bb7a8d49e5425b7fc856277c054558c75394fcb2
+exl-id: 41887af2-404f-41d7-b54c-ec49797200f0
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 0%
 
 ---
-
 
 # Informe de estado de conversión {#id205BBA00WZZ}
 
@@ -23,7 +23,7 @@ Siga estos pasos para ver el informe de estado de conversión:
 
    El Informe de estado de conversión se muestra para todas las tareas de conversión ejecutadas en el sistema.
 
-   ![](images/conversion-status-report.png)
+   ![](images/conversion-status-report.png){width="800" align="left"}
 
 1. La página del informe se divide en dos partes:
 
@@ -33,7 +33,7 @@ Siga estos pasos para ver el informe de estado de conversión:
 
       La siguiente captura de pantalla muestra los datos del informe para las tareas de conversión que tienen estado Fallido, Activo y En cola.
 
-      ![](images/conversion-report-failed-active-queued.png)
+      ![](images/conversion-report-failed-active-queued.png){width="800" align="left"}
 
    - **Datos del informe:**
 
@@ -55,4 +55,3 @@ Siga estos pasos para ver el informe de estado de conversión:
 
 
 **Tema principal:**[ Informes](reports-intro.md)
-

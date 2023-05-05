@@ -1,13 +1,13 @@
 ---
 title: Crear una colección de mapas de activación masiva
 description: Obtenga información sobre cómo crear una colección de mapas de activación masiva
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 7d17fb37-9486-4a3b-a421-08e279c95b6c
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 0%
 
 ---
-
 
 # Crear una colección de mapas de activación masiva {#id214GG0E90EV}
 
@@ -43,7 +43,7 @@ Para crear una colección de mapas de activación masiva, realice los siguientes
 
    Los archivos de asignación DITA se añaden a la colección de mapas de activación masiva.
 
-   ![](images/bulk-activation-collection-created.png)
+   ![](images/bulk-activation-collection-created.png){width="800" align="left"}
 
 
 La ficha Mapas y ajustes preestablecidos presenta información en las columnas siguientes:
@@ -70,4 +70,3 @@ Las siguientes opciones de filtrado están disponibles en el panel izquierdo:
 - **Mapas y ajustes preestablecidos** tabla: La tabla Mapas y ajustes preestablecidos muestra las columnas siguientes:
 
 **Tema principal:**[ Activación masiva de contenido publicado](conf-bulk-activation.md)
-

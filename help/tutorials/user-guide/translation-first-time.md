@@ -1,13 +1,13 @@
 ---
 title: Prácticas recomendadas para la traducción de contenido
 description: Conozca las prácticas recomendadas para la traducción de contenido
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 4eff0f27-b3d1-4c6e-af88-bcb3f6d96990
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '1237'
 ht-degree: 1%
 
 ---
-
 
 # Prácticas recomendadas para la traducción de contenido {#id1678G0S702F}
 
@@ -29,7 +29,7 @@ Considere el siguiente punto para traducir contenido:
 
 La siguiente ilustración muestra un ejemplo de una estructura de carpetas en AEM cuando ha utilizado contenido globalmente y tres copias de idioma.
 
-![](images/aem-directory_structure.png)
+![](images/aem-directory_structure.png){width="800" align="left"}
 
 ## Configurar el servicio de traducción
 
@@ -129,4 +129,3 @@ Una vez finalizada la traducción, el estado del trabajo de traducción cambia a
 > Si rechaza la traducción para uno o más temas de un trabajo de traducción, la variable **En curso** el estado de traducción de todos los temas rechazados vuelve a su estado original. El estado de los temas referidos se comprueba y se revierte según el estado de traducción más reciente. Además, los archivos de traducción creados en el proyecto de destino no se eliminan aunque la traducción se rechace para ellos.
 
 **Tema principal:**[ Traducir contenido](translation.md)
-

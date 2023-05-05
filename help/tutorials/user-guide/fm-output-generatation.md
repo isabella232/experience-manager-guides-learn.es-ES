@@ -1,13 +1,13 @@
 ---
 title: Generar salida de documentos de FrameMaker
 description: Obtenga información sobre cómo generar resultados de documentos de FrameMaker
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: d3cef05b-8574-4e86-ab94-c9b880fb9c29
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '190'
 ht-degree: 1%
 
 ---
-
 
 # Generar salida de documentos de FrameMaker {#id1645H8040HD}
 
@@ -31,17 +31,4 @@ La información de las siguientes secciones está destinada a editores que utili
 >[!IMPORTANT]
 >
 > Las funciones descritas en este tema están disponibles para los usuarios con editores o privilegios de administrador únicamente.
-
-- **[Explicación de los ajustes preestablecidos de salida](fm-output-understand-presets.md)**
-
-- **[PDF](fm-output-pdf-preset.md)**
-
-- **[HTML5](fm-output-html5-preset.md)**
-
-- **[ePub](fm-output-epub-preset.md)**
-
-- **[Generar salida de archivos .book o .fm](fm-output-generate.md)**
-
-- **[Ver el estado de la tarea de generación de salida](fm-output-view-status.md)**
-
 

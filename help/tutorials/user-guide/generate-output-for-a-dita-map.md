@@ -1,13 +1,13 @@
 ---
 title: Generar salida para un mapa DITA desde la consola de asignación
 description: Obtenga información sobre cómo generar resultados para un mapa DITA desde la consola de mapas
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 98afbdd2-56d7-44b0-ad2a-25e9143c88f3
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '1399'
 ht-degree: 0%
 
 ---
-
 
 # Generar salida para un mapa DITA desde la consola de asignación {#id1825FG00UHT}
 
@@ -19,7 +19,7 @@ Realice los siguientes pasos para generar resultados para un mapa DITA:
 
 1. Seleccione uno o varios ajustes preestablecidos de salida que desee utilizar para generar la salida.
 
-   ![](images/generate-multiple-outputs-uuid.png)
+   ![](images/generate-multiple-outputs-uuid.png){width="800" align="left"}
 
    >[!NOTE]
    >
@@ -68,7 +68,7 @@ Realice los siguientes pasos para volver a generar la salida de un tema específ
    >
    > Si ha añadido nuevos temas al mapa de DITA, no podrá generar esos nuevos temas desde aquí. Primero debe publicar los temas recién añadidos utilizando la función de publicación de mapas DITA.
 
-   ![](images/regenerate-topics.png)
+   ![](images/regenerate-topics.png){width="800" align="left"}
 
 1. Haga clic en **Regenerar**.
 
@@ -95,7 +95,7 @@ Siga estos pasos para ver la cola de generación de resultados:
 
 1. Haga clic en **Salidas**.
 
-   ![](images/output-queued.png)
+   ![](images/output-queued.png){width="800" align="left"}
 
    La página Resultados se divide en dos partes:
 
@@ -132,17 +132,17 @@ Realice los siguientes pasos para cancelar una tarea de generación de salida de
 
 1. Haga clic en el *Cancelar este trabajo* icono.
 
-   ![](images/cancel-publish-task-map-console.png)
+   ![](images/cancel-publish-task-map-console.png){width="800" align="left"}
 
 1. Haga clic en **Sí** en el mensaje Confirmar cancelación .
 
-   ![](images/confirm-cancel-output-map-condole.png)
+   ![](images/confirm-cancel-output-map-condole.png){width="800" align="left"}
 
    Si la tarea aún no se ha iniciado, el comando cancel se ejecuta en la tarea. Para una tarea que se está cancelando, el estado se establece en Cancelando.
 
    Una vez cancelada la tarea correctamente, se mueve al **Productos generados** lista con un **Cancelado** estado. Cuando pasa el ratón sobre la tarea cancelada, se muestra el nombre del usuario que ha cancelado la tarea. En la siguiente captura de pantalla, la variable *HTML5* se ha cancelado la tarea.
 
-   ![](images/cancelled-output-task.png)
+   ![](images/cancelled-output-task.png){width="800" align="left"}
 
 
 ## Eliminar una tarea de salida de la consola de asignación DITA
@@ -159,7 +159,7 @@ Realice los siguientes pasos para quitar una tarea de salida de la lista Resulta
 
 1. Haga clic en el icono eliminar .
 
-   ![](images/delete-output-task.png)
+   ![](images/delete-output-task.png){width="800" align="left"}
 
 1. Haga clic en **Sí** en el mensaje Confirmar eliminación .
 
@@ -167,4 +167,3 @@ Realice los siguientes pasos para quitar una tarea de salida de la lista Resulta
 
 
 **Tema principal:**[ Generación de resultados](generate-output.md)
-

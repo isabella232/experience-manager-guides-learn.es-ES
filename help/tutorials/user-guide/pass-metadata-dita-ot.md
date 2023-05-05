@@ -1,13 +1,13 @@
 ---
 title: Pasa los metadatos a la salida utilizando DITA-OT
 description: Aprenda a pasar los metadatos a la salida utilizando DITA-OT
-source-git-commit: 8b6294425c6e60d1c5b37d98e99114014a104ee6
+exl-id: 637895e5-aece-4827-a32e-f2ae3e3704ef
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
 
 ---
-
 
 # Pasa los metadatos a la salida utilizando DITA-OT {#id21BJ00QD0XA}
 
@@ -19,7 +19,7 @@ Realice los siguientes pasos para pasar los metadatos a la salida mediante la pu
 1. Seleccione y edite un ajuste preestablecido de salida al que desee pasar los campos de metadatos. Por ejemplo, seleccione el ajuste preestablecido de salida del PDF.
 1. Select **DITA-OT** en Generar &lt;output> Uso de la opción en el ajuste preestablecido de salida seleccionado.
 
-   ![](images/custom-meta-data-output-preset.png)
+   ![](images/custom-meta-data-output-preset.png){width="800" align="left"}
 
 1. En el menú desplegable Propiedades , seleccione los metadatos que desea pasar a la publicación DITA-OT.
 
@@ -35,7 +35,7 @@ Realice los siguientes pasos para pasar los metadatos a la salida mediante la pu
 
 1. En el **Propiedades** , seleccione las propiedades personalizadas y predeterminadas necesarias. Por ejemplo, seleccione `author`, `dc:title`y `dc:description`. Son las `metadata/properties` que se crea una vez que creamos un archivo. Las propiedades seleccionadas se muestran debajo del cuadro desplegable.
 
-   ![](images/selected-metadata-properties.png)
+   ![](images/selected-metadata-properties.png){width="300" align="left"}
 
 1. Haga clic en **Listo** en la parte superior izquierda para guardar los cambios.
 1. Genere la salida.
@@ -43,4 +43,3 @@ Realice los siguientes pasos para pasar los metadatos a la salida mediante la pu
 Las propiedades de metadatos seleccionadas se pasarán a la salida generada mediante DITA-OT.
 
 **Tema principal:**[ Generación de resultados](generate-output.md)
-

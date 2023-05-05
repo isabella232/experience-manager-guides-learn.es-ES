@@ -1,13 +1,13 @@
 ---
 title: Editar una colección de mapas de activación masiva
 description: Obtenga información sobre cómo editar una colección de mapas de activación masiva
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 110eba52-c886-4148-aff9-9c4e1d3d85bd
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 2%
 
 ---
-
 
 # Editar una colección de mapas de activación masiva {#id214GI40B0XA}
 
@@ -33,7 +33,7 @@ Puede editar una colección de mapas de activación masiva añadiendo o eliminan
 
 1. Haga clic en **Eliminar**.
 
-   ![](images/bulk-activation-delete-map.png)
+   ![](images/bulk-activation-delete-map.png){width="800" align="left"}
 
    El mapa seleccionado se elimina de la colección de mapas de activación masiva.
 
@@ -41,4 +41,3 @@ Puede editar una colección de mapas de activación masiva añadiendo o eliminan
 
 
 **Tema principal:**[ Activación masiva de contenido publicado](conf-bulk-activation.md)
-
