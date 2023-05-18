@@ -1,9 +1,9 @@
 ---
 title: Configuración de contenido y plantilla
 description: Aprenda qué se debe tener en cuenta para configurar contenido y plantillas en AEM guías.
-source-git-commit: a2f656c4f547e215a8bbb927f20f8e97d29ef29d
+source-git-commit: 87c92776f417aba49096b447baf81916dea5d57f
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '289'
 ht-degree: 1%
 
 ---
@@ -64,8 +64,8 @@ En esta sesión, aprendió lo siguiente:
 
 ## Próxima reunión de expertos
 
-- **Tema** - TBD
-- **Programado el** - 25 de mayo de 2023
+- **Tema** - Publicación de PDF nativos: aprendizaje por ejemplo (parte 1)
+- **Programado el** - 1 de junio de 2023
 
 
 ## Contáctenos
