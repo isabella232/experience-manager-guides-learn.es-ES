@@ -1,6 +1,6 @@
 ---
 title: PDF nativo | Generación de salida de PDF
-description: Generar salida de PDF en las guías de Adobe Experience Manager as a Cloud Service
+description: Generar salida de PDF en as a Cloud Service de Adobe Experience Manager Guides
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
 source-git-commit: b9cf70ac957bfacbf9a6bf4c3b32d4f73c2b1287
 workflow-type: tm+mt
@@ -11,38 +11,38 @@ ht-degree: 0%
 
 # Salida del PDF de publicación
 
-Con AEM guías, puede generar PDF de temas individuales o un archivo de mapa completo. Puede publicar el contenido en formato de PDF mediante uno de los tres métodos siguientes:
+AEM Con las guías de la aplicación, puede generar PDF de temas individuales o de un archivo de mapa completo. Puede publicar el contenido en formato de PDF mediante uno de los tres métodos siguientes:
 
 * **DITA-OT**
 
-Utilice este método para generar una salida de PDF para un mapa desde el panel de mapas. Puede establecer las propiedades de publicación antes de generar el PDF creando un ajuste preestablecido de salida para el mapa que está abierto en el panel de mapas. Para crear o editar un ajuste preestablecido de salida, la variable *Explicación de los ajustes preestablecidos de salida* en la sección [Guía del usuario as a Cloud Service de AEM Guías](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-apr-22/XML-Documentation-for-Adobe-Experience-Manager_CS_User-Guide_EN.pdf).
+Utilice este método para generar una salida de PDF para un mapa desde el panel de mapas. Puede establecer las propiedades de publicación antes de generar el PDF creando un ajuste preestablecido de salida para el mapa que está abierto en el panel de mapas. Para crear o editar un ajuste preestablecido de salida, la variable *Explicación de los ajustes preestablecidos de salida* de la sección [AEM Guía del usuario as a Cloud Service de Guías de](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-apr-22/XML-Documentation-for-Adobe-Experience-Manager_CS_User-Guide_EN.pdf).
 
-Para obtener más información sobre la generación de un PDF mediante el método DITA-OT, consulte [Generación de un PDF con DITA-OT](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-pdf.html).
+Para obtener más información sobre la generación de un PDF mediante el método DITA-OT, consulte [Generación de PDF mediante DITA-OT](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-pdf.html).
 
 * **FrameMaker Publishing Server (FMPS)**
 
-Utilice este método para generar una salida de PDF no solo a partir del contenido DITA, sino también de los documentos FrameMaker (.book y .fm) disponibles en el repositorio de AEM. El PDF se puede crear configurando un ajuste preestablecido de salida y publicándolo mediante FrameMaker Publishing Server (FMPS). Puede diseñar y configurar el aspecto de la salida para el PDF y otros formatos y almacenarla en un archivo de configuración (.sts). FMPS utiliza este archivo de configuración para generar resultados para un mapa DITA o un archivo .book. Para crear o editar un ajuste preestablecido de salida, consulte la  *Explicación de los ajustes preestablecidos de salida* en la sección [Guía del usuario as a Cloud Service de AEM Guías](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-apr-22/XML-Documentation-for-Adobe-Experience-Manager_CS_User-Guide_EN.pdf).
+Utilice este método para generar un resultado de PDF AEM no sólo a partir del contenido DITA, sino también de los documentos de FrameMaker (.book y .fm) disponibles en el repositorio de la. El PDF se puede crear configurando un ajuste preestablecido de salida y publicarlo con FrameMaker Publishing Server (FMPS). Puede diseñar y configurar el aspecto de la salida para PDF y otros formatos, y almacenarla en un archivo de configuración (.sts). Este fichero de configuración lo utiliza FMPS para generar la salida de un fichero .book o de mapa DITA. Para crear o editar un ajuste preestablecido de salida, consulte la  *Explicación de los ajustes preestablecidos de salida* de la sección [AEM Guía del usuario as a Cloud Service de Guías de](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-apr-22/XML-Documentation-for-Adobe-Experience-Manager_CS_User-Guide_EN.pdf).
 
-Para obtener más información sobre la configuración de FMPS, consulte [Generar salida de documentos de FrameMaker](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ffm-output-generatation.html).
+Para obtener más información sobre la configuración de FMPS, consulte [Generar resultados a partir de documentos de FrameMaker](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ffm-output-generatation.html).
 
-* **Publicación del PDF nativo**
+* **Publicación nativa de PDF**
 
-Utilice este método para generar una salida de PDF con numerosas funciones basada en los estándares de medios paginados W3C CSS3 y CSS. Con la publicación de PDF nativos, puede usar plantillas para definir el diseño y el estilo del contenido y aplicar diversas configuraciones para ajustar el PDF. Además, puede modificar y crear sus propias plantillas con el editor de plantillas.
+Utilice este método para generar una salida de PDF con numerosas funciones basada en los estándares de medios paginados CSS3 y CSS del W3C. Con la publicación de PDF nativos, puede utilizar plantillas para establecer el diseño y el estilo del contenido y aplicar varias configuraciones para ajustar el PDF. Además, puede modificar y crear sus propias plantillas con el editor de plantillas.
 
-Para obtener más información sobre la publicación de PDF nativos, consulte [Uso de la publicación en el PDF nativo](#native-pdf-publishing).
+Para obtener más información sobre la publicación de PDF nativos, consulte [Uso de la publicación nativa en PDF](#native-pdf-publishing).
 
 
-## Uso de la publicación del PDF nativo {#native-pdf-publishing}
+## Uso de la publicación de PDF nativa {#native-pdf-publishing}
 
-Al crear contenido, resulta esencial asegurarse de que el contenido está optimizado para su visualización, edición e impresión. Si utiliza estándares como W3C CSS3 para estilos de contenido y estándares de medios paginados CSS para propiedades de definición de página como tamaño, márgenes, orientación, saltos de página, encabezados, pies de página y numeración de páginas, puede configurar la vista y el diseño del documento PDF para garantizar la coherencia y la facilidad de uso. La función de publicación de PDF nativo utiliza estos estándares para generar un PDF.
+Al crear contenido, es esencial asegurarse de que el contenido esté optimizado para su visualización, edición e impresión. Mediante estándares como W3C CSS3 para el estilo de contenido y los estándares de medios paginados CSS para las propiedades de definición de página como tamaño, márgenes, orientación, saltos de página, encabezados, pies de página y numeración de páginas, puede establecer la vista y el diseño del documento de PDF, lo que garantiza la coherencia y la facilidad de uso. La función de publicación PDF nativo utiliza estos estándares para generar un PDF.
 
-Con la publicación nativa del PDF, puede utilizar plantillas predefinidas para garantizar la coherencia en el diseño y la estructura del contenido, aplicar hojas de estilo para modificar el aspecto de la salida, optimizar el PDF, establecer marcas de impresora, permitir la compatibilidad con lectores de pantalla, establecer la conformidad del PDF, incrustar fuentes, etc.
+Con la publicación nativa de PDF, puede utilizar plantillas predefinidas para garantizar la coherencia en el diseño y la estructura del contenido, aplicar hojas de estilo para modificar el aspecto de la salida, optimizar el PDF, establecer marcas de impresora, permitir la compatibilidad con lectores de pantalla, establecer la conformidad del PDF, incrustar fuentes y mucho más.
 
 La generación de un PDF mediante la publicación de un PDF nativo tiene dos aspectos:
 
-* Utilice plantillas para aplicar estilo al contenido, definir diseños de página y diversas configuraciones para ajustar el PDF. Los autores pueden elegir utilizar o modificar las plantillas de ejemplo proporcionadas o crear plantillas personalizadas, así como establecer las opciones de configuración avanzadas que utilizan los editores y los desarrolladores.
+* Uso de plantillas para aplicar estilo al contenido, establecer diseños de página y varias configuraciones para ajustar el PDF. Los autores pueden elegir utilizar o modificar las plantillas de ejemplo proporcionadas o crear plantillas personalizadas y establecer las opciones de configuración avanzadas que utilizan los editores y desarrolladores.
 
-* Cree o configure un ajuste preestablecido de salida de PDF para controlar la configuración del PDF. Una vez creado un ajuste preestablecido de salida de PDF, puede generar el PDF .
+* Cree o configure un ajuste preestablecido de salida de PDF para controlar la configuración del PDF. Una vez creado un ajuste preestablecido de salida de PDF, puede generar el PDF.
 
 Para obtener más información, consulte [Generar una salida de PDF](#generate-pdf-output).
 
@@ -50,66 +50,66 @@ Para obtener más información, consulte [Generar una salida de PDF](#generate-p
 
 El primer paso para generar una salida de PDF es crear un ajuste preestablecido de salida de PDF, que es una colección de propiedades de publicación asignadas a un mapa. Puede crear un ajuste preestablecido de salida para cualquier mapa que esté abierto en el panel Vista de mapa o configurar un ajuste preestablecido existente para generar rápidamente un PDF para el mismo mapa.
 
-Desde el ajuste preestablecido de salida del PDF puede seleccionar una plantilla, aplicar condiciones, establecer restricciones para controlar cómo un usuario interactúa con su PDF, configurar opciones avanzadas como compresión, conformidad, etc.
+En el ajuste preestablecido de salida del PDF puede seleccionar una plantilla, aplicar condiciones, establecer restricciones para controlar cómo interactúa un usuario con el PDF, configurar ajustes avanzados como compresión, conformidad y mucho más.
 
 Para crear o configurar un ajuste preestablecido de salida de PDF:
 
-1. En la ficha Salida , haga clic en **Ajustes preestablecidos** en la barra lateral izquierda.
-Se abre el panel Ajuste preestablecido. <br>
+1. En la pestaña Output, haga clic en **Ajustes preestablecidos** en la barra lateral izquierda.
+Se abrirá el panel Ajuste preestablecido. <br>
 
 <img src="assets/preset-panel.png" alt="panel preestablecido" width="600">
 
-1. En la salida **Ajustes preestablecidos** realice una de las siguientes acciones:
+1. En la salida **Ajustes preestablecidos** , realice una de las siguientes acciones:
    * Haga doble clic en un ajuste preestablecido de salida de PDF predefinido para verlo.
-   * Haga clic en el icono + con **Ajustes preestablecidos** para añadir un nuevo ajuste preestablecido de salida de **Tipo: PDF**
+   * Haga clic en el icono + de **Ajustes preestablecidos** para añadir un nuevo ajuste preestablecido de salida de **Tipo: PDF**
 
-1. Para definir la configuración de un ajuste preestablecido de PDF existente:
-   * Haga clic en el  **Opciones** ![opciones](assets/options.svg) junto al ajuste preestablecido de salida deseado y seleccione **Editar**.
-Puede usar las siguientes opciones en la **General**, **Metadatos**, **Diseño**, **Seguridad** y **Avanzadas** para configurar un ajuste preestablecido de salida de PDF:
+1. Para configurar los ajustes de un ajuste preestablecido de PDF existente:
+   * Haga clic en  **Opciones** ![opciones](assets/options.svg) junto al ajuste preestablecido de salida deseado y seleccione **Editar**.
+Puede utilizar la siguiente configuración en la **General**, **Metadatos**, **Diseño**, **Seguridad**, y **Avanzadas** pestañas para configurar un ajuste preestablecido de salida de PDF:
 
 **General**
 
-Utilice para especificar la configuración básica de salida, como especificar la ruta de salida, el nombre del archivo PDF y mucho más.
+Utilice para especificar la configuración básica de salida, como la ruta de acceso de salida, el nombre del archivo del PDF, etc.
 
 | Configuración | Descripción |
 | --- | --- |
-| **Ruta de salida** | La ruta dentro del repositorio de AEM donde se almacena la salida del PDF. Asegúrese de que la ruta de salida no esté ubicada dentro de la carpeta del proyecto. Si se deja en blanco, la salida se genera en la ubicación de salida de mapa DITA predeterminada.<br>También puede utilizar las siguientes variables predeterminadas para definir la Ruta de salida. Puede utilizar una sola variable o una combinación de variables para definir esta opción. <br> `${map_filename}`: Utiliza el nombre de los archivos de asignación DITA para crear la ruta de destino. <br> `${map_title}`: Utiliza el título del mapa DITA para crear la ruta de destino. <br>`${preset_name}`: Utiliza el nombre del ajuste preestablecido de salida para crear la ruta de destino. <br> `${language_code}`: Utiliza el código de idioma donde se encuentra el archivo de asignación para crear la ruta de destino. <br> `${map_parentpath}`: Utiliza la ruta completa del archivo de asignación para crear la ruta de destino.  <br>`${path_after_langfolder}`: Utiliza la ruta del archivo de asignación después de la carpeta de idioma para crear la ruta de destino. |
-| **Archivo PDF** | Especifique un nombre de archivo para guardar el PDF. De forma predeterminada, el nombre del archivo PDF agrega el nombre de asignación DITA junto con el nombre del ajuste preestablecido. Por ejemplo, ditamap es &#39;TestMap&#39; y el nombre del ajuste preestablecido es &#39;preset1&#39;, entonces el nombre predeterminado del pdf será &#39;TestMap_preset1.pdf&#39;. <br>También puede utilizar las siguientes variables predeterminadas para definir el archivo PDF. Puede utilizar una sola variable o una combinación de variables para definir esta opción. <br>`${map_filename}`<br>`${map_title}`<br>`${preset_name}` <br> `${language_code}`. |
-| **Aplicar condiciones usando** | Para el contenido condicional, elija entre las siguientes opciones para generar una salida de PDF basada en esas condiciones: <br><ul> <li> **Ninguno aplicado** Seleccione esta opción si no desea aplicar ninguna condición en el mapa y el contenido de origen. <br><li> **Archivo Ditaval** Seleccione un archivo DITAVAL para generar contenido condicional. Para seleccionar, haga clic en con Ajuste preestablecido de condición y busque el archivo. <br> <li> **Ajuste preestablecido de condición** Seleccione un ajuste preestablecido de condición en la lista desplegable para aplicar una condición al publicar la salida. Esta opción está visible si ha añadido una condición para el archivo de asignación DITA. Los ajustes condicionales están disponibles en la ficha Ajustes preestablecidos de condición de la consola de asignación DITA. Para obtener más información sobre el ajuste preestablecido de condición, consulte [Usar ajustes preestablecidos de condición](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html). <br> </ul> |
-| **Usar línea de base** | Si ha creado una Línea de base para el mapa DITA seleccionado, seleccione esta opción para especificar la versión que desea publicar. Consulte [Trabajo con línea de base](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html) para obtener más información. |
-| **Crear PDF con barra de cambios entre versiones publicadas** | Utilice las siguientes opciones para crear un PDF que muestre las diferencias de contenido entre dos versiones mediante barras de cambios:   <br><ul><li> **Línea de base de la versión anterior** Elija la versión de línea de base que desea comparar con la versión actual u otra línea de base. Aparecerá una barra de cambios en el PDF para indicar el contenido modificado. Una barra de cambios es una línea vertical que identifica visualmente el contenido nuevo o revisado. La barra de cambios aparece a la izquierda del contenido que se ha insertado, cambiado o eliminado. <br> **Nota**: Si selecciona **Usar línea de base** y elija una línea de base para publicar, la comparación se realizará entre las dos versiones de línea de base seleccionadas. Por ejemplo, si elige la línea de base Versión 1.3 en **Usar línea de base** y la versión 1.1 en **Línea de base de la versión anterior**, la comparación se realizará entre la versión de base 1.1 y la versión de base 1.3. <br><li> **Mostrar texto agregado** Seleccione para mostrar el texto insertado en color verde y subrayado. Esta opción está seleccionada de forma predeterminada. <br> <li> **Mostrar texto eliminado** Seleccione esta opción para mostrar el texto eliminado en color rojo y marcado con un tachado. Esta opción está seleccionada de forma predeterminada. <br>**Nota** También puede personalizar el estilo de la barra de cambios, el contenido insertado o el contenido eliminado mediante la hoja de estilo.<br></ul> |
-| **Flujo de trabajo de posgeneración** | Seleccione para mostrar una lista desplegable que contenga todos los flujos de trabajo configurados en AEM. Puede seleccionar el flujo de trabajo que desea ejecutar después de finalizar el flujo de trabajo de generación de PDF. |
+| **Ruta de salida** | AEM Ruta de acceso del repositorio de en la que se almacena la salida del PDF. Asegúrese de que la ruta de acceso de salida no esté ubicada dentro de la carpeta del proyecto. Si se deja en blanco, la salida se generará en la ubicación de salida del mapa DITA por defecto.<br>También puede utilizar las siguientes variables listas para usarse para definir la Ruta de salida. Puede utilizar una sola variable o una combinación de ellas para definir esta opción. <br> `${map_filename}`: utiliza el nombre de ficheros de mapa DITA para crear la ruta de destino. <br> `${map_title}`: utiliza el título del mapa DITA para crear la ruta de destino. <br>`${preset_name}`: utiliza el nombre del ajuste preestablecido de salida para crear la ruta de destino. <br> `${language_code}`: utiliza el código de idioma en el que se encuentra el archivo de asignación para crear la ruta de destino. <br> `${map_parentpath}`: Utiliza la ruta completa del archivo de asignación para crear la ruta de destino.  <br>`${path_after_langfolder}`: Utiliza la ruta del archivo de mapa después de la carpeta de idioma para crear la ruta de destino. |
+| **Archivo de PDF** | Especifique un nombre de archivo para guardar el PDF. De forma predeterminada, el nombre del fichero de PDF añade el nombre del mapa DITA junto con el nombre del ajuste preestablecido. Por ejemplo, ditamap es &quot;TestMap&quot; y el nombre del ajuste preestablecido es &quot;preset1&quot;, el nombre predeterminado del pdf será &quot;TestMap_preet1.pdf&quot;. <br>También puede utilizar las siguientes variables listas para usarse para definir el archivo PDF. Puede utilizar una sola variable o una combinación de ellas para definir esta opción. <br>`${map_filename}`<br>`${map_title}`<br>`${preset_name}` <br> `${language_code}`. |
+| **Aplicar condiciones usando** | Para el contenido condicionado, elija entre las siguientes opciones para generar una salida de PDF basada en esas condiciones: <br><ul> <li> **Ninguno aplicado** Seleccione esta opción si no desea aplicar ninguna condición al mapa y al contenido de origen. <br><li> **Archivo Ditaval** Seleccione un archivo DITAVAL para generar contenido condicionado. Para seleccionar, haga clic en Ajuste preestablecido de condición y busque el archivo. <br> <li> **Ajuste preestablecido de condición** Seleccione un ajuste preestablecido de condición en la lista desplegable para aplicar una condición al publicar la salida. Esta opción está visible si se ha añadido una condición para el fichero de mapa DITA. La configuración condicional está disponible en la ficha Ajustes preestablecidos de condición de la consola de mapas DITA. Para obtener más información sobre los ajustes preestablecidos de condición, consulte [Usar ajustes preestablecidos de condición](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html). <br> </ul> |
+| **Usar línea base** | Si ha creado una Línea base para el mapa DITA seleccionado, seleccione esta opción para especificar la versión que desea publicar. Consulte [Trabajar con línea base](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html) para obtener más información. |
+| **Crear PDF con barra de cambios entre versiones publicadas** | Utilice las siguientes opciones para crear un PDF que muestre las diferencias de contenido entre dos versiones con barras de cambios:   <br><ul><li> **Línea base de la versión anterior** Seleccione la versión de instantánea que desea comparar con la versión actual u otra instantánea. Aparecerá una barra de cambios en el PDF para indicar el contenido modificado. Una barra de cambios es una línea vertical que identifica visualmente el contenido nuevo o revisado. La barra de cambios aparece a la izquierda del contenido que se ha insertado, modificado o eliminado. <br> **Nota**: Si selecciona **Usar línea base** y elija una línea base para publicar, la comparación se realizará entre las dos versiones de línea base seleccionadas. Por ejemplo, si elige la línea base Versión 1.3 en **Usar línea base** y Versión 1.1 en **Línea base de la versión anterior**, la comparación se realizará entre la versión de línea base 1.1 y la versión de línea base 1.3. <br><li> **Mostrar texto añadido** Seleccione esta opción para mostrar el texto insertado en color verde y subrayado. Esta opción está seleccionada de forma predeterminada. <br> <li> **Mostrar texto eliminado** Seleccione para mostrar el texto eliminado en color rojo y marcado con un tachado. Esta opción está seleccionada de forma predeterminada. <br>**Nota** También puede personalizar el estilo de la barra de cambios, el contenido insertado o el contenido eliminado mediante la hoja de estilo.<br></ul> |
+| **Flujo de trabajo de generación posterior** | AEM Seleccione esta opción para mostrar una lista desplegable que contenga todos los flujos de trabajo configurados en la aplicación de flujo de trabajo de la. Puede seleccionar el flujo de trabajo que desea ejecutar después de la finalización del flujo de trabajo de generación de PDF. |
 
 **Metadatos**
 
-Los metadatos son la descripción o definición del contenido. Los metadatos ayudan en la administración de contenido y ayudan a buscar archivos en Internet.
+Los metadatos son la descripción o definición del contenido. Los metadatos ayudan en la administración de contenido y en la búsqueda de archivos en Internet.
 
-Utilice la ficha Metadatos para establecer los campos de metadatos del autor, como el nombre, el título del documento, las palabras clave, la información de copyright y otros campos de datos para la salida del PDF. También puede agregar metadatos personalizados para la salida del PDF.
+Utilice la pestaña Metadatos para establecer los campos de metadatos como el nombre del autor, el título del documento, las palabras clave, la información de copyright y otros campos de datos para la salida del PDF. También puede agregar metadatos personalizados para la salida del PDF.
 
-Estos metadatos se asignan a los metadatos de la ficha Descripción de las Propiedades del documento del PDF de salida.
+Estos metadatos se asignan a los metadatos de la pestaña Descripción en las propiedades del documento del PDF de salida.
 
-**Nota**: Estos metadatos anulan los metadatos definidos a nivel de libro.
+**Nota**: estos metadatos anulan los metadatos definidos en el nivel de libro.
 
-<img src="assets/pdf-metadata.png" alt="ficha metadatos" width="600">
+<img src="assets/pdf-metadata.png" alt="ficha de metadatos" width="600">
 
-Desde los ajustes preestablecidos de salida, **seleccionar PDF** > **Metadatos** para agregar y personalizar opciones de metadatos.
-* **Proporcionar XMP archivo**
+Desde Ajustes preestablecidos de salida, **seleccionar PDF** > **Metadatos** para agregar y personalizar opciones de metadatos.
+* **XMP Proporcionar archivo**
 
-   Los campos de metadatos se pueden rellenar directamente mediante la importación [XMP](https://www.adobe.com/products/xmp.html) (Plataforma de metadatos extensible). Puede descargar un archivo de XMP de muestra desde aquí.
+   Los campos de metadatos se pueden rellenar directamente importando [XMP](https://www.adobe.com/products/xmp.html) (Extensible Metadata Platform). XMP Puede descargar un archivo de muestra de la aplicación desde aquí.
 
 [Descargar](assets/SampleXMP.xmp)
 
-   Como alternativa, puede generar un archivo XMP usando Adobe Acrobat.
-   1. Haga clic en **Archivo** > **Propiedades** en Acrobat.
+   XMP Como alternativa, puede generar un archivo de mediante Adobe Acrobat.
+   1. Clic **Archivo** > **Propiedades** en Acrobat.
    1. En **Descripción**, haga clic en **Metadatos adicionales**.
    1. En el panel izquierdo, seleccione **Avanzadas**.
    1. Haga clic en **Guardar**.
 
-   XMP archivo se guarda en el dispositivo.
+   XMP Se ha guardado el archivo de en el dispositivo.
 
 * **Proporcionar nombres y valores de metadatos**
 
-   1. Añada el nombre seleccionando en la lista desplegable o agregando metadatos personalizados escribiendo directamente en el campo nombre .
+   1. Añada un nombre seleccionándolo en la lista desplegable o agregue metadatos personalizados escribiendo directamente en el campo de nombre.
    1. Introduzca el valor de los metadatos y haga clic en el icono &quot;+&quot;.
 Los metadatos se añaden a la lista de metadatos del PDF.
 
@@ -117,59 +117,59 @@ Los metadatos se añaden a la lista de metadatos del PDF.
 
 **Diseño**
 
-Utilice para definir los diseños de página y especificar las opciones de vista de página para los resultados del PDF, como Visualización de página y Establecer niveles de zoom.
+Utilice para definir los diseños de página y especificar las opciones de vista de página para la salida del PDF, como Visualización de página (Page Display) y definir los niveles de zoom.
 
 | Configuración | Descripción |
 | --- | --- |
-| **Plantilla de PDF** | Las plantillas de PDF proporcionan una estructura clara para definir los diseños de página, el estilo del contenido y la aplicación de diversas configuraciones a la salida del PDF. Seleccione en las opciones desplegables de plantilla de PDF para elegir la plantilla que prefiera. |
-| **Visualización de la página** | Utilice la visualización de página para la vista de página que muestra cómo se muestra el PDF cuando se abre. Seleccione en las opciones desplegables Visualización de página (Page Display) para elegir una vista preferida. <br><ul><li> **Predeterminado**  Se muestra según la configuración predeterminada del visor del PDF en el equipo de un usuario.  <br> <li> **Vista de una sola página** Muestra una página a la vez.   <br> <li> **Desplazamiento en una sola página** Muestra una sola página en una columna vertical continua.  <br> <li> **Dos vistas de página** Muestra el pliego de dos páginas una al lado de la otra. .<br> <li> **Desplazamiento de dos páginas** Muestra el desplazamiento de dos páginas en paralelo con el desplazamiento continuo. </ul> |
-| **Acercar o alejar** | Seleccione para cambiar el tamaño de la vista de página que muestra cómo se muestra el PDF cuando se abre.  <br><ul><li> **Predeterminado** Se muestra según la configuración predeterminada del visor del PDF en el equipo de un usuario    <br> <li> **100 %** Hace que la página aparezca en su tamaño real.     <br> <li> **Ajustar página** Define el ancho y el alto de la página para que se ajusten al panel del documento. .<br> <li> **Ajustar anchura de página** Define el ancho de la página para que ocupe el ancho del panel del documento.  <br> <li> **Ajustar altura de página** Hace que la altura de la página se rellene con la altura del panel del documento. </ul> |
+| **Plantilla de PDF** | Las plantillas de PDF proporcionan una estructura clara para definir diseños de página, estilos de contenido y aplicar varios ajustes a la salida del PDF. Seleccione en las opciones desplegables de plantilla de PDF para elegir la plantilla que prefiera. |
+| **Visualización de página** | Utilice la Visualización de página para la vista de página que muestra cómo se muestra el PDF cuando se abre. Seleccione en las opciones desplegables de Visualización de página para elegir una vista preferida. <br><ul><li> **Predeterminado**  Se muestra según la configuración predeterminada del visor de PDF en el equipo de un usuario.  <br> <li> **Vista de página única** Muestra las páginas de una en una.   <br> <li> **Desplazamiento de página única** Muestra una sola página en una columna vertical continua.  <br> <li> **Vista de dos páginas** Muestra dos pliegos de páginas uno al lado del otro. .<br> <li> **Desplazamiento de dos páginas** Muestra un pliego de dos páginas en paralelo con desplazamiento continuo. </ul> |
+| **Acercar o alejar** | Seleccione para cambiar el tamaño de la vista de página que muestra cómo se muestra el PDF cuando se abre.  <br><ul><li> **Predeterminado** Se muestra según la configuración predeterminada del visor de PDF en el equipo de un usuario    <br> <li> **100 %** Hace que la página aparezca en su tamaño real.     <br> <li> **Ajustar página** Hace que el ancho y el alto de la página se ajusten al panel del documento. .<br> <li> **Ajustar ancho de página** Hace que el ancho de la página se rellene con el ancho del panel del documento.  <br> <li> **Ajustar altura de página** Hace que el alto de la página ocupe el alto del panel del documento. </ul> |
 
 **Seguridad**
 
-Protect con su PDF añadiendo restricciones para abrir y leer el archivo. Utilice las siguientes opciones para evitar el acceso no autorizado.
+Protect el PDF agregando restricciones para abrir y leer el archivo. Utilice las siguientes opciones para evitar el acceso no autorizado.
 
 | Configuración | Descripción |
 | --- | --- |
-| **Establecer contraseña para abrir el documento** | Seleccione para agregar una contraseña segura para ver el archivo PDF. Especifique una contraseña en la variable **Contraseña de usuario** campo . Los usuarios solo pueden abrir el PDF introduciendo la contraseña proporcionada en este campo. |
-| **Establecer las restricciones del documento** | Seleccione esta opción para restringir la interacción de los usuarios con su PDF. Especifique una contraseña en la variable **Contraseña del propietario** para que funcione la siguiente configuración de restricción.  <br><ul><li> **Impresión** Seleccione para permitir que un usuario imprima el PDF. <br> <li> **Impresión de calidad de borrador** Seleccione esta opción para permitir que un usuario imprima el PDF en una resolución inferior.  <br> <li> **Copia de contenido** Seleccione para permitir que un usuario copie el contenido del PDF.   <br> <li> **Anotaciones** Seleccione esta opción para permitir que un usuario añada una nota o comentario en el PDF.  <br> <li> **Modificaciones del contenido** Seleccione para permitir que un usuario modifique el contenido en el PDF.  <br> <li> **Copia de contenido para accesibilidad** Seleccione esta opción para permitir que los lectores de pantalla lean y naveguen por el contenido en el PDF.  <br>  **Conjunto de documentos** Seleccione esta opción para permitir a los usuarios insertar páginas en el PDF.  <br> **Nota**: Los usuarios deben introducir la contraseña de propietario para cambiar cualquier restricción de Archivo > Propiedades en Adobe Acrobat. |
+| **Establecer contraseña para abrir el documento** | Seleccione para añadir una contraseña segura para ver el archivo de PDF. Especifique una contraseña en la **Contraseña de usuario** field. Los usuarios solo pueden abrir el PDF introduciendo la contraseña proporcionada en este campo. |
+| **Establecer las restricciones del documento** | Seleccione esta opción para restringir la forma en que los usuarios pueden interactuar con el PDF. Especifique una contraseña en la **Contraseña de propietario** para que funcione la siguiente configuración de restricción.  <br><ul><li> **Impresión** Seleccione esta opción para permitir que un usuario imprima el PDF. <br> <li> **Impresión de calidad de borrador** Seleccione esta opción para permitir que un usuario imprima el PDF en una resolución inferior.  <br> <li> **Copia de contenido** Seleccione esta opción para permitir que un usuario copie contenido del PDF.   <br> <li> **Anotaciones** Seleccione esta opción para permitir que un usuario añada una nota o un comentario en el PDF.  <br> <li> **Modificaciones de contenido** Seleccione esta opción para permitir que un usuario modifique el contenido en el PDF.  <br> <li> **Copia de contenido para accesibilidad** Seleccione esta opción para permitir que los lectores de pantalla lean y naveguen por el contenido en PDF.  <br>  **Ensamblado de documento** Seleccione esta opción para permitir que los usuarios inserten páginas en el PDF.  <br> **Nota**: los usuarios deben introducir la contraseña de propietario para cambiar cualquier restricción de Archivo > Propiedades en Adobe Acrobat. |
 
 **Avanzado**
 
-Utilice las siguientes opciones para especificar la configuración avanzada para combinar PDF, utilizar compresión, seleccionar el estándar de conformidad, etc.
+Utilice las siguientes opciones para especificar la configuración avanzada para combinar PDF, utilizar compresión, seleccionar el estándar de conformidad y mucho más.
 
 | Configuración | Descripción |
 | --- | --- |
-| **Crear PDF accesible (etiquetado)** | Seleccione esta opción para generar un PDF con etiquetas. Un PDF etiquetado facilita a los lectores de pantalla la lectura y navegación por contenido, hipervínculos, marcadores, etc. Por ejemplo, si una tabla está etiquetada, el lector de pantalla sabrá que está leyendo la tabla y no solo líneas y texto. |
-| **Combinar PDF incluidos en la tabla de contenido** | Seleccione esta opción para combinar los PDF existentes en la salida agregándolos al mapa DITA como archivo de recursos. Los PDF se insertan en la ubicación representada en el mapa y las páginas se incrementan en consecuencia. |
-| **Incrustar fuentes usadas** | Seleccione esta opción cuando utilice fuentes que no estén instaladas en el equipo del usuario final. Con esta opción seleccionada, las fuentes usadas se incrustan en el PDF, lo que garantiza que el usuario pueda ver el PDF como desea incluso aunque las fuentes no estén instaladas en su equipo. <br> **Nota**: Una fuente solo se puede incrustar si contiene una configuración del proveedor de fuentes que permita su incrustación. Asegúrese de que dispone de la configuración o licencia necesarias antes de incrustar una fuente. |
-| **Uso de la división mediante guiones automática** | Con la división mediante guiones automática activada, las palabras al final de las líneas se desglosan en lugares gramaticalmente correctos con un guión. |
-| **Habilitar JavaScript** | Active esta opción si tiene un código JavaScript que desee utilizar para transformar el contenido de forma dinámica antes de generar un PDF. |
-| **Incrustar archivos multimedia** | Seleccione esta opción para incluir audio, vídeo y contenido interactivo al PDF. |
-| **Utilice la compresión completa para optimizar el tamaño del PDF** | Seleccione esta opción si desea comprimir/reducir el tamaño de un PDF grande. Recuerde, la compresión del PDF puede reducir la calidad del archivo. |
-| **Utilizar la compresión de imagen para optimizar el tamaño del PDF** | Seleccione esta opción si desea comprimir/reducir el tamaño de las imágenes utilizadas en el PDF. Recuerde, la compresión de una imagen puede reducir la calidad de la imagen. |
-| **Utilizar resolución personalizada (píxeles por pulgada)** | Es la resolución de visualización de la página en píxeles por pulgada. Introduzca un valor preferido en el campo que aparece cuando se selecciona esta opción. El valor predeterminado es de 96 píxeles por pulgada. Defina un valor más alto para que quepa más contenido en una pulgada y viceversa, si establece un valor más bajo. |
-| **Mostrar marca de agua** | Seleccione esta opción para procesar ecuaciones MathML presentes en el contenido. De lo contrario, se ignorarán las ecuaciones. |
-| **Habilitar ecuaciones MathML** | Seleccione esta opción para procesar ecuaciones MathML presentes en el contenido. De lo contrario, las ecuaciones se ignorarán de forma predeterminada. |
-| **Conformidad del PDF** | Es el estándar con el que desea guardar al PDF para garantizar que sea compatible. Seleccione en la lista desplegable para elegir entre la lista de estándares de PDF disponibles. Para obtener más información sobre los estándares admitidos, consulte [Acerca de los estándares de PDF](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
+| **Crear PDF accesible (etiquetado)** | Seleccione esta opción para generar un PDF con etiquetas. Un PDF etiquetado facilita a los lectores de pantalla la lectura y la navegación por el contenido, los hipervínculos, los marcadores, etc. Por ejemplo, si se etiqueta una tabla, el lector de pantalla sabrá que está leyendo la tabla y no solo líneas y texto. |
+| **Combinar PDF incluidos en el índice** | Seleccione esta opción para fusionar PDF existentes en la salida agregándolos al mapa DITA como un fichero de recursos. Los PDF se insertan en la ubicación representada en el mapa y las páginas se incrementan en consecuencia. |
+| **Incrustar fuentes utilizadas** | Seleccione esta opción cuando utilice fuentes que no estén instaladas en el equipo del usuario final. Con esta opción seleccionada, las fuentes utilizadas se incrustan en el PDF, lo que garantiza que el usuario pueda ver el PDF como estaba previsto aunque las fuentes no estén instaladas en el equipo. <br> **Nota**: una fuente se puede incrustar solo si contiene una configuración del proveedor de fuentes que permita que se incruste. Asegúrese de tener la configuración o licencia necesarias antes de incrustar una fuente. |
+| **Usar división automática de palabras** | Con la división automática de palabras habilitada, las palabras al final de las líneas se dividen en lugares gramaticalmente correctos con un guión. |
+| **Habilitar JavaScript** | Active esta opción si tiene un código JavaScript que desee utilizar para transformar el contenido dinámicamente antes de generar un PDF. |
+| **Incrustar archivos multimedia** | Seleccione esta opción para incluir audio, vídeo y contenido interactivo en el PDF. |
+| **Utilice la compresión completa para optimizar el tamaño del PDF** | Seleccione esta opción si desea comprimir o reducir el tamaño de un PDF grande. Recuerde que la compresión del PDF puede reducir la calidad del archivo. |
+| **Utilice la compresión de imágenes para optimizar el tamaño del PDF** | Seleccione esta opción si desea comprimir o reducir el tamaño de las imágenes utilizadas en el PDF. Recuerde que la compresión de una imagen puede reducir la calidad de la imagen. |
+| **Utilizar resolución personalizada (píxeles por pulgada)** | Es la resolución de visualización de la página en píxeles por pulgada. Introduzca un valor preferido en el campo que aparece cuando se selecciona esta opción. El valor predeterminado es 96 píxeles por pulgada. Configure un valor más alto para que quepa más contenido en una pulgada y viceversa, si establece un valor más bajo. |
+| **Mostrar filigrana** | Seleccione esta opción para procesar las ecuaciones de MathML presentes en el contenido. De lo contrario, las ecuaciones se ignorarán. |
+| **Habilitar ecuaciones de MathML** | Seleccione esta opción para procesar las ecuaciones de MathML presentes en el contenido. Las ecuaciones se ignorarán de forma predeterminada. |
+| **conformidad del PDF** | Es el estándar en el que desea guardar el PDF para asegurarse de que es compatible. Seleccione en el menú desplegable para elegir entre la lista de estándares de PDF disponibles. Para obtener más información sobre los estándares admitidos, consulte [Acerca de los estándares PDF](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
 
 ## Generar una salida de PDF {#generate-pdf-output}
 
-Una vez configurado el ajuste preestablecido de salida, puede generar resultados desde el panel Ajustes preestablecidos , utilizando el **Generar ajuste preestablecido** función.
+Una vez configurado el ajuste preestablecido de salida, puede generar resultados desde el panel Ajustes preestablecidos mediante el **Generar ajuste preestablecido** función.
 
-1. En el **Autor** , seleccione **Repositorio** Ver.\
-   Se abrirá el panel Repositorio .
+1. En el **Autor** , seleccione la pestaña **Repositorio** Ver.\
+   Se abrirá el panel Repositorio.
 
-1. En el panel Repositorio, abra el archivo de asignación DITA en **Vista Mapa**.
+1. En el panel Repositorio, abra el fichero de mapa DITA en **Vista de mapa**.
 
-1. En el **Salida** , haga clic en **Ajustes preestablecidos** para ver el panel Ajustes preestablecidos .
+1. En el **Output** pestaña, haga clic en **Ajustes preestablecidos** para ver el panel Ajuste preestablecido.
 Para crear o configurar un ajuste preestablecido de salida, consulte [Crear un ajuste preestablecido de salida de PDF](#create-output-preset).
-1. Para guardar la configuración, haga clic en el botón **Guardar todo** ![guardar todo](assets/SaveFloppy_icon.svg) en la esquina superior izquierda de la barra de herramientas estándar en la vista Salida.
-1. Haga clic en el **Generar ajuste preestablecido** ![generar ajuste preestablecido](assets/generate-output.svg) en la barra superior.
-Puede ver una barra de progreso junto al ajuste preestablecido de salida seleccionado en el panel Ajustes preestablecidos de salida.
-1. Una vez finalizada la generación de salida, haga clic en  **Ver salida** ![ver salida](assets/view-output.svg) en la barra superior para ver el resultado.\
-   A **Correcto** está visible en la esquina inferior derecha de la pantalla.
+1. Para guardar la configuración, haga clic en **Guardar todo** ![guardar todo](assets/SaveFloppy_icon.svg) en la esquina superior izquierda de la barra de herramientas estándar en la vista Salida.
+1. Haga clic en **Generar ajuste preestablecido** ![generar ajuste preestablecido](assets/generate-output.svg) en la barra superior.
+Puede ver una barra de progreso junto al ajuste preestablecido de salida seleccionado en el panel Valores de salida.
+1. Una vez finalizada la generación de resultados, haga clic en  **Ver salida** ![ver salida](assets/view-output.svg) en la barra superior para ver el resultado.\
+   A **Correcto** El cuadro de diálogo se puede ver en la esquina inferior derecha de la pantalla.
 Si una salida no se realiza correctamente, se muestra el siguiente mensaje de error.
 <img src="assets/error-log.png" alt="registro de errores" width="250">
 
-Para ver el registro de errores, haga clic en **Rechazar**, pase el ratón sobre la ficha preestablecida seleccionada y haga clic en ![opciones](assets/options.svg) **Opciones** > **Ver registro**.
+Para ver el registro de errores, haga clic en **Descartar**, pase el ratón sobre la pestaña de ajustes preestablecidos seleccionada y haga clic en ![opciones](assets/options.svg) **Opciones** > **Ver registro**.

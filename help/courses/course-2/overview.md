@@ -13,11 +13,11 @@ ht-degree: 2%
 
 En este curso, aprenderá a hacer lo siguiente:
 
-- [Comprender el tablero de mapas](./introduction-to-the-map-dashboard.md)
-- [Trabajar con informes](./working-with-reports.md)
+- [Comprensión del tablero de mapas](./introduction-to-the-map-dashboard.md)
+- [Trabajo con informes](./working-with-reports.md)
 - [Crear y publicar con líneas de base](./creating-and-publishing-with-baselines.md)
 - [Publicar con condiciones](./publishing-with-conditions.md)
 - [Explicación de los ajustes preestablecidos de salida](./output-presets.md)
-- [Solución de problemas de publicación](./troubleshooting-publishing-errors.md)
+- [Solucionar errores de publicación](./troubleshooting-publishing-errors.md)
 - [Publicación masiva](./bulk-publishing.md)
-- [Recap](./recap.md)
+- [Resumen](./recap.md)

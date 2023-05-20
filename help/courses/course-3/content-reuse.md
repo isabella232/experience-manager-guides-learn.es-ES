@@ -1,6 +1,6 @@
 ---
 title: Reutilización de contenido
-description: Uso recurrente de las funciones en las guías AEM
+description: AEM Uso recurrente de funciones en las guías de la
 exl-id: 453c5a09-0bcf-4760-87fc-df3ea4a3a30a
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
@@ -11,21 +11,21 @@ ht-degree: 2%
 
 # Reutilización de contenido
 
-Una de las características principales de DITA es la capacidad de reutilizar contenido. Permite reutilizar contenido desde frases pequeñas hasta temas completos o mapas.  Sin embargo, para que el contenido se reutilice de forma eficaz, debe estar bien administrado. Asegúrese de tener una estrategia de contenido eficaz cuando trabaje con información reutilizable.
+Una de las características principales de DITA es la capacidad de reutilizar contenido. Permite reutilizar contenido desde frases pequeñas hasta temas o mapas completos.  Sin embargo, para que el contenido se reutilice de forma eficaz, debe administrarse correctamente. Asegúrese de tener una estrategia de contenido eficaz al trabajar con información reutilizable.
 
 >[!VIDEO](https://video.tv.adobe.com/v/342757?quality=12&learn=on)
 
 ## Crear un tema reutilizable
 
-Cuando se realiza un cambio en un tema de origen reutilizable, la información se actualiza dondequiera que se utilice el contenido.
+Cuando se realiza un cambio en un tema de origen reutilizable, la información se actualiza siempre que se utiliza el contenido.
 
-1. Vaya a la **Repositorio**.
+1. Vaya a **Repositorio**.
 
-1. Haga clic en el **menú contextual** junto a la carpeta reutilizar.
+1. Haga clic en **menú contextual** junto a la carpeta reutilizar.
 
-1. Choose **Crear > Tema dita**.
+1. Elegir **Crear > Tema Dita**.
 
-1. Rellene los campos del cuadro de diálogo Crear nuevo tema . Por ejemplo:
+1. Rellene los campos en el cuadro de diálogo Crear nuevo tema. Por ejemplo:
 
    ![Confirmación](images/lesson-8/new-topic-dialog.png)
 
@@ -45,7 +45,7 @@ Existen varios métodos para añadir elementos reutilizables. En este caso, el p
 
    ![Confirmación](images/lesson-8/insert-reuse-icon.png)
 
-1. En el cuadro de diálogo Reutilizar contenido , haga clic en el botón [!UICONTROL **Carpeta**] icono.
+1. En el cuadro de diálogo Reutilizar contenido, haga clic en [!UICONTROL **Carpeta**] icono.
 
 1. Vaya a la carpeta requerida.
 
@@ -54,19 +54,19 @@ Por ejemplo:
 
    ![Confirmación](images/lesson-8/reusable-topic.png)
 
-1. Haga clic en [!UICONTROL **Select**].
+1. Clic [!UICONTROL **Seleccionar**].
 
 1. Elija un componente específico para reutilizarlo.
 
-1. Haga clic en [!UICONTROL **Select**].
+1. Clic [!UICONTROL **Seleccionar**].
 
-El elemento reutilizable se ha insertado en el tema.
+El elemento reutilizable ahora se ha insertado en el tema.
 
 ### Flujo de trabajo 2
 
 1. Vaya a **Contenido reutilizable** en el panel izquierdo.
 
-1. Haga clic en el [!UICONTROL **Agregar**] en el panel Contenido reutilizable.
+1. Haga clic en [!UICONTROL **Añadir**] en el panel Contenido reutilizable.
 
    ![Confirmación](images/lesson-8/reuse-contents-icon.png)
 
@@ -74,26 +74,26 @@ El elemento reutilizable se ha insertado en el tema.
 
 1. Seleccione uno o varios temas específicos.
 
-1. Haga clic en [!UICONTROL **Agregar**].
+1. Clic [!UICONTROL **Añadir**].
 
-1. Desde el panel Contenido reutilizable, expanda **Información general de elementos**.
+1. En el panel Contenido reutilizable, expanda **Información general de elementos**.
 
 1. Arrastre y suelte un elemento en el tema en una ubicación válida.
 
-El elemento reutilizable se ha insertado en el tema.
+El elemento reutilizable ahora se ha insertado en el tema.
 
 ## Asignar un ID y un valor a un elemento
 
-La entrada que acaba de crear es un elemento reutilizable. Por lo tanto, requiere un ID y un valor.
+La dlentry que acaba de crear es un elemento reutilizable. Por lo tanto, requiere un ID y un valor.
 
-1. Haga clic dentro de la entrada.
+1. Haga clic dentro de la dlentry.
 
-1. En el panel Propiedades del contenido, haga clic en el menú desplegable debajo de Atributo.
+1. En el panel Propiedades del contenido, haga clic en el menú desplegable situado debajo de Atributo.
 
-1. Select **ID**.
+1. Seleccionar **ID**.
 
 1. Escriba un nombre lógico para el valor.
 
-1. Guarde o cree una versión del tema para que el cambio se refleje en el Repositorio.
+1. Guarde o convierta en versión el tema para que el cambio se refleje en el Repositorio.
 
-El ID y el valor se han asignado al elemento .
+El ID y el valor se han asignado al elemento.

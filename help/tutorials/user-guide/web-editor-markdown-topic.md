@@ -1,29 +1,29 @@
 ---
-title: Documentos de Author Markdown
+title: Documentos de Markdown del autor
 description: Obtenga información sobre cómo crear documentos de Markdown
-source-git-commit: fa6e9f8b32d191f5b6f7136724d2145d81317767
+exl-id: ad20ca0b-a01d-4e72-8e3e-1d6feb41e52a
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
 
 ---
 
+# Creación de documentos de Markdown desde el editor web {#id223MIE0B079}
 
-# Creación de documentos Markdown desde el Editor web {#id223MIE0B079}
+Markdown es un lenguaje de marcado ligero que puede ayudarle a agregar elementos de formato a documentos de texto sin formato. AEM Guías de proporciona la función para crear y previsualizar un tema de Markdown \(.md\) desde el Editor Web. También puede cargar los documentos de Markdown existentes y editarlos en el editor web.
 
-Markdown es un lenguaje de marcado ligero que puede ayudarle a agregar elementos de formato a documentos de texto sin formato. AEM guías proporciona la función para crear, crear y previsualizar un tema de Markdown \(.md\) desde el Editor web. También puede cargar los documentos Markdown existentes y editarlos en el Editor web.
+## Crear un tema de Markdown
 
-## Creación de un tema de Markdown
+Siga estos pasos para crear un tema de Markdown desde el Editor web:
 
-Siga los siguientes pasos para crear un tema de Markdown desde el Editor web:
-
-1. Seleccione una carpeta en la vista Repositorio.
+1. Seleccione una carpeta en la vista de repositorio.
 1. Crear **Tema de Markdown** de una de las siguientes maneras:
-   1. Haga clic en **Crear archivo DITA** en la esquina superior derecha del panel Repositorio y, a continuación, seleccione **Tema de Markdown** en la lista desplegable .
+   1. Clic **Crear archivo DITA** en la esquina superior derecha del panel Repositorio y, a continuación, seleccione **Tema de Markdown** en el menú desplegable.
 
    ![](images/create-markdown-dita-topic.png){width="550" align="left"}
 
-   1. Select **Crear** en el menú Opciones de la carpeta seleccionada y, a continuación, seleccione **Tema de Markdown** en la lista desplegable .
+   1. Seleccionar **Crear** en el menú Opciones de la carpeta seleccionada y, a continuación, seleccione **Tema de Markdown** en el menú desplegable.
 
    ![](images/create-markdown-options-menu.png){width="550" align="left"}
 
@@ -33,31 +33,30 @@ Siga los siguientes pasos para crear un tema de Markdown desde el Editor web:
 
 1. Haga clic en **Crear**.
 
-El tema Markdown se crea en la ruta seleccionada y se abre para su edición.
+El tema Markdown se crea en la ruta seleccionada y está abierto para su edición.
 
-## Creación y vista previa de un tema de Markdown
+## Crear y previsualizar un tema de Markdown
 
-Siga los siguientes pasos para crear un tema de Markdown desde el Editor web:
+Siga estos pasos para crear un tema de Markdown desde el Editor web:
 
-1. Seleccione un tema de Markdown existente\(.md\) en la vista Repositorio.
+1. Seleccione un tema existente de Markdown\(.md\) en la vista de repositorio.
 1. Haga doble clic en el tema para abrirlo en la ventana de edición.
 
-   El tema se abre en el modo Origen.
+   El tema se abre en el modo Código fuente.
 
-1. Actualice el contenido en el tema Markdown .
-1. Haga clic en **Vista previa** en la parte superior derecha para obtener una vista previa del tema.
+1. Actualice el contenido en el tema Markdown.
+1. Clic **Previsualizar** en la parte superior derecha para previsualizar el tema.
 
    >[!NOTE]
    >
    > El modo de vista previa muestra cómo se mostrará un tema cuando lo vea un usuario en su explorador.
 
-1. Uso **Guardar como nueva versión** en la barra de herramientas principal para guardar los cambios realizados en el tema y crear una nueva versión del tema. También puede utilizar **Guardar todo** en la barra de herramientas principal para guardar los cambios en todos los temas abiertos.
+1. Uso **Guardar como nueva versión** en la barra de herramientas principal para guardar los cambios realizados en el tema y crear una nueva versión. También puede utilizar **Guardar todo** en la barra de herramientas principal para guardar los cambios en todos los temas abiertos.
 
-1. Haga clic en **Cerrar** en la parte superior derecha para cerrar el tema Markdown.
+1. Clic **Cerrar** en la parte superior derecha para cerrar el tema Markdown.
 
 >[!NOTE]
 >
-> Si no ha guardado los cambios, se mostrará una ventana emergente y se le pedirá que guarde el tema antes de cerrarlo.
+> Si no ha guardado los cambios, aparecerá una ventana emergente y se le pedirá que guarde el tema antes de cerrarlo.
 
-**Tema principal:**[ Trabajar con el Editor web](web-editor.md)
-
+**Tema principal:**[ Trabajar con el editor web](web-editor.md)

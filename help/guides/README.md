@@ -7,9 +7,9 @@ ht-degree: 21%
 ---
 # Guías de Adobe Experience Manager
 
-Esta carpeta contiene todas las guías de AEM.
+AEM Esta carpeta contiene todas las guías de la guía de la guía de la.
 
 Las contribuciones a la documentación son bienvenidas. Consulte los siguientes recursos:
 
-* [Contribución](contributing.md) para obtener una descripción general de cómo contribuir a la documentación.
-* [Código de conducta](code-of-conduct.md) para obtener una descripción general de los estándares de comportamiento que esperamos que se cumplan al contribuir a este proyecto de documentación.
+* [Contribución](contributing.md) para obtener información general sobre cómo contribuir a la documentación.
+* [Código de conducta](code-of-conduct.md) para obtener una descripción general de los estándares de comportamiento que esperamos que cumpla al contribuir en este proyecto de documentación.

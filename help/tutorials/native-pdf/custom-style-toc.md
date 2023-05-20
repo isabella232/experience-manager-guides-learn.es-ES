@@ -1,30 +1,30 @@
 ---
-title: Función de publicación de PDF nativo | Aplicar estilo personalizado en entradas de TDC y contenido del tema
-description: Aprenda a crear hojas de estilo y crear estilos para el contenido.
-source-git-commit: 09918abbdade934468dea1c55d0ca2cd60622b35
+title: Función de publicación nativa de PDF | Aplicar estilo personalizado en entradas del índice y contenido del tema
+description: Aprenda a crear hojas de estilo de uso y a crear estilos para el contenido.
+exl-id: f65c9683-a1fc-432a-854b-83e8f39d7dae
+source-git-commit: e2349fc14143e5e49f8672ef1bfa48984df3b1c7
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
 
 ---
 
+# Aplicar un estilo personalizado a las entradas del índice y al contenido del tema
 
-# Aplicar estilo personalizado en entradas de TDC y contenido del tema
+A veces, es posible que desee aplicar un estilo personalizado a las entradas de la tabla de contenido o a un tema en particular. Esto se puede lograr asociando una `outputclass` con el atributo `<topicref>` en el mapa DITA. Además, si desea aplicar un formato personalizado a todo un tema, también puede hacerlo ampliando la definición de estilo del atributo en CSS.
 
-A veces, es posible que desee aplicar estilo personalizado en las entradas de la tabla de contenido o en un tema concreto. Esto se puede lograr asociando un `outputclass` con la variable `<topicref>` del mapa de DITA. Además, si desea aplicar un formato personalizado a todo un tema, también se puede lograr ampliando la definición de estilo del atributo en el CSS.
+Veamos un ejemplo de un nuevo tema que desee enviar para su revisión. Para facilitar la identificación del tema actualizado, debe agregar una `outputclass` atribuir a `<topicref>` en el mapa DITA y, a continuación, defina un estilo personalizado para el mismo en el CSS.
 
-Veamos un ejemplo de un tema nuevo que desea enviar para su revisión. Para identificar fácilmente el tema actualizado, debe agregar una `outputclass` a la variable `<topicref>` del mapa DITA y, a continuación, defina un estilo personalizado para el mismo en el CSS.
-
-En el siguiente ejemplo, la variable *Historial de vuelos* se ha asignado un `outputclass` con el valor de `new-topic`.
+En el ejemplo siguiente, la variable *Historial de vuelos* se ha asignado un al tema `outputclass` atributo con el valor de `new-topic`.
 
 <img src="./assets/new-topic-attribute-in-map.png" width="500">
 
-La definición de clase de la variable `new-topic` en una CSS puede definir el estilo para los elementos siguientes:
-* La entrada principal en el TOC o mini-TOC
+La definición de clase del `new-topic` en un archivo CSS puede permitir definir el estilo para los siguientes elementos:
+* La entrada principal del índice o mini-índice
 * Título del tema en el contenido principal
 * Todo el contenido del tema, incluido el título
 
-Veamos cómo se puede definir cada uno de estos escenarios en el CSS. En la siguiente definición CSS de la variable `new-topic` , se ha cambiado el color del texto.
+Veamos cómo se puede definir cada uno de estos escenarios en CSS. En la siguiente definición CSS de `new-topic` , se ha cambiado el color del texto.
 
 ```css
 …
@@ -34,15 +34,15 @@ Veamos cómo se puede definir cada uno de estos escenarios en el CSS. En la sigu
 …
 ```
 
-Esta definición controla el color del texto en la tabla de contenido y el título del tema. La siguiente salida de PDF muestra los diferentes colores aplicados en la entrada TOC:
+Esta definición controla el color del texto del índice y el título del tema. La siguiente salida de PDF muestra los diferentes colores aplicados en la entrada del índice:
 
 <img src="./assets/pdf-output-toc-entry.jpg" width="500">
 
-El título del tema también tiene el mismo estilo.
+El título del tema también está diseñado con el mismo color.
 
 <img src="./assets/pdf-output-topic-title.jpg" width="500">
 
-Si desea que la entrada de TDC y el título del tema tengan estilos diferentes, puede definirlos por separado como se muestra a continuación:
+Si desea que la entrada del índice y el título del tema tengan estilos diferentes, puede definirlos por separado como se muestra a continuación:
 
 ```css
 ...
@@ -58,7 +58,7 @@ Si desea que la entrada de TDC y el título del tema tengan estilos diferentes, 
 ...
 ```
 
-Por último, también puede aplicar estilos a todo el contenido dentro del tema. Para ello, debe añadir un sufijo &quot;`-content`&quot; al nombre de la clase. En el siguiente ejemplo, se ha añadido una barra de cambios a todo el contenido del tema:
+Por último, también puede aplicar estilos a todo el contenido del tema. Para ello, debe añadir un sufijo &quot;`-content`&quot; al nombre de clase. En el ejemplo siguiente, se ha agregado una barra de cambios en todo el contenido del tema:
 
 ```css
 ...
@@ -69,8 +69,6 @@ Por último, también puede aplicar estilos a todo el contenido dentro del tema.
 ...
 ```
 
-Con los atributos de estilo anteriores, se agrega una barra de cambios a la izquierda del objeto *Historial de vuelo* como se muestra a continuación:
+Con los atributos de estilo anteriores, se agrega una barra de cambios a la izquierda del *Historial de vuelo* como se muestra a continuación:
 
 <img src="./assets/pdf-output-topic-content.jpg" width="500">
-
-

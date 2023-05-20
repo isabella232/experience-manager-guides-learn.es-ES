@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # Guías de Adobe Experience Manager
 
-Este es el repositorio para almacenar los videos y archivos Markdown para los cursos de &quot;Guías AEM&quot;.
+AEM Este es el repositorio para almacenar los vídeos y los archivos de marcado de los cursos de &quot;Guías de&quot;.

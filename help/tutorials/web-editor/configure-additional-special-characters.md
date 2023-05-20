@@ -1,6 +1,6 @@
 ---
-title: Configurar caracteres especiales adicionales en la barra de herramientas del Editor web
-description: Configuración de caracteres especiales adicionales en la barra de herramientas del Editor web
+title: Configurar caracteres especiales adicionales en la barra de herramientas del Editor Web
+description: Cómo configurar caracteres especiales adicionales en la barra de herramientas del Editor Web
 feature: Web Editor
 role: User
 exl-id: 0fbc05a5-a6b0-4f6b-bbc4-8fca03581d90
@@ -11,21 +11,21 @@ ht-degree: 0%
 
 ---
 
-# Configuración de caracteres especiales adicionales en la barra de herramientas del Editor web
+# Cómo configurar caracteres especiales adicionales en la barra de herramientas del Editor Web
 
 Hay una opción de acceso directo en la barra de herramientas del editor web para permitir que el autor inserte ya los caracteres especiales.
-Lo mismo puede verse en la captura de pantalla de abajo:
+Lo mismo se puede ver en la siguiente captura de pantalla:
 
 ![Caracteres especiales](assets/special-chars.png)
 
 
 Esta lista de caracteres se puede configurar aquí. Si necesita agregar más caracteres a esto, siga los siguientes pasos:
 
-+ Inicie sesión en AEM y abra el modo CRXDE Lite.
++ AEM Inicie sesión en la aplicación y abra el modo CRXDE Lite.
 
-+ Cree el archivo símbolos.json en la siguiente ubicación: &#39;/apps/fmdita/xmleditor/&#39; (Puede copiar el valor predeterminado desde la ubicación &quot;/libs/fmdita/clientlibs/clientlibs/xmleditor/symbols.json&quot;)
++ Cree el archivo symbol.json en la siguiente ubicación: &#39;/apps/fmdita/xmleditor/&#39; (puede copiar el archivo predeterminado desde la ubicación &#39;/libs/fmdita/clientlibs/clientlibs/xmleditor/symbols.json&#39;)
 
-+ Añada la definición especial de caracteres en el archivo símbolos.json como:
++ Agregue la definición de carácter especial en el archivo symbol.json como:
 
 ```
 {
@@ -43,17 +43,17 @@ Esta lista de caracteres se puede configurar aquí. Si necesita agregar más car
 }
 ```
 
-La estructura del archivo símbolos.json se explica a continuación:
+La estructura del archivo symbol.json se explica a continuación:
 
-+ &quot;label&quot;: &quot;Símbolos lógicos&quot;: Esto especifica la categoría de los caracteres especiales. En el fragmento, se define una categoría con el nombre &quot;Símbolo lógico&quot;.
++ &quot;label&quot;: &quot;Símbolos lógicos&quot;: especifica la categoría de los caracteres especiales. En el fragmento, se define una categoría con el nombre &quot;Símbolo lógico&quot;.
 
-+ &quot;elementos&quot;: Define la colección de caracteres especiales de la categoría.
++ &quot;items&quot;: define la colección de caracteres especiales de la categoría.
 
-+ &quot;name&quot;: &quot;≥&quot;, &quot;título&quot;: &quot;Bueno que o igual a&quot;: Esta es la definición del carácter especial. Comienza con la etiqueta &quot;name&quot;, que no debe cambiarse. El nombre va seguido del carácter especial. El &quot;título&quot; es el nombre o título del carácter especial que aparece como información de objeto para ese carácter especial.
++ &quot;name&quot;: &quot;≥&quot;, &quot;title&quot;: &quot;Bueno o igual a&quot;: Esta es la definición del carácter especial. Comienza con la etiqueta &quot;nombre&quot;, que no debe cambiarse. El nombre va seguido del carácter especial. El &quot;título&quot; es el nombre o título del carácter especial que aparece como información de objeto para ese carácter especial.
 
 Puede definir varias definiciones de caracteres especiales dentro de una categoría.
 
-Esto agregará otra categoría en el cuadro de diálogo de caracteres especiales:
+Esto añadirá otra categoría en el cuadro de diálogo de caracteres especiales:
 
 ![Categoría de símbolo especial](assets/special-char-category.png)
 

@@ -1,6 +1,6 @@
 ---
-title: Excluir párrafos dentro de un tema de la traducción
-description: Exclusión de párrafos dentro de un tema de la traducción
+title: Exclusión de la traducción de párrafos dentro de un tema
+description: Exclusión de párrafos de un tema de la traducción
 feature: Translation
 role: User
 exl-id: 21e41bb4-52f3-4352-92d9-4a60f636de99
@@ -11,16 +11,16 @@ ht-degree: 0%
 
 ---
 
-# Exclusión de párrafos dentro de un tema de la traducción
+# Exclusión de párrafos de un tema de la traducción
 
-La forma más sencilla es utilizar translation=sin atributo.
+La forma más sencilla es utilizar el atributo translation=no.
 
-+ Los autores pueden insertar el atributo adicional como **translation=no** en los párrafos que no desean traducir. Se debe informar al proveedor de traducción y pueden realizar la configuración al final para ignorar el texto con este atributo.
-+ La traducción automática de OOTB (con conector de traducción de Microsoft de prueba) muestra el mismo comportamiento.
-+ Pruebas con la traducción de Microsoft : si define **translate=no** en el nivel de párrafo, no traduce el párrafo completo. Este atributo se puede definir en cualquier elemento y el contenido dentro de ese elemento no se traducirá.
++ Los autores pueden insertar el atributo adicional como **translation=no** en los párrafos que no desean traducir. El proveedor de traducción debe estar informado y puede hacer una configuración al final para ignorar el texto con este atributo.
++ La traducción automática OOTB (con conector de prueba de Microsoft Translation) muestra el mismo comportamiento.
++ Pruebas con la traducción de Microsoft : si define **translate=no** a nivel de párrafo, no traduce el párrafo completo. Este atributo se puede definir en cualquier elemento y el contenido dentro de ese elemento no se traduce.
 
 
-Aquí hay algunas capturas de pantalla que lo explican más a fondo:
+Estas son algunas capturas de pantalla que lo explican con más detalle:
 
 **Contenido de origen**
 

@@ -1,5 +1,5 @@
 ---
-title: Editar una colección de mapas de activación masiva
+title: Edición de una colección de mapas de activación masiva
 description: Obtenga información sobre cómo editar una colección de mapas de activación masiva
 exl-id: 110eba52-c886-4148-aff9-9c4e1d3d85bd
 source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
@@ -9,27 +9,27 @@ ht-degree: 2%
 
 ---
 
-# Editar una colección de mapas de activación masiva {#id214GI40B0XA}
+# Edición de una colección de mapas de activación masiva {#id214GI40B0XA}
 
-Puede editar una colección de mapas de activación masiva añadiendo o eliminando archivos de mapa o ajustes preestablecidos de una colección. Para editar una colección de mapas de activación masiva, realice los siguientes pasos:
+Puede editar una colección de mapas de activación masiva añadiendo o eliminando archivos de mapa o ajustes preestablecidos de una colección. Para editar una recopilación de mapas de activación masiva, realice los siguientes pasos:
 
-1. Select **Guías** de la lista de herramientas.
+1. Seleccionar **Guías** de la lista de herramientas.
 
 1. Haga clic en el vínculo Adobe Experience Manager en la parte superior y elija **Herramientas**.
 
-1. Haga clic en el **Tablero de publicación masiva** mosaico.
+1. Haga clic en **Tablero de publicación masiva** mosaico.
 
    Se muestra una lista de colecciones de mapas de activación masiva.
 
-1. Seleccione la colección que desea editar y haga clic en **Apertura**.
+1. Seleccione la colección que desee editar y haga clic en **Abrir**.
 
-1. Haga clic en **Editar**.
+1. Clic **Editar**.
 
-   Aparecerá la página de recopilación del mapa de activación masiva, donde se muestran los mapas junto con sus ajustes preconfigurados para cada configuración regional disponible.
+   La página de recopilación de mapas de activación masiva aparece donde se muestran los mapas junto con sus ajustes preconfigurados para cada configuración regional disponible.
 
-1. Utilice el control deslizante para desactivar el ajuste preestablecido de salida que desee activar o desactivar.
+1. Utilice el regulador para activar o desactivar el ajuste preestablecido de salida deseado que desea activar o desactivar.
 
-1. Si desea eliminar un mapa de la colección, expanda el mapa y elija la **Seleccionar para eliminación** .
+1. Si desea quitar un mapa de la colección, expanda el mapa y elija el **Seleccionar para eliminación** opción.
 
 1. Haga clic en **Eliminar**.
 

@@ -9,15 +9,15 @@ ht-degree: 0%
 
 ---
 
-# Recap
+# Resumen
 
 En este curso, ha aprendido lo siguiente:
 
-- Panel de mapas
+- El tablero de mapas
 - Uso de informes
-- Creación y publicación de líneas de base
+- Creación y publicación con líneas base
 - Publicación con condiciones
-- Ajustes preestablecidos de salida
+- Valores de salida
 - Solución de problemas de publicación
 - Publicación masiva
 

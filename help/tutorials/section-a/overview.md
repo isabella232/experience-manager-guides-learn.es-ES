@@ -1,6 +1,6 @@
 ---
 title: Información general
-description: Descripción general de las guías del Experience Manager AEM.
+description: Información general sobre las guías de Experience Manager AEM de la.
 source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
 workflow-type: tm+mt
 source-wordcount: '35'
@@ -11,7 +11,7 @@ ht-degree: 5%
 
 # Información general {#overview}
 
-Una descripción general de 1 a 2 frases del producto en el que se centra esta guía del usuario. Esta guía del usuario contiene vídeos y tutoriales sobre las numerosas funciones y funcionalidades de *xyz*.
+Una descripción general de entre 1 y 2 frases del producto en el que se centra esta guía del usuario. Esta guía del usuario contiene vídeos y tutoriales sobre las numerosas funciones y funcionalidades de *xyz*.
 
 <!--
 

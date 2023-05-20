@@ -1,5 +1,5 @@
 ---
-title: Usar panel de generación rápida
+title: Uso del panel Generación rápida
 description: Aprenda a utilizar el panel Generación rápida
 exl-id: d48803d9-470c-4679-8def-72b45a85917b
 source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
@@ -9,22 +9,22 @@ ht-degree: 0%
 
 ---
 
-# Utilizar el panel Generación rápida para generar y ver resultados {#id22AKE050F5L}
+# Utilice el panel Generación rápida para generar y ver resultados {#id22AKE050F5L}
 
-AEM guías proporciona una **Generación rápida** integrado dentro del Editor web. Este panel le permite generar simultáneamente la salida para los ajustes preestablecidos de salida creados para un mapa DITA. Puede generar el resultado de uno o más ajustes preestablecidos, o de todos los ajustes preestablecidos creados para un mapa DITA. También puede usar la variable **Generación rápida** para ver posteriormente la salida generada para los ajustes preestablecidos.
+AEM Guías de proporciona un **Generación rápida** panel integrado dentro del editor web. Este panel permite generar simultáneamente la salida para los ajustes preestablecidos de salida creados para un mapa DITA. Se puede generar la salida para uno o varios ajustes preestablecidos o todos los ajustes preestablecidos creados para un mapa DITA. También puede utilizar la variable **Generación rápida** para ver posteriormente el resultado generado para los ajustes preestablecidos.
 
 >[!NOTE]
 >
-> La variable **Generación rápida** para el mapa DITA abierto en el panel Vista de mapa.
+> El **Generación rápida** aparecerá el panel para el mapa DITA abierto en el panel Vista de mapa.
 
 ![](images/quick-generate-map-view.png){width="800" align="left"}
 
-Realice los siguientes pasos para generar la salida de la variable **Generación rápida** panel:
+Siga estos pasos para generar el resultado a partir de **Generación rápida** panel:
 
-1. Abra el mapa de DITA en la vista Mapa. Aparece el icono Generación rápida . Aparece en **Autor** y **Administrar** pestañas.
-1. Haga clic en el **Generación rápida** icono \( ![](images/quick-generate-icon.svg)\) para abrir el **Generación rápida** panel. En el **Generación rápida** , puede ver la lista de todos los ajustes preestablecidos de salida creados para su mapa DITA.
-1. Seleccione uno o varios ajustes preestablecidos para los que desea generar la salida.
-1. Haga clic en **Generar** para generar el resultado de los ajustes preestablecidos seleccionados. Se muestra un mensaje de éxito en la generación de la salida. Se muestra un mensaje de error si la generación falla. También puede ver el registro de errores para ver los detalles del error que se produjo en el proceso de generación.
-1. Haga clic en **Ver salida** \( ![](images/view-output-icon.svg)\) de un ajuste preestablecido específico para ver el resultado generado para el ajuste preestablecido.
+1. Abra el mapa DITA en la Vista de mapa. Aparecerá el icono Generación rápida. Aparece en **Autor** y **Administrar** pestañas.
+1. Haga clic en **Generación rápida** icon \( ![](images/quick-generate-icon.svg)\) para abrir **Generación rápida** panel. En el **Generación rápida** , puede ver la lista de todos los ajustes preestablecidos de salida creados para el mapa DITA.
+1. Seleccione uno o varios ajustes preestablecidos para los que desee generar la salida.
+1. Clic **Generar** para generar la salida de los ajustes preestablecidos seleccionados. Se muestra un mensaje de éxito en la generación de la salida. Si falla la generación, aparece un mensaje de error. También puede ver el registro de errores para ver los detalles del error que se produjo en el proceso de generación.
+1. Clic **Ver salida** \( ![](images/view-output-icon.svg)\) de un ajuste preestablecido específico para ver el resultado generado para el ajuste preestablecido.
 
-**Tema principal:**[ Trabajar con el Editor web](web-editor.md)
+**Tema principal:**[ Trabajar con el editor web](web-editor.md)

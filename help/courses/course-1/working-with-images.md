@@ -1,5 +1,5 @@
 ---
-title: Uso de imágenes en AEM guías
+title: AEM Trabajar con imágenes en guías de
 description: Uso de imágenes en las guías de Adobe Experience Manager
 exl-id: 8b920a9a-bedb-434c-b6fb-3569ce4b7a81
 source-git-commit: 1f8fe099be2b4123eec6f7c973668b415097ac45
@@ -9,7 +9,7 @@ ht-degree: 0%
 
 ---
 
-# Uso de imágenes
+# Trabajar con imágenes
 
 A continuación se muestra cómo cargar e insertar una imagen, así como cómo guardar una nueva versión de un tema.
 
@@ -19,29 +19,29 @@ Puede descargar el archivo de imagen de ejemplo desde [aquí.](assets/working-wi
 
 ## Carga de una imagen
 
-1. Pase el ratón sobre la subcarpeta y seleccione el icono de elipsis para abrir el menú Opciones .
+1. Pase el ratón sobre la subcarpeta y seleccione el icono de puntos suspensivos para abrir el menú Opciones.
 
-   ![Icono de elipsis](images/lesson-4/ellipses.png)
+   ![Icono de puntos suspensivos](images/lesson-4/ellipses.png)
 
-1. Select **[!UICONTROL Cargar recursos]**.
+1. Seleccionar **[!UICONTROL Cargar recursos]**.
 
    ![Cargar recursos](images/lesson-4/upload-assets.png)
 
-1. Seleccione la imagen que desee cargar desde el sistema local y seleccione **Apertura**.
+1. Seleccione la imagen que desee cargar desde el sistema local y seleccione **Abrir**.
 
-   La variable [!UICONTROL Cargar recursos] se abre.
+   El [!UICONTROL Cargar recursos] aparece el cuadro de diálogo.
 
-1. Select **Cargar**.
+1. Seleccionar **Cargar**.
 
 ## Inserción de una imagen en un tema
 
 Existen varias formas de insertar una imagen en el tema.
 
-Puede arrastrar y soltar una imagen del sistema local en el tema. Si la imagen ya está cargada, también puede arrastrarla y soltarla directamente en el tema desde el carril izquierdo. Como alternativa, puede utilizar el botón Insertar imagen para insertar imágenes que actualmente no están visibles en el carril izquierdo y para seguir configurando la imagen antes de insertarla.
+Puede arrastrar y soltar una imagen del sistema local en el tema. Si la imagen ya se ha cargado, también puede arrastrarla y soltarla directamente en el tema desde el carril izquierdo. También puede utilizar el botón Insertar imagen para insertar imágenes que actualmente no están visibles en el carril izquierdo y para configurar aún más la imagen antes de insertarla.
 
 Para lo siguiente, asegúrese de que el tema esté abierto en el editor de documentos.
 
-### Inserción de una imagen con arrastrar y soltar
+### Inserción de una imagen arrastrando y soltando
 
 1. Seleccione el archivo de imagen del sistema local o del carril izquierdo y arrástrelo y suéltelo en el tema.
 
@@ -55,42 +55,42 @@ Para lo siguiente, asegúrese de que el tema esté abierto en el editor de docum
 
    Aparecerá el cuadro de diálogo Insertar imagen.
 
-1. Seleccione el icono de carpeta situado junto al campo Seleccionar archivo para buscar la imagen o desplazarse a su ubicación dentro del Repositorio.
-1. Seleccione el icono de la imagen y, a continuación, **Select**.
+1. Seleccione el icono de carpeta junto al campo Seleccionar archivo para buscar la imagen o desplazarse a su ubicación dentro del Repositorio.
+1. Seleccione el icono de la imagen y, a continuación, **Seleccionar**.
 
    ![Seleccionar imagen](images/lesson-4/select-image-with-markings.png)
 
-   El cuadro de diálogo Insertar imagen aparece con la información de la imagen elegida.
+   Aparecerá el cuadro de diálogo Insertar imagen con la información de la imagen seleccionada.
 
-1. Introduzca texto en los campos Título de ilustración y Texto alternativo según sea necesario.
-1. Select **Insertar**.
+1. Introduzca texto en los campos Título de la figura y Texto alternativo según sea necesario.
+1. Seleccionar **Insertar**.
 
    La imagen se muestra en el editor junto con el título de la figura.
 
-## Eliminación de una imagen de un tema
+## Quitar una imagen de un tema
 
-1. Seleccione la imagen en el editor de documentos y presione la tecla **Eliminar** clave.
+1. Seleccione la imagen en el editor de documentos y pulse la tecla **Eliminar** clave.
 
 ## Guardar una nueva versión de un tema
 
-El control de versiones le permite revisar y comparar distintas versiones. Incluso puede volver a una versión anterior.
+Las versiones le permiten revisar y comparar diferentes versiones. Incluso puede revertir a una versión anterior.
 
-Como ha realizado un cambio significativo en el tema, puede que ahora le resulte útil guardar el trabajo actual como una nueva versión.
+Dado que ha realizado un cambio importante en el tema, es posible que ahora le resulte útil guardar el trabajo actual como una nueva versión.
 
 1. Seleccione el **Guardar como nueva versión** icono.
 
    ![Icono Guardar como nueva versión](images/common/save-as-new-version.png)
 
-   La variable **Guardar como nueva versión** se abre.
+   El **Guardar como nueva versión** aparece el cuadro de diálogo.
 
-1. En el campo Comentarios para nueva versión , introduzca un resumen breve pero claro de los cambios.
-1. En el campo Rótulos de versión , introduzca las etiquetas relevantes.
+1. En el campo Comentarios para la nueva versión, introduzca un breve pero claro resumen de los cambios.
+1. En el campo Etiquetas de versión, introduzca las etiquetas relevantes.
 
-   Las etiquetas le permiten especificar la versión que desea incluir al publicar.
+   Las etiquetas permiten especificar la versión que desea incluir al publicar.
 
    >[!NOTE]
    > 
-   > Si el programa está configurado con etiquetas predefinidas, puede seleccionarlas para garantizar un etiquetado coherente.
+   > Si el programa está configurado con etiquetas predefinidas, puede seleccionar una de ellas para garantizar un etiquetado coherente.
 
 1. Seleccione **Guardar**.
 

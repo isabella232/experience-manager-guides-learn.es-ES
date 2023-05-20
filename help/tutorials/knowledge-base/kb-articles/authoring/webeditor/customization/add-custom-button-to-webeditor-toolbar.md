@@ -1,48 +1,49 @@
 ---
-title: Añadir nuevo botón de acción personalizado en la barra de herramientas de webeditor
-description: Aprenda a añadir un nuevo botón personalizado en la barra de herramientas de webeditor e invocar javascript para que lo gestione de forma personalizada.
-source-git-commit: 26a6acde54953eab1d751f165d0f7769c7e790fe
+title: Agregar nuevo botón procesable personalizado en la barra de herramientas del editor web
+description: Aprenda a añadir un nuevo botón personalizado en la barra de herramientas del editor web y a llamar a JavaScript para utilizarlo de forma personalizada.
+exl-id: 118c4545-9eda-4e1e-a224-843767e49b5b
+source-git-commit: ed3adf0cf8006c76461de34c6a2a4ba38d8b3406
 workflow-type: tm+mt
 source-wordcount: '543'
 ht-degree: 0%
 
 ---
 
-# Añadir nuevo botón de acción personalizado en la barra de herramientas de webeditor
+# Agregar nuevo botón procesable personalizado en la barra de herramientas del editor web
 
-En este artículo aprenderemos a añadir un nuevo botón personalizado en la barra de herramientas de webeditor e invocar javascript para realizar la operación personalizada deseada.
+En este artículo aprenderemos a añadir un nuevo botón personalizado en la barra de herramientas del editor web y a llamar a javascript para realizar la operación personalizada que desee.
 
-Añadir un botón procesable a webeditor implica los siguientes pasos:
-- Adición del botón en la variable *ui_config.json* en la posición en la que sea necesario
-- Registro del evento en el que se hace clic del botón en el editor web para que el usuario realice una acción cuando haga clic en él
-
-
-## Implementación tomando un ejemplo
-
-Comprendamos esto con un ejemplo en el que un autor quiere añadir una referencia de jira a una sección de prólogo de temas. La sección prolog con el id de referencia de jira integrado puede tener el siguiente aspecto:
-
-![Sección Prolog con referencia de ID de JIRA](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-sample.png)
-
-El elemento &quot;change-request-id&quot; que contiene el ID de JIRA debe recuperarse de la API (digamos, en función de una consulta JIRA específica que la aplicación representa). Cuando el usuario está creando la sección de prólogos, debe poder hacer clic en un botón e insertar un id de referencia de jira desde la barra de herramientas del editor web, algo así como:
-
-![Sección Prolog - añadir referencia JIRA](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-insertjirareference.png)
-
-Y cuando el usuario hace clic en el botón, debería mostrar un cuadro de diálogo que debería extraer las opciones posibles y permitir al usuario seleccionar el ID de JIRA deseado, algo así como:
-
-![Sección de Prolog añadir cuadro de diálogo de JIRA ID](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-insertjirareference-dialog.png)
-
-que luego debe agregar el &quot;change-request-id&quot; al prolog:
-
-![Sección Prolog con referencia de ID de JIRA](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-sample.png)
+Añadir un botón procesable al editor web implica los siguientes pasos:
+- Añadir el botón en la *ui_config.json* en la posición donde sea necesario
+- Registrar el evento de botón al hacer clic en el editor web para que el usuario realice una acción cuando haga clic en él
 
 
+## Implementación de mediante un ejemplo
 
-## Implementación de
+Comprendamos esto con un ejemplo en el que un autor desea añadir una referencia jira a una sección de prólogo de tema. La sección de prólogo con el identificador de referencia jira incrustado puede tener el siguiente aspecto:
+
+![Sección de prólogo con referencia de ID de JIRA](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-sample.png)
+
+El elemento &quot;change-request-id&quot; que contiene el ID de JIRA debe recuperarse de la API (por ejemplo, en función de una consulta JIRA específica que se representa mediante la aplicación). Cuando el usuario está creando la sección de prólogo, debe poder hacer clic en un botón e insertar un ID de referencia de jira desde la barra de herramientas del editor web, algo así como:
+
+![Sección de prólogo: añadir referencia JIRA](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-insertjirareference.png)
+
+Y cuando el usuario hace clic en el botón, debe mostrar un cuadro de diálogo que debe extraer las posibles opciones y permitir al usuario seleccionar el ID de JIRA deseado, algo así como:
+
+![Cuadro de diálogo Agregar ID de JIRA de la sección Prólogo](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-insertjirareference-dialog.png)
+
+que debería añadir &quot;change-request-id&quot; al prólogo:
+
+![Sección de prólogo con referencia de ID de JIRA](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-sample.png)
 
 
-### Agregue el botón en webeditor configurándolo en *ui_config.json*
 
-Utilice los perfiles de carpeta para comprobar la variable *ui_config.json* en la pestaña &quot;Configuración del editor XML&quot; y añada la configuración del botón JSON a la sección deseada del grupo &quot;barra de herramientas&quot;
+## Implementación de esto
+
+
+### Añada el botón en el editor web configurándolo en *ui_config.json*
+
+Utilice los perfiles de carpeta para comprobar la *ui_config.json* en la pestaña &quot;Configuración del editor XML&quot; y añada el botón de configuración JSON a la sección deseada del grupo &quot;barra de herramientas&quot;
 
 ```
 {
@@ -57,32 +58,32 @@ Utilice los perfiles de carpeta para comprobar la variable *ui_config.json* en l
 [utilice este vínculo para obtener más información sobre el perfil de carpeta y la configuración de ui_config.json](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en)
 
 
-### Gestión del evento en el que se hace clic para el nuevo botón
+### Controlar el evento en el que se hace clic para el botón nuevo
 
-    NOTA: Los pasos mencionados a continuación están disponibles como paquete adjunto en esta publicación
+    NOTA: Los pasos que se mencionan a continuación están disponibles como paquete adjunto en esta publicación
 
 
-- Después de guardar el perfil de carpeta, cree un &quot;cq:ClientLibraryFolder&quot; en un directorio de proyecto (podría estar en */apps*) y añada propiedades como se muestra en la captura de pantalla siguiente:
-   ![Configuración de la biblioteca de cliente para webeditor](../../../assets/authoring/webeditor-add-customtoolbarbutton-clientlibrarysettings.png)
+- Después de guardar el perfil de carpeta, cree una &quot;cq:ClientLibraryFolder&quot; en un directorio de proyecto (puede estar en */apps*) y agregue propiedades como se muestra en la captura de pantalla siguiente:
+   ![Configuración de la biblioteca de cliente para el editor web](../../../assets/authoring/webeditor-add-customtoolbarbutton-clientlibrarysettings.png)
 
 ```
 This example uses "coralui3" library to show a dialog as it is used in the Javascript sample we presented.
 You may use different library of your choice.
 ```
 
-- En esta carpeta de biblioteca de cliente, cree dos archivos como se indica a continuación:
+- En esta carpeta de biblioteca de cliente, cree dos archivos como se menciona a continuación:
    - *overrides.js*: que tendrá el código javascript para gestionar el evento en el que se hace clic para &quot;insertJIRARef&quot; (utilice el paquete adjunto para obtener el contenido de este javascript)
    - *js.txt*: que incluirá &quot;overrides.js&quot; para habilitar este javascript
 
-- Guarde los cambios y debe estar listo para probarlos.
+- Guarde los cambios y estará listo para probarlos.
 
 
 ### Pruebas
 
 - Abrir editor web
-- En las preferencias del usuario, elija el perfil de carpeta en el que ha añadido la variable *ui_config.json*. Si lo agregó al perfil Global , probablemente ya esté usando eso.
-- Abra un tema, verá que la barra de herramientas tiene un nuevo botón &quot;Insertar referencia de Jira&quot;
-- A continuación, puede agregar la sección de prólogos como se indica a continuación al tema e intentar hacer clic en el botón &quot;Insertar referencia de Jira&quot; dentro del elemento de prolog &quot;change-request-reference&quot;
+- En las preferencias de usuario, elija el perfil de carpeta en el que agregó el personalizado *ui_config.json*. Si lo ha agregado al perfil Global, probablemente ya esté utilizando.
+- Al abrir un tema, notará que la barra de herramientas tiene un nuevo botón &quot;Insertar referencia Jira&quot;
+- A continuación, puede añadir la sección de prólogo como se indica a continuación al tema y probar haciendo clic en el botón &quot;Insertar referencia Jira&quot; dentro del elemento de prólogo &quot;change-request-reference&quot;
 
 ```
 <prolog>
@@ -97,15 +98,15 @@ You may use different library of your choice.
 </prolog>
 ```
 
-Consulte la captura de pantalla siguiente para saber cómo se verá:
+Consulte la siguiente captura de pantalla para saber cómo se verá:
 
-![Botón Probar nuevo](../../../assets/authoring/webeditor-add-customtoolbarbutton-testing.png)
+![Probar botón nuevo](../../../assets/authoring/webeditor-add-customtoolbarbutton-testing.png)
 
 
 ### Archivos adjuntos
 
-- Paquete clientlibs de muestra que instalará la biblioteca cliente de webeditor con código javascript para la acción del botón de barra de herramientas: [descargar con este vínculo](../../../assets/authoring/webeditor-addbuttonontoolbar-insertjira-clientlib.zip)
-- Ejemplo *ui_config.json* que puede cargar en un perfil de carpeta: [descargar ejemplo ui_config.json](../../../assets/authoring/sample_ui_config_Guides4.2-InsertJiraReference.json)
+- Paquete clientlibs de muestra que instalará la biblioteca de cliente del editor web con código javascript para la acción del botón de la barra de herramientas: [descargar mediante este vínculo](../../../assets/authoring/webeditor-addbuttonontoolbar-insertjira-clientlib.zip)
+- Muestra *ui_config.json* que puede cargar en un perfil de carpeta: [descargar ejemplo de ui_config.json](../../../assets/authoring/sample_ui_config_Guides4.2-InsertJiraReference.json)
 
 ```
 Please note this is compatible to AEM 6.5 and AEM Guides version 4.2.

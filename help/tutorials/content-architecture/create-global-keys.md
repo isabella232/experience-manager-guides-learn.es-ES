@@ -1,6 +1,6 @@
 ---
-title: Crear claves globales
-description: Cómo crear claves globales que se utilizarán en el contenido de la organización
+title: Creación de claves globales
+description: Cómo crear claves globales para utilizarlas en el contenido de la organización
 role: Admin
 exl-id: b8e3a6d2-ea82-4fdb-bd16-3f4b6594af52
 source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
@@ -10,13 +10,13 @@ ht-degree: 0%
 
 ---
 
-# Crear claves globales
+# Creación de claves globales
 
-Las organizaciones deben utilizar claves en los casos en los que tengan texto común y recuperable, como el nombre del producto o el lanzamiento del producto, que se utilice en muchos lugares pero que sea propenso a cambiar. El uso de claves para este texto reutilizable permite insertar una actualización en varios lugares realizando el cambio en una sola ubicación, como en el valor clave.
+Las organizaciones deben utilizar claves en casos en los que tengan algún texto reutilizable y común, como el nombre o el tono del producto, que se utilice en muchos lugares, pero que sea propenso a cambiar. El uso de teclas para este tipo de texto reutilizable le permite insertar una actualización en varios lugares realizando el cambio en una sola ubicación, como en el valor de clave.
 
 ## Paso 1: Crear un mapa global para almacenar las claves
 
-Cree un mapa y añada la variable [!UICONTROL keyref] elemento a él.
+Cree un mapa y añada el [!UICONTROL keyref] elemento a él.
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -36,9 +36,9 @@ Cree un mapa y añada la variable [!UICONTROL keyref] elemento a él.
 </map>
 ```
 
-Aquí ha definido dos definiciones, como se muestra arriba, y proporcionado un [!UICONTROL keyref] como _AEM_ para el _Adobe Experience Manager_ texto.
+Aquí ha definido dos definiciones, como se muestra arriba, siempre que [!UICONTROL keyref] as _AEM_ para el _Adobe Experience Manager_ texto.
 
-## Paso 2: Añada este mapa al mapa de publicación
+## Paso 2: Agregar este mapa al mapa de publicación
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -54,10 +54,10 @@ Aquí ha definido dos definiciones, como se muestra arriba, y proporcionado un [
 
 ## Paso 3: Utilice las claves para hacer referencia a las variables definidas en el mapa de claves global
 
-+ Edite el tema y añada el valor clave utilizando la variable [!UICONTROL keyref].
-+ Como se muestra en la captura de pantalla, aparecerá una pequeña ventana desde la que se pueden elegir las palabras clave. Esto se mostrará cuando agregue el elemento &quot;palabra clave&quot;.
++ Edite el tema y añada el valor clave mediante la variable [!UICONTROL keyref].
++ Como se muestra en la captura de pantalla, aparecerá una pequeña ventana desde donde se pueden elegir las palabras clave. Esto se mostrará cuando añada el elemento &quot;keyword&quot;.
    ![Insertar elemento](assets/insert_element.png)
-   ![Referencia clave](assets/key_ref.png)
+   ![Ref clave](assets/key_ref.png)
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>

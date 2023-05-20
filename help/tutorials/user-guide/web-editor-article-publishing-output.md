@@ -1,5 +1,5 @@
 ---
-title: Generar salida del panel Repositorio
+title: Generar resultados desde el panel Repositorio
 description: Obtenga información sobre cómo generar resultados desde el panel Repositorio
 exl-id: 3dea81c3-1e57-4f14-9afe-6b075bd410e0
 source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
@@ -9,78 +9,78 @@ ht-degree: 0%
 
 ---
 
-# Generar salida del panel Repositorio o del panel Vista de mapa {#id218CL6010AE}
+# Generar resultados desde el panel Repositorio o el panel Vista de mapa {#id218CL6010AE}
 
-También puede utilizar los ajustes preestablecidos de salida creados para su mapa DITA para generar resultados del panel Repositorio o del panel Vista de mapa.
+También puede utilizar los ajustes preestablecidos de salida creados para el mapa DITA para generar resultados desde el panel Repositorio o el panel Vista de mapa.
 
-- Utilice la variable **Generación rápida** en el panel Repositorio o el panel Vista Mapa para generar resultados para el tema único seleccionado o para todo el mapa DITA.
+- Utilice el **Generación rápida** función en el panel Repositorio o en el panel Vista de mapa para generar resultados para el tema único seleccionado o para todo el mapa DITA.
 
    >[!NOTE]
    >
-   > También puede acceder al **Generación rápida** del panel Favoritos o del panel Buscar .
+   > También puede acceder a las **Generación rápida** desde el panel Favoritos o el panel Buscar.
 
-- Utilice la variable **Generar salida** en el panel Vista de mapa para generar el resultado de los varios temas seleccionados.
+- Utilice el **Generar salida** función en el panel Vista de mapa para generar la salida para los múltiples temas seleccionados.
 
-## Publicación de un tema utilizado en uno o varios mapas DITA
+## Publicar un tema utilizado en una o varias asignaciones DITA
 
-Realice los siguientes pasos para generar resultados para uno o más temas en el mapa DITA:
+Realice los siguientes pasos para generar resultados para uno o varios temas del mapa DITA:
 
-1. En el **Autor** , seleccione el tema en el mapa DITA que desea publicar.
+1. En el **Autor** , seleccione el tema del mapa DITA que desee publicar.
 
-1. Select **Generación rápida** en el menú Opciones del tema seleccionado.
+1. Seleccionar **Generación rápida** en el menú Opciones del tema seleccionado.
    ![](images/select-topic-options-menu_cs.png){width="650" align="left"}
 
-1. Para publicar un tema utilizado en un solo mapa DITA, seleccione los ajustes preestablecidos de salida del mapa que desee usar para publicar y haga clic en **Generar**.
+1. Para publicar un tema utilizado en un único mapa DITA, seleccione los ajustes preestablecidos de salida del mapa que desee utilizar para publicar y haga clic en **Generar**.
    ![](images/select-preset_cs.png){width="350" align="left"}
 
-1. Verá el estado del proceso de generación de salida. Para ver el resultado, pase el puntero del ratón sobre el tema y haga clic en Ver salida.
+1. Verá el estado del proceso de generación de resultados. Para ver el resultado, pase el puntero del mouse (ratón) sobre el tema y haga clic en Ver resultados.
 
 1. Si tiene un tema común que se utiliza en varios temas, seleccione los distintos mapas DITA y también los ajustes preestablecidos de salida que desee utilizar para publicar y haga clic en **Generar.**
 
    ![](images/select-preset-multiple-maps_cs.png){width="350" align="left"}
 
-1. Verá el estado del proceso de generación de salida.
+1. Verá el estado del proceso de generación de resultados.
 
-   - **Temas**: Muestra los temas seleccionados para los que se está generando el resultado.
-   - **Ajuste preestablecido**: Muestra los ajustes preestablecidos de salida que contienen los temas seleccionados.
-   - **Mapa**: Muestra los mapas DITA que contienen el tema seleccionado.
+   - **Temas**: enumera los temas seleccionados para los que se genera una salida.
+   - **Preestablecido**: muestra los ajustes preestablecidos de salida que contienen los temas seleccionados.
+   - **Mapa**: muestra los mapas DITA que contienen el tema seleccionado.
    - **Estado**: Muestra el estado de publicación de cada tema.
-Para ver el resultado, pase el puntero del ratón sobre el tema y haga clic en Ver salida.
+Para ver el resultado, pase el puntero del mouse (ratón) sobre el tema y haga clic en Ver resultados.
       ![](images/output-multiple-maps_cs.png){width="800" align="left"}
 
 
-## Generar salida para un mapa DITA desde el Editor Web
+## Generar salida para un mapa DITA desde el editor web
 
-Realice los siguientes pasos para generar resultados para todo el mapa DITA:
+Realice los siguientes pasos para generar la salida para todo el mapa DITA:
 
-1. En el **Autor** , seleccione el mapa DITA que desea publicar.
+1. En el **Autor** , seleccione el mapa DITA que desee publicar.
 
-1. Select **Generación rápida** en el menú Opciones de su mapa DITA.
+1. Seleccionar **Generación rápida** en el menú Opciones del mapa DITA.
 
    ![](images/select-map-options-menu_cs.png){width="650" align="left"}
 
-1. Seleccione los ajustes preestablecidos de salida de su mapa DITA que desea utilizar para publicar y haga clic en **Generar.**
+1. Seleccione los ajustes preestablecidos de salida del mapa DITA que desee utilizar para publicar y pulse en **Generar.**
 
-1. Verá el estado del proceso de generación de salida. Para ver el resultado, pase el puntero del ratón sobre el tema y haga clic en Ver salida.
+1. Verá el estado del proceso de generación de resultados. Para ver el resultado, pase el puntero del mouse (ratón) sobre el tema y haga clic en Ver resultados.
 
 
-## Generar salida para más de un tema
+## Generar resultados para más de un tema
 
 Realice los siguientes pasos para generar resultados para más de un tema en el mapa DITA desde el panel Vista de mapa:
 
-1. En el **Autor** , seleccione los temas que desea publicar.
+1. En el **Autor** , seleccione los temas que desee publicar.
 
-1. Select **Generar salida** en el menú Opciones de la parte inferior.
+1. Seleccionar **Generar salida** en el menú Opciones de la parte inferior.
 
-1. Seleccione el ajuste preestablecido de salida de su mapa DITA que desea utilizar para publicar.
+1. Seleccione el ajuste preestablecido de salida del mapa DITA que desee utilizar para publicar.
 
    >[!NOTE]
    >
-   > Solo verá los ajustes preestablecidos de salida del mapa DITA actual que contienen todos los temas seleccionados.
+   > Sólo verá los ajustes preestablecidos de salida del mapa DITA actual que contengan todos los temas seleccionados.
 
    ![](images/generate-output-multiple-topics_cs.png){width="650" align="left"}
 
-1. Verá el estado del proceso de generación de salida. Para ver el resultado, pase el puntero del ratón sobre el tema y haga clic en Ver salida.
+1. Verá el estado del proceso de generación de resultados. Para ver la salida, pase el puntero del ratón sobre el tema y haga clic en Ver salida.
 
 
-**Tema principal:**[ Publicación basada en artículos desde el Editor web](web-editor-article-publishing.md)
+**Tema principal:**[ Publicación basada en artículos desde el editor web](web-editor-article-publishing.md)

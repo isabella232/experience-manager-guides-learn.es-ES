@@ -1,13 +1,13 @@
 ---
 title: AEM Publicar mediante FrameMaker Publishing Server (FMPS) en guías de la aplicación de la versión de
 description: AEM Publicación con FMPS mediante guías de usuario de
-source-git-commit: 1d118aeda42d76b0a9f34ca29fdeedb0165739fd
+exl-id: 05d4d876-f83b-473c-bf31-14d6565e80e2
+source-git-commit: 7b48633ef2418fa7c91842a8d2c2a4177017ef58
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
 
 ---
-
 
 # AEM Publicar mediante FrameMaker Publishing Server (FMPS) en guías de la aplicación de la versión de
 

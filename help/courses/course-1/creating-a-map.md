@@ -1,5 +1,5 @@
 ---
-title: Cree un mapa en [!DNL AEM Guides]
+title: Creación de un mapa en [!DNL AEM Guides]
 description: Obtenga información sobre cómo crear un mapa en [!DNL Adobe Experience Manager Guides]
 exl-id: e38a7fd5-2a29-4248-8e8f-e6a87e1eae9c
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
@@ -11,41 +11,41 @@ ht-degree: 1%
 
 # Crear un mapa
 
-Un mapa es una herramienta organizativa que permite añadir y organizar la información en una estructura jerárquica. Estas tareas le muestran cómo crear un mapa y organizar el contenido en el mapa.
+Un mapa es una herramienta organizativa que permite añadir y organizar la información en una estructura jerárquica. Esta tarea muestra cómo crear un mapa y organizar el contenido del mapa.
 
 Puede descargar archivos DITA de ejemplo desde aquí:
 
 * [Documents-with-Visual-Content.dita](assets/working-with-maps/Documents-with-Visual-Content.dita)
-* [Trabajo con Tables.dita](assets/working-with-maps/Working-with-Tables.dita)
+* [Working-with-Tables.dita](assets/working-with-maps/Working-with-Tables.dita)
 
 >[!VIDEO](https://video.tv.adobe.com/v/336725?quality=12&learn=on)
 
-## Cargar componentes de mapa
+## Cargar componentes de asignación
 
-Si lo desea, puede cargar archivos de muestra locales en AEM para obtener un conjunto de materiales más completo.
+AEM Si lo desea, puede cargar archivos de muestra locales en la interfaz de usuario de para obtener un conjunto de materiales más completo.
 
-1. Arrastre y suelte los archivos locales en AEM para cargarlos.
+1. AEM Arrastre y suelte cualquier archivo local en la barra de herramientas para cargarlo.
 1. Repita el proceso según sea necesario para cualquier archivo, incluidas imágenes y temas.
 
 ## Creación de un mapa
 
-1. Para abrir el [!UICONTROL Opciones] seleccione el icono de elipsis en la carpeta principal .
+1. Para abrir [!UICONTROL Opciones] , seleccione el icono de puntos suspensivos de la carpeta principal
 
-   ![Icono de elipsis](images/lesson-8/ellipses-9.png)
+   ![Icono de puntos suspensivos](images/lesson-8/ellipses-9.png)
 
-1. Select **[!UICONTROL Crear]** > **[!UICONTROL Mapa]**.
+1. Seleccionar **[!UICONTROL Crear]** > **[!UICONTROL Mapa]**.
 
 
    ![Crear mapa](images/lesson-8/create-map-with-markings.png)
 
-   La variable [!UICONTROL Crear nuevo mapa] se abre.
+   El [!UICONTROL Crear nuevo mapa] se muestra.
 
-1. En el [!UICONTROL Plantilla] campo, seleccione **[!UICONTROL Bookmap]** en el menú desplegable y asigne un título a la asignación.
+1. En el [!UICONTROL Plantilla] , seleccione **[!UICONTROL Bookmap]** en el menú desplegable y asigne un título al mapa.
 1. Seleccione **[!UICONTROL Crear]**.
 
-   Se crea el mapa y el carril izquierdo cambia automáticamente de la vista Repositorio a la vista Mapa.
+   El mapa se crea y el carril izquierdo cambia automáticamente de la vista Repositorio a la vista Mapa.
 
-## Insertar componentes de mapa
+## Inserción de componentes de mapa
 
 1. Seleccione el icono de lápiz en el carril izquierdo.
 
@@ -53,27 +53,27 @@ Si lo desea, puede cargar archivos de muestra locales en AEM para obtener un con
 
    Este es el icono Editar y le permite abrir el mapa en el editor.
 
-1. Vuelva a la vista Repositorio seleccionando el icono Repositorio .
+1. Vuelva a la vista Repositorio seleccionando el icono Repositorio.
 
-   ![Icono del repositorio](images/common/repository-icon.png)
+   ![Icono de repositorio](images/common/repository-icon.png)
 
-1. Añada un tema al mapa arrastrándolo y soltándolo desde el Repositorio en el mapa del editor.
+1. Añada un tema al mapa arrastrándolo y soltándolo desde el Repositorio al mapa en el editor.
 
-   El indicador de línea le muestra dónde se coloca el tema.
+   El indicador de línea muestra dónde se coloca el tema.
 
 1. Siga agregando temas según sea necesario.
 
-## Ver una vista previa del mapa
+## Vista previa de un mapa
 
-La vista previa proporciona una vista rápida del contenido utilizando los formatos predeterminados. Muestra los encabezados, párrafos, listas y cualquier otro contenido de los temas que se muestre.
+La vista previa proporciona una visión rápida del contenido mediante los formatos predeterminados. Muestra los encabezados, párrafos, listas y cualquier otro contenido de los temas que se muestran.
 
-1. Select **[!UICONTROL Vista previa]** en la barra de menús superior negra.
+1. Seleccionar **[!UICONTROL Previsualizar]** desde la barra de menús negra superior.
 
    ![Botón Vista previa](images/common/select-preview.png)
 
-El contenido se abre en [!UICONTROL Vista previa].
+El contenido se abre en [!UICONTROL Previsualizar].
 
-1. Para volver a la vista de autor y reanudar la edición de mapas, seleccione **Autor.**
+1. Para volver a la Vista de autor y reanudar la edición de mapas, seleccione **Autor.**
 
    ![Botón Autor](images/lesson-5/author-map.png)
 
@@ -82,27 +82,27 @@ El contenido se abre en [!UICONTROL Vista previa].
 Puede editar la jerarquía de temas dentro del mapa.
 
 1. Haga clic en el icono de un tema para seleccionarlo.
-1. Utilice las flechas para degradar y promocionar elementos respectivamente.
+1. Utilice las flechas para degradar y promocionar los elementos respectivamente.
 
-   ![Icono del repositorio](images/lesson-8/left-right.png)
+   ![Icono de repositorio](images/lesson-8/left-right.png)
 
-## Guardar el mapa como una nueva versión
+## Guarde la asignación como una nueva versión
 
-Una vez completado el mapa, puede guardar su trabajo como una nueva versión y registrar sus cambios.
+Ahora que el mapa está completo, puede guardar el trabajo como una nueva versión y registrar los cambios.
 
 1. Seleccione el **[!UICONTROL Guardar como nueva versión]** icono.
 
    ![Icono Guardar como nueva versión](images/common/save-as-new-version.png)
 
-1. En el campo Comentarios para nueva versión , introduzca un resumen breve pero claro de los cambios.
+1. En el campo Comentarios para la nueva versión, introduzca un breve pero claro resumen de los cambios.
 
-1. En el campo Rótulos de versión , introduzca las etiquetas relevantes.
+1. En el campo Etiquetas de versión, introduzca las etiquetas relevantes.
 
-   Las etiquetas le permiten especificar la versión que desea incluir al publicar.
+   Las etiquetas permiten especificar la versión que desea incluir al publicar.
 
    >[!NOTE]
    > 
-   > Si el programa está configurado con etiquetas predefinidas, puede seleccionarlas para garantizar un etiquetado coherente.
+   > Si el programa está configurado con etiquetas predefinidas, puede seleccionar una de ellas para garantizar un etiquetado coherente.
 
 1. Seleccione **Guardar**.
 

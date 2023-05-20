@@ -1,70 +1,70 @@
 ---
-title: Crear, editar, duplicar o eliminar un ajuste preestablecido de salida
-description: Obtenga información sobre cómo crear, editar, duplicar o eliminar un ajuste preestablecido de salida
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+title: Crear, editar, duplicar o quitar un ajuste preestablecido de salida
+description: Obtenga información sobre cómo crear, editar, duplicar o quitar un ajuste preestablecido de salida
+exl-id: 6ed4f028-da96-4383-9d5c-06b94d6661c0
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 0%
 
 ---
 
-
-# Crear, editar, duplicar o eliminar un ajuste preestablecido de salida {#id205BEH0K09Z}
+# Crear, editar, duplicar o quitar un ajuste preestablecido de salida {#id205BEH0K09Z}
 
 ## Crear un ajuste preestablecido de salida personalizado
 
-Realice los siguientes pasos para crear un ajuste preestablecido de salida personalizado:
+Siga estos pasos para crear un ajuste preestablecido de salida personalizado:
 
-1. En la interfaz de usuario de Assets, vaya a cualquier mapa DITA y haga clic en él para abrir la consola de asignación DITA.
+1. En la interfaz de usuario de Assets, vaya a y haga clic en cualquier mapa DITA para abrir la consola de mapas DITA.
 
-1. Asegúrese de que la ficha Ajustes preestablecidos de salida está seleccionada. Haga clic en Crear en la barra de herramientas.
+1. Asegúrese de que la pestaña Ajustes preestablecidos de salida esté seleccionada. Haga clic en Crear en la barra de herramientas.
 
-   Se muestra un formulario de creación de ajuste preestablecido de salida en blanco.
+   Se muestra un formulario de creación de ajustes preestablecidos de salida en blanco.
 
 1. Introduzca los detalles necesarios para el tipo de ajuste preestablecido que desea crear.
 
-1. Haga clic en Hecho para guardar la configuración preestablecida.
+1. Haga clic en Listo para guardar los ajustes preestablecidos.
 
 
 ## Edición de un ajuste preestablecido de salida
 
-Realice los siguientes pasos para editar un ajuste preestablecido de salida existente:
+Siga estos pasos para editar un ajuste preestablecido de salida existente:
 
-1. En la interfaz de usuario de Assets, vaya a cualquier mapa DITA y haga clic en él para abrir la consola de asignación DITA.
+1. En la interfaz de usuario de Assets, vaya a y haga clic en cualquier mapa DITA para abrir la consola de mapas DITA.
 
-1. Asegúrese de que la ficha Ajustes preestablecidos de salida está seleccionada.
+1. Asegúrese de que la pestaña Ajustes preestablecidos de salida esté seleccionada.
 
 1. Haga clic en el ajuste preestablecido de salida que desee editar. Haga clic en Editar en la barra de herramientas.
 
-   Se muestra un formulario de ajuste preestablecido de salida editable con valores del ajuste preestablecido de salida seleccionado.
+   Se mostrará un formulario de ajuste preestablecido de salida editable con los valores del ajuste preestablecido de salida seleccionado.
 
 1. Cambie los detalles necesarios.
 
-1. Haga clic en Hecho para guardar la configuración del ajuste preestablecido editado.
+1. Haga clic en Listo para guardar los ajustes preestablecidos editados.
 
 
-## Duplicar un ajuste preestablecido de salida
+## Duplicación de un ajuste preestablecido de salida
 
 Realice los siguientes pasos para duplicar un ajuste preestablecido de salida existente:
 
-1. En la interfaz de usuario de Assets, vaya a cualquier mapa DITA y haga clic en él para abrir la consola de asignación DITA.
+1. En la interfaz de usuario de Assets, vaya a y haga clic en cualquier mapa DITA para abrir la consola de mapas DITA.
 
-1. Asegúrese de que la ficha Ajustes preestablecidos de salida está seleccionada.
+1. Asegúrese de que la pestaña Ajustes preestablecidos de salida esté seleccionada.
 
 1. Haga clic en el ajuste preestablecido de salida que desee duplicar. Haga clic en Duplicar en la barra de herramientas.
 
-   Se muestra un formulario de ajuste preestablecido de salida editable con valores del ajuste preestablecido de salida seleccionado.
+   Se mostrará un formulario de ajuste preestablecido de salida editable con los valores del ajuste preestablecido de salida seleccionado.
 
 1. Cambie los detalles necesarios.
 
-1. Haga clic en Hecho para guardar la configuración preestablecida.
+1. Haga clic en Listo para guardar los ajustes preestablecidos.
 
 
 ## Eliminar un ajuste preestablecido de salida
 
-Realice los siguientes pasos para eliminar un ajuste preestablecido de salida existente:
+Siga estos pasos para eliminar un ajuste preestablecido de salida existente:
 
-1. En la interfaz de usuario de Assets, vaya a cualquier mapa DITA y haga clic en él para abrir la consola de asignación DITA.
+1. En la interfaz de usuario de Assets, vaya a y haga clic en cualquier mapa DITA para abrir la consola de mapas DITA.
 
 1. Seleccione el ajuste preestablecido de salida que desee eliminar.
 
@@ -72,8 +72,7 @@ Realice los siguientes pasos para eliminar un ajuste preestablecido de salida ex
 
 1. Haga clic en Eliminar en el mensaje de confirmación.
 
-   El ajuste preestablecido se elimina de la lista Ajustes preestablecidos de salida.
+   El ajuste preestablecido se quita de la lista Ajustes preestablecidos de salida.
 
 
-**Tema principal:**[ Generación de resultados](generate-output.md)
-
+**Tema principal:**[ Generación de salida](generate-output.md)

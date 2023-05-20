@@ -19,48 +19,48 @@ Una vez que se haya familiarizado con la interfaz de usuario, puede empezar a cr
 
 1. Seleccione el **Repositorio** para ver sus carpetas y archivos.
 
-   ![Icono del repositorio](images/common/repository-icon.png)
+   ![Icono de repositorio](images/common/repository-icon.png)
 
-1. Seleccione el **+** y **Carpeta**.
+1. Seleccione el **+** icono y **Carpeta**.
 
    ![+ icono](images/lesson-3/+-icon.png)
 
 1. Asigne un título a la carpeta.
 1. Seleccione **Crear**.
-Ha creado una carpeta nueva que ahora se muestra en el Repositorio. Esta carpeta es su hogar para todo el contenido del curso.
+Ha creado una nueva carpeta, que ahora se muestra en el Repositorio. Esta carpeta será su página de inicio para todo el contenido del curso.
 
 ## Creación de una subcarpeta
 
-Ahora podemos crear una carpeta dentro de la nueva carpeta para que contenga imágenes u otro contenido.
+Ahora podemos crear una carpeta dentro de su nueva carpeta para incluir imágenes u otro contenido.
 
-1. Pase el ratón sobre la nueva carpeta en el Repositorio y seleccione el icono de elipsis que se muestra.
+1. Pase el ratón sobre la nueva carpeta del Repositorio y seleccione el icono de puntos suspensivos que aparece.
 
-   ![Icono de elipsis](images/lesson-3/ellipses-icon.png)
+   ![Icono de puntos suspensivos](images/lesson-3/ellipses-icon.png)
 
    Se muestra el menú Opciones.
 
-1. Select **Crear \> Carpeta**.
+1. Seleccionar **Crear \> carpeta**.
    ![Creación de una subcarpeta](images/lesson-3/create-subfolder-with-markings.png)
 
 1. Asigne un título a la subcarpeta (por ejemplo, &quot;imágenes&quot;) y seleccione **Crear**.
 
 ## Creación y rellenado de un nuevo concepto
 
-1. Pase el ratón sobre la carpeta principal en el Repositorio y seleccione el icono de elipsis.
+1. Pase el ratón sobre la carpeta principal del repositorio y seleccione el icono de tres puntos.
 
-   ![Icono de elipsis](images/lesson-3/ellipses-icon.png)
+   ![Icono de puntos suspensivos](images/lesson-3/ellipses-icon.png)
 
    Se muestra el menú Opciones.
 
-1. Select **Crear \> Tema**.
+1. Seleccionar **Crear \> Tema**.
 
    ![Creación de un nuevo tema](images/lesson-3/create-topic-with-markings.png)
 
-   Aparece el cuadro de diálogo Crear nuevo tema .
+   Se muestra el cuadro de diálogo Crear nuevo tema.
 
 1. En el menú desplegable Plantilla del cuadro de diálogo, seleccione **Concepto**.
 
-   ![Menú desplegable Plantilla](images/lesson-3/dropdown-with-markings.png)
+   ![Menú desplegable de plantilla](images/lesson-3/dropdown-with-markings.png)
 
 1. Asigne un título al concepto y seleccione **Crear**.
 
@@ -70,32 +70,32 @@ Ahora podemos crear una carpeta dentro de la nueva carpeta para que contenga im�
 
 1. Rellene el concepto haciendo clic en la descripción breve o en el párrafo y escribiendo el contenido.
 
-## Guardar y guardar como nueva versión
+## Guardar y Guardar como nueva versión
 
-Puede guardar el trabajo en cualquier momento con Guardar o Guardar como nueva versión. Utilice Guardar para conservar los cambios y Guardar como nueva versión para crear una nueva versión del tema con los cambios actuales.
+Puede guardar el trabajo en cualquier momento con Guardar o Guardar como nueva versión. Use Guardar para conservar los cambios y Guardar como nueva versión para crear una nueva versión del tema con los cambios actuales.
 
-### Guardar su trabajo sin versiones
+### Guardar el trabajo sin crear versiones
 
 1. Seleccione el **Guardar** icono.
 
    ![Icono Guardar](images/common/save.png)
 
-### Guardar como una nueva versión
+### Guardar como nueva versión
 
-1. Seleccione el **Guardar como nueva versión** a la derecha del icono Guardar .
+1. Seleccione el **Guardar como nueva versión** en la parte derecha del icono Guardar.
 
    ![Icono Guardar como nueva versión](images/common/save-as-new-version.png)
 
-   Aparece el cuadro de diálogo Guardar como nueva versión .
+   Aparece el cuadro de diálogo Guardar como nueva versión.
 
-1. En el campo Comentarios para nueva versión , introduzca un resumen breve pero claro de los cambios.
-1. En el campo Rótulos de versión , introduzca las etiquetas relevantes.
+1. En el campo Comentarios para la nueva versión, introduzca un breve pero claro resumen de los cambios.
+1. En el campo Etiquetas de versión, introduzca las etiquetas relevantes.
 
-   Las etiquetas le permiten especificar la versión que desea incluir al publicar.
+   Las etiquetas permiten especificar la versión que desea incluir al publicar.
 
    >[!NOTE]
    > 
-   > Si el programa está configurado con etiquetas predefinidas, puede seleccionarlas para garantizar un etiquetado coherente.
+   > Si el programa está configurado con etiquetas predefinidas, puede seleccionar una de ellas para garantizar un etiquetado coherente.
 
 1. Seleccione **Guardar**.
 

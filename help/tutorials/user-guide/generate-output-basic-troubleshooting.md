@@ -1,6 +1,6 @@
 ---
-title: Solución de problemas básicos
-description: Obtenga información sobre cómo solucionar problemas básicos
+title: Solución de problemas básica
+description: Obtenga información sobre la solución de problemas básica
 exl-id: b5ab2618-6f11-4aaa-8471-09521f8bb512
 source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
@@ -9,72 +9,72 @@ ht-degree: 0%
 
 ---
 
-# Solución de problemas básicos {#id1821I0Y0G0A}
+# Solución de problemas básica {#id1821I0Y0G0A}
 
-Mientras trabaja con AEM guías, puede encontrar errores al publicar o abrir el documento. Estos errores podrían estar en el mapa DITA, tema o en AEM propio proceso de guías. Esta sección proporciona información sobre cómo acceder y analizar la información en el archivo de registro de generación de salida. Además, si el tema de DITA es demasiado grande, es posible que vea el error de compilación de JSP. Esta sección también proporciona información sobre cómo resolver el error de compilación de JSP.
+AEM Al trabajar con Guías de, puede encontrar errores al publicar o abrir el documento. AEM Estos errores pueden producirse en el propio proceso de DITA map, topic o en las guías de la aplicación de la aplicación de la interfaz de usuario. En esta sección se proporciona información sobre cómo tener acceso a la información del archivo de registro de generación de resultados y analizarla. Además, si el tema DITA es demasiado grande, es posible que vea el error de compilación de JSP. Esta sección también proporciona información sobre cómo resolver el error de compilación de JSP.
 
 ## Ver y comprobar el archivo de registro {#id1822G0P0CHS}
 
-Realice los siguientes pasos para ver y comprobar el archivo de registro de generación de salida:
+Realice los siguientes pasos para ver y comprobar el archivo de registro de generación de resultados:
 
-1. Una vez iniciado el proceso de generación de resultados, haga clic en **Salidas** en la consola de asignación DITA.
+1. Una vez iniciado el proceso de generación de resultados, haga clic en **Salidas** en la consola de mapas DITA.
 
-   La variable **General** de **Productos generados** muestra los iconos para proporcionar una pista visual sobre el éxito o el fracaso de la generación de salida.
+   El **General** de la columna **Salidas generadas** muestra los iconos para proporcionar una pista visual sobre el éxito o el fracaso de la generación de resultados.
 
    ![](images/output-general-settings.png){width="300" align="left"}
 
-   En la captura de pantalla anterior, los iconos primero y tercero muestran la generación de salida fallida. El segundo icono muestra una generación de salida correcta, pero con mensajes. La última es una generación de salida exitosa sin ningún mensaje.
+   En la captura de pantalla anterior, el primer y el tercer iconos muestran la generación de resultados fallida. El segundo icono muestra una generación de salida correcta pero con mensajes. El último es una generación de salida correcta sin ningún mensaje.
 
-1. Haga clic en el vínculo en la **Generado en** una vez completado el trabajo.
+1. Haga clic en el vínculo en la **Generado el** una vez completado el trabajo.
 
    El archivo de registro se abre en una nueva pestaña.
 
    ![](images/log-file.png){width="800" align="left"}
 
-1. Aplique los filtros siguientes para resaltar el texto en el archivo de registro:
-   - Mortal: Resalta los errores fatales en el archivo de registro con color rosa.
-   - Error: Resalta los errores en el archivo de registro con color naranja.
-   - Advertencia: Resalta las advertencias en el archivo de registro con color morado.
-   - Información: Resalta los mensajes de información del archivo de registro con color azul.
-   - Excepción: Resalta las excepciones en el archivo de registro con color amarillo.
+1. Aplique los siguientes filtros para resaltar el texto en el archivo de registro:
+   - Grave: resalta los errores graves del archivo de registro con color rosa.
+   - Error: resalta los errores del archivo de registro con color naranja.
+   - Advertencia: resalta las advertencias del archivo de registro con color morado.
+   - Información: resalta los mensajes de información del archivo de registro con color azul.
+   - Excepción: Resalta las excepciones del archivo de registro con color amarillo.
 1. Utilice los botones de navegación arriba y abajo para saltar al texto resaltado en el archivo de registro.
 
    También puede desplazarse por el archivo de registro y comprobar los mensajes.
 
 
-## Copiar y comprobar el archivo de registro en un editor de texto
+## Copie y compruebe el archivo de registro en un editor de texto
 
-Realice los siguientes pasos para copiar y comprobar el archivo de registro de generación de salida en un editor de texto:
+Realice los siguientes pasos para copiar y comprobar el archivo de registro de generación de resultados en un editor de texto:
 
-1. Una vez iniciado el proceso de generación de resultados, haga clic en **Salidas** en la consola de asignación DITA.
+1. Una vez iniciado el proceso de generación de resultados, haga clic en **Salidas** en la consola de mapas DITA.
 
-1. Haga clic en el vínculo en la **Generado en** una vez completado el trabajo.
+1. Haga clic en el vínculo en la **Generado el** una vez completado el trabajo.
 
    El archivo de registro se abre en una nueva pestaña.
 
-1. Haga clic en **Copiar registro** botón. El archivo de registro se copia en el portapapeles.
+1. Clic **Copiar registro** botón. El archivo de registro se copia en el portapapeles.
 1. Abra un editor de texto y pegue el archivo de registro en el editor.
 
 1. Desplácese por el archivo de registro y compruebe si hay mensajes.
 
-   La siguiente información le ayudará a determinar si hay un error en el archivo DITA o en AEM proceso de guías:
+   AEM La siguiente información le ayudará a determinar si hay algún error en el proceso de archivo o guías de la DITA o en el proceso de las guías de la:
 
-   - *Error relacionado con el archivo de asignación DITA*: En caso de que se encuentre un error en el archivo de asignación DITA o en cualquier otro archivo contenido en el mapa DITA, el archivo de registro contendrá una cadena, &quot;COMPILACIÓN FALLIDA&quot;. Puede comprobar la información proporcionada en el archivo de registro para localizar el archivo erróneo y solucionar el problema.
+   - *Error relacionado con el archivo de mapa DITA*: En caso de que se encuentre un error en el fichero de mapa DITA o en cualquier otro fichero contenido en el mapa DITA, el fichero de registro contendrá una cadena, &quot;ERROR DE COMPILACIÓN&quot;. Puede comprobar la información proporcionada en el archivo de registro para localizar el archivo erróneo y solucionar el problema.
 
-   En el siguiente fragmento de archivo de registro de muestra, puede ver la variable `BUILD FAILED` junto con el motivo del error.
+   En el siguiente fragmento de archivo de registro de ejemplo, puede ver la variable `BUILD FAILED` junto con el motivo del error.
 
    ![](images/dita-error-in-log-file.png){width="650" align="left"}
 
-   - *Error relacionado con las guías de AEM*: El otro tipo de error que se puede identificar en el archivo de registro está relacionado con AEM propio proceso de guías. En este caso, el archivo de asignación DITA se analiza correctamente, pero el proceso de generación de salida falla debido a algún error interno en las guías de AEM. Para este tipo de errores, debe solicitar ayuda al equipo de asistencia técnica.
+   - *AEM Error relacionado con las guías de la* AEM : el otro tipo de error que se puede identificar en el archivo de registro está relacionado con el propio proceso de las Guías de la aplicación de la aplicación de la guía de usuario. AEM En este caso, el fichero de mapa DITA se analiza correctamente, pero el proceso de generación de salida falla debido a algún error interno en las Guías de la. Para este tipo de errores, debe buscar ayuda del equipo de asistencia técnica.
 
-   En el siguiente fragmento de archivo de registro de muestra, puede ver la variable `BUILD SUCCESSFUL` , seguido de otro error técnico.
+   En el siguiente fragmento de archivo de registro de ejemplo, puede ver la variable `BUILD SUCCESSFUL` Mensaje, seguido de otro error técnico.
 
    ![](images/process-error-in-log-file.png){width="650" align="left"}
 
 
 ## Resolver error de compilación de JSP
 
-Si el tema de DITA es demasiado grande, es posible que vea el error de compilación de JSP \(`org.apache.sling.api.request.TooManyCallsException`\) en el explorador. Este error puede aparecer al abrir un tema para editarlo, revisarlo o publicarlo.
+Si el tema DITA es demasiado grande, es posible que vea el error de compilación de JSP \(`org.apache.sling.api.request.TooManyCallsException`\) en el explorador. Este error puede aparecer al abrir un tema para editarlo, revisarlo o publicarlo.
 
 Siga estos pasos para resolver este problema:
 
@@ -82,11 +82,11 @@ Siga estos pasos para resolver este problema:
 
    Aparecerá la página Configuración de la consola web de Adobe Experience Manager.
 
-1. Busque y haga clic en el botón *Servlet principal de Apache Sling* componente.
+1. Busque y haga clic en *Servlet principal de Apache Sling* componente.
 
    Se muestran las opciones configurables para el servlet principal de Apache Sling.
 
-1. Aumente el valor de la variable *Número de llamadas por solicitud* según sus necesidades.
+1. Aumente el valor del *Número de llamadas por solicitud* según sus necesidades.
 
 
-**Tema principal:**[ Generación de resultados](generate-output.md)
+**Tema principal:**[ Generación de salida](generate-output.md)
