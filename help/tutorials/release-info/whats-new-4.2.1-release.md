@@ -1,9 +1,9 @@
 ---
 title: Notas de versión | Novedades de la versión 4.2.1 de las guías de Adobe Experience Manager
 description: Conozca las funciones nuevas y mejoradas de las versiones 4.2.1 de las guías de Adobe Experience Manager
-source-git-commit: 66b83f940457c64dadc5b319e1274960ac0f6da8
+source-git-commit: 8ea7b6d80b94d24910ac00bf1fb1d40d6992a166
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '701'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ AEM Ahora puede navegar fácilmente desde el Editor Web a la página Navegación
 
 * Haga clic en **Guías** icono (![](assets/aem-guides-icon.png) AEM ), para volver a la página Navegación de la.
 
+
+Para obtener más información, consulte [AEM Página de navegación de](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ)
 
 ## Compatibilidad de metadatos avanzada en la publicación de PDF
 
@@ -45,7 +47,7 @@ La vista Esquema proporciona las siguientes mejoras:
 
 * Con la función de búsqueda, puede buscar un elemento por su nombre, ID, texto o valor de atributo.
 
-Para obtener más información, consulte la descripción de la función Vista de esquema en la [Panel izquierdo](../user-guide/web-editor-features.md) sección.
+Para obtener más información, consulte la descripción de la función Vista de esquema en la [Panel izquierdo](../user-guide/web-editor-features.md#id2051EA0M0HS) sección.
 
 ## Generar el informe Multimedia desde el editor web
 
@@ -80,4 +82,4 @@ AEM Guías de la aplicación ahora proporciona la función para abrir y reproduc
 
 <img src="assets/video-web-editor.png" alt="reproducir vídeo" width="600">
 
-Para obtener más información, consulte la descripción de la función Vista de repositorio en la [Panel izquierdo](../user-guide/web-editor-features.md) sección.
+Para obtener más información, consulte la descripción de la función Vista de repositorio en la [Panel izquierdo](../user-guide/web-editor-features.md#id2051EA0M0HS) sección.
