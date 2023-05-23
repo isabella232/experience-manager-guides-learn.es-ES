@@ -2,9 +2,9 @@
 title: Prácticas recomendadas para la traducción de contenido
 description: Conozca las Prácticas recomendadas para la traducción de contenido
 exl-id: 4eff0f27-b3d1-4c6e-af88-bcb3f6d96990
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: d87a2e054310e3421dcbf347232a420638823b93
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1285'
 ht-degree: 1%
 
 ---
@@ -103,6 +103,16 @@ Siga estos pasos para crear un proyecto de traducción:
 1. Clic **Inicio** para crear un nuevo proyecto de traducción.
 
    Se crea un nuevo proyecto de traducción con la versión seleccionada de los temas. En este momento, se muestra un mensaje emergente que confirma que se ha creado el proyecto de traducción. Una vez que todas las copias de idioma de destino estén disponibles en el proyecto de traducción, recibirá una notificación en la bandeja de entrada. Una vez que las copias de idioma de destino estén disponibles en el proyecto de traducción, puede continuar e iniciar el trabajo de traducción.
+
+   ![](images/status-translation-uuid.png){width="800" align="left"}
+
+
+La pestaña Traducción tiene las siguientes secciones:
+
+- **Resumen**: Muestra el número de temas a los que se hace referencia y el idioma de origen junto con su código.
+- **Detalles**: Muestra el título del tema, el tipo de tema, el código de idioma del tema, el idioma de origen, la versión del tema de origen, la etiqueta agregada al tema y el estado de la traducción.
+
+
 
 
 ## Iniciar el trabajo de traducción {#id225IK030OE8}

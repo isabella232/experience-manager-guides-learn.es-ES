@@ -2,16 +2,18 @@
 title: Crear temas
 description: Obtenga información sobre cómo crear temas
 exl-id: 336bbbff-f268-40be-ad3a-9c72923be71b
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: e69665f3c4a0db10365719ac671cbd3ac0c455ec
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '583'
 ht-degree: 0%
 
 ---
 
 # Crear temas {#id2056AL00O5Z}
 
-AEM Guías de permite crear temas DITA de tipo: tema, tarea, concepto, referencia, glosario, DITAVAL, etc. Además de crear temas basados en las plantillas predeterminadas, también puede definir las plantillas personalizadas. Para obtener más información sobre el uso de plantillas DITA personalizadas, consulte *Configuración de plantillas y etiquetas para la creación* en Instalar y configurar las guías de Adobe Experience Manager as a Cloud Service.
+AEM Guías de permite crear temas DITA de tipo: tema, tarea, concepto, referencia, glosario, DITAVAL, etc. Además de crear temas basados en las plantillas predeterminadas, también puede definir las plantillas personalizadas. Estas plantillas deben añadirse al perfil de carpeta para que se muestren en la selección de plantillas de modelo y en el editor web.
+
+Tenga en cuenta que la configuración de Perfil global y de carpeta solo está disponible para los usuarios administrativos de nivel de carpeta. Para obtener más información sobre la configuración de perfiles globales y de nivel de carpeta, consulte *Configuración de plantillas de creación* en Instalar y configurar las guías de Adobe Experience Manager para su configuración.
 
 Siga estos pasos para crear un tema:
 
@@ -23,7 +25,7 @@ Siga estos pasos para crear un tema:
 
    ![](images/create_dita_topic.png){width="800" align="left"}
 
-   AEM De forma predeterminada, Guías de proporciona las plantillas de temas DITA más utilizadas. Puede configurar más plantillas de temas según sus necesidades organizativas, consulte *Configuración de plantillas y etiquetas para la creación* en Instalar y configurar las guías de Adobe Experience Manager as a Cloud Service.
+   AEM De forma predeterminada, Guías de proporciona las plantillas de temas DITA más utilizadas. Puede configurar más plantillas de temas según sus necesidades organizativas, consulte *Configuración de plantillas de creación* en Instalar y configurar las guías de Adobe Experience Manager para su configuración.
 
    >[!NOTE]
    >

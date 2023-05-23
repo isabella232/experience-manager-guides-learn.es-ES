@@ -2,9 +2,9 @@
 title: Iniciar el editor web
 description: Obtenga información sobre cómo iniciar el editor web
 exl-id: f02f9612-7aaa-42ea-bad3-c44d23b5d034
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: dce7b1c97f8f7f79b313b08ca0489e8e50b633ec
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,34 @@ En las secciones siguientes se describen los detalles de cómo puede tener acces
 
 AEM Al iniciar sesión en la sesión de, se le mostrará la página Navegación:
 
-![](images/web-editor-from-navigation-page_cs.png){width="800" align="left"}
+![](images/web-editor-from-navigation-page.png){width="800" align="left"}
 
-Haciendo clic en **Editor XML** Este vínculo le lleva directamente al Editor web.
+Haciendo clic en **Guías** Este vínculo le lleva directamente al Editor web.
 
 ![](images/web-editor-launch-page.png){width="800" align="left"}
 
 Cuando haya iniciado el Editor Web sin seleccionar ningún archivo, aparecerá una pantalla en blanco. AEM Puede abrir un archivo para editarlo desde el repositorio o desde la colección de Favoritos de la aplicación.
+
+- Haga clic en **Guías** icono (![](images/aem-guides-icon.png) AEM ), para volver a la página Navegación de la.
+
+- El **Cerrar** le lleva a un destino basado en su configuración:
+
+
+
+   <details>
+
+   <summary> Cloud Services </summary>
+
+   Si utiliza Cloud Services, haga clic en **Cerrar** AEM para volver a la página Navegación de la.
+   </details>
+
+   <details>
+
+   <summary> Software On-Premise</summary>
+
+   AEM Si utiliza el software On-Premise de guías de usuario de (4.2.1 y versiones posteriores), haga clic en **Cerrar** a la derecha para volver a la ruta del archivo actual en la interfaz de usuario de Assets.
+
+   </details>
 
 ## IU de AEM Assets {#id2056BG0307U}
 
