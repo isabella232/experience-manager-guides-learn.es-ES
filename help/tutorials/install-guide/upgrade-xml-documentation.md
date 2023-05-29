@@ -1,7 +1,7 @@
 ---
 title: Actualizar guías de Adobe Experience Manager
 description: Obtenga información sobre cómo actualizar las guías de Adobe Experience Manager
-source-git-commit: 629a3714e7b75af609238a506688da2674bf31cc
+source-git-commit: 414ee8ae3b12bb40054ddbe9e1a008ebc6058f89
 workflow-type: tm+mt
 source-wordcount: '2750'
 ht-degree: 1%
@@ -68,16 +68,22 @@ Antes de instalar la versión 4.0, realice los siguientes pasos:
 
 Esta API está diseñada para evaluar el estado actual del sistema e informar si la actualización es posible o no. Para ejecutar este script, almacene en déclencheur el siguiente extremo dado:
 
-|Punto final|/bin/dxml/upgrade/3xto4x/report| |Tipo de solicitud|**GET** AEM Puede utilizar un explorador web en el que haya iniciado sesión en la instancia de la como administrador.| |Respuesta esperada|- En caso de que se puedan mover todos los nodos requeridos, recibirá una comprobación superada. <br>: Si un nodo está presente en la ubicación de destino, se obtiene un error relevante. Limpie el repositorio \(elimine el nodo /var/xml\), vuelva a instalar el paquete de actualización y, a continuación, almacene en déclencheur este extremo de nuevo. <br>**Nota:** AEM Este no es un error común, ya que la ubicación de destino no se usa anteriormente en las guías de la versión 3.. <br> : si este script no se ejecuta correctamente, no continúe y genere un informe para el equipo de éxito del cliente.|
+| Punto final | /bin/dxml/upgrade/3xto4x/report |
+| --- | --- |
+| Tipo de solicitud | **GET** AEM Puede utilizar un explorador web en el que haya iniciado sesión en la instancia de la como administrador. |
+| Respuesta esperada | - En caso de que se puedan mover todos los nodos requeridos, obtendrá una comprobación superada. <br>: Si un nodo está presente en la ubicación de destino, se obtiene un error relevante. Limpie el repositorio \(elimine el nodo /var/xml\), vuelva a instalar el paquete de actualización y, a continuación, almacene en déclencheur este extremo de nuevo. <br>**Nota:** AEM Este no es un error común, ya que la ubicación de destino no se usa anteriormente en las guías de la versión 3.. <br> : Si este script no se ejecuta correctamente, no continúe y genere un informe para el equipo de éxito del cliente. |
 
 **API de migración de datos del sistema**
 
-Esta API está diseñada para migrar los datos del sistema como se menciona en la [Asignación de migración](#id2244LE040XA) sección.
+Esta API está diseñada para migrar los datos del sistema como se menciona en la **Asignación de migración** sección.
 
 1. No ejecute este script si la API Comprobar compatibilidad de actualización falla \(no continuar\).
 1. Una vez que la API de comprobación de compatibilidad de actualización devuelva un resultado correcto, puede ejecutar el script de actualización.
 
-|Punto final|/bin/dxml/upgrade/3xto4x| |Tipo de solicitud|**POST** Esta secuencia de comandos es una solicitud de POST, por lo que debe ejecutarse a través de agentes como Postman.| |Respuesta esperada|- Una vez completada la migración, puede instalar la solución de XML Documentation versión 4.0.<br>- En caso de errores, restaure al último punto de comprobación y comparta los registros de errores junto con la salida de la API con el equipo de éxito del cliente.|
+| Punto final | /bin/dxml/upgrade/3xto4x |
+| --- | --- |
+| Tipo de solicitud | **POST** Esta secuencia de comandos es una solicitud de POST, por lo que debe ejecutarse a través de agentes como Postman. |
+| Respuesta esperada | - Una vez completada la migración, puede instalar la solución de XML Documentation versión 4.0.<br>: En caso de errores, restaure al último punto de comprobación y comparta los registros de errores junto con la salida de la API con el equipo de éxito del cliente. |
 
 **Asignación de migración**: la API anterior migra todos los datos de la ubicación de origen a la ubicación de destino.
 
