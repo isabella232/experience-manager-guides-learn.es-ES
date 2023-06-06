@@ -1,7 +1,7 @@
 ---
 title: Notas de versión | Instrucciones de actualización y problemas corregidos en las guías de Adobe Experience Manager, versión de junio de 2023
 description: Obtenga información acerca de las correcciones de errores y cómo actualizar a la versión de junio de 2023 de las guías de Adobe Experience Manager as a Cloud Service
-source-git-commit: 5e1d1cef82c409a6404934d5c28a94c5b9230233
+source-git-commit: 03d90157f7169373a287f24ab666bfea634e0ca4
 workflow-type: tm+mt
 source-wordcount: '1126'
 ht-degree: 3%
@@ -103,7 +103,7 @@ AEM En esta sección se muestra la matriz de compatibilidad para las aplicacione
 
 | AEM Versión de Guides as a Cloud de | FMPS | FrameMaker |
 | --- | --- | --- |
-| 2023.05.0 | No compatible | 2022 o superior |
+| 2023.06.0 | No compatible | 2022 o superior |
 |  |  |  |
 
 
@@ -111,7 +111,7 @@ AEM En esta sección se muestra la matriz de compatibilidad para las aplicacione
 
 | AEM Versión de Guides as a Cloud de | Ventanas de conector de oxígeno | Conector de oxígeno Mac | Editar en ventanas de oxígeno | Editar en Oxygen Mac |
 | --- | --- | --- | --- | --- |
-| 2023.05.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 |
+| 2023.06.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 |
 |  |  |  |  |
 
 
