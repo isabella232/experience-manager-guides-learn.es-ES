@@ -2,9 +2,9 @@
 title: Conozca las funciones del editor web
 description: Obtenga información sobre cómo conocer las funciones del editor web
 exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
-source-git-commit: f7eea65f58927527dbd90138a653f75ee181d141
+source-git-commit: e7a34908b0e61d33469ef83683507f16ab12f0bd
 workflow-type: tm+mt
-source-wordcount: '14387'
+source-wordcount: '14919'
 ht-degree: 0%
 
 ---
@@ -161,6 +161,7 @@ Las Preferencias de usuario están disponibles para todos los autores. Con las p
 
 ![](images/user_preference_editor.PNG){width="550" align="left"}
 
+- **Usar tema del dispositivo** AEM : Marque esta casilla de verificación para permitir que las guías de la cambien automáticamente entre los temas claro y oscuro en función del tema del dispositivo.
 - **Tema**: Puede elegir entre los temas Más claro, Más claro, Oscuro u Más oscuro para el editor. En el caso del tema Más claro, las barras de herramientas y los paneles utilizan un fondo de color gris más claro. En el caso del tema Claro, las barras de herramientas y los paneles utilizan un fondo de color gris claro. En el caso del tema Más oscuro, las barras de herramientas y los paneles utilizan un fondo de color negro más oscuro. En el caso del tema Oscuro, las barras de herramientas y los paneles utilizan un fondo de color negro. En todas las temáticas, el área de edición de contenido se muestra en fondo de color blanco.
 
 - **Perfiles de carpeta**: el perfil de carpeta controla varias configuraciones relacionadas con atributos condicionales, plantillas de creación, ajustes preestablecidos de salida y las configuraciones del editor web. El perfil global se muestra de forma predeterminada. Además, si el administrador ha configurado perfiles de carpeta en el sistema, esos perfiles de carpeta también se muestran en la Lista de perfiles de carpeta.
@@ -671,9 +672,20 @@ Para agregar un archivo a su colección favorita, utilice cualquiera de los sigu
    ![](images/favorite-add-from-file-context-menu_cs.png){width="400" align="left"}
 
 
+** Menú Opciones de la colección Favoritos**\
+También puede realizar muchas acciones utilizando el menú Opciones disponible para una colección Favoritos:
+
+![](images/favorites-options.png){width="400" align="left"}
+- **Cambiar nombre**: cambie el nombre de la colección seleccionada.
+- **Eliminar**: elimine el archivo seleccionado.
+- **Actualizar**: obtenga una nueva lista de archivos y carpetas del repositorio.
+- **Ver en la IU de Assets**: muestre el contenido del archivo o la carpeta en la interfaz de usuario de Assets.
+
+
 >[!NOTE]
 >
-> Para quitar un elemento de la lista de favoritos, haga clic en el icono Opciones situado junto al archivo o la carpeta en la lista Favoritos y elija **Eliminar de Favoritos**.
+> También puede actualizar la lista con el icono Actualizar de la parte superior.
+
 
 **Vista de repositorio** - ![](images/Repository_icon.svg)
 
@@ -761,6 +773,8 @@ Verá distintas opciones en el menú Opciones en función de si selecciona un fi
 - Duplicar
 - Cierre de compra/Registro de entrada
 - Vista previa
+- Mover a
+- Cambiar nombre
 - Eliminar
 - Copiar
 - Contraer todo
@@ -784,6 +798,41 @@ Las distintas opciones del menú Opciones se explican a continuación:
 - **Previsualizar**: obtenga una vista previa rápida del archivo \(.dita/.xml\) sin abrirlo.
 
    ![](images/quick-preview_cs.png){width="800" align="left"}
+
+- **Cambiar nombre**: utilice esta opción para cambiar el nombre del archivo seleccionado. Introduzca el nombre del nuevo archivo en la **Cambiar nombre de recurso** diálogo.
+   - Puede cambiar el nombre de un archivo de cualquier tipo.
+   - No puede cambiar la extensión de un archivo.
+   - Dos archivos no pueden tener el mismo nombre. Por lo tanto, no puede cambiar el nombre de un archivo por uno que ya exista. Se muestra un error.
+
+- **Mover a**: utilice esta opción para mover el archivo seleccionado a otra carpeta.
+   - Puede escribir el nombre de la carpeta de destino o elegir **Seleccionar ruta** para seleccionar la carpeta de destino.
+   - Puede mover un archivo de cualquier tipo a cualquier destino dentro de la carpeta Contenido.
+   - Dos archivos no pueden tener el mismo nombre. Por lo tanto, no puede mover un archivo a una carpeta en la que ya existe un archivo con el mismo nombre.
+
+   Si intenta mover un archivo a una carpeta en la que existe un archivo con el mismo nombre pero con un título diferente, se muestra el cuadro de diálogo Cambiar nombre y mover archivo y debe cambiar el nombre del archivo antes de moverlo. El archivo movido en la carpeta de destino tiene el nuevo nombre de archivo.
+
+   ![](images/rename-move-asset.png){width="550" align="left"}
+
+   >[!NOTE]
+   > También puede arrastrar y soltar un archivo en otra carpeta de destino.
+
+   **Escenarios de exclusión**
+
+   AEM Las guías de usuario no permiten cambiar el nombre de un archivo ni moverlo en los siguientes casos:
+
+   - No puede mover ni cambiar el nombre de un archivo si forma parte de una revisión o de un flujo de trabajo de traducción.
+
+   - Si algún otro usuario desprotege el archivo, no puede cambiarle el nombre ni moverlo, no verá la opción Cambiar nombre o Mover a para el archivo.
+   >[!NOTE]
+   > Si el administrador le ha concedido los permisos sobre una carpeta, solo entonces la variable **Cambiar nombre** o **Mover a** se muestran las opciones de.
+
+   <details>
+    <summary> Cloud Services </summary>
+
+   Al cambiar el nombre o mover cualquier archivo, no se rompen las referencias existentes desde o hacia el archivo, ya que cada archivo tiene un UUID único.
+   </details>
+
+
 
 - **Eliminar**: utilice esta opción para eliminar el archivo seleccionado. Se muestra un mensaje de confirmación antes de eliminar el archivo.
 
@@ -1202,32 +1251,86 @@ AEM En el siguiente ejemplo se muestra cómo utilizar el esquema de asunto en la
 
    ![](images/subject-scheme-apply.png){width="650" align="left"}
 
+   **Gestión de definiciones jerárquicas de definiciones de temas y enumeraciones**
 
-**Lista desplegable Atributos**
+   AEM Además de manejar las enumeraciones y las definiciones de temas presentes en el mismo mapa, las Guías también proporcionan la función de definir enumeraciones y definiciones de temas en dos mapas separados. Puede definir la definición del asunto en un mapa y las definiciones de enumeración en otro mapa y, a continuación, añadir la referencia de mapa. Por ejemplo, el siguiente código XML crea definiciones de asunto y definiciones de enumeración en dos asignaciones independientes.
 
-También puede cambiar el valor del esquema de asunto mediante la lista desplegable Atributo del panel Propiedades de contenido en la vista Autor. Para cambiar el valor, seleccione un valor de la lista desplegable Atributo.
+   Las definiciones de los temas se definen en `subject_scheme_map_1.ditamap`
 
-![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
 
-También puede aplicar valores para un atributo seleccionando varios valores en la lista desplegable.
+   ```XML
+   <?xml version="1.0" encoding="UTF-8"?> 
+   <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
+   <subjectScheme id="subject-scheme.ditamap_f0bfda58-377b-446f-bf49-e31bc87792b3"> 
+   <title>subject_scheme_map_1</title> 
+   <subjectdef keys="os" navtitle="Operating system"> 
+   <subjectdef keys="linux" navtitle="Linux"> 
+   <subjectdef keys="redhat" navtitle="RedHat Linux"/> 
+   <subjectdef keys="suse" navtitle="SuSE Linux"/> 
+   </subjectdef> 
+   <subjectdef keys="windows" navtitle="Windows"/> 
+   <subjectdef keys="zos" navtitle="z/OS"/> 
+   </subjectdef> 
+   </subjectScheme>  
+   ```
 
-**Vista de origen**
+   La definición de la enumeración está presente en subject_scheme_map_2.ditamap
 
-También puede cambiar los valores de la lista desplegable del atributo en la vista Código fuente. La vista Código fuente también evita que agregue valores incorrectos.
+   ```XML
+   <?xml version="1.0" encoding="UTF-8"?> 
+   <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
+   <subjectScheme id="subject-scheme.ditamap_17c433d9-0558-44d4-826e-3a3373a4c5ae"> 
+   <title>subject_scheme_map_2</title> 
+   <mapref format="ditamap" href="subject_scheme_map_1.ditamap" type="subjectScheme"> 
+   </mapref> 
+   <enumerationdef> 
+   <attributedef name="platform"> 
+   </attributedef> 
+   <subjectdef keyref="os"> 
+   </subjectdef> 
+   </enumerationdef> 
+   </subjectScheme>  
+   ```
 
-![](images/subject-scheme-code-error.png){width="550" align="left"}
+   Las definiciones de los temas se definen en `subject_scheme_map_1.ditamap`  mientras que la definición de enumeración está presente en `subject_scheme_map_2.ditamap`. La referencia a `subject_scheme_map_1.ditamap` también se añade en `subject_scheme_map_2.ditamap`.
 
-**Ver y aplicar el esquema de asunto del panel Condiciones**
+   >[!NOTE]
+   >
+   > Como el `subject_scheme_map_1.ditamap` y `subject_scheme_map_2.ditamap` son referenciados entre sí, por lo que los esquemas de asunto se están resolviendo.
 
-También puede ver y aplicar el esquema de asunto desde el panel Condiciones.
+   Las referencias de enumeración de temas se resuelven en el siguiente orden de prioridad:
 
-Para ver el esquema de asunto del panel Condiciones, el administrador del sistema debe seleccionar la opción **Mostrar esquema de asunto en el panel Condiciones** en la pestaña Condición de Configuración del editor. Para obtener más información, consulte [Pestaña Condición](#id21BMNE0602V).
+   1. Mismo mapa
+   1. Mapa de referencia
 
-El panel Condiciones muestra la estructura vertical plana de las definiciones de asunto dentro del esquema de asunto.
+   Las referencias no se resuelven si la enumeración no se encuentra en el mismo mapa y en el mapa al que se hace referencia.
 
-![](images/subject-scheme-condtions-panel.png){width="300" align="left"}
 
-Puede añadir condiciones al contenido arrastrando y soltando la condición deseada en el contenido. El contenido condicional se resalta con el color definido para la condición.
+   **Lista desplegable Atributos**
+
+   También puede cambiar el valor del esquema de asunto mediante la lista desplegable Atributo del panel Propiedades de contenido en la vista Autor. Para cambiar el valor, seleccione un valor de la lista desplegable Atributo.
+
+   ![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
+
+   También puede aplicar valores para un atributo seleccionando varios valores en la lista desplegable.
+
+   **Vista de origen**
+
+   También puede cambiar los valores de la lista desplegable del atributo en la vista Código fuente. La vista Código fuente también evita que agregue valores incorrectos.
+
+   ![](images/subject-scheme-code-error.png){width="550" align="left"}
+
+   **Ver y aplicar el esquema de asunto del panel Condiciones**
+
+   También puede ver y aplicar el esquema de asunto desde el panel Condiciones.
+
+   Para ver el esquema de asunto del panel Condiciones, el administrador del sistema debe seleccionar la opción **Mostrar esquema de asunto en el panel Condiciones** en la pestaña Condición de Configuración del editor. Para obtener más información, consulte [Pestaña Condición](#id21BMNE0602V).
+
+   El panel Condiciones muestra la estructura vertical plana de las definiciones de asunto dentro del esquema de asunto.
+
+   ![](images/subject-scheme-condtions-panel.png){width="300" align="left"}
+
+   Puede añadir condiciones al contenido arrastrando y soltando la condición deseada en el contenido. El contenido condicional se resalta con el color definido para la condición.
 
 **Fragmentos** -  ![](images/insert-snippet-icon.svg)
 

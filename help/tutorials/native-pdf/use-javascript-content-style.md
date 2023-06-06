@@ -2,9 +2,9 @@
 title: Función de publicación nativa de PDF | Usar JavaScript para trabajar con contenido o estilo
 description: Aprenda a crear hojas de estilo de uso y a crear estilos para el contenido.
 exl-id: 2f301f6a-0d1c-4194-84c2-0fddaef8d3ec
-source-git-commit: e2349fc14143e5e49f8672ef1bfa48984df3b1c7
+source-git-commit: 99ca14a816630f5f0ec1dc72ba77994ffa71dff6
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '519'
 ht-degree: 1%
 
 ---
@@ -69,3 +69,35 @@ A continuación, se debe llamar a esta secuencia de comandos desde un archivo de
 La salida generada con este código y la plantilla muestran el título de la figura debajo de la imagen:
 
 <img src="./assets/fig-title-below-image.png" width="500">
+
+## Agregar una marca de agua a la salida del PDF para los borradores de documentos {#watermark-draft-document}
+
+También puede utilizar JavaScript para agregar marcas de agua condicionales. Estas marcas de agua se agregan al documento cuando se cumple la condición definida.\
+Por ejemplo, puede crear un archivo JavaScript con el siguiente código para crear una marca de agua en la salida del PDF del documento que aún no está aprobado. Esta marca de agua no aparece si genera el PDF para el documento en el estado de documento &quot;Aprobado&quot;.
+
+```css
+...
+/*
+* This file can be used to add a watermark to the PDF output
+* */
+
+window.addEventListener('DOMContentLoaded', function () {
+    var watermark = 'Draft'
+    var metaTag = document.getElementsByTagName('meta')
+    css = "@page {\n  @left-middle {\n    content: \"".concat(watermark, "\";\n    z-index: 100;\n    font-family: sans-serif;\n    font-size: 80pt;\n    font-weight: bold;\n    color: gray(0, 0.3);\n    text-align: center;\n    transform: rotate(-54.7deg);\n    position: absolute;\n    left: 0;\n    top: 0;\n    width: 100%;\n    height: 100%;\n  }\n}")
+    head = document.head || document.getElementsByTagName('head')[0], style = document.createElement('style');
+    style.appendChild(document.createTextNode(css));
+    window.pdfLayout.onBeforePagination(function () {
+        for (let i = 0; i < metaTag.length; i++) {
+            if (metaTag[i].getAttribute('name') === 'docstate' && metaTag[i].getAttribute('value') !== 'Approved') {
+                head.appendChild(style);
+            }
+        }
+    })
+});
+...
+```
+
+La salida del PDF generada con este código muestra una marca de agua *Borrador* en la portada del documento:
+
+<img src="./assets/draft-watermark.png" width="500">

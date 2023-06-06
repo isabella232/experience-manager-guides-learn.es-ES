@@ -2,9 +2,9 @@
 title: Función de publicación nativa de PDF | Diseño de una página
 description: Aprenda a diseñar el diseño de página para presentar la información en diferentes secciones de la salida del PDF.
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
-source-git-commit: a1367a6915e760e533bb984705f4be37596b5477
+source-git-commit: 6182455850fb14cc24ce6229f6e4cb2b547901b7
 workflow-type: tm+mt
-source-wordcount: '4649'
+source-wordcount: '4712'
 ht-degree: 0%
 
 ---
@@ -359,7 +359,16 @@ Existen las siguientes categorías para los campos que puede insertar en el dise
 
 Cada una de estas categorías de campos contiene diferentes variaciones en las que se puede insertar la información del campo. Por ejemplo, un campo Fecha puede tener diferentes variaciones como `YYYY-MM-DD`, `MM/DD/YY`, `MM/DD/YYYY` y demás. Del mismo modo, Número de página puede tener variaciones en forma de formatos romanos, decimales o incluso específicos de la configuración regional, como _Árabe_, _Devanagari_, _Hebreo_, y más.
 
-Además de los campos predefinidos, también puede agregar información de metadatos como variables o campos en el diseño de página. Estos metadatos se almacenan en el contenido del mapa DITA de origen y se pueden insertar fácilmente en el diseño de página. <!--For more information, see [Add fields and metadata](design-page-layout.md#add-fields-and-metadata).-->
+Además de los campos predefinidos, también puede agregar información de metadatos como variables o campos en el diseño de página. Estos metadatos se almacenan en el contenido del mapa DITA de origen y se pueden insertar fácilmente en el diseño de página.
+
+También puede seleccionar las propiedades de los metadatos entre los recursos y agregarlas al diseño de página. Los metadatos del recurso se publican para la salida del PDF. Estas propiedades de metadatos de los recursos se establecen desde el **Propiedades** del mapa DITA o del fichero bookmap.
+
+>[!NOTE]
+>
+> Los campos de metadatos se muestran según la selección del recurso o el mapa en la **Desde** desplegable.
+
+
+<!--For more information, see [Add fields and metadata](design-page-layout.md#add-fields-and-metadata).-->
 
 En el siguiente ejemplo, insertaremos un número de página y un título de capítulo en el área de pie de página de un diseño de página.
 

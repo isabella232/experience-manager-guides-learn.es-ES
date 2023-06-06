@@ -1,7 +1,8 @@
 ---
 title: Notas de versión | Instrucciones de actualización y problemas corregidos en la versión 4.2.1 de Adobe Experience Manager Guides
 description: Obtenga información acerca de las correcciones de errores y cómo actualizar a las versiones 4.2.1 de las guías de Adobe Experience Manager
-source-git-commit: 7fdbf99a1224124d63acaebc626e3b09475f3096
+exl-id: 19b23164-4a07-4748-a8c4-1760bfdb2ca6
+source-git-commit: 6d7b17709e7a17c30b544a7f3f3707328431aac0
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 5%
@@ -10,7 +11,7 @@ ht-degree: 5%
 
 # Versión 4.2.1 de Adobe Experience Manager Guides (mayo de 2023)
 
-Esta nota de la versión cubre las instrucciones de actualización, la matriz de compatibilidad y la versión de problemas corregidos 4.2.1 de Adobe Experience Manager Guides (más adelante denominada *AEM Guías de*).
+Esta nota de la versión cubre las instrucciones de actualización, la matriz de compatibilidad y los problemas corregidos en la versión 4.2.1 de las guías de Adobe Experience Manager (más adelante denominada *AEM Guías de*).
 
 Para obtener más información sobre las nuevas funciones y mejoras, consulte [Novedades de la versión 4.2.1 de las guías de Adobe Experience Manager](whats-new-4.2.1-release.md).
 
@@ -110,5 +111,3 @@ A continuación se enumeran los errores corregidos en varias áreas:
 ### Revisión
 
 * La revisión completada no se abre en modo de solo lectura. (11387)
-
-

@@ -2,9 +2,9 @@
 user-guide-title: Tutoriales para AEM Guides
 user-guide-description: Lea nuestra colección de tutoriales para Adobe Experience Manager Guides.
 breadcrumb-title: Tutoriales de AEM Guides
-source-git-commit: 12b37bd34dd066b92d932967c755480092935016
+source-git-commit: fa8b9cf3af0443ff8a830b0393c66f5804593deb
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1067'
 ht-degree: 6%
 
 ---
@@ -18,10 +18,19 @@ ht-degree: 6%
    + Notas de la versión {#release-notes}
       + Cloud Services{#cloud-release-notes}
          + [Instrucciones de implementación](./release-info/deploy-xml-on-aemaacs.md)
-         + Versiones de 2023{#2023-releases}
-            + [Notas de la versión actual](./release-info/release-notes-2023.4.0.md)
-            + [Notas de la versión de marzo](./release-info/release-notes-2023.3.0.md)
-            + [Notas de la versión de febrero](./release-info/release-notes-2023.2.0.md)
+         + Versiones de 2023 {#2023-releases}
+            + Versión de junio {#2306-release}
+               + [¿Qué hay de nuevo?](./release-info/whats-new-2023.6.0.md)
+               + [Notas de la versión](./release-info/release-notes-2023.6.0.md)
+            + Versión de abril {#2304-release}
+               + [¿Qué hay de nuevo?](./release-info/whats-new-2023.4.0.md)
+               + [Notas de la versión](./release-info/release-notes-2023.4.0.md)
+            + Versión de marzo {#2303-release}
+               + [¿Qué hay de nuevo?](./release-info/whats-new-2023.3.0.md)
+               + [Notas de la versión](./release-info/release-notes-2023.3.0.md)
+            + Versión de febrero {#2302-release}
+               + [¿Qué hay de nuevo?](./release-info/whats-new-2023.2.0.md)
+               + [Notas de la versión](./release-info/release-notes-2023.2.0.md)
          + Versiones de 2022 {#2022-releases}
             + [Notas de la versión de noviembre](./release-info/release-notes-2022.11.0.md)
             + [Notas de la versión de octubre](./release-info/release-notes-2022.10.0.md)
@@ -43,15 +52,13 @@ ht-degree: 6%
          + [Notas de la versión 4.1.x](./release-info/release-notes-4.1.md)
          + [Notas de la versión 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
          + [Notas de la versión 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
-+ Artículos ocultos {#hidden}
-   + [Uso del conector de oxígeno](./oxygen-connector/use-aem-connector.md)
 + Guía del usuario {#user-guide}
    + [Exención de responsabilidad](./user-guide/rebranding-disclaimer.md)
    + Introducción {#about-aem-guide}
-      + [Acerca de las guías de Adobe Experience Manager](./user-guide/intro.md)
-      + AEM Guías de trabajo y características clave de la {#aemg-works-features}
-         + [AEM Cómo funcionan las guías de](./user-guide/intro-how-dxml-works.md)
-         + [AEM Características principales de las guías de](./user-guide/intro-dxml-features.md)
+      + [Acerca de [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
+      + [!DNL AEM Guides] funcionamiento y características principales {#aemg-works-features}
+         + [Cómo [!DNL AEM Guides] obras](./user-guide/intro-how-dxml-works.md)
+         + [Clave [!DNL AEM Guides] características](./user-guide/intro-dxml-features.md)
    + Administrar contenido {#manage-content}
       + [Conceptos clave, funciones y permisos, y requisitos previos](./user-guide/authoring.md)
       + [Cargar archivos](./user-guide/authoring-upload-existing-files.md)
@@ -73,6 +80,7 @@ ht-degree: 6%
                + [Métodos abreviados de teclado en el Editor Web](./user-guide/web-editor-keyboard-shortcuts.md)
                + [Otras funciones del editor web](./user-guide/web-editor-other-features.md)
                + [Vistas del Editor web](./user-guide/web-editor-views.md)
+               + [Compatibilidad con archivos de Schematron](./user-guide/support-schematron-file.md)
                + [Creación de documentos de Markdown desde el editor web](./user-guide/web-editor-markdown-topic.md)
                + [Administrar ajustes preestablecidos de salida del perfil global y de carpeta](./user-guide/web-editor-manage-output-presets.md)
                + Publicación basada en artículos {#article-based-pub}
@@ -89,7 +97,7 @@ ht-degree: 6%
                + [Creación de un mapa](./user-guide/map-editor-create-map.md)
                + [Creación de mapas basados en plantillas personalizadas](./user-guide/create-maps-customized-templates.md)
                + [Trabajo con el Editor de mapas avanzado](./user-guide/map-editor-advanced-map-editor.md)
-               + [Trabajo con el Editor de mapas básico](./user-guide/map-editor-basic-map-editor.md)
+               + [Trabajo con el editor de mapas básico](./user-guide/map-editor-basic-map-editor.md)
                + [Otras funciones de los editores de mapas](./user-guide/map-editor-other-features.md)
             + Editor DITAVAL {#ditaval-editor}
                + [Trabajo con el editor DITAVAL](./user-guide/ditaval-editor.md)
@@ -166,24 +174,25 @@ ht-degree: 6%
    + On-Premise {#on-prem-ig}
       + [Exención de responsabilidad](./install-guide/rebranding-disclaimer.md)
       + [Acerca de esta guía](./install-guide/introduction.md)
-      + Descargar e instalar {#download-install-aemg}
+      + Descargar, instalar y actualizar {#download-install-upgrade-aemg}
          + [Información general](./install-guide/download-install.md)
          + [Requisitos técnicos](./install-guide/download-install-technical-requirements.md)
          + [Instalación de Adobe Experience Manager](./install-guide/download-install-aem.md)
          + [AEM Descargar e instalar guías de la comunidad de usuarios por primera vez](./install-guide/download-install-aemg-first-time.md)
          + [Configurar Dispatcher](./install-guide/download-install-configure-dispatcher.md)
          + [AEM Verificar la instalación de guías de](./install-guide/download-install-verify-aemg-installation.md)
-         + [Actualizar guías de Adobe Experience Manager](./install-guide/upgrade-xml-documentation.md)
+         + [AEM Guías de actualización](./install-guide/upgrade-xml-documentation.md)
          + [AEM Desinstalación de guías de](./install-guide/download-install-unistall-aemg.md)
          + [Recommendations para la optimización del rendimiento](./install-guide/download-install-recommend-perf-optimiz.md)
-      + [Migración de contenido de no UUID a UUID](./install-guide/migrate-uuid-non-uuid.md)
-      + [Administración de usuarios y seguridad](./install-guide/user-admin-sec.md)
-      + [Utilizar la especialización personalizada DITA-OT y DITA](./install-guide/dita-ot-specialization.md)
-      + [Configuración de estados de documento](./install-guide/customize-doc-state.md)
+      + Trabajo con grupos de usuarios y seguridad {#user-group-sec}
+         + [Administración de usuarios y seguridad](./install-guide/user-admin-sec.md)
       + Migración de contenido {#content-migration}
+         + [Migración de contenido de no UUID a UUID](./install-guide/migrate-uuid-non-uuid.md)
          + [Migrar contenido existente](./install-guide/migrate-content.md)
          + [Cargar contenido DITA existente](./install-guide/migrate-content-upload-existing-dita-content.md)
          + [Migración de contenido no DITA](./install-guide/migrate-content-non-dita.md)
+      + Trabajo con DITA-OT y especialización personalizadas {#custom-dita-ot-spec}
+         + [Utilizar la especialización personalizada DITA-OT y DITA](./install-guide/dita-ot-specialization.md)
       + Configurar nombres de archivo basados en UUID y no en UUID {#conf-non-uuid-filename}
          + [Configurar nombres de archivo](./install-guide/conf-file-names.md)
          + [Configurar nombres de archivo automáticos basados en UUID](./install-guide/conf-auto-uuid-filenames.md)
@@ -193,46 +202,53 @@ ht-degree: 6%
          + [Configuración de plantillas de temas y mapas](./install-guide/conf-template-tags.md)
          + [Configurar plantilla de tema DITA personalizada](./install-guide/conf-template-tags-custom-dita-topic-template.md)
          + [Configuración de una plantilla de mapa DITA personalizada](./install-guide/conf-template-tags-custom-dita-map-templates.md)
+      + Trabajar con estados de documento {#doc-state}
+         + [Configuración de estados de documento](./install-guide/customize-doc-state.md)
       + Trabajar con las configuraciones del editor web {#web-editor-configs}
-      + [Personalizar editor web](./install-guide/conf-web-editor.md)
-      + [Personalizar barra de herramientas](./install-guide/conf-web-editor-customize-toolbar.md)
-      + [Configurar el valor predeterminado para la vista de etiquetas](./install-guide/configure-default-value-tags-view.md)
-      + [Configurar la visualización de vínculos basados en UUID](./install-guide/conf-uuid-based-links.md)
-      + [Abrir un tema DITA o archivos de asignación en la misma ficha](./install-guide/open-dita-files-same-tab.md)
-      + [Configurar un panel personalizado en el panel izquierdo](./install-guide/configure-custom-panel.md)
-      + [Configurar el guardado automático de archivos en el Editor web](./install-guide/auto-save-in-editor.md)
-      + [Configurar filtros para cuadro de diálogo de exploración de archivos](./install-guide/conf-custom-file-filters.md)
-      + [Configurar mensaje para guardar como nueva versión al cerrar](./install-guide/conf-save-as-new-version-close.md)
-      + [Configurar la solicitud para proteger un archivo al cerrar](./install-guide/conf-checkin-file-close.md)
-      + [Configurar los caracteres especiales permitidos](./install-guide/conf-special-chars.md)
-      + [Generar automáticamente ID de elementos](./install-guide/auto-generate-ids.md)
-      + [AEM Personalizar diccionario predeterminado](./install-guide/customize-aem-custom-dictionary.md)
-      + [Configuración de filtros de texto](./install-guide/config-text-filters.md)
-      + [Configuración del número de LimitReads de una consulta](./install-guide/conf-query-limitreads.md)
-      + [Instalación de paquetes para la publicación basada en artículos](./install-guide/configure-article-based-publishing.md)
-      + [Establecer el Editor de mapas avanzado como predeterminado](./install-guide/conf-map-editor.md)
-      + [Incluir @navtitle atributo de forma predeterminada](./install-guide/auto-add-navtitle.md)
-      + [Configuración de perfiles globales o de nivel de carpeta](./install-guide/conf-folder-level.md)
-      + [Administración de versiones](./install-guide/version-management.md)
-      + [Integración de editores XML basados en escritorio](./install-guide/integrate-desktop-editors.md)
-      + [Configuración de la generación de salida](./install-guide/conf-output-generation.md)
-      + [Configuración y personalización de flujos de trabajo](./install-guide/customize-workflows.md)
-      + [Traducir contenido](./install-guide/translation.md)
-      + [Configuración de la búsqueda para la IU de AEM Assets](./install-guide/conf-dita-search.md)
+         + [Personalizar editor web](./install-guide/conf-web-editor.md)
+         + [Personalizar barra de herramientas](./install-guide/conf-web-editor-customize-toolbar.md)
+         + [Configurar el valor predeterminado para la vista de etiquetas](./install-guide/configure-default-value-tags-view.md)
+         + [Configurar la visualización de vínculos basados en UUID](./install-guide/conf-uuid-based-links.md)
+         + [Abrir un tema DITA o archivos de asignación en la misma ficha](./install-guide/open-dita-files-same-tab.md)
+         + [Configurar un panel personalizado en el panel izquierdo](./install-guide/configure-custom-panel.md)
+         + [Configurar el guardado automático de archivos en el Editor web](./install-guide/auto-save-in-editor.md)
+         + [Configurar filtros para cuadro de diálogo de exploración de archivos](./install-guide/conf-custom-file-filters.md)
+         + [Configurar mensaje para guardar como nueva versión al cerrar](./install-guide/conf-save-as-new-version-close.md)
+         + [Configurar la solicitud para proteger un archivo al cerrar](./install-guide/conf-checkin-file-close.md)
+         + [Configurar los caracteres especiales permitidos](./install-guide/conf-special-chars.md)
+         + [Generar automáticamente ID de elementos](./install-guide/auto-generate-ids.md)
+         + [AEM Personalizar diccionario predeterminado](./install-guide/customize-aem-custom-dictionary.md)
+         + [Configuración de filtros de texto](./install-guide/config-text-filters.md)
+         + [Configuración del número de LimitReads de una consulta](./install-guide/conf-query-limitreads.md)
+         + [Instalación de paquetes para la publicación basada en artículos](./install-guide/configure-article-based-publishing.md)
+         + [Establecer el Editor de mapas avanzado como predeterminado](./install-guide/conf-map-editor.md)
+         + [Incluir @navtitle atributo de forma predeterminada](./install-guide/auto-add-navtitle.md)
+      + Trabajo con perfiles globales y de nivel de carpeta {#global-folder-profiles}
+         + [Configuración de perfiles globales o de nivel de carpeta](./install-guide/conf-folder-level.md)
+      + Configuración de versiones {#version-mgt}
+         + [Administración de versiones](./install-guide/version-management.md)
+      + Trabajar con editores XML basados en escritorio {#desktop-xml-editor}
+         + [Integración de editores XML basados en escritorio](./install-guide/integrate-desktop-editors.md)
+      + Trabajar con configuración de generación de resultados {#output-gen-config}
+         + [Configuración de la generación de salida](./install-guide/conf-output-generation.md)
+         + Publicación de PDF nativa {#config-native-pdf-publish}
+            + [Plantilla de PDF](./native-pdf/pdf-template.md)
+            + [Componentes de una plantilla de PDF](./native-pdf/components-pdf-template.md)
+            + [Diseño de una página](./native-pdf/design-page-layout.md)
+            + Estilos de contenido comunes {#content-styles}
+               + [Trabajar con los estilos de contenido comunes](./native-pdf/stylesheet.md)
+               + [Trabajar con estilos de barras de cambios personalizados](./native-pdf/change-bar-style.md)
+               + [Aplicar un estilo personalizado a las entradas del índice y al contenido del tema](./native-pdf/custom-style-toc.md)
+               + [Añadir un marcador personalizado en la salida del PDF](./native-pdf/add-custom-bookmark.md)
+               + [Usar JavaScript para trabajar con contenido o estilo](./native-pdf/use-javascript-content-style.md)
+               + [Usar estilos personalizados en las notas al pie](./native-pdf/footnote-number-style.md)
+      + Trabajo con flujos de trabajo personalizados {#custom-workflow}
+         + [Configuración y personalización de flujos de trabajo](./install-guide/customize-workflows.md)
+      + Trabajo con configuraciones de traducción {#translate-config}
+         + [Traducir contenido](./install-guide/translation.md)
+      + Trabajo con la búsqueda de AEM Assets {#aem-asset-search}
+         + [Configuración de la búsqueda para la IU de AEM Assets](./install-guide/conf-dita-search.md)
       + [Apéndice](./install-guide/appendix.md)
-+ Configurar {#configuring}
-   + Publicación de PDF nativa {#config-native-pdf-publish}
-      + [Plantilla de PDF](./native-pdf/pdf-template.md)
-      + [Componentes de una plantilla de PDF](./native-pdf/components-pdf-template.md)
-      + [Diseño de una página](./native-pdf/design-page-layout.md)
-      + Estilos de contenido comunes {#content-styles}
-         + [Trabajar con los estilos de contenido comunes](./native-pdf/stylesheet.md)
-         + [Trabajar con estilos de barras de cambios personalizados](./native-pdf/change-bar-style.md)
-         + [Aplicar un estilo personalizado a las entradas del índice y al contenido del tema](./native-pdf/custom-style-toc.md)
-         + [Añadir un marcador personalizado en la salida del PDF](./native-pdf/add-custom-bookmark.md)
-         + [Usar JavaScript para trabajar con contenido o estilo](./native-pdf/use-javascript-content-style.md)
-         + [Usar estilos personalizados en las notas al pie](./native-pdf/footnote-number-style.md)
-+ Versiones {#versioning}
 + Base de conocimiento {#knowledge-base}
    + Sesión de expertos {#expert-session}
       + [Resumen de sesión de expertos](./knowledge-base/expert-sessions/expert-session.md)
@@ -264,3 +280,5 @@ ht-degree: 6%
       + Casos de uso {#use-cases}
          + [Trabajo con contenido condicional](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
          + [Uso de claves](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
++ Artículos ocultos {#hidden}
+   + [Uso del conector de oxígeno](./oxygen-connector/use-aem-connector.md)
