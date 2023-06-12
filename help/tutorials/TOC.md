@@ -2,9 +2,9 @@
 user-guide-title: Tutoriales para AEM Guides
 user-guide-description: Lea nuestra colección de tutoriales para Adobe Experience Manager Guides.
 breadcrumb-title: Tutoriales de AEM Guides
-source-git-commit: fa8b9cf3af0443ff8a830b0393c66f5804593deb
+source-git-commit: ce65f05c61b81115d9032e429419265e4b4574fd
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1072'
 ht-degree: 6%
 
 ---
@@ -97,7 +97,7 @@ ht-degree: 6%
                + [Creación de un mapa](./user-guide/map-editor-create-map.md)
                + [Creación de mapas basados en plantillas personalizadas](./user-guide/create-maps-customized-templates.md)
                + [Trabajo con el Editor de mapas avanzado](./user-guide/map-editor-advanced-map-editor.md)
-               + [Trabajo con el editor de mapas básico](./user-guide/map-editor-basic-map-editor.md)
+               + [Trabajo con el Editor de mapas básico](./user-guide/map-editor-basic-map-editor.md)
                + [Otras funciones de los editores de mapas](./user-guide/map-editor-other-features.md)
             + Editor DITAVAL {#ditaval-editor}
                + [Trabajo con el editor DITAVAL](./user-guide/ditaval-editor.md)
@@ -272,6 +272,7 @@ ht-degree: 6%
          + [FMPS y guías](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          + [Arquitectura y rendimiento de microservicios](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          + [Configuración de la publicación basada en microservicios](./knowledge-base/publishing/configure-microservices.md)
+         + [AEM Publicación de puntos de referencia en la nube de](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
          + [Configuración de una DITA-OT personalizada](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
       + Flujos de trabajo {#workflows}
          + [Flujo de trabajo de generación posterior](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
