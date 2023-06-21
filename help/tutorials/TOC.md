@@ -2,9 +2,9 @@
 user-guide-title: Tutoriales para AEM Guides
 user-guide-description: Lea nuestra colección de tutoriales para Adobe Experience Manager Guides.
 breadcrumb-title: Tutoriales de AEM Guides
-source-git-commit: ce65f05c61b81115d9032e429419265e4b4574fd
+source-git-commit: fb746eb58a53cf175f7af9a7aabd495f2e017d9b
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1079'
 ht-degree: 6%
 
 ---
@@ -154,7 +154,7 @@ ht-degree: 6%
          + [Activar salida](./user-guide/conf-bulk-activation-publish-map-collection.md)
          + [Edición de una colección de mapas de activación masiva](./user-guide/conf-bulk-activation-edit-map-collection.md)
          + [Eliminar una colección de mapas de activación masiva](./user-guide/conf-bulk-activation-delete-map-collection.md)
-   + Generación de salida de documentos de FrameMaker {#generate-fm-output}
+   + Generación de salida de documentos FrameMaker {#generate-fm-output}
       + [Generar salida de documentos de FrameMaker](./user-guide/fm-output-generatation.md)
       + Ajustes preestablecidos admitidos {#fm-docs-generating-presets}
          + [Ajustes preestablecidos para generar documentos de FrameMaker](./user-guide/fm-output-understand-presets.md)
@@ -261,6 +261,8 @@ ht-degree: 6%
       + [Publicación de PDF nativos de aprendizaje - parte 1](./knowledge-base/expert-sessions/native-pdf-publishing-eamples-part1-june2023.md)
    + Artículos {#kb-articles}
       + Creación {#authoring}
+         + Informes {#reports}
+            + [Administrar metadatos para el contenido DITA](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
          + Webeditor {#webeditor}
             + Personalización {#customizing}
                + [Agregar botón personalizado a la barra de herramientas](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
