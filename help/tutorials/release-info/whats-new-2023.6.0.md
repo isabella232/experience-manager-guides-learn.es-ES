@@ -1,9 +1,10 @@
 ---
 title: Notas de versión | Novedades de la versión de junio de 2023 de las guías de Adobe Experience Manager
 description: Conozca las funciones nuevas y mejoradas de la versión de junio de 2023 de las guías de Adobe Experience Manager as a Cloud Service
-source-git-commit: 5670b4a8f34916c7ff415680c5ddcfab6e9618e6
+exl-id: ff6ac4a4-76a3-4b41-9da7-6a888de0eca5
+source-git-commit: f6794078e760565f5934faf63a7cbfb919acce90
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1127'
 ht-degree: 0%
 
 ---
@@ -39,9 +40,15 @@ Ahora puede agregar una marca de agua a la salida del PDF del documento que aún
 
 Para obtener más información, consulte [Agregar una marca de agua a la salida del PDF para los borradores de documentos](../native-pdf/use-javascript-content-style.md#watermark-draft-document).
 
-### Compatibilidad con variables de idioma en elementos DITA
+### Compatibilidad con variables Language en elementos DITA
 
-AEM Guías de proporciona compatibilidad con las variables de idioma. Estas variables son muy útiles para generar cadenas localizadas para elementos como nota, sugerencia, advertencia y precaución. Por ejemplo, puede tener las siguientes formas de presentar la NOTA en la salida del PDF: Alemán: Notiz Español: Nota
+AEM Guías de proporciona compatibilidad con las variables de idioma. Estas variables son muy útiles para generar cadenas localizadas para elementos como nota, sugerencia, advertencia y precaución.
+Por ejemplo, puede tener las siguientes formas de presentar la NOTA en la salida del PDF:
+
+Alemán: Notiz
+
+Español: Nota
+
 
 ### Compatibilidad con variables de idioma en el pie de página
 
@@ -51,10 +58,13 @@ También puede utilizarlo para presentar los números en varios idiomas.
 ### Prefijos localizados para el índice
 
 También tiene la función de mostrar términos localizados que se utilizarán para presentar los prefijos en los encabezados.
-Por ejemplo, puede tener las siguientes formas de presentar el prefijo &quot;Chapter&quot; en la salida del PDF: German: Kapitel Spanish: Capítulo
+Por ejemplo, puede tener las siguientes formas de presentar el prefijo &quot;Chapter&quot; en la salida del PDF:
+
+Alemán: Kapitel
+
+Español: Capítulo
 
 ### AEM Posibilidad de utilizar metadatos de en diseños de PDF
-
 
 Los metadatos son la descripción o definición del contenido. Estos metadatos se almacenan en el contenido del mapa DITA de origen.
 
@@ -76,7 +86,7 @@ Para obtener más información, consulte [Añadir campos y metadatos](../native-
 
 AEM Guías de informes ahora también admite las instrucciones de informe con Schematron. Una instrucción de informe genera un mensaje cuando una instrucción de prueba se evalúa como verdadera. Por ejemplo, si desea que la descripción breve tenga menos de 150 caracteres o menos, puede definir una instrucción de informe para comprobar los temas en los que la descripción breve tenga más de 150 caracteres.
 
-Para obtener más información, consulte [Usar instrucciones Assert y Report para comprobar las reglas](../user-guide/support-schematron-file.md#schematron-assert-report).
+Para obtener más información, consulte [Usar instrucciones de aserción e informe para comprobar las reglas](../user-guide/support-schematron-file.md#schematron-assert-report).
 
 ### Uso de expresiones Regex
 

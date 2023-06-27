@@ -1,13 +1,13 @@
 ---
 title: Compatibilidad con archivos de Schematron
 description: Obtenga información sobre cómo validar los temas con el script
-source-git-commit: 5ad78d32cbfa1c913866fae5dafe97dc8f01139c
+exl-id: e5912fa1-af26-42f4-b5e5-a6d2afd45bc8
+source-git-commit: f6794078e760565f5934faf63a7cbfb919acce90
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 0%
 
 ---
-
 
 # Compatibilidad con archivos de Schematron
 
@@ -55,7 +55,7 @@ Cuando se abre un tema en el Editor Web, aparece un panel Validación de Schemat
 
 La compatibilidad con Schematron en el Editor Web le ayuda a validar los archivos con un conjunto de reglas y a mantener la coherencia y corrección en todos los temas.
 
-## Usar instrucciones Assert y Report para comprobar las reglas{#schematron-assert-report}
+## Usar instrucciones de aserción e informe para comprobar las reglas{#schematron-assert-report}
 
 AEM Las guías de la aplicación también admiten las instrucciones Assert y Report de Schematron. Estas instrucciones le ayudan a validar los temas DITA.
 
@@ -146,10 +146,3 @@ You have <sch:value-of select="$words"/> letters. This should be greater than <s
 
 </sch:pattern> 
 ```
-
-
-
-
-
-
-

@@ -2,9 +2,9 @@
 title: Usar la colección de mapas para generar resultados
 description: Obtenga información sobre cómo utilizar la colección de mapas para la generación de resultados
 exl-id: 32e3af6c-9670-42cc-8dbe-9f99fbc60adf
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 22f88ae4097a6067ed65a963ad6765f6f8c24f36
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '898'
 ht-degree: 1%
 
 ---
@@ -66,15 +66,26 @@ Las siguientes opciones de filtrado y detalles de asignación se muestran en la 
 
 Para configurar y generar la salida mediante una colección de mapas, realice los siguientes pasos:
 
-1. Abra la colección Mapa.
+1. AEM Abra la colección de mapas. Puede ver los distintos ajustes preestablecidos de salida, como el sitio de la, el PDF (incluido el PDF nativo), el HTML 5, el EPUB y los ajustes preestablecidos personalizados. También puede ver los ajustes preestablecidos de perfil global y de carpeta creados por el administrador.
+
+   El ![](images/global-preset-icon.svg) El icono indica un ajuste preestablecido de nivel de perfil de carpeta.
 1. \(Opcional\) Realice cualquiera de las siguientes acciones según sus necesidades:
    - Aplique filtros desde el carril izquierdo para filtrar los mapas modificados, los ajustes preestablecidos de salida o el idioma.
    - Si es necesario, haga clic en **Editar** y active o desactive el botón deslizante para cambiar la salida deseada.
+
+
+
+     >[!NOTE]
+     >  
+     > De forma predeterminada, cualquier ajuste preestablecido nuevo está desactivado.
+
+   - Puede seleccionar **Habilitar/deshabilitar todos los ajustes preestablecidos de perfil de carpeta** para que un mapa DITA seleccione todos los perfiles de carpeta de una sola vez.
+
+
 1. Realice una de las siguientes acciones:
 
    - Para generar la salida de las asignaciones seleccionadas, seleccione los archivos de asignación y haga clic en **Generar seleccionados**.
    - Para generar la salida de todos los mapas DITA con los ajustes preestablecidos configurados, pulse en **Generar todo**.
-
    >[!IMPORTANT]
    >
    > Si un proceso de generación de salida para un ajuste preestablecido o un mapa DITA está en cola o en curso, no se puede iniciar otra tarea de generación de salida para el mismo ajuste preestablecido o mapa.
@@ -85,7 +96,7 @@ Para configurar y generar la salida mediante una colección de mapas, realice lo
 - Para eliminar una colección de mapas, seleccione una colección en la página Colección de mapas y haga clic en **Eliminar**.
 - Para eliminar un mapa DITA de una colección de mapas, abra la colección de mapas en el modo Edición, seleccione el fichero de mapa DITA y pulse en **Quitar de la colección**.
 
-   De esta forma, también se eliminarán los ajustes preestablecidos o configuraciones regionales asociados al mapa DITA de la recopilación de mapas.
+  De esta forma, también se eliminarán los ajustes preestablecidos o configuraciones regionales asociados al mapa DITA de la recopilación de mapas.
 
 
 ## Cancelar una tarea de generación de resultados de una colección de mapas

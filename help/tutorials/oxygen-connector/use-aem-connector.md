@@ -4,9 +4,9 @@ description: Aprenda a utilizar el complemento Oxygen para las guías de Adobe E
 hide: true
 hidefromtoc: true
 exl-id: 2db9a34e-2efa-47ad-ba6b-02afc5197669
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: ee4722ed92d1b1a59e8baea583517a4470f558c9
 workflow-type: tm+mt
-source-wordcount: '5762'
+source-wordcount: '5885'
 ht-degree: 1%
 
 ---
@@ -212,19 +212,19 @@ Realice los siguientes pasos para configurar las opciones de conexión en el com
 1. Especifique los siguientes detalles:
    - **URL del servidor** AEM : URL del servidor de, por ejemplo:
 
-      ```http
-      http[s]://<host>:<port>
-      ```
+     ```http
+     http[s]://<host>:<port>
+     ```
 
-      AEM En la URL anterior, especifique el nombre de host y el puerto del servidor en el que está implementado el servidor de la unidad de administración de datos ().
+     AEM En la URL anterior, especifique el nombre de host y el puerto del servidor en el que está implementado el servidor de la unidad de administración de datos ().
 
-      >[!IMPORTANT]
-      >
-      >AEM Si el servidor de está implementado en el puerto 80 o 443, no es necesario especificarlo en la dirección URL.
+     >[!IMPORTANT]
+     >
+     >AEM Si el servidor de está implementado en el puerto 80 o 443, no es necesario especificarlo en la dirección URL.
 
    - **Autenticación:** Elegir entre **Básico \(Nombre de usuario/Contraseña\)** o **Autenticación web**. En caso de seleccionar **Básico** autenticación debe introducir el **Nombre de usuario** y **Contraseña** en el cuadro de diálogo Preferencias.
 
-      AEM Si selecciona Autenticación web, aparecerá la pantalla Inicio de sesión de la sesión de la página de inicio de sesión de la página de la aplicación. Introduzca sus credenciales de inicio de sesión y haga clic en **Iniciar sesión** botón. AEM AEM AEM Cuando el inicio de sesión se realiza correctamente, la pantalla Inicio de sesión de la se cierra y el panel Guías de la muestra la lista de archivos del servidor.
+     AEM Si selecciona Autenticación web, aparecerá la pantalla Inicio de sesión de la sesión de la página de inicio de sesión de la página de la aplicación. Introduzca sus credenciales de inicio de sesión y haga clic en **Iniciar sesión** botón. AEM AEM AEM Cuando el inicio de sesión se realiza correctamente, la pantalla Inicio de sesión de la se cierra y el panel Guías de la muestra la lista de archivos del servidor.
 
    - **Tiempo de espera de conexión** AEM : especifique el tiempo en segundos que el cliente esperará una respuesta del servidor de. Si no se recibe ninguna respuesta del servidor en el tiempo especificado, se finaliza la solicitud. El valor predeterminado es 20 segundos.
 
@@ -256,7 +256,7 @@ Siga estos pasos para configurar los atributos de generación de perfiles:
 - Clic **Elegir** junto al **Editor de valores de atributos personalizados de autor** bajo **Extensiones individuales** y seleccione CustomValueEditor - com.adobe.o2.framework.extn en la **Clase** lista. Haga clic en **Aceptar**.
 La siguiente captura de pantalla muestra el **Extensión** Ficha para temas de DITA:
 
-   ![](images/dita-topic-extension-tab.png)
+  ![](images/dita-topic-extension-tab.png)
 
 1. Clic **OK** en todos los cuadros de diálogo para guardar los cambios.
 
@@ -275,11 +275,11 @@ Siga estos pasos para configurar la extensión de mapa DITA:
 - Clic **Elegir** junto al **Editor de valores de atributos personalizados de autor** bajo **Extensiones individuales** y seleccione CustomValueEditor - com.adobe.o2.framework.extn en la **Clase** lista. Haga clic en **Aceptar**.
 - *\(Opcional\)* Si no desea resolver las referencias al abrir un archivo de asignación, debe realizar la siguiente configuración adicional:
 
-   Clic **Elegir** junto al **Resolución de referencias** bajo **Extensiones individuales** y seleccione CustomDITAMapReferenceResolver - com.adobe.o2.framework.extn en el **Clase** lista. Haga clic en **Aceptar**.
+  Clic **Elegir** junto al **Resolución de referencias** bajo **Extensiones individuales** y seleccione CustomDITAMapReferenceResolver - com.adobe.o2.framework.extn en el **Clase** lista. Haga clic en **Aceptar**.
 
-   La siguiente captura de pantalla muestra el **Extensión** pestaña:
+  La siguiente captura de pantalla muestra el **Extensión** pestaña:
 
-   ![](images/dita-map-extension-tab.png)
+  ![](images/dita-map-extension-tab.png)
 
 1. Clic **OK** en todos los cuadros de diálogo para guardar los cambios.
 
@@ -302,9 +302,9 @@ AEM En la siguiente pantalla se muestra el panel Guías de.
 - **Connect** AEM : seleccione esta opción para conectarse al servidor de la. AEM La opción se desactiva cuando Oxygen XML Author está conectado al servidor de la.
 - **Actualizar** AEM : seleccione esta opción para obtener el estado más reciente de los archivos y la carpeta del repositorio de.
 
-   >[!NOTE]
-   >
-   >Asegúrese de guardar los archivos antes de actualizarlos. Al seleccionar **Actualizar** , recibirá una advertencia para guardar los archivos antes de actualizarlos. Si no ha guardado los archivos, puede hacer clic en **Cancelar** y los salvas.
+  >[!NOTE]
+  >
+  >Asegúrese de guardar los archivos antes de actualizarlos. Al seleccionar **Actualizar** , recibirá una advertencia para guardar los archivos antes de actualizarlos. Si no ha guardado los archivos, puede hacer clic en **Cancelar** y los salvas.
 
 - **Configuración**: Puede utilizar esta opción para abrir el cuadro de diálogo Preferencias generales del complemento.
 - **Cerrar sesión** AEM : seleccione esta opción para cerrar la conexión con el servidor de. Esta opción solo está disponible si utiliza el modo Autenticación web.
@@ -418,6 +418,16 @@ AEM Cuando se protege un archivo, la copia local del sistema se almacena en el r
    >[!NOTE]
    >
    >AEM Este comentario se muestra en el historial de versiones del archivo en el que se ha realizado la.
+1. Añadir etiqueta(s) en **Etiqueta** cuadro de texto. Introduzca una etiqueta y pulse Intro. Por ejemplo, *Versión 2307*.
+Si el administrador ha predefinido una lista de etiquetas y las ha cargado en `label.json` , esas etiquetas se mostrarán como una lista desplegable. Puede elegir una o más etiquetas de la lista desplegable.
+   ![](images/checkin-dropdown-labels.png){width="300" align="left"}
+Puede agregar varias etiquetas (separadas por comas) a la misma versión de un tema.  Por ejemplo, *Adobe*, *AEM*,*Guías*
+Sin embargo, no se puede agregar la misma etiqueta a las distintas versiones de un tema. Si agrega una etiqueta que ya ha agregado a una versión anterior, se agrega a la versión más reciente y se elimina de la versión anterior.
+
+   >[!NOTE]
+   > 
+   > AEM Estas etiquetas se muestran en el historial de versiones del archivo en el que se ha realizado la.
+
 
 1. Haga clic en **Aceptar**.
 
