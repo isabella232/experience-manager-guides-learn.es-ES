@@ -1,7 +1,7 @@
 ---
 title: Inserción de un fragmento de contenido desde la fuente de datos
 description: Aprenda a insertar un fragmento de contenido desde la fuente de datos
-source-git-commit: 3571b8acfa51dc91f9ed0366715357af7b2f1ecb
+source-git-commit: 84dbcd80d8b41ae52ec7389dd0d0a750ea8d6c65
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Por ejemplo:
 
    1. La vista de origen muestra los datos en la vista de origen DITA.
       ![](images/add-content-snippet-generator.png){width="800" align="left"}
-   1. Para guardar los resultados de la consulta, escriba el nombre del generador y haga clic en **AÑADIR**.   Se agrega a la lista un nuevo generador de fragmentos de contenido.
+1. Para guardar los resultados de la consulta, escriba el nombre del generador y haga clic en **AÑADIR**.   Se agrega a la lista un nuevo generador de fragmentos de contenido.
 
    >[!NOTE]
    >

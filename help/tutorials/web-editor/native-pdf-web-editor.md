@@ -2,9 +2,9 @@
 title: PDF nativo | Generación de salida de PDF
 description: Generar salida de PDF en as a Cloud Service de Adobe Experience Manager Guides
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: 65a35f1c7530ed479e3bc584852fabc30ceecabb
+source-git-commit: d8bc9e2673ce08fe5f71154e9d009d1847b0274d
 workflow-type: tm+mt
-source-wordcount: '2904'
+source-wordcount: '2903'
 ht-degree: 0%
 
 ---
@@ -179,6 +179,6 @@ Para ver el registro de errores, haga clic en **Descartar**, pase el ratón sobr
 Si selecciona la opción **Descargar archivos temporales** en la opción Advanced settings, también puede descargar los archivos de HTML provisionales creados al generar la salida del PDF nativo. Una vez que haya generado la salida, puede descargar los archivos temporales mediante el **Descargar archivos temporales** ![descargar archivos temporales](assets/native-pdf-download-temporary-files-icon.svg)en la barra superior. Esta función le ayuda a ver los estilos y diseños provisionales del HTML, y a corregir o cambiar los estilos CSS según sus necesidades.
 
 
->NOTA
+>[!NOTE]
 >
 > El **Descargar archivos temporales**  ![descargar archivos temporales](assets/native-pdf-download-temporary-files-icon.svg) solo aparece si ha generado la última salida del PDF utilizando el ajuste preestablecido en el que ha seleccionado la opción en la **Avanzadas** pestaña.
