@@ -1,7 +1,7 @@
 ---
 title: Inserción de un fragmento de contenido desde la fuente de datos
 description: Aprenda a insertar un fragmento de contenido desde la fuente de datos
-source-git-commit: e4fcf6c7b7e69d83edb91e25081dae6e7cf1ae89
+source-git-commit: f01903fe9ae3d60a8b818e881fd3b1d626fcd2bc
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -31,7 +31,6 @@ Las plantillas listas para usar del origen de datos seleccionado se muestran en 
    >[!NOTE]
    >  
    > Si el administrador ha configurado plantillas personalizadas, también se le mostrarán esas plantillas en la lista desplegable (según las configuraciones de ruta de plantilla realizadas por el administrador).
-
 1. Clic **Buscar** para recuperar los datos del origen de datos y aplicar la plantilla a los datos resultantes de la consulta SQL.
 1. Los datos se pueden ver en la vista previa o en la vista de origen DITA.
 
