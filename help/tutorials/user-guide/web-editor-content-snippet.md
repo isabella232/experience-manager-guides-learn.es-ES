@@ -1,7 +1,7 @@
 ---
 title: Inserción de un fragmento de contenido desde la fuente de datos
 description: Aprenda a insertar un fragmento de contenido desde la fuente de datos
-source-git-commit: f01903fe9ae3d60a8b818e881fd3b1d626fcd2bc
+source-git-commit: 6061d35b86790e24c6f55e4ccac5dbb40c43aae8
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -16,6 +16,7 @@ AEM Guías de proporciona la función para conectarse con la fuente de datos. Pu
 Realice los siguientes pasos para crear un fragmento de contenido mediante el generador de fragmentos de contenido e insertarlo en el tema:
 
 1. Seleccionar **Fuentes de datos** ![](images/data-source-icon.svg)   en el panel izquierdo para ver las fuentes de datos conectadas. El panel Fuentes de datos se abre y muestra todas las fuentes de datos conectadas. Para obtener más información, consulte [Configuración de un conector de fuente de datos](../cs-install-guide/conf-data-source-connector.md).
+
    >[!NOTE]
    >
    > Verá las fuentes de datos para las que el administrador ha configurado el conector.
@@ -31,7 +32,9 @@ Las plantillas listas para usar del origen de datos seleccionado se muestran en 
    >[!NOTE]
    >  
    > Si el administrador ha configurado plantillas personalizadas, también se le mostrarán esas plantillas en la lista desplegable (según las configuraciones de ruta de plantilla realizadas por el administrador).
+
 1. Clic **Buscar** para recuperar los datos del origen de datos y aplicar la plantilla a los datos resultantes de la consulta SQL.
+
 1. Los datos se pueden ver en la vista previa o en la vista de origen DITA.
 
    1. La vista previa muestra cómo se mostrarán los datos cuando se inserten en el contenido. La vista previa muestra una pequeña fracción de los datos con el formato de la plantilla seleccionada.
