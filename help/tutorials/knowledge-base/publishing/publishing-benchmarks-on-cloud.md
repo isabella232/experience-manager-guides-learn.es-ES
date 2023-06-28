@@ -1,21 +1,22 @@
 ---
 title: Guías que publican puntos de referencia en AEMaaCS
 description: AEM Comprender los límites del sistema en la publicación en Cloud de.
-source-git-commit: e64430bb968b18090c3981cc2d21ebe6593ba933
+exl-id: cc6e38b9-6276-4147-beda-93f66368e15d
+source-git-commit: 06a55ef933f9e7941cef2337212a830413a478af
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 7%
+source-wordcount: '233'
+ht-degree: 8%
 
 ---
-
 
 # AEM Análisis de publicación de guías de AEM en AEMaaCS
 
 AEM Actualmente, el servicio en la nube de Guides tiene algunos límites en la publicación de tamaños de mapa que el equipo de Guides está trabajando activamente para resolver.
 
-El equipo de guías ya ha introducido un [Microservicio de publicación](publish-microservice-architecture-and-performance.md) para admitir mapas grandes y varias publicaciones simultáneas. Por ahora, este microservicio admite un subconjunto de tipos de salida y la compatibilidad con otros tipos está en desarrollo activo.
+El equipo de Guides ha introducido un microservicio de publicación escalable para admitir mapas grandes y varias publicaciones simultáneas. Para obtener más información sobre el nuevo microservicio de publicación, consulte [publicación de arquitectura de microservicios](publish-microservice-architecture-and-performance.md)
 
-AEM Para configurar el nuevo servicio de publicación para cualquier entorno en la nube de, consulte [Configurar nueva publicación basada en microservicios](configure-microservices.md)
+AEM Para configurar el nuevo servicio de publicación para cualquier entorno en la nube de, consulte [configurar nueva publicación basada en microservicios](configure-microservices.md)
+
 
 ## Entorno de ejecución
 

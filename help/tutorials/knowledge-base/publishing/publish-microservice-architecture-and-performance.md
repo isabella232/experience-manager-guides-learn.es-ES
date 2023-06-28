@@ -1,13 +1,13 @@
 ---
 title: Arquitectura y rendimiento de microservicios de publicación en la nube
 description: Comprenda cómo el nuevo microservicio permite la publicación escalable en AEMaaCS.
-source-git-commit: 2e45f132ced5ac29118a7301f104bedc03c93253
+exl-id: 963d8912-be10-4d79-8ddd-12481c0ae682
+source-git-commit: 862f086c4682e3efed06d142ddd099fecc9ca00e
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
-
 
 # Arquitectura de microservicios y análisis de rendimiento de Cloud Publishing
 
@@ -15,7 +15,7 @@ Este artículo comparte la información sobre la arquitectura y los números de 
 
 >[!NOTE]
 >
-> AEM En la actualidad, la publicación basada en microservicios en las Guías de solo admite la salida de PDF mediante la publicación de PDF nativo o mediante DITA-OT. AEM Las guías de añadirán compatibilidad de publicación basada en microservicios para más tipos de salida en las futuras versiones.
+> AEM La publicación basada en microservicios en las guías de usuario de la aplicación admite los tipos de ajustes preestablecidos de salida PDF (tanto nativos como basados en DITA-OT), HTML 5 y PERSONALIZADO.
 
 ## Problemas con los flujos de trabajo de publicación existentes en la nube
 
@@ -50,29 +50,29 @@ Si publica un mapa grande en modo local, es posible que tenga que modificar los 
 
 * Nube
 
-   Si está ejecutando una sola publicación en la nube mediante el nuevo servicio, la publicación puede tardar un poco más en comparación con la publicación única local. Este tiempo ligeramente elevado se debe a la naturaleza distribuida de la nueva arquitectura de la nube.
+  Si está ejecutando una sola publicación en la nube mediante el nuevo servicio, la publicación puede tardar un poco más en comparación con la publicación única local. Este tiempo ligeramente elevado se debe a la naturaleza distribuida de la nueva arquitectura de la nube.
 
-   <img src="assets/cloud_single_publish.png" alt="pestaña proyectos" width="600">
+  <img src="assets/cloud_single_publish.png" alt="pestaña proyectos" width="600">
 
 * On-Prem
 
-   AEM Los resultados de la publicación única son mejores en la arquitectura en la nube antigua o en las instalaciones, ya que la publicación completa se produce en el mismo pod/equipo en el que se ejecuta la publicación en la que se ejecuta la aplicación.
+  AEM Los resultados de la publicación única son mejores en la arquitectura en la nube antigua o en las instalaciones, ya que la publicación completa se produce en el mismo pod/equipo en el que se ejecuta la publicación en la que se ejecuta la aplicación.
 
-   <img src="assets/onprem_single_publish.png" alt="pestaña proyectos" width="600">
+  <img src="assets/onprem_single_publish.png" alt="pestaña proyectos" width="600">
 
 ### Ejecución de varias publicaciones en la nube o locales
 
 * Nube
 
-   El nuevo microservicio de publicación destaca en este escenario. Como puede ver en la imagen siguiente, con el aumento de los múltiples trabajos de publicación simultáneos, la nube puede publicarlos sin ningún aumento significativo en el tiempo de publicación.
+  El nuevo microservicio de publicación destaca en este escenario. Como puede ver en la imagen siguiente, con el aumento de los múltiples trabajos de publicación simultáneos, la nube puede publicarlos sin ningún aumento significativo en el tiempo de publicación.
 
-   <img src="assets/cloud_bulk_publish.png" alt="pestaña proyectos" width="600">
+  <img src="assets/cloud_bulk_publish.png" alt="pestaña proyectos" width="600">
 
 * On-Prem
 
-   La ejecución de la publicación simultánea en un servidor local provoca una degradación grave del rendimiento. Esta caída de rendimiento es más grave si los editores publican aún más mapas simultáneamente.
+  La ejecución de la publicación simultánea en un servidor local provoca una degradación grave del rendimiento. Esta caída de rendimiento es más grave si los editores publican aún más mapas simultáneamente.
 
-   <img src="assets/onprem_bulk_publish.png" alt="pestaña proyectos" width="600">
+  <img src="assets/onprem_bulk_publish.png" alt="pestaña proyectos" width="600">
 
 ## Ventajas adicionales
 

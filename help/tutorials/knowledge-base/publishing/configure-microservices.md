@@ -2,9 +2,9 @@
 title: AEM Configuración de una nueva publicación basada en microservicios para guías de la aplicación de la as a Cloud Service
 description: AEM Aprenda a configurar nuevas publicaciones basadas en microservicios para guías de.
 exl-id: 92e3091d-6337-4dc6-9609-12b1503684cd
-source-git-commit: 95c89acd02b798d42c817b52f6f8e0710a0abb76
+source-git-commit: 92b087c4cb115f0966d20b6b1d9d26839c6e39b7
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ AEM Para cada solicitud de publicación, Guías de publicación ejecuta un conte
 
 >[!NOTE]
 >
-> AEM En la actualidad, la publicación basada en microservicios en las Guías de solo admite la salida de PDF mediante la publicación de PDF nativo o mediante DITA-OT. En las futuras versiones agregaremos compatibilidad con publicaciones basadas en microservicios para más tipos de salida.
+> AEM La publicación basada en microservicios en las guías de la admite los tipos de ajustes preestablecidos de salida PDF (tanto nativos como basados en DITA-OT), HTML 5 y PERSONALIZADO.
 
 Como el nuevo servicio de publicación en la nube está protegido por la autenticación basada en JWT de Adobe IMS, los clientes deben seguir los pasos que se indican a continuación para integrar sus entornos con los flujos de trabajo de autenticación seguros basados en tokens de Adobe y comenzar a utilizar la nueva solución de publicación escalable basada en la nube.
 
@@ -90,6 +90,16 @@ AEM Una vez que haya agregado la configuración de IMS al entorno, realice los s
 
 Una vez hecho esto, debería poder usar la nueva publicación en la nube basada en microservicios.
 
+## Preguntas frecuentes
+
+1. ¿Se puede utilizar una sola clave en varios entornos de nube?
+   * Sí, puede generar una clave privada y utilizarla para todos los entornos, pero debe configurar variables de entorno para todos los entornos y utilizar la misma clave.
+1. AEM Si las configuraciones de OSGi para utilizar microservicios están habilitadas, ¿funcionará el proceso de publicación en un servidor local con la misma base de código?
+   * No, si el indicador `dxml.use.publish.microservice` se establece en `true` a continuación, siempre busca configuraciones de microservicio. Establecer `dxml.use.publish.microservice` hasta `false` para que la publicación funcione en su local.
+1. ¿Cuánta memoria se asigna al proceso DITA cuando se utiliza la publicación basada en microservicios? ¿Se conduce mediante parámetros de hormiga de perfil DITA?
+   * Con la publicación basada en microservicios, la asignación de memoria no se controla mediante parámetros de hormiga de perfil DITA. La memoria total disponible en el contenedor de servicios es de 8 GB, de los cuales 6 GB se asignan al proceso DITA-OT.
+
+
 ## Apéndice {#appendix}
 
 **Archivo**:
@@ -107,7 +117,7 @@ Una vez hecho esto, debería poder usar la nueva publicación en la nube basada 
 **Archivo**: `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
 
 **Contenido**:
-* `dxml.use.publish.microservice`: cambie para habilitar la publicación de PDF basada en microservicios mediante DITA-OT
+* `dxml.use.publish.microservice`: cambie para habilitar la publicación basada en microservicios mediante DITA-OT
 * `dxml.use.publish.microservice.native.pdf`: cambie para habilitar la publicación de PDF nativos basada en microservicios
 
 ```
