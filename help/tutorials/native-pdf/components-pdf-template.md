@@ -2,7 +2,7 @@
 title: Función de publicación nativa de PDF | Componentes de una plantilla de PDF
 description: Conozca los distintos componentes de una plantilla de PDF y cómo personalizarlos y configurarlos.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 360bba8b5e6ab61314486497e9cc41348ff903c1
+source-git-commit: abeef67c07189d54e4adfb634c6094f3dc70e3eb
 workflow-type: tm+mt
 source-wordcount: '2938'
 ht-degree: 0%
@@ -27,23 +27,32 @@ La configuración del componente Diseños de página permite diseñar la estruct
 1. En el Editor Web, vaya a **Output** pestaña.
 1. Expanda la barra lateral izquierda y haga clic en **Plantillas**.
 1. Abra la plantilla con la que desee trabajar.
+
    >[!NOTE]
    >
    >Puede abrir una plantilla haciendo doble clic en su nombre o haciendo clic en el icono > junto a su nombre.
+
 1. Para crear un nuevo diseño de página, siga uno de estos procedimientos:
+
    * Pase el ratón sobre **Diseños de página** y haga clic en el icono (*Opciones* icon) **...** y elija **Nuevo diseño de página**.
+
+
    * En el **Plantillas** , haga clic en **+** junto a **Plantillas** y elija **Diseño de página** en el menú contextual.
 
-     Se abrirá el cuadro de diálogo Agregar diseño.
+
+     Esto abre el **Agregar diseño** diálogo.
 
      <img src="assets/add-layout-2.png" alt="Cuadro de diálogo Agregar diseño" width="250">
+
 1. Especifique un nombre para el nuevo diseño de página.
    >[!NOTE]
    >
    >Evite utilizar caracteres especiales al nombrar un diseño de página. Un espacio en el nombre se reemplaza con un guion bajo &quot;_&quot;.
+
 1. Haga clic en **Listo**.
 
    El nuevo diseño se crea y se agrega en Diseños de página.
+
 
 ### Duplicación de un diseño de página {#duplicate-page-layout}
 
