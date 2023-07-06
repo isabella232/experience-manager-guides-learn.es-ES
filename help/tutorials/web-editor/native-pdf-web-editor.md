@@ -2,9 +2,9 @@
 title: PDF nativo | Generación de salida de PDF
 description: Generar salida de PDF en as a Cloud Service de Adobe Experience Manager Guides
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: d8bc9e2673ce08fe5f71154e9d009d1847b0274d
+source-git-commit: 3ae7a2a5954b68da29d4268012be47cd2ac8df3e
 workflow-type: tm+mt
-source-wordcount: '2903'
+source-wordcount: '2951'
 ht-degree: 0%
 
 ---
@@ -182,3 +182,10 @@ Si selecciona la opción **Descargar archivos temporales** en la opción Advance
 >[!NOTE]
 >
 > El **Descargar archivos temporales**  ![descargar archivos temporales](assets/native-pdf-download-temporary-files-icon.svg) solo aparece si ha generado la última salida del PDF utilizando el ajuste preestablecido en el que ha seleccionado la opción en la **Avanzadas** pestaña.
+
+
+
+### Usar variables de idioma
+
+AEM Las guías de idioma también proporcionan compatibilidad con variables de idioma. Seleccionar **Variables de idioma** <img src="./assets/language-variables.svg" width="25">  en el panel izquierdo para definir una versión localizada de las etiquetas integradas, como Nota, Precaución y Advertencia o texto estático en la salida del PDF. Para obtener más información, consulte [Compatibilidad con variables de idioma](../native-pdf/native-pdf-language-variables.md).
+

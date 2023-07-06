@@ -2,9 +2,9 @@
 user-guide-title: Tutoriales para AEM Guides
 user-guide-description: Lea nuestra colección de tutoriales para Adobe Experience Manager Guides.
 breadcrumb-title: Tutoriales de AEM Guides
-source-git-commit: f6794078e760565f5934faf63a7cbfb919acce90
+source-git-commit: cabb567088e8f118db5af614b64948f56dc1e25e
 workflow-type: tm+mt
-source-wordcount: '1390'
+source-wordcount: '1394'
 ht-degree: 5%
 
 ---
@@ -101,7 +101,7 @@ ht-degree: 5%
                + [Creación de un mapa](./user-guide/map-editor-create-map.md)
                + [Creación de mapas basados en plantillas personalizadas](./user-guide/create-maps-customized-templates.md)
                + [Trabajo con el Editor de mapas avanzado](./user-guide/map-editor-advanced-map-editor.md)
-               + [Trabajo con el Editor de mapas básico](./user-guide/map-editor-basic-map-editor.md)
+               + [Trabajo con el editor de mapas básico](./user-guide/map-editor-basic-map-editor.md)
                + [Otras funciones de los editores de mapas](./user-guide/map-editor-other-features.md)
             + Editor DITAVAL {#ditaval-editor}
                + [Trabajo con el editor DITAVAL](./user-guide/ditaval-editor.md)
@@ -238,6 +238,7 @@ ht-degree: 5%
             + [Plantilla de PDF](./native-pdf/pdf-template.md)
             + [Componentes de una plantilla de PDF](./native-pdf/components-pdf-template.md)
             + [Diseño de una página](./native-pdf/design-page-layout.md)
+            + [Compatibilidad con variables de idioma](./native-pdf/native-pdf-language-variables.md)
             + Estilos de contenido comunes {#content-styles}
                + [Trabajar con los estilos de contenido comunes](./native-pdf/stylesheet.md)
                + [Trabajar con estilos de barras de cambios personalizados](./native-pdf/change-bar-style.md)

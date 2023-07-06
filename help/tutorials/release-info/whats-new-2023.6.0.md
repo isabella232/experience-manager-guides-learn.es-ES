@@ -2,9 +2,9 @@
 title: Notas de versión | Novedades de la versión de junio de 2023 de las guías de Adobe Experience Manager
 description: Conozca las funciones nuevas y mejoradas de la versión de junio de 2023 de las guías de Adobe Experience Manager as a Cloud Service
 exl-id: ff6ac4a4-76a3-4b41-9da7-6a888de0eca5
-source-git-commit: f6794078e760565f5934faf63a7cbfb919acce90
+source-git-commit: f1292c94d77b724467d9eede59687bf0041cbce5
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1205'
 ht-degree: 0%
 
 ---
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 Este artículo cubre las funciones nuevas y mejoradas de la versión de junio de 2023 de las guías de Adobe Experience Manager (más adelante denominadas *AEM Guías de as a Cloud Service*).
 
-Para obtener más información sobre las instrucciones de actualización, la matriz de compatibilidad y los problemas corregidos en esta versión, consulte la [Notas de versión](release-notes-2023.6.0.md) artículo.
+Para obtener más información sobre las instrucciones de actualización, la matriz de compatibilidad y los problemas corregidos en esta versión, consulte [Notas de versión](release-notes-2023.6.0.md).
 
 ## Informe Vínculos rotos en el editor web
 
-AEM Guías de le permite comprobar la integridad general de sus documentos técnicos y generar informes desde el Editor Web. AEM Ahora, en junio de 2023, la versión Guías de le proporciona la función para ver y corregir los vínculos rotos. Este es un informe muy útil que le ayuda a administrar los vínculos rotos. Puede ver fácilmente los vínculos rotos presentes en el mapa DITA y también corregirlos.
+AEM Guías de le permite comprobar la integridad general de sus documentos técnicos y generar informes desde el Editor Web. AEM Ahora, en junio de 2023, la versión Guías de le proporciona la función para ver y corregir los vínculos rotos. Este es un informe útil que le ayuda a administrar los vínculos rotos. Puede ver fácilmente los vínculos rotos presentes en el mapa DITA y también corregirlos.
 ![](assets/broken-link-report.png){width="800" align="left"}
 
 Una vez corregido un vínculo, no se muestra en la lista de vínculos rotos.
@@ -26,7 +26,7 @@ Para obtener más información, consulte [Ver y corregir vínculos rotos](../use
 
 ## Cambiar nombre y mover archivos en la vista Repositorio
 
-Ahora también puede cambiar el nombre de un archivo o moverlo desde el panel del repositorio. Esta función es muy práctica y ayuda a administrar sus archivos fácilmente desde el panel Repositorio. Puede seleccionar un archivo y cambiarle el nombre o moverlo mediante el **Opciones** para el archivo seleccionado. AEM Guías del usuario muestra un mensaje de éxito al mover o cambiar el nombre de un archivo.
+Ahora también puede cambiar el nombre de un archivo o moverlo desde el panel del repositorio. Esta función es útil y ayuda a administrar los archivos fácilmente desde el panel Repositorio. Puede seleccionar un archivo y cambiarle el nombre o moverlo mediante el **Opciones** para el archivo seleccionado. AEM Guías del usuario muestra un mensaje de éxito al mover o cambiar el nombre de un archivo.
 
 ![](assets/rename-move-assets.png){width="650" align="left"}
 
@@ -40,29 +40,26 @@ Ahora puede agregar una marca de agua a la salida del PDF del documento que aún
 
 Para obtener más información, consulte [Agregar una marca de agua a la salida del PDF para los borradores de documentos](../native-pdf/use-javascript-content-style.md#watermark-draft-document).
 
-### Compatibilidad con variables Language en elementos DITA
+### Compatibilidad con variables de idioma
 
-AEM Guías de proporciona compatibilidad con las variables de idioma. Estas variables son muy útiles para generar cadenas localizadas para elementos como nota, sugerencia, advertencia y precaución.
-Por ejemplo, puede tener las siguientes formas de presentar la NOTA en la salida del PDF:
+AEM Guías de que admiten variables de idioma. Puede utilizar variables de idioma para definir una versión localizada de las etiquetas integradas, como Nota, Precaución y Advertencia o texto estático en la salida del PDF.
+Puede añadir las variables de idioma o la versión localizada de las etiquetas a las secciones correspondientes de la salida del PDF y en las plantillas de salida.
 
-Alemán: Notiz
+#### Variables de idioma en la salida del PDF
 
-Español: Nota
+Puede utilizar las variables de idioma para definir etiquetas localizadas para elementos como Nota, Precaución y Advertencia. Puede actualizar el valor de estas variables en uno o más idiomas y, a continuación, el valor localizado se selecciona automáticamente en la salida del PDF.
+Por ejemplo, puede presentar la etiqueta Nota en la salida del PDF de las siguientes maneras:
 
+* Inglés: Nota
+* Francés: Remarque
+* Alemán: Hinweis
 
-### Compatibilidad con variables de idioma en el pie de página
+#### Variables de idioma en las plantillas de salida
 
-Puede agregar una variable de idioma a un encabezado o pie de página en ejecución en la página maestra de un documento. La variable se muestra en todas las páginas del cuerpo del documento que tienen aplicada esta página maestra. Por ejemplo, 1 de 1 página.
-También puede utilizarlo para presentar los números en varios idiomas.
+Si se desea crear la salida del PDF en varios idiomas, se deben crear distintas plantillas de PDF que contengan texto localizado para cada idioma. Ahora, con la función de variables de idioma, solo debe crear la plantilla una vez. A continuación, para cualquier texto estático que necesite localizar, puede crear las variables de idioma correspondientes y utilizarlas en la plantilla.
+Puede crear variables de idioma para texto más largo, como una oración completa o incluso un párrafo. También puede aplicar estilos y utilizar marcado de HTML para dar formato a estas variables de idioma.
 
-### Prefijos localizados para el índice
-
-También tiene la función de mostrar términos localizados que se utilizarán para presentar los prefijos en los encabezados.
-Por ejemplo, puede tener las siguientes formas de presentar el prefijo &quot;Chapter&quot; en la salida del PDF:
-
-Alemán: Kapitel
-
-Español: Capítulo
+Para obtener más información, consulte [Compatibilidad con variables de idioma](../native-pdf/native-pdf-language-variables.md).
 
 ### AEM Posibilidad de utilizar metadatos de en diseños de PDF
 

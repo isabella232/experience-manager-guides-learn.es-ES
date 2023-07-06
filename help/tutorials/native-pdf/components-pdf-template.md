@@ -2,9 +2,9 @@
 title: Función de publicación nativa de PDF | Componentes de una plantilla de PDF
 description: Conozca los distintos componentes de una plantilla de PDF y cómo personalizarlos y configurarlos.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: f693ebb6a96ed9898050a754e10a74db235299fe
+source-git-commit: 360bba8b5e6ab61314486497e9cc41348ff903c1
 workflow-type: tm+mt
-source-wordcount: '2516'
+source-wordcount: '2938'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Una plantilla de PDF tiene cuatro componentes: Diseños de página, Hojas de est
 
 ## Creación y personalización de diseños de página {#create-customize-page-layout}
 
-La configuración del componente Diseños de página permite diseñar la estructura de una página definiendo el encabezado, el pie de página y el área de contenido de una página. Con el editor de diseños de página WYSIWYG, puede crear un diseño de página para diferentes secciones de un PDF, como las portadas y contraportadas, el capítulo, la tabla de contenido (TDC), el índice, la página en blanco, la lista de ilustraciones (LOF), la lista de tablas (LOT) o el glosario, o crear un diseño para una página personalizada. En la Configuración de la plantilla del PDF, puede asignar un diseño de página con diferentes secciones dentro de un PDF, que luego se utilizan para generar la salida del PDF.
+La configuración del componente Diseños de página permite diseñar la estructura de una página definiendo el encabezado, el pie de página y el área de contenido de una página. Con el editor de diseños de página WYSIWYG, puede crear un diseño de página para diferentes secciones de un PDF, como las páginas de portada y de contraportada, el capítulo, la tabla de contenido (TDC), el índice, la página en blanco, las páginas de materia principal, las páginas de materia secundaria, la lista de figuras (LOF), la lista de tablas (LOT) y el glosario, o crear un diseño para una página personalizada. En la Configuración de la plantilla del PDF, puede asignar un diseño de página con diferentes secciones dentro de un PDF, que luego se utilizan para generar la salida del PDF.
 
 ### Crear un nuevo diseño de página {#create-page-layout}
 
@@ -29,14 +29,14 @@ La configuración del componente Diseños de página permite diseñar la estruct
 1. Abra la plantilla con la que desee trabajar.
    >[!NOTE]
    >
-   >Puede abrir una plantilla haciendo doble clic en su nombre o haciendo clic en el icono > situado junto a su nombre.
+   >Puede abrir una plantilla haciendo doble clic en su nombre o haciendo clic en el icono > junto a su nombre.
 1. Para crear un nuevo diseño de página, siga uno de estos procedimientos:
    * Pase el ratón sobre **Diseños de página** y haga clic en el icono (*Opciones* icon) **...** y elija **Nuevo diseño de página**.
    * En el **Plantillas** , haga clic en **+** junto a **Plantillas** y elija **Diseño de página** en el menú contextual.
 
-      Se abrirá el cuadro de diálogo Agregar diseño.
+     Se abrirá el cuadro de diálogo Agregar diseño.
 
-      <img src="assets/add-layout-2.png" alt="Cuadro de diálogo Agregar diseño" width="250">
+     <img src="assets/add-layout-2.png" alt="Cuadro de diálogo Agregar diseño" width="250">
 1. Especifique un nombre para el nuevo diseño de página.
    >[!NOTE]
    >
@@ -47,7 +47,7 @@ La configuración del componente Diseños de página permite diseñar la estruct
 
 ### Duplicación de un diseño de página {#duplicate-page-layout}
 
-1. En el **Plantillas** de la plantilla que desea duplicar, haga doble clic en **Diseños de página** o haga clic en **>** icono antes **Diseños de página**.
+1. En el **Plantillas** de la plantilla que desea duplicar, haga doble clic en  **Diseños de página** o haga clic en **>** icono antes **Diseños de página**.
 
    Esto muestra la lista de diseños de página dentro de la plantilla.
 
@@ -123,7 +123,7 @@ Para crear un nuevo estilo, siga los siguientes pasos:
 Una vez que haya creado un nuevo archivo CSS con estilos predeterminados o desee personalizar estilos en un archivo CSS existente, puede utilizar el editor de estilos para hacerlo.
 
 Para personalizar un estilo, siga los siguientes pasos:
-1. Haga doble clic en **Hojas de estilo** o haga clic en **>** icono antes **Hojas de estilo**.
+1. Doble clic **Hojas de estilo** o haga clic en **>** icono antes **Hojas de estilo**.
 
    Muestra los archivos CSS predeterminados (contenido y diseño) y personalizados.
 1. Abra una hoja de estilo para editarla.
@@ -138,7 +138,7 @@ Para personalizar un estilo, siga los siguientes pasos:
 
 1. Para personalizar un estilo, haga doble clic en él o haga clic en el icono > antes de un estilo para verlo y personalizarlo con el editor Estilos.
 
-para obtener más información sobre cómo trabajar con los estilos más comunes, consulte [Trabajar con los estilos de contenido comunes](stylesheet.md)
+Para obtener más información sobre cómo trabajar con los estilos más comunes, consulte [Trabajar con los estilos de contenido comunes](stylesheet.md).
 
 ## Trabajo con recursos {#work-with-resources}
 
@@ -171,7 +171,7 @@ Para configurarlo, haga clic en **Configuración** en el **Plantillas** para ver
 
 Defina los valores de configuración básicos para iniciar un capítulo desde una página impar o par, la estructura de la tabla de contenido y el formato de línea directriz para las entradas de la tabla de contenido. Puede definir la siguiente configuración:
 
-* **Iniciar siempre el capítulo desde**: Permite definir cómo se publica cada capítulo en el PDF final. Puede elegir entre una **Nueva página**, **Página impar**, o **Página par** opciones. Si decide iniciar un nuevo capítulo desde una página impar, se inserta una página en blanco después de un capítulo que termina en una página impar. Por ejemplo, si el capítulo termina en la página número 15, el proceso de publicación insertará un 16 en blanco<sup>th</sup> para que el nuevo capítulo pueda comenzar desde el 17<sup>th</sup> página.
+* **Iniciar cualquier capítulo nuevo desde**: Permite definir cómo se publica cada capítulo en el PDF final. Puede elegir entre una **Nueva página**, **Página impar**, **Página par**, o **Página actual**  opciones. Si decide iniciar un nuevo capítulo desde una página impar, se inserta una página en blanco después de un capítulo que termina en una página impar. Por ejemplo, si el capítulo termina en la página número 15, el proceso de publicación insertará un 16 en blanco<sup>th</sup> para que el nuevo capítulo pueda comenzar desde el 17<sup>th</sup> página.  Si elige la **Página actual** , todos los capítulos se publican como continuación sin saltos de página. Por ejemplo, si un capítulo termina en mitad de la página 15, el capítulo siguiente también se inicia desde la propia página 15.
 
 * **Iniciar cada tema desde una nueva página**: Si desea que cada tema del capítulo comience desde una página nueva, seleccione **Iniciar cada tema desde una nueva página** opción. Si desea que los temas continúen sin espacios en la página, anule la selección de esta opción.
 
@@ -180,27 +180,30 @@ Defina los valores de configuración básicos para iniciar un capítulo desde un
    * **Usar encabezados hasta el nivel**: Permite ajustar el número de niveles de encabezado que se mostrarán en la estructura de TDC del PDF.
    * **No mostrar el número de página del primer nivel en el índice**: seleccione esta opción para ocultar los números de página correspondientes para todos los capítulos que contengan temas anidados o secundarios. Consideremos el siguiente ejemplo en el que se crea una salida sin seleccionar esta opción.
 
-   <img src="assets/page-number-in-toc.png" alt="Carga de activos" width="250">
+  <img src="assets/page-number-in-toc.png" alt="Carga de activos" width="250">
 
-   En el ejemplo anterior, Configuración avanzada del PDF, Apéndice y Legal son los encabezados de tema o títulos de capítulo de primer nivel. Se asigna un número de página a todos estos encabezados.
+  En el ejemplo anterior, Configuración avanzada del PDF, Apéndice y Legal son los encabezados de tema o títulos de capítulo de primer nivel. Se asigna un número de página a todos estos encabezados.
 
-   Ahora, si selecciona esta opción y genera la salida, obtendrá la siguiente tabla de contenido:
+  Ahora, si selecciona esta opción y genera la salida, obtendrá la siguiente tabla de contenido:
 
-   <img src="assets/page-number-missing-in-toc.png" alt="Carga de activos" width="250">
+  <img src="assets/page-number-missing-in-toc.png" alt="Carga de activos" width="250">
 
-   Aquí puede observar que a la configuración del PDF avanzado del primer capítulo no se le asigna ningún número de página, ya que tiene temas anidados o secundarios. Mientras que un número de página si se asigna a Apéndice y Legal porque son temas independientes sin ningún tema secundario.
+  Aquí puede observar que a la configuración del PDF avanzado del primer capítulo no se le asigna ningún número de página, ya que tiene temas anidados o secundarios. Mientras que un número de página si se asigna a Apéndice y Legal porque son temas independientes sin ningún tema secundario.
 
 * **Formato de directriz**: utilice la lista desplegable para seleccionar líneas directrices de puntos, sólidos o de espacio para conectar los niveles de encabezado a sus números de página correspondientes.
 Para aplicar la estructura del índice y los niveles de encabezado de estilo, consulte [Añadir un índice de capítulo](design-page-layout.md#add-chapter-toc).
 
-   >[!NOTE]
-   >
-   >Si es desarrollador de CSS, puede definir el formato de relleno directamente en el archivo CSS.
+  >[!NOTE]
+  >
+  >Si es desarrollador de CSS, puede definir el formato de relleno directamente en el archivo CSS.
+
 * **Usar marcador de continuación de tabla**: seleccione esta opción para definir los marcadores de las tablas largas que se distribuyen en varias páginas. <!--For more information on using table continuation markers, see Use table continuation markers.-->
 
 **Diseños de página**
 
 La configuración de Diseños de página le proporciona un control completo sobre cómo especificar qué diseño de página se utilizará para una sección específica del documento. Por ejemplo, para seleccionar un diseño para la tabla de contenido, haga clic en el menú desplegable situado debajo del campo TDC y seleccione el diseño que ha diseñado para generar la tabla de contenido.
+
+Es importante tener en cuenta que la configuración del mapa de libros tiene prioridad sobre la configuración del diseño de página.
 
 Las siguientes configuraciones están disponibles en la sección Diseño de página:
 
@@ -209,30 +212,57 @@ Las siguientes configuraciones están disponibles en la sección Diseño de pág
 
 **Diseño de página predeterminado**: seleccione un diseño de página que actúe como el diseño predeterminado para todas las páginas del PDF. Este es el diseño de página base que se aplica en las secciones o temas en los que no se ha creado un diseño de página dedicado.
 
-**Diseño de página para diferentes secciones**: Puede elegir asignar un diseño de página con las siguientes secciones de la salida del PDF:
+**Diseño de página para diferentes secciones**: puede asignar un diseño de página con las siguientes secciones de la salida del PDF. Si ha diseñado un diseño de página para la sección relacionada, selecciónelo en la lista desplegable. Si no se ha creado ningún diseño de página para una sección específica, se aplica el diseño de página predeterminado.
+
+* **Capítulos y temas**: Puede especificar el diseño de página del para el capítulo y los temas. El diseño seleccionado se aplicará a todos los capítulos y temas.
+
+* **TDC**: Si ha diseñado el diseño de página de la tabla de contenido, seleccione **TDC** en la lista desplegable, y todas las páginas del índice del documento tendrán el diseño de página del índice.
+
+* **Lista de figuras y lista de tablas**: también puede especificar el diseño de página para ilustraciones y tablas. El diseño seleccionado se aplicará a todas las figuras y tablas.
+
+* **Índice y glosario**: si ha diseñado un diseño de página Índice, asígnelo a la opción Índice. Si tiene un diseño de página Glosario, asígnelo a la opción Glosario.
+
+* **Páginas de materia principal y Páginas de materia secundaria**: estos diseños de página definen el estilo de las páginas principales o secundarias del libro. Si ha diseñado el diseño de la materia frontal, asígnelo al **Páginas principales de la materia** opción. Al seleccionar el diseño de la materia frontal en la lista desplegable, el diseño de la materia frontal se aplica a todos los temas presentes en la materia frontal.
+
+  Si ha diseñado el diseño de la materia posterior, asígnelo al **Páginas de materia posterior** opción. Al seleccionar el diseño de la materia posterior en la lista desplegable, el diseño de la materia posterior se aplica a todos los temas presentes en la materia posterior.
+
+  **Páginas principales de la materia** también se utiliza como diseño de reserva para **TDC**, **Lista de figuras** y Lista de tablas.  Del mismo modo, **Páginas de materia posterior** también se utiliza como diseño de reserva para **Índice** y **Glosario** diseños. Si no ha seleccionado el diseño para estas páginas, se aplica el diseño de páginas principales o secundarias seleccionado.  Si no ha seleccionado el diseño Páginas principales o páginas secundarias, se les aplica el diseño de página predeterminado.
+
+* **Diseño de página para páginas vacías**: también puede especificar el diseño de página para las páginas vacías. El diseño seleccionado se aplicará a todas las páginas vacías. Por ejemplo, si ha diseñado un diseño de página en blanco para todas las páginas vacías, seleccione **Vacío** en la lista desplegable y todas las páginas vacías del documento tendrán el diseño Página en blanco.
+
+* **Portada y contraportada**: si ha diseñado un diseño de portada, asígnelo al **Portada** opción. Del mismo modo, si tiene un diseño de página posterior, asígnelo al **Página posterior** opción. Si no se han creado diseños de portada o de página posterior, se aplica el diseño de página predeterminado.
+
+
+
+Para obtener más información sobre los diseños de página, consulte [Diseño de una página](design-page-layout.md).
+
+**Orden de páginas**
+
+Puede habilitar o deshabilitar las siguientes secciones en el PDF y también organizar el orden en que deben aparecer en la salida final del PDF:
+
+<img src="assets/page-order-advance-settings.png" alt="Diseños de página" width="550">
+
 * TDC
+* Capítulos y temas
 * Lista de figuras
 * Lista de tablas
-* Capítulos y temas
 * Índice
 * Glosario
 
-Si no desea mostrar una sección en particular en la salida del PDF, puede deshabilitarla si desactiva el interruptor de alternancia.
+Si no desea mostrar una sección en particular en la salida del PDF, puede desactivarla desactivando el conmutador.
 
-**Capítulo y temas** el diseño siempre está habilitado y **Glosario** el diseño siempre está desactivado de forma predeterminada. No se pueden alternar.
-
-También puede definir el orden en que se generan estas diferentes secciones en el PDF. Si desea cambiar el orden predeterminado de estas páginas, coloque el cursor a la izquierda de un diseño de página y haga clic en el icono de barras de puntos para arrastrar y soltar el diseño de página en la ubicación deseada.
-El PDF contendrá los diseños de página habilitados en el orden en que los organizó aquí.
-
-**Diseño de página para páginas vacías**: también puede especificar el diseño de página para las páginas vacías. El diseño seleccionado se aplicará a todas las páginas vacías. Por ejemplo, si ha diseñado un diseño de página en blanco para todas las páginas vacías, seleccione **Vacío** en la lista desplegable y todas las páginas vacías del documento tendrán el diseño Página en blanco.
-
-**Portada y contraportada**: si ha diseñado un diseño de portada, asígnelo al **Portada** opción. Del mismo modo, si tiene un diseño de página posterior, asígnelo al **Página posterior** opción. Si no se han creado diseños de portada o de página posterior, se aplica el diseño de página predeterminado.
+También puede definir el orden en que se generan estas diferentes secciones en el PDF. Para cambiar el orden predeterminado de estas páginas, seleccione las barras de puntos para arrastrar y soltar el diseño de página en la ubicación deseada.
 
 >[!NOTE]
 >
->La configuración del mapa de libros tiene prioridad sobre la configuración del diseño de página.
+> Esta configuración de orden e inclusión sólo se aplica a un mapa DITA. Para un mapa de libros, esta configuración no es aplicable. Las páginas de un mapa de libros se muestran según el orden de las secciones del mapa de libros.
 
-Para obtener más información sobre los diseños de página, consulte [Diseño de una página](design-page-layout.md).
+
+El PDF contendrá los diseños de página habilitados en el orden en que los organizó aquí.
+**Capítulo y temas** el diseño siempre está habilitado y **Glosario** el diseño siempre está desactivado de forma predeterminada. No se pueden alternar.
+
+
+
 
 **Impresa**
 
@@ -244,16 +274,16 @@ Configure las opciones de producción de impresión para asignar marcas de impre
    * **Marcas de registro**: seleccione esta opción para colocar una marca fuera del área de recorte y alinear las diferentes separaciones en un documento de color.
    * **Barras de color**: seleccione esta opción para agregar una franja de colores fuera del área de recorte para mantener la coherencia del color y ajustar la densidad de la tinta al imprimir.
 
-   Definir dimensiones para las marcas de impresora seleccionadas utilizando **Anchura de línea**, **Color de línea**, y **Anchura del cuadro de sangrado** opciones.
+  Definir dimensiones para las marcas de impresora seleccionadas utilizando **Anchura de línea**, **Color de línea**, y **Anchura del cuadro de sangrado** opciones.
 
 * **Tamaño del cuadro multimedia**: Este es el tamaño total de la página, incluido el área extendida ocupada por las marcas de impresora. Utilice la opción desplegable para seleccionar el tamaño de página de la salida del PDF o crear su propio tamaño personalizado.
 
 * **Espacio de color**: se le ofrece la opción de elegir entre espacios de color RGB o CMYK para imprimir el documento de PDF. Elija RGB para mostrar el PDF generado digitalmente y CMYK para la impresión física. Los colores definidos en el documento se convierten al espacio de color elegido.
-   >[!NOTE]
-   >
-   >Es necesario un perfil de color ICC para la creación del PDF/A si se utiliza el espacio de color CMYK.
+  >[!NOTE]
+  >
+  >Es necesario un perfil de color ICC para la creación del PDF/A si se utiliza el espacio de color CMYK.
 
-   <!--For more information on applying these print settings, see *Printing preferences*.-->
+  <!--For more information on applying these print settings, see *Printing preferences*.-->
 
 **Referencias cruzadas**
 

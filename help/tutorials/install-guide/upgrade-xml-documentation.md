@@ -2,9 +2,9 @@
 title: Actualizar guías de Adobe Experience Manager
 description: Obtenga información sobre cómo actualizar las guías de Adobe Experience Manager
 exl-id: fdc395cf-a54f-4eca-b69f-52ef08d84a6e
-source-git-commit: a00484a6e0a900a568ae1f651e96dca31add1bd8
+source-git-commit: 4c31580a7deb3e13931831c1888bbf0fd1bf9e14
 workflow-type: tm+mt
-source-wordcount: '2750'
+source-wordcount: '2896'
 ht-degree: 1%
 
 ---
@@ -236,9 +236,51 @@ Realice los siguientes pasos para indexar el contenido existente y utilice el nu
 
 - Ejecute una solicitud de POST al servidor \(con autenticación correcta\) - `http://<server:port\>/bin/guides/map-find/indexing`. \(Opcional: puede pasar rutas específicas de las asignaciones para indexarlas, de forma predeterminada todas las asignaciones se indexarán \|\| Por ejemplo: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`\)
 
-- La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud de GET con el ID del trabajo al mismo punto final: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(Por ejemplo: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
+- La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud de GET con el ID del trabajo al mismo punto final:
+
+`http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(Por ejemplo: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
 - Una vez completado el trabajo, la solicitud de GET anterior responderá correctamente y mencionará si alguna asignación ha fallado. Los mapas indexados correctamente se pueden confirmar desde los registros del servidor.
+
+Si el trabajo de actualización falla y el registro de errores muestra el siguiente error:
+
+&quot;La *query* leídos o atravesados más de *100000 nodos*. Para evitar que afectara a otras tareas, el procesamiento se detuvo&quot;.
+
+Esto podría suceder porque el índice no está configurado correctamente para la consulta utilizada en la actualización. Puede probar la siguiente solución:
+
+1. En el índice oak damAssetLucene, añada la propiedad booleana `indexNodeName` as `true` en el nodo.
+   `/oak:index/damAssetLucene/indexRules/dam:Asset`
+1. Agregue un nuevo nodo con el extracto de nombre bajo el nodo.
+
+   `/oak:index/damAssetLucene/indexRules/dam:Asset/properties`
+y establezca las siguientes propiedades en el nodo:
+
+   ```
+   name - rep:excerpt
+   propertyIndex - {Boolean}true
+   notNullCheckEnabled - {Boolean}true
+   ```
+
+   La estructura de `damAssetLucene` debería tener un aspecto similar al siguiente:
+
+   ```
+   <damAssetLucene compatVersion="{Long}2" async="async, nrt" jcr:primaryType="oak:QueryIndexDefinition" evaluatePathRestrictions="{Boolean}true" type="lucene">
+   <indexRules jcr:primaryType="nt:unstructured">
+     <dam:Asset indexNodeName="{Boolean}true" jcr:primaryType="nt:unstructured">
+       <properties jcr:primaryType="nt:unstructured">
+         <excerpt name="rep:excerpt" propertyIndex="{Boolean}true" jcr:primaryType="nt:unstructured" notNullCheckEnabled="{Boolean}true"/>
+       </properties>
+       </dam:Asset>
+     </indexRules>
+   </damAssetLucene>    
+   ```
+
+
+   (junto con otros nodos y propiedades existentes)
+
+1. Reindexe el `damAssetLucene` indexar (estableciendo el indicador de reindexación como `true` debajo de y espere a que se `false` de nuevo (esto indica que se ha completado la reindexación). Tenga en cuenta que puede tardar unas horas según el tamaño del índice.
+1. Ejecute de nuevo el script de indexación realizando los pasos anteriores.
+
 
 ## Actualización a la versión 4.2.1 {#upgrade-version-4-2-1}
 
