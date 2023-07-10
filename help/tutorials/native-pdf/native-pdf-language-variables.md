@@ -1,7 +1,7 @@
 ---
 title: PDF nativo | Compatibilidad con variables de idioma
 description: Usar variables de idioma en las plantillas de salida y de salida del PDF
-source-git-commit: 7c7381d2d5a218de9c4ca1fbc0363eacd43947cd
+source-git-commit: 3e922ef7ed9af200aa8fcfb0cbe4489cf059e335
 workflow-type: tm+mt
 source-wordcount: '1221'
 ht-degree: 0%
@@ -105,18 +105,18 @@ Para insertar una variable de idioma como su `copyright-label` en el área de en
 
 1. Abra el diseño de página necesario para editarlo.
 
->[!NOTE]
->
-> Ver [Personalizar un diseño de página](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout) para abrir un diseño de página para personalizarlo o editarlo.:
+   >[!NOTE]
+   >
+   > Ver [Personalizar un diseño de página](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout) para abrir un diseño de página para personalizarlo o editarlo.
 
 1. Seleccione el encabezado para activarlo e insertar una variable.
 1. Seleccionar **Insertar variable**  <img src="./assets/insert-language-variable.svg" width="25"> en la barra de herramientas.
 1. En el **Insertar variable** , seleccione el nombre de la variable de idioma que desea insertar y haga clic en **Insertar** para insertarlo en el área de encabezado.
 
->[!NOTE]
->
-> También puede introducir la cadena de búsqueda en el cuadro de texto. Los nombres de las variables que contienen la cadena dada se filtran y se muestran en la lista.
-> La variable de idioma seleccionada se inserta en el área de encabezado.
+   >[!NOTE]
+   >
+   > También puede introducir la cadena de búsqueda en el cuadro de texto. Los nombres de las variables que contienen la cadena dada se filtran y se muestran en la lista.
+   > La variable de idioma seleccionada se inserta en el área de encabezado.
 
 La siguiente captura de pantalla muestra el valor de `copyright-label` se ha añadido en el área de encabezado.
 
