@@ -2,9 +2,9 @@
 user-guide-title: Tutoriales para AEM Guides
 user-guide-description: Lea nuestra colección de tutoriales para Adobe Experience Manager Guides.
 breadcrumb-title: Tutoriales de AEM Guides
-source-git-commit: cabb567088e8f118db5af614b64948f56dc1e25e
+source-git-commit: 6adc8544c7ad64bc264465a56944d49949605414
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1392'
 ht-degree: 5%
 
 ---
@@ -101,7 +101,7 @@ ht-degree: 5%
                + [Creación de un mapa](./user-guide/map-editor-create-map.md)
                + [Creación de mapas basados en plantillas personalizadas](./user-guide/create-maps-customized-templates.md)
                + [Trabajo con el Editor de mapas avanzado](./user-guide/map-editor-advanced-map-editor.md)
-               + [Trabajo con el editor de mapas básico](./user-guide/map-editor-basic-map-editor.md)
+               + [Trabajo con el Editor de mapas básico](./user-guide/map-editor-basic-map-editor.md)
                + [Otras funciones de los editores de mapas](./user-guide/map-editor-other-features.md)
             + Editor DITAVAL {#ditaval-editor}
                + [Trabajo con el editor DITAVAL](./user-guide/ditaval-editor.md)
@@ -350,5 +350,4 @@ ht-degree: 5%
       + Casos de uso {#use-cases}
          + [Trabajo con contenido condicional](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
          + [Uso de claves](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
-+ Artículos ocultos {#hidden}
    + [Uso del conector de oxígeno](./oxygen-connector/use-aem-connector.md)

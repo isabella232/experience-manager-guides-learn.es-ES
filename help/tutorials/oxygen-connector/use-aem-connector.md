@@ -4,12 +4,13 @@ description: Aprenda a utilizar el complemento Oxygen para las guías de Adobe E
 hide: true
 hidefromtoc: true
 exl-id: 2db9a34e-2efa-47ad-ba6b-02afc5197669
-source-git-commit: ee4722ed92d1b1a59e8baea583517a4470f558c9
+source-git-commit: 6adc8544c7ad64bc264465a56944d49949605414
 workflow-type: tm+mt
 source-wordcount: '5885'
 ht-degree: 1%
 
 ---
+
 
 # Complemento de oxígeno para guías de Adobe Experience Manager {#id1645H6010Q5}
 
