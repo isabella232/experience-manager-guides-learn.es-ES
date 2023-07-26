@@ -2,7 +2,7 @@
 title: Otras funciones del editor web
 description: Aprenda a utilizar otras funciones en el editor web
 exl-id: dea19372-8a15-4b5d-aea4-47dc914d779e
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: dd744a8e5b7d60a0e5b4d0ad8f9201950e3ae1ce
 workflow-type: tm+mt
 source-wordcount: '2131'
 ht-degree: 0%
@@ -113,19 +113,19 @@ Puede ver las siguientes opciones en función de si el archivo está bloqueado/d
 
 - **Desbloquear y cerrar**: se libera el bloqueo del archivo y se cierra el archivo.
 
-   ![](images/file-close-unlock-file.png){width="400" align="left"}
+  ![](images/file-close-unlock-file.png){width="400" align="left"}
 
 - **Guardar como nueva versión**: Esto guardará los cambios realizados en el contenido y creará una nueva versión del archivo. También puede agregar etiquetas y comentarios para la versión recién guardada. Para obtener más información sobre cómo guardar una nueva versión, consulte [Guardar como nueva versión](web-editor-features.md#save-as-new-version-id209ME400GXA).
 
 - **Desbloquear el archivo**: Si decide desbloquear un archivo, se liberará el bloqueo del archivo y los cambios se guardarán en la versión actual del archivo.
 
->[!NOTE]
->
-> Si anula la selección de la opción para desbloquear el archivo, también obtiene una opción para cerrar el archivo sin guardar los cambios.
+  >[!NOTE]
+  >
+  > Si anula la selección de la opción para desbloquear el archivo, también obtiene una opción para cerrar el archivo sin guardar los cambios.
 
-Por ejemplo, uno de los indicadores se muestra en la siguiente captura de pantalla:
+  Por ejemplo, uno de los indicadores se muestra en la siguiente captura de pantalla:
 
-![](images/file-close-save-changes-unlock.png){width="400" align="left"}
+  ![](images/file-close-save-changes-unlock.png){width="400" align="left"}
 
 **Indicaciones visuales para referencias rotas**
 

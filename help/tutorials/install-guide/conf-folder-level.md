@@ -1,13 +1,13 @@
 ---
 title: Configuración de perfiles globales o de nivel de carpeta
 description: Obtenga información sobre cómo configurar perfiles globales o de nivel de carpeta
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+exl-id: 3370e22c-b996-4261-b250-8b8f8667c2a0
+source-git-commit: 192d807d0020193f39e8340fb6c0b6a50c6489f8
 workflow-type: tm+mt
-source-wordcount: '3890'
+source-wordcount: '3891'
 ht-degree: 0%
 
 ---
-
 
 # Configuración de perfiles globales o de nivel de carpeta {#id181AH2003PF}
 
@@ -19,7 +19,9 @@ Además, puede delegar las configuraciones específicas de la carpeta a un depar
 
 Con el mosaico Perfiles de carpeta en la configuración de las Guías, puede establecer la configuración en las siguientes pestañas:
 
-- **General**: la pestaña general está disponible cuando establece la configuración del nivel de carpeta \(o proyecto/producto\). Puede configurar opciones, como las rutas de carpeta en las que se aplicará la configuración y los usuarios que tengan derechos administrativos para crear o actualizar configuraciones.
+![](assets/folder-profile-tabs.png){width="800" align="left"}
+
+- **General**: la pestaña general solo está disponible cuando establece la configuración del nivel de carpeta \(o proyecto/producto\). Puede configurar opciones, como las rutas de carpeta en las que se aplicará la configuración y los usuarios que tengan derechos administrativos para crear o actualizar configuraciones.
 
 - **Atributos condicionales**: utilice esta pestaña para configurar atributos condicionales en el nivel global o de carpeta. Un atributo condicional es una combinación del nombre y valor del atributo, y también puede definir una etiqueta para él. Puede utilizar los atributos DITA estándar o sus propios atributos personalizados. Los atributos condicionales que defina a nivel global estarán disponibles para todos los usuarios de los proyectos. Si ha definido atributos condicionales de nivel de carpeta, estos se combinan con los atributos condicionales definidos globalmente.
 
@@ -40,16 +42,16 @@ Con el mosaico Perfiles de carpeta en la configuración de las Guías, puede est
    - Blank
 
    - DITAVAL
-   >[!NOTE]
-   >
-   > Puede utilizar cualquiera de las plantillas existentes como base para crear nuevas plantillas. La plantilla DITA en blanco no contiene estructura ni elementos como las demás plantillas. Puede utilizar cualquiera de las plantillas OOTB DITA como base, realizar modificaciones en ellas y guardarlas con un nombre diferente. Después de realizar los cambios necesarios, agregue la plantilla actualizada a la configuración de plantillas de creación global o de nivel de carpeta y, a continuación, estará disponible para la creación.
 
-   Junto con las plantillas de temas, también puede definir las plantillas de mapas que estarán disponibles para los autores. Las siguientes plantillas de mapas están disponibles de forma predeterminada:
+  >[!NOTE]
+  >
+  > Puede utilizar cualquiera de las plantillas existentes como base para crear nuevas plantillas. La plantilla DITA en blanco no contiene estructura ni elementos como las demás plantillas. Puede utilizar cualquiera de las plantillas OOTB DITA como base, realizar modificaciones en ellas y guardarlas con un nombre diferente. Después de realizar los cambios necesarios, agregue la plantilla actualizada a la configuración de plantillas de creación global o de nivel de carpeta y, a continuación, estará disponible para la creación.
+
+  Junto con las plantillas de temas, también puede definir las plantillas de mapas que estarán disponibles para los autores. Las siguientes plantillas de mapas están disponibles de forma predeterminada:
 
    - Asignar
 
    - Bookmap
-
 
 - **Ajuste preestablecido de salida**: De forma similar a las plantillas de creación, hay cinco ajustes preestablecidos de salida preconfigurados:
 
@@ -62,7 +64,8 @@ Con el mosaico Perfiles de carpeta en la configuración de las Guías, puede est
    - EPUB
 
    - Personalizado
-   Los editores pueden utilizar estos ajustes preestablecidos de salida predeterminados para publicar contenido. Un administrador del perfil global o de nivel de carpeta puede configurar estos ajustes preestablecidos. Una vez configurados, los editores pueden acceder a los ajustes preestablecidos de publicación para las asignaciones DITA recién creadas. También puede aplicar ajustes preestablecidos de publicación a mapas DITA existentes. Consulte [Aplicar cambios preestablecidos](#id18AGD0K0OHS) para obtener más información.
+
+  Los editores pueden utilizar estos ajustes preestablecidos de salida predeterminados para publicar contenido. Un administrador del perfil global o de nivel de carpeta puede configurar estos ajustes preestablecidos. Una vez configurados, los editores pueden acceder a los ajustes preestablecidos de publicación para las asignaciones DITA recién creadas. También puede aplicar ajustes preestablecidos de publicación a mapas DITA existentes. Consulte [Aplicar cambios preestablecidos](#id18AGD0K0OHS) para obtener más información.
 
 - **Configuraciones del editor XML**: utilice esta pestaña para personalizar el aspecto y las distintas funciones del editor web. Las siguientes opciones configurables están disponibles para el editor web:
 
@@ -89,6 +92,8 @@ Siga estos pasos para configurar el perfil global:
 1. Seleccionar **Guías** en la lista de herramientas y haga clic en **Perfiles de carpeta**.
 
    Por primera vez, la página Perfiles de carpeta se muestra únicamente con el mosaico Perfil global.
+
+   ![](assets/folder-profile-global.png){width="800" align="left"}
 
 1. Haga clic en **Perfil global** mosaico.
 
@@ -117,13 +122,15 @@ Siga estos pasos para configurar un perfil de nivel de carpeta:
 
 1. Haga clic en **Crear**.
 
+   ![](assets/create-folder-profile.png){width="300" align="left"}
+
 1. Introduzca los siguientes detalles en la **Crear perfil de carpeta** diálogo:
    - Nombre del perfil de carpeta.
    - Ruta de la carpeta donde se aplicará el perfil.
 
-      >[!NOTE]
-      >
-      > No se pueden aplicar varios perfiles de carpeta a una carpeta. Asegúrese de que la carpeta que está seleccionando aquí no tenga aplicado ningún otro perfil. Si una carpeta principal-secundaria tiene sus propios perfiles específicos, la carpeta secundaria utiliza las configuraciones de su propio perfil. Las configuraciones de la carpeta principal no anulan las configuraciones de una carpeta secundaria.
+     >[!NOTE]
+     >
+     > No se pueden aplicar varios perfiles de carpeta a una carpeta. Asegúrese de que la carpeta que está seleccionando aquí no tenga aplicado ningún otro perfil. Si una carpeta principal-secundaria tiene sus propios perfiles específicos, la carpeta secundaria utiliza las configuraciones de su propio perfil. Las configuraciones de la carpeta principal no anulan las configuraciones de una carpeta secundaria.
 
 1. Haga clic en **Crear**.
 
@@ -269,7 +276,7 @@ Realice los siguientes pasos para agregar el tema o asignar plantillas a un perf
 
    - Elegir **Buscar o escribir** e introduzca o seleccione el nombre de una plantilla en la lista desplegable. La lista desplegable consta de todas las plantillas predeterminadas y cualquier plantilla nueva que haya creado.
 
-      ![](assets/default-template-list.png){width="350" align="left"}
+     ![](assets/default-template-list.png){width="350" align="left"}
 
    - Clic **Examinar** y seleccione una plantilla de DAM.
 
@@ -362,7 +369,7 @@ Realice los siguientes pasos para configurar los ajustes preestablecidos de sali
 
    - Clic **Editar** para abrir la configuración del ajuste preestablecido seleccionado y editarlo.
 
-      Para obtener información sobre los ajustes preestablecidos de salida, consulte *Explicación de los ajustes preestablecidos de salida* en las Guías de uso de Adobe Experience Manager.
+     Para obtener información sobre los ajustes preestablecidos de salida, consulte *Explicación de los ajustes preestablecidos de salida* en las Guías de uso de Adobe Experience Manager.
 
 1. Clic **Guardar** para guardar la configuración preestablecida.
 
@@ -476,4 +483,3 @@ En el ejemplo anterior, &quot;label1&quot; es el identificador de la secuencia d
 **Rootmap**
 
 Si los autores trabajan con un mapa raíz específico, puede buscar y seleccionar ese mapa raíz aquí. Tenga en cuenta que solo puede definir el mapa de raíz para un perfil de nivel de carpeta.
-

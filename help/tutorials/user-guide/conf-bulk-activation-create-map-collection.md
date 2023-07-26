@@ -2,9 +2,9 @@
 title: Creación de una colección de mapas de activación masiva
 description: Obtenga información sobre cómo crear una colección de mapas de activación masiva
 exl-id: 7d17fb37-9486-4a3b-a421-08e279c95b6c
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: c13d5146f478ed9b9122986a01eaa8a790bc8212
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,11 @@ La pestaña Mapas y ajustes preestablecidos presenta información en las siguien
 - **UUID**: Muestra el identificador único asociado al archivo.
 
 - **Idioma**: muestra el código de idioma del mapa DITA.
-- **Preestablecido**: Muestra el tipo de ajuste preestablecido de salida configurado en el archivo de asignación.
+- **Preestablecido**: Muestra el título del ajuste preestablecido de salida configurado en el archivo de asignación. También muestra el icono en función del tipo de ajuste preestablecido de salida.
+
+  >[!NOTE]
+  >
+  > La pequeña ![](images/global-preset-icon.svg) El icono indica un ajuste preestablecido de nivel de perfil de carpeta.
 - **Modificado**: indica si el mapa DITA se actualiza después de la última publicación. En función de esta información, puede decidir si desea activar o no la salida para este mapa DITA.
 - **Generado**: Muestra la fecha y la hora de la última salida generada.
 - **Publicado**: Muestra la fecha y la hora de la última salida \(o activada\) publicada. Si hace clic en el vínculo, la página Resultados de la activación se muestra con información sobre la ruta raíz en la que se activa el contenido.

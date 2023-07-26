@@ -2,9 +2,9 @@
 title: Administración de archivos y carpetas
 description: Obtenga información sobre cómo administrar archivos y carpetas
 exl-id: e7810b06-f49f-467a-b987-a5e6f731d4cf
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: d0b3ccb87901c54b86aa7d0dba14dc7201c072e9
 workflow-type: tm+mt
-source-wordcount: '2502'
+source-wordcount: '3079'
 ht-degree: 0%
 
 ---
@@ -49,23 +49,23 @@ AEM En esta sección se explica cómo las guías de la aplicación administran l
 
 - *Arrastrar y soltar en la misma ubicación*: se le dan las opciones para **Sobrescribir archivo existente\(s\)**, **Mantener ambos archivos\(s\)** y una opción para crear una versión de la copia de trabajo existente.
 
-   ![](images/uuid-human-readable-drag-drop-same-location.PNG){width="650" align="center"}
+  ![](images/uuid-human-readable-drag-drop-same-location.PNG){width="650" align="center"}
 
-   Si elige la **Sobrescribir archivo existente\(s\)** , el archivo que se está cargando reemplaza la versión de trabajo actual del archivo existente en la ubicación original. El UUID no se crea ni cambia.
+  Si elige la **Sobrescribir archivo existente\(s\)** , el archivo que se está cargando reemplaza la versión de trabajo actual del archivo existente en la ubicación original. El UUID no se crea ni cambia.
 
-   Si elige la **Mantener ambos archivos\(s\)** , se crea una copia nueva del archivo con el sufijo \(como filename0.extension\). También se asigna un nuevo UUID al archivo recién copiado.
+  Si elige la **Mantener ambos archivos\(s\)** , se crea una copia nueva del archivo con el sufijo \(como filename0.extension\). También se asigna un nuevo UUID al archivo recién copiado.
 
-   Con la opción Sobrescribir archivo existente\(s\), si elige la opción para crear una versión a partir de la copia de trabajo existente, también se crea una nueva versión a partir de la copia de trabajo del documento.
+  Con la opción Sobrescribir archivo existente\(s\), si elige la opción para crear una versión a partir de la copia de trabajo existente, también se crea una nueva versión a partir de la copia de trabajo del documento.
 
-   >[!NOTE]
-   >
-   > **Crear nueva versión para el archivo cargado** El administrador debe activar esta función. Si esta función está habilitada, se crea una nueva versión para el archivo cargado. Si la opción no está seleccionada, no se crea una versión del archivo cargado. Para obtener más información, consulte *Crear nueva versión para el archivo cargado* de la sección Instalar y configurar las guías de Adobe Experience Manager as a Cloud Service.
+  >[!NOTE]
+  >
+  > **Crear nueva versión para el archivo cargado** El administrador debe activar esta función. Si esta función está habilitada, se crea una nueva versión para el archivo cargado. Si la opción no está seleccionada, no se crea una versión del archivo cargado. Para obtener más información, consulte *Crear nueva versión para el archivo cargado* de la sección Instalar y configurar las guías de Adobe Experience Manager as a Cloud Service.
 
-   Si un archivo ya está desprotegido para ediciones por otro usuario e intenta cargar y sobrescribir el archivo existente, se producirá un error y se mostrará un error.
+  Si un archivo ya está desprotegido para ediciones por otro usuario e intenta cargar y sobrescribir el archivo existente, se producirá un error y se mostrará un error.
 
-   >[!NOTE]
-   >
-   >El **Sobrescribir archivo retirado al cargar** el administrador debe desactivar esta función. Si esta característica está habilitada, puede sobrescribir los archivos desprotegidos. Si la función no está habilitada, no se podrá sobrescribir un archivo desprotegido. Para obtener más información, consulte *Sobrescribir archivo retirado al cargar* de la sección Instalar y configurar las guías de Adobe Experience Manager as a Cloud Service.
+  >[!NOTE]
+  >
+  >El **Sobrescribir archivo retirado al cargar** el administrador debe desactivar esta función. Si esta característica está habilitada, puede sobrescribir los archivos desprotegidos. Si la función no está habilitada, no se podrá sobrescribir un archivo desprotegido. Para obtener más información, consulte *Sobrescribir archivo retirado al cargar* de la sección Instalar y configurar las guías de Adobe Experience Manager as a Cloud Service.
 
 
 - *Arrastrar y soltar archivos en una ubicación diferente*: se crea una copia nueva del archivo y también se le asigna un nuevo UUID en la nueva ubicación. En este caso, el nombre de archivo es el mismo que el nombre de archivo original.
@@ -95,7 +95,7 @@ Si elige la **Mover archivo\(s\) a nueva ubicación** , el archivo existente se 
 Con reemplazar o mover los archivos, si elige la opción de crear una versión a partir de la copia existente, se crea una nueva versión a partir de la copia de trabajo del documento; el nuevo archivo se reemplaza en la ubicación existente o se mueve a la nueva ubicación.
 
 
-## Mover archivos por lotes
+## Mover archivos por lotes {#move-files-bulk}
 
 AEM Guías de guía viene con la herramienta de movimiento masivo que ayuda a un administrador a mover una carpeta que tiene un gran número de archivos de una ubicación a otra. AEM Esta herramienta puede mover fácilmente archivos dentro de una o más carpetas a una carpeta diferente en su repositorio de carpetas. Una de las características principales de esta herramienta es que no solo mueve un gran número de archivos, sino que también mantiene las referencias hacia y desde los archivos que se mueven. Puede modificar el número de archivos que puede mover por lotes sin obstaculizar las tareas de creación y publicación.
 
@@ -125,27 +125,94 @@ Para mover archivos de forma masiva, realice los siguientes pasos:
 1. Haga clic en el vínculo Adobe Experience Manager en la parte superior y elija **Herramientas**.
 1. Seleccionar **Guías** de la lista de herramientas.
 1. Haga clic en **Herramienta Mover masivamente** mosaico.
+1. La página Herramienta de movimiento en lote se muestra en función de la configuración. Proporcione los siguientes detalles sobre la **Herramienta Mover masivamente** página:
 
-   Se muestra la página Herramienta de movimiento masivo.
+   <details>
 
-   ![](images/bulk-move-tool_cs.PNG){width="550" align="center"}
+   <summary> Sistema de archivos basado en UUID local </summary>
 
-1. Proporcione los siguientes detalles en la página Herramienta de movimiento masivo:
+   ![](images/bulk-move-tool-uuid.png){width="650" align="center"}
 
-   - **Añadir sufijo a archivos duplicados**: Si está moviendo carpetas que tienen el mismo nombre, debe seleccionar esta opción. Por ejemplo, en la captura de pantalla anterior, **Ruta de origen** contiene el nombre de las carpetas que se van a mover. La carpeta denominada tema existe en dos ubicaciones diferentes: prueba A y prueba B. Al seleccionar esta opción, las carpetas se moverán correctamente. La primera carpeta que se mueva recibirá el nombre de tema, mientras que la segunda carpeta recibirá el nombre de tema0. La operación de mover agrega un sufijo en la serie secuencial \(0, 1, 2, etc.\) a las carpetas con el mismo nombre.
+   >[!TIP]
+   >
+   > Seleccionar <img src="images/info-icon.svg" width="25">   cerca de cualquier campo para ver más detalles sobre él.
 
-      Si está moviendo carpetas con el mismo nombre sin seleccionar esta opción, la operación se anulará con un mensaje.
 
-   - **Ruta de origen\(s\)**: especifique la ubicación de las carpetas que desea mover. Normalmente, tendrá que copiar y pegar la ubicación de origen desde la barra de direcciones del explorador. Para especificar varias ubicaciones de carpetas, haga clic en **Añadir** botón.
+   - **Añadir sufijo a carpetas duplicadas**: Si está moviendo carpetas que tienen el mismo nombre, debe seleccionar esta opción. Por ejemplo, en la captura de pantalla anterior, **Ruta de origen** contiene el nombre de las carpetas que se van a mover. La carpeta denominada tema existe en dos ubicaciones diferentes: prueba A y prueba B. Al seleccionar esta opción, las carpetas se moverán correctamente. La primera carpeta que se mueva recibirá el nombre de tema, mientras que la segunda carpeta recibirá el nombre de tema0. La operación de mover agrega un sufijo en la serie secuencial \(0, 1, 2, etc.\) a las carpetas con el mismo nombre.
+
+     Si está moviendo carpetas con el mismo nombre sin seleccionar esta opción, la operación se anulará con un mensaje.
+
+   - **Ruta de origen\(s\)**: especifique la ubicación de las carpetas que desea mover.
+
+      - Seleccionar  **Examinar carpeta**  <img src="images/browse-folder-icon.svg" width="25">    para abrir el cuadro de diálogo examinar archivo. Seleccione las carpetas que desee mover y haga clic en **Seleccionar** para completar el proceso.
+
+      - También puede escribir o copiar y pegar la ubicación de origen. Pulse Intro para añadir la carpeta a la lista.
+
+        Las carpetas seleccionadas se muestran junto con su ruta. Pase el ratón sobre la etiqueta de carpeta para ver la ruta completa.
+      - También puede quitar cualquier carpeta haciendo clic en **Eliminar** <img src="images/remove-folder.svg" width="25"> cerca de la carpeta.
+
 
    - **Ruta de destino**: especifique la ubicación a la que desea mover las carpetas de origen.
 
-1. Clic **Movimiento masivo**.
+      - Seleccionar  **Examinar carpeta** <img src="images/browse-folder-icon.svg" width="25"> para abrir el cuadro de diálogo examinar archivo. Seleccione la ubicación a la que desea mover las carpetas de origen. y haga clic en Seleccionar para completar el proceso.
+      - También puede escribir o copiar y pegar la ruta de destino.
 
-   El sistema comienza a mover archivos desde la ubicación de origen a la de destino. Una vez finalizado el proceso, se muestra un resumen del proceso de movimiento en la parte inferior de la página.
+     La carpeta seleccionada se muestra junto con su ruta en el cuadro de texto.
 
-   ![](images/bulk-move-summary.PNG){width="650" align="center"}
 
+   - Clic **Movimiento masivo**.
+
+     El sistema comienza a mover archivos desde la ubicación de origen a la de destino. Una vez finalizado el proceso, se muestra un resumen del proceso de movimiento a la derecha de la página.
+
+     ![](images/bulk-move-summary-uuid.png){width="650" align="center"}
+
+   </details>
+
+   <details>
+
+   <summary> Sistema de archivos local no basado en UUID </summary>
+
+   ![](images/bulk-move-tool-non-uuid.png){width="650" align="center"}
+
+   >[!TIP]
+   >
+   > Seleccionar <img src="images/info-icon.svg" width="25">   cerca de cualquier campo para ver más detalles sobre él.
+
+   - **Tamaño del lote**: especifique el número de archivos que desea mover en un solo lote. Los valores predeterminados son 50 archivos.
+   - **Intervalo de suspensión**: especifique el tiempo en segundos que el proceso esperará antes de iniciar el siguiente lote. Durante este intervalo de tiempo de suspensión, el sistema corrige las referencias hacia y desde los archivos movidos. El intervalo de suspensión predeterminado es de 60 segundos.
+
+
+   - **Añadir sufijo a carpetas duplicadas**: Si está moviendo carpetas que tienen el mismo nombre, debe seleccionar esta opción. Por ejemplo, en la captura de pantalla anterior, **Ruta de origen** contiene el nombre de las carpetas que se van a mover. La carpeta denominada tema existe en dos ubicaciones diferentes: prueba A y prueba B. Al seleccionar esta opción, las carpetas se moverán correctamente. La primera carpeta que se mueva recibirá el nombre de tema, mientras que la segunda carpeta recibirá el nombre de tema0. La operación de mover agrega un sufijo en la serie secuencial \(0, 1, 2, etc.\) a las carpetas con el mismo nombre.
+
+     Si está moviendo carpetas con el mismo nombre sin seleccionar esta opción, la operación se anulará con un mensaje.
+
+   - **Actualizar referencias de archivos desprotegidos**: Si va a mover carpetas que contengan archivos desprotegidos, se recomienda seleccionar esta opción. Si selecciona esta opción, todos los ficheros extraídos se guardarán y archivarán con una nueva revisión. Esta nueva revisión se mueve a la ubicación de destino.
+
+     Si no selecciona esta opción, los archivos desprotegidos se mueven a la carpeta de destino con el mismo estado de desprotección. Sin embargo, podría haber alguna pérdida de datos en este proceso de movimiento.
+
+
+   - **Ruta de origen\(s\)**: especifique la ubicación de las carpetas que desea mover.
+
+      - Seleccionar  **Examinar carpeta**  <img src="images/browse-folder-icon.svg" width="25">    para abrir el cuadro de diálogo examinar archivo. Seleccione las carpetas que desee mover y haga clic en **Seleccionar** para completar el proceso.
+
+      - También puede escribir o copiar y pegar la ubicación de origen. Pulse Intro para añadir la carpeta a la lista.
+
+        Las carpetas seleccionadas se muestran junto con su ruta. Pase el ratón sobre la etiqueta de carpeta para ver la ruta completa.
+      - También puede quitar cualquier carpeta haciendo clic en **Eliminar** <img src="images/remove-folder.svg" width="25"> cerca de la carpeta.
+
+
+   - **Ruta de destino**: especifique la ubicación a la que desea mover las carpetas de origen.
+
+      - Seleccionar  **Examinar carpeta** <img src="images/browse-folder-icon.svg" width="25"> para abrir el cuadro de diálogo examinar archivo. Seleccione la ubicación a la que desea mover las carpetas de origen. y haga clic en Seleccionar para completar el proceso.
+      - También puede escribir o copiar y pegar la ruta de destino.
+
+        La carpeta seleccionada se muestra junto con su ruta en el cuadro de texto.
+
+   - Clic **Movimiento masivo**.
+
+     El sistema comienza a mover archivos desde la ubicación de origen a la de destino. Una vez finalizado el proceso, se muestra un resumen del proceso de movimiento a la derecha de la página.
+     ![](images/bulk-move-summary-non-uuid.png){width="650" align="center"}
+</details>
 
 ## Buscar contenido DITA
 

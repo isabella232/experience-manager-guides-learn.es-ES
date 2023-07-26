@@ -2,9 +2,9 @@
 title: Conozca las funciones del editor web
 description: Obtenga información sobre cómo conocer las funciones del editor web
 exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
-source-git-commit: b55b4aa572a680181388e24827daa7d045f1e406
+source-git-commit: 270b94f0c1e29237c4bdad891c41446de897fddb
 workflow-type: tm+mt
-source-wordcount: '15310'
+source-wordcount: '15461'
 ht-degree: 0%
 
 ---
@@ -115,6 +115,11 @@ La configuración del editor solo está disponible para usuarios administrativos
    - **Creación**
 
       - **Activar Reemplazar todo**: seleccione esta opción para ver el icono Reemplazar todo en el panel Buscar y reemplazar.
+
+
+   - **Citas**
+Cambiar el estilo de las citas. Elija el estilo de cita de la lista desplegable que desee utilizar en su proyecto. Para obtener más información, consulte [Cambiar estilos de cita](./web-editor-apply-citations.md#change-citation-style).
+
 
 **Paneles**: esta configuración controla los paneles que se muestran en el panel izquierdo del editor. Puede alternar el conmutador para mostrar u ocultar el panel deseado.
 
@@ -328,7 +333,7 @@ También puede buscar utilizando el UUID del archivo al que desee hacer referenc
 
 ![](images/insert-content-using-uuid-search.png){width="650" align="left"}
 
-Si el administrador ha activado la opción UUID en *XMLEditorConfig*, verá el UUID del contenido al que se hace referencia en la variable **Vínculo** propiedad.
+Si el administrador ha activado la opción UUID en *XMLEditorConfig*, verá el UUID del contenido al que se hace referencia en la **Vínculo** propiedad.
 
 ![](images/ref-link-uuid_cs.png){width="800" align="left"}
 
@@ -430,11 +435,20 @@ Elija la forma preferida Rectángulo ![](images/imagemap-rectangle-toolbar.png),
 
 Si las áreas se superponen, puede hacer que la forma avance o retroceda haciendo clic en el icono correspondiente de la barra de herramientas. También puede quitar un área seleccionándola y haciendo clic en el icono Eliminar. Al hacer doble clic en un área, se abre el cuadro de diálogo Referencia, en el que puede cambiar el vínculo de destino. Una vez que haya marcado las áreas requeridas en la imagen, guarde los cambios haciendo clic en Listo.
 
-**Bloquear/Desbloquear** - ![](images/LockClosed_icon.svg)/ ![](images/LockOpen_icon.svg)
+**Salida/llegada** - ![](images/LockClosed_icon.svg)/ ![](images/LockOpen_icon.svg)
 
-Bloquea o desbloquea el archivo actual. Bloquear \(o desproteger\) un archivo proporciona al usuario acceso de escritura exclusivo en el archivo. Cuando el archivo está Desbloqueado \(o protegido\), los cambios se guardan en la versión actual del archivo.
+Desprotege o protege el archivo actual. La desprotección de un archivo proporciona al usuario acceso de escritura exclusivo al archivo. Cuando el archivo está protegido, los cambios se guardan en la versión actual del archivo.
 
-Si está en la vista Mapa y expande el mapa principal, puede bloquear todos los archivos del mapa con un solo clic. Simplemente expanda el archivo de asignación principal y seleccione el archivo principal, lo que resulta en la selección de todos los archivos dentro del mapa. A continuación, puede hacer clic en el icono de bloqueo para obtener el bloqueo en todos los archivos dentro del mapa.
+Si está en la vista Mapa y expande el mapa principal, puede retirar todos los archivos del mapa con un solo clic. Simplemente expanda el archivo de asignación principal y seleccione el archivo principal, lo que resulta en la selección de todos los archivos dentro del mapa. A continuación, puede seleccionar **Desproteger**  ![](images/LockClosed_icon.svg) para bloquear todos los archivos del mapa.
+
+>[!NOTE]
+>
+> Cuando protege un archivo que tiene cambios no guardados, se le pide que guarde los cambios. Si no guarda los cambios, solo se protege el archivo.
+
+La información de objeto de Proteger/Desproteger se determina mediante la propiedad title de `ui_config.json` archivo.
+
+Para obtener más información, consulte [Configurar el título de los iconos Proteger y Desproteger](../install-guide/conf-checkin-checkout-title.md) en la Guía de instalación y configuración in situ.
+
 
 **Alternar vista de etiquetas** - ![](images/Label_icon.svg)
 
@@ -461,7 +475,7 @@ Las siguientes operaciones se pueden realizar en un documento con la Vista de et
 
 **Habilitar/deshabilitar el seguimiento de cambios** ![](images/track-change-icon.svg)
 
-Puede realizar un seguimiento de todas las actualizaciones realizadas en un documento activando el modo Control de cambios. Después de habilitar el seguimiento de cambios, todas las inserciones y eliminaciones se capturan en el documento. Todo el contenido eliminado se resalta con Tachado y todas las inserciones se resaltan en texto de color verde. Además, también se obtienen las barras de cambios en el borde de la página del tema. De nuevo, se muestra una barra roja para el contenido eliminado y una barra verde para el contenido añadido. En caso de que haya adición y eliminación en la misma línea, se muestran las barras verde y roja.
+Puede realizar un seguimiento de todas las actualizaciones realizadas en un documento activando el modo Control de cambios. Después de habilitar el seguimiento de cambios, todas las inserciones y eliminaciones se capturan en el documento. Todo el contenido eliminado se resalta con Tachado y todas las inserciones se resaltan en texto de color verde. Además, también se obtienen las barras de cambios en el borde de la página del tema. De nuevo, se muestra una barra roja para el contenido eliminado y una barra verde para el contenido añadido. Si hay adición y eliminación en la misma línea, se muestran las barras verde y roja.
 
 La siguiente captura de pantalla resalta el contenido eliminado e insertado junto con las barras de cambio:
 
@@ -547,7 +561,7 @@ Para combinar los cambios en un archivo de asignación, realice los siguientes p
 
 **Historial de versiones** - ![](images/version-history-web-editor-ico.svg)
 
-AEM Guías de proporciona varias formas de ver las versiones creadas para los archivos de tema y también formas de revertir a una versión específica. Sin embargo, la mayoría de estas características están disponibles fuera del Editor Web.
+AEM Guías de proporciona varias formas de ver las versiones creadas para los archivos de tema y también formas de volver a una versión específica. Sin embargo, la mayoría de estas características están disponibles fuera del Editor Web.
 
 La característica Historial de versiones del Editor Web le permite no sólo comprobar las versiones y etiquetas disponibles del tema activo, sino que también le ofrece la flexibilidad de volver a cualquier versión desde el propio editor.
 
@@ -793,7 +807,8 @@ Las distintas opciones del menú Opciones se explican a continuación:
 
   >[!NOTE]
   >
-  > Si un archivo está bloqueado o desprotegido por un usuario, al pasar el puntero del mouse (ratón) sobre el icono de bloqueo, se muestra el usuario \(nombre\) que ha bloqueado el archivo.
+  > - Si un archivo está bloqueado o desprotegido por un usuario, al pasar el puntero del mouse (ratón) sobre el icono de bloqueo, se muestra el usuario \(nombre\) que ha bloqueado el archivo.
+  > - Cuando protege un archivo que tiene cambios no guardados, se le pide que guarde los cambios. Si no guarda los cambios, solo se protege el archivo.
 
 - **Previsualizar**: obtenga una vista previa rápida del archivo \(.dita/.xml\) sin abrirlo.
 
@@ -989,14 +1004,18 @@ Puede realizar las siguientes acciones mediante el menú Opciones:
 
 - **Desproteger**: retire el archivo seleccionado. Para un archivo desprotegido, esta opción cambia a **Proteger**.
 
+
+
   >[!NOTE]
   >
-  > Si un archivo está bloqueado o desprotegido por un usuario, al pasar el puntero del mouse (ratón) sobre el icono de bloqueo, se muestra el usuario \(nombre\) que ha bloqueado el archivo.
+  > - Si un archivo está bloqueado o desprotegido por un usuario, al pasar el puntero del mouse (ratón) sobre el icono de bloqueo, se muestra el usuario \(nombre\) que ha bloqueado el archivo.
+  > - Cuando protege un archivo, le pide que guarde los cambios. Si no guarda los cambios, solo se protege el archivo.
 
 - **Previsualizar**: obtenga una vista previa rápida del archivo \(.dita/.xml\) sin abrirlo.
 - **Copiar**: Puede elegir entre las siguientes opciones:
    - **Copiar UUID**: copia el UUID del archivo seleccionado en el portapapeles.
    - **Copiar ruta**: Copiar la ruta completa del archivo seleccionado al Portapapeles.
+
 
 - **Buscar en el repositorio**: Muestra la ubicación del archivo seleccionado en el repositorio \(o DAM\).
 - **Expandir todo**: expanda todos los temas de los archivos de asignación.

@@ -1,7 +1,7 @@
 ---
 title: Configuración de perfiles globales o de nivel de carpeta
 description: Obtenga información sobre cómo configurar perfiles globales o de nivel de carpeta
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 6f4ab3baf0c0dd333035c3a7d131bd151b17de45
 workflow-type: tm+mt
 source-wordcount: '3962'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Además, puede delegar las configuraciones específicas de la carpeta a un depar
 
 Con el mosaico Perfiles de carpeta en la configuración de las Guías, puede establecer la configuración en las siguientes pestañas:
 
-![](assets/folder-profile-tabs.png)
+![](assets/folder-profile-tabs.png){width="800" align="left"}
 
 - **General**: la pestaña general solo está disponible cuando establece la configuración del nivel de carpeta \(o proyecto/producto\). Puede configurar opciones, como las rutas de carpeta en las que se aplicará la configuración y los usuarios que tengan derechos administrativos para crear o actualizar configuraciones.
 
@@ -93,7 +93,7 @@ Siga estos pasos para configurar el perfil global:
 
    Por primera vez, la página Perfiles de carpeta se muestra únicamente con el mosaico Perfil global.
 
-   ![](assets/folder-profile-global.png)
+   ![](assets/folder-profile-global.png){width="800" align="left"}
 
 1. Haga clic en **Perfil global** mosaico.
 
@@ -122,7 +122,7 @@ Siga estos pasos para configurar un perfil de nivel de carpeta:
 
 1. Haga clic en **Crear**.
 
-   ![](assets/create-folder-profile.png)
+   ![](assets/create-folder-profile.png){width="300" align="left"}
 
 1. Introduzca los siguientes detalles en la **Crear perfil de carpeta** diálogo:
    - Nombre del perfil de carpeta.

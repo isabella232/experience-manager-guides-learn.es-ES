@@ -1,13 +1,13 @@
 ---
 title: Notas de versión | Adobe Experience Manager Guides as a Cloud Service, versión de marzo de 2023
 description: Lanzamiento de marzo de Adobe Experience Manager Guides as a Cloud Service
-source-git-commit: 99ca14a816630f5f0ec1dc72ba77994ffa71dff6
+exl-id: c62a65fb-b52d-455d-b42c-f0b19b4d5f63
+source-git-commit: f419281cdecb570f9e5c7ce5cd4c831cae349e11
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 1%
+source-wordcount: '545'
+ht-degree: 2%
 
 ---
-
 
 # Lanzamiento de marzo de 2023 de Adobe Experience Manager Guides as a Cloud Service
 
@@ -30,8 +30,7 @@ Realice los siguientes pasos para indexar el contenido existente y utilizar el n
 (Opcional: puede pasar rutas específicas de los mapas para indexarlas, de forma predeterminada se indexarán todas las asignaciones || Ejemplo : `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 * La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud de GET con el ID del trabajo al mismo punto final: `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
-(Por ejemplo: http://&lt;
-_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
+(Por ejemplo: http://&lt;_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
 
 * Una vez completado el trabajo, la solicitud de GET anterior responderá correctamente y mencionará si alguna asignación ha fallado. Los mapas indexados correctamente se pueden confirmar desde los registros del servidor.
 
@@ -39,12 +38,12 @@ _localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981
 
 AEM En esta sección se muestra la matriz de compatibilidad para las aplicaciones de software compatibles con las guías de la versión de as a Cloud Service para marzo de 2023.
 
-### FrameMaker y FrameMaker Publishing Server
+### FRAMEMAKER y FRAMEMAKER PUBLISHING SERVER
 
 | AEM Versión de Guides as a Cloud de | FMPS | FrameMaker |
 | --- | --- | --- |
 | 2023.03.0 | No compatible | 2022 o superior |
-|  |  |  |
+| | | |
 
 
 ### Conector de oxígeno
@@ -54,4 +53,23 @@ AEM En esta sección se muestra la matriz de compatibilidad para las aplicacione
 | 2023.03.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 |
 |  |  |  |  |
 
+## Problemas solucionados
 
+A continuación se enumeran los errores corregidos en varias áreas:
+
+* El proceso del PDF de descarga no funciona correctamente en el editor web. (11496)
+* Salida JSON | Asignar metadatos que tengan el valor de propiedad como `"value in spaces and double quotes"` conduce a un error de publicación. (11438)
+* La inserción de archivos multimedia de audio y vídeo falla en el formato YouTube en **Insertar multimedia** icono. (11320)
+* El error de validación se produce cuando se crea un mapa con la plantilla que tiene un elemento de título especializado. (11212)
+* PDF nativo | la nota al pie presente en el encabezado de la tabla lleva a texto en negrita y alineado al centro en el pie de página correspondiente dentro de la salida del PDF. (10610)
+>[!NOTE]
+>
+>Para reflejar el cambio del PDF nativo, elimine la carpeta del PDF ubicada en /content/dam/dita-templates y luego actualice a la última versión. (10610)
+
+### Problema conocido con la solución
+
+El Adobe AEM de ha identificado el siguiente problema conocido para la versión de Guías de as a Cloud Service para marzo de 2023.
+
+* Los usuarios no pueden guardar ni crear la versión de un recurso duplicado.
+
+**Solución**: Antes de realizar cambios en el recurso duplicado, vuelva a procesarlo desde la interfaz de usuario de Assets.

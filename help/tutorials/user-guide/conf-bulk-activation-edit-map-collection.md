@@ -2,10 +2,10 @@
 title: Edición de una colección de mapas de activación masiva
 description: Obtenga información sobre cómo editar una colección de mapas de activación masiva
 exl-id: 110eba52-c886-4148-aff9-9c4e1d3d85bd
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 25641f5c3207d98228d406e3b553c06d2bad1e10
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 2%
+source-wordcount: '218'
+ht-degree: 1%
 
 ---
 
@@ -26,6 +26,12 @@ Puede editar una colección de mapas de activación masiva añadiendo o eliminan
 1. Clic **Editar**.
 
    La página de recopilación de mapas de activación masiva aparece donde se muestran los mapas junto con sus ajustes preconfigurados para cada configuración regional disponible.
+AEM Puede ver los distintos tipos de ajustes preestablecidos de salida junto con sus iconos, como Sitio, PDF, PDF nativo, HTML 5, Personalizado y Salida JSON .
+
+   >[!NOTE]
+   >
+   > La pequeña ![](images/global-preset-icon.svg) El icono indica un ajuste preestablecido de nivel de perfil de carpeta.
+
 
 1. Utilice el regulador para activar o desactivar el ajuste preestablecido de salida deseado que desea activar o desactivar.
 
@@ -33,7 +39,7 @@ Puede editar una colección de mapas de activación masiva añadiendo o eliminan
 
 1. Haga clic en **Eliminar**.
 
-   ![](images/bulk-activation-delete-map.png){width="800" align="left"}
+   ![](images/bulk-activation-delete-map.png){width="600" align="left"}
 
    El mapa seleccionado se elimina de la colección de mapas de activación masiva.
 

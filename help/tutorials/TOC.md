@@ -2,9 +2,9 @@
 user-guide-title: Tutoriales para AEM Guides
 user-guide-description: Lea nuestra colección de tutoriales para Adobe Experience Manager Guides.
 breadcrumb-title: Tutoriales de AEM Guides
-source-git-commit: 6adc8544c7ad64bc264465a56944d49949605414
+source-git-commit: 33c4a7b452049ab130f7bcdf9e8a90ecead32170
 workflow-type: tm+mt
-source-wordcount: '1392'
+source-wordcount: '1429'
 ht-degree: 5%
 
 ---
@@ -46,6 +46,11 @@ ht-degree: 5%
             + [Notas de la versión de febrero](./release-info/release-notes-2022.2.0.md)
             + [Notas de la versión de enero](./release-info/release-notes-2022.1.0.md)
       + On-premise/Managed Services {#on-prem-release-notes}
+         + Versión 4.3.0 {#43-release}
+            + ¿Qué hay de nuevo? {#43-whats-new}
+               + [4.3.0 Novedades](./release-info/whats-new-4.3-release.md)
+            + Notas de la versión {#43-release-notes}
+               + [Notas de la versión 4.3.0](./release-info/release-notes-4.3.md)
          + Versión 4.2 {#42-release}
             + ¿Qué hay de nuevo? {#42-whats-new}
                + [4.2.1 Novedades](./release-info/whats-new-4.2.1-release.md)
@@ -85,7 +90,8 @@ ht-degree: 5%
                + [Vistas del Editor web](./user-guide/web-editor-views.md)
                + [Compatibilidad con archivos de Schematron](./user-guide/support-schematron-file.md)
                + [Creación de documentos de Markdown desde el editor web](./user-guide/web-editor-markdown-topic.md)
-               + [Inserción de un fragmento de contenido desde la fuente de datos](./user-guide/web-editor-content-snippet.md)
+               + [Añadir citas al contenido](./user-guide/web-editor-apply-citations.md)
+               + [Uso de datos de las fuentes de datos](./user-guide/web-editor-content-snippet.md)
                + [Administrar ajustes preestablecidos de salida del perfil global y de carpeta](./user-guide/web-editor-manage-output-presets.md)
                + Publicación basada en artículos {#article-based-pub}
                   + [Publicación basada en artículos desde el editor web](./user-guide/web-editor-article-publishing.md)
@@ -159,7 +165,7 @@ ht-degree: 5%
          + [Edición de una colección de mapas de activación masiva](./user-guide/conf-bulk-activation-edit-map-collection.md)
          + [Eliminar una colección de mapas de activación masiva](./user-guide/conf-bulk-activation-delete-map-collection.md)
    + Generación de salida de documentos de FrameMaker {#generate-fm-output}
-      + [Generar salida de documentos de FrameMaker](./user-guide/fm-output-generatation.md)
+      + [Generación de resultados de documentos de FrameMaker](./user-guide/fm-output-generatation.md)
       + Ajustes preestablecidos admitidos {#fm-docs-generating-presets}
          + [Ajustes preestablecidos para generar documentos de FrameMaker](./user-guide/fm-output-understand-presets.md)
          + [PDF](./user-guide/fm-output-pdf-preset.md)
@@ -211,6 +217,7 @@ ht-degree: 5%
          + [Personalizar editor web](./install-guide/conf-web-editor.md)
          + [Personalizar barra de herramientas](./install-guide/conf-web-editor-customize-toolbar.md)
          + [Configurar el valor predeterminado para la vista de etiquetas](./install-guide/configure-default-value-tags-view.md)
+         + [Configurar el título de los iconos Proteger y Desproteger](./install-guide/conf-checkin-checkout-title.md)
          + [Configurar la visualización de vínculos basados en UUID](./install-guide/conf-uuid-based-links.md)
          + [Abrir un tema DITA o archivos de asignación en la misma ficha](./install-guide/open-dita-files-same-tab.md)
          + [Configurar un panel personalizado en el panel izquierdo](./install-guide/configure-custom-panel.md)
@@ -224,6 +231,7 @@ ht-degree: 5%
          + [Configuración de filtros de texto](./install-guide/config-text-filters.md)
          + [Configuración del número de LimitReads de una consulta](./install-guide/conf-query-limitreads.md)
          + [Instalación de paquetes para la publicación basada en artículos](./install-guide/configure-article-based-publishing.md)
+         + [Configuración de un conector de fuente de datos](./install-guide/conf-data-source-connector.md)
          + [Establecer el Editor de mapas avanzado como predeterminado](./install-guide/conf-map-editor.md)
          + [Incluir @navtitle atributo de forma predeterminada](./install-guide/auto-add-navtitle.md)
       + Trabajo con perfiles globales y de nivel de carpeta {#global-folder-profiles}
@@ -246,6 +254,7 @@ ht-degree: 5%
                + [Añadir un marcador personalizado en la salida del PDF](./native-pdf/add-custom-bookmark.md)
                + [Usar JavaScript para trabajar con contenido o estilo](./native-pdf/use-javascript-content-style.md)
                + [Usar estilos personalizados en las notas al pie](./native-pdf/footnote-number-style.md)
+            + [Configuración de indicadores JVM para la publicación de PDF nativos](./native-pdf/configure-jvm-flags.md)
       + Trabajo con flujos de trabajo personalizados {#custom-workflow}
          + [Configuración y personalización de flujos de trabajo](./install-guide/customize-workflows.md)
       + Trabajo con configuraciones de traducción {#translate-config}
@@ -309,6 +318,7 @@ ht-degree: 5%
          + [Administración de versiones](./cs-install-guide/version-management.md)
       + Trabajar con configuración de generación de resultados {#output-gen-config-cs}
          + [Configuración de la generación de salida](./cs-install-guide/conf-output-generation.md)
+         + [Publicación de PDF nativa](./cs-install-guide/native-pdf-publishing.md)
       + Trabajo con flujos de trabajo personalizados {#custom-workflow-cs}
          + [Configuración y personalización de flujos de trabajo](./cs-install-guide/customize-workflows.md)
       + Trabajo con configuraciones de traducción {#translate-config-cs}
@@ -351,3 +361,4 @@ ht-degree: 5%
          + [Trabajo con contenido condicional](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
          + [Uso de claves](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
    + [Uso del conector de oxígeno](./oxygen-connector/use-aem-connector.md)
+

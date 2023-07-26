@@ -2,9 +2,9 @@
 title: Activación masiva de contenido publicado
 description: Obtenga información sobre cómo activar de forma masiva el contenido publicado
 exl-id: 66c454bb-f09e-442f-b863-60ee249a0e08
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: c4f383984501525527136773ce7ef556170e8ad3
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,8 @@ AEM Con la función Activación masiva de guías de trabajo, puede activar de fo
 
 - Agregue una o más asignaciones múltiples \(a una colección de asignaciones\) a una única tarea de activación
 
-- Seleccione uno de los varios ajustes preestablecidos de salida que desee publicar
+- Seleccione uno o varios ajustes preestablecidos de salida que desee publicar. AEM Puede agregar ajustes preestablecidos de salida de Sitio, PDF, PDF nativo, HTML 5, Personalizado y JSON.
+
 
 - Defina las configuraciones regionales en las que debe activarse la salida
 

@@ -2,9 +2,9 @@
 title: Función de publicación nativa de PDF | Componentes de una plantilla de PDF
 description: Conozca los distintos componentes de una plantilla de PDF y cómo personalizarlos y configurarlos.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: abeef67c07189d54e4adfb634c6094f3dc70e3eb
+source-git-commit: 08c1f1a8df5fdbaa0d8f27d2752028d0ee2ed538
 workflow-type: tm+mt
-source-wordcount: '2938'
+source-wordcount: '3672'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ La configuración del componente Diseños de página permite diseñar la estruct
 1. Especifique un nombre para el nuevo diseño de página.
    >[!NOTE]
    >
-   >Evite utilizar caracteres especiales al nombrar un diseño de página. Un espacio en el nombre se reemplaza con un guion bajo &quot;_&quot;.
+   >Evite utilizar caracteres especiales al dar nombre a un diseño de página. Un espacio en el nombre se reemplaza con un guion bajo &quot;_&quot;.
 
 1. Haga clic en **Listo**.
 
@@ -176,7 +176,7 @@ Utilice la sección Configuración para definir la configuración avanzada del d
 
 Para configurarlo, haga clic en **Configuración** en el **Plantillas** para ver las siguientes opciones:
 
-**General**
+### General
 
 Defina los valores de configuración básicos para iniciar un capítulo desde una página impar o par, la estructura de la tabla de contenido y el formato de línea directriz para las entradas de la tabla de contenido. Puede definir la siguiente configuración:
 
@@ -208,7 +208,7 @@ Para aplicar la estructura del índice y los niveles de encabezado de estilo, co
 
 * **Usar marcador de continuación de tabla**: seleccione esta opción para definir los marcadores de las tablas largas que se distribuyen en varias páginas. <!--For more information on using table continuation markers, see Use table continuation markers.-->
 
-**Diseños de página**
+### Diseños de página {#page-layouts}
 
 La configuración de Diseños de página le proporciona un control completo sobre cómo especificar qué diseño de página se utilizará para una sección específica del documento. Por ejemplo, para seleccionar un diseño para la tabla de contenido, haga clic en el menú desplegable situado debajo del campo TDC y seleccione el diseño que ha diseñado para generar la tabla de contenido.
 
@@ -245,11 +245,11 @@ Las siguientes configuraciones están disponibles en la sección Diseño de pág
 
 Para obtener más información sobre los diseños de página, consulte [Diseño de una página](design-page-layout.md).
 
-**Orden de páginas**
+### Orden de páginas {#page-order}
 
-Puede habilitar o deshabilitar las siguientes secciones en el PDF y también organizar el orden en que deben aparecer en la salida final del PDF:
+Puede mostrar u ocultar las siguientes secciones en el PDF y también organizar el orden en que deben aparecer en la salida final del PDF:
 
-<img src="assets/page-order-advance-settings.png" alt="Diseños de página" width="550">
+
 
 * TDC
 * Capítulos y temas
@@ -257,23 +257,64 @@ Puede habilitar o deshabilitar las siguientes secciones en el PDF y también org
 * Lista de tablas
 * Índice
 * Glosario
+* Cita
 
-Si no desea mostrar una sección en particular en la salida del PDF, puede desactivarla desactivando el conmutador.
+  <img src="assets/page-order-advance-settings.png" alt="Orden de páginas" width="550">
 
-También puede definir el orden en que se generan estas diferentes secciones en el PDF. Para cambiar el orden predeterminado de estas páginas, seleccione las barras de puntos para arrastrar y soltar el diseño de página en la ubicación deseada.
+  Si no desea mostrar una sección en particular en la salida del PDF, puede ocultarla desactivando el conmutador.
+
+  También puede definir el orden en que se generan estas diferentes secciones en el PDF. Para cambiar el orden predeterminado de estas secciones, seleccione las barras de puntos para arrastrar y soltar las secciones en la ubicación deseada.
+
+  >[!NOTE]
+  >
+  > La configuración de orden e inclusión sólo se aplica a un mapa DITA. Para un mapa de libros, esta configuración no es aplicable. Las páginas de un mapa de libros se muestran según el orden de las secciones del mapa de libros.
+
+
+.
+**Capítulo y temas** el diseño siempre está habilitado y **Glosario** el diseño siempre está desactivado de forma predeterminada. No se pueden alternar.
+
+**Combinar páginas**
+
+De forma predeterminada, todas las secciones comienzan en una nueva página. Seleccione el **Página anterior** o **Página siguiente** de la opción **Combinar con** desplegable para combinar una sección con una página anterior o siguiente. Esto publicará la sección como continuación con la página seleccionada en la salida del PDF. Con esto, no habrá ningún salto de página entre medias.
 
 >[!NOTE]
 >
-> Esta configuración de orden e inclusión sólo se aplica a un mapa DITA. Para un mapa de libros, esta configuración no es aplicable. Las páginas de un mapa de libros se muestran según el orden de las secciones del mapa de libros.
+> Esta configuración solo se aplica a la sección y no a sus componentes.  Por ejemplo, si selecciona la variable **Página anterior** opción para **Capítulos y temas**, el **Capítulos y temas** se combina con la página anterior. Los diversos capítulos y temas se publican según el **General** settings.Por ejemplo, si en **Iniciar cualquier capítulo nuevo desde la configuración**, seleccione **Página impar**, se inserta una página en blanco después de un capítulo que termina en una página impar.
+
+Al combinar una sección con su página anterior o siguiente, el contenido se combina y se aplica el estilo de la sección de destino en la que se combina el contenido.
+
+Por ejemplo, si activa **TDC** y **Capítulo y temas** y seleccione la **Página siguiente** para **TDC**, el **TDC** se combina con la siguiente sección, que es la **Capítulo y temas**. El estilo de la **Capítulo y temas** se aplica al contenido combinado de ambas secciones.
+
+La opción de combinación funciona sucesivamente, por lo que si ha seleccionado **Página siguiente** para varias secciones continuas, todas se combinan con la primera sección (en la siguiente dirección), que no tiene esta propiedad establecida. Por ejemplo, habilite **TDC**, **Capítulo y temas**, **Lista de figuras**, y **Índice**. A continuación, si establece **Página siguiente** para **TDC**, **Capítulo y temas**, **Lista de figuras**, y **Ninguno** para **Índice**, todos se combinan con  **Índice**.
 
 
-El PDF contendrá los diseños de página habilitados en el orden en que los organizó aquí.
-**Capítulo y temas** el diseño siempre está habilitado y **Glosario** el diseño siempre está desactivado de forma predeterminada. No se pueden alternar.
+**Páginas estáticas**
+
+Los distintos diseños de página le ayudan a diseñar la salida de las distintas secciones. Estas secciones se generan a partir del mapa DITA mientras se publica la salida.
+También puede crear diseños de página personalizados y publicarlos como páginas estáticas en la salida del PDF. Esto le ayuda a añadir contenido estático como notas o páginas en blanco.
+
+Siga estos pasos para agregar un diseño de página personalizado:
+
+1. Seleccionar **Añadir** ![](assets/add-icon.svg) para agregar un nuevo diseño de página. Se abre el panel Agregar diseño de página.
+2. Seleccione el diseño de página de la lista y haga clic en Agregar. El nuevo diseño de página se agrega a la lista de diseños de página.
+
+
+También puede realizar las siguientes acciones:
+
+* Seleccione las barras de puntos para arrastrar y soltar el diseño de página en la ubicación deseada.
+
+* Seleccionar **Quitar diseño** ![](assets/delete-icon.svg)  para quitar un diseño.
+
+* También puede combinar una página estática con la página anterior o con la página siguiente.
+
+* También puede agregar un diseño personalizado varias veces y ordenarlos. Esto le ayuda a publicar el contenido estático en consecuencia.
+
+  Por ejemplo, puede utilizar un diseño personalizado para publicar una advertencia estática varias veces dentro de la salida del PDF.
 
 
 
 
-**Impresa**
+### Impresa
 
 Configure las opciones de producción de impresión para asignar marcas de impresora, seleccionar modelos de color y especificar propiedades relacionadas con la impresión de la salida del PDF.
 
@@ -294,6 +335,34 @@ Configure las opciones de producción de impresión para asignar marcas de impre
 
   <!--For more information on applying these print settings, see *Printing preferences*.-->
 
-**Referencias cruzadas**
+### Referencias cruzadas {#cross-references}
 
-Utilice la pestaña Referencia cruzada para definir cómo se publican las referencias cruzadas en el PDF. Puede dar formato a las referencias cruzadas para el título del tema, tablas, ilustraciones, etc. <!--For more information, see *Format cross-references*.-->
+Utilice la pestaña Referencia cruzada para definir cómo se publican las referencias cruzadas en el PDF. Puede dar formato a las referencias cruzadas para el título del tema, tablas, ilustraciones, etc.
+
+También puede utilizar variables para definir una referencia cruzada.  Cuando se utiliza una variable, su valor se selecciona de las propiedades. Puede utilizar una sola variable o una combinación de ellas para definir una referencia cruzada. También puede utilizar una combinación de una cadena y una variable.
+
+Por ejemplo, puede utilizar Ver detalles en {chapter}. Si el nombre del capítulo es &quot;Configuración general&quot;, la referencia cruzada en la salida es &quot;Ver detalles sobre la configuración general&quot;.
+
+AEM Guías de proporciona las siguientes variables listas para usarse:
+
+* {title}: crea una referencia cruzada al título del tema. Por ejemplo, consulte Vínculos útiles en la página 2.
+* {page} Agrega una referencia cruzada a los números de página. Por ejemplo, consulte en la página 1.
+* {description}: añade una referencia cruzada al texto de la descripción. AEM Por ejemplo, consulte los detalles de las Guías de.
+* {chapter}: Añade una referencia cruzada a los números de capítulo. Por ejemplo, consulte en el capítulo 1.
+* {bookmarkText}: crea una referencia cruzada al texto marcado. Por ejemplo, Consulte stop_words en la página 5.
+* {captionText}: crea una referencia cruzada para el pie de ilustración de la figura o tabla del tema. Por ejemplo, consulte Flujo de aire en la página 2.
+* {figure}: añade una referencia cruzada al número de la figura. Selecciona el número de figura de los estilos de numeración automática que ha definido para figcaption.  Por ejemplo, puede utilizar &quot;Consulte {figure} en la página {page}&quot;. La referencia cruzada en la salida contiene el número de figura generado automáticamente y su número de página, &quot;Ver Figura 1 en la página 5&quot;.
+* {table}: añade una referencia cruzada al número de tabla. Selecciona el número de tabla de los estilos de numeración automática que ha definido para el pie de ilustración. Por ejemplo, puede utilizar &quot;Consulte {table} en la página {page}&quot;. La referencia cruzada de la salida contiene el número de tabla generado automáticamente y su número de página, &quot;Consulte la Tabla 1 de la página 5&quot;.
+
+
+
+  >[!NOTE]
+  >
+  >Puede crear estilos de numeración automática para las etiquetas caption y figcaption.
+
+
+
+
+
+
+<!--For more information, see *Format cross-references*.-->

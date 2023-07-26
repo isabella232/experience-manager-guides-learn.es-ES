@@ -2,9 +2,9 @@
 title: Revisar temas
 description: Obtenga información sobre cómo revisar temas
 exl-id: ca94ec2e-cd45-418d-9b35-73d587ba51ec
-source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
+source-git-commit: b9bf08ccbe2eb17ca8d4dac675155e0b4631f0a9
 workflow-type: tm+mt
-source-wordcount: '2271'
+source-wordcount: '2323'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,8 @@ Siga estos pasos para revisar un tema:
    >
    > La interfaz de usuario puede ser diferente si ha creado la revisión en:
    >
-   > - AEM Versión as a Cloud Service de noviembre de 2022 o anterior de las guías de la
+   > - AEM Versión de noviembre de 2022 o anterior as a Cloud Service de las guías de la
    > - AEM Versión 4.1 o anterior de las guías del usuario
-
 
 
 
@@ -44,16 +43,21 @@ Siga estos pasos para revisar un tema:
    - **A**: nombre de la tarea de revisión.
    - **B**: haga clic en el icono Vista de temas para mostrar u ocultar el panel de temas.
 
-   - **C**: Los números resaltados por ***F*** se puede filtrar eligiendo la opción de filtro deseada desde aquí. Puede filtrar los comentarios por tipo, estado, revisor o versión. Por ejemplo, si desea ver cuántos comentarios de tachado se han realizado en cada uno de los temas de revisión, haga clic en el icono de filtro y, a continuación, elija **Tipo de revisión** \> **Eliminación**.
+   - **C**: Puede buscar el tema requerido introduciendo alguna parte del texto del título o ruta de archivo en la barra de búsqueda.
 
-      >[!NOTE]
-      >
-      > Al aplicar los filtros, solo se muestran en el panel de comentarios los comentarios que coinciden con los filtros seleccionados. El número de comentarios filtrados se muestra a la izquierda en el panel Temas.
+     Seleccionar  ![](images/view-options.svg) cerca de la barra de búsqueda para elegir ver todos los temas o ver los temas con comentarios. De forma predeterminada, puede ver todos los temas presentes en la tarea de revisión.
 
-   - **D**: un tema asignado para su revisión al revisor actual se muestra en negro y se puede hacer clic en él. Cuando el revisor haga clic en un vínculo de un tema, ese tema se coloca en la parte superior de la pantalla.
-   - **E**: un tema que no está disponible para revisión aparece atenuado. El tema se muestra en modo de sólo lectura y no se le permite agregar comentarios de revisión sobre dichos temas.
 
-   - **F**: Número de comentarios recibidos sobre un tema. Este número cambia según el filtro que aplique.
+   - **D**: Los números resaltados por ***F*** se puede filtrar eligiendo la opción de filtro deseada desde aquí. Puede filtrar los comentarios por tipo, estado, revisor o versión. Por ejemplo, si desea ver cuántos comentarios de tachado se han realizado en cada uno de los temas de revisión, haga clic en el icono de filtro y, a continuación, elija **Tipo de revisión** \> **Eliminación**.
+
+     >[!NOTE]
+     >
+     > Al aplicar los filtros, solo se muestran en el panel de comentarios los comentarios que coinciden con los filtros seleccionados. El número de comentarios filtrados se muestra a la izquierda en el panel Temas.
+
+   - **E**: un tema asignado para su revisión al revisor actual se muestra en negro y se puede hacer clic en él. Cuando el revisor haga clic en un vínculo de un tema, ese tema se coloca en la parte superior de la pantalla.
+   - **F**: un tema que no está disponible para revisión aparece atenuado. El tema se muestra en modo de sólo lectura y no se le permite agregar comentarios de revisión sobre dichos temas.
+
+   - **G**: Número de comentarios recibidos sobre un tema. Este número cambia según el filtro que aplique.
 
    Todos los temas del mapa se muestran como un solo documento compuesto. Los temas que el revisor puede revisar se muestran normalmente. No se muestran los temas que la revisión no puede revisar.
 
@@ -93,13 +97,13 @@ Cuando vea un solo tema, obtendrá una opción adicional para volver a la vista 
 
 - **Resaltar** \(![](images/review-highlight-icon.svg)\): para agregar un comentario resaltado, seleccione el texto y haga clic en el icono Resaltar. O bien, haga clic en el icono Resaltar y seleccione el texto deseado:
 
-   ![](images/highlight-comment.png){width="650" align="left"}
+  ![](images/highlight-comment.png){width="650" align="left"}
 
-   Aparece una ventana emergente en el panel Comentarios, donde puede agregar el comentario para el contenido resaltado.
+  Aparece una ventana emergente en el panel Comentarios, donde puede agregar el comentario para el contenido resaltado.
 
 - **Tachado** \(![](images/review-text-strike-through-icon.svg)\): Si desea sugerir la eliminación de contenido, puede hacerlo seleccionando el contenido y haciendo clic en el icono Tachado. O bien, seleccione el texto deseado y haga clic en la tecla Supr:
 
-   Aparece una ventana emergente en el panel Comentarios, donde puede agregar el comentario para el contenido eliminado.
+  Aparece una ventana emergente en el panel Comentarios, donde puede agregar el comentario para el contenido eliminado.
 
 - **Insertar texto** \(![](images/review-insert-text-icon.svg)\): Si desea insertar texto, haga clic en el icono Insertar texto y coloque el cursor donde desee insertar el texto y escriba la información. O bien, coloque el cursor donde desee insertar texto y empiece a escribir. La información añadida aparece en una fuente de color verde:
 
@@ -128,11 +132,11 @@ A continuación, se describen las tareas que puede realizar mediante el panel Co
 - Puede editar su propio comentario haciendo clic en el texto comentado en el panel Comentarios y seleccionando **Editar** en el menú Opciones.
 - Puede eliminar sus propios comentarios haciendo clic en el comentario en el panel Comentarios y, a continuación, seleccionando la **Eliminar** del menú Opciones.
 
-   ![](images/review-comment-options-menu.png){width="300" align="left"}
+  ![](images/review-comment-options-menu.png){width="300" align="left"}
 
-   >[!NOTE]
-   >
-   > El menú Opciones sólo aparece cuando pasa el ratón por encima de sus propios comentarios. No se muestra para los comentarios de otros revisores.
+  >[!NOTE]
+  >
+  > El menú Opciones sólo aparece cuando pasa el ratón por encima de sus propios comentarios. No se muestra para los comentarios de otros revisores.
 
 - Todos los usuarios participantes pueden responder a los comentarios enviados por otros usuarios. En un comentario, haga clic en **Responder** y pulse Intro para enviar una respuesta.
 
@@ -220,11 +224,11 @@ En el modo de vista previa, el contenido no condicional y el contenido condicion
 
 - Haciendo clic en el icono Comentario obsoleto \(![](images/outdated-comment-icon.svg)\) muestra las diferencias entre la última versión y la versión comentada del documento. Los números de versión \(de las versiones que se comparan\) se muestran en la parte superior de los documentos.
 
-   ![](images/comments-page-review-mode.png){width="800" align="left"}
+  ![](images/comments-page-review-mode.png){width="800" align="left"}
 
-   >[!NOTE]
-   >
-   > Cuando pasa el ratón por encima del icono Comentario obsoleto, se muestra el número de versión del tema en el que se ha añadido el comentario. Por ejemplo, si se ha proporcionado un comentario en la versión 1.0, se muestra lo mismo.
+  >[!NOTE]
+  >
+  > Cuando pasa el ratón por encima del icono Comentario obsoleto, se muestra el número de versión del tema en el que se ha añadido el comentario. Por ejemplo, si se ha proporcionado un comentario en la versión 1.0, se muestra lo mismo.
 
 - Al hacer clic en un comentario obsoleto, se abre la versión de ese comentario en el panel izquierdo. La versión anterior se muestra en el panel izquierdo y la versión actual en el derecho. Todos los comentarios de la versión obsoleta se importan en el lado izquierdo. Puede comparar la versión anterior con la versión actual.
 
@@ -238,7 +242,7 @@ Seleccione una o varias de las siguientes opciones de filtrado en la **Tipo de f
 
 - **Versiones** - Filtrar en función de los comentarios recibidos sobre una versión concreta del tema.
 
-   Al utilizar los filtros, los comentarios del panel derecho se filtran según la selección y el número de comentarios del panel izquierdo se actualiza en consecuencia.
+  Al utilizar los filtros, los comentarios del panel derecho se filtran según la selección y el número de comentarios del panel izquierdo se actualiza en consecuencia.
 
 
 Para eliminar el filtro y ver todos los comentarios, anule la selección de todos los filtros en la **Tipo de filtro** y haga clic en **Aplicar**.
