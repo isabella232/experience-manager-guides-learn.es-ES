@@ -1,9 +1,9 @@
 ---
 title: Notas de versión | Novedades de las guías de Adobe Experience Manager, versión de julio de 2023
 description: Conozca las funciones nuevas y mejoradas de la versión de julio de 2023 de las guías de Adobe Experience Manager as a Cloud Service
-source-git-commit: 06bff798d2e745fae1c666353045cb4c6b040207
+source-git-commit: 7581085859785c5b8b597ecfeb7dbe58c7c9e2bc
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 Este artículo cubre las funciones nuevas y mejoradas de la versión de julio de 2023 de las guías de Adobe Experience Manager (más adelante denominadas *AEM Guías de as a Cloud Service*).
 
-Para obtener más información sobre las instrucciones de actualización, la matriz de compatibilidad y los problemas corregidos en esta versión, consulte la [Notas de versión](release-notes-2023.7.0.md) artículo.
+Para obtener más información sobre las instrucciones de actualización, la matriz de compatibilidad y los problemas corregidos en esta versión, consulte [Notas de versión](release-notes-2023.7.0.md).
 
 ## Conectarse a un origen de datos e insertar datos en los temas
 

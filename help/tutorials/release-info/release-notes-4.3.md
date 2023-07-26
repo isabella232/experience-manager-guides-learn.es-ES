@@ -1,9 +1,9 @@
 ---
 title: Notas de versión | Instrucciones de actualización y problemas corregidos en la versión 4.3.0 de Adobe Experience Manager Guides
 description: Obtenga información acerca de las correcciones de errores y cómo actualizar a las versiones 4.3.0 de las guías de Adobe Experience Manager
-source-git-commit: 756ba69360e1796e36f6cc1ef410443ef8cb4acb
+source-git-commit: 7581085859785c5b8b597ecfeb7dbe58c7c9e2bc
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '998'
 ht-degree: 5%
 
 ---
@@ -81,7 +81,6 @@ A continuación se enumeran los errores corregidos en varias áreas:
 - Los resultados de búsqueda se desactivan en el panel Buscar y reemplazar después de abrir un archivo buscado. (12142)
 - AEM La tecla numérica &quot;8&quot; del teclado lateral no funciona en el editor de guías de la interfaz de usuario de la interfaz de usuario de la interfaz de usuario de la interfaz de usuario de Guides. (12106)
 - Los atributos en línea/de visualización no aparecen en la vista Presentación del Editor Web. (12498)
-- AEM Subir archivos en Oxygen Plugin for Guides no funciona en los servicios en la nube si tiene ! en el nombre del archivo. (12207)
 - La configuración de la interfaz de usuario del perfil global no coincide con el perfil de carpeta. (11970)
 - Las referencias de contenido se rompen cuando los ficheros DITA se copian y pegan. (11959)
 - AEM No se puede editar el fragmento de contenido en la vista de columna con las Guías de instaladas. (7342)
@@ -93,7 +92,7 @@ A continuación se enumeran los errores corregidos en varias áreas:
 - `conref` en etiqueta ph | El cuadro de diálogo de exploración que se muestra es incorrecto. (9481)
 - Los vínculos locales a otros elementos no se resuelven en el Editor web. (8790)
 - La función Matches() no funciona en la función schematron. (11224)
-- AEM En el complemento Oxygen para guías de, la opción para abrir un mapa DITA en el Editor de mapas DITA Web lleva a la IU antigua. (12633)
+
 
 
 ### Administración
