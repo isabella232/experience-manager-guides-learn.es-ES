@@ -1,7 +1,7 @@
 ---
 title: Añadir y administrar citas en el contenido
 description: Aprenda a implementar referencias agregando y aplicando citas al contenido.
-source-git-commit: f59ed1ffe8567bef48c6772a68361eacb1c7c15f
+source-git-commit: 85eb0228908134080f3f1e2644f3f7c37b8d7497
 workflow-type: tm+mt
 source-wordcount: '1863'
 ht-degree: 0%
@@ -45,7 +45,7 @@ El **Añadir cita** se abre el cuadro de diálogo.
 
 1. Rellene los campos del **Añadir cita** Cuadro de diálogo.
 
-   >
+   >[!NOTE]
    >
    >También puede añadir el ISBN, el DOI o el ID de PubMed. AEM Guías de usuario rellena automáticamente los demás campos de.
 

@@ -2,9 +2,9 @@
 title: Actualizar guías de Adobe Experience Manager
 description: Obtenga información sobre cómo actualizar las guías de Adobe Experience Manager
 exl-id: fdc395cf-a54f-4eca-b69f-52ef08d84a6e
-source-git-commit: ec67a3b959f9ee5b90a53134c1fe9aff8760cb6f
+source-git-commit: bb7e9ae6f02021354285aa4ca6b435bbea2e4cc0
 workflow-type: tm+mt
-source-wordcount: '3216'
+source-wordcount: '3270'
 ht-degree: 1%
 
 ---
@@ -16,8 +16,9 @@ ht-degree: 1%
 > Siga las instrucciones de actualización específicas de la versión con licencia del producto.
 
 AEM Puede actualizar la versión actual de las guías de la aplicación a la versión 4.3.0 (en inglés).
+
 - Si utiliza la versión 4.2 o 4.2.x, puede actualizar directamente a la versión 4.3.0.
-- Si utiliza las versiones 4.1, 4.1.x o 4.2, debe actualizar a la versión 4.2.1 antes de actualizar a la versión 4.3.0.
+- Si utiliza la versión 4.1 o 4.1.x, debe actualizar a la versión 4.2 o 4.2.x antes de actualizar a la versión 4.3.0.
 - Si está utilizando la versión 4.0, debe actualizar a la versión 4.2 antes de actualizar a la versión 4.3.0.
 - Si utiliza la versión 3.8.5, debe actualizar a la versión 4.0 antes de actualizar a la versión 4.2.
 - AEM Si su versión es anterior a la 3.8.5, consulte la sección Guías de actualización de la versión en la guía de instalación específica del producto de.
@@ -503,12 +504,19 @@ Realice los siguientes pasos para posprocesar el contenido existente y utilizar 
    |---|---|---|
    | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitReads | Valor: 200000 <br> Valor predeterminado: 100000 |
 
-1. Ejecute una solicitud de POST al servidor (con la autenticación correcta): `http://<server:port>//bin/guides/reports/upgrade`.
+1. Ejecute las siguientes API para ejecutar el posprocesamiento en todos los archivos:
 
-1. La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud de GET con el ID del trabajo al mismo punto final: `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
-(Por ejemplo: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+   | Punto final | /bin/guides/reports/upgrade |
+   |---|---|
+   | Tipo de solicitud | **POST**  Esta secuencia de comandos es una solicitud de POST, por lo que debe ejecutarse a través de agentes como Postman. |
+   | Respuesta esperada | La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud de GET con el ID de trabajo al mismo punto final.<br> URL de ejemplo: `http://<server:port>/bin/guides/reports/upgrade` |
 
-1. Una vez completado el trabajo, la solicitud de GET anterior se responderá correctamente. Si el trabajo falla por algún motivo, los errores se pueden ver en los registros del servidor.
+   | Punto final | /bin/guides/reports/upgrade |
+   |---|---|
+   | Tipo de solicitud | **GET** |
+   | Parámetro | jobId: pase el jobId recibido de la solicitud de publicación anterior. |
+   | Respuesta esperada | - Una vez completado el trabajo, la solicitud de GET responde correctamente. <br> - En caso de errores, comparta los registros de errores junto con la salida de la API con el equipo de éxito del cliente.  <br>URL de ejemplo: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
+
 
 1. Volver al valor predeterminado o al valor existente anterior de `queryLimitReads` si lo ha cambiado en el paso 1.
 
