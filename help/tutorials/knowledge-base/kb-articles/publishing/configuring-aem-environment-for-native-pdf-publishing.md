@@ -2,9 +2,9 @@
 title: AEM Configuración del entorno de trabajo para la publicación de PDF nativos
 description: AEM Configuración del entorno de trabajo para la publicación de PDF nativos
 exl-id: 40266ca0-0b0b-4418-b606-f70270addbaa
-source-git-commit: 7b48633ef2418fa7c91842a8d2c2a4177017ef58
+source-git-commit: 45dfe6078039001327e91ae85ea2a5beeacb2d59
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '906'
 ht-degree: 1%
 
 ---
@@ -72,7 +72,7 @@ El motor de publicación de PDF nativo necesita un JDK de Oracle AEM para genera
 
 ## Pasos de configuración para el servidor Linux (RHEL7/centOS 7)
 
-1. AEM Asegúrese de que el servidor de la esté inactivo
+1. AEM Asegúrese de que el servidor de esté inactivo.
 2. Compruebe la variable JAVA_HOME haciendo eco $JAVA_HOME
 3. Si no se ha definido la variable JAVA_HOME, siga el paso 4. De lo contrario, vaya directamente al paso 5.
 4. Establezca la variable JAVA_HOME utilizando los siguientes comandos según la versión de java instalada
@@ -90,8 +90,7 @@ El motor de publicación de PDF nativo necesita un JDK de Oracle AEM para genera
    1. export JAVA\_HOME=/usr/lib/jvm/java-11.0.15.1
    2. export PATH=$PATH: $JAVA\_HOME/bin
 
-
-5. AEM Reiniciar el servidor
+5. AEM Reinicie el servidor de y vaya al paso 12 si utiliza la versión 4.2 de las guías o una posterior.
 6. Copie el &quot;_node_modules.zip_&quot; adjunto en la parte inferior de este artículo al directorio crx-quickstart/profiles/nodejs-b1aad0a7-9079-e56c-1ed8-6fcababe8166/.
 7. Abra el terminal en crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166/ location.
 8. Elimine el directorio node_modules con el comando siguiente
@@ -112,7 +111,7 @@ Comando: yum install fontconfig
 
 **NOTA** : el paquete node_modules.zip se puede descargar [aquí](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3).
 
-La importación manual de los módulos de nodos descargados para el sistema operativo Linux es una solución alternativa para los usuarios que se encuentran en las Guías 4.1 o versiones anteriores.
+La importación manual de los módulos de nodos descargados para el sistema operativo Linux es una solución alternativa para los usuarios que se encuentran en las Guías 4.1 o versiones anteriores (Paso 6-12)
 
 ## Pasos de configuración para el equipo Mac (JAVA 11/8)
 
@@ -141,7 +140,7 @@ La importación manual de los módulos de nodos descargados para el sistema oper
 
    C:/{aem-installation-folder}/crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166
 
-   i) encontrar . -type d -exec chmod 0755 {} \; ii) find . -type f -exec chmod 0755 {} \; iii) ./node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —prefix . install —unsafe-perm —scripts-prepend-node-path
+   i) encontrar . -type d -exec chmod 0755 {} \; ii) buscar . -type f -exec chmod 0755 {} \; iii) ./node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —prefix . install —unsafe-perm —scripts-prepend-node-path
 
 8. Compruebe si Java está instalado con el comando siguiente
 
@@ -164,8 +163,22 @@ A continuación se muestran los errores comunes que pueden producirse durante la
 
 ![excepción de puntero nulo](../assets/publishing/null-pointer-exception.png)
 
+Si el problema persiste incluso después de corregir la configuración del entorno Java, vuelva a validar lo siguiente:
+
+1. Compruebe si el ajuste preestablecido de salida está definido correctamente o cree uno nuevo sin espacios.
+
+2. Compruebe el directorio de recursos del nodo en /libs/fmdta/node_resources para asegurarse de que todas las bibliotecas necesarias se instalan durante la instalación.
+
 ### Faltan bibliotecas en el sistema operativo RHEL 7 Linux
 
 ![faltan bibliotecas](../assets/publishing/missing-libraries.png)
+
+### Tiempo de espera del proceso de publicación. El proceso no se completó en un tiempo determinado de 0 ms
+
+![tiempo de espera del proceso de publicación](../assets/publishing/publish-process-timeout.png)
+
+Valide el valor de la propiedad timeout para el nodo nodejs en /var/dxml/profiles/b1aad0a7-9079-e56c-1ed8-6fcababe8166/nodejs en el repositorio CRX. El valor predeterminado es 300.
+
+
 
 AEM Si encuentra algún problema al realizar cualquiera de los pasos anteriores, publique su pregunta en la Comunidad de guías de la comunidad de la comunidad de la [foro](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) para obtener asistencia.
