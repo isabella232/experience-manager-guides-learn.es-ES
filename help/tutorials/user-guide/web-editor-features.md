@@ -2,9 +2,9 @@
 title: Conozca las funciones del editor web
 description: Obtenga información sobre cómo conocer las funciones del editor web
 exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
-source-git-commit: 3ae28dc4266d418e5730e2036c8eee2a804dc847
+source-git-commit: d6e7046e8885191270620d634bda0a5284f76fa2
 workflow-type: tm+mt
-source-wordcount: '15745'
+source-wordcount: '15744'
 ht-degree: 0%
 
 ---
@@ -805,7 +805,7 @@ Verá distintas opciones en el menú Opciones en función de si selecciona un fi
 
 Las distintas opciones del menú Opciones se explican a continuación:
 
-- **Editar**: abra el archivo para editarlo. Si se trata de un archivo .ditamap/.bookmap, se abre en el [Editor de mapas avanzado](map-editor-advanced-map-editor.md#) para editar.
+- **Editar**: abra el archivo para editarlo. Si se trata de un archivo .ditamap/.bookmap, se abre en [Editor de mapas avanzado](map-editor-advanced-map-editor.md#) para editar.
 
 - **Duplicar**: utilice esta opción para crear un duplicado o una copia del archivo seleccionado. También tiene la opción de cambiar el nombre del archivo duplicado en la solicitud de recursos duplicados. De forma predeterminada, el archivo se crea con un sufijo \(como nombre de archivo\_1.extensión\). El título del archivo sigue siendo el mismo que el del archivo de origen y el nuevo archivo comienza con la versión 1.0. Todas las referencias, etiquetas y metadatos se copian, mientras que las líneas de base no se copian en el archivo duplicado.
 - **Desproteger**: bloquee el archivo seleccionado para editarlo. Para un archivo bloqueado, esta opción cambia a **Proteger**.
