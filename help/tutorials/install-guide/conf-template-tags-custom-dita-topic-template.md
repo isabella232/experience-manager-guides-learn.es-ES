@@ -1,13 +1,13 @@
 ---
 title: Configurar plantilla de tema DITA personalizada
 description: Obtenga información sobre cómo configurar una plantilla de tema DITA personalizada
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+exl-id: f79165ef-5118-4574-815d-c4ecb2f7d58b
+source-git-commit: 20980cd289a306fc73146ec3550ae31f15e91591
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 2%
 
 ---
-
 
 # Configurar plantilla de tema DITA personalizada {#id16A7G0O02TD}
 
@@ -45,9 +45,7 @@ AEM Guías de le permite configurar una carpeta para almacenar el mapa y las pla
 
 `/content/dam/dita-templates/`
 
-Para administrar archivos de tema y plantilla de asignación, hay carpetas dedicadas para almacenar el tema y las plantillas de asignación. De forma predeterminada, todas las plantillas de temas se almacenan en la variable `/content/dam/dita-templates/topics`
-
-carpeta. Todas las plantillas de mapa se almacenan en `/content/dam/dita-templates/maps` carpeta.
+Para administrar archivos de tema y plantilla de asignación, hay carpetas dedicadas para almacenar el tema y las plantillas de asignación. De forma predeterminada, todas las plantillas de temas se almacenan en la variable `/content/dam/dita-templates/topics` carpeta. Todas las plantillas de mapa se almacenan en `/content/dam/dita-templates/maps` carpeta.
 
 Como administrador, puede elegir crear plantillas de temas o mapas personalizadas en la carpeta predeterminada o crear su propia carpeta para almacenar plantillas personalizadas. Si planea utilizar la carpeta predeterminada, puede omitir este proceso.
 
@@ -75,4 +73,3 @@ Para configurar una carpeta para las plantillas de temas DITA personalizadas, re
 Si la ubicación especificada existe en DAM, todas las plantillas predeterminadas de temas y asignaciones se copian en esa carpeta. Si la ubicación no existe, la carpeta se creará con todas las plantillas predeterminadas de asignación y tema.
 
 **Tema principal:**[ Configuración de plantillas de temas y mapas](conf-template-tags.md)
-
