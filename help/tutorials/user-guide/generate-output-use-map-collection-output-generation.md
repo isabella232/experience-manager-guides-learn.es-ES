@@ -2,10 +2,10 @@
 title: Usar la colección de mapas para generar resultados
 description: Obtenga información sobre cómo utilizar la colección de mapas para la generación de resultados
 exl-id: 32e3af6c-9670-42cc-8dbe-9f99fbc60adf
-source-git-commit: 3ae28dc4266d418e5730e2036c8eee2a804dc847
+source-git-commit: be1a61d9475185da594b382c1daf361d3fe60b08
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 0%
+source-wordcount: '898'
+ht-degree: 1%
 
 ---
 
@@ -79,19 +79,13 @@ Para configurar y generar la salida mediante una colección de mapas, realice lo
      >  
      > De forma predeterminada, cualquier ajuste preestablecido nuevo está desactivado.
 
-1. Los ajustes preestablecidos para un mapa DITA se pueden activar de las siguientes maneras:
-
-   - Habilite cualquier ajuste preestablecido individual.
-   - Activar **Todos los ajustes preestablecidos** para que un mapa DITA seleccione todos los ajustes preestablecidos de una sola vez. Esta opción está desactivada de forma predeterminada.
-   - Activar **Ajustes preestablecidos de perfil de carpeta** para que un mapa DITA seleccione todos los ajustes preestablecidos de perfil de carpeta para él. Esta opción está desactivada de forma predeterminada.
-     ![edición de una colección de mapas en cloud services](images/edit-map-collection-cs.png){width="800" align="left"}
-
+   - Puede seleccionar **Habilitar/deshabilitar todos los ajustes preestablecidos de perfil de carpeta** para que un mapa DITA seleccione todos los perfiles de carpeta de una sola vez.
 
 
 1. Realice una de las siguientes acciones:
 
    - Para generar la salida de las asignaciones seleccionadas, seleccione los archivos de asignación y haga clic en **Generar seleccionados**.
-   - Para generar la salida de todos los mapas DITA con los ajustes preestablecidos configurados, haga clic en **Generar todo**.
+   - Para generar la salida de todos los mapas DITA con los ajustes preestablecidos configurados, pulse en **Generar todo**.
    >[!IMPORTANT]
    >
    > Si un proceso de generación de salida para un ajuste preestablecido o un mapa DITA está en cola o en curso, no se puede iniciar otra tarea de generación de salida para el mismo ajuste preestablecido o mapa.
