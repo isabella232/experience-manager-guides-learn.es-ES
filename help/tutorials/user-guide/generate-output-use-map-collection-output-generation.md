@@ -2,7 +2,7 @@
 title: Usar la colección de mapas para generar resultados
 description: Obtenga información sobre cómo utilizar la colección de mapas para la generación de resultados
 exl-id: 32e3af6c-9670-42cc-8dbe-9f99fbc60adf
-source-git-commit: 2e39580aa8417641d8b2ac7eab4ba4805cb68f0f
+source-git-commit: 3ae28dc4266d418e5730e2036c8eee2a804dc847
 workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Para crear una colección de mapas y añadir mapas DITA a la colección, realice
 
    ![](images/access-map-collection-left-rail.png){width="350" align="left"}
 
-1. Escriba un Título para la colección de mapas.
+1. Escriba un título para la colección de mapas.
 1. Haga clic en **Crear**.
 
    Se muestra un mensaje de éxito al crear la colección de mapas.
