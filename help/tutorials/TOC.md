@@ -2,9 +2,9 @@
 user-guide-title: Tutoriales para AEM Guides
 user-guide-description: Lea nuestra colección de tutoriales para Adobe Experience Manager Guides.
 breadcrumb-title: Tutoriales de AEM Guides
-source-git-commit: 49b1876f2e9ac653ced74bddb03a585c5154b8b6
+source-git-commit: 7ec353bcb943e70e0c40a2c494eaa4729f31880e
 workflow-type: tm+mt
-source-wordcount: '1444'
+source-wordcount: '1456'
 ht-degree: 5%
 
 ---
@@ -198,6 +198,9 @@ ht-degree: 5%
          + [Administración de usuarios y seguridad](./install-guide/user-admin-sec.md)
       + Migración de contenido {#content-migration}
          + [Migración de contenido de no UUID a UUID](./install-guide/migrate-uuid-non-uuid.md)
+         + Proceso de migración {#migration-process}
+            + [Migración de contenido que no sea UUID con versiones](./install-guide/migrate-non-uuid-uuid-with-versions.md)
+            + [Migrar contenido que no sea UUID sin versiones](./install-guide/migrate-non-uuid-uuid-without-versions.md)
          + [Migrar contenido existente](./install-guide/migrate-content.md)
          + [Cargar contenido DITA existente](./install-guide/migrate-content-upload-existing-dita-content.md)
          + [Migración de contenido no DITA](./install-guide/migrate-content-non-dita.md)
