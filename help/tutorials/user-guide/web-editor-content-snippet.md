@@ -1,9 +1,9 @@
 ---
 title: Inserción de un fragmento de contenido desde la fuente de datos
 description: Aprenda a insertar un fragmento de contenido desde la fuente de datos
-source-git-commit: 0f1c9d545dfc6dc53742c6f8d89cd48d33de2681
+source-git-commit: af5ec027ea093a28ba2a2ffd0ca3895546ed6e76
 workflow-type: tm+mt
-source-wordcount: '1549'
+source-wordcount: '1685'
 ht-degree: 0%
 
 ---
@@ -32,14 +32,18 @@ Seleccione una fuente de datos para ver los generadores de fragmentos de conteni
 
 ![](images/data-sources-list-view.png){width="300" align="left"}
 
+*Lista de fuentes de datos conectadas.*
 
 ### Vista en mosaico   ![](images/data-sources-tile-view-icon.svg)
 
 ![](images/data-sources-tile-view.png){width="300" align="left"}
 
+*Vea las fuentes de datos conectadas en mosaico.*
+
 Los datos de las fuentes de datos se pueden utilizar de dos maneras:
 - Insertar un fragmento de contenido
 - Crear un tema
+
 
 
 ## Inserción de un fragmento de contenido desde la fuente de datos
@@ -53,6 +57,7 @@ Realice los siguientes pasos para crear un fragmento de contenido mediante el ge
 1. Seleccione una fuente de datos para ver los generadores de fragmentos de contenido disponibles para la fuente de datos seleccionada.
 
    ![](images/code-snippet-generator.png){width="300" align="left"}
+   *El panel Fuentes de datos enumera los generadores de fragmentos de contenido disponibles.*
 
 1. Seleccionar **Añadir** para agregar un nuevo generador de fragmentos de contenido. El **Añadir generador de fragmentos de contenido** se abre el panel.
 
@@ -75,6 +80,8 @@ Por ejemplo:
 
    1. La vista de origen muestra los datos en la vista de origen DITA.
       ![](images/add-content-snippet-generator.png){width="800" align="left"}
+      *Añada un generador de fragmentos de contenido. Ver los datos en modo de origen o vista previa.*
+
 1. Para guardar los resultados de la consulta, escriba el nombre del generador y haga clic en **AÑADIR**.   Se agrega a la lista un nuevo generador de fragmentos de contenido.
 
    >[!NOTE]
@@ -102,6 +109,7 @@ También puede utilizar la variable **Insertar fragmento de consulta** ![](image
 
 ![](images/insert-content-snippet.png){width="800" align="left"}
 
+*Editar e insertar un fragmento de datos.*
 
 ## Creación de un tema mediante el generador de temas
 
@@ -118,6 +126,9 @@ Realice los siguientes pasos para crear un tema con el generador de temas:
 1. Seleccione una fuente de datos para ver los generadores de fragmentos de contenido y los generadores de temas disponibles para la fuente de datos seleccionada.
 
    ![](images/data-sources.png){width="300" align="left"}
+
+   *Agregar un generador de temas para una fuente de datos conectada.*
+
 1. Seleccionar **Añadir** ![](images/Add_icon.svg) y seleccione **Generador de temas** en el menú desplegable para agregar un nuevo generador de temas. El **Agregar generador de temas** se abre el panel.
 
 
@@ -128,13 +139,14 @@ Realice los siguientes pasos para crear un tema con el generador de temas:
 
    ![](images/topic-generator-fetch-configuration.png){width="300" align="left"}
 
+   *Agregue los detalles Consulta de datos, Plantilla de asignación de datos y Nodo raíz para el generador de temas y asígnele un nombre único en el panel Recuperar configuración.*
 
    1. Introduzca la consulta en **Consulta de datos** cuadro de texto.
    1. Seleccione la plantilla que se asigna a la fuente de datos desde el **Plantilla de asignación de datos** desplegable.
 
-   >[!NOTE]
-   >
-   > Si el administrador ha configurado plantillas personalizadas, también se mostrarán dichas plantillas en la lista desplegable (según las configuraciones de ruta de plantilla realizadas por el administrador). Por ejemplo, se puede crear una plantilla de tema que contenga una lista ordenada, tablas, párrafos u otros elementos DITA.
+      >[!NOTE]
+      >
+      > Si el administrador ha configurado plantillas personalizadas, también se mostrarán dichas plantillas en la lista desplegable (según las configuraciones de ruta de plantilla realizadas por el administrador). Por ejemplo, se puede crear una plantilla de tema que contenga una lista ordenada, tablas, párrafos u otros elementos DITA.
 
    1. Introduzca el **Nodo raíz**. Este es el nodo en el que desea acceder a los datos. A continuación, el generador de temas crea cada tema en el nivel definido en el nodo raíz. Por ejemplo, puede agregar &quot;problemas&quot; como nodo raíz en Jira. Por lo tanto, si una consulta devuelve 13 problemas, obtendrá 13 temas, un tema para cada problema.
 
@@ -148,6 +160,8 @@ Realice los siguientes pasos para crear un tema con el generador de temas:
    **Configuración de salida**
 
    ![](images/topic-generator-output-configuration.png){width="300" align="left"}
+
+   *Introduzca los detalles de la convención de nomenclatura de temas y rutas de salida en el panel Configuración de salida. Genere un mapa DITA y asígnele un nombre.*
 
    1. Introduzca el **Ruta de salida** Especifica dónde desea guardar los temas.
    1. En el **Convenciones de nomenclatura de temas**, puede introducir un valor o una variable con etiquetas de velocidad. Los nuevos temas seguirán la convención. Por ejemplo, puede introducir la variable `$key` para crear temas basados en claves Jira.
@@ -166,7 +180,7 @@ Realice los siguientes pasos para crear un tema con el generador de temas:
 
    ![](images/topic-generator-metadata.png){width="300" align="left"}
 
-
+   *Agregue las propiedades de metadatos en el panel Metadatos para pasar a los temas.*
 
 1. Introduzca el nombre del generador y haga clic en **Guardar** para guardar los resultados de la consulta. Se agrega un nuevo generador de temas a la lista.
 
@@ -175,6 +189,8 @@ Realice los siguientes pasos para crear un tema con el generador de temas:
 
 
    ![](images/edit-topic-generator.png){width="650" align="left"}
+
+   *Generar temas nuevos a partir de un generador de temas existente.*
 
    >[!NOTE]
    >
@@ -192,6 +208,8 @@ Haga clic con el botón derecho en un generador de temas para abrir **Opciones**
   >Si el tema ya existe, puede sobrescribir los datos del tema o guardarlos como una nueva versión.
 
   ![](images/generate-topic-options.png)
+
+  *Genere un tema y, si el archivo ya existe, guárdelo como una nueva versión o sobrescriba el tema.*
 
 - **Editar**: utilice esta opción para cambiar y guardar el generador de temas.
 - **Eliminar**: utilice esta opción para eliminar el generador de temas seleccionado.

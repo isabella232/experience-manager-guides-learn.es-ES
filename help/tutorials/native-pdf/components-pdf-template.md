@@ -2,9 +2,9 @@
 title: Función de publicación nativa de PDF | Componentes de una plantilla de PDF
 description: Conozca los distintos componentes de una plantilla de PDF y cómo personalizarlos y configurarlos.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 08c1f1a8df5fdbaa0d8f27d2752028d0ee2ed538
+source-git-commit: 18ec7e1b19cd6404b86f965be96caa88a0a067fe
 workflow-type: tm+mt
-source-wordcount: '3672'
+source-wordcount: '3934'
 ht-degree: 0%
 
 ---
@@ -107,25 +107,36 @@ Para crear una hoja de estilo, siga los siguientes pasos:
 
 ### Crear un nuevo estilo {#create-style}
 
-De forma predeterminada, los archivos CSS contienen estilos para encabezados, párrafos, caracteres, hipervínculos, imágenes, tablas, div, páginas y otros estilos. Puede anular el formato de estilo predeterminado o crear uno nuevo.
+De forma predeterminada, los archivos CSS proporcionados con la plantilla contienen estilos para el encabezado, el párrafo, el carácter, el hipervínculo, la imagen, la tabla, el div, la página y otros estilos. Puede anular el formato de estilo predeterminado o crear uno nuevo.
 
-Normalmente, se crea un nuevo estilo cuando se desea asociar un estilo personalizado a cualquier elemento DITA. Para que funcionen estos estilos personalizados, debe asegurarse de asociar el nombre de clase del estilo con el atributo outputclass del elemento DITA.
+
+Puede crear un nuevo estilo para utilizarlo en el diseño de página de la plantilla o aplicar un estilo personalizado para cualquier elemento DITA. Para aplicar estos estilos personalizados al elemento DITA, debe asegurarse de que el nombre de clase del estilo sea el mismo que el nombre del elemento DITA o el `outputclass` atributo.  Por ejemplo, `<div>` en DITA se rige por el `.div {}` en CSS o su `outputclass` atributo. Si usted solicita `<div outputclass="my-div">` en DITA, se rige por el `.div {}` o `.my-div {}` en CSS.
+
 
 
 Para crear un nuevo estilo, siga los siguientes pasos:
-1. Haga clic con el botón derecho en cualquier estilo y elija Nuevo estilo en el menú contextual.
+1. Expanda la barra lateral izquierda y haga doble clic en la plantilla en la que desea crear el estilo.
+1. Expanda el **Hojas de estilo** sección. Se abre el **Estilos** panel que contiene todas las opciones de estilo.
+1. Seleccione el icono + para añadir un nuevo estilo.
 
-   Se abrirá el cuadro de diálogo Agregar estilo.
+   **Añadir estilo** se abre el cuadro de diálogo.
 
-   <img src="assets/add-style.png" alt="Añadir nuevo estilo" width="300"/>
-1. En el **Etiqueta** , elija una etiqueta para la que desee crear un nuevo estilo.
-1. Especifique un **Clase** nombre.
 
-   Este nombre de clase debe estar asociado al atributo outputclass de la etiqueta en el contenido de origen.
-1. Seleccione una **Pseudoclase** para mejorar el estilo del elemento.
+   <img src="assets/add-style.png" alt="Añadir nuevo estilo" width="500"/>
+
+1. Especifique un **Clase** nombre. Para aplicar un estilo al elemento DITA, asegúrese de que el nombre de clase del estilo es el mismo que el nombre del elemento DITA o el `outputclass` atributo.
+1. En el **Etiqueta** (opcional), elija una etiqueta para la que desee crear un nuevo estilo.
+
+
+1. Seleccione una **Pseudoclase** para aplicar estilo a un elemento. Una pseudoclase le ayuda a definir un estado especial del elemento. Por ejemplo, utilice la pseudoclase para aplicar estilo a un elemento cuando pase el ratón sobre él o cuando se centre sobre él. También puede seleccionar varias pseudoclases. Por ejemplo, puede utilizar la pseudoclase `a::visited {color: blue;}` para aplicar estilo a los vínculos visitados.
+
+1. Añada el selector para el nuevo estilo. El **Selector** Este campo le ayuda a añadir selectores personalizados además de la combinación de Clase, Etiqueta y Pseudoclase. Por ejemplo, puede crear `table a.link` para todos los hipervínculos de una tabla.
+
+   Para obtener más información sobre las etiquetas CSS, consulte [Consulte la gramática de estilo CSS](https://www.w3.org/TR/CSS21/syndata.html#characters).
+
 1. Haga clic en **Listo**.
 
-   Se crea un nuevo estilo y se agrega bajo el estilo base.
+   Se crea un nuevo estilo y se agrega a la lista de estilos.
 
 ### Personalizar un estilo predefinido o nuevo {#customize-style}
 
@@ -143,17 +154,26 @@ Para personalizar un estilo, siga los siguientes pasos:
 
    Se abrirá la hoja de estilos para editarla y se mostrará la lista de estilos en el panel Estilos.
 
-   <img src="assets/customize-style.png" alt="Personalizar estilo" width="450">
+   <img src="assets/customize-style.png" alt="Personalizar estilo" width="800">
 
-1. Para personalizar un estilo, haga doble clic en él o haga clic en el icono > antes de un estilo para verlo y personalizarlo con el editor Estilos.
+1. Para personalizar un estilo, selecciónelo para verlo y personalizarlo con el editor Estilos.
 
-Para obtener más información sobre cómo trabajar con los estilos más comunes, consulte [Trabajar con los estilos de contenido comunes](stylesheet.md).
+
+### Propiedades de los estilos
+
+En el panel central, puede editar las propiedades, pero puede resultar difícil obtener una instantánea de todos los valores presentes.  El **Propiedades** Este panel proporciona una vista rápida de todos los atributos y valores del estilo.
+
+En el panel central, puede editar las propiedades que se utilizan con más frecuencia, pero no todas las que admite CSS. En el **Propiedades** , puede editar todas las propiedades compatibles con CSS y previsualizarlas. No es necesario cambiar a la vista Código fuente para editar ninguna propiedad.
+
+
+Obtenga más información acerca del uso del editor de estilos para [Trabajar con los estilos de contenido comunes](stylesheet.md).
 
 ## Trabajo con recursos {#work-with-resources}
 
 Este es un contenedor para todos los recursos utilizados para diseñar una plantilla. Puede considerarlo como una carpeta, que contiene recursos como imágenes de fondo, fuentes personalizadas, logotipos y mucho más. Cada vez que se añade un recurso a la plantilla, se carga o se registra en la carpeta de recursos. A continuación, puede utilizar estos recursos para personalizar o diseñar las plantillas de PDF.
 
 Para agregar un archivo de recursos a la carpeta Recursos, siga los siguientes pasos:
+
 1. Pase el ratón sobre la pestaña de la carpeta Recursos y haga clic en (icono Opciones) ... y seleccione Importar.
 
    Se abrirá el cuadro de diálogo Cargar recursos.
