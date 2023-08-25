@@ -2,9 +2,9 @@
 title: Trabajar con línea base
 description: Aprenda a trabajar con la línea de base
 exl-id: dcafab53-c388-48c3-9455-e4251cdda17d
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8e2e2c60f223b3967fad10372abee3192016c4ef
 workflow-type: tm+mt
-source-wordcount: '1917'
+source-wordcount: '1936'
 ht-degree: 0%
 
 ---
@@ -43,40 +43,20 @@ Realice los siguientes pasos para crear una línea base:
 
 1. En la página Líneas Base, haga clic en **Crear**.
 1. Introduzca un nombre para la Línea base en **Nombre de línea base**.
+   ![crear una línea base](images/create-baseline.png){width="800" align="left"}
 1. Entrada **Establecer la versión en función de**, seleccione una de las siguientes opciones:
 
    - **Etiqueta**: seleccione esta opción para elegir los temas según la etiqueta aplicada a ellos. Introduzca una etiqueta para filtrar la lista en función de la cadena introducida. En la lista filtrada, puede elegir una etiqueta para seleccionar temas y otros recursos que tengan la etiqueta especificada.
+
    Al seleccionar **Etiqueta**, también se le proporcionará una opción adicional para utilizar la versión más reciente de temas que no tengan aplicada la etiqueta especificada. Si no selecciona esta opción y hay algún tema o archivo multimedia que no tenga la etiqueta especificada en él, el proceso de creación de la línea base fallará. Para obtener más información sobre cómo añadir etiquetas, consulte [Uso de etiquetas](web-editor-use-label.md#).
 
    - **Versión el** &lt;*marca de tiempo*\>: selecciona la versión de los temas en la fecha y hora especificadas. AEM Tenga en cuenta que la hora que especifique aquí corresponde a la zona horaria del servidor de la. Si el servidor se encuentra en una zona horaria diferente, los temas se recogerán según la zona horaria del servidor y no según la zona horaria local.
 
    Una vez seleccionada una etiqueta o versión como en la fecha, todos los temas a los que se hace referencia y los archivos multimedia dentro del mapa se seleccionan según corresponda. Esta selección de temas no se muestra en la interfaz de usuario, pero se guarda en el servidor.
 
-1. Si desea utilizar una versión diferente para uno o más temas, puede seleccionarlos manualmente. Clic **Examinar tema**, seleccione el tema para el que desea utilizar una versión diferente. En la lista desplegable Seleccionar una versión para el tema seleccionado, seleccione una versión del tema que desee utilizar en la línea de base y haga clic en **OK**.
-
-   ![](images/baseline-select-version-drop-down.png){width="800" align="left"}
-
-   La información sobre el tema y su versión seleccionada se almacenan en el servidor. Puede repetir este paso para cambiar la versión seleccionada de varios temas.
-
-1. Haga clic en **Examinar todos los temas** vínculo para cargar todos los temas y archivos multimedia a los que se hace referencia desde el mapa DITA. El UUID de los temas y archivos multimedia también se muestra debajo del título del tema o del nombre del archivo \(media\).
-
    >[!NOTE]
    >
-   > Si tiene un gran conjunto de archivos en el mapa DITA, con mapas y temas anidados, hacer clic en Examinar todos los temas podría tardar algún tiempo en cargar todos los archivos.
-
-   El contenido del mapa se presenta en las tres secciones: el archivo de mapa, Contenido \(referencias de temas\) y Contenido de referencia \(temas anidados, mapas y otros recursos\). Una vez que tenga disponible todo el contenido al que se hace referencia, puede seleccionar individualmente la versión del tema que desee utilizar en la línea de base.
-
-   El **Versión** La lista desplegable muestra las versiones disponibles de los temas o el contenido al que se hace referencia. Para el contenido al que se hace referencia, tiene la opción de elegir una versión automáticamente.
-
-   Si elige **Seleccionar automáticamente** para el contenido referenciado, el sistema selecciona automáticamente la versión del contenido referenciado correspondiente a la versión del contenido en el que se hace referencia. Por ejemplo, supongamos que un tema A hace referencia a una imagen B. Cuando se creó la versión 1.5 del tema A, la versión de la imagen B era 1.2 en el repositorio. Ahora, cuando se crea una línea de base con la versión 1.5 del tema A con la imagen B configurada como **Seleccionar automáticamente**, el sistema seleccionará automáticamente la versión 1.2 de la imagen B.
-
-   Si crea una línea base utilizando las etiquetas, **Seleccionar automáticamente** se aplica a la versión de todo el contenido referenciado.
-
-   Si el contenido o los recursos a los que se hace referencia \(tema, submapas, imágenes o vídeos\) no tienen versiones \(como, contenido recién cargado\), al crear una línea de base se creará una versión para dichos archivos. Sin embargo, si se crean versiones de los archivos, no se creará ninguna versión incremental para esos archivos. Este comportamiento se controla mediante la configuración de creación automática de versiones, que está habilitada de forma predeterminada. Esto también es necesario para traducir contenido, donde el proceso de traducción espera que todos los archivos tengan una versión.
-
-   >[!NOTE]
-   >
-   > Si desea especificar una versión diferente para un recurso en particular, puede hacerlo eligiendo la versión deseada de la **Versión** lista desplegable.
+   >Se recomienda no utilizar el **Examinar todos los temas** al crear una línea base.
 
 1. Haga clic en **Guardar**.
 
@@ -108,6 +88,31 @@ Realice los siguientes pasos para editar una línea base existente:
 
 1. Seleccione la Línea base y haga clic en **Editar**.
 1. Realice los cambios necesarios en la línea de base. Puede cambiar el nombre y la versión del tema o el contenido al que se hace referencia.
+1. Si desea utilizar una versión diferente para uno o más temas, puede seleccionarlos manualmente. Clic **Examinar tema**, seleccione el tema para el que desea utilizar una versión diferente. En la lista desplegable Seleccionar una versión para el tema seleccionado, seleccione una versión del tema que desee utilizar en la línea de base y haga clic en **OK**.
+
+   ![](images/baseline-select-version-drop-down.png){width="800" align="left"}
+
+   La información sobre el tema y su versión seleccionada se almacenan en el servidor. Puede repetir este paso para cambiar la versión seleccionada de varios temas.
+
+1. Para cargar todos los temas y archivos multimedia a los que se hace referencia desde el mapa DITA, pulse en **Examinar todos los temas** vínculo. El UUID de los temas y archivos multimedia también se muestra debajo del título del tema o del nombre del archivo \(media\).
+
+   >[!NOTE]
+   >
+   > Si tiene un gran conjunto de archivos en el mapa DITA, con mapas y temas anidados, hacer clic en Examinar todos los temas podría tardar algún tiempo en cargar todos los archivos.
+
+   El contenido del mapa se presenta en las tres secciones: el archivo de mapa, Contenido \(referencias de temas\) y Contenido de referencia \(temas anidados, mapas y otros recursos\). Una vez que tenga disponible todo el contenido al que se hace referencia, puede seleccionar individualmente la versión del tema que desee utilizar en la línea de base.
+
+   El **Versión** La lista desplegable muestra las versiones disponibles de los temas o el contenido al que se hace referencia. Para el contenido al que se hace referencia, tiene la opción de elegir una versión automáticamente.
+
+   Si elige **Seleccionar automáticamente** para el contenido referenciado, el sistema selecciona automáticamente la versión del contenido referenciado correspondiente a la versión del contenido en el que se hace referencia. Por ejemplo, supongamos que un tema A hace referencia a una imagen B. Cuando se creó la versión 1.5 del tema A, la versión de la imagen B era 1.2 en el repositorio. Ahora, cuando se crea una línea de base con la versión 1.5 del tema A con la imagen B configurada como **Seleccionar automáticamente**, el sistema seleccionará automáticamente la versión 1.2 de la imagen B.
+
+   Si crea una línea base utilizando las etiquetas, **Seleccionar automáticamente** se aplica a la versión de todo el contenido referenciado.
+
+   Si el contenido o los recursos a los que se hace referencia \(tema, submapas, imágenes o vídeos\) no tienen versiones \(como, contenido recién cargado\), al crear una línea de base se creará una versión para dichos archivos. Sin embargo, si se crean versiones de los archivos, no se creará ninguna versión incremental para esos archivos. Este comportamiento se controla mediante la configuración de creación automática de versiones, que está habilitada de forma predeterminada. Esto también es necesario para traducir contenido, donde el proceso de traducción espera que todos los archivos tengan una versión.
+
+   >[!NOTE]
+   >
+   > Si desea especificar una versión diferente para un recurso en particular, puede hacerlo eligiendo la versión deseada de la **Versión** lista desplegable.
 1. Haga clic en **Guardar**.
 
 **Duplicar líneas base**
@@ -143,7 +148,7 @@ Realice los siguientes pasos para agregar una etiqueta a varios temas y contenid
    - Clic **Añadir**.
 La etiqueta especificada se añade al mapa DITA y a los temas y contenido a los que se hace referencia.
 
-      ![](images/label-added-baseline-uuid.png){width="650" align="left"}
+     ![](images/label-added-baseline-uuid.png){width="650" align="left"}
 
 
 ## Exportar línea base traducida {#id196SE600GHS}
