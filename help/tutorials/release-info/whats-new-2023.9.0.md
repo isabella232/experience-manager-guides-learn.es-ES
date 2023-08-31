@@ -1,9 +1,9 @@
 ---
 title: Notas de versión | Novedades de las guías de Adobe Experience Manager, versión de septiembre de 2023
 description: Conozca las funciones nuevas y mejoradas de la versión de septiembre de 2023 de las guías de Adobe Experience Manager as a Cloud Service
-source-git-commit: c01c3500b55f3579633ad1a954f9010783365add
+source-git-commit: 9d59fbbc88c3effe0b1c8438d9f3af55ffb8da27
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1678'
 ht-degree: 0%
 
 ---
@@ -12,20 +12,19 @@ ht-degree: 0%
 
 Este artículo cubre las funciones nuevas y mejoradas de la versión de septiembre de 2023 de las guías de Adobe Experience Manager (más adelante denominadas *AEM Guías de as a Cloud Service*).
 
-Para obtener más información sobre las instrucciones de actualización, la matriz de compatibilidad y los problemas corregidos en esta versión, consulte [Notas de versión](release-notes-2023.7.0.md).
+Para obtener más información sobre las instrucciones de actualización, la matriz de compatibilidad y los problemas corregidos en esta versión, consulte [Notas de versión](release-notes-2023.9.0.md).
 
-## Conectarse a un origen de datos e insertar datos en los temas
+## Conectarse a un origen de datos e insertar los temas
 
-AEM Ahora puede conectarse rápidamente a sus fuentes de datos utilizando conectores predeterminados desde las guías de la interfaz de usuario de la interfaz de usuario de la interfaz de usuario de la interfaz de usuario de Gmail. AEM La conexión a una fuente de datos le permite mantener la información sincronizada con la fuente y cualquier actualización de los datos se refleja automáticamente, lo que convierte a las guías en un auténtico centro de contenido. Esta función le ayuda a ahorrar tiempo y esfuerzo para agregar o copiar manualmente los datos.
+AEM AEM Guías de proporciona conectores listos para usar que le ayudan a conectarse con sus fuentes de datos, lo que convierte a las guías en un auténtico centro de contenido. Esto le proporciona la ventaja de ahorrarle tiempo y esfuerzo que, de lo contrario, se invertirían en la adición o replicación manual de datos.
 
-AEM Guías de permiten al administrador configurar los conectores predeterminados para las bases de datos JIRA y SQL (MySQL, PostgreSQL, SQL Server, SQLite). También pueden agregar otros conectores ampliando las interfaces predeterminadas.
-Una vez agregados, puede ver los conectores configurados en el panel Fuentes de datos del Editor web.
+Junto con los conectores predeterminados existentes, como JIRA y SQL (MySQL, PostgreSQL, SQL Server, SQLite), el administrador también puede configurar conectores para bases de datos MariaDB, H2DB, AdobeCommerce y Elasticsearch. También pueden agregar otros conectores ampliando las interfaces predeterminadas.
+
+Puede ver los conectores configurados en la **Fuentes de datos** Panel en el editor web.
 
 <img src="assets/data-sources.png" alt="Lista de fuentes de datos en el panel" width="300">
 
 *Vea las fuentes de datos conectadas.*
-
-Cree un fragmento de contenido para recuperar los datos de una fuente de datos conectada. A continuación, puede insertar los datos en los temas y editarlos. Una vez creado un generador de fragmentos de contenido, puede volver a utilizarlo para insertar los datos en cualquier tema.
 
 Ahora también puede crear un tema a partir de una fuente de datos conectada. Un tema puede contener datos en varios formatos, como tablas, listas y párrafos. También permite crear un mapa DITA para todos los temas. Puede asociar metadatos al tema al extraer de una fuente de datos.
 
@@ -40,6 +39,7 @@ AEM En las Guías de la, puede agregar citas o importarlas y aplicarlas al conte
 Después de insertar las citas en los temas, puede obtener una vista previa de las mismas en el Editor Web. También puede publicar contenido con citas utilizando el PDF nativo.
 
 ![Citas enumeradas en un panel](assets/citation-panel.png){width="300" align="left"}
+
 *Vea la lista de citas en el panel Citas.*
 
 Para obtener más información, consulte [Añadir y administrar citas en el contenido](../user-guide/web-editor-apply-citations.md).
@@ -54,7 +54,10 @@ AEM Ahora, las guías de la ofrecen una forma de publicar un tema o los elemento
 AEM AEM Ponga en mayúsculas el poder de las Guías de y los fragmentos de contenido, y utilice fragmentos de contenido en cualquier sitio de. También puede extraer los detalles a través de las API admitidas por los fragmentos de contenido.
 
 ![opción para publicar el fragmento de contenido](assets/content-fragment-publish.png){width="550" align="left"}
+
 *Publicar un tema en un fragmento de contenido.*
+
+Para obtener más información, consulte [Publicación en un fragmento de contenido](../user-guide//publish-content-fragment.md).
 
 ## Revisar mejoras
 
@@ -66,6 +69,7 @@ AEM La realización de exámenes es una característica fundamental de las Guía
 Ahora puede buscar un tema escribiendo parte del texto del título o ruta de archivo en la barra de búsqueda de la vista Temas del panel de revisión. También puede elegir ver todos los temas o ver los temas con comentarios. De forma predeterminada, puede ver todos los temas presentes en la tarea de revisión. Para obtener más información, consulte [Revisar temas](../user-guide/review-topics.md).
 
 ![Buscar en un panel de temas de revisión](assets/review-search-topic.png){width="800" align="left"}
+
 *Busque un tema de revisión en el panel de revisión.*
 
 
@@ -78,7 +82,7 @@ AEM AEM Cree paquetes personalizados sobre las Guías de para proporcionar exten
 
 ## Mejoras del PDF nativo
 
-En la versión 4.3.0 se han realizado las siguientes mejoras en el PDF AEM nativo para hacer que las guías de la aplicación sean un producto más robusto:
+En la versión de septiembre de 2023 de se realizaron las siguientes mejoras en el PDF AEM nativo para hacer que las guías de recursos sean un producto más robusto:
 
 
 
@@ -101,15 +105,23 @@ Para obtener más información, consulte [Orden de páginas](../native-pdf/compo
 
 ### Combinar páginas
 
-De forma predeterminada, en una salida de PDF nativo, todas las secciones comienzan en una nueva página. Ahora puede combinar una sección con su página anterior o con la página siguiente. Esto publica la sección como continuación de la página seleccionada en la salida del PDF y no hay ningún salto de página entre medias.
+De forma predeterminada, en una salida de PDF nativo, todas las secciones comienzan en una nueva página. Ahora puede combinar una sección con su página anterior o con la página siguiente. Esto publica la sección como continuación con la página seleccionada en la salida del PDF y no hay ningún salto de página entre medias.
 
-Para obtener más información, consulte la descripción de la función Páginas combinadas en [Orden de páginas](../native-pdf/components-pdf-template.md#page-order) sección.
+Para obtener más información, consulte **Combinar páginas** descripción de funciones en [Orden de páginas](../native-pdf/components-pdf-template.md#page-order) sección.
+
+### Iniciar cualquier capítulo desde la página actual
+
+Se pueden definir los valores de configuración básicos para iniciar un capítulo desde una página impar o par, la estructura del índice y definir el formato de línea directriz para las entradas del índice.
+
+Ahora también puede iniciar un capítulo desde la página actual. Si decide hacerlo, todos los capítulos se publican a continuación sin saltos de página. Por ejemplo, si un capítulo termina en mitad de la página 15, el capítulo siguiente también comienza desde la propia página 15.
+
+Para obtener más información, consulte **General** descripción de pestaña en  [Configuración avanzada del PDF](../native-pdf/components-pdf-template.md#advanced-pdf-settings-advanced-pdf-settings).
 
 ### Páginas estáticas
 
 También puede crear diseños de página personalizados y publicarlos como páginas estáticas en la salida del PDF. Esto le ayuda a añadir contenido estático como notas o páginas en blanco.
 
-Para obtener más información, consulte la descripción de la función Páginas estáticas en [Orden de páginas](../native-pdf/components-pdf-template.md#page-order) sección.
+Para obtener más información, consulte **Páginas estáticas** descripción de funciones en [Orden de páginas](../native-pdf/components-pdf-template.md#page-order) sección.
 
 
 ### Variables en referencias cruzadas
@@ -135,16 +147,29 @@ Ahora puede utilizar selectores personalizados para añadir estilos complejos. E
 
 ![agregar estilos en las plantillas pdf nativas](assets/add-styles-native-pdf.png){width="300" align="left"}
 
+*Agregue los detalles del nuevo estilo.*
+
 #### Personalizar propiedades de estilo
 
 AEM Ahora, Guías de le presenta un nuevo panel de propiedades en la sección de vista previa de los estilos. Puede editar las propiedades de los estilos de forma más eficaz y rápida desde el panel Propiedades.
 
 
+## Compatibilidad con varias definiciones de asunto en una sola definición de enumeración
+
+Ahora puede definir una o más definiciones de asunto en un mapa y las definiciones de enumeración en otro mapa y, a continuación, añadir la referencia de mapa. Las referencias de asunto y enumeración se resuelven en el mismo mapa o en el mapa al que se hace referencia.
+
+Ahora también puede definir condiciones y aplicarlas a algunos elementos específicos de un tema.  Las condiciones solo son visibles para esos elementos específicos y no para todos los demás elementos.
+
+Para obtener más información sobre la gestión de definiciones jerárquicas de definiciones de temas y enumeraciones, consulte la descripción de la función de esquema de temas en la [Panel izquierdo](../user-guide/web-editor-features.md#id2051EA0M0HS) sección.
+
+
+
+
 
 ## Seleccionar todos los ajustes preestablecidos de una colección de mapas
 
-No solo puede seleccionar un ajuste preestablecido individual, sino que también puede activar todos los ajustes preestablecidos para un mapa DITA de una sola vez.
-![edición de una colección de mapas](assets/edit-map-collection.png){width="800" align="left"}\
+No solo puede activar un ajuste preestablecido individual y todos los ajustes preestablecidos de perfil de carpeta, sino también activar todos los ajustes preestablecidos para un mapa DITA de una sola vez.
+![edición de una colección de mapas](assets/edit-map-collection-cs.png){width="800" align="left"}\
 *Seleccione todos los ajustes preestablecidos de una colección de mapas.*
 
 Para obtener más información, consulte [Usar la colección de mapas para generar resultados](../user-guide/generate-output-use-map-collection-output-generation.md).
@@ -164,3 +189,19 @@ Puede utilizar el cuadro de diálogo Examinar archivo para seleccionar las carpe
 Para obtener más información, consulte [Mover archivos por lotes](../user-guide/authoring-file-management.md#move-files-bulk).
 
 
+## Experiencia de previsualización mejorada desde el menú contextual
+
+Utilice el menú contextual para previsualizar rápidamente el archivo (.dita, .xml, audio, vídeo o imagen) sin abrirlo. Ahora puede cambiar el tamaño del panel de vista previa y, si el contenido contiene algún vínculo de referencia, puede seleccionarlo para abrirlo en una nueva pestaña.
+
+![Panel Vista previa ](assets/quick-preview_cs.png){width="800" align="left"}
+
+*Obtenga una vista previa del archivo en el panel.*
+
+Para obtener más información sobre el menú contextual, consulte la **Opciones de un archivo** descripción de la función en [Panel izquierdo](../user-guide/web-editor-features.md#id2051EA0M0HS) sección.
+
+
+## Utilice variables para la fecha y la hora actuales en las opciones Ruta de destino, Nombre del sitio o Nombre de archivo
+
+AEM Al generar resultados en el sitio o en los PDF de, puede utilizar variables para configurar el **Ruta de destino**, **Nombre del sitio**, o **Nombre de archivo** opciones. Ahora también puede utilizar la variable `${system_date}`y `${system_time}` variables. Estas variables le ayudan a anexar la fecha y la hora actuales a estas opciones.
+
+Obtenga información sobre cómo [usar variables para establecer las opciones Ruta de destino, Nombre del sitio o Nombre de archivo](../user-guide/generate-output-use-variables.md).

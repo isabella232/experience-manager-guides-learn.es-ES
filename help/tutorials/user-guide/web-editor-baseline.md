@@ -2,9 +2,9 @@
 title: Crear y administrar líneas de base desde el editor web
 description: Obtenga información sobre cómo crear y administrar líneas de base desde el editor web
 exl-id: 9e390489-16f5-4f9a-a821-5150a66c2ed4
-source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
+source-git-commit: 906b1db461d343568b43195113dbc37ef5f88341
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1327'
 ht-degree: 0%
 
 ---
@@ -36,17 +36,21 @@ Puede crear una línea base desde el Editor Web realizando los siguientes pasos:
 
 
       1. **Fecha** &lt;time stamp=&quot;&quot;>: elige la versión de los temas en la fecha y hora especificadas.
-      1. **Etiqueta**: seleccione esta opción para elegir los temas según la etiqueta aplicada a ellos. Si los temas tienen etiquetas especificadas, estas se enumeran en la lista desplegable. Puede elegir una etiqueta de la lista. También puede agregar una etiqueta en el cuadro de texto.\
+      1. **Etiqueta**: seleccione esta opción para elegir los temas según la etiqueta aplicada a ellos. Si los temas tienen etiquetas especificadas, estas se enumeran en la lista desplegable. Puede elegir una etiqueta de la lista. También puede agregar una etiqueta en el cuadro de texto.
+
+         Para las referencias directas en líneas de base estáticas, las etiquetas se extraen de la última versión guardada del mapa. Por ejemplo, si ha creado etiquetas `Label Release 1.0` y `Label Release 1.1` para las versiones 1.0 y 1.1 del tema A y, a continuación, añada el tema A al mapa guardado como versión 1.0. En este caso, puede ver las etiquetas `Label Release 1.0` y `Label Release 1.1` en la lista desplegable para etiquetas de línea de base estáticas.
+
+
          Al seleccionar **Etiqueta,** puede elegir las referencias directas e indirectas.
-      - Para las referencias directas dentro del mapa DITA, se le ofrece la opción de utilizar la última versión de temas que no tienen la etiqueta especificada aplicada.
+         - Para las referencias directas dentro del mapa DITA, se le ofrece la opción de utilizar la última versión de temas que no tienen la etiqueta especificada aplicada.
 
-      >[!NOTE]
-      >
-      > Si introduce una etiqueta que no existe, seleccione la opción **No crear una línea base** a continuación, la creación de la línea base falla y muestra un mensaje de error cerca del nombre de la línea base en el panel Línea base.
+           >[!NOTE]
+           >
+           > Si introduce una etiqueta que no existe, seleccione la opción **No crear una línea base** a continuación, la creación de la línea base falla y muestra un mensaje de error cerca del nombre de la línea base en el panel Línea base.
 
-      - Para las referencias indirectas dentro del mapa DITA, se ofrece una opción adicional para utilizar la versión más reciente de temas que no tengan aplicada la etiqueta especificada. También puede elegir **Seleccionar automáticamente** para el contenido referenciado, y el sistema selecciona automáticamente la versión del contenido referenciado correspondiente a la versión del contenido en el que se hace referencia.
+         - Para las referencias indirectas dentro del mapa DITA, se ofrece una opción adicional para utilizar la versión más reciente de temas que no tengan aplicada la etiqueta especificada. También puede elegir **Seleccionar automáticamente** para el contenido referenciado, y el sistema selecciona automáticamente la versión del contenido referenciado correspondiente a la versión del contenido en el que se hace referencia.
 
-   Una vez seleccionada una etiqueta o versión como en la fecha, todos los temas a los que se hace referencia y los archivos multimedia dentro del mapa se seleccionan según corresponda. Esta selección de temas no se muestra en la interfaz de usuario, pero se guarda en el servidor.
+         Una vez seleccionada una etiqueta o versión como en la fecha, todos los temas a los que se hace referencia y los archivos multimedia dentro del mapa se seleccionan según corresponda. Esta selección de temas no se muestra en la interfaz de usuario, pero se guarda en el servidor.
 
    **Usar etiquetas**: seleccione esta opción para la creación de la línea base para seleccionar los temas según la etiqueta aplicada.
 
@@ -55,6 +59,9 @@ Puede crear una línea base desde el Editor Web realizando los siguientes pasos:
    ![](images/dynamic-baseline.png){width="550" align="left"}
 
    - **Seleccionar etiquetas**: Si los temas tienen etiquetas especificadas, las etiquetas se enumeran en la **Seleccionar etiquetas** desplegable. Puede elegir la etiqueta\(s\) de la lista. Las etiquetas seleccionadas primero reciben una prioridad mayor que las posteriores.
+
+     Para las líneas de base dinámicas, las etiquetas se extraen de la última versión guardada y de la copia de trabajo actual del mapa. Por ejemplo, si ha creado etiquetas   `Label Release A.1.0 ` y `Label Release A.1.1` para las versiones 1.0 y 1.1 del Tema A y etiquetas `Label Release B.1.0` y `Label Release B.1.1` para las versiones 1.0 y 1.1 del Tema B . A continuación, puede agregar el Tema A al Mapa A en la versión 1.0 y el Tema B al Mapa A en 1.0* (copia de trabajo). En este caso, puede ver lo siguiente  `Label Release A.1.0 `, `Label Release A.1.1`, `Label Release B.1.0`, y `Label Release B.1.1` en la lista desplegable de etiquetas de línea de base dinámica.
+
 1. **Referencias indirectas**: para referencias indirectas dentro del mapa DITA, se ofrecen las siguientes opciones:
 
    - **Seleccionar automáticamente**: puede elegir entre **Seleccionar automáticamente** para el contenido referenciado, y el sistema selecciona automáticamente la versión del contenido referenciado correspondiente a la versión del contenido en el que se hace referencia.
@@ -81,9 +88,9 @@ También se pueden realizar las siguientes operaciones en la instantánea desde 
 - **Editar**, **Duplicado,** o **Eliminar** una línea base existente.
 - Añada, quite o realice cambios en etiquetas existentes desde el **Administrar etiquetas** opción. Si el administrador ha configurado etiquetas predefinidas, dichas etiquetas se muestran en la lista desplegable Añadir etiqueta. Para obtener más información sobre cómo añadir etiquetas, consulte [Uso de etiquetas](web-editor-use-label.md#).
 
-   >[!NOTE]
-   >
-   > El proceso para agregar o quitar etiquetas se produce de forma asíncrona, por lo que puede seguir trabajando en otros archivos en el Editor Web. Una vez añadida o eliminada la etiqueta, se muestra un mensaje emergente que confirma que la etiqueta se ha añadido o eliminado, y también recibe una notificación en la bandeja de entrada para el mismo.
+  >[!NOTE]
+  >
+  > El proceso para agregar o quitar etiquetas se produce de forma asíncrona, por lo que puede seguir trabajando en otros archivos en el Editor Web. Una vez añadida o eliminada la etiqueta, se muestra un mensaje emergente que confirma que la etiqueta se ha añadido o eliminado, y también recibe una notificación en la bandeja de entrada para el mismo.
 
 - **Editar propiedades** de una línea base existente que haya definido al crear la línea base.
 - Exportar la instantánea de una instantánea en un archivo CSV con el **Exportar línea base** opción.

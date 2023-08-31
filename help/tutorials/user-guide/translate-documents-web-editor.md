@@ -2,9 +2,9 @@
 title: Traducir documentos desde el editor web
 description: Aprenda a traducir documentos desde el editor web
 exl-id: 02fc2b51-5b9a-4ad6-9e2e-726ab7602514
-source-git-commit: 7df3024578ad289d9c6e0ab8b93f9fc6b9ff0bfe
+source-git-commit: 15ba984275155489d7ac3878d4b1307a6cd076c6
 workflow-type: tm+mt
-source-wordcount: '1864'
+source-wordcount: '1885'
 ht-degree: 0%
 
 ---
@@ -55,11 +55,9 @@ Antes de realizar los pasos de este procedimiento, asegúrese de haber creado la
    **Usar la última versión como en**: elija filtrar la versión de los temas en función de su fecha y hora de creación. Al seleccionar una fecha y hora, solo se muestra la última versión de los archivos creados en la fecha y la hora seleccionadas o antes.
 
 1. Haga clic en **Aplicar**. Se muestra una lista con detalles de temas y recursos asociados.
-1. Seleccione los temas que desee enviar para su traducción.
+1. Seleccione los temas que desee enviar para su traducción. También puede utilizar las opciones de filtrado de temas para las siguientes columnas:
 
-   También puede utilizar las siguientes opciones de filtrado de temas:
-
-   - **Título**: título del archivo de origen
+   - **Título**: título del archivo de origen.  Pase el ratón sobre el título del archivo de origen para ver el título del archivo de destino o traducido.
    - **Nombre de archivo**: Nombre del archivo de origen
    - **Tipo de archivo**: tipo del archivo de origen. Las opciones disponibles son Mapa, Tema e Imagen.
    - **Tipo de referencia**: referencias directas o indirectas

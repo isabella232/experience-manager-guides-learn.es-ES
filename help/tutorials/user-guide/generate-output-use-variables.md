@@ -2,9 +2,9 @@
 title: Utilice variables para establecer las opciones Ruta de destino, Nombre del sitio o Nombre de archivo
 description: Aprenda a utilizar variables para establecer las opciones Ruta de destino, Nombre del sitio o Nombre de archivo
 exl-id: e8d5b7c7-4f80-4ab6-9ad1-308bf0d4cf74
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: cf45be23a6369de1e510b7e8ee9cd1a2b61721e3
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ La siguiente tabla enumera las variables que se admiten de forma predeterminada:
 | `${language_code}` | Utiliza el código de idioma donde se encuentra el archivo de asignación para crear la ruta de destino. | **Nombre de archivo de mapa DITA**:<br>`SampleDita.ditamap`<br><br>**Ruta del archivo de mapa DITA**:<br>`/content/dam/projects/AEM-Guides/en/user-guide/`<br><br>**Ruta de destino** configurado como:<br>`/content/output/sites/${language_code}`<br><br>**Ubicación de salida final**:<br>`/content/output/sites/en/SampleDita.html` |
 | `${map_parentpath}` | Utiliza la ruta completa del archivo de asignación para crear la ruta de destino.<br><br>**Nota** AEM :Esta variable no se puede usar para especificar el Nombre del sitio o el Nombre del archivo del PDF de la. | **Nombre de archivo de mapa DITA**:<br>`SampleDita.ditamap`<br><br>**Ruta del archivo de mapa DITA**:<br>`/content/dam/projects/AEM-Guides/en/user-guide`/<br><br>**Ruta de destino** configurado como:<br>`/content/output/sites/${map_parentpath}`<br><br>**Ubicación de salida final**:<br>`/content/output/sites/content/dam/projects/AEM-Guides/en/user-guide/SampleDita.html` |
 | `${path_after_langfolder}` | Utiliza la ruta del archivo de asignación después de la carpeta de idioma para crear la ruta de destino.<br><br>**Nota** AEM : Esta variable no se puede utilizar para especificar el nombre del sitio o el nombre del archivo del PDF de la. | **Nombre de archivo de mapa DITA**:<br>`SampleDita.ditamap`<br><br>**Ruta del archivo de mapa DITA**:<br>`/content/dam/projects/AEM-Guides/en/user-guide/`<br><br>**Ruta de destino** configurado como:<br>`/content/output/sites/${path\_after\_langfolder}`<br><br>**Ubicación de salida final**:<br>`/content/output/sites/user-guide/SampleDita.html` |
+| `${system_date}` | Utiliza la fecha actual del servidor para crear la ruta de destino. | **Nombre de archivo de mapa DITA**: <br> `SampleDita.ditamap` <br><br> **Ruta del archivo de mapa DITA:** <br> `/content/dam/projects/AEM-Guides/en/user-guide/` <br><br> **Ruta de destino** configurado como: <br> `/content/output/sites/${system_date}` <br> <br> **Ubicación de salida final:** <br> /`content/output/sites/08252023/SampleDita.html` |
+| `${system_time}` | Utiliza el tiempo actual del servidor para crear la ruta de destino. | **Nombre de archivo de mapa DITA:** <br>`SampleDita.ditamap` <br> <br> **Ruta del archivo de mapa DITA:** <br>`/content/dam/projects/AEM-Guides/en/user-guide/` <br><Br>**Ruta de destino** configurado como: <br> `/content/output/sites/${system_time}`<br><br>**Ubicación de salida final:**<br>`/content/output/sites/055612/SampleDita.html` |
 
 Además, también se pueden utilizar los metadatos definidos para el fichero de mapa DITA o de mapa de libros como variables. Los metadatos se encuentran en `/jcr:content/metadata` nodo del mapa DITA o archivo bookmap. Por ejemplo, una de las propiedades de metadatos definidas en la variable `/jcr:content/metadata` el nodo es `dc:title`. Puede especificar `${dc:title}` y el valor del título se utiliza en la salida final.
 **Tema principal:**[ Generación de salida](generate-output.md)

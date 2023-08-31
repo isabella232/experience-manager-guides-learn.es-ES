@@ -1,7 +1,7 @@
 ---
 title: Traducir contenido
 description: Aprenda a traducir contenido
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 4d54c52b8771b0c5a40018cfec3a6586029af2fb
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 18%
@@ -48,7 +48,7 @@ Para ocultar la ficha Traducción en el tablero de mandos de asignación DITA, r
 
    | PID | Clave de propiedad | Valor de propiedad |
    |---|------------|--------------|
-   | `com.adobe.fmdita.config.ConfigManager` | `hide.tabs.translation` | Boolean \( true/ false\).<br> **Valor predeterminado**: `true` |
+   | `com.adobe.fmdita.config.ConfigManager` | `tabs.translation` | Boolean \( true/ false\).<br> **Valor predeterminado**: `true` |
 
    >[!NOTE]
    >

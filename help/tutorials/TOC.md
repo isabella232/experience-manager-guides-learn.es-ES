@@ -2,9 +2,9 @@
 user-guide-title: Tutoriales para AEM Guides
 user-guide-description: Lea nuestra colección de tutoriales para Adobe Experience Manager Guides.
 breadcrumb-title: Tutoriales de AEM Guides
-source-git-commit: 7ec353bcb943e70e0c40a2c494eaa4729f31880e
+source-git-commit: ca40b77f58b57599353d91cd7ce3002670729322
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1479'
 ht-degree: 5%
 
 ---
@@ -20,6 +20,9 @@ ht-degree: 5%
       + Cloud Services{#cloud-release-notes}
          + [Instrucciones de implementación](./release-info/deploy-xml-on-aemaacs.md)
          + Versiones de 2023 {#2023-releases}
+            + Versión de septiembre {#2309-release}
+               + [¿Qué hay de nuevo?](./release-info/whats-new-2023.9.0.md)
+               + [Notas de la versión](./release-info/release-notes-2023.9.0.md)
             + Versión de julio {#2307-release}
                + [¿Qué hay de nuevo?](./release-info/whats-new-2023.7.0.md)
                + [Notas de la versión](./release-info/release-notes-2023.7.0.md)
@@ -155,7 +158,7 @@ ht-degree: 5%
       + [Usar la colección de mapas para generar resultados](./user-guide/generate-output-use-map-collection-output-generation.md)
       + Usar función de publicación nativa de PDF {#web-editor}
          + [Salida del PDF de publicación](./web-editor/native-pdf-web-editor.md)
-         + [Configuración de caracteres especiales adicionales](./web-editor/configure-additional-special-characters.md)
+      + [Configuración de caracteres especiales adicionales](./web-editor/configure-additional-special-characters.md)
       + [Administrar tareas de publicación mediante el panel Publicar](./user-guide/generate-output-publish-dashboard.md)
       + [Solución de problemas básica](./user-guide/generate-output-basic-troubleshooting.md)
       + [Publicación en un fragmento de contenido](./user-guide/publish-content-fragment.md)
@@ -258,7 +261,7 @@ ht-degree: 5%
                + [Añadir un marcador personalizado en la salida del PDF](./native-pdf/add-custom-bookmark.md)
                + [Usar JavaScript para trabajar con contenido o estilo](./native-pdf/use-javascript-content-style.md)
                + [Usar estilos personalizados en las notas al pie](./native-pdf/footnote-number-style.md)
-            + [Configuración de indicadores JVM para la publicación de PDF nativos](./native-pdf/configure-jvm-flags.md)
+         + [Configuración de indicadores JVM para la publicación de PDF nativos](./native-pdf/configure-jvm-flags.md)
          + [Creación de una asignación entre un tema y un fragmento de contenido](./install-guide/conf-content-fragment-mapping.md)
       + Trabajo con flujos de trabajo personalizados {#custom-workflow}
          + [Configuración y personalización de flujos de trabajo](./install-guide/customize-workflows.md)
@@ -324,6 +327,8 @@ ht-degree: 5%
       + Trabajar con configuración de generación de resultados {#output-gen-config-cs}
          + [Configuración de la generación de salida](./cs-install-guide/conf-output-generation.md)
          + [Publicación de PDF nativa](./cs-install-guide/native-pdf-publishing.md)
+         + [Configuración del proceso de nodo para la publicación nativa de PDF](./native-pdf/configure-node-options.md)
+         + [Creación de una asignación entre un tema y un fragmento de contenido](./cs-install-guide/conf-content-fragment-mapping-cs.md)
       + Trabajo con flujos de trabajo personalizados {#custom-workflow-cs}
          + [Configuración y personalización de flujos de trabajo](./cs-install-guide/customize-workflows.md)
       + Trabajo con configuraciones de traducción {#translate-config-cs}

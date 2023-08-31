@@ -4,9 +4,9 @@ description: Aprenda a utilizar el complemento Oxygen para las guías de Adobe E
 hide: true
 hidefromtoc: true
 exl-id: 2db9a34e-2efa-47ad-ba6b-02afc5197669
-source-git-commit: a77f93ddc14b6beb440eaa314eebe53fd00265d7
+source-git-commit: 7fbc6d22fd2f93b7b5bf3233f7ebdd0cb020dda2
 workflow-type: tm+mt
-source-wordcount: '5952'
+source-wordcount: '6038'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ Después de descargar e instalar el complemento, debe configurar lo siguiente pa
 
 - **Configuración de autenticación web** AEM : Configuración para la autenticación SSO en el complemento para guías de.
 - **Configuración general** AEM : Configuración de conexión para el complemento, como la URL del servidor de, detalles de inicio de sesión, etc.
-- **Preferencia para la personalización de atributos de perfil**: Esta configuración es necesaria para los esquemas de atributos de generación de perfiles de los conjuntos de documentación.
+- **Preferencia para la personalización de atributos de perfil y nombres de archivo en referencias cruzadas**: Esta configuración es necesaria para los esquemas de atributos de generación de perfiles de los conjuntos de documentación.
 
 ### Configuración de autenticación web
 
@@ -236,11 +236,11 @@ Realice los siguientes pasos para configurar las opciones de conexión en el com
    - **Archivo de desprotección automática al abrir**: si se selecciona, al hacer doble clic en un archivo, se extrae automáticamente y se abre para su edición. En caso de que el archivo ya esté desprotegido, simplemente se abrirá para editarlo. Si esta opción no está seleccionada, al abrir un archivo sin bloqueo se abre en modo de solo lectura.
 1. Haga clic en **Aceptar**.
 
-### Preferencia para la personalización de atributos de perfil {#id1827K0D0OHT}
+### Preferencia para la personalización de atributos de perfil y nombres de archivo en referencias cruzadas {#id1827K0D0OHT}
 
-AEM Es necesario configurar las preferencias en Oxygen XML Author para utilizar el atributo de generación de perfiles asociado a los temas DITA en el repositorio de la.
+AEM Es necesario configurar las preferencias en Oxygen XML Author para utilizar el atributo de generación de perfiles asociado a los temas DITA en el repositorio de la. También debe configurar la preferencia para mostrar los nombres de archivo en lugar de los GUID en las referencias cruzadas.
 
-Siga estos pasos para configurar los atributos de generación de perfiles:
+Realice los siguientes pasos para configurar atributos de generación de perfiles y referencias cruzadas:
 
 1. Haga clic en Oxygen XML Author **Opciones** \> **Preferencias**.
 1. En el **Asociación de tipo de documento** pestaña, seleccione **DITA** y haga clic en **Ampliar**.
@@ -257,6 +257,11 @@ Siga estos pasos para configurar los atributos de generación de perfiles:
 La siguiente captura de pantalla muestra el **Extensión** Ficha para temas de DITA:
 
      ![Extensión configurada para temas DITA](images/dita-topic-extension-tab.png){width="650" align="left"}
+
+   - Clic **Elegir** junto al **Paquete de extensiones** y seleccione LinkResolverExtensionBundle - com.adobe.o2.framework.extn en el **Clase** lista. Haga clic en **Aceptar**.
+
+     ![Extensión configurada para temas DITA](images/dita-map-extenstion-link-resolve.png) {width="650" align="left"}
+
 
 1. Clic **OK** en todos los cuadros de diálogo para guardar los cambios.
 
@@ -459,11 +464,11 @@ Cuando tiene archivos en varias carpetas, no es fácil averiguar cuántos archiv
    - [Ver metadatos](#id195GHN0H05C)
    - [Ver versiones](#id195GI000D5Q)
 
-**AEM Notas sobre los archivos desprotegidos en la vista Guías de la aplicación de la:**
+**AEM Notas sobre los archivos desprotegidos en la vista Guías de la aplicación de la vista de las guías de la aplicación:**
 
 - El *AEM Archivos desprotegidos en las guías de la* La vista mantiene las sesiones del usuario. Esto significa que los archivos desprotegidos por el usuario actual se almacenan y mantienen en la vista en las sesiones \(o caché\) del mismo usuario.
 
-- AEM Si el usuario cambia las credenciales de inicio de sesión o el servidor de, se restablecerán los datos del archivo desprotegido \(o caché\) en la vista. El usuario debe ejecutar manualmente una *Actualizar archivos desprotegidos* en cada carpeta desde la que se desprotegieron los archivos anteriormente. Para simplificar esto, se recomienda agregar las carpetas de trabajo a *Favoritos* desde donde puede realizar rápidamente una actualización de carpetas.
+- AEM Si el usuario cambia las credenciales de inicio de sesión o el servidor de, se restablecerán los datos \(o caché\) del archivo desprotegido en la vista. El usuario debe ejecutar manualmente una *Actualizar archivos desprotegidos* en cada carpeta desde la que se desprotegieron los archivos anteriormente. Para simplificar esto, se recomienda agregar las carpetas de trabajo a *Favoritos* desde donde puede realizar rápidamente una actualización de carpetas.
 
 - Puede ordenar la lista de archivos según sus nombres de archivo, título o ruta de acceso. Si se desprotege un nuevo archivo, éste aparece ordenado en la vista.
 
@@ -496,6 +501,7 @@ AEM Se deben tener en cuenta los siguientes puntos al mover o copiar contenido d
 
 - AEM Cuando extraiga contenido del repositorio de y realice cambios en el sistema local, asegúrese de que el nombre del archivo no cambie en el momento de cargarlo.
 
+- Al insertar una referencia en el Administrador de mapas DITA, se muestra el título del fichero y no el UUID. Si el título no está presente, se muestra el nombre del archivo.
 
 ### Agregar o quitar Favoritos {#id195HC04405P}
 

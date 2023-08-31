@@ -2,9 +2,9 @@
 title: Administración de archivos y carpetas
 description: Obtenga información sobre cómo administrar archivos y carpetas
 exl-id: e7810b06-f49f-467a-b987-a5e6f731d4cf
-source-git-commit: d0b3ccb87901c54b86aa7d0dba14dc7201c072e9
+source-git-commit: 8154cfe11f2f032d457671ebca60c1ab3f090385
 workflow-type: tm+mt
-source-wordcount: '3079'
+source-wordcount: '3082'
 ht-degree: 0%
 
 ---
@@ -129,13 +129,13 @@ Para mover archivos de forma masiva, realice los siguientes pasos:
 
    <details>
 
-   <summary> Sistema de archivos basado en UUID local </summary>
+   <summary> Cloud Service y sistema de archivos basado en UUID On-Premise </summary>
 
    ![](images/bulk-move-tool-uuid.png){width="650" align="center"}
 
    >[!TIP]
    >
-   > Seleccionar <img src="images/info-icon.svg" width="25">   cerca de cualquier campo para ver más detalles sobre él.
+   > Seleccione lo siguiente <img src="images/info-icon.svg" width="25">   cerca de cualquier campo para ver más detalles sobre él.
 
 
    - **Añadir sufijo a carpetas duplicadas**: Si está moviendo carpetas que tienen el mismo nombre, debe seleccionar esta opción. Por ejemplo, en la captura de pantalla anterior, **Ruta de origen** contiene el nombre de las carpetas que se van a mover. La carpeta denominada tema existe en dos ubicaciones diferentes: prueba A y prueba B. Al seleccionar esta opción, las carpetas se moverán correctamente. La primera carpeta que se mueva recibirá el nombre de tema, mientras que la segunda carpeta recibirá el nombre de tema0. La operación de mover agrega un sufijo en la serie secuencial \(0, 1, 2, etc.\) a las carpetas con el mismo nombre.
@@ -176,7 +176,7 @@ Para mover archivos de forma masiva, realice los siguientes pasos:
 
    >[!TIP]
    >
-   > Seleccionar <img src="images/info-icon.svg" width="25">   cerca de cualquier campo para ver más detalles sobre él.
+   > Seleccione lo siguiente <img src="images/info-icon.svg" width="25">   cerca de cualquier campo para ver más detalles sobre él.
 
    - **Tamaño del lote**: especifique el número de archivos que desea mover en un solo lote. Los valores predeterminados son 50 archivos.
    - **Intervalo de suspensión**: especifique el tiempo en segundos que el proceso esperará antes de iniciar el siguiente lote. Durante este intervalo de tiempo de suspensión, el sistema corrige las referencias hacia y desde los archivos movidos. El intervalo de suspensión predeterminado es de 60 segundos.

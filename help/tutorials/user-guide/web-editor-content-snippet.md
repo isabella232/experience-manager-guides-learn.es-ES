@@ -1,9 +1,9 @@
 ---
 title: Inserción de un fragmento de contenido desde la fuente de datos
 description: Aprenda a insertar un fragmento de contenido desde la fuente de datos
-source-git-commit: af5ec027ea093a28ba2a2ffd0ca3895546ed6e76
+source-git-commit: 71a64a35d065da10783d8e1a035ea1c4728e35f4
 workflow-type: tm+mt
-source-wordcount: '1685'
+source-wordcount: '1723'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,22 @@ A **fuente de datos** es un sistema en el que se almacenan y administran los dat
 
 ## Panel Fuentes de datos
 
-Seleccionar **Fuentes de datos** ![](images/data-source-icon.svg) en el panel izquierdo para ver las fuentes de datos conectadas. El panel Fuentes de datos se abre y muestra todas las fuentes de datos conectadas. Para obtener más información, consulte [Configuración de un conector de fuente de datos](../install-guide/conf-data-source-connector.md).
+Seleccionar **Fuentes de datos** ![](images/data-source-icon.svg) en el panel izquierdo para ver las fuentes de datos conectadas. El panel Fuentes de datos se abre y muestra todas las fuentes de datos conectadas.
+
+En función de la configuración, el administrador puede configurar un conector de fuente de datos:
+
+<details>
+<summary> Cloud Services </summary>
+
+Obtenga información sobre cómo [configuración de un conector de fuente de datos](../cs-install-guide/conf-data-source-connector.md) en la Guía de instalación y configuración de Cloud Service.
+</details>
+
+<details>    
+<summary>  Software On-Premise </summary>
+
+Obtenga información sobre cómo [configuración de un conector de fuente de datos](../install-guide/conf-data-source-connector.md)  en la Guía de instalación y configuración in situ.
+</details>
+
 
 >[!NOTE]
 >
@@ -28,7 +43,7 @@ Puede alternar entre la vista de lista o la vista de mosaico para ver los distin
 
 Seleccione una fuente de datos para ver los generadores de fragmentos de contenido y los generadores de temas disponibles para la fuente de datos seleccionada.
 
-### Vista de lista   ![](images/data-sources-list-view-icon.svg)
+### Vista en lista  ![](images/data-sources-list-view-icon.svg)
 
 ![](images/data-sources-list-view.png){width="300" align="left"}
 

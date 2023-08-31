@@ -1,9 +1,9 @@
 ---
 title: Publicación de un tema en un fragmento de contenido
 description: Obtenga información sobre cómo publicar un tema en un fragmento de contenido.
-source-git-commit: 6cd7d2ec76f90a192dbcd0ef552789d42c23a4fb
+source-git-commit: dd677257d94015d888705e4b6a43ae877e58be4b
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '593'
 ht-degree: 1%
 
 ---
@@ -36,11 +36,22 @@ Por ejemplo, añada `/conf/we-retail` en la configuración de nube. Esta configu
    * **Modelo**: seleccione el modelo de fragmento de contenido que desea utilizar para crear el fragmento de contenido. Los modelos se seleccionan de la carpeta que ha configurado en los servicios en la nube.
    * **Asignación**: seleccione una asignación en la lista desplegable. Selecciona las asignaciones de la variable *contentFragmentMapping.json* archivo.
 
-     >[!NOTE]
-     >
-     >El administrador puede añadir las asignaciones en la *contentFragmentMapping.json* archivo.  Obtenga más información sobre cómo [creación de una asignación entre un tema y un fragmento de contenido](../install-guide/conf-content-fragment-mapping.md) in *Guía de instalación y configuración On-Premise*.
 
 
+     En función de la configuración, el administrador puede añadir las asignaciones en la variable *contentFragmentMapping.json* archivo.
+
+     <details>
+        <summary>Cloud Services</summary>
+
+     Obtenga más información sobre cómo [creación de una asignación entre un tema y un fragmento de contenido](../cs-install-guide/conf-content-fragment-mapping-cs.md) en la Guía de instalación y configuración de Cloud Service.
+     </details>
+
+     <details>
+        <summary> Software On-Premise</summary>
+
+     Obtenga más información sobre cómo [creación de una asignación entre un tema y un fragmento de contenido](../install-guide/conf-content-fragment-mapping.md) en la Guía de instalación y configuración in situ.
+
+     </details>
    * Seleccione el **Sobrescribir** casilla de verificación si el fragmento de contenido ya existe y desea sobrescribirlo. AEM Guías de contenido muestra un error si no selecciona la casilla de verificación y el fragmento de contenido ya existe.
 1. Clic **Crear** para publicar el fragmento de contenido.
 1. Puede ver los fragmentos de contenido de un tema en la sección **Fragmentos** de la sección **Propiedades del archivo**.
