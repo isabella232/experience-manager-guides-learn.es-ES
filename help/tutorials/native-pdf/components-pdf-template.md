@@ -2,9 +2,9 @@
 title: Función de publicación nativa de PDF | Componentes de una plantilla de PDF
 description: Conozca los distintos componentes de una plantilla de PDF y cómo personalizarlos y configurarlos.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 18ec7e1b19cd6404b86f965be96caa88a0a067fe
+source-git-commit: 90cd3c53fd8da0b987c99950dd37d405bea12c6e
 workflow-type: tm+mt
-source-wordcount: '3934'
+source-wordcount: '4160'
 ht-degree: 0%
 
 ---
@@ -192,7 +192,7 @@ El archivo seleccionado se importa y se enumera en la carpeta Recursos.
 
 ## Configuración avanzada del PDF {#advanced-pdf-settings}
 
-Utilice la sección Configuración para definir la configuración avanzada del diseño de página de PDF, iniciando el PDF desde una página impar o par, los formatos para las referencias cruzadas y habilitando las marcas de impresión en el PDF final que se genera mediante la plantilla.
+Utilice la sección Configuración para definir la configuración avanzada del diseño de página de PDF, iniciando PDF desde página impar o par, formatos para las referencias cruzadas y habilitando marcas de impresión en el PDF final que se genera con la plantilla.
 
 Para configurarlo, haga clic en **Configuración** en el **Plantillas** para ver las siguientes opciones:
 
@@ -226,7 +226,14 @@ Para aplicar la estructura del índice y los niveles de encabezado de estilo, co
   >
   >Si es desarrollador de CSS, puede definir el formato de relleno directamente en el archivo CSS.
 
-* **Usar marcador de continuación de tabla**: seleccione esta opción para definir los marcadores de las tablas largas que se distribuyen en varias páginas. <!--For more information on using table continuation markers, see Use table continuation markers.-->
+* **Usar marcador de continuación de tabla**: seleccione esta opción para definir los marcadores de las tablas largas que se distribuyen en varias páginas.
+Puede definir el texto que aparecerá antes y después del salto. Por ejemplo, una tabla se divide en la página 5 y usted define `<Continued on page %page-num%>` para **Texto antes del salto**.  El texto muestra &quot;Continúa en la página 6&quot; al final de la página 5.
+
+  Utilice variables de idioma para definir el texto del marcador de continuación antes y después del salto. Según el idioma elegido, el valor localizado se selecciona automáticamente en la salida del PDF. Por ejemplo, puede publicar `Continued on page %page-num%` como texto en inglés y `Fortsetzung auf Seite %page-num%` en alemán.
+
+  Pase el ratón sobre <img src="./assets/info-details.svg" alt= "icono de información" width="25"> cerca de la opción para ver más detalles al respecto.
+
+<!--For more information on using table continuation markers, see Use table continuation markers.-->
 
 ### Diseños de página {#page-layouts}
 
@@ -357,11 +364,11 @@ Configure las opciones de producción de impresión para asignar marcas de impre
 
 ### Referencias cruzadas {#cross-references}
 
-Utilice la pestaña Referencia cruzada para definir cómo se publican las referencias cruzadas en el PDF. Puede dar formato a las referencias cruzadas para el título del tema, tablas, ilustraciones, etc.
+Utilice el **Referencia cruzada** para definir cómo se publican las referencias cruzadas en el PDF. Puede dar formato a las referencias cruzadas para el título del tema, tablas, ilustraciones, etc.
 
 También puede utilizar variables para definir una referencia cruzada.  Cuando se utiliza una variable, su valor se selecciona de las propiedades. Puede utilizar una sola variable o una combinación de ellas para definir una referencia cruzada. También puede utilizar una combinación de una cadena y una variable.
 
-Por ejemplo, puede utilizar Ver detalles en {chapter}. Si el nombre del capítulo es &quot;Configuración general&quot;, la referencia cruzada en la salida es &quot;Ver detalles sobre la configuración general&quot;.
+Por ejemplo, puede utilizar `View details on {chapter}`. Si el nombre del capítulo es &quot;Configuración general&quot;, la referencia cruzada en la salida es &quot;Ver detalles sobre la configuración general&quot;.
 
 AEM Guías de proporciona las siguientes variables listas para usarse:
 
@@ -381,8 +388,25 @@ AEM Guías de proporciona las siguientes variables listas para usarse:
   >Puede crear estilos de numeración automática para las etiquetas caption y figcaption.
 
 
+#### Variables de idioma en referencias cruzadas
+
+También puede utilizar variables de idioma para definir referencias cruzadas localizadas. Según el idioma elegido, el valor localizado se selecciona automáticamente en la salida del PDF.
+
+Por ejemplo, puede agregar una variable de idioma &quot;reference-label&quot; y definir los valores en inglés y alemán.
+
+* Inglés - &quot;Ver en la página {page}&quot;
+* Alemán - &quot;Einzelheiten finden Sie auf der Seite&quot; {page}&quot;
 
 
+Al agregar `${lng:<variable name>}` en la sección Párrafo, las referencias cruzadas en los párrafos de la salida contienen el texto localizado y el número de página.\
+Por ejemplo, las siguientes capturas de pantalla muestran las referencias cruzadas &quot;Ver en la página 1&quot; en inglés y &quot;Einzelheiten finden Sie auf der Seite 1&quot; en alemán.
 
+<img src="./assets/english-output-corss-reference.png" alt="Resultado en inglés de una referencia cruzada en un párrafo" width ="800">
+
+*Una referencia cruzada dentro de un párrafo cuando se publica en inglés.*
+
+<img src="./assets/german-output-corss-reference.png" alt="Resultado alemán de una referencia cruzada en un párrafo" width ="800">
+
+*Una referencia cruzada dentro de un párrafo cuando se publica en alemán.*
 
 <!--For more information, see *Format cross-references*.-->
