@@ -1,7 +1,7 @@
 ---
 title: Notas de versión | Instrucciones de actualización y problemas corregidos en la versión 4.3.0 de Adobe Experience Manager Guides
 description: Obtenga información acerca de las correcciones de errores y cómo actualizar a las versiones 4.3.0 de las guías de Adobe Experience Manager
-source-git-commit: 7581085859785c5b8b597ecfeb7dbe58c7c9e2bc
+source-git-commit: b53f76c2f0234c1ef6c65d954311e3f8c980ffe2
 workflow-type: tm+mt
 source-wordcount: '998'
 ht-degree: 5%
@@ -40,10 +40,10 @@ AEM En esta sección se enumera la matriz de compatibilidad para las aplicacione
 ### Adobe Experience Manager
 
 **4.3.0 No UUID**
-Paquete de servicio 17, 16, 15 o 14 de la versión 6.5
+Paquete de servicio 18, 17, 16, 15 o 14 de la versión 6.5
 
 **UUID 4.3.0**
-Paquete de servicio 17, 16, 15 o 14 de la versión 6.5
+Paquete de servicio 18, 17, 16, 15 o 14 de la versión 6.5
 
 Para obtener más información, consulte la *Requisitos técnicos* de la guía Instalar y configurar guías de Adobe Experience Manager.
 
