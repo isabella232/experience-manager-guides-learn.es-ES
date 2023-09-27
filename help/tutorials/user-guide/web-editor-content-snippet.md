@@ -1,9 +1,9 @@
 ---
 title: Inserción de un fragmento de contenido desde la fuente de datos
-description: Aprenda a insertar un fragmento de contenido desde la fuente de datos
-source-git-commit: 71a64a35d065da10783d8e1a035ea1c4728e35f4
+description: AEM Utilice los datos de su fuente de datos en las guías de la. Aprenda a insertar un fragmento de contenido desde la fuente de datos. Cree un tema con el generador de temas.
+source-git-commit: 87aef92535b7204503cd4ed1da838b43b1133b04
 workflow-type: tm+mt
-source-wordcount: '1723'
+source-wordcount: '2028'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,11 @@ En función de la configuración, el administrador puede configurar un conector 
 <details>
 <summary> Cloud Services </summary>
 
-Obtenga información sobre cómo [configuración de un conector de fuente de datos](../cs-install-guide/conf-data-source-connector.md) en la Guía de instalación y configuración de Cloud Service.
+
+- Si utiliza la versión de octubre de 2023 o posterior, aprenda a [configuración de un conector de fuente de datos con las herramientas](../cs-install-guide/conf-data-source-connector-tools.md) en la Guía de instalación y configuración de Cloud Service.
+
+- Si utiliza la versión de julio de 2023 o septiembre de 2023, aprenda a [configuración de un conector de fuente de datos](../cs-install-guide/conf-data-source-connector.md) en la Guía de instalación y configuración de Cloud Service.
+
 </details>
 
 <details>    
@@ -83,6 +87,8 @@ Las plantillas listas para usar del origen de datos seleccionado se muestran en 
    >[!NOTE]
    >  
    > Si el administrador ha configurado plantillas personalizadas, también se le mostrarán esas plantillas en la lista desplegable (según las configuraciones de ruta de plantilla realizadas por el administrador).
+   >   
+   >También puede utilizar las herramientas de Velocity en las plantillas. Obtenga más información sobre cómo [usar las herramientas de Velocity](#use-velocity-tools).
 
 1. Clic **Buscar** para recuperar los datos del origen de datos y aplicar la plantilla a los datos resultantes de la consulta SQL.
 
@@ -215,9 +221,7 @@ Realice los siguientes pasos para crear un tema con el generador de temas:
 
 Haga clic con el botón derecho en un generador de temas para abrir **Opciones**. Con las opciones, puede realizar las siguientes operaciones:
 
-- **Previsualizar**: utilice esta opción para abrir un panel y ver una pequeña fracción de cómo se muestran los datos en la salida.
-- **Generar contenido**: Esta opción genera los temas para el generador de temas seleccionado. También puede utilizar esta opción para actualizar los temas existentes. Se conecta a la fuente de datos y obtiene los datos actualizados.
-
+- **Generar**: Esta opción genera los temas para el generador de temas seleccionado. También puede utilizar esta opción para actualizar los temas existentes. Se conecta a la fuente de datos y obtiene los datos actualizados. Al generar el contenido, esta opción está desactivada y se ve un cargador.
   >[!NOTE]
   >
   >Si el tema ya existe, puede sobrescribir los datos del tema o guardarlos como una nueva versión.
@@ -225,11 +229,50 @@ Haga clic con el botón derecho en un generador de temas para abrir **Opciones**
   ![](images/generate-topic-options.png)
 
   *Genere un tema y, si el archivo ya existe, guárdelo como una nueva versión o sobrescriba el tema.*
+- **Ver registro**: seleccione esta opción para ver el archivo de registro de generación de contenido. El archivo de registro se abre en una nueva pestaña. Puede ver los errores, advertencias, mensajes de información y excepciones en el archivo de registro. Esta opción está habilitada si ha generado el contenido para el generador de temas seleccionado.
 
-- **Editar**: utilice esta opción para cambiar y guardar el generador de temas.
-- **Eliminar**: utilice esta opción para eliminar el generador de temas seleccionado.
+- **Previsualizar**: utilice esta opción para abrir un panel y ver una pequeña fracción de cómo se muestran los datos en la salida.
+
+
+
+- **Editar**: utilice esta opción para cambiar y guardar el generador de temas. Esta opción está desactivada mientras se genera el contenido.
+- **Eliminar**: utilice esta opción para eliminar el generador de temas seleccionado. Esta opción está desactivada mientras se genera el contenido.
 - **Duplicar**: Esta opción crea un duplicado o una copia del generador de temas seleccionado. El duplicado se crea con un sufijo (como `topic-sample_1`) de forma predeterminada.
 
+
+
+## Uso de las herramientas de Velocity en las plantillas de fuente de datos {#use-velocity-tools}
+
+Las plantillas de Experience Manager también admiten las herramientas de Velocity (versión 2.0). Estas herramientas le ayudan a aplicar varias funciones a los datos que obtiene de las fuentes de datos. Obtenga más información sobre el uso del [Herramientas de Velocity](https://velocity.apache.org/tools/2.0/generic.html) y las funciones que se pueden aplicar.
+
+Siga estos pasos para utilizar una herramienta Velocity en una plantilla:
+1. Edite una plantilla de Velocity en el editor web.
+1. Añada una herramienta y su función en la variable `<tool.function>` formato. Por ejemplo:
+   - Para generar un número aleatorio con la herramienta matemática, utilice `$mathTool.random`.
+   - Para generar la suma de números con la herramienta matemática, utilice `$mathTool.add(num1, num2)`.
+1. Utilice la plantilla para crear un fragmento de contenido o un tema.
+1. Después de aplicar la plantilla a los datos, se pueden ver los datos en la vista previa o en la vista de origen DITA.
+
+
+
+
+Puede utilizar las siguientes herramientas dentro de las plantillas de Velocity para aplicar varias funciones a los datos que recupere del conector: -`$alternatorTool`
+- `$classTool`
+- `$contextTool`
+- `$conversionTool`
+- `$dateTool`
+- `$comparisonDateTool`
+- `$displayTool`
+- `$escapeTool`
+- `$fieldTool`
+- `$loopTool`
+- `$linkTool`
+- `$listTool`
+- `$mathTool`
+- `$numberTool`
+- `$renderTool`
+- `$resourceTool`
+- `$sortTool`
 
 
 
