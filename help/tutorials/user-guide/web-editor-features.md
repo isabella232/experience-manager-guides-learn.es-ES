@@ -1,10 +1,10 @@
 ---
 title: Conozca las funciones del editor web
-description: Obtenga información sobre cómo conocer las funciones del editor web
+description: AEM Descubra las funciones del editor web en las guías de la. Conocer la interfaz del editor web, incluida la barra de herramientas principal, la barra de herramientas secundaria, el panel izquierdo, el área de edición de contenido y el panel derecho.
 exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
-source-git-commit: 9196d7b1094149f06067c153b9c02c2cd20c18af
+source-git-commit: a209e46e41055348402292e20c229890cd0c01cf
 workflow-type: tm+mt
-source-wordcount: '15744'
+source-wordcount: '16066'
 ht-degree: 0%
 
 ---
@@ -741,9 +741,7 @@ Se muestra la lista de archivos filtrados que contienen el texto buscado. Por ej
 
 **Menú Opciones**
 
-Además de abrir archivos desde el panel izquierdo, también puede realizar muchas acciones utilizando
-
-Menú Opciones disponible en la vista Repositorio. Verá diferentes opciones, dependiendo de si elige una carpeta, un archivo de tema o un archivo multimedia.
+Además de abrir archivos desde el panel izquierdo, también puede realizar muchas acciones mediante el menú Opciones disponible en la vista Repositorio. Verá diferentes opciones, dependiendo de si elige una carpeta, un archivo de tema o un archivo multimedia.
 
 **Opciones de una carpeta**
 
@@ -801,7 +799,7 @@ Verá distintas opciones en el menú Opciones en función de si selecciona un fi
 - Propiedades
 - Ver en la IU de Assets
 
-![](images/options-menu-repo-view-file-level.png){width="550" align="left"}
+![menú opciones de un archivo en la vista del repositorio](images/options-menu-repo-view-file-level.png){width="550" align="left"}
 
 Las distintas opciones del menú Opciones se explican a continuación:
 
@@ -896,7 +894,18 @@ Las distintas opciones del menú Opciones se explican a continuación:
 
 - **Abrir tablero de mapas**: Si el fichero seleccionado es un mapa DITA, esta opción abre el tablero de mapas.
 
+- **Editar en oxígeno**: Seleccione esta opción para editar el archivo seleccionado en el complemento Conector de oxígeno. El archivo se abrirá para editarlo.
+
+  >[!NOTE]
+  >
+  >Póngase en contacto con el equipo de éxito del cliente para habilitar esta función en el entorno. Esta opción no está habilitada como parte de la compatibilidad predeterminada. Para obtener más información, consulte [Configurar la opción de edición en Oxígeno](../cs-install-guide/conf-edit-in-oxygen.md) de la Guía de instalación y configuración.
+
+
 - **Ver en la IU de Assets**: utilice esta opción para mostrar una vista previa de un archivo .dita/.xml en la interfaz de usuario de Assets. En el caso de un archivo .ditamap/.bookmap, todos los archivos de tema dentro del mapa se muestran en una sola vista página a página unificada.
+
+- **Descargar como PDF**: utilice la opción para generar la salida del PDF y descargarla.
+
+- **Publicar como**: utilice la opción para publicar un tema o los elementos dentro de un tema en un fragmento de contenido.
 
 - **Generación rápida**: genera la salida para el archivo seleccionado. La salida solo se puede generar para archivos que formen parte de un ajuste preestablecido de salida. Para obtener más información, consulte [Publicación basada en artículos desde el editor web](web-editor-article-publishing.md#id218CK0U019I).
 
@@ -995,9 +1004,25 @@ Puede realizar las siguientes acciones mediante el menú Opciones del archivo de
 - **Abrir tablero de mapas**: abra el panel de mapas.
 
 - **Ver en la IU de Assets**: utilice esta opción para mostrar una previsualización del archivo de asignación en la interfaz de usuario de Assets. En esta vista, todos los archivos de tema del mapa se muestran en una sola vista página a página unificada.
+- **Descargar mapa**: seleccione esta opción para abrir **Descargar mapa** diálogo.
+En el **Descargar mapa** , puede elegir las siguientes opciones:
+   - **Usar línea base**: seleccione esta opción para obtener una lista de las líneas base creadas para el mapa DITA. Si desea descargar el archivo de asignación y su contenido en función de una Línea base específica, seleccione la Línea base en la lista desplegable. Para obtener más información sobre cómo trabajar con líneas de base, consulte [Trabajar con Línea base](./generate-output-use-baseline-for-publishing.md).
+   - **Acoplar jerarquía de archivos**: seleccione esta opción para guardar todos los temas a los que se hace referencia y los archivos multimedia en una sola carpeta.
 
-- **Generación rápida**: genera la salida para el archivo de asignación seleccionado. La salida solo se puede generar para archivos que formen parte de un ajuste preestablecido de salida. Para obtener más información, consulte [Publicación basada en artículos desde el editor web](web-editor-article-publishing.md#id218CK0U019I).
+  También puede descargar el archivo de asignación sin seleccionar ninguna opción. En ese caso, se descargan las últimas versiones persistentes de los temas a los que se hace referencia y los archivos multimedia.
+
+  Después de hacer clic en **Descargar** botón, la solicitud de descarga de mapa se pone en cola. Recibirá la notificación de mapa listo para descarga si el mapa está listo para descargarse. En caso de que la descarga falle, recibirá la notificación de que la descarga del mapa ha fallado
+
+  AEM Puede acceder al vínculo de descarga desde la bandeja de entrada de notificaciones de la. Seleccione la notificación de asignación generada en la bandeja de entrada para descargar la asignación en formato .zip.
+
+  >[!NOTE]
+  >
+  >  AEM De forma predeterminada, las asignaciones descargadas permanecen durante cinco días en la Bandeja de entrada de notificaciones de la.
+
+- **Generar salida**: genera la salida para el archivo de asignación seleccionado. La salida solo se puede generar para archivos que formen parte de un ajuste preestablecido de salida. Para obtener más información, consulte [Publicación basada en artículos desde el editor web](web-editor-article-publishing.md#id218CK0U019I).
 - **Cerrar**: Cierra el archivo de asignación.
+
+
 
 En la siguiente captura de pantalla se muestra el menú Opciones de un fichero en la vista Mapa DITA:
 

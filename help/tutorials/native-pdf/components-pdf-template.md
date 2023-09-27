@@ -2,9 +2,9 @@
 title: Función de publicación nativa de PDF | Componentes de una plantilla de PDF
 description: Conozca los distintos componentes de una plantilla de PDF y cómo personalizarlos y configurarlos.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 90cd3c53fd8da0b987c99950dd37d405bea12c6e
+source-git-commit: 5abcc887a24d838caabdf9a34a84ebc851ed4cbf
 workflow-type: tm+mt
-source-wordcount: '4160'
+source-wordcount: '4376'
 ht-degree: 0%
 
 ---
@@ -166,7 +166,7 @@ En el panel central, puede editar las propiedades, pero puede resultar difícil 
 En el panel central, puede editar las propiedades que se utilizan con más frecuencia, pero no todas las que admite CSS. En el **Propiedades** , puede editar todas las propiedades compatibles con CSS y previsualizarlas. No es necesario cambiar a la vista Código fuente para editar ninguna propiedad.
 
 
-Obtenga más información acerca del uso del editor de estilos para [Trabajar con los estilos de contenido comunes](stylesheet.md).
+Obtenga más información acerca del uso del editor de estilos para [trabajar con los estilos de contenido comunes](stylesheet.md).
 
 ## Trabajo con recursos {#work-with-resources}
 
@@ -219,6 +219,7 @@ Defina los valores de configuración básicos para iniciar un capítulo desde un
 
   Aquí puede observar que a la configuración del PDF avanzado del primer capítulo no se le asigna ningún número de página, ya que tiene temas anidados o secundarios. Mientras que un número de página si se asigna a Apéndice y Legal porque son temas independientes sin ningún tema secundario.
 
+* **No mostrar el número de capítulo en el índice** : seleccione esta opción para mostrar los nombres de capítulo sin los números de capítulo en la TDC.   De forma predeterminada, los números de capítulo se muestran en la tabla de contenido de la salida del PDF.
 * **Formato de directriz**: utilice la lista desplegable para seleccionar líneas directrices de puntos, sólidos o de espacio para conectar los niveles de encabezado a sus números de página correspondientes.
 Para aplicar la estructura del índice y los niveles de encabezado de estilo, consulte [Añadir un índice de capítulo](design-page-layout.md#add-chapter-toc).
 
@@ -232,8 +233,14 @@ Puede definir el texto que aparecerá antes y después del salto. Por ejemplo, u
   Utilice variables de idioma para definir el texto del marcador de continuación antes y después del salto. Según el idioma elegido, el valor localizado se selecciona automáticamente en la salida del PDF. Por ejemplo, puede publicar `Continued on page %page-num%` como texto en inglés y `Fortsetzung auf Seite %page-num%` en alemán.
 
   Pase el ratón sobre <img src="./assets/info-details.svg" alt= "icono de información" width="25"> cerca de la opción para ver más detalles al respecto.
+* **Vincular términos del glosario a la página del glosario**: seleccione esta opción para mostrar los términos del glosario como hipervínculos en el contenido y vincularlos a los términos de la página del glosario. Esto ayuda a los lectores a ver rápidamente la definición de un término definido en el glosario.
 
-<!--For more information on using table continuation markers, see Use table continuation markers.-->
+  Para convertir los términos del glosario en hipervínculos, debe:
+   * Activar **Glosario** en el **Orden de páginas** para un mapa DITA.
+   * Agregue el glosario en las páginas de contenido posterior de un mapa del libro.
+
+  Si no habilita la página Glosario, los términos del Glosario del contenido no se convierten en hipervínculos en la salida del PDF.
+  <!--For more information on using table continuation markers, see Use table continuation markers.-->
 
 ### Diseños de página {#page-layouts}
 
@@ -256,7 +263,13 @@ Las siguientes configuraciones están disponibles en la sección Diseño de pág
 
 * **Lista de figuras y lista de tablas**: también puede especificar el diseño de página para ilustraciones y tablas. El diseño seleccionado se aplicará a todas las figuras y tablas.
 
-* **Índice y glosario**: si ha diseñado un diseño de página Índice, asígnelo a la opción Índice. Si tiene un diseño de página Glosario, asígnelo a la opción Glosario.
+* **Índice**: si ha diseñado un diseño de página Índice, asígnelo a la opción Índice. Con las hojas de estilo, se puede aplicar estilo a diferentes elementos de índice en la salida del PDF. Uso de los estilos de índice `.idx-header`, `.idx-footer`, `.idx-body`, `.idx-title`, `.idx-keyword-group`, `.idx-unit`,  `.idx-keyword`, `.idx-name`, `.idx-link` y `.idx-child` para personalizar los estilos de los elementos del índice.
+
+* **Glosario**: si tiene un diseño de página Glosario, asígnelo a la opción Glosario.  Los términos del glosario de la salida del PDF siempre se ordenan en orden alfabético.
+
+  Con las hojas de estilo, puede aplicar estilo a diferentes elementos del glosario en la salida del PDF. Uso de los estilos del glosario `.glo-header`, `.glo-footer`, `.glo-body`, `.glo-title`, `.glo-unit`, `.glo-link`, y `.glo-term` para personalizar los estilos de los elementos del glosario.
+
+  Obtenga más información acerca del uso del editor de estilos para [trabajar con los estilos de contenido comunes](stylesheet.md).
 
 * **Páginas de materia principal y Páginas de materia secundaria**: estos diseños de página definen el estilo de las páginas principales o secundarias del libro. Si ha diseñado el diseño de la materia frontal, asígnelo al **Páginas principales de la materia** opción. Al seleccionar el diseño de la materia frontal en la lista desplegable, el diseño de la materia frontal se aplica a todos los temas presentes en la materia frontal.
 
@@ -298,7 +311,7 @@ Puede mostrar u ocultar las siguientes secciones en el PDF y también organizar 
 
 
 .
-**Capítulo y temas** el diseño siempre está habilitado y **Glosario** el diseño siempre está desactivado de forma predeterminada. No se pueden alternar.
+**Capítulo y temas** el diseño siempre está habilitado de forma predeterminada. No puede cambiarlo.
 
 **Combinar páginas**
 

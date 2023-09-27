@@ -1,10 +1,10 @@
 ---
 title: Creación de un proyecto DITA
-description: Obtenga información sobre cómo crear un proyecto DITA
+description: AEM Cree un proyecto DITA con una plantilla en Guías de la. Aprenda a utilizar un proyecto DITA para iniciar las revisiones.
 exl-id: 6dc88ac4-249a-4da2-9787-a58370e281ca
-source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -48,6 +48,7 @@ Siga estos pasos para crear un proyecto DITA:
    - Si lo desea, puede elegir una miniatura para el proyecto.
 
    - De forma predeterminada, pasa a ser el propietario del proyecto. Para agregar más usuarios a este proyecto:
+
    1. Introduzca o elija un usuario del **Usuario** lista desplegable.
 
    1. Elija un tipo de usuario: autores, revisores o editores.
@@ -60,12 +61,11 @@ Siga estos pasos para crear un proyecto DITA:
 
       >[!NOTE]
       >
-      >AEM Si utiliza las guías de la versión 3.5 o anterior de las guías de los temas, se mostrará una opción para seleccionar un fichero de mapa DITA con el fin de resolver las referencias clave para los flujos de trabajo de edición, previsualización y revisión de temas. En las versiones 3.6 y posteriores, puede establecer el mapa raíz mediante el Editor Web. Para obtener más información, consulte la [Preferencias de usuario](web-editor-features.md#id2087G0P40SB) en el Editor web. Otra forma de configurar el mapa raíz es configurándolo en los perfiles globales o de nivel de carpeta. Para obtener más información, consulte *Configuración de perfiles globales o de nivel de carpeta* en la Guía de instalación y configuración.
+      >AEM Si utiliza las guías de la versión 3.5 o anteriores de las guías de los temas, se muestra una opción para seleccionar un fichero de mapa DITA con el fin de resolver las referencias clave para los flujos de trabajo de edición, previsualización y revisión de temas. En las versiones 3.6 y posteriores, puede establecer el mapa raíz mediante el Editor Web. Para obtener más información, consulte la [Preferencias de usuario](web-editor-features.md#id2087G0P40SB) en el Editor web. Otra forma de configurar el mapa raíz es configurándolo en los perfiles globales o de nivel de carpeta. Para obtener más información, consulte *Configuración de perfiles globales o de nivel de carpeta* en la Guía de instalación y configuración.
+
    Información en la **Avanzadas** pestaña:
 
    - Escriba un nombre para el proyecto. Este nombre se utiliza para crear la dirección URL de este proyecto.
-
-
 
 1. Haga clic en **Crear**.
 

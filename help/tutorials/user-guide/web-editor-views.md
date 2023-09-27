@@ -1,10 +1,10 @@
 ---
 title: Vistas del Editor web
-description: Obtenga información sobre cómo utilizar las vistas de Editor web
+description: Ver documentos en los modos de autor, origen y vista previa. Obtenga información sobre cómo ver contenido basado en filtros condicionales, ver las marcas de seguimiento de cambios y exportar un tema como PDF AEM en las guías de la.
 exl-id: 86d8abc2-1d0e-4744-91c9-848c00447971
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1449'
 ht-degree: 0%
 
 ---
@@ -27,59 +27,59 @@ La vista Código fuente muestra el XML subyacente que compone el tema. Si se sie
 
 - Para invocar el catálogo inteligente, coloque el cursor al final de cualquier etiqueta de elemento donde desee insertar el nuevo elemento y escriba &quot;&lt;&quot;. El editor muestra una lista de todos los elementos XML válidos que puede insertar en esa ubicación. Utilice las teclas de flecha para seleccionar el elemento que desea insertar y pulse Intro. Cuando se introduce el corchete de cierre &quot;\>, la etiqueta de cierre del elemento se añade automáticamente.
 
-   ![](images/smart-catalog-elements.png){width="400" align="left"}
+  ![](images/smart-catalog-elements.png){width="400" align="left"}
 
 - También puede cambiar un elemento fácilmente desde la vista Código fuente. Por ejemplo, si cambia la etiqueta de apertura de un `p` elemento a `note`, luego la `p` la etiqueta se cambia automáticamente a `/note`. Si reemplaza un elemento por un elemento incorrecto, se le mostrará inmediatamente el error de validación.
 
 - Si desea agregar un atributo a un elemento, coloque el cursor dentro de la etiqueta del elemento y pulse la barra espaciadora. En el catálogo inteligente se muestra una lista de atributos válidos para ese elemento. Utilice las teclas de flecha para seleccionar el elemento deseado y pulse Intro para insertar el elemento. Para especificar un valor para el atributo, introduzca el signo igual \(=\) y el editor introducirá automáticamente las comillas de apertura y cierre &quot;&quot;, donde puede especificar el valor del atributo.
 
-   ![](images/smart-catalog-attribute.png){width="350" align="left"}
+  ![](images/smart-catalog-attribute.png){width="350" align="left"}
 
 - En la vista Código fuente, hay una opción de sangría automática que reorganiza el código XML en un formato presentable y fácilmente legible. Además, si selecciona cualquier texto y cambia de Autor a Origen o de Origen a Autor, el texto seleccionado también se resalta en la otra vista.
 - Otra característica eficaz de la vista Código fuente es la validación XML del documento. Si abre un documento que contiene XML no válido, se abrirá en la vista Código fuente con la información sobre XML no válido. Por ejemplo, en la siguiente captura de pantalla se proporciona información exacta sobre el XML erróneo en la ventana emergente de error de análisis.
 
-   ![](images/invalid-topic-xml.png){width="650" align="left"}
+  ![](images/invalid-topic-xml.png){width="650" align="left"}
 
-   En la captura de pantalla anterior, se utiliza un resaltado cruzado para señalar la línea que contiene el XML erróneo.
+  En la captura de pantalla anterior, se utiliza un resaltado cruzado para señalar la línea que contiene el XML erróneo.
 
 - La función Buscar y reemplazar permite buscar texto, elementos o atributos en la vista Código fuente.
 Para obtener más información, consulte la **Buscar y reemplazar** descripción de la función en [Barra de herramientas principal](web-editor-features.md#id#id2051EA0G05Z) sección.
 
 - La vista Código fuente proporciona muchos métodos abreviados para ayudarle a desplazarse rápidamente por un documento y trabajar con él. En la tabla siguiente se enumeran las acciones admitidas y sus teclas de método abreviado:
 
-   | Para ello, haga lo siguiente | Utilizar este acceso directo |
-   |----------|-----------------|
-   | Añadir varios cursores | **Ctrl**+Clic izquierdo |
-   | Varias selecciones de texto no consecutivas | **Ctrl**+Haga clic con el botón izquierdo para arrastrar y seleccionar texto |
-   | Seleccionar texto entre líneas y a lo ancho de ellas | **Alt**+Haga clic con el botón izquierdo para arrastrar y seleccionar texto |
-   | Deshacer selección múltiple o salir del modo de pantalla completa | **Esc** |
-   | Mostrar completado automático | **Ctrl**+**Espacio** |
-   | Ir a la etiqueta de apertura o cierre de la etiqueta actual | **Ctrl**+**J** |
-   | Expandir o contraer la etiqueta actual y su contenido | **Ctrl**+**Q** |
-   | Seleccionar el elemento actual y su contenido | **Ctrl**+**L** |
-   | Anular la sangría del elemento actual | **Shift**+**Ficha** |
-   | Eliminar el elemento actual y su contenido | **Shift**+**Ctrl**+**K** |
-   | Mover el cursor una palabra a la izquierda | **Alt**+**Flecha izquierda** |
-   | Mover el cursor una palabra a la derecha | **Alt**+**Flecha derecha** |
-   | Desplazarse una línea hacia arriba sin cambiar la ubicación del cursor | **Ctrl**+**Flecha arriba** |
-   | Desplazarse una línea hacia abajo sin cambiar la ubicación del cursor | **Ctrl**+**Flecha abajo** |
-   | Alternar pantalla completa | **F11** |
-   | Insertar una nueva línea después del elemento actual | **Ctrl**+**Entrar** |
-   | Insertar una nueva línea antes del elemento actual | **Shift**+**Ctrl**+**Entrar** |
-   | Buscar y seleccionar la siguiente aparición de la palabra actual | **Ctrl**+**D** |
-   | Mover el elemento actual y su contenido un elemento hacia arriba | **Shift**+**Ctrl**+**Flecha arriba** |
-   | Mover el elemento actual y su contenido un elemento hacia abajo | **Shift**+**Ctrl**+**Flecha abajo** |
-   | Agrupar el elemento actual en la etiqueta de comentario | **Ctrl**+**/** |
-   | Duplicar el elemento actual y su contenido | **Shift**+**Ctrl**+**D** |
-   | Eliminar texto que sigue al cursor. Si el cursor está antes de un elemento de apertura, se elimina todo el elemento. | **Ctrl**+**K**+**K** |
-   | Eliminar texto a la izquierda del cursor en la línea actual. Si el cursor se encuentra después de la etiqueta de cierre de un elemento, se elimina todo el elemento. | **Ctrl**+**K**+**Retroceso** |
-   | Convertir el texto actual a mayúsculas | **Ctrl**+**K**+**U** |
-   | Convertir el texto actual a minúsculas | **Ctrl**+**K**+**L** |
-   | Desplazar el elemento actual al centro del editor | **Ctrl**+**K**+**C** |
-   | Agregar un cursor sobre la posición actual | **Ctrl**+**Alt**+**Flecha arriba** |
-   | Añadir un cursor debajo de la posición actual | **Ctrl**+**Alt**+**Flecha abajo** |
-   | Buscar de forma recursiva la palabra actual \(en dirección hacia delante\) | **Ctrl**+**F3** |
-   | Buscar de forma recursiva la palabra actual \(hacia atrás\) | **Shift**+**Ctrl**+**F3** |
+  | Para ello, haga lo siguiente | Utilizar este acceso directo |
+  |----------|-----------------|
+  | Añadir varios cursores | **Ctrl**+Clic izquierdo |
+  | Varias selecciones de texto no consecutivas | **Ctrl**+Haga clic con el botón izquierdo para arrastrar y seleccionar texto |
+  | Seleccionar texto entre líneas y a lo ancho de ellas | **Alt**+Haga clic con el botón izquierdo para arrastrar y seleccionar texto |
+  | Deshacer selección múltiple o salir del modo de pantalla completa | **Esc** |
+  | Mostrar completado automático | **Ctrl**+**Espacio** |
+  | Ir a la etiqueta de apertura o cierre de la etiqueta actual | **Ctrl**+**J** |
+  | Expandir o contraer la etiqueta actual y su contenido | **Ctrl**+**Q** |
+  | Seleccionar el elemento actual y su contenido | **Ctrl**+**L** |
+  | Anular la sangría del elemento actual | **Shift**+**Ficha** |
+  | Eliminar el elemento actual y su contenido | **Shift**+**Ctrl**+**K** |
+  | Mover el cursor una palabra a la izquierda | **Alt**+**Flecha izquierda** |
+  | Mover el cursor una palabra a la derecha | **Alt**+**Flecha derecha** |
+  | Desplazarse una línea hacia arriba sin cambiar la ubicación del cursor | **Ctrl**+**Flecha arriba** |
+  | Desplazarse una línea hacia abajo sin cambiar la ubicación del cursor | **Ctrl**+**Flecha abajo** |
+  | Alternar pantalla completa | **F11** |
+  | Insertar una nueva línea después del elemento actual | **Ctrl**+**Entrar** |
+  | Insertar una nueva línea antes del elemento actual | **Shift**+**Ctrl**+**Entrar** |
+  | Buscar y seleccionar la siguiente aparición de la palabra actual | **Ctrl**+**D** |
+  | Mover el elemento actual y su contenido un elemento hacia arriba | **Shift**+**Ctrl**+**Flecha arriba** |
+  | Mover el elemento actual y su contenido un elemento hacia abajo | **Shift**+**Ctrl**+**Flecha abajo** |
+  | Agrupar el elemento actual en la etiqueta de comentario | **Ctrl**+**/** |
+  | Duplicar el elemento actual y su contenido | **Shift**+**Ctrl**+**D** |
+  | Eliminar texto que sigue al cursor. Si el cursor está antes de un elemento de apertura, se elimina todo el elemento. | **Ctrl**+**K**+**K** |
+  | Eliminar texto a la izquierda del cursor en la línea actual. Si el cursor se encuentra después de la etiqueta de cierre de un elemento, se elimina todo el elemento. | **Ctrl**+**K**+**Retroceso** |
+  | Convertir el texto actual a mayúsculas | **Ctrl**+**K**+**U** |
+  | Convertir el texto actual a minúsculas | **Ctrl**+**K**+**L** |
+  | Desplazar el elemento actual al centro del editor | **Ctrl**+**K**+**C** |
+  | Agregar un cursor sobre la posición actual | **Ctrl**+**Alt**+**Flecha arriba** |
+  | Añadir un cursor debajo de la posición actual | **Ctrl**+**Alt**+**Flecha abajo** |
+  | Buscar de forma recursiva la palabra actual \(en dirección hacia delante\) | **Ctrl**+**F3** |
+  | Buscar de forma recursiva la palabra actual \(hacia atrás\) | **Shift**+**Ctrl**+**F3** |
 
 
 ## Vista previa
@@ -112,9 +112,9 @@ Hay tres **Seguimiento** opciones entre las que puede elegir:
 - **Original**: en esta vista, todas las inserciones se rechazan, todas las eliminaciones se restauran y, a continuación, se muestra una vista previa. Simplemente, se obtiene la forma original del documento antes de habilitar el modo de seguimiento de cambios.
 - **Mostrar marcas**: En esta vista, obtiene todas las marcas para el contenido insertado y eliminado.
 
-   La siguiente imagen muestra la previsualización de un archivo de mapa con marcas:
+  La siguiente imagen muestra la previsualización de un archivo de mapa con marcas:
 
-   ![](images/preview-map-with-track-changes.PNG){width="800" align="left"}
+  ![](images/preview-map-with-track-changes.PNG){width="800" align="left"}
 
 
 ### Exportación de un tema como PDF {#id2114BL00B5U}

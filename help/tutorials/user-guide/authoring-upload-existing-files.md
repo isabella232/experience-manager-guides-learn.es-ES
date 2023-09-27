@@ -1,10 +1,10 @@
 ---
 title: Cargar archivos
-description: Obtenga información sobre cómo cargar archivos
+description: AEM Obtenga información sobre cómo cargar los archivos en el repositorio de y gestionar errores. AEM Conozca la interfaz de usuario de la consola de recursos, la aplicación de escritorio de la aplicación de la aplicación de la consola de recursos, el ingestor masivo de recursos y el uso del FrameMaker para la carga masiva.
 exl-id: d6a73953-94dd-4fa5-b09c-5e4c77fead62
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,9 @@ AEM Utilice la aplicación de escritorio de si es un profesional creativo y dese
 
 Si tiene migraciones a gran escala e ingestas masivas ocasionales, utilice el Ingestor masivo de recursos para cargar el contenido. Con esta herramienta, puede cargar contenido masivo desde almacenes de datos compatibles como Azure o S3. Para obtener más información, consulte [Ingestor masivo de recursos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor).
 
-## Uso de FrameMaker para la carga masiva
+## Usar FrameMaker para carga masiva
 
-Adobe FrameMaker AEM incluye un potente conector de que le permite cargar fácilmente sus documentos DITA y otros documentos FrameMaker \(`.book` y `.fm`AEM \) a la dirección de correo electrónico Puede utilizar varias funcionalidades de carga de archivos, como cargar un solo archivo o cargar una carpeta completa con o sin dependencias \(como referencias de contenido, referencias cruzadas y gráficos\).
+Adobe FrameMaker AEM incluye un potente conector de que permite cargar fácilmente los documentos DITA y de otros FrameMakeres \(`.book` y `.fm`AEM \) a la dirección de correo electrónico Puede utilizar varias funcionalidades de carga de archivos, como cargar un solo archivo o cargar una carpeta completa con o sin dependencias \(como referencias de contenido, referencias cruzadas y gráficos\).
 
 Para obtener más información sobre el uso de la función de carga masiva en FrameMaker, consulte la sección *Crear una carpeta CRX y cargar archivos* en la Guía del usuario de FrameMaker.
 

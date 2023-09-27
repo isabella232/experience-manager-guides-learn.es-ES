@@ -1,10 +1,10 @@
 ---
 title: Activar salida
-description: Obtenga información sobre cómo activar la salida
+description: AEM Activar la salida de mapas DITA en Guías de. Obtenga información sobre cómo activar el contenido en la instancia de publicación.
 exl-id: a3b6cfed-813e-433c-891f-bb0715e7b94a
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '193'
 ht-degree: 2%
 
 ---
@@ -30,8 +30,7 @@ Una vez creada una colección de mapas para la activación masiva, el siguiente 
 
    - Para activar la salida de las asignaciones seleccionadas, seleccione los archivos de asignación y haga clic en **Publicación rápida**.
    - Para activar la salida de todas las asignaciones DITA con sus ajustes preestablecidos configurados, active la casilla de verificación situada junto a la \(columna\) Mapa y, a continuación, haga clic en **Publicación rápida.**
-
-      ![](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
+     ![](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
 
 
 Una vez activada la salida para los archivos de mapa seleccionados, la columna Publicado se actualiza con la fecha y la hora actuales.

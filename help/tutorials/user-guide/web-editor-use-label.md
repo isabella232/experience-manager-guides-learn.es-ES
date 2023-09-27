@@ -1,10 +1,10 @@
 ---
 title: Uso de etiquetas
-description: Aprenda a utilizar etiquetas
+description: AEM Descubra el uso de etiquetas para diferentes versiones de un archivo en las Guías de. Obtenga información sobre cómo agregar o eliminar una etiqueta a una versión de un tema.
 exl-id: 3ea56d06-537f-4bfd-922d-df1f23e61a20
-source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---

@@ -1,10 +1,10 @@
 ---
 title: Traducir temas modificados
-description: Obtenga información sobre cómo traducir temas modificados
+description: AEM Obtenga información sobre cómo volver a traducir un tema modificado en Guías de.
 exl-id: 48b868c3-27ec-4641-b40d-17a641be7497
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,7 @@ Realice los siguientes pasos para enviar un tema modificado para su retraducció
    - Clic **Aceptar traducción** si cree que los cambios se han traducido correctamente. Se muestra un mensaje de confirmación.
 
    - Clic **Rechazar traducción** si cree que hay que volver a hacer el trabajo. Se muestra un mensaje de rechazo.
+
    >[!NOTE]
    >
    > Es importante aceptar o rechazar el recurso traducido; de lo contrario, el archivo permanece en la ubicación temporal y no se copia en DAM.

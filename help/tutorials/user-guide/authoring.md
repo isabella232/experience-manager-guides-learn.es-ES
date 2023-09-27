@@ -1,10 +1,10 @@
 ---
 title: Administrar contenido
-description: Obtenga información sobre cómo administrar contenido
+description: AEM Administre contenido e identifique sus funciones y permisos en las Guías de. Conozca los conceptos clave de la administración de contenido y del trabajo con los perfiles globales o de nivel de carpeta.
 exl-id: d2fa31a7-a8ce-4d17-bd4e-0f51ea751dca
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '722'
 ht-degree: 10%
 
 ---

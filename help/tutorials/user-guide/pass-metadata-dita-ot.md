@@ -1,10 +1,10 @@
 ---
 title: Pasar los metadatos a la salida utilizando DITA-OT
-description: Obtenga información sobre cómo pasar los metadatos a la salida mediante DITA-OT
+description: AEM Obtenga información sobre cómo pasar los metadatos a la salida mediante la publicación DITA-OT en las guías del usuario de la aplicación de la publicación en las guías de usuario de la aplicación.
 exl-id: 637895e5-aece-4827-a32e-f2ae3e3704ef
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---

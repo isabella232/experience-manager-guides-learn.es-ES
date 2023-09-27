@@ -1,10 +1,10 @@
 ---
 title: Administrar tareas de publicación mediante el panel Publicar
-description: Obtenga información sobre cómo administrar tareas de publicación mediante el panel Publicar
+description: AEM Administre las tareas de publicación mediante el Panel de publicación en las Guías de publicación de. Obtenga información sobre cómo acceder al panel de publicación y cancelar una tarea de publicación.
 exl-id: 5ede608d-f905-44b7-9147-ab678ad68ee7
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ El panel izquierdo del panel Publicar proporciona las siguientes opciones de fil
 
 - **Ajuste preestablecido de salida** - Seleccione uno o varios ajustes preestablecidos de salida para los que desee ver las tareas de publicación activas actualmente. AEM En la siguiente captura de pantalla, las tareas de publicación se filtran para mostrar solo las tareas que utilizan el ajuste preestablecido de salida del sitio de la:
 
-   ![](images/publish-dashboard-preset-filter.png){width="800" align="left"}
+  ![](images/publish-dashboard-preset-filter.png){width="800" align="left"}
 
 - **Iniciado por** - Seleccione un nombre de usuario de la lista para mostrar las tareas de publicación iniciadas por el usuario seleccionado.
 

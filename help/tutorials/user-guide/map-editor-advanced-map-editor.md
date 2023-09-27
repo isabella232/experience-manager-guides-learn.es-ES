@@ -1,10 +1,10 @@
 ---
 title: Trabajo con el Editor de mapas avanzado
-description: Aprenda a trabajar con el editor de mapas avanzado
+description: AEM Aprenda a trabajar con el editor de mapas avanzado en Guías de. Conozca las funciones del editor de mapas avanzado. Editar temas mediante un mapa DITA y utilizar la vista de diseño, la vista de autor y el modo de vista previa.
 exl-id: 4f48d489-d13e-4285-8870-373f0324f5f6
-source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '3675'
+source-wordcount: '3701'
 ht-degree: 0%
 
 ---
@@ -77,15 +77,15 @@ Realice los siguientes pasos para crear el archivo de asignación con el Editor 
 
    - El archivo se agrega en una ubicación en la que la barra horizontal aparece en el área de edición del mapa. En la siguiente captura de pantalla, la variable *Información general* se agregará un tema entre las etiquetas *Descripción general* y *Sitio de lanzamiento y aterrizaje* temas.
 
-      ![](images/horizontal-line-in-adv-map-editor.png){width="350" align="left"}
+     ![](images/horizontal-line-in-adv-map-editor.png){width="350" align="left"}
 
    - Para reemplazar un tema, colóquelo en la parte superior, izquierda o derecha del tema que desee reemplazar. Una barra vertical a la izquierda o a la derecha de un tema indica que se reemplazará con el tema que se coloca en él.
 
-      ![](images/vertical-bar-left-right.png){width="550" align="left"}
+     ![](images/vertical-bar-left-right.png){width="550" align="left"}
 
-      Sin embargo, antes de reemplazar un tema, aparece un mensaje de confirmación. El tema solo se reemplaza después de que proporcione la confirmación.
+     Sin embargo, antes de reemplazar un tema, aparece un mensaje de confirmación. El tema solo se reemplaza después de que proporcione la confirmación.
 
-      ![](images/replace-topic-confirm.png){width="300" align="left"}
+     ![](images/replace-topic-confirm.png){width="300" align="left"}
 
    - Si se añade un submapa al mapa DITA, este se mostrará como un vínculo en el mapa DITA. Para ver todos los temas del submapa, Ctrl+clic en el vínculo del submapa. El contenido del submapa se muestra en una nueva pestaña. Del mismo modo, para abrir un tema desde el mapa DITA, pulse Ctrl+clic en el vínculo del tema y se abrirá en la nueva pestaña.
 
@@ -93,7 +93,7 @@ Realice los siguientes pasos para crear el archivo de asignación con el Editor 
 
    - Para cambiar la posición de un tema, seleccione el tema \(haciendo clic en el icono del tema\) y, a continuación, arrástrelo y suéltelo en la ubicación deseada en el archivo de mapa. Asegúrese de que la barra horizontal esté visible en la ubicación donde desee colocar el tema. En la siguiente captura de pantalla, el tema *Sitio de lanzamiento y aterrizaje* se mueve después de que *Información general* tema.
 
-      ![](images/move-topic-adv-map-editor.png){width="350" align="left"}
+     ![](images/move-topic-adv-map-editor.png){width="350" align="left"}
 
    - Para comprobar las propiedades del archivo de mapa, haga clic con el botón derecho en cualquier lugar del área de edición del mapa y elija **Propiedades** en el menú contextual. AEM En función de su versión de la, puede ver propiedades como metadatos, programación \(de\)activación, referencias, estado del documento y más.
 
@@ -197,7 +197,7 @@ Muestra el nombre de archivo de los títulos de los temas.
 
 **Menú Opciones en la vista Presentación**
 
-Además de organizar los temas en el archivo de asignación, también puede realizar las siguientes acciones mediante el menú Opciones disponible para un elemento en la vista Presentación:
+Además de organizar los temas en el archivo de asignación, también puede realizar las siguientes acciones utilizando el menú Opciones disponible para un elemento en la vista Presentación:
 
 ![](images/map-editor-options-menu.png){width="650" align="left"}
 
@@ -209,16 +209,16 @@ Además de organizar los temas en el archivo de asignación, también puede real
 - **Rehacer**: rehaga la última operación en la vista Presentación.
 - **Copiar**: copie la referencia seleccionada del archivo de asignación.
 
-   >[!NOTE]
-   >
-   > Puede mostrar y, a continuación, seleccionar las casillas de verificación para copiar varias referencias.
+  >[!NOTE]
+  >
+  > Puede mostrar y, a continuación, seleccionar las casillas de verificación para copiar varias referencias.
 
 - **Pegar**: pegue las referencias copiadas en la ubicación actual de la jerarquía.
 - **Eliminar**: elimine las referencias seleccionadas del archivo de asignación.
 
-   >[!NOTE]
-   >
-   > Puede mostrar y, a continuación, seleccionar las casillas de verificación para eliminar varias referencias.
+  >[!NOTE]
+  >
+  > Puede mostrar y, a continuación, seleccionar las casillas de verificación para eliminar varias referencias.
 
 
 ## Panel derecho en el editor de mapas
@@ -231,10 +231,10 @@ El panel Propiedades del contenido contiene información sobre el tipo de tema s
 
 - **Otros atributos** Si el administrador ha creado un perfil para atributos, obtendrá esos atributos junto con sus valores configurados. Con el panel de propiedades de contenido, puede elegir esos atributos y asignarlos al contenido relevante del tema. También puede asignar atributos configurados por el administrador en la variable **Mostrar atributos** pestaña en la configuración del editor. Los atributos definidos para un elemento se muestran en las vistas Diseño y Esquema. Esto le ayuda a echar un vistazo rápido a todos los temas de un mapa para los que se ha definido un atributo en particular. Por ejemplo, todos los temas que tienen el atributo de plataforma definido como &quot;Android&quot;.
 
-   ![](images/layout-inline-attributes.png){width="650" align="left"}
+  ![](images/layout-inline-attributes.png){width="650" align="left"}
 
 
-   Para obtener más información, consulte la *Mostrar atributos* dentro de *Configuración del editor* descripción de la función en [Panel izquierdo](web-editor-features.md#id2051EA0M0HS) sección.
+  Para obtener más información, consulte la *Mostrar atributos* dentro de *Configuración del editor* descripción de la función en [Panel izquierdo](web-editor-features.md#id2051EA0M0HS) sección.
 
 - **Metadatos** Con los metadatos , puede establecer la información de los metadatos. Puede definir el Título de navegación, el Texto del vínculo, la Descripción breve y las Palabras clave.
 
@@ -334,14 +334,14 @@ Para editar temas a través de un mapa DITA, realice los siguientes pasos:
 
    - Puede guardarlos de forma individual. Si hace clic en **Cerrar sin guardar** En los temas, verá un cuadro de diálogo que le pedirá que guarde los temas no guardados:
 
-      ![](images/save-multiple-topics.PNG){width="550" align="left"}
+     ![](images/save-multiple-topics.PNG){width="550" align="left"}
 
-      Puede elegir guardar todos los temas seleccionados o anular la selección de los temas que no desee guardar.
+     Puede elegir guardar todos los temas seleccionados o anular la selección de los temas que no desee guardar.
 
    - Puede incorporar el tema mediante las opciones **Guardar como nueva versión y desbloquear** botón. Al guardar una revisión del tema, se crea una nueva revisión y también se libera el bloqueo.
    - Si el administrador ha activado la opción de proteger archivos al cerrar, se le mostrará un mensaje para guardar los archivos cada vez que se cierren los archivos desprotegidos. Con esta opción habilitada, al cerrar el editor con archivos modificados, se muestra la lista de archivos desprotegidos que deben guardarse. Los archivos retirados se muestran con un icono de bloqueo:
 
-      ![](images/save-on-close.PNG){width="550" align="left"}
+     ![](images/save-on-close.PNG){width="550" align="left"}
 
       - Haciendo clic en **Cerrar sin guardar** cierra los archivos sin guardar los cambios.
 
@@ -358,21 +358,21 @@ Puede acceder a la vista previa de un mapa desde:
 
 - **IU de Assets**: en la interfaz de usuario de Assets, vaya a la ubicación del mapa, seleccione el archivo de mapa y elija **Previsualizar mapa** en la barra de herramientas. La vista previa del mapa se muestra en una nueva pestaña. Puede ver el contenido de todos los temas en el modo de vista previa. En esta vista, no se puede editar ningún tema.
 
-   >[!NOTE]
-   >
-   > Si la variable *Previsualizar mapa* La opción no está visible en la barra de herramientas principal. Puede que se haya movido debajo de **Más** menú de barra de herramientas.
+  >[!NOTE]
+  >
+  > Si la variable *Previsualizar mapa* La opción no está visible en la barra de herramientas principal. Puede que se haya movido debajo de **Más** menú de barra de herramientas.
 
 - **Editor de mapas avanzado**: en el editor de mapas avanzado, haga clic en el icono de previsualización para ver la previsualización del mapa actual.
 
-   ![](images/map-preview-icon.png){width="350" align="left"}
+  ![](images/map-preview-icon.png){width="350" align="left"}
 
-   Puede realizar las siguientes tareas adicionales en el modo de vista previa:
+  Puede realizar las siguientes tareas adicionales en el modo de vista previa:
 
    - Haga clic con el botón derecho en un tema y seleccione **Editar** para abrir el tema y editarlo en una nueva pestaña.
 
-      >[!NOTE]
-      >
-      > Si no tiene derechos de edición, el tema se abrirá en modo de solo lectura.
+     >[!NOTE]
+     >
+     > Si no tiene derechos de edición, el tema se abrirá en modo de solo lectura.
 
    - Para ir al tema deseado, haga clic en el título del tema en el árbol de mapas \(en el panel izquierdo\).
 

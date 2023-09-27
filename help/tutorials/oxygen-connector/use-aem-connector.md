@@ -4,9 +4,9 @@ description: Aprenda a utilizar el complemento Oxygen para las guías de Adobe E
 hide: true
 hidefromtoc: true
 exl-id: 2db9a34e-2efa-47ad-ba6b-02afc5197669
-source-git-commit: 7fbc6d22fd2f93b7b5bf3233f7ebdd0cb020dda2
+source-git-commit: 23c1dfb405643bd9f5906807dddc4fff3f2e8535
 workflow-type: tm+mt
-source-wordcount: '6038'
+source-wordcount: '6120'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Una vez que tenga el instalador, instálelo en el equipo local donde esté insta
 
 - Sistema operativo compatible con Oxygen XML Author versión 25.1
 
-- Java Development Kit
+- Kit de desarrollo de Java
    - Oracle SE 8 JRE 1.8
 
 ### Instalación del complemento en Windows
@@ -375,9 +375,14 @@ AEM Si desea utilizar los editores disponibles en las Guías de, puede hacerlo s
 
 ### Archivos de desprotección {#id195HC020TS4}
 
-AEM Cuando retira un archivo, se almacena localmente en el sistema y se bloquea para su edición en el repositorio de. Siga estos pasos para desproteger un archivo:
+AEM Cuando se retira un archivo, se almacena localmente en el sistema y se bloquea para su edición en el repositorio de. Realice los siguientes pasos para desproteger un archivo:
 
-1. AEM Haga clic con el botón secundario en un archivo en el panel Guías de.
+1. Puede desproteger los archivos de una de las siguientes maneras:
+   - AEM Haga clic con el botón secundario en un archivo en el panel Guías de.
+   - Pulse con el botón derecho del ratón en la ficha de asignación del panel Administrador de mapas DITA.
+   - Haga clic con el botón derecho en un archivo del panel Administrador de mapas DITA.
+   - Haga clic con el botón secundario en la ficha del archivo cuando abra un mapa o tema en el Editor.
+
 1. Seleccione una de las siguientes opciones:
    - **Salida:** AEM Extrae un archivo del repositorio de la aplicación y lo pone a disposición de los usuarios para que lo editen.
    - **Salida con dependientes**: extrae un archivo con sus referencias directas. Puede realizar cambios en las páginas principales y secundarias mediante esta opción. AEM Oxygen Plugin for Guides admite la comprobación de un nivel de dependientes. Por ejemplo, el Mapa A hace referencia al Tema A y el Tema A hace referencia al Tema B. Si se retira el Mapa A, se retirará el Tema A independientemente de su nivel en la jerarquía del índice. Sin embargo, no comprobará el Tema B porque no está directamente vinculado desde el Mapa A.
@@ -403,7 +408,13 @@ AEM Cuando se protege un archivo, la copia local del sistema se almacena en el r
 
 1. Guarde el archivo haciendo clic en **Archivo** \> **Guardar**.
 
-1. Haga clic con el botón secundario del mouse (ratón) en un archivo desprotegido y elija una de las dos opciones siguientes:
+1. Haga clic con el botón secundario del mouse (ratón) en un archivo o mapa desprotegido en una de las ubicaciones siguientes:
+   - AEM Panel Guías de
+   - Panel Administrador de mapas DITA
+   - Ficha del archivo cuando se abre un mapa o un tema en el Editor.
+   - La ficha Mapa del panel Administrador de mapas DITA.
+
+1. Elija entre las dos opciones siguientes:
 
    - **Check-In** AEM : Incorpora el archivo seleccionado del sistema local en el repositorio de.
    - **Registro con dependientes:** Si ha retirado un archivo junto con sus dependientes, utilice esta opción para proteger todos los archivos dependientes en una sola operación. Al seleccionar esta opción, se muestra el cuadro de diálogo Proteger con todos los archivos dependientes. Haga clic en Aceptar para proteger todos los archivos a la vez.

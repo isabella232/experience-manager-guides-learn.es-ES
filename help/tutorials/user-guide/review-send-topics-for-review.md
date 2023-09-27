@@ -1,10 +1,10 @@
 ---
 title: Enviar temas para revisión
-description: Obtenga información sobre cómo enviar temas para su revisión
+description: AEM Obtenga información sobre cómo crear una tarea de revisión y enviar temas para su revisión en las Guías de. Envíe uno o varios temas en un mapa DITA para su revisión.
 exl-id: 7a9b36ad-44d4-4952-9906-d95feb95d0c6
-source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '2733'
+source-wordcount: '2752'
 ht-degree: 0%
 
 ---
@@ -119,16 +119,16 @@ Para crear una tarea de revisión y enviar temas para su revisión, realice los 
    - **Seleccionar todo**: selecciona todos los temas de la lista de temas. Puede realizar fácilmente una operación por lotes después de seleccionar todos los temas.
    - **Borrar selección**: anula la selección de los temas seleccionados en la lista de temas.
 
-      >[!NOTE]
-      >
-      > También puede seleccionar o deseleccionar un tema individualmente si hace clic en la casilla de verificación situada junto al tema.
+     >[!NOTE]
+     >
+     > También puede seleccionar o deseleccionar un tema individualmente si hace clic en la casilla de verificación situada junto al tema.
 
    - **Añadir**: muestra el cuadro de diálogo Agregar revisores. Puede escribir el nombre de un revisor o la función de usuario \(o grupo\) que desee agregar como revisor a los temas seleccionados.
    - **Eliminar**: muestra el cuadro de diálogo Quitar revisores. Puede escribir el nombre de un revisor o la función de usuario \(o grupo\) que desee quitar como revisor de los temas seleccionados.
 
-      >[!NOTE]
-      >
-      > También puede quitar una revisión de un tema haciendo clic en el signo cruzado en el cuadro del revisor.
+     >[!NOTE]
+     >
+     > También puede quitar una revisión de un tema haciendo clic en el signo cruzado en el cuadro del revisor.
 
    - **Volver a asignar**: muestra el cuadro de diálogo Volver a asignar revisores. Puede escribir el nombre del revisor o la función de usuario \(o grupo\) al que desee asignar la tarea de revisión. De este modo, se quitarán todos los revisores existentes de los temas seleccionados y se asignarán a ellos los revisores recién seleccionados.
    - **Exportar**: permite exportar los detalles de la tarea de revisión en un archivo CSV. El archivo contiene detalles como la ruta y el título del tema, el nombre del revisor y la versión de los temas enviados para su revisión.
@@ -235,16 +235,15 @@ Para enviar uno o varios temas junto con el archivo de asignación para su revis
    - **Seleccionar todo**: selecciona todos los temas de la lista de temas. Puede realizar fácilmente una operación por lotes después de seleccionar todos los temas.
    - **Borrar selección**: anula la selección de los temas seleccionados en la lista de temas.
 
-      >[!NOTE]
-      >
-      > También puede seleccionar o deseleccionar un tema individualmente si hace clic en la casilla de verificación situada junto al tema.
+     >[!NOTE]
+     >
+     > También puede seleccionar o deseleccionar un tema individualmente si hace clic en la casilla de verificación situada junto al tema.
 
    - **Añadir**: muestra el cuadro de diálogo Agregar revisores. Puede escribir el nombre de un revisor o la función de usuario \(o grupo\) que desee agregar como revisor a los temas seleccionados.
    - **Eliminar**: muestra el cuadro de diálogo Quitar revisores. Puede escribir el nombre de un revisor o la función de usuario \(o grupo\) que desee quitar como revisor de los temas seleccionados.
    - **Volver a asignar**: muestra el cuadro de diálogo Volver a asignar revisores. Puede escribir el nombre del revisor o la función de usuario \(o grupo\) al que desee asignar la tarea de revisión. De este modo, se quitarán todos los revisores existentes de los temas seleccionados y se asignarán a ellos los revisores recién seleccionados.
    - **Exportar**: permite exportar los detalles de la tarea de revisión en un archivo CSV. El archivo contiene detalles como la ruta y el título del tema, el nombre del revisor y la versión de los temas enviados para su revisión.
    - **Editar revisores**: haciendo clic en ![](images/edit_pencil_icon.svg)en la lista de temas se muestra el cuadro de diálogo Editar revisores. Puede agregar o quitar revisores para el tema seleccionado desde este cuadro de diálogo.
-
    >[!IMPORTANT]
    >
    > Debe asignar al menos un revisor para crear la tarea de revisión.

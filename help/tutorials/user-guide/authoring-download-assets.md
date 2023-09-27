@@ -1,10 +1,10 @@
 ---
 title: Descargar archivos
-description: Obtenga información sobre cómo descargar archivos
+description: AEM AEM Obtenga información sobre cómo descargar archivos desde la consola de mapas de DITA en Guías de y exportar un archivo de mapa de DITA en el repositorio de datos de la aplicación de mapas de DITA.
 exl-id: 3b588256-da30-4a98-be5c-fa36cfa8a80b
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,6 @@ Realice los siguientes pasos para descargar un archivo de asignación DITA junto
 
    - **Usar línea base**: seleccione esta opción para obtener una lista de las líneas base creadas para el mapa DITA. Si desea descargar el archivo de asignación y su contenido en función de una Línea base específica, seleccione la Línea base en la lista desplegable. Para obtener más información sobre cómo trabajar con líneas de base, consulte [Trabajar con línea base](generate-output-use-baseline-for-publishing.md#).
    - **Acoplar jerarquía de archivos**: seleccione esta opción para guardar todos los temas a los que se hace referencia y los archivos multimedia en una sola carpeta.
-
    >[!NOTE]
    >
    > También puede descargar el archivo de asignación sin seleccionar ninguna opción. En ese caso, se descarga la última versión persistente de los temas a los que se hace referencia y los archivos multimedia.
@@ -47,6 +46,7 @@ Realice los siguientes pasos para descargar un archivo de asignación DITA junto
    - Clic **Descargar** para descargar el archivo de mapa en formato .zip.
 
    - Clic **Descargar más tarde** para descargar el archivo de asignación más adelante. AEM Se puede acceder al vínculo de descarga desde la bandeja de entrada de notificaciones de la. Haga clic en la notificación de asignación generada en la bandeja de entrada para descargar la asignación en formato .zip.
+
    >[!NOTE]
    >
    > AEM De forma predeterminada, las asignaciones descargadas permanecen durante cinco días en la Bandeja de entrada de notificaciones de la.

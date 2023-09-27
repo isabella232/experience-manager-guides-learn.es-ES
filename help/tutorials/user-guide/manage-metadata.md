@@ -1,10 +1,10 @@
 ---
 title: Administración de metadatos
-description: Obtenga información sobre cómo administrar metadatos
+description: AEM Obtenga información sobre cómo definir y administrar metadatos en las guías de la. Utilice el etiquetado inteligente y masivo para encontrar fácilmente temas relacionados dentro de un mapa DITA.
 exl-id: 842f1b41-9146-4de3-bcc0-38c10646a032
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '165'
 ht-degree: 2%
 
 ---

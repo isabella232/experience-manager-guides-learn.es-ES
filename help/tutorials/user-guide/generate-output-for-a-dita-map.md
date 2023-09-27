@@ -1,10 +1,10 @@
 ---
 title: Generar salida para un mapa DITA desde la consola de mapas
-description: Obtenga información sobre cómo generar resultados para un mapa DITA desde la consola de mapas
+description: AEM Genere la salida para un mapa DITA desde la consola de mapas en Guías de la. Obtenga información sobre la generación de resultados incrementales y cómo ver el estado, cancelar y eliminar una tarea de salida.
 exl-id: 98afbdd2-56d7-44b0-ad2a-25e9143c88f3
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1416'
 ht-degree: 0%
 
 ---
@@ -101,26 +101,26 @@ Realice los siguientes pasos para ver la cola de generación de resultados:
 
    - **Salidas en cola:**
 
-      Enumera las salidas que están a la espera de generarse o en proceso de generación. Las tareas en cola o en curso se muestran con un icono de color azul antes del nombre del ajuste preestablecido. También puede encontrar la configuración de generación de resultados o el ajuste preestablecido utilizado para la tarea en cola, el tipo, el usuario que inició la tarea, el tiempo desde que se puso en cola la tarea y el estado actual.
+     Enumera las salidas que están a la espera de generarse o en proceso de generación. Las tareas en cola o en curso se muestran con un icono de color azul antes del nombre del ajuste preestablecido. También puede encontrar la configuración de generación de resultados o el ajuste preestablecido utilizado para la tarea en cola, el tipo, el usuario que inició la tarea, el tiempo desde que se puso en cola la tarea y el estado actual.
 
-      Haga clic en el vínculo para acceder a **Publicar tablero** y ver el estado de ejecución actual. En el tablero de publicación hay disponible una lista de todas las tareas de publicación activas. El **Salidas en cola** y el **Publicar tablero** Los vínculos de solo se muestran cuando hay salidas que están a la espera de generarse o en proceso de generación. No aparecen cuando se han completado las tareas de salida. Para obtener más información sobre el panel de publicación, consulte [Administrar tareas de publicación mediante el panel Publicar](generate-output-publish-dashboard.md#).
+     Haga clic en el vínculo para acceder a **Publicar tablero** y ver el estado de ejecución actual. En el tablero de publicación hay disponible una lista de todas las tareas de publicación activas. El **Salidas en cola** y el **Publicar tablero** Los vínculos de solo se muestran cuando hay salidas que están a la espera de generarse o en proceso de generación. No aparecen cuando se han completado las tareas de salida. Para obtener más información sobre el panel de publicación, consulte [Administrar tareas de publicación mediante el panel Publicar](generate-output-publish-dashboard.md#).
 
    - **Salidas generadas**
 
-      Enumera las tareas de salida que se han completado. De nuevo, la información que se muestra aquí es similar a la sección Salidas en cola con algunas diferencias. Tiene un nuevo conjunto de información en forma de icono de resultado de salida y el tiempo de generación de salida.
+     Enumera las tareas de salida que se han completado. De nuevo, la información que se muestra aquí es similar a la sección Salidas en cola con algunas diferencias. Tiene un nuevo conjunto de información en forma de icono de resultado de salida y el tiempo de generación de salida.
 
-      En esta lista, puede tener tareas que se hayan ejecutado correctamente, tareas que se hayan ejecutado con un mensaje o tareas fallidas. Las tareas correctas se muestran con un icono de color verde, las tareas con un mensaje tienen un icono de color naranja y las tareas fallidas se muestran con un icono de color rojo.
+     En esta lista, puede tener tareas que se hayan ejecutado correctamente, tareas que se hayan ejecutado con un mensaje o tareas fallidas. Las tareas correctas se muestran con un icono de color verde, las tareas con un mensaje tienen un icono de color naranja y las tareas fallidas se muestran con un icono de color rojo.
 
-      Para todas las tareas, el proceso de publicación crea un archivo de registro \(logs.txt\) al que se puede acceder haciendo clic en el vínculo de la columna Generated At. Para las tareas que han fallado o tienen mensajes, puede comprobar el archivo de registro, que se explica en la sección [Ver y comprobar el archivo de registro](generate-output-basic-troubleshooting.md#id1822G0P0CHS).
+     Para todas las tareas, el proceso de publicación crea un archivo de registro \(logs.txt\) al que se puede acceder haciendo clic en el vínculo de la columna Generated At. Para las tareas que han fallado o tienen mensajes, puede comprobar el archivo de registro, que se explica en la sección [Ver y comprobar el archivo de registro](generate-output-basic-troubleshooting.md#id1822G0P0CHS).
 
-      >[!NOTE]
-      >
-      > Al hacer clic en un vínculo de la salida del PDF generado, se le pide que descargue el PDF. AEM Este es el comportamiento predeterminado en las versiones 6.5 y 6.4 de.
+     >[!NOTE]
+     >
+     > Al hacer clic en un vínculo de la salida del PDF generado, se le pide que descargue el PDF. AEM Este es el comportamiento predeterminado en las versiones 6.5 y 6.4 de.
 
 
 ## Cancelar una tarea de generación de resultados {#id2061H100T5Z}
 
-AEM Guías de ofrece a los editores una manera sencilla y sencilla de cancelar cualquier tarea de publicación en curso. Como editor, se puede cancelar una tarea de publicación en curso desde la consola de mapas DITA o desde el [Publicar tablero](generate-output-publish-dashboard.md#).
+AEM Guías de ofrece a los editores una forma sencilla y sencilla de cancelar cualquier tarea de publicación en curso. Como editor, se puede cancelar una tarea de publicación en curso desde la consola de mapas DITA o desde el [Publicar tablero](generate-output-publish-dashboard.md#).
 
 Realice los siguientes pasos para cancelar una tarea de generación de salida desde la consola de mapas DITA:
 

@@ -1,10 +1,10 @@
 ---
 title: HTML5
-description: Aprenda a utilizar HTML5
+description: Genere y configure la salida de HTML 5 para documentos de FrameMaker AEM en Guías de.
 exl-id: 9ac39237-c6b3-47d9-8d54-67150002c050
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '175'
 ht-degree: 5%
 
 ---
@@ -25,4 +25,4 @@ Las siguientes opciones están disponibles para la salida de HTML5:
 | Ruta de destino | AEM Ruta de acceso del repositorio de donde se almacena la salida de HTML5. |
 | Ejecutar flujo de trabajo posterior a generación | AEM Al elegir esta opción, se muestra una nueva lista desplegable Flujo de trabajo de generación de publicaciones que contiene todos los flujos de trabajo configurados en el flujo de trabajo de creación de flujos de trabajo de creación de flujos de trabajo de la. Debe seleccionar un flujo de trabajo que desee ejecutar después de completar el flujo de trabajo de generación de resultados. |
 
-**Tema principal:**[ Generar salida de documentos de FrameMaker](fm-output-generatation.md)
+**Tema principal:**[ Generación de resultados de documentos de FrameMaker](fm-output-generatation.md)

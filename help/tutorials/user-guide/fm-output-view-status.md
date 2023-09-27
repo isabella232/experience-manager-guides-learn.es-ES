@@ -1,17 +1,17 @@
 ---
 title: Ver el estado de la tarea de generación de resultados
-description: Obtenga información sobre cómo ver el estado de la tarea de generación de resultados
+description: Ver la cola de generación de salida de documentos de FrameMaker. Obtenga información sobre cómo ver el estado de una tarea de generación de resultados.
 exl-id: 6fdaa547-8446-4ce5-95c3-a63d9c1f27d2
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
 
 # Ver el estado de la tarea de generación de resultados {#viewing_output_history}
 
-AEM Una vez iniciada la tarea de generación de resultados para un documento de FrameMaker, Guías de envía esta tarea a la cola de generación de resultados. Esta cola se actualiza en tiempo real y muestra el estado de cada tarea de generación de salida de la cola.
+Una vez iniciada la tarea de generación de salida para un documento de FrameMaker AEM, Guías de la envía esta tarea a la cola de generación de salida. Esta cola se actualiza en tiempo real y muestra el estado de cada tarea de generación de salida de la cola.
 
 Realice los siguientes pasos para ver la cola de generación de resultados:
 
@@ -25,13 +25,13 @@ Realice los siguientes pasos para ver la cola de generación de resultados:
 
    - **Salidas en cola:**
 
-      Enumera las salidas que están a la espera de generarse o en proceso de generación. También puede encontrar la configuración de generación de resultados o el ajuste preestablecido utilizado para la tarea en cola, el tipo, el usuario que inició la tarea, el tiempo desde que se puso en cola la tarea y el estado actual.
+     Enumera las salidas que están a la espera de generarse o en proceso de generación. También puede encontrar la configuración de generación de resultados o el ajuste preestablecido utilizado para la tarea en cola, el tipo, el usuario que inició la tarea, el tiempo desde que se puso en cola la tarea y el estado actual.
 
    - **Salidas generadas**
 
-      Enumera las tareas de salida que se han completado. De nuevo, la información que se muestra en esta sección es similar a la de las salidas en cola, con la única diferencia del tiempo de generación de salida.
+     Enumera las tareas de salida que se han completado. De nuevo, la información que se muestra en esta sección es similar a la de las salidas en cola, con la única diferencia del tiempo de generación de salida.
 
-      En esta lista, puede tener tareas que se hayan ejecutado correctamente o tareas que hayan fallado. Para las tareas que se han completado correctamente, el proceso de publicación crea un archivo de registro \(logs.txt\) al que se puede acceder haciendo clic en el vínculo en la columna Generated At.
+     En esta lista, puede tener tareas que se hayan ejecutado correctamente o tareas que hayan fallado. Para las tareas que se han completado correctamente, el proceso de publicación crea un archivo de registro \(logs.txt\) al que se puede acceder haciendo clic en el vínculo en la columna Generated At.
 
 
-**Tema principal:**[ Generar salida de documentos de FrameMaker](fm-output-generatation.md)
+**Tema principal:**[ Generación de resultados de documentos de FrameMaker](fm-output-generatation.md)

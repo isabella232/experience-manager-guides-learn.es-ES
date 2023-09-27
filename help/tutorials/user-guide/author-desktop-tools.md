@@ -1,10 +1,10 @@
 ---
 title: Creación de contenido con herramientas de escritorio
-description: Aprenda a crear contenido con las herramientas de escritorio
+description: AEM Cree contenido con las herramientas de escritorio de las guías de la. Aprenda a trabajar con Adobe FrameMaker y Oxygen XML Editor para crear y publicar contenido DITA.
 exl-id: 43ffb7a6-9740-4e39-bb03-4f8a124f26d3
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---

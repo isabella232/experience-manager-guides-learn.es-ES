@@ -1,10 +1,10 @@
 ---
 title: Crear y administrar líneas de base desde el editor web
-description: Obtenga información sobre cómo crear y administrar líneas de base desde el editor web
+description: AEM Cree y administre líneas de base desde el editor web en Guías de. Obtenga información sobre cómo crear líneas de base a partir de etiquetas y aplicar filtros a las líneas de base.
 exl-id: 9e390489-16f5-4f9a-a821-5150a66c2ed4
-source-git-commit: 906b1db461d343568b43195113dbc37ef5f88341
+source-git-commit: 361c605bdf02fb3b8754c6596a70e86a00acb3db
 workflow-type: tm+mt
-source-wordcount: '1327'
+source-wordcount: '1446'
 ht-degree: 0%
 
 ---
@@ -78,21 +78,28 @@ Puede gestionar las líneas base existentes mediante las distintas funciones del
 
 - Puede buscar una línea base existente mediante el cuadro de texto del panel Línea base. Utilice el **Aplicar filtro** para mostrar todas las líneas base o enumerarlas con el estado de creación Correcto, En curso o Fallido.
 - Utilice el **Actualizar** en el panel Línea base para volver a comprobar todas las líneas base y mostrar una nueva lista de líneas base para el mapa DITA abierto en la vista Mapa.
-- Para ver o editar el contenido de una línea base existente, pulse dos veces en la línea base de la lista del panel Línea base. La ventana de edición de línea base del centro muestra el fichero de mapa DITA, el contenido o los temas del mapa y el contenido referenciado.
+- Para ver o editar el contenido de una línea base estática existente, pulse dos veces en la línea base de la lista del panel Línea base. La ventana de edición de línea base del centro muestra el fichero de mapa DITA, el contenido o los temas del mapa y el contenido referenciado.
 
 
-![](images/baseline-options.png){width="550" align="left"}
+  ![opciones de una línea base](images/baseline-options.png){width="800" align="left"}
 
 También se pueden realizar las siguientes operaciones en la instantánea desde el menú Opciones (Options):
 
-- **Editar**, **Duplicado,** o **Eliminar** una línea base existente.
-- Añada, quite o realice cambios en etiquetas existentes desde el **Administrar etiquetas** opción. Si el administrador ha configurado etiquetas predefinidas, dichas etiquetas se muestran en la lista desplegable Añadir etiqueta. Para obtener más información sobre cómo añadir etiquetas, consulte [Uso de etiquetas](web-editor-use-label.md#).
+- **Editar**, **Duplicado,** **Cambiar nombre**, o **Eliminar** una línea base existente.
+
+  >[!NOTE]
+  >
+  >La operación de edición para líneas de base estáticas solo se recomienda para un pequeño número de cambios de referencia. No se recomienda la operación de edición para cambiar la versión del mapa DITA principal, ya que debe volver a calcular todas las referencias. Esto puede provocar un error en la actualización de la línea base para mapas DITA grandes. Para los mapas DITA más grandes, se puede crear una nueva línea base o editar las propiedades de la línea base.
+  >
+  >La operación Editar (Edit) en el caso de una instantánea dinámica permite editar las propiedades de la instantánea, ya que las referencias para las instantáneas dinámicas se generan durante la ejecución mediante las etiquetas.
+
+- Añada, quite o realice cambios en etiquetas existentes desde el **Administrar etiquetas** opción para líneas de base estáticas. Si el administrador ha configurado etiquetas predefinidas, dichas etiquetas se muestran en la lista desplegable Añadir etiqueta. Para obtener más información sobre cómo añadir etiquetas, consulte [Uso de etiquetas](web-editor-use-label.md#).
 
   >[!NOTE]
   >
   > El proceso para agregar o quitar etiquetas se produce de forma asíncrona, por lo que puede seguir trabajando en otros archivos en el Editor Web. Una vez añadida o eliminada la etiqueta, se muestra un mensaje emergente que confirma que la etiqueta se ha añadido o eliminado, y también recibe una notificación en la bandeja de entrada para el mismo.
 
-- **Editar propiedades** de una línea base existente que haya definido al crear la línea base.
+- **Editar propiedades** de una línea base estática existente que haya definido al crear la línea base.
 - Exportar la instantánea de una instantánea en un archivo CSV con el **Exportar línea base** opción.
 
 **Filtros de línea base**

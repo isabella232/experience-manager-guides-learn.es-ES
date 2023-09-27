@@ -1,10 +1,10 @@
 ---
 title: Previsualización de un tema
-description: Obtenga información sobre cómo previsualizar un tema
+description: AEM Obtenga información sobre cómo obtener una vista previa de un tema en las Guías de. Obtenga información sobre las funciones disponibles en el modo de vista previa. AEM Ramificar, revertir y realizar versiones posteriores en las guías de la.
 exl-id: fb8eb87b-2a98-4540-9329-08a759145497
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '1815'
+source-wordcount: '1834'
 ht-degree: 0%
 
 ---
@@ -74,11 +74,11 @@ Si el tema tiene contenido condicional, verá el icono A/B en la barra de herram
 
 - Abra el código fuente XML de un archivo. Para ver el código XML subyacente de un mapa, tema o archivo DITAVAL, abra el archivo en el modo Vista previa y haga clic en el icono Origen. La ventana emergente Fuente XML muestra el código fuente XML. Puede seleccionar un código específico del archivo o pulsar `Ctrl`+`a` para seleccionar todo el contenido.
 
-   >[!NOTE]
-   >
-   > Para obtener la vista de código fuente de un archivo de mapa DITA, seleccione el archivo en la interfaz de usuario de Assets y haga clic en Origen.
+  >[!NOTE]
+  >
+  > Para obtener la vista de código fuente de un archivo de mapa DITA, seleccione el archivo en la interfaz de usuario de Assets y haga clic en Origen.
 
-   ![](images/xml-source-code-view-from-preview_cs.png){width="800" align="left"}
+  ![](images/xml-source-code-view-from-preview_cs.png){width="800" align="left"}
 
 **Compartir vínculo UUID**
 
@@ -128,9 +128,9 @@ Si la columna Desprotegido no está visible, seleccione **Configuración de vist
 
 - Si el tema ha sufrido algunos cambios, puede averiguar fácilmente los cambios realizados en diferentes versiones de ese tema. Para conocer los cambios en las distintas versiones de un tema:
 
-   >[!IMPORTANT]
-   >
-   > El método descrito en el siguiente procedimiento sólo es aplicable a ficheros DITA. Para los archivos que no son DITA, utilice la vista Cronología para crear versiones o restaurar una versión existente de un archivo.
+  >[!IMPORTANT]
+  >
+  > El método descrito en el siguiente procedimiento sólo es aplicable a ficheros DITA. Para los archivos que no son DITA, utilice la vista Cronología para crear versiones o restaurar una versión existente de un archivo.
 
    1. Abra el tema en el modo de vista previa.
 
@@ -157,19 +157,19 @@ Si la columna Desprotegido no está visible, seleccione **Configuración de vist
    - Crear versiones posteriores en una rama nueva
    - Revertir a una versión específica de un tema
 
-   La siguiente ilustración muestra el típico sistema de ramificación y versiones subsiguientes:
+  La siguiente ilustración muestra el típico sistema de ramificación y versiones subsiguientes:
 
-   ![](images/branching_illustration.png){width="550" align="center"}
+  ![](images/branching_illustration.png){width="550" align="center"}
 
-   Para cualquier tema nuevo, la primera versión se numera como 1.0. A partir de entonces, cada nueva versión del tema se guarda con un número incremental como 1.1, 1.2, etc. Una vez creada una rama de un tema, se crea una nueva rama tomando el número de versión de donde se crea la rama y agregando un 0 al final de la versión. Como se ve en la ilustración, se crea una nueva rama a partir de la versión 1.1 de un tema. La nueva rama tiene la versión 1.1.0. A partir de entonces, cada vez que se guarda una nueva versión del tema en esta rama, se obtiene un número de versión incremental como 1.1.1, 1.1.2, etc.
+  Para cualquier tema nuevo, la primera versión se numera como 1.0. A partir de entonces, cada nueva versión del tema se guarda con un número incremental como 1.1, 1.2, etc. Una vez creada una rama de un tema, se crea una nueva rama tomando el número de versión de donde se crea la rama y agregando un 0 al final de la versión. Como se ve en la ilustración, se crea una nueva rama a partir de la versión 1.1 de un tema. La nueva rama tiene la versión 1.1.0. A partir de entonces, cada vez que se guarda una nueva versión del tema en esta rama, se obtiene un número de versión incremental como 1.1.1, 1.1.2, etc.
 
-   De forma similar a la bifurcación, también puede revertir la versión de trabajo o actual a cualquier versión que exista en el repositorio. Para volver a una versión, simplemente seleccione la versión que desee del tema y haga clic en **Volver a esta versión** en el **Historial de versiones** panel.
+  De forma similar a la bifurcación, también puede revertir la versión de trabajo o actual a cualquier versión que exista en el repositorio. Para volver a una versión, simplemente seleccione la versión que desee del tema y haga clic en **Volver a esta versión** en el **Historial de versiones** panel.
 
-   Realice los siguientes pasos para crear una rama, revertir a una versión y mantener las versiones posteriores de un tema:
+  Realice los siguientes pasos para crear una rama, revertir a una versión y mantener las versiones posteriores de un tema:
 
-   >[!IMPORTANT]
-   >
-   > El método descrito en el siguiente procedimiento sólo es aplicable a ficheros DITA. Para los archivos que no son DITA, utilice la vista Cronología para crear versiones o restaurar una versión existente de un archivo.
+  >[!IMPORTANT]
+  >
+  > El método descrito en el siguiente procedimiento sólo es aplicable a ficheros DITA. Para los archivos que no son DITA, utilice la vista Cronología para crear versiones o restaurar una versión existente de un archivo.
 
    1. Acceda al tema en la interfaz de usuario de Assets.
 
@@ -201,16 +201,19 @@ Si la columna Desprotegido no está visible, seleccione **Configuración de vist
 
       - Si selecciona esta opción, se crea una rama a partir de la versión 1.1. Además, también se crea una nueva versión del tema a partir de la copia de trabajo actual del tema y se guarda como la siguiente versión: 1.4.
 
-         ![](images/next_version_created_over_working_copy.png){width="300" align="left"}
+        ![](images/next_version_created_over_working_copy.png){width="300" align="left"}
 
-         La versión 1.2 se convierte en la copia de trabajo actual del tema. Cualquier versión guardada después de esto se crea en la nueva rama de 1.1. Por ejemplo, la versión posterior de un nuevo tema en esta rama se guardará como 1.2.0.
+        La versión 1.2 se convierte en la copia de trabajo actual del tema. Cualquier versión guardada después de esto se crea en la nueva rama de 1.1. Por ejemplo, la versión posterior de un nuevo tema en esta rama se guardará como 1.2.0.
 
-         ![](images/new_version_in_branch.png){width="300" align="left"}
+        ![](images/new_version_in_branch.png){width="300" align="left"}
 
       - Si no selecciona esta opción, no se crea ninguna nueva versión de la copia de trabajo actual del tema. Se crea una nueva rama a partir de la versión 1.2 del tema. Cualquier versión posterior del tema se guarda en la rama 1.2 como 1.2.0, 1.2.1, etc.
 
-         ![](images/new_version_without_working_copy.png){width="300" align="left"}
+        ![](images/new_version_without_working_copy.png){width="300" align="left"}
+
    1. Haga clic en **Aceptar**.
-   Se crea una nueva rama a partir de la versión seleccionada del tema. El proceso anterior también es aplicable para volver a una versión específica de un tema. Técnicamente, revertir a una versión específica significa que crea una rama nueva a partir de la versión seleccionada y convierte esa versión en la copia de trabajo actual del tema. También puede ver el historial de los archivos que se han revertido en el informe Historial de reversiones de la versión. Para obtener más información sobre este informe, consulte [Informe de historial de versiones de archivos revertidos](reports-reverted-file-version-history.md#).
+
+
+  Se crea una nueva rama a partir de la versión seleccionada del tema. El proceso anterior también es aplicable para volver a una versión específica de un tema. Técnicamente, revertir a una versión específica significa que crea una rama nueva a partir de la versión seleccionada y convierte esa versión en la copia de trabajo actual del tema. También puede ver el historial de los archivos que se han revertido en el informe Historial de reversiones de la versión. Para obtener más información sobre este informe, consulte [Informe de historial de versiones de archivos revertidos](reports-reverted-file-version-history.md#).
 
 **Tema principal:**[ Crear y previsualizar temas](create-preview-topics.md)

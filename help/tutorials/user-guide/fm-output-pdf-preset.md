@@ -1,10 +1,10 @@
 ---
 title: PDF
-description: Aprenda a utilizar el PDF
+description: Genere y configure la salida del PDF para documentos de FrameMaker AEM en Guías de.
 exl-id: ece004ed-5233-460b-889d-94e693ceed93
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '381'
 ht-degree: 3%
 
 ---
@@ -38,4 +38,4 @@ Las siguientes opciones están disponibles para la salida del PDF:
 | Ruta de destino | AEM Ruta de acceso del repositorio de en la que se almacena la salida del PDF. |
 | Ejecutar flujo de trabajo posterior a generación | AEM Al elegir esta opción, se muestra una nueva lista desplegable Flujo de trabajo de generación de publicaciones que contiene todos los flujos de trabajo configurados en el flujo de trabajo de creación de flujos de trabajo de creación de flujos de trabajo de la. Debe seleccionar un flujo de trabajo que desee ejecutar después de completar el flujo de trabajo de generación de resultados. |
 
-**Tema principal:**[ Generar salida de documentos de FrameMaker](fm-output-generatation.md)
+**Tema principal:**[ Generación de resultados de documentos de FrameMaker](fm-output-generatation.md)

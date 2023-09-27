@@ -1,10 +1,10 @@
 ---
 title: Usar la colección de mapas para generar resultados
-description: Obtenga información sobre cómo utilizar la colección de mapas para la generación de resultados
+description: Obtenga información sobre cómo crear y eliminar una colección de mapas y agregar o eliminar un mapa DITA. AEM Configure, genere y cancele una tarea de generación de resultados desde una colección de mapas en Guías de la.
 exl-id: 32e3af6c-9670-42cc-8dbe-9f99fbc60adf
-source-git-commit: 9196d7b1094149f06067c153b9c02c2cd20c18af
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '963'
 ht-degree: 0%
 
 ---

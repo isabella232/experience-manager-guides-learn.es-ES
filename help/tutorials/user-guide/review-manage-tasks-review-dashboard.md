@@ -1,10 +1,10 @@
 ---
 title: Administrar tareas de revisión mediante el panel Revisar
-description: Obtenga información sobre cómo administrar tareas de revisión mediante el panel de revisión
+description: AEM Administre las tareas de revisión desde el Panel de revisión en las Guías de la. Conozca las acciones que se realizan en la pestaña tarea, contenido y revisores, y compruebe el estado de una tarea de revisión.
 exl-id: 617017fe-59b6-4b38-b375-a126fa9dddf5
-source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1300'
 ht-degree: 0%
 
 ---
@@ -61,9 +61,9 @@ Puede realizar las siguientes acciones en la **Tarea** pestaña:
 - Clic **Completar** para marcar la tarea de revisión como completada antes de la fecha de vencimiento. Cuando la tarea de un tema individual se marca como Completada, se cierra la revisión del tema seleccionado. Sin embargo, en el caso de los temas compartidos para revisión a través de un mapa DITA, al marcar la tarea de mapa DITA como Completada se cerrará la revisión de todos los temas del mapa que se compartieron para revisión.
 - Clic **Duplicar** para crear una copia de la tarea de revisión. El proceso de crear una tarea de revisión duplicada es similar a crear una nueva tarea de revisión. Una vez iniciado el flujo de trabajo de tareas duplicadas, se muestra la página Crear tarea de revisión. Debe proporcionar los detalles de la nueva tarea como se explica en [Enviar temas para revisión](review-send-topics-for-review.md#).
 
-   Si ha seleccionado una tarea de revisión creada a partir de un mapa DITA, se mostrarán los temas que son un pert del mapa. A continuación, puede elegir los temas que desea incluir en la nueva tarea de revisión.
+  Si ha seleccionado una tarea de revisión creada a partir de un mapa DITA, se mostrarán los temas que son un pert del mapa. A continuación, puede elegir los temas que desea incluir en la nueva tarea de revisión.
 
-   Si la tarea de revisión está duplicada a partir de uno o varios temas revisados, sólo se mostrarán esos temas en la lista de tareas de revisión. Puede optar por compartir estos temas para su revisión con otro conjunto de revisores.
+  Si la tarea de revisión está duplicada a partir de uno o varios temas revisados, sólo se mostrarán esos temas en la lista de tareas de revisión. Puede optar por compartir estos temas para su revisión con otro conjunto de revisores.
 
 - Clic **Cerrar** para ir a la página Bandeja de entrada.
 
@@ -77,9 +77,9 @@ Puede realizar las siguientes acciones en la **Contenido** pestaña:
 
 - Clic **Actualizar** para compartir la versión actualizada del tema con los revisores. Los revisores reciben una notificación por correo electrónico que indica que se ha enviado la versión más reciente del tema para su revisión. La próxima vez que un revisor abra el tema, verá la versión actualizada.
 
-   >[!NOTE]
-   >
-   > En el caso de una versión actualizada de un tema, los comentarios antiguos también se conservan en la versión más reciente. Los revisores también pueden ver las diferencias entre las dos versiones.
+  >[!NOTE]
+  >
+  > En el caso de una versión actualizada de un tema, los comentarios antiguos también se conservan en la versión más reciente. Los revisores también pueden ver las diferencias entre las dos versiones.
 
 - Clic **Completar** para marcar la tarea de revisión como completada antes de la fecha de vencimiento. Cuando la tarea de un tema individual se marca como Completada, se cierra la revisión del tema seleccionado. Sin embargo, en el caso de los temas compartidos para revisión a través de un mapa DITA, al marcar la tarea de mapa DITA como Completada se cerrará la revisión de todos los temas del mapa que se compartieron para revisión.
 
@@ -95,9 +95,9 @@ Puede realizar las siguientes acciones en la **Revisores** pestaña:
 - **Seleccionar todo**: selecciona todos los temas de la lista de temas. Puede realizar fácilmente una operación por lotes después de seleccionar todos los temas.
 - **Borrar selección**: anula la selección de los temas seleccionados en la lista de temas.
 
-   >[!NOTE]
-   >
-   > También puede seleccionar o deseleccionar un tema individualmente si hace clic en la casilla de verificación situada junto al tema.
+  >[!NOTE]
+  >
+  > También puede seleccionar o deseleccionar un tema individualmente si hace clic en la casilla de verificación situada junto al tema.
 
 - **Añadir**: muestra el cuadro de diálogo Agregar revisores. Puede escribir el nombre de un revisor o la función de usuario \(o grupo\) que desee agregar como revisor a los temas seleccionados.
 - **Eliminar**: muestra el cuadro de diálogo Quitar revisores. Puede escribir el nombre de un revisor o la función de usuario \(o grupo\) que desee quitar como revisor de los temas seleccionados.

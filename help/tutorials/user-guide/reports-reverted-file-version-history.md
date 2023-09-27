@@ -1,10 +1,10 @@
 ---
 title: Informe de historial de versiones de archivos revertidos
-description: Obtenga información sobre cómo revertir el informe de historial de versiones de archivos
+description: AEM Vea los informes del historial de versiones de los archivos revertidos en las Guías de. AEM Obtenga información sobre cómo acceder a los registros de versión de reversión desde la interfaz de usuario de Assets, la previsualización de temas y la selección de herramientas de.
 exl-id: fa90b373-742a-4102-b00f-07e4113fef98
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Puede acceder a este informe desde los siguientes lugares:
 
 - **IU de Assets**: seleccionando un archivo y abriendo **Historial de versiones** desde el carril izquierdo. El **Historial de versiones** La vista contiene el **Revertir registros de versión** en la parte inferior del panel. Al hacer clic en este vínculo, se muestra el historial de versiones revertidas del archivo seleccionado.
 
-   ![](images/revert-log-from-assets-ui.png){width="300" align="left"}
+  ![](images/revert-log-from-assets-ui.png){width="300" align="left"}
 
 - **Previsualización del tema**: cuando obtiene una vista previa de un tema, también puede mostrar el **Historial de versiones** panel desde el carril izquierdo. Aparecerá un panel similar a la interfaz de usuario de Assets desde donde puede hacer clic en **Revertir registros de versión** para acceder al historial de versiones revertidas del documento activo.
 

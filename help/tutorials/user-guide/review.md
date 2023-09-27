@@ -1,10 +1,10 @@
 ---
 title: Revisar temas o mapas
-description: Obtenga información sobre cómo revisar temas o mapas
+description: AEM Revise de forma eficaz los temas o mapas en las Guías de para una evaluación de contenido sin problemas. AEM Conozca las funciones para autores y revisores en las Guías de.
 exl-id: 26860f5d-d744-49b4-8483-4e0f3798af93
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---

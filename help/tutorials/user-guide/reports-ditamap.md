@@ -1,10 +1,10 @@
 ---
 title: Informe de mapa DITA del tablero de mapas
-description: Obtenga información sobre cómo crear un informe de asignación DITA desde el tablero de mapas
+description: AEM Genere informes de mapas DITA desde el tablero de mapas en las Guías de. Obtenga información sobre cómo generar el CSV de un informe de mapa DITA.
 exl-id: 8ba1dc83-fa96-4ae0-bfa8-89b5a8949f08
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
@@ -29,15 +29,15 @@ Siga estos pasos para ver el informe de mapa DITA:
 
    - **Resumen del tema:**
 
-      Muestra el resumen general del fichero de mapa seleccionado. Al consultar el Resumen, puede conocer rápidamente la cantidad total de temas en el mapa, los temas que faltan, la cantidad de temas que tienen elementos que faltan, el estado de los temas: en estado Borrador, En revisión o Revisado.
+     Muestra el resumen general del fichero de mapa seleccionado. Al consultar el Resumen, puede conocer rápidamente la cantidad total de temas en el mapa, los temas que faltan, la cantidad de temas que tienen elementos que faltan, el estado de los temas: en estado Borrador, En revisión o Revisado.
 
    - **Detalles:**
 
-      Al hacer clic en un tema, se muestra un informe detallado del tema seleccionado.
+     Al hacer clic en un tema, se muestra un informe detallado del tema seleccionado.
 
-      ![](images/detailed-report-uuid.png){width="800" align="left"}
+     ![](images/detailed-report-uuid.png){width="800" align="left"}
 
-      Elementos resaltados bajo **A**, **B**, **C** y **D** se describen a continuación:
+     Elementos resaltados bajo **A**, **B**, **C** y **D** se describen a continuación:
 
       - **Tema**: título del tema especificado en el mapa DITA. Al pasar el puntero del mouse (ratón) sobre el título del tema, se muestra la ruta de acceso completa del tema. Si hay problemas en el tema, como referencias o imágenes que faltan, se muestra un punto rojo antes del título del tema.
 
@@ -55,6 +55,7 @@ Siga estos pasos para ver el informe de mapa DITA:
 
       - **Abrir en el editor \(D\)**: Al hacer clic en este icono, se abre el tema en el Editor web.
 
+
    Elementos resaltados bajo **E** se describen a continuación:
 
    - **Multimedia**: la ruta de las imágenes utilizadas en el tema se muestra junto con su UUID. Si hace clic en la ruta de la imagen, la imagen correspondiente se abre en una ventana emergente. Los vínculos de imagen rotos aparecen en color rojo.
@@ -66,8 +67,6 @@ Siga estos pasos para ver el informe de mapa DITA:
    - **Revisar**: Muestra el estado de la tarea de revisión del tema. Puede ver el estado \(abrir o cerrar\), la fecha de vencimiento y el usuario asignado del tema que se está revisando. Si hace clic en el vínculo del tema, se abre el tema en modo de revisión.
 
    - **Utilizado en**: Muestra una lista de otros temas o mapas en los que se utiliza el tema. También se enumera el UUID de todos estos temas y mapas.
-
-
 
 Además del informe para cada tema individual, los administradores también tienen acceso a información como el historial de publicación de un mapa DITA. Para obtener más información sobre el historial de salidas generadas, consulte [Ver el estado de la tarea de generación de resultados](generate-output-for-a-dita-map.md#viewing_output_history).
 

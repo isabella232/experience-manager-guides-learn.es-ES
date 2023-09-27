@@ -1,10 +1,10 @@
 ---
 title: Contenido del autor
-description: Aprenda a crear contenido
+description: AEM Contenido del autor en Guías de. Obtenga información sobre cómo crear, obtener una vista previa, editar, guardar la versión del documento y compartirlo para revisiones.
 exl-id: bba2a7a1-ffbc-4d28-9b70-a0274f03e29b
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---

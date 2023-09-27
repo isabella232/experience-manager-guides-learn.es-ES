@@ -1,10 +1,10 @@
 ---
 title: AEM Sitio web de
-description: AEM Obtenga información sobre cómo crear un sitio
+description: AEM AEM Cree y configure ajustes preestablecidos del sitio de la en las guías de usuario. AEM Utilice la compatibilidad con el sitio para generar resultados basados en artículos, temas de vinculación de salida, publicar conref y buscar una cadena dentro del contenido.
 exl-id: 8523ec55-d7f3-439d-96e8-163c7632f73c
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '2545'
+source-wordcount: '2569'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ AEM Las siguientes opciones están disponibles para la salida del sitio de:
 
 | AEM Opciones del sitio de | Descripción |
 | --- | --- |
-| Tipo de salida | El tipo de salida que desea generar. AEM AEM Para generar una salida de sitio de respuesta, seleccione la opción Sitio de la. |
+| Tipo de salida | El tipo de salida que desea generar. AEM AEM Para generar una salida del sitio de respuesta, seleccione la opción Sitio de la. |
 | Nombre de la configuración | AEM Asigne un nombre descriptivo a la configuración del sitio de la que está creando. Por ejemplo, puede especificar *Salida de clientes internos* o *salida de usuarios finales*. |
 | Nombre del sitio | AEM Un nombre de sitio donde la salida se almacena en el repositorio de la.<br><br>AEM Se crea un nodo en el repositorio de con el nombre especificado aquí. Si no se especifica el Nombre del sitio (Site Name), se creará el nodo de sitio con el nombre de fichero de mapa DITA.<br><br>El nombre del sitio que especifique aquí también se utiliza como título en la pestaña del explorador.<br><br>También puede utilizar variables al establecer el Nombre del sitio. Para obtener más información sobre el uso de variables, consulte [Utilice variables para establecer las opciones Ruta de destino, Nombre del sitio o Nombre de archivo](generate-output-use-variables.md#id18BUG70K05Z). |
 | Diseño | Seleccione la plantilla de diseño que desee utilizar para generar el resultado.<br><br>Para obtener más información sobre cómo utilizar plantillas de diseño personalizadas para generar resultados, póngase en contacto con el administrador de publicación. |

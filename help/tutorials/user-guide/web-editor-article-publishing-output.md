@@ -1,10 +1,10 @@
 ---
 title: Generar resultados desde el panel Repositorio
-description: Obtenga información sobre cómo generar resultados desde el panel Repositorio
+description: AEM Genere resultados desde el panel del repositorio o desde el panel Vista de mapa en las Guías de. Aprenda a publicar un tema utilizado en una o varias asignaciones DITA o a generar resultados para varios temas.
 exl-id: 3dea81c3-1e57-4f14-9afe-6b075bd410e0
-source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,9 @@ También puede utilizar los ajustes preestablecidos de salida creados para el ma
 
 - Utilice el **Generación rápida** función en el panel Repositorio o en el panel Vista de mapa para generar resultados para el tema único seleccionado o para todo el mapa DITA.
 
-   >[!NOTE]
-   >
-   > También puede acceder a las **Generación rápida** desde el panel Favoritos o el panel Buscar.
+  >[!NOTE]
+  >
+  > También puede acceder a las **Generación rápida** desde el panel Favoritos o el panel Buscar.
 
 - Utilice el **Generar salida** función en el panel Vista de mapa para generar la salida para los múltiples temas seleccionados.
 
@@ -46,7 +46,7 @@ Realice los siguientes pasos para generar resultados para uno o varios temas del
    - **Mapa**: muestra los mapas DITA que contienen el tema seleccionado.
    - **Estado**: Muestra el estado de publicación de cada tema.
 Para ver el resultado, pase el puntero del mouse (ratón) sobre el tema y haga clic en Ver resultados.
-      ![](images/output-multiple-maps_cs.png){width="800" align="left"}
+     ![](images/output-multiple-maps_cs.png){width="800" align="left"}
 
 
 ## Generar salida para un mapa DITA desde el editor web

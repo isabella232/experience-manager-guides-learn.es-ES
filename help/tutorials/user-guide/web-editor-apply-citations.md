@@ -1,9 +1,9 @@
 ---
 title: Añadir y administrar citas en el contenido
-description: Aprenda a implementar referencias agregando y aplicando citas al contenido.
-source-git-commit: 85eb0228908134080f3f1e2644f3f7c37b8d7497
+description: AEM Añada y administre citas en Guías de. Aprenda a aplicar, importar, filtrar, buscar, cambiar el estilo de las citas, editar, previsualizar, insertar, eliminar y generar resultados de contenido con citas.
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '1863'
+source-wordcount: '1877'
 ht-degree: 0%
 
 ---
@@ -159,7 +159,7 @@ Para obtener una vista previa de una cita, siga estos pasos:
 
 Pase el ratón sobre el nombre de la cita de la lista. Seleccionar     ![](images/options.svg) **Opciones** icono.
 
-1. Seleccionar **Previsualizar**.
+1. Seleccione **Vista previa**.
 Puede obtener una vista previa del contenido y el formato de la cita en el panel de vista previa.
 
    >[!NOTE]

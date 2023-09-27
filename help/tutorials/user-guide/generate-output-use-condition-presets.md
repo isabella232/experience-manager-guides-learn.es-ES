@@ -1,10 +1,10 @@
 ---
 title: Usar ajustes preestablecidos de condición
-description: Aprenda a utilizar ajustes preestablecidos de condición
+description: AEM Conozca el uso de ajustes preestablecidos de condición en las guías de la. AEM Obtenga información sobre cómo crear, editar, copiar y eliminar ajustes preestablecidos de condición en la aplicación de.
 exl-id: cd8f8196-ba03-4a4b-9ce8-2651de4e5cc2
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '499'
 ht-degree: 2%
 
 ---

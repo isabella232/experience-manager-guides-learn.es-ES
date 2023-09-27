@@ -1,10 +1,10 @@
 ---
 title: Generación de salida
-description: Obtenga información sobre cómo generar salidas
+description: AEM Genere resultados en el sitio de, PDF, HTML 5, EPUB, personalizado y JSON a través de complementos DITA-OT, publicación de PDF AEM nativos y FMPS en las guías de los.
 exl-id: 32fc32f8-16b1-4c3c-a6e2-abfb8fba9e66
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '317'
 ht-degree: 0%
 
 ---

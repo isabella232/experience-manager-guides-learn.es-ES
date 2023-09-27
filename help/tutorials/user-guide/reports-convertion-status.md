@@ -1,10 +1,10 @@
 ---
 title: Informe de estado de conversión
-description: Obtenga información sobre cómo generar el informe de estado de conversión
+description: AEM Convierta documentos de diferentes formatos en DITA en las guías de la. Obtenga información sobre cómo añadir filtros y ver un informe de estado de conversión.
 exl-id: 41887af2-404f-41d7-b54c-ec49797200f0
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -29,15 +29,15 @@ Siga estos pasos para ver el informe de estado de conversión:
 
    - **Filter:**
 
-      Puede filtrar los datos del informe en función del Tipo de archivo y el Estado de conversión. En Tipo de archivo, puede elegir ver los datos del informe de los documentos de tipo Documento de Word, HTML estructurado, XML y DocBook. En Estado, puede elegir ver los datos del informe de las tareas que se han ejecutado correctamente, con error, activas o en cola.
+     Puede filtrar los datos del informe en función del Tipo de archivo y el Estado de conversión. En Tipo de archivo, puede elegir ver los datos del informe de los documentos de tipo Documento de Word, HTML estructurado, XML y DocBook. En Estado, puede elegir ver los datos del informe de las tareas que se han ejecutado correctamente, con error, activas o en cola.
 
-      La siguiente captura de pantalla muestra los datos del informe de las tareas de conversión que tienen los estados Error, Activo y En cola.
+     La siguiente captura de pantalla muestra los datos del informe de las tareas de conversión que tienen los estados Error, Activo y En cola.
 
-      ![](images/conversion-report-failed-active-queued.png){width="800" align="left"}
+     ![](images/conversion-report-failed-active-queued.png){width="800" align="left"}
 
    - **Datos del informe:**
 
-      Los datos del informe contienen las columnas siguientes:
+     Los datos del informe contienen las columnas siguientes:
 
       - **Nombre de archivo**: Nombre del archivo de origen en el que se ejecutó el proceso de conversión. Al hacer clic en el vínculo Nombre de archivo, se le redirige a la ubicación del documento de origen.
 

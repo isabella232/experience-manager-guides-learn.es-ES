@@ -1,10 +1,10 @@
 ---
 title: Estado del documento
-description: Obtenga información sobre cómo documentar el estado
+description: AEM Conozca los tipos de estados de documento en las Guías de. Obtenga información sobre cómo cambiar o ver el estado del documento y utilizar el estado del documento en DLC.
 exl-id: 6ab85a63-02d2-4802-a6b8-99e6551a567b
-source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ La vista de tarjeta de la interfaz de usuario de Assets muestra el estado actual
 
 ## Usar estados de documento en DLC
 
-Los estados de documento desempeñan un papel importante en la administración del ciclo de vida de los documentos en DLC. Si su organización sigue estrictamente el DLC, tener un mecanismo para controlar la edición de documentos en función de su estado se convierte en una función esencial. Por ejemplo, puede permitir la edición de documentos cuando se encuentren en *Borrador* o *En revisión* estados. Sin embargo, una vez que un documento se revisa y está listo para publicarse, debe haber una forma de evitar nuevas modificaciones de los documentos.
+Los estados de documento desempeñan un papel importante en la administración del ciclo de vida de los documentos en DLC. Si su organización sigue estrictamente el DLC, tener un mecanismo para controlar la edición de documentos en función de su estado se convierte en una función esencial. Por ejemplo, puede permitir la edición de documentos cuando se encuentren en *Borrador* o *En revisión* estados. Sin embargo, una vez que un documento se revise y esté listo para publicarse, debe haber una forma de evitar nuevas modificaciones de los documentos.
 
 AEM Guías de documentos proporciona un flujo de trabajo de aprobación de documentos, que le ayuda a controlar el ciclo de vida del proceso de desarrollo de documentos. Una vez que un documento está listo para publicarse o ha alcanzado el penúltimo estado, puede marcarlo como aprobado. AEM Una vez aprobado un documento, Guías de la crea una nueva versión del documento y lo convierte en de sólo lectura. A continuación, puede mover el documento para publicarlo o crear una línea base para un procesamiento posterior.
 
@@ -71,7 +71,7 @@ Para utilizar la función de aprobación de documentos, realice los siguientes p
 
    ![](images/mark-approved-correct-state.png){width="300" align="left"}
 
-   Si el documento no se puede marcar como aprobado, se mostrará el siguiente mensaje:
+   Si el documento no se puede marcar como aprobado, aparecerá el siguiente mensaje:
 
    ![](images/mark-approved-incorrect-state.png){width="300" align="left"}
 

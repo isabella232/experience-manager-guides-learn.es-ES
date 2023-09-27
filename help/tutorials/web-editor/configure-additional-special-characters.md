@@ -1,12 +1,12 @@
 ---
 title: Configurar caracteres especiales adicionales en la barra de herramientas del Editor Web
-description: Cómo configurar caracteres especiales adicionales en la barra de herramientas del Editor Web
+description: AEM Aprenda a configurar caracteres especiales adicionales en el editor web de guías de.
 feature: Web Editor
 role: User
 exl-id: 0fbc05a5-a6b0-4f6b-bbc4-8fca03581d90
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ La estructura del archivo symbol.json se explica a continuación:
 
 + &quot;items&quot;: define la colección de caracteres especiales de la categoría.
 
-+ &quot;name&quot;: &quot;≥&quot;, &quot;title&quot;: &quot;Bueno o igual a&quot;: Esta es la definición del carácter especial. Comienza con la etiqueta &quot;nombre&quot;, que no debe cambiarse. El nombre va seguido del carácter especial. El &quot;título&quot; es el nombre o título del carácter especial que aparece como información de objeto para ese carácter especial.
++ &quot;name&quot;: &quot;≥&quot;, &quot;title&quot;: &quot;Greater-Than or Equal To&quot;: Esta es la definición del carácter especial. Comienza con la etiqueta &quot;nombre&quot;, que no debe cambiarse. El nombre va seguido del carácter especial. El &quot;título&quot; es el nombre o título del carácter especial que aparece como información de objeto para ese carácter especial.
 
 Puede definir varias definiciones de caracteres especiales dentro de una categoría.
 
@@ -62,4 +62,3 @@ Esto añadirá otra categoría en el cuadro de diálogo de caracteres especiales
 >[!MORELIKETHIS]
 >
 >+ [Guía de instalación y configuración](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/3-6/XML-Documentation-for-Adobe-Experience-Manager_Installation-Configuration-Guide_EN.pdf)
-

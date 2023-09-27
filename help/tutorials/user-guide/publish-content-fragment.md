@@ -1,9 +1,9 @@
 ---
 title: Publicación de un tema en un fragmento de contenido
-description: Obtenga información sobre cómo publicar un tema en un fragmento de contenido.
-source-git-commit: dd677257d94015d888705e4b6a43ae877e58be4b
+description: AEM Publicar un tema o los elementos dentro de un tema en un fragmento de contenido en las guías de la.  Obtenga información sobre cómo ver los fragmentos de contenido presentes en un tema y volver a publicarlos.
+source-git-commit: 6143bdcb4c8a9e1f35ea752cf1be142ab98a716b
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '613'
 ht-degree: 1%
 
 ---

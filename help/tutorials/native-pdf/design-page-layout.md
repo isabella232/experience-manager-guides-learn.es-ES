@@ -2,9 +2,9 @@
 title: Función de publicación nativa de PDF | Diseño de una página
 description: Aprenda a diseñar el diseño de página para presentar la información en diferentes secciones de la salida del PDF.
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
-source-git-commit: 6182455850fb14cc24ce6229f6e4cb2b547901b7
+source-git-commit: 5abcc887a24d838caabdf9a34a84ebc851ed4cbf
 workflow-type: tm+mt
-source-wordcount: '4712'
+source-wordcount: '4807'
 ht-degree: 0%
 
 ---
@@ -57,9 +57,9 @@ Tenga en cuenta los siguientes puntos al crear los diseños de página:
 
 * Si desea que los capítulos comiencen desde una página impar o par, puede elegir crear un diseño de página para la página en blanco. Este diseño de página se utiliza para rellenar el espacio entre dos capítulos para asegurarse de que el capítulo comienza en la página par o impar deseada.
 
-   >[!NOTE]
-   >
-   >Si no crea un diseño de página en blanco independiente, se utilizará el diseño de página predeterminado. Para crear un diseño de página, consulte [Crear un nuevo diseño de página](components-pdf-template.md#create-page-layout).
+  >[!NOTE]
+  >
+  >Si no crea un diseño de página en blanco independiente, se utilizará el diseño de página predeterminado. Para crear un diseño de página, consulte [Crear un nuevo diseño de página](components-pdf-template.md#create-page-layout).
 
 El siguiente ejemplo lo guiará por el proceso de creación de variantes de un diseño de página:
 
@@ -97,11 +97,14 @@ Al diseñar un diseño de página, es esencial tener control sobre las distintas
 
 * **Ver rotación** : especifique el lado o la dirección en que se representa el lado superior original después de la rotación. Puede elegir entre 90 en sentido horario, 90 en sentido antihorario o 180 en sentido antihorario. Esto resulta muy útil en una situación en la que desea utilizar una combinación de diseños Vertical y Horizontal en la salida. Por ejemplo, puede utilizar vertical como diseño de página genérico y establecer un diseño de página horizontal para representar tablas anchas. En ese caso, puede configurar para que muestre el contenido de la tabla en el sentido de las agujas del reloj 90 grados. De esta forma, la página estará orientada en horizontal y el contenido rotará 90 grados para mantener la continuidad a la vista. Veremos cómo se logra esto como ejemplo más adelante en esta sección.
 
-* **Reiniciar numeración desde** : especifique el número de página desde el que se iniciará la numeración de este diseño de página. Por ejemplo, puede establecer el número de página para que se reinicie cada capítulo. En ese caso, debe establecer la propiedad Restart Numbering From en 1 en la variante de diseño First page del diseño de página del capítulo.
+* **Numeración de páginas** : La numeración de páginas, de forma predeterminada, es continua en un PDF. Por ejemplo, un PDF de 100 páginas podría tener números de página continuos de 1 a 100. También puede reiniciar la numeración desde un número específico en todas las secciones diferentes o desde la primera aparición de una sección.
+   * **Reiniciar desde** : especifique el número de página desde el que se iniciará la numeración de este diseño de página. Por ejemplo, puede establecer el número de página para que se reinicie cada capítulo. En ese caso, debe establecer la propiedad restart from en 1 en la variante First page layout del diseño de página del capítulo. De forma predeterminada, la numeración de páginas continúa desde la página anterior.
+
+   * **Aplicar solo a la primera incidencia**: También puede comenzar desde un número específico solo para la primera aparición de una sección. Por ejemplo, puede comenzar solamente el primer capítulo desde 1 y continuar con los números de página de otros capítulos.
 
 * **Diseño** : especifique los márgenes de página junto con el relleno para los lados superior, inferior, izquierdo y derecho. La siguiente ilustración explica cómo se representan los márgenes, el relleno y los bordes alrededor del contenido. Tenga en cuenta que el margen superior e inferior de una página contiene el encabezado y el pie de página.
 
-   <img src="./assets/margins-padding-illustration.png" width="300">
+  <img src="./assets/margins-padding-illustration.png" width="300">
 
 * **Fondo** : incluya una imagen o un color como fondo del diseño de página. Para una imagen, puede especificar la altura y anchura de la imagen junto con las propiedades de repetición y posición.
 
@@ -159,7 +162,6 @@ Siga estos pasos para realizar las tareas anteriores:
 1. Cambie la propiedad Ver rotación para representar el contenido en 90° en el sentido de las agujas del reloj.
 
    1. Seleccionar **En sentido horario 90°** en la lista desplegable Ver rotación.
-
    <img src="./assets/view-rotation-page-props.png" width="300">
 
    1. Clic **Guardar todo** para guardar las propiedades actualizadas del diseño de página.
@@ -520,9 +522,9 @@ Para crear un diseño de página con varias columnas, realice los siguientes pas
 
    * **Anchura de columna:** Especifique el ancho de una columna en un diseño de varias columnas. De forma predeterminada, el tamaño se establece en píxeles (px); también puede especificarlo en pt, rem, em, % o en unidades.
 
-      >[!NOTE]
-      >
-      >Si no especifica un tamaño, las columnas se dividen uniformemente para ajustarse a la página dada. En la mayoría de los casos, no es necesario especificar este valor.
+     >[!NOTE]
+     >
+     >Si no especifica un tamaño, las columnas se dividen uniformemente para ajustarse a la página dada. En la mayoría de los casos, no es necesario especificar este valor.
 
    * **Espacio de columna** : especifique el espacio entre columnas individuales.
 
@@ -542,7 +544,6 @@ Para crear un diseño de página con varias columnas, realice los siguientes pas
 
    * **Regla de columna** : si desea tener una línea entre columnas, utilice esta propiedad para definir la línea o los estilos de regla. Especifique los valores para las reglas Estilo, Color y Anchura para agregar una línea entre las columnas.
 
-
 ## Trabajo con el panel Propiedades de contenido {#work-with-content-props}
 
 El panel Propiedades del contenido permite actualizar fácilmente el aspecto de los elementos en el diseño de página. Las propiedades del panel Propiedades del contenido se dividen en las siguientes secciones:
@@ -551,7 +552,7 @@ El panel Propiedades del contenido permite actualizar fácilmente el aspecto de 
 
 * **Borde** : contiene propiedades para agregar y dar formato a un borde de un elemento en el diseño de página. Puede definir Borde lateral (como todo, superior, inferior, derecho o izquierdo), Estilo de borde (como Sólido, Discontinuo, Líneas de puntos o más), Color de borde, Anchura y Radio para tener un borde curvo. En el ejemplo siguiente, se ha agregado un borde curvo en el área de encabezado de la página.
 
-   <img src="./assets/border-properties.png" width="500">
+  <img src="./assets/border-properties.png" width="500">
 
 * **Diseño** : contiene propiedades para configurar el diseño de un elemento en el diseño de página. Puede establecer Altura, Anchura, Márgenes y relleno (para arriba, abajo, izquierda o derecha), Alineación horizontal o vertical, Flotante (como izquierda, derecha o ninguno), Borrar (como izquierda, derecha, ambos o ninguno), Posición del elemento (como absoluto, fijo, relativo o más), Mostrar (como bloque, contenido, fijo o más), Índice Z, Transparencia, Transformar (rotando o escalando) y Transformar origen (por X y desplazamiento Y).
 

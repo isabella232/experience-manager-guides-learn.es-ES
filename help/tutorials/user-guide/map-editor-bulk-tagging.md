@@ -1,10 +1,10 @@
 ---
 title: Etiquetado masivo de contenido DITA
-description: Aprenda a etiquetar contenido DITA de forma masiva
+description: AEM Utilice el etiquetado masivo de contenido en las guías de la aplicación para mejorar la capacidad de detección de contenido DITA. Obtenga información sobre cómo aplicar, quitar, mostrar u ocultar etiquetas masivas en un solo tema o en varios.
 exl-id: 0e855575-e62f-4dc7-869c-7fd3ec61ffdb
-source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---

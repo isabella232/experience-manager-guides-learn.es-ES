@@ -1,10 +1,10 @@
 ---
 title: JSON
-description: Aprenda a utilizar JSON
+description: Aprenda a crear ajustes preestablecidos de JSON desde el editor web y el panel de mapas. AEM Configure el ajuste preestablecido de salida JSON en las guías del.
 exl-id: 0a938cc2-1a6f-4ee4-ad7e-f94ad2a0cf94
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '676'
 ht-degree: 1%
 
 ---

@@ -1,10 +1,10 @@
 ---
 title: Informe de reutilización de contenido
-description: Obtenga información sobre cómo crear un informe de reutilización de contenido
+description: AEM Obtenga información sobre cómo ver el informe de reutilización de contenido en las Guías de. Genere el informe para buscar el porcentaje de reutilización de contenido.
 exl-id: 658ae0fd-9032-4480-b9e4-fe4fec261e72
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -37,11 +37,11 @@ Siga estos pasos para ver el informe de reutilización de contenido:
 
    - **Resumen del informe:**
 
-      Muestra la reutilización media del contenido, que se calcula como instancias de reutilización de contenido/recuento total de temas. Este informe tiene en cuenta todas las referencias de contenido directo de primer nivel y las referencias de temas para el cálculo. Las instancias de reutilización de contenido se calculan como la suma total de los valores del campo Número de veces reutilizado. El tema que se reutiliza más ampliamente también se enumera en el Resumen del informe. Al hacer clic en el vínculo del tema en el tema más reutilizado, se abre la vista previa del tema.
+     Muestra la reutilización media del contenido, que se calcula como instancias de reutilización de contenido/recuento total de temas. Este informe tiene en cuenta todas las referencias de contenido directo de primer nivel y las referencias de temas para el cálculo. Las instancias de reutilización de contenido se calculan como la suma total de los valores del campo Número de veces reutilizado. El tema que se reutiliza más ampliamente también se enumera en el Resumen del informe. Al hacer clic en el vínculo del tema en el tema más reutilizado, se abre la vista previa del tema.
 
    - **Detalles:**
 
-      La sección Detalles contiene las siguientes columnas:
+     La sección Detalles contiene las siguientes columnas:
 
       - **Título**: título del tema. Al hacer clic en el vínculo del título del tema, se abre la vista previa del tema.
 

@@ -1,17 +1,17 @@
 ---
 title: Solución de problemas básica
-description: Obtenga información sobre la solución de problemas básica
+description: AEM Resuelva los problemas con la solución de problemas básica en las Guías de. Aprenda a ver, copiar y comprobar el archivo de registro en un editor de texto y a resolver los errores de compilación de JSP.
 exl-id: b5ab2618-6f11-4aaa-8471-09521f8bb512
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
 
 # Solución de problemas básica {#id1821I0Y0G0A}
 
-AEM Al trabajar con Guías de, puede encontrar errores al publicar o abrir el documento. AEM Estos errores pueden producirse en el propio proceso de DITA map, topic o en las guías de la aplicación de la aplicación de la interfaz de usuario. En esta sección se proporciona información sobre cómo tener acceso a la información del archivo de registro de generación de resultados y analizarla. Además, si el tema DITA es demasiado grande, es posible que vea el error de compilación de JSP. Esta sección también proporciona información sobre cómo resolver el error de compilación de JSP.
+AEM Al trabajar con Guías de, puede encontrar errores al publicar o abrir el documento. AEM Estos errores pueden producirse en el propio proceso de DITA map, topic o en las guías de la aplicación de la aplicación. En esta sección se proporciona información sobre cómo tener acceso a la información del archivo de registro de generación de resultados y analizarla. Además, si el tema DITA es demasiado grande, es posible que vea el error de compilación de JSP. Esta sección también proporciona información sobre cómo resolver el error de compilación de JSP.
 
 ## Ver y comprobar el archivo de registro {#id1822G0P0CHS}
 

@@ -1,10 +1,10 @@
 ---
 title: Personalizado
-description: Aprenda a utilizar el ajuste preestablecido de salida personalizado
+description: Aprenda a crear ajustes preestablecidos personalizados desde el editor web y el panel de asignaciones. AEM Configure un ajuste preestablecido de salida personalizado en las guías de la.
 exl-id: 72e59379-b092-49a2-8cd6-a929fe880750
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '949'
 ht-degree: 2%
 
 ---
