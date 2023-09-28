@@ -1,9 +1,10 @@
 ---
 title: Notas de versión | Novedades de las guías de Adobe Experience Manager, versión de octubre de 2023
 description: Conozca las funciones nuevas y mejoradas de la versión de octubre de 2023 de las guías de Adobe Experience Manager as a Cloud Service.
-source-git-commit: 87aef92535b7204503cd4ed1da838b43b1133b04
+exl-id: 583bc9fe-1e61-4727-869b-0dbc19625f70
+source-git-commit: e8503e1441b7bc365d37c76ab9cf7b5f50374f10
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -15,11 +16,11 @@ Este artículo cubre las funciones nuevas y mejoradas de la versión de octubre 
 Para obtener más información sobre las instrucciones de actualización, la matriz de compatibilidad y los problemas corregidos en esta versión, consulte [Notas de versión](release-notes-2023.10.0.md).
 
 
-## Configuración de un conector de fuente de datos con las herramientas
+## Configuración de un conector de fuente de datos desde la interfaz de usuario
 
 Guías del Experience Manager ahora proporciona un **Fuentes de datos** que le ayuda a configurar conectores predeterminados para fuentes de datos. Puede crear fácilmente los conectores para bases de datos JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce y Elasticsearch.
 
-También puede editar, volver a conectar, duplicar o eliminar fácilmente un conector de origen de datos. Obtenga información sobre cómo [configuración de un conector de fuente de datos con las herramientas](../cs-install-guide/conf-data-source-connector-tools.md).
+También puede editar, volver a conectar, duplicar o eliminar fácilmente un conector de origen de datos. Obtenga información sobre cómo [configurar fácilmente un conector de fuente de datos desde la interfaz de usuario](../cs-install-guide/conf-data-source-connector-tools.md).
 
 ![conectores de fuente de datos enumerados en el panel fuentes de datos](assets/data-sources-create-window.png){width="550" align="left"}
 
@@ -65,4 +66,3 @@ Para obtener más información, consulte la **Vista de mapa** descripción de fu
 Guías del Experience Manager ahora le permite seleccionar un archivo en el Editor web y, a continuación, elegir editar el archivo en el complemento Conector de oxígeno. Esta opción no está habilitada como parte de la compatibilidad predeterminada. No se requiere que esté habilitada.
 
 Para obtener más información, consulte la **Opciones de un archivo** descripción de funciones dentro de [Panel izquierdo](../user-guide/web-editor-features.md#id2051EA0M0HS) sección.
-

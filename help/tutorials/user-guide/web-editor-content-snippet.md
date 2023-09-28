@@ -1,13 +1,13 @@
 ---
 title: Inserción de un fragmento de contenido desde la fuente de datos
 description: AEM Utilice los datos de su fuente de datos en las guías de la. Aprenda a insertar un fragmento de contenido desde la fuente de datos. Cree un tema con el generador de temas.
-source-git-commit: 87aef92535b7204503cd4ed1da838b43b1133b04
+exl-id: 9d60499c-49b4-4793-b3ec-5c99b34338e0
+source-git-commit: e8503e1441b7bc365d37c76ab9cf7b5f50374f10
 workflow-type: tm+mt
-source-wordcount: '2028'
+source-wordcount: '2029'
 ht-degree: 0%
 
 ---
-
 
 # Uso de datos de la fuente de datos
 
@@ -23,7 +23,7 @@ En función de la configuración, el administrador puede configurar un conector 
 <summary> Cloud Services </summary>
 
 
-- Si utiliza la versión de octubre de 2023 o posterior, aprenda a [configuración de un conector de fuente de datos con las herramientas](../cs-install-guide/conf-data-source-connector-tools.md) en la Guía de instalación y configuración de Cloud Service.
+- Si utiliza la versión de octubre de 2023 o posterior, aprenda a [configuración de un conector de origen de datos desde la interfaz de usuario](../cs-install-guide/conf-data-source-connector-tools.md) en la Guía de instalación y configuración de Cloud Service.
 
 - Si utiliza la versión de julio de 2023 o septiembre de 2023, aprenda a [configuración de un conector de fuente de datos](../cs-install-guide/conf-data-source-connector.md) en la Guía de instalación y configuración de Cloud Service.
 
@@ -273,6 +273,3 @@ Puede utilizar las siguientes herramientas dentro de las plantillas de Velocity 
 - `$renderTool`
 - `$resourceTool`
 - `$sortTool`
-
-
-
