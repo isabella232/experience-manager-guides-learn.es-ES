@@ -1,10 +1,10 @@
 ---
 title: Conozca las funciones del editor web
 description: AEM Descubra las funciones del editor web en las guías de la. Conocer la interfaz del editor web, incluida la barra de herramientas principal, la barra de herramientas secundaria, el panel izquierdo, el área de edición de contenido y el panel derecho.
-exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
-source-git-commit: a209e46e41055348402292e20c229890cd0c01cf
+exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
+source-git-commit: f7a0140a274a83dfeb6a1ba70ae9c09297d1754c
 workflow-type: tm+mt
-source-wordcount: '16066'
+source-wordcount: '16500'
 ht-degree: 0%
 
 ---
@@ -141,17 +141,62 @@ En la siguiente captura de pantalla, solo se muestran 3 de los 4 elementos confi
 
 - **Lista de atributos**: de forma similar a la Lista de elementos, se puede controlar la lista de atributos y sus nombres para mostrar en la lista de atributos de un elemento. En la siguiente captura de pantalla, solo se han configurado 3 atributos para que se muestren en la lista de atributos de un elemento:
 
-![](images/editor-setting-attributes-list.png){width="650" align="left"}
+  ![](images/editor-setting-attributes-list.png){width="650" align="left"}
 
-Con esta configuración, cuando intenta agregar un atributo a un elemento, solo ve la lista de atributos configurados en la lista.
+  Con esta configuración, cuando intenta agregar un atributo a un elemento, solo ve la lista de atributos configurados en la lista.
 
-![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
+  ![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
+
+- **Publicar perfil**: contiene los perfiles de publicación que se pueden utilizar para publicar el resultado de la base de conocimiento. Puede crear un nuevo perfil para un tipo de consumidor seleccionado. Por ejemplo, Salesforce.
+
+   - **Requisitos para crear un perfil de publicación de Salesforce**
+
+      - Cree una aplicación conectada de Salesforce. Para obtener más información, consulte [Habilitar la configuración de OAuth para la integración de API](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&amp;type=5).
+
+      - Al configurar la aplicación conectada, asegúrese de lo siguiente:
+
+         - Especifique la llamada de retorno.
+
+           `URL: http://: <server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
+
+         - Seleccione los siguientes ámbitos de OAuth:
+            - Acceso completo (completo)
+            - Seleccione Administrar datos de usuario mediante API
+
+  Una vez configurada la aplicación, Salesforce proporciona un **Clave de consumidor** y **Secreto del consumidor**.
+
+  Se pueden utilizar para crear el perfil de publicación de Salesforce.
+  ![perfiles en la configuración del editor](./images/create-profile-editor-settings.png){width="300" align="left"}
+
+
+
+- Para crear un perfil de publicación puede seleccionar una base de conocimiento como Salesforce en **Tipo de servidor** desplegable. Introduzca un Nombre de perfil. En el **URL del sitio** introduzca el sitio del consumidor que utilizaría para publicar la salida y, a continuación, agregue **Clave de consumidor** y **Secreto del consumidor** proporcionadas por el sitio del consumidor como Salesforce. A continuación, inicie sesión en el perfil recién creado.
+
+  >[!NOTE]
+  >
+  >Para configurar un proxy para Salesforce en las guías del Experience Manager AEM, utilice la Configuración proxy de componentes HTTP de Apache en la interfaz de usuario de la interfaz de usuario de. Obtenga información sobre cómo [AEM configurar proxy para el verificador de vínculos de la](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
+
+
+  Una vez que haya iniciado sesión, puede seleccionar el Perfil de publicación en los ajustes preestablecidos de salida de un Mapa DITA y utilizar para generar la salida para los artículos seleccionados. Para obtener más información, consulte [Publicación basada en artículos desde el editor web](../install-guide/configure-article-based-publishing.md) en la Guía de instalación y configuración.
+
+- **Validación**: Esta pestaña contiene opciones para configurar las validaciones de Schematron en el editor web. Puede activar las siguientes funciones:
+
+   - **Ejecute la comprobación de validación antes de guardar el archivo**: seleccione esta opción para ejecutar las validaciones de Schematron utilizando los archivos de Schematron seleccionados antes de cualquier operación de guardado. Puede añadir un archivo de Schematron haciendo clic en el icono +. Se muestran los archivos de Schematron seleccionados.
+
+     >[!NOTE]
+     >Los archivos de Schematron seleccionados persistirán para el perfil de carpeta seleccionado.
+
+     ![Validación en la configuración del editor](./images/editor-setting-validation.png){width="300" align="left"}
+Esto evita que los usuarios guarden cualquier archivo que rompa una regla definida en los archivos de Schematron seleccionados. Si no se selecciona esta opción, el archivo no se validará antes de guardar los cambios.
+
+   - **Permitir que todos los usuarios agreguen archivos de schematron en el panel de validación**: seleccione esta opción para permitir que los usuarios agreguen cualquier archivo de Schematron en el panel Validación del Editor Web. Esto permite a los usuarios agregar archivos de Schematron y, a continuación, validar los temas con el archivo de Schematron. Si no se selecciona, la variable **Añadir archivo de Schematron** no está disponible para los usuarios en la **Panel de validación** del Editor Web.
+
 
 - **Mostrar atributos**: al igual que la Lista de atributos, puede controlar la lista de atributos que se mostrarán en la lista de atributos de un elemento. De forma predeterminada, cuatro **Mostrar atributos** — se ha configurado la audiencia, la plataforma, el producto y las props para que se muestren en la lista de atributos de un elemento. También puede añadir un atributo de visualización mediante la variable **Añadir** en la parte superior. También puede eliminar cualquiera de los atributos de visualización mediante la variable **Eliminar** icono.
 
-Los atributos definidos para un elemento se muestran en las vistas Diseño y Esquema.
+  Los atributos definidos para un elemento se muestran en las vistas Diseño y Esquema.
 
-![](images/editor-settings-display-attributes.png){width="550" align="left"}
+  ![](images/editor-settings-display-attributes.png){width="550" align="left"}
 
 - **Traducción**: Esta pestaña contiene la opción de propagar las etiquetas de origen a la versión de destino.
 

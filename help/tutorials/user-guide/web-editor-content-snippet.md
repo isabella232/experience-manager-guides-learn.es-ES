@@ -1,10 +1,10 @@
 ---
 title: Inserción de un fragmento de contenido desde la fuente de datos
 description: AEM Utilice los datos de su fuente de datos en las guías de la. Aprenda a insertar un fragmento de contenido desde la fuente de datos. Cree un tema con el generador de temas.
-exl-id: 9d60499c-49b4-4793-b3ec-5c99b34338e0
-source-git-commit: e8503e1441b7bc365d37c76ab9cf7b5f50374f10
+exl-id: fbd5eff2-451b-49d6-ba77-6eb271e94349
+source-git-commit: f7a0140a274a83dfeb6a1ba70ae9c09297d1754c
 workflow-type: tm+mt
-source-wordcount: '2029'
+source-wordcount: '2060'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,9 @@ En función de la configuración, el administrador puede configurar un conector 
 <details>    
 <summary>  Software On-Premise </summary>
 
-Obtenga información sobre cómo [configuración de un conector de fuente de datos](../install-guide/conf-data-source-connector.md)  en la Guía de instalación y configuración in situ.
+- Si utiliza la versión 4.3.1 o posterior de, aprenda a [configuración de un conector de origen de datos desde la interfaz de usuario](../cs-install-guide/conf-data-source-connector-tools.md) en la Guía de instalación y configuración in situ.
+
+- Si está utilizando la versión 4.3, aprenda a [configuración de un conector de fuente de datos](../cs-install-guide/conf-data-source-connector.md) en la Guía de instalación y configuración in situ.
 </details>
 
 

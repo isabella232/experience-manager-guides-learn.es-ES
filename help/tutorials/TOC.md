@@ -2,9 +2,9 @@
 user-guide-title: Tutoriales para AEM Guides
 user-guide-description: Lea nuestra colección de tutoriales para Adobe Experience Manager Guides.
 breadcrumb-title: Tutoriales de AEM Guides
-source-git-commit: 40666d63314fa94f4ddf9b23341671994274c7e2
+source-git-commit: ebc63f6320f512987846b9d359014faf4772c5a7
 workflow-type: tm+mt
-source-wordcount: '1597'
+source-wordcount: '1612'
 ht-degree: 5%
 
 ---
@@ -54,8 +54,10 @@ ht-degree: 5%
       + On-premise/Managed Services {#on-prem-release-notes}
          + Versión 4.3.0 {#43-release}
             + ¿Qué hay de nuevo? {#43-whats-new}
+               + [4.3.1 Novedades](./release-info/whats-new-4.3.1-release.md)
                + [4.3.0 Novedades](./release-info/whats-new-4.3-release.md)
             + Notas de la versión {#43-release-notes}
+               + [Notas de la versión 4.3.1](./release-info/release-notes-4.3.1.md)
                + [Notas de la versión 4.3.0](./release-info/release-notes-4.3.md)
          + Versión 4.2 {#42-release}
             + ¿Qué hay de nuevo? {#42-whats-new}
@@ -242,6 +244,7 @@ ht-degree: 5%
          + [Configuración del número de LimitReads de una consulta](./install-guide/conf-query-limitreads.md)
          + [Instalación de paquetes para la publicación basada en artículos](./install-guide/configure-article-based-publishing.md)
          + [Configuración de un conector de fuente de datos](./install-guide/conf-data-source-connector.md)
+         + [Configuración de un conector de fuente de datos desde la interfaz de usuario](./install-guide/conf-data-source-connector-tools.md)
          + [Establecer el Editor de mapas avanzado como predeterminado](./install-guide/conf-map-editor.md)
          + [Incluir @navtitle atributo de forma predeterminada](./install-guide/auto-add-navtitle.md)
          + [Configurar la opción de edición en Oxígeno](./cs-install-guide/conf-edit-in-oxygen.md)
@@ -322,7 +325,7 @@ ht-degree: 5%
          + [Configuración de la generación de PDF de tema único](./cs-install-guide/conf-pdf-generation-dita-ot.md)
          + [Configuración de la función de traducción en el editor web](./cs-install-guide/conf-translation-web-editor.md)
          + [Configuración de un conector de fuente de datos](./cs-install-guide/conf-data-source-connector.md)
-         + [Configuración de un conector de fuente de datos con herramientas](./cs-install-guide/conf-data-source-connector-tools.md)
+         + [Configuración de un conector de fuente de datos desde la interfaz de usuario](./cs-install-guide/conf-data-source-connector-tools.md)
          + [Establecer el Editor de mapas avanzado como predeterminado](./cs-install-guide/conf-map-editor.md)
          + [Incluir @navtitle atributo de forma predeterminada](./cs-install-guide/auto-add-navtitle.md)
       + Trabajo con perfiles globales y de nivel de carpeta {#global-folder-profiles-cs}
