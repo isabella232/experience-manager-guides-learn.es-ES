@@ -1,13 +1,13 @@
 ---
 title: Introducción
 description: AEM Introducción a la Guía de referencia de la API para guías de
-source-git-commit: 4dcd90422f02f3b45aa74137fe58609962b09b49
+exl-id: d8ee9cf7-1d67-4b4a-aa80-64e893a99463
+source-git-commit: 112085153aaf246289bd8f91657c95e986df482e
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 0%
 
 ---
-
 
 # Introducción {#id1761C0007W7}
 
@@ -175,7 +175,7 @@ Realice los siguientes pasos para configurar y utilizar los JAR de la API de ser
    <repository>
       <id>fmdita-public</id>
       <name>fmdita-public</name>
-      <url>https://repo.xmldocumentation.com/repository/fmdita-public</url>
+      <url>https://repo.aem-guides.com/repository/fmdita-public</url>
    </repository>
    ```
 
@@ -228,4 +228,3 @@ AEM A continuación se muestra una lista de otros recursos útiles de las guías
 - Guía de instalación y configuración
 - Guía de inicio rápido
 - [Página de archivado de ayuda](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \(acceder a la documentación de la versión anterior\)
-
