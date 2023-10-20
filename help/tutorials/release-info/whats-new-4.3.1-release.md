@@ -1,22 +1,22 @@
 ---
 title: Notas de versión | Novedades de la versión 4.3.1 de las guías de Adobe Experience Manager
 description: Obtenga información acerca de las funciones nuevas y mejoradas de las versiones 4.3.1 de Adobe Experience Manager Guides
-source-git-commit: 5c51ff7f52624c6403e5486e099d1262f324e523
+source-git-commit: a865630527045574ef5a96622537e767eacd9fc2
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
 
 # Novedades de la versión 4.3.1 de Adobe Experience Manager Guides (octubre de 2023)
 
-Este artículo cubre las funciones nuevas y mejoradas de la versión 4.3.1 de las guías de Adobe Experience Manager (más adelante denominadas *AEM Guías de*).
+Este artículo cubre las funciones nuevas y mejoradas de la versión 4.3.1 de las guías de Adobe Experience Manager (más adelante denominadas *Guías del Experience Manager*).
 
 Para obtener más información sobre las instrucciones de actualización, la matriz de compatibilidad y los problemas corregidos en esta versión, consulte [Notas de versión](./release-notes-4.3.1.md).
 
 ## Conectarse a un origen de datos e insertar los temas
 
-Las guías del Experience Manager AEM proporcionan conectores predeterminados que le ayudan a conectarse con las fuentes de datos, lo que convierte a las guías en un auténtico centro de contenido. Esto le proporciona la ventaja de ahorrarle tiempo y esfuerzo que, de lo contrario, se invertirían en la adición o replicación manual de datos.
+Las guías del Experience Manager proporcionan conectores predeterminados que le ayudan a conectarse con las fuentes de datos, lo que convierte a las guías del Experience Manager en un auténtico centro de contenido. Esto le proporciona la ventaja de ahorrarle tiempo y esfuerzo que, de lo contrario, se invertirían en la adición o replicación manual de datos.
 
 Junto con los conectores predeterminados existentes, como JIRA y SQL (MySQL, PostgreSQL, SQL Server, SQLite), el administrador también puede configurar conectores para bases de datos MariaDB, H2DB, AdobeCommerce y Elasticsearch. También pueden agregar otros conectores ampliando las interfaces predeterminadas.
 
