@@ -2,9 +2,9 @@
 title: Función de publicación nativa de PDF | Componentes de una plantilla de PDF
 description: Conozca los distintos componentes de una plantilla de PDF y cómo personalizarlos y configurarlos.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 5abcc887a24d838caabdf9a34a84ebc851ed4cbf
+source-git-commit: 7fe45a2bb55e9cb72518edd3cb2aa81b99612613
 workflow-type: tm+mt
-source-wordcount: '4376'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -414,11 +414,11 @@ Por ejemplo, puede agregar una variable de idioma &quot;reference-label&quot; y 
 Al agregar `${lng:<variable name>}` en la sección Párrafo, las referencias cruzadas en los párrafos de la salida contienen el texto localizado y el número de página.\
 Por ejemplo, las siguientes capturas de pantalla muestran las referencias cruzadas &quot;Ver en la página 1&quot; en inglés y &quot;Einzelheiten finden Sie auf der Seite 1&quot; en alemán.
 
-<img src="./assets/english-output-corss-reference.png" alt="Resultado en inglés de una referencia cruzada en un párrafo" width ="800">
+<img src="./assets/english-output-corss-reference.png" alt="Resultado en inglés de una referencia cruzada en un párrafo" width ="800" border="2px solid blue">
 
 *Una referencia cruzada dentro de un párrafo cuando se publica en inglés.*
 
-<img src="./assets/german-output-corss-reference.png" alt="Resultado alemán de una referencia cruzada en un párrafo" width ="800">
+<img src="./assets/german-output-corss-reference.png" alt="Resultado alemán de una referencia cruzada en un párrafo" width ="800" border="2px solid blue">
 
 *Una referencia cruzada dentro de un párrafo cuando se publica en alemán.*
 
