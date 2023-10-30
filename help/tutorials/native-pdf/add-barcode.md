@@ -1,7 +1,7 @@
 ---
 title: Función de publicación nativa de PDF | Añadir código de barras
 description: Aprenda a añadir códigos de barras.
-source-git-commit: 6cea7a92eed8f7b1d4a0763baae65ccccd71790e
+source-git-commit: 5a845d91882742dfcbe70421e62110630b3b85b2
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 3%
@@ -38,7 +38,7 @@ Añada un elemento de ID de recurso al mapa DITA. El ID de recurso sirve como en
 
 También puede editar el ID del recurso en el modo Autor.
 
-<img src="./assets/barcode-map.png" alt="Salida de muestra con código de barras" width="700">
+<img src="./assets/barcode-map.png" alt="Salida de muestra con código de barras" width="700" border="2px solid gray">
 
 
 ### Añada un marcador de posición de código de barras en el encabezado de plantilla
@@ -75,37 +75,37 @@ Una vez realizados los pasos anteriores, puede generar la salida del PDF con un 
 
 La siguiente captura de pantalla muestra un código de barras de muestra en una salida de PDF.
 
-<img src="./assets/barcode-output-sample.png" alt="Salida de muestra con código de barras" width="700">
+<kbd><img src="./assets/barcode-output-sample.png" alt="Salida de muestra con código de barras" width="700"></kbd>
 
 
 ## Tipos de códigos de barras {#barcode-types}
 
 | Tipo | Atributo CSS | Atributo(s) adicional(es) |
 | ------------------------------- | ----------------------- | -------------------------- |
-| Código QR | qrcode |  |
-| PDF417 | pdf417 |  |
-| Matriz de datos | data-matrix |  |
-| Código azteca | aztec-code |  |
-| Matriz de cuadrícula | grid-matrix |  |
-| Maxicode | modo maxicode-4 |  |
-| Micro QR | microqr |  |
-| Código uno | código uno |  |
-| Bloque de código F | codablockf |  |
-| GS1 Databar Limited | databar-limited |  |
-| Barra de datos GS1 omnidireccional | barra de datos omnidireccional |  |
-| EAN-13 | ean-13 |  |
+| Código QR | qrcode |                            |
+| PDF417 | pdf417 |                            |
+| Matriz de datos | data-matrix |                            |
+| Código azteca | aztec-code |                            |
+| Matriz de cuadrícula | grid-matrix |                            |
+| Maxicode | modo maxicode-4 |                            |
+| Micro QR | microqr |                            |
+| Código uno | código uno |                            |
+| Bloque de código F | codablockf |                            |
+| GS1 Databar Limited | databar-limited |                            |
+| Barra de datos GS1 omnidireccional | barra de datos omnidireccional |                            |
+| EAN-13 | ean-13 |                            |
 | GS1-128 (EAN-128) | code128 | -ro-barcode-encoding: gs1; |
-| ITF-14 | itf14 |  |
-| UPC-A | upc-a |  |
-| Código 128 | code128 |  |
-| Intercalado 2 de 5 | code2of5 intercalado |  |
-| POSTNET | postnet |  |
-| Código postal neerlandés | kixcode |  |
-| Korea Post | corea-post |  |
-| Deutsche Post Leitcode | dp-leitcode |  |
-| Australia Post | auspost |  |
-| Logmars | logmars |  |
-| Farmacode | código de farmacia |  |
-| OneCode de USPS (correo inteligente) | usps-onecode |  |
+| ITF-14 | itf14 |                            |
+| UPC-A | upc-a |                            |
+| Código 128 | code128 |                            |
+| Intercalado 2 de 5 | code2of5 intercalado |                            |
+| POSTNET | postnet |                            |
+| Código postal neerlandés | kixcode |                            |
+| Korea Post | corea-post |                            |
+| Deutsche Post Leitcode | dp-leitcode |                            |
+| Australia Post | auspost |                            |
+| Logmars | logmars |                            |
+| Farmacode | código de farmacia |                            |
+| OneCode de USPS (correo inteligente) | usps-onecode |                            |
 
 
