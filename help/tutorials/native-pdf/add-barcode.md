@@ -1,7 +1,7 @@
 ---
 title: Función de publicación nativa de PDF | Añadir código de barras
 description: Aprenda a añadir códigos de barras.
-source-git-commit: 5a845d91882742dfcbe70421e62110630b3b85b2
+source-git-commit: 31225583f45337b209f325174176b9a4199db648
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 3%
@@ -38,7 +38,7 @@ Añada un elemento de ID de recurso al mapa DITA. El ID de recurso sirve como en
 
 También puede editar el ID del recurso en el modo Autor.
 
-<img src="./assets/barcode-map.png" alt="Salida de muestra con código de barras" width="700" border="2px solid gray">
+<img src="./assets/barcode-map.png" alt="Salida de muestra con código de barras" width="700" border="2px solid blue">
 
 
 ### Añada un marcador de posición de código de barras en el encabezado de plantilla
@@ -75,7 +75,7 @@ Una vez realizados los pasos anteriores, puede generar la salida del PDF con un 
 
 La siguiente captura de pantalla muestra un código de barras de muestra en una salida de PDF.
 
-<kbd><img src="./assets/barcode-output-sample.png" alt="Salida de muestra con código de barras" width="700"></kbd>
+<img src="./assets/barcode-output-sample.png" alt="Salida de muestra con código de barras" width="700">
 
 
 ## Tipos de códigos de barras {#barcode-types}
