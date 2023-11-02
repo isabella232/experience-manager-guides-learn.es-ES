@@ -2,9 +2,9 @@
 title: PDF nativo | Generación de salida de PDF
 description: Obtenga información sobre cómo utilizar la publicación de PDF nativos, crear y generar un ajuste preestablecido de salida de PDF, descargar archivos temporales después de generar la salida de PDF AEM nativo y utilizar variables de idioma en las guías de usuario de los idiomas.
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 4c10f2387208477bd2ba27188e8aeaa6f3a4a661
 workflow-type: tm+mt
-source-wordcount: '3229'
+source-wordcount: '3264'
 ht-degree: 0%
 
 ---
@@ -135,7 +135,7 @@ Utilice para definir los diseños de página y especificar las opciones de vista
 
 | Configuración | Descripción |
 | --- | --- |
-| **Plantilla de PDF** | Las plantillas de PDF proporcionan una estructura clara para definir diseños de página, estilos de contenido y aplicar varios ajustes a la salida del PDF. Seleccione en las opciones desplegables de plantilla de PDF para elegir la plantilla que prefiera. |
+| **Plantilla de PDF** | Las plantillas de PDF proporcionan una estructura clara para definir diseños de página, estilos de contenido y aplicar varios ajustes a la salida del PDF. Seleccione en las opciones desplegables de plantilla de PDF para elegir la plantilla que prefiera. <br> También puede seleccionar **Examinar plantilla** <img src="./assets/browse-templates-icon.svg"  alt= "icono examinar plantillas" width="25">  para elegir una plantilla. En el **Seleccionar plantilla de PDF** diálogo también puede previsualizar la miniatura y ver el título y la descripción de la plantilla seleccionada. |
 | **Visualización de página** | Utilice la Visualización de página para la vista de página que muestra cómo se muestra el PDF cuando se abre. Seleccione en las opciones desplegables de Visualización de página para elegir una vista preferida. <br><ul><li> **Predeterminado**  Se muestra según la configuración predeterminada del visor de PDF en el equipo de un usuario.  <br> <li> **Vista de página única** Muestra las páginas de una en una.   <br> <li> **Desplazamiento de página única** Muestra una sola página en una columna vertical continua.  <br> <li> **Vista de dos páginas** Muestra dos pliegos de páginas uno al lado del otro. .<br> <li> **Desplazamiento de dos páginas** Muestra un pliego de dos páginas en paralelo con desplazamiento continuo. </ul> |
 | **Acercar o alejar** | Seleccione para cambiar el tamaño de la vista de página que muestra cómo se muestra el PDF cuando se abre.  <br><ul><li> **Predeterminado** Se muestra según la configuración predeterminada del visor de PDF en el equipo de un usuario    <br> <li> **100 %** Hace que la página aparezca en su tamaño real.     <br> <li> **Ajustar página** Hace que el ancho y el alto de la página se ajusten al panel del documento. .<br> <li> **Ajustar ancho de página** Hace que el ancho de la página se rellene con el ancho del panel del documento.  <br> <li> **Ajustar altura de página** Hace que el alto de la página ocupe el alto del panel del documento. </ul> |
 

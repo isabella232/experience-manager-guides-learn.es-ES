@@ -1,13 +1,13 @@
 ---
 title: Configuración de la generación de salida
 description: Obtenga información sobre cómo configurar los ajustes de generación de resultados
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
+source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
 workflow-type: tm+mt
-source-wordcount: '5252'
+source-wordcount: '5340'
 ht-degree: 1%
 
 ---
-
 
 # Configuración de la generación de salida {#id181AI0B0E30}
 
@@ -66,9 +66,7 @@ La próxima vez que publique contenido DITA con las configuraciones de plantilla
 AEM Las guías de la admiten la creación de salidas en los siguientes formatos:
 
 - AEM Sitio web de
-
 - PDF
-
 - HTML5
 - EPUB
 - Salida personalizada mediante DITA-OT
@@ -80,6 +78,7 @@ AEM También se pueden utilizar complementos personalizados DITA Open Toolkit \(
 >[!TIP]
 >
 > Consulte la *AEM Publicación de sitios de* AEM de la guía de prácticas recomendadas para prácticas recomendadas sobre la creación de resultados del sitio de la.
+
 
 ### Personalizar la plantilla de diseño para generar resultados {#customize_xml-add-on}
 
@@ -260,6 +259,12 @@ Realice los siguientes pasos para detener la creación de una versión para la p
    >[!NOTE]
    >
    > Con esta opción seleccionada, los usuarios podrán eliminar directamente cualquier página sin crear ninguna versión para ellos. Si la opción no está seleccionada, se crea una versión antes de que se eliminen las páginas.
+
+### Configuración del reescritor personalizado con guías del Experience Manager {#custom-rewriter}
+
+Las guías del Experience Manager tienen un sling personalizado [**reescritura**](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html) módulo para gestionar los enlaces generados en caso de mapas cruzados (enlaces entre los temas de dos mapas diferentes). Esta configuración de reescritura se instala en la siguiente ruta: <br> `/apps/fmdita/config/rewriter/fmdita-crossmap-link-patcher`.
+
+Si tiene otra reescritura de sling personalizada en la base de código, utilice una `'order'` valor mayor que 50, ya que el reescritor sling de las Guías del Experience Manager utiliza `'order'` 50.  Para anular esto, necesita un valor >50 . Para obtener más información, consulte [Canalizaciones de reescritura de salida](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
 
 
 ## Usar metadatos en la salida de publicación mediante DITA-OT {#id191LF0U0TY4}
@@ -589,7 +594,7 @@ AEM Guías de proporciona la `apps.fmdita.dashboard-extn` categoría para person
 
 ## Controlar la representación de imágenes durante la generación de salida {#id177BF0G0VY4}
 
-AEM viene con un conjunto de flujos de trabajo predeterminados y controladores de medios para procesar recursos. AEM En la práctica, hay flujos de trabajo predefinidos para gestionar el procesamiento de recursos para los tipos MIME más comunes. AEM Normalmente, para cada imagen que carga, se crean varias representaciones de la misma en formato binario, lo que hace que la imagen se cree más de una vez. Estas representaciones pueden tener un tamaño diferente, con una resolución diferente, con una marca de agua agregada o cualquier otra característica modificada. AEM Para obtener más información sobre cómo gestiona los recursos los recursos, consulte [Processing Assets Using Media Handlers and Workflows](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=en) AEM en la documentación de.
+AEM viene con un conjunto de flujos de trabajo predeterminados y controladores de medios para procesar recursos. AEM En la práctica, hay flujos de trabajo predefinidos para gestionar el procesamiento de recursos para los tipos MIME más comunes. AEM Normalmente, para cada imagen que carga, se crean varias representaciones de la misma en formato binario, lo que hace que la imagen se cree más de una vez. Estas representaciones pueden tener un tamaño diferente, con una resolución diferente, con una marca de agua agregada o cualquier otra característica modificada. AEM Para obtener más información sobre cómo gestiona los recursos los recursos, consulte [Procesamiento de recursos mediante controladores de medios y flujos de trabajo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=en) AEM en la documentación de.
 
 AEM Guías de le permite configurar qué representación de imagen utilizar en el momento de generar la salida para los documentos. Por ejemplo, puede elegir una de las representaciones de imágenes predeterminadas o crear una y utilizar la misma para publicar los documentos. La asignación de representación de imágenes para publicar los documentos se almacena en `/libs/fmdita/config/ **renditionmap.xml**` archivo. Un fragmento de `renditionmap.xml` es el siguiente:
 
@@ -657,4 +662,3 @@ Siga las instrucciones que se indican en [Anulaciones de configuración](downloa
 >[!TIP]
 >
 > Consulte la *Historial de salida* de la guía de prácticas recomendadas para conocer las prácticas recomendadas sobre cómo trabajar con el historial de resultados.
-

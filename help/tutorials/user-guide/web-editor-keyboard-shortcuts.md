@@ -2,10 +2,10 @@
 title: Métodos abreviados de teclado en el Editor Web
 description: AEM Descubra los métodos abreviados de teclado que ahorran tiempo en el editor web de Guías de.
 exl-id: d843c5a9-04f8-44f2-9bf5-60cb4ed7fa38
-source-git-commit: f7a0140a274a83dfeb6a1ba70ae9c09297d1754c
+source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 2%
+source-wordcount: '320'
+ht-degree: 3%
 
 ---
 
@@ -32,10 +32,15 @@ En el Editor Web se pueden realizar muchas operaciones mediante los métodos abr
 | Mover el cursor una palabra a la derecha. | ***Ctrl***+***Flecha derecha*** | ***Opción***+***Flecha derecha*** |
 | Mover el cursor al principio de la línea actual. | ***Página principal*** | ***Comando***+***Flecha izquierda*** |
 | Mover el cursor al final de la línea actual. | **Finalizar** | ***Comando***+***Flecha derecha*** |
+| Mover el cursor al principio del siguiente elemento. | ***Pestaña*** | ***Pestaña*** |
+| Aplicar sangría al elemento de la lista al siguiente nivel. | ***Pestaña*** | ***Pestaña*** |
+| Mover el cursor al final del elemento anterior. | ***Shift***+***Ficha*** | ***Shift***+***Ficha*** |
+| Anular la sangría del elemento de lista al nivel anterior. | ***Shift***+***Ficha*** | ***Shift***+***Ficha*** |
 | Sangría automática de XML en la vista Código fuente | ***Ctrl***+***Alt***+***L*** | ***Comando***+***Opción***+***L*** |
 | Dividir el elemento actual | ***Entrar*** | ***Devolver*** |
 | Copiar el texto seleccionado | ***Ctrl***+**C** | ***Comando***+**C** |
 | Pegar | ***Ctrl***+**V** | ***Comando***+**V** |
+| Pegar y hacer coincidir formato | ***Ctrl***+***Shift***+**V** | ***Comando***+***Shift***+**V** |
 | Abrir cuadro de diálogo Imprimir | ***Ctrl***+**P** | ***Comando***+**P** |
 | Deshacer la última acción | ***Ctrl***+**Z** | ***Comando***+**Z** |
 | Rehacer la última acción | ***Ctrl***+**Y** | ***Comando***+**Y** |

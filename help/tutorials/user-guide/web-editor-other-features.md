@@ -1,10 +1,10 @@
 ---
 title: Otras funciones del editor web
 description: AEM Explore otras funciones del editor web en Guías de la. AEM Aprenda a utilizar estas funciones para mejorar la creación en Guías de.
-exl-id: dea19372-8a15-4b5d-aea4-47dc914d779e
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
+source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
 workflow-type: tm+mt
-source-wordcount: '2144'
+source-wordcount: '2136'
 ht-degree: 0%
 
 ---
@@ -190,7 +190,7 @@ Además del menú contextual de la ruta de exploración, también se puede acced
 
 **Desenvolver un elemento**
 
-- Al desajustar un elemento, puede quitar la etiqueta del elemento del texto seleccionado y combinarlo con su elemento principal. Por ejemplo, si tiene un `p` dentro de un `note` puede desenvolver el elemento `p` para combinar el texto directamente dentro del elemento `note` Elemento. La opción Desenvolver elemento está disponible en el menú contextual de la ruta de exploración del tema. Para desenvolver un elemento, selecciónelo en la ruta de exploración del tema, haga clic con el botón derecho en el elemento para abrir el menú contextual y, por último, seleccione Desenvolver elemento para eliminar el elemento y combinar el texto del elemento con su elemento principal.
+- Al desajustar un elemento, puede quitar la etiqueta del elemento del texto seleccionado y combinarlo con su elemento principal. Por ejemplo, si tiene un `p` dentro de un `note` puede desenvolver el elemento `p` para combinar el texto directamente dentro del elemento `note` Elemento. El **Desajustar elemento** está disponible en el menú contextual de la ruta de exploración del tema. Para desenvolver un elemento, haga clic con el botón derecho en el elemento para abrir el menú contextual y, finalmente, seleccione **Desajustar elemento** para quitar el elemento y combinar el texto del elemento con su elemento principal.
 
 **Conservación de saltos de línea y sangría**
 

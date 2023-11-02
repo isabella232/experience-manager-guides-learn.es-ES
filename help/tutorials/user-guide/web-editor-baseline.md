@@ -1,10 +1,10 @@
 ---
 title: Crear y administrar líneas de base desde el editor web
 description: AEM Cree y administre líneas de base desde el editor web en Guías de. Obtenga información sobre cómo crear líneas de base a partir de etiquetas y aplicar filtros a las líneas de base.
-exl-id: 9e390489-16f5-4f9a-a821-5150a66c2ed4
-source-git-commit: 361c605bdf02fb3b8754c6596a70e86a00acb3db
+exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
+source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
@@ -100,7 +100,7 @@ También se pueden realizar las siguientes operaciones en la instantánea desde 
   > El proceso para agregar o quitar etiquetas se produce de forma asíncrona, por lo que puede seguir trabajando en otros archivos en el Editor Web. Una vez añadida o eliminada la etiqueta, se muestra un mensaje emergente que confirma que la etiqueta se ha añadido o eliminado, y también recibe una notificación en la bandeja de entrada para el mismo.
 
 - **Editar propiedades** de una línea base estática existente que haya definido al crear la línea base.
-- Exportar la instantánea de una instantánea en un archivo CSV con el **Exportar línea base** opción.
+- Exportar la instantánea de una instantánea en un archivo de Microsoft Excel con el **Exportar línea base** opción.
 
 **Filtros de línea base**
 

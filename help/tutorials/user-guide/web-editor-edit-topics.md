@@ -1,10 +1,10 @@
 ---
 title: Editar temas en el editor web
 description: Aprenda a editar temas en el editor web. AEM Obtenga información acerca de las distintas funciones de edición para modificar los archivos de temas en las guías de la.
-exl-id: 9950df78-09bd-433a-891d-0d689bb0c2e4
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
+source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,9 @@ El Editor Web incluye una serie de características de edición que permiten cre
    > AEM Si no desea confirmar los cambios en el repositorio de la, haga clic en **Cerrar** y haga clic en **Cerrar sin guardar** en el cuadro de diálogo Cambios no guardados.
 
    **Actualizar el explorador mientras edita los archivos**
-AEM Las guías de usuario proporcionan la compatibilidad para actualizar el explorador mientras edita el contenido en el Editor Web. Esta función le ayuda a seguir editando contenido en caso de que encuentre un error de aplicación mientras trabaja. Si pulsa el botón de actualización del explorador mientras se abren uno o más archivos con cambios no guardados para su edición, se le advertirá de que se pueden perder los cambios no guardados. Tiene la opción de cancelar la operación de actualización y guardar los archivos para conservar los cambios.
+Las Guías del Experience Manager proporcionan la compatibilidad para actualizar el explorador mientras edita el contenido en el Editor Web. Esta función le ayuda a seguir editando contenido en caso de que encuentre un error de aplicación mientras trabaja. Si pulsa el botón de actualización del explorador mientras se abren uno o más archivos con cambios no guardados para su edición, se le advertirá de que se pueden perder los cambios no guardados. Tiene la opción de cancelar la operación de actualización y guardar los archivos para conservar los cambios.
 
-   Incluso al actualizar el explorador, las vistas de los paneles izquierdo y derecho se conservan en el editor web. Por ejemplo, el tema activo del panel Repositorio se vuelve a abrir. El panel Mapa se conserva junto con el mapa abierto anteriormente.
+   Incluso al actualizar el explorador, las vistas de los paneles izquierdo y derecho se conservan en el editor web. Guías del Experience Manager restaura el último estado guardado de los archivos abiertos en el Editor Web al actualizar el explorador. Por ejemplo, los archivos abiertos en el panel Repositorio se vuelven a abrir. El panel Mapa se conserva junto con el mapa abierto anteriormente.
 
    El tema activo o el mapa DITA se vuelve a abrir en el área de edición de contenido.
 

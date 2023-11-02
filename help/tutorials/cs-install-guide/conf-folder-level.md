@@ -1,13 +1,13 @@
 ---
 title: Configuración de perfiles globales o de nivel de carpeta
 description: Obtenga información sobre cómo configurar perfiles globales o de nivel de carpeta
-source-git-commit: 6f4ab3baf0c0dd333035c3a7d131bd151b17de45
+exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
+source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
 workflow-type: tm+mt
-source-wordcount: '3962'
+source-wordcount: '3961'
 ht-degree: 0%
 
 ---
-
 
 # Configuración de perfiles globales o de nivel de carpeta {#id181AH2003PF}
 
@@ -25,7 +25,7 @@ Con el mosaico Perfiles de carpeta en la configuración de las Guías, puede est
 
 - **Atributos condicionales**: utilice esta pestaña para configurar atributos condicionales en el nivel global o de carpeta. Un atributo condicional es una combinación del nombre y valor del atributo, y también puede definir una etiqueta para él. Puede utilizar los atributos DITA estándar o sus propios atributos personalizados. Los atributos condicionales que defina a nivel global estarán disponibles para todos los usuarios de los proyectos. Si ha definido atributos condicionales de nivel de carpeta, estos se combinan con los atributos condicionales definidos globalmente.
 
-- **Plantilla de creación**: utilice esta pestaña para configurar las plantillas que los autores utilizarán para crear contenido DITA. Las siguientes plantillas de temas están disponibles de forma predeterminada:
+- **Plantillas**: utilice esta pestaña para configurar las plantillas que los autores utilizarán para crear o publicar contenido DITA. Las siguientes plantillas de temas están disponibles de forma predeterminada:
 
    - Glosario
 
@@ -39,7 +39,7 @@ Con el mosaico Perfiles de carpeta en la configuración de las Guías, puede est
 
    - Solución de problemas
 
-   - Blank
+   - En blanco
 
    - DITAVAL
 
@@ -53,7 +53,7 @@ Con el mosaico Perfiles de carpeta en la configuración de las Guías, puede est
 
    - Bookmap
 
-- **Ajuste preestablecido de salida**: De forma similar a las plantillas de creación, hay cinco ajustes preestablecidos de salida preconfigurados:
+- **Ajuste preestablecido de salida**: de forma similar a las plantillas, hay cinco ajustes preestablecidos de salida preconfigurados:
 
    - AEM Sitio web de
 
@@ -75,9 +75,9 @@ Con el mosaico Perfiles de carpeta en la configuración de las Guías, puede est
    - Etiquetas de versión de contenido XML
    - Rootmap \(solo en el nivel de carpeta\)
 
-Puede configurar ambos: perfil global y perfil de nivel de carpeta. En un perfil de nivel de carpeta, puede definir las carpetas en las que se aplicará la configuración. Esta configuración incluye los atributos condicionales, las plantillas de creación, los ajustes preestablecidos de salida y la configuración del Editor XML. A continuación, los ajustes preestablecidos condicionales, las plantillas de creación y las configuraciones del Editor XML se ponen a disposición de los autores que trabajan en las carpetas configuradas. Del mismo modo, los editores tendrán acceso a los ajustes preestablecidos de salida configurados definidos dentro de las carpetas configuradas.
+Puede configurar ambos: perfil global y perfil de nivel de carpeta. En un perfil de nivel de carpeta, puede definir las carpetas en las que se aplicará la configuración. Esta configuración incluye atributos condicionales, plantillas, ajustes preestablecidos de salida y configuración del Editor XML. A continuación, los ajustes preestablecidos condicionales, las plantillas y las configuraciones del Editor XML se ponen a disposición de los autores que trabajan en las carpetas configuradas. Del mismo modo, los editores tendrán acceso a los ajustes preestablecidos de salida configurados definidos dentro de las carpetas configuradas.
 
-Un perfil de nivel de carpeta anula la configuración del perfil global. En otras palabras, si una carpeta tiene un perfil de nivel de carpeta, mostrará las plantillas de creación, las plantillas de salida y la configuración del Editor XML configurada en su perfil de carpeta correspondiente. No mostrará la configuración configurada en el perfil global. Sin embargo, esto no se aplica a los atributos condicionales. En el caso de los atributos condicionales, estos se combinan a nivel global y de carpeta.
+Un perfil de nivel de carpeta anula la configuración del perfil global. En otras palabras, si una carpeta tiene un perfil de nivel de carpeta, mostrará las plantillas, las plantillas de salida y la configuración del Editor XML configurada en su perfil de carpeta correspondiente. No mostrará la configuración configurada en el perfil global. Sin embargo, esto no se aplica a los atributos condicionales. En el caso de los atributos condicionales, estos se combinan a nivel global y de carpeta.
 
 Las siguientes secciones le guían a través del proceso de configuración de perfiles globales y perfiles de nivel de carpeta.
 
@@ -99,7 +99,7 @@ Siga estos pasos para configurar el perfil global:
 
 1. Para configurar **Atributos condicionales**, consulte [Configurar atributos condicionales para perfiles globales o de nivel de carpeta](#id1889D0I305Z).
 
-1. Para configurar **Plantilla de creación**, consulte [Configuración de plantillas de creación](#id1889D0IL0Y4).
+1. Para configurar **Plantillas**, consulte [Configuración de plantillas de creación](#id1889D0IL0Y4).
 
 1. Para configurar **Valores de salida**, consulte [Configurar ajustes preestablecidos de salida](#id18AGD0IH0Y4).
 
@@ -144,7 +144,7 @@ Siga estos pasos para configurar un perfil de nivel de carpeta:
 
    >[!NOTE]
    >
-   > Los usuarios que agregue aquí tendrán los derechos administrativos para actualizar los atributos condicionales, la plantilla de creación y los ajustes preestablecidos de salida configurados para este perfil de carpeta.
+   > Los usuarios que agregue aquí tendrán los derechos administrativos para actualizar los atributos condicionales, la plantilla y los ajustes preestablecidos de salida configurados para este perfil de carpeta.
 
 1. Para agregar una carpeta, haga clic en el icono Examinar en la Ruta de la carpeta, vaya a una carpeta y selecciónela. A continuación, haga clic en Agregar para agregar la carpeta a este perfil.
 
@@ -161,11 +161,11 @@ Siga estos pasos para configurar un perfil de nivel de carpeta:
 1. Después de agregar todas las carpetas y usuarios necesarios al perfil de carpeta, haga clic en **Guardar**.
 
 
-Ahora está listo para configurar los atributos condicionales, las plantillas de creación, los ajustes preestablecidos de salida y el Editor XML.
+Ahora está listo para configurar los atributos condicionales, las plantillas, los ajustes preestablecidos de salida y el Editor XML.
 
 >[!IMPORTANT]
 >
-> Al crear un perfil de carpeta, de forma predeterminada no contiene ninguna plantilla de creación. Debe añadir las plantillas de creación necesarias en el perfil de carpeta para que estén disponibles para los autores.
+> Al crear un perfil de carpeta, de forma predeterminada no contiene ninguna plantilla. Debe agregar las plantillas necesarias en el perfil de carpeta para que estén disponibles para los autores.
 
 ## Configurar atributos condicionales para perfiles globales o de nivel de carpeta {#id1889D0I305Z}
 
@@ -225,13 +225,13 @@ Si utiliza un atributo personalizado, debe ser un atributo DITA válido admitido
 1. Agregue atributos personalizados al perfil global o de nivel de carpeta.
 
 
-## Configuración de plantillas de creación {#id1889D0IL0Y4}
+## Configuración de plantillas {#id1889D0IL0Y4}
 
-AEM Las guías de la aplicación incluyen 7 plantillas de creación listas para usar y 2 plantillas de mapa DITA. Puede elegir que solo haya unas pocas plantillas disponibles para los autores. En caso de que utilice una plantilla personalizada, la misma se puede configurar y poner a disposición para la creación. La pestaña Plantilla de creación se utiliza en la configuración de Perfiles de carpeta para añadir o quitar plantillas de tema o asignación de perfiles globales o de nivel de carpeta.
+AEM Las guías de la aplicación incluyen 7 plantillas de temas predeterminadas, 2 plantillas de mapas DITA y 3 plantillas de PDF. Puede elegir que solo haya unas pocas plantillas disponibles para los autores y editores. Si utiliza una plantilla personalizada, la misma se puede configurar y poner a disposición para la creación y publicación. Utilice el **Plantillas** pestaña en la configuración de Perfiles de carpeta para añadir o quitar plantillas de tema, asignación o PDF de perfiles globales o de nivel de carpeta.
 
-Incluso antes de configurar el tema o asignar plantillas a nivel global o de carpeta, también puede definir una ubicación para almacenar las plantillas de creación personalizadas. Para configurar una ubicación personalizada para almacenar las plantillas de creación, consulte [Configurar la ruta de carpeta de la plantilla DITA personalizada](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z).
+Incluso antes de configurar las plantillas de tema, asignación o PDF a nivel global o de carpeta, también puede definir una ubicación para almacenar las plantillas personalizadas. Para configurar una ubicación personalizada para almacenar las plantillas, consulte [Configurar la ruta de carpeta de la plantilla DITA personalizada](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z).
 
-Realice los siguientes pasos para agregar el tema o asignar plantillas a un perfil de carpeta:
+Realice los siguientes pasos para agregar las plantillas de tema, asignación o PDF a un perfil de carpeta:
 
 1. Inicie sesión en Adobe Experience Manager como administrador o como el usuario que tenga derechos administrativos en un perfil de nivel de carpeta.
 
@@ -243,26 +243,26 @@ Realice los siguientes pasos para agregar el tema o asignar plantillas a un perf
 
    >[!NOTE]
    >
-   > Puede elegir configurar la plantilla de creación en el perfil global o en un perfil de nivel de carpeta.
+   > Puede elegir configurar una plantilla en el perfil global o un perfil de nivel de carpeta.
 
-1. En la página de perfil, haga clic en **Plantilla de creación** pestaña.
+1. En la página de perfil, haga clic en **Plantillas** pestaña.
 1. Clic **Editar**.
 
-   Puede obtener las opciones para añadir plantillas de temas y mapas buscando desde la ubicación predeterminada o buscándolo.
+   Puede obtener las opciones para agregar plantillas de temas, mapas y PDF buscando en la ubicación predeterminada o explorando en ella.
 
    >[!NOTE]
    >
-   > De forma predeterminada, todas las plantillas de creación se almacenan en la carpeta /content/dam/dita-templates. El `dita-templates` La carpeta contiene `topics` y `maps` subcarpetas para almacenar el tema y asignar plantillas. Puede agregar las plantillas personalizadas \(.dita, .xml o .ditamapfiles\) en las carpetas de plantillas predeterminadas. Una vez que añada la plantilla a la carpeta predeterminada, podrá añadirlas en el perfil global o de carpeta. Para obtener más información sobre la creación de plantillas personalizadas mediante el Editor Web, consulte [Crear una plantilla de creación personalizada](#id1917D0EG0HJ).
+   > De forma predeterminada, todas las plantillas se almacenan en la carpeta /content/dam/dita-templates. El `dita-templates` La carpeta contiene `topics`, `maps`, y `PDF` subcarpetas para almacenar las plantillas de tema, asignación y PDF. Puede agregar las plantillas personalizadas \(.dita, .xml o .ditamapfiles\) en las carpetas de plantillas predeterminadas. Una vez que añada la plantilla a la carpeta predeterminada, podrá añadirlas en el perfil global o de carpeta. Para obtener más información sobre la creación de plantillas personalizadas mediante el Editor Web, consulte [Crear una plantilla de creación personalizada](#id1917D0EG0HJ).
 
-   ![](assets/search-author-temp.png)
+   ![](assets/search-author-temp.png){width="800" align="left"}
 
-1. Añada el tema requerido y asigne plantillas a su perfil.
+1. Añada las plantillas de tema, asignación y PDF necesarias a su perfil.
 
    Para agregar una plantilla, realice una de las siguientes acciones:
 
    - Elegir **Buscar o escribir** e introduzca o seleccione el nombre de una plantilla en la lista desplegable. La lista desplegable consta de todas las plantillas predeterminadas y cualquier plantilla nueva que haya creado.
 
-     ![](assets/default-template-list.png)
+     ![](assets/default-template-list.png){width="800" align="left"}
 
    - Clic **Examinar** y seleccione una plantilla de DAM.
 
@@ -270,7 +270,7 @@ Realice los siguientes pasos para agregar el tema o asignar plantillas a un perf
 
    Las plantillas seleccionadas se añaden a la lista de plantillas.
 
-   ![](assets/author-templ-added-list.png)
+   ![](assets/author-templ-added-list.png){width="800" align="left"}
 
    >[!NOTE]
    >
@@ -435,7 +435,7 @@ Con el archivo de configuración de esta sección, puede crear algunos fragmento
 }
 ```
 
-Se requieren los siguientes detalles para crear un fragmento:
+Se requieren los siguientes detalles para crear un fragmento de código:
 
 snippetID : ID exclusivo para el fragmento. Puede tomar un valor alfanumérico.
 
@@ -475,4 +475,3 @@ En el ejemplo anterior, &quot;label1&quot; es el identificador de la secuencia d
 **Rootmap**
 
 Si los autores trabajan con un mapa raíz específico, puede buscar y seleccionar ese mapa raíz aquí. Tenga en cuenta que solo puede definir el mapa de raíz para un perfil de nivel de carpeta.
-

@@ -2,9 +2,9 @@
 title: Conozca las funciones del editor web
 description: AEM Descubra las funciones del editor web en las guías de la. Conocer la interfaz del editor web, incluida la barra de herramientas principal, la barra de herramientas secundaria, el panel izquierdo, el área de edición de contenido y el panel derecho.
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
-source-git-commit: f7a0140a274a83dfeb6a1ba70ae9c09297d1754c
+source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
 workflow-type: tm+mt
-source-wordcount: '16500'
+source-wordcount: '17079'
 ht-degree: 0%
 
 ---
@@ -212,6 +212,12 @@ Las Preferencias de usuario están disponibles para todos los autores. Con las p
 ![](images/user_preference_editor.PNG){width="550" align="left"}
 
 - **Usar tema del dispositivo** AEM : Marque esta casilla de verificación para permitir que las guías de la cambien automáticamente entre los temas claro y oscuro en función del tema del dispositivo.
+
+- **Ver archivos por**: seleccione la forma predeterminada de ver los archivos en el Editor web. Puede ver la lista de archivos por títulos o nombres de archivo desde los distintos paneles del **Autor** vista.
+  >[!NOTE]
+  >
+  > De forma predeterminada, los archivos se muestran por título en el Editor Web.
+
 - **Tema**: Puede elegir entre los temas Más claro, Más claro, Oscuro u Más oscuro para el editor. En el caso del tema Más claro, las barras de herramientas y los paneles utilizan un fondo de color gris más claro. En el caso del tema Claro, las barras de herramientas y los paneles utilizan un fondo de color gris claro. En el caso del tema Más oscuro, las barras de herramientas y los paneles utilizan un fondo de color negro más oscuro. En el caso del tema Oscuro, las barras de herramientas y los paneles utilizan un fondo de color negro. En todas las temáticas, el área de edición de contenido se muestra en fondo de color blanco.
 
 - **Perfiles de carpeta**: el perfil de carpeta controla varias configuraciones relacionadas con atributos condicionales, plantillas de creación, ajustes preestablecidos de salida y las configuraciones del editor web. El perfil global se muestra de forma predeterminada. Además, si el administrador ha configurado perfiles de carpeta en el sistema, esos perfiles de carpeta también se muestran en la Lista de perfiles de carpeta.
@@ -713,6 +719,10 @@ El panel izquierdo le permite acceder a las siguientes funciones:
 **Favoritos** -  ![](images/favorite-collections.svg)
 
 Si trabaja en un conjunto de archivos o carpetas, puede agregarlos a su lista de favoritos para acceder a ellos rápidamente. La lista Favoritos muestra la lista de documentos que ha agregado y otra lista de documentos favoritos de otros usuarios a la que se puede acceder públicamente.
+De forma predeterminada, puede ver los archivos por títulos. Al pasar el ratón por encima de un archivo, puede ver el título y la ruta del archivo como información sobre herramientas.
+>[!NOTE]
+>
+> Como administrador, también puede elegir ver la lista de archivos por nombres de archivo en el Editor Web. Seleccione el **Nombre de archivo** de la opción **Ver archivos por** sección en **Preferencias de usuario** ![](images/user_preference_editor_icon.svg).
 
 Para crear una colección o lista de favoritos, haga clic en el icono + situado junto al panel Favoritos para que aparezca el registro de diario Nueva colección:
 
@@ -753,7 +763,12 @@ También puede realizar muchas acciones utilizando el menú Opciones disponible 
 
 **Vista de repositorio** - ![](images/Repository_icon.svg)
 
-Al hacer clic en el icono Vista de repositorio, se obtiene una lista de archivos y carpetas disponibles en DAM.
+Al hacer clic en el icono Vista de repositorio, se obtiene una lista de archivos y carpetas disponibles en DAM. De forma predeterminada, puede ver los archivos por títulos. Al pasar el ratón por encima de un archivo, puede ver el título y el nombre del archivo como información sobre herramientas.
+
+>[!NOTE]
+>
+> Como administrador, también puede elegir ver la lista de archivos por nombres de archivo en el Editor Web. Seleccione el **Nombre de archivo** de la opción **Ver archivos por** sección en **Preferencias de usuario** ![](images/user_preference_editor_icon.svg).
+
 
 Se cargan 75 archivos a la vez. Cada vez que haga clic en **Cargar más**... Se cargan 75 archivos y el botón deja de mostrarse cuando se enumeran todos los archivos. Esta carga por lotes es eficiente y puede acceder a los archivos más rápido en comparación con cargar todos los archivos existentes en una carpeta.
 
@@ -1013,7 +1028,15 @@ Introduzca una **Título** para la carpeta, que se convierte automáticamente en
 
 **Vista de mapa** -  ![](images/map-view-icon.svg)
 
-Al hacer clic en el icono Vista de mapa, se obtiene una lista de temas dentro del archivo de mapa. Si no ha abierto ningún fichero de mapa, la vista de mapa aparecerá en blanco. Al hacer doble clic en cualquier fichero de mapa, se abre el fichero de mapa en esta vista. Puede hacer doble clic en cualquier archivo del mapa para abrirlo en el Editor Web. Cuando se abre un mapa en la vista de mapa, el título del mapa actual se muestra en el centro de la barra de herramientas principal. Si el título es demasiado largo, se muestran puntos suspensivos y también puede pasar el ratón por encima del título para ver el título completo en la información del objeto. Si tiene derechos de edición sobre los archivos de mapa, también podrá editar los archivos. Para obtener más información acerca de cómo abrir y editar un tema a través de DITA Map, consulte [Edición de temas mediante el mapa DITA](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
+Al hacer clic en el icono Vista de mapa, se obtiene una lista de temas dentro del archivo de mapa. Si no ha abierto ningún fichero de mapa, la vista de mapa aparecerá en blanco. Al hacer doble clic en cualquier fichero de mapa, se abre el fichero de mapa en esta vista. Puede hacer doble clic en cualquier archivo del mapa para abrirlo en el Editor Web.
+
+De forma predeterminada, puede ver los archivos por títulos. Al pasar el ratón por encima de un archivo, puede ver el título y la ruta del archivo como información sobre herramientas.
+>[!NOTE]
+>
+>Como administrador, también puede elegir ver el nombre de archivo del mapa principal que está abierto actualmente en la vista de mapa. Seleccione el **Nombre de archivo** de la opción **Ver archivos por** sección en **Preferencias de usuario** ![](images/user_preference_editor_icon.svg).
+
+
+Cuando se abre un mapa en la vista de mapa, el título del mapa actual se muestra en el centro de la barra de herramientas principal. Si el título es demasiado largo, se muestran puntos suspensivos y también puede pasar el ratón por encima del título para ver el título completo en la información del objeto. Si tiene derechos de edición sobre los archivos de mapa, también podrá editar los archivos. Para obtener más información acerca de cómo abrir y editar un tema a través de DITA Map, consulte [Edición de temas mediante el mapa DITA](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
 
 Puede realizar las siguientes acciones mediante el menú Opciones del archivo de asignación:
 
@@ -1177,6 +1200,11 @@ Puede buscar una cadena en el elemento si se muestra en el panel Vista de esquem
 Una de las características principales de DITA es la capacidad de reutilizar contenido. El panel Contenido reutilizable puede almacenar los archivos DITA desde donde normalmente se inserta contenido reutilizable. Una vez añadidos, los ficheros DITA permanecen en el panel Contenido reutilizable entre sesiones. Esto significa que no es necesario volver a añadir los ficheros DITA para acceder a ellos más adelante.
 
 Puede simplemente arrastrar y soltar contenido reutilizable del panel en el tema actual y se insertará de forma fácil y rápida. También puede obtener una vista previa del contenido antes de insertarlo en el documento.
+
+De forma predeterminada, puede ver los archivos por títulos. Al pasar el ratón por encima de un archivo, puede ver el título y la ruta del archivo como información sobre herramientas.
+>[!NOTE]
+>
+> Como administrador, también puede elegir ver la lista de archivos por nombres de archivo en el Editor Web. Seleccione el **Nombre de archivo** de la opción **Ver archivos por** sección en **Preferencias de usuario** ![](images/user_preference_editor_icon.svg).
 
 Para añadir un fichero DITA al panel Contenido reutilizable, utilice cualquiera de los métodos siguientes:
 
@@ -1527,6 +1555,12 @@ El panel Plantillas solo está disponible para administradores. Con este panel, 
 
 ![](images/templates-panel_cs.png){width="550" align="left"}
 
+De forma predeterminada, puede ver los archivos por títulos. Al pasar el ratón por encima de una plantilla, puede ver el título y el nombre del archivo como información sobre herramientas.
+
+>[!NOTE]
+>
+> Como administrador, también puede elegir ver la lista de archivos en el Editor Web. Seleccione el **Nombre de archivo** de la opción **Ver archivos por** sección en **Preferencias de usuario** ![](images/user_preference_editor_icon.svg).
+
 Para crear una plantilla, haga clic en el icono + situado junto a Plantillas y seleccione la plantilla que desee crear. Si selecciona **Plantilla de tema**, aparecerá el cuadro de diálogo Crear nueva plantilla de tema:
 
 ![](images/create-new-topic-template.PNG){width="400" align="left"}
@@ -1544,7 +1578,12 @@ Con el menú Opciones de una plantilla existente, puede elegir **Editar** o **Du
 **Revisar** -  ![](images/active-review-tasklist-icon.svg)
 
 AEM Guías de revisión proporciona la característica para mostrar todas las tareas de revisión de los proyectos. Puede ver todos los proyectos de revisión y las tareas de revisión activas dentro de los proyectos de revisión de los que forma parte desde el **Revisar** panel.  A continuación, puede abrir las tareas de revisión para ver los comentarios de los distintos revisores.
-El panel de revisión muestra las tareas de revisión. Como autor, puede dirigir los comentarios de un tema mediante el Editor Web.
+El panel de revisión muestra las tareas de revisión. De forma predeterminada, puede ver los archivos por títulos. Al pasar el ratón por encima de un archivo, puede ver el título y la ruta del archivo como información sobre herramientas.
+>[!NOTE]
+>
+> Como administrador, también puede elegir ver la lista de archivos por nombres de archivo en el Editor Web. Seleccione el **Nombre de archivo** de la opción **Ver archivos por** sección en **Preferencias de usuario** ![](images/user_preference_editor_icon.svg).
+
+Como autor, puede dirigir los comentarios de un tema mediante el Editor Web.
 
 
 Para ver los comentarios de revisión de las tareas de revisión activas que están presentes en los proyectos, realice los siguientes pasos:
@@ -1581,6 +1620,11 @@ Para ver los comentarios de revisión de las tareas de revisión activas que est
 El icono Buscar y reemplazar se encuentra en la parte inferior del panel izquierdo. El panel Buscar y reemplazar permite buscar y reemplazar texto en los archivos de un mapa o una carpeta dentro del repositorio. Puede buscar y reemplazar en todos los temas de un mapa, así como los temas presentes en los submapas dentro del mapa.
 
 ![](images/map-find-replace.png){width="800" align="left"}
+
+De forma predeterminada, puede ver los archivos por títulos. Al pasar el ratón por encima de un archivo, puede ver el título y la ruta del archivo como información sobre herramientas.
+>[!NOTE]
+>
+> Como administrador, también puede elegir ver la lista de nombres de archivo en el Editor Web. Seleccione el **Nombre de archivo** de la opción **Ver archivos por** sección en **Preferencias de usuario** ![](images/user_preference_editor_icon.svg).
 
 Para realizar la búsqueda y el reemplazo globales, realice los siguientes pasos:
 
@@ -1665,7 +1709,14 @@ También puede utilizar la variable **Buscar en el mapa** de la opción **Opcion
 
 ## Área de edición de contenido {#id2051EB000UI}
 
-El área de edición de contenido es donde se muestra el contenido del tema o mapa. Puede realizar todas las ediciones de contenido en esta área. Proporciona una vista WYSIWYG del contenido que está editando. Puede tener varios temas abiertos al mismo tiempo, que se muestran en sus respectivas pestañas. Debajo de la pestaña del archivo, tiene la ruta de exploración del elemento en la ubicación actual del cursor. En la esquina superior derecha del área de edición de contenido, se muestra el número de versión del tema actual.
+El área de edición de contenido es donde se muestra el contenido del tema o mapa. Puede realizar todas las ediciones de contenido en esta área. Proporciona una vista WYSIWYG del contenido que está editando. Puede tener varios temas abiertos al mismo tiempo, que se muestran en sus respectivas pestañas.
+
+De forma predeterminada, puede ver los títulos de los archivos en las pestañas. Al pasar el ratón por encima de un archivo, puede ver el título y la ruta del archivo como información sobre herramientas.
+>[!NOTE]
+>
+> Como administrador, también puede elegir ver la lista de archivos por nombres de archivo en las pestañas. Seleccione el **Nombre de archivo** de la opción **Ver archivos por** sección en **Preferencias de usuario** ![](images/user_preference_editor_icon.svg).
+
+Debajo de la pestaña del archivo, tiene la ruta de exploración del elemento en la ubicación actual del cursor. En la esquina superior derecha del área de edición de contenido, se muestra el número de versión del tema actual.
 
 ![](images/content-editing-area.png){width="650" align="left"}
 
@@ -1720,7 +1771,10 @@ La sección Referencias le permite acceder a las siguientes funciones:
 - **Utilizado en**: las referencias utilizadas en enumeran los documentos a los que se hace referencia o se utiliza el archivo actual.
 - **Vínculos de salida:** Los vínculos de salida enumeran los documentos a los que se hace referencia en el documento actual.
 
-Pase el ratón sobre la referencia del archivo y obtenga la ruta de archivo y el UUID del archivo en la información del objeto.
+De forma predeterminada, puede ver los archivos por títulos. Al pasar el ratón por encima de un archivo, puede ver el título y la ruta del archivo como información sobre herramientas.
+>[!NOTE]
+>
+> Como administrador, también puede elegir ver la lista de archivos por nombres de archivo en el Editor Web. Seleccione el **Nombre de archivo** de la opción **Ver archivos por** sección en **Preferencias de usuario** ![](images/user_preference_editor_icon.svg).
 
 **Nota:** Todas las referencias utilizadas de entrada y de salida tienen hipervínculos a los documentos. Puede abrir y editar fácilmente los documentos vinculados.
 

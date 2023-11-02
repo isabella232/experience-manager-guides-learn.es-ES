@@ -2,9 +2,9 @@
 title: Creación y personalización de plantillas de PDF nativas
 description: Obtenga información sobre cómo crear y personalizar plantillas de PDF nativas.
 exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
-source-git-commit: 49fa930483f48cafd057002ee26c9499ce967c60
+source-git-commit: da6ada7329aa338849de86ebfda94587bbc4ab54
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '1121'
 ht-degree: 0%
 
 ---
@@ -13,22 +13,31 @@ ht-degree: 0%
 
 El uso de una plantilla garantiza la coherencia en el diseño y la estructura del contenido. Como las plantillas están predefinidas, puede evitar volver a trabajar en los problemas de formato que surgen para cada proyecto nuevo o actualización. Las plantillas permiten diseñar diseños de página, aplicar estilos al contenido y aplicar diversas configuraciones para personalizar el PDF.
 
-Aunque los autores pueden utilizar los ajustes preestablecidos de PDF para generar resultados, los desarrolladores pueden crear sus propias plantillas. Hay plantillas de muestra listas para usar, que los desarrolladores pueden personalizar o duplicar aún más según sus requisitos organizativos.
+## Plantillas de PDF personalizadas y de fábrica
+
+Hay algunas plantillas de fábrica de muestra listas para usar, que los desarrolladores pueden usar como plantillas base para crear plantillas personalizadas según sus requisitos organizativos.
+
 
 
 ## Creación de una nueva plantilla de PDF {#create-pdf-template}
 
-Puede crear plantillas de PDF personalizadas con diseños de página específicos y definir el formato para los componentes del diseño de página (como TDC, índice, glosario) o los componentes DITA (como encabezado, párrafo, lista) mediante hojas de estilo. Puede crear una nueva plantilla desde cero o crearla con una plantilla de ejemplo.
+Puede crear plantillas de PDF personalizadas con diseños de página específicos y definir el formato para los componentes del diseño de página (como TDC, índice, glosario) o los componentes DITA (como encabezado, párrafo, lista) mediante hojas de estilo.
 
-Para crear una nueva plantilla de PDF, siga los siguientes pasos:
+Para crear una nueva plantilla de PDF, realice los siguientes pasos:
 1. En el Editor Web, vaya a **Output** pestaña.
-1. Expanda la barra lateral izquierda y seleccione **Plantillas**.
+1. Seleccionar **Plantillas** <img src="./assets/template.svg" alt= "icono de plantillas" width="25"> en el panel izquierdo.
 <img src="assets/create-pdf-template.png" alt="Crear plantilla de PDF" width="400">
-1. En el panel **Plantillas**, seleccione el icono **+** situado junto a **Plantillas** y elija **Plantilla de PDF **.
-1. Especifique un nombre para la plantilla en el cuadro de diálogo **Nueva plantilla**.
-1. Haga clic en **Listo**.
+1. En la ventana **Plantillas**, pulse el icono de **+** situado junto a **Plantillas** y seleccione **Plantilla de PDF **.
+1. En el cuadro de diálogo **Nueva plantilla de PDF **, seleccione una plantilla de fábrica que desee utilizar como base para crear la plantilla personalizada. También puede utilizar el cuadro de búsqueda para buscar una plantilla.
+1. Especifique un título para la plantilla.
 
-La nueva plantilla se crea y se agrega en *Plantillas* panel.
+>[!NOTE]
+>
+>  También puede obtener una vista previa de una miniatura para la plantilla al crear y duplicar una plantilla. Editar o eliminar la miniatura utilizando [**Propiedades**](#properties-option) en el **Opciones** después de crear la plantilla.
+
+1. Haga clic en **Crear**.
+
+   La nueva plantilla se crea y se agrega en **Plantillas** panel.
 
 ## Duplicación de una plantilla de PDF {#duplicate-pdf-template}
 
@@ -36,37 +45,83 @@ Si desea crear una nueva plantilla con los mismos diseños de página y formato 
 
 Para duplicar una plantilla de PDF existente, siga los siguientes pasos:
 1. En el Editor Web, vaya a **Output** pestaña.
-1. Expanda la barra lateral izquierda y seleccione **Plantillas**.
+1. Seleccionar **Plantillas** <img src="./assets/template.svg" alt= "icono de plantillas" width="25"> en el panel izquierdo. Esto abre el **Plantillas** ventana.
+1. Pase el ratón sobre la plantilla que quiera duplicar y seleccione la **...** *Opciones* y elija **Duplicar** en el menú contextual.
 
-   Se abrirá el panel Plantillas.
-1. Pase el ratón sobre la plantilla que quiera duplicar y seleccione la opción (*Opciones* icon) **...** y elija **Duplicar** en el menú contextual.
+   Esto abre el **Duplicar plantilla de PDF** diálogo.
 
-   Se abrirá el cuadro de diálogo Duplicar plantilla.\
-   <img src="assets/duplicate-template.png" alt="Duplicar plantilla de PDF" width="250">
-1. Especifique un nombre para la plantilla.
+   <img src="assets/duplicate-template.png" alt="Duplicar plantilla de PDF" width="350">
 
-   El **Nombre** El campo se rellena previamente como una copia del mismo nombre que la plantilla de origen.
+   *Seleccione una plantilla para duplicarla, previsualice la miniatura y actualice el título en la **Duplicar plantilla de PDF**diálogo.*
 
-1. Para especificar un nombre preferido, quite el nombre ya rellenado y especifique un nombre.
-1. Haga clic en **Listo**.
+1. Especifique un título para la plantilla.
 
-   Se crea una plantilla duplicada que se añade en Plantillas.
+   El **Título** El campo se rellena previamente como una copia del mismo título que la plantilla de origen. Verá un mensaje de error si existe la plantilla con el mismo título.
+
+
+
+1. Para especificar un título preferido, quite el título rellenado previamente y especifique un título.
+1. Clic **Duplicar**.
+
+   Se crea una plantilla duplicada y se añade en **Plantillas**.
+
+## Otras operaciones en las plantillas
+
+También puede realizar las siguientes operaciones en las plantillas desde el **Opciones** menú:
+
+<img src="assets/PDF-template-options.png" alt="Duplicar plantilla de PDF" width="350">
+
+### Eliminar
+
+Seleccione la opción Eliminar para eliminar la plantilla seleccionada. A continuación, seleccione Sí en el mensaje de confirmación.
+El ajuste preestablecido se elimina del **Plantillas**.
+
+### Propiedades{#properties-option}
+
+Seleccione esta opción para ver y editar las propiedades de la plantilla. Puede obtener una vista previa de la miniatura existente para la plantilla. También puede editar o eliminar la miniatura. También puede cambiar el título y la descripción de la plantilla.
+
+### Ver en la IU de Assets
+
+Seleccione esta opción para ver la plantilla en la interfaz de usuario de Assets. Al abrir la ubicación raíz de la plantilla, puede ver todos los recursos de la plantilla.
+
+Una vez creada la plantilla personalizada, puede elegirla en Diseños de página en el ajuste preestablecido de salida del PDF.
+Obtenga información sobre cómo [publicación de una salida de PDF](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en).
+
+>[!NOTE]
+>
+>Si la carpeta tiene un perfil de carpeta configurado, solo verá las plantillas de PDF que estén configuradas en el perfil de carpeta.
+
+En función de la configuración, el administrador puede configurar las plantillas:
+
+<details>
+<summary> Cloud Services </summary>
+
+Para obtener más información sobre la configuración de perfiles globales y de nivel de carpeta, consulte [Configuración de plantillas](../cs-install-guide/conf-folder-level.md#id1889D0IL0Y4) de la Guía de instalación y configuración para Cloud Service.
+
+</details>
+
+<details>    
+<summary>  Software On-Premise </summary>
+
+Para obtener más información sobre la configuración de perfiles globales y de nivel de carpeta, consulte [Configuración de plantillas de creación](../install-guide/conf-folder-level.md#create-custom-authoring-template-id1917d0eg0hj) de la guía de instalación y configuración in situ.
+
+</details>
 
 ## Personalización de una plantilla de PDF {#customize-pdf-template}
 
 Puede personalizar las plantillas mediante la modificación de los componentes de la plantilla y la aplicación de formatos de estilo mediante hojas de estilo.
 
-Para personalizar una plantilla de PDF, siga los siguientes pasos:
-1. En el Editor web, vaya a la pestaña Output.
-1. Expanda la barra lateral izquierda y seleccione Plantillas.
+Para personalizar una plantilla de PDF, realice los siguientes pasos:
+1. En el Editor Web, vaya a **Output** pestaña.
+1. Expanda la barra lateral izquierda y seleccione **Plantillas**.
 
-   Se abrirá el panel Plantillas.
+   Esto abre el **Plantillas** panel.
 1. Para ver los componentes de una plantilla, siga uno de estos procedimientos:
 
    * Seleccione el icono > situado junto a una plantilla o haga doble clic en su nombre.
-   * Pase el ratón sobre cualquier plantilla y seleccione el ... (icono Opciones) y elija Editar en el menú contextual.
+   * Pase el ratón sobre cualquier plantilla y seleccione el ... (**Opciones** ) y elija **Editar** en el menú contextual.
 
-     De forma predeterminada, se abre el panel Configuración en el editor de plantillas.
+     De forma predeterminada, se abre la **Configuración** en el editor de plantillas.
    <img src="assets/customize-pdf-template.png" alt="Personalizar plantilla de PDF" width="350">
 
    >[!NOTE]
@@ -90,4 +145,9 @@ Para obtener más información sobre la aplicación de la configuración, consul
 1. Para personalizar un componente de plantilla, haga doble clic en un componente de plantilla o seleccione el icono > que hay antes.
 
    Por ejemplo, haga doble clic en *Diseños de página* o seleccione la opción *>* icono antes *Diseños de página* para ver los diseños de página disponibles.
+
+   >[!NOTE]
+   >
+   >También puede actualizar una miniatura y la descripción de la plantilla mediante el [**Propiedades**](#properties-option) en el **Opciones** menú.
+
 1. Cuando haya realizado los cambios deseados, seleccione *Guardar todo* (o `Ctrl+S`).
