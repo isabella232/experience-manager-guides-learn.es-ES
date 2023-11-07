@@ -1,9 +1,10 @@
 ---
 title: Publicación de PDF nativo "Hands on lab - BYOS" - Aprendizaje interactivo
 description: Esta sesión "Práctica en el laboratorio - BYOS" ofrece una exploración exhaustiva de la publicación de PDF nativos. Explore diferentes casos de uso, aproveche las funciones clave y póngase en contacto directamente con los expertos en Adobe para abordar las declaraciones y los requisitos específicos de sus problemas.
-source-git-commit: 03da00daf0118b66ef5653dfb80918c33bc8f76b
+exl-id: 55c276d8-8611-4050-be5f-7f9854f94228
+source-git-commit: befe892ce4c9a6643593469bdc7fdd808ceb0c31
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -61,8 +62,8 @@ En esta sesión, aprendió lo siguiente sobre la publicación de PDF nativos:
 
 ## Próxima sesión de expertos
 
-- **Tema** - POR DETERMINAR
-- **Programado para el** - POR DETERMINAR
+- **Tema** - Marco de extensión de guías
+- **Programado para el** - 2 de noviembre de 2023
 
 ## Contáctenos.
 
