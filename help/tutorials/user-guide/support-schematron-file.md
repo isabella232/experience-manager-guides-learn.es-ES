@@ -1,8 +1,8 @@
 ---
 title: Compatibilidad con archivos de Schematron
 description: AEM Obtenga información sobre cómo importar y validar un tema de DITA, utilizar instrucciones de informe Assert para comprobar reglas, utilizar expresiones regex y definir patrones abstractos en archivos de Schematron de guías de usuario de.
-exl-id: e5912fa1-af26-42f4-b5e5-a6d2afd45bc8
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
+source-git-commit: 05a7b46b0c6ec056f85a82759400717fce9a845c
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 0%
@@ -105,7 +105,7 @@ No one word titles.
 
 ## Definir patrones abstractos{#schematron-abstract-patterns}
 
-AEM Gudies también admite patrones abstractos en Schematron. Puede definir patrones abstractos genéricos y reutilizarlos.  Puede crear parámetros de marcador de posición que especifiquen el patrón real.
+AEM Guías de también admite patrones abstractos en Schematron. Puede definir patrones abstractos genéricos y reutilizarlos.  Puede crear parámetros de marcador de posición que especifiquen el patrón real.
 
 
 El uso de patrones abstractos puede simplificar el esquema de Schematron al reducir la duplicación de reglas y facilitar la administración y actualización de la lógica de validación. También puede facilitar la comprensión del esquema, ya que puede definir una lógica de validación compleja en un único patrón abstracto que se puede reutilizar en todo el esquema.
