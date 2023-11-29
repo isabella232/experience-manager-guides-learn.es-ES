@@ -2,9 +2,9 @@
 title: Conozca las funciones del editor web
 description: AEM Descubra las funciones del editor web en las guías de la. Conocer la interfaz del editor web, incluida la barra de herramientas principal, la barra de herramientas secundaria, el panel izquierdo, el área de edición de contenido y el panel derecho.
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
-source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '17079'
+source-wordcount: '17231'
 ht-degree: 0%
 
 ---
@@ -302,7 +302,12 @@ Mediante el menú contextual de la tabla, puede:
 - Generación de ID
 
 
-También puede definir atributos en varias celdas, filas completas o columnas de una tabla. Por ejemplo, para alinear la celda de la tabla, arrastre y seleccione la celda requerida. En el panel Propiedades de contenido \(a la derecha\), la propiedad **Tipo** cambios en **Entrada múltiple**. En la sección Otros atributos, seleccione la opción `@valign` de la lista desplegable atributo. En la lista desplegable de valores, seleccione la alineación de texto que desee aplicar en las celdas de la tabla seleccionada.
+También puede definir atributos en varias celdas, filas completas o columnas de una tabla. Por ejemplo, para alinear la celda de la tabla, arrastre y seleccione la celda requerida. En el panel Propiedades del contenido (a la derecha), la propiedad **Tipo** cambios en **Entrada múltiple**.
+
+1. En el **Atributos** , haga clic en **+Agregar**.
+1. Seleccione el `@valign` atributo del **Atributo** lista desplegable.
+1. En la lista desplegable de valores, seleccione la alineación de texto que desee aplicar en las celdas de la tabla seleccionada.
+1. Clic **Agregar.**
 
 ![](images/align-table-cell_cs.png){width="800" align="left"}
 
@@ -329,7 +334,7 @@ El campo Fuente muestra el UUID del archivo de imagen insertado. Puede encontrar
 
 Puede cambiar el tamaño de una imagen proporcionando el valor Altura o Anchura para el archivo de imagen. La proporción de aspecto de la imagen se mantiene automáticamente. Si lo desea, también puede optar por no mantener la relación de aspecto del archivo de imagen haciendo clic en el icono de candado \(de Mantener relación de aspecto\) y proporcionando los valores de Altura y Anchura.
 
-También puede especificar la configuración Ubicación para la imagen como En línea o Salto. Si decide utilizar la opción Colocación de rotura, puede elegir dónde alinear la imagen \(Izquierda, Centro o Derecha\).
+También puede especificar la configuración Ubicación para la imagen como En línea o Salto. Si decide utilizar la opción Colocación de rotura, puede elegir dónde alinear la imagen (izquierda, centro o derecha).
 
 También puede añadir otras propiedades para un archivo de imagen seleccionando las propiedades necesarias en la **Atributos** field.
 
@@ -778,7 +783,7 @@ También puede hacer clic en un archivo de audio o vídeo y reproducirlo en el E
 
 
 
-Al hacer doble clic en un archivo de mapa, se abre en la **Vista de mapa**. Para obtener más información, consulte la **Vista de mapa** descripción de la función en [Panel izquierdo](web-editor-features.md#id2051EA0M0HS) sección. Al hacer doble clic en un archivo de tema, se abre en la [Área de edición de contenido](#id2051EB000UI). La posibilidad de desplazarse por un archivo y abrirlo directamente desde el Editor Web ahorra tiempo y aumenta la productividad.
+Seleccione un mapa y pulse Intro o haga doble clic para abrirlo en el **Vista de mapa**. Para obtener más información, consulte la **Vista de mapa** descripción de la función en [Panel izquierdo](web-editor-features.md#id2051EA0M0HS) sección. Seleccione un tema y pulse Intro o haga doble clic para abrirlo en [Área de edición de contenido](#id2051EB000UI). La posibilidad de desplazarse por un archivo y abrirlo directamente desde el Editor Web ahorra tiempo y aumenta la productividad.
 
 **Filtrar búsqueda**
 
@@ -1036,7 +1041,14 @@ De forma predeterminada, puede ver los archivos por títulos. Al pasar el ratón
 >Como administrador, también puede elegir ver el nombre de archivo del mapa principal que está abierto actualmente en la vista de mapa. Seleccione el **Nombre de archivo** de la opción **Ver archivos por** sección en **Preferencias de usuario** ![](images/user_preference_editor_icon.svg).
 
 
-Cuando se abre un mapa en la vista de mapa, el título del mapa actual se muestra en el centro de la barra de herramientas principal. Si el título es demasiado largo, se muestran puntos suspensivos y también puede pasar el ratón por encima del título para ver el título completo en la información del objeto. Si tiene derechos de edición sobre los archivos de mapa, también podrá editar los archivos. Para obtener más información acerca de cómo abrir y editar un tema a través de DITA Map, consulte [Edición de temas mediante el mapa DITA](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
+Cuando se abre un mapa en la vista de mapa, el título del mapa actual se muestra en el centro de la barra de herramientas principal. Si el título es demasiado largo, se muestran puntos suspensivos y también puede pasar el ratón por encima del título para ver el título completo en la información del objeto.
+
+Al definir atributos clave para el tema o las referencias de mapa, puede ver el título, el icono correspondiente y la clave en el panel izquierdo. La tecla se muestra como `keys=<key-name>`.
+
+![claves en la vista de mapa](images/view-key-title-map-view.png){width="300" align="left"}
+
+Si tiene derechos de edición sobre los archivos de mapa, también podrá editar los archivos. Para obtener más información acerca de cómo abrir y editar un tema a través de DITA Map, consulte [Edición de temas mediante el mapa DITA](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
+
 
 Puede realizar las siguientes acciones mediante el menú Opciones del archivo de asignación:
 
@@ -1163,7 +1175,7 @@ La vista Esquema ofrece las siguientes funciones:
 
   ![](images/drop-element-outline-view_cs.png){width="300" align="left"}
 
-- El **Opciones** en el menú *Vista Esquema* permite realizar operaciones genéricas como Cortar, Copiar, Eliminar, Generar ID, Insertar elemento antes o después del elemento actual, Cambiar el nombre o reemplazar un elemento, Desajustar un elemento y crear un fragmento de código a partir del elemento seleccionado.
+- El **Opciones** en el menú *Vista Esquema* permite realizar operaciones genéricas como Cortar, Copiar, Eliminar, Generar ID, Insertar elemento antes o después del elemento actual, Cambiar el nombre o reemplazar un elemento, Justificar un elemento, Desenvolver un elemento y crear un fragmento a partir del elemento seleccionado.
 
 >[!NOTE]
 >
@@ -1487,9 +1499,16 @@ Por ejemplo, utilice la siguiente enumeración para restringir el `@platform` at
 
 **Lista desplegable Atributos**
 
-También puede cambiar el valor del esquema de asunto mediante la lista desplegable Atributo del panel Propiedades de contenido en la vista Autor. Para cambiar el valor, seleccione un valor de la lista desplegable Atributo.
+También puede cambiar el valor del esquema de asunto mediante la variable **Atributos** del menú desplegable **Propiedades del contenido** panel en el **Autor** vista.
+![](images/subject-scheme-attribute-dropdown.png){width="200" align="left"}
+Siga estos pasos para cambiar el valor:
 
-![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
+1. Seleccione un atributo del **Atributo** desplegable.
+1. Seleccionar **Editar** ![edit-icon](images/edit_pencil_icon.svg).
+1. Seleccione el valor necesario de la **Valor** desplegable.
+1. Haga clic en **Actualizar**.
+
+
 
 También puede aplicar valores para un atributo seleccionando varios valores en la lista desplegable.
 
@@ -1732,7 +1751,22 @@ El panel derecho le permite acceder a las siguientes funciones:
 
 **Propiedades del contenido** -  ![](images/content-properties-icon.svg)
 
-Puede acceder a la función Propiedades del contenido haciendo clic en el icono Propiedades del contenido en el panel derecho. El panel Propiedades del contenido contiene información sobre el tipo de elemento seleccionado actualmente en el documento y sus atributos. También puede agregar atributos seleccionando el atributo en la lista desplegable y especificando el valor de un atributo.
+Puede acceder a la función Propiedades del contenido haciendo clic en el icono Propiedades del contenido en el panel derecho. El panel Propiedades del contenido contiene información sobre el tipo de elemento seleccionado actualmente en el documento y sus atributos.
+Puede añadir, editar o eliminar fácilmente los atributos.
+
+1. Clic **+ Agregar**.
+
+   ![atributos en propiedades de contenido](images/properties-tab-attributes_cs.png){width="300" align="left"}
+
+1. En el **Atributo** en el panel desplegable, seleccione el atributo en la lista desplegable y especifique el valor de un atributo.  Luego haga clic en **Añadir**.
+
+   ![panel atributos con varios atributos ](images/attributes-multiple-properties.png){width="300" align="left"}
+
+1. Para editar el atributo, pase el ratón sobre él y seleccione **Editar** ![edit-icon](images/edit_pencil_icon.svg).
+   ![editar atributos](images/edit-attributes-content-properties.png){width="300" align="left"}
+
+1. Para eliminar el atributo, pase el ratón sobre él y seleccione **Eliminar** ![delete-icon](images/Delete_icon.svg).
+
 
 >[!NOTE]
 >
@@ -1740,7 +1774,7 @@ Puede acceder a la función Propiedades del contenido haciendo clic en el icono 
 
 Si el administrador ha creado un perfil para atributos, obtendrá esos atributos junto con sus valores configurados. Con el panel de propiedades de contenido, puede elegir esos atributos y asignarlos al contenido relevante del tema. De este modo, también puede crear contenido condicional, que luego puede utilizar para crear resultados condicionales. Para obtener más información sobre la generación de resultados mediante ajustes preestablecidos condicionales, consulte [Usar ajustes preestablecidos de condición](generate-output-use-condition-presets.md#).
 
-![](images/properties-tab-attributes_cs.png){width="300" align="left"}
+
 
 **Propiedades de archivo** -  ![](images/topic-properties-icon.svg)
 
@@ -1750,11 +1784,12 @@ Vea las propiedades del archivo seleccionado haciendo clic en el icono Propiedad
 
 La sección General le permite acceder a las siguientes funciones:
 
-![](images/file-properties-general.png){width="300" align="left"}
+![file-properties](images/file-properties-general.png){width="300" align="left"}
 
 - **Nombre**: Muestra el nombre de archivo del tema seleccionado. El nombre de archivo está enlazado mediante un hipervínculo a la página de propiedades del archivo seleccionado.
 - **ID**: Muestra el ID del tema seleccionado.
-- **Etiquetas de metadatos**: estas son las etiquetas de metadatos del tema. Se establecen en el campo de etiquetas de la página de propiedades.
+- **Etiquetas**: estas son las etiquetas de metadatos del tema. Se establecen en el campo de etiquetas de la página de propiedades. Puede escribirlos o seleccionarlos en la lista desplegable.  Las etiquetas aparecen debajo de la lista desplegable. Para eliminar una etiqueta, seleccione el icono en forma de cruz situado junto a la etiqueta.
+- **Editar más propiedades**: Puede editar más propiedades desde la página de propiedades del archivo.
 - **Idioma**: muestra el idioma del tema. Se establece desde el campo language en la página de propiedades.
 - **Creado el**: muestra la fecha y la hora en que se creó el tema.
 - **Extraído por**: Muestra el usuario que ha desprotegido el tema.

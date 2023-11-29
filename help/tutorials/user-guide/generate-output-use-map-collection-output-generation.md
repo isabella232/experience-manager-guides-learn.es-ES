@@ -1,11 +1,11 @@
 ---
 title: Usar la colección de mapas para generar resultados
 description: Obtenga información sobre cómo crear y eliminar una colección de mapas y agregar o eliminar un mapa DITA. AEM Configure, genere y cancele una tarea de generación de resultados desde una colección de mapas en Guías de la.
-exl-id: 32e3af6c-9670-42cc-8dbe-9f99fbc60adf
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+exl-id: 41152fa4-f739-44d2-9ccd-74072f53e31b
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '963'
-ht-degree: 0%
+source-wordcount: '1212'
+ht-degree: 1%
 
 ---
 
@@ -47,7 +47,7 @@ Para crear una colección de mapas y añadir mapas DITA a la colección, realice
 
    Los ficheros de mapa DITA se añaden a la colección de mapas.
 
-   ![](images/maps_presets_62_63.png){width="800" align="left"}
+   ![tablero de recopilación de mapas](./images/map-collection-dashboard.png){width="800" align="left"}
 
 Las siguientes opciones de filtrado y detalles de asignación se muestran en la página de recopilación:
 
@@ -57,8 +57,10 @@ Las siguientes opciones de filtrado y detalles de asignación se muestran en la 
    - **Idioma**: Puede seleccionar cualquiera de los códigos de idioma disponibles y mostrar solo el idioma seleccionado en la tabla Mapas y ajustes preestablecidos.
 - **Mapas y ajustes preestablecidos** tabla: la tabla Mapas y ajustes preestablecidos presenta información en las siguientes columnas:
    - **Mapa**: muestra el título del fichero de mapa DITA.
+   - **Nombre de archivo**: Muestra el nombre de archivo del mapa DITA.
    - **Idioma**: muestra el idioma del mapa DITA.
    - **Preestablecido**: Muestra el tipo de ajuste preestablecido de salida configurado en el archivo de asignación.
+   - **Línea base**: Muestra la línea base que utiliza el ajuste preestablecido de salida.  Si no se utiliza ninguna línea de base, se muestra un guión &quot;-&quot;
    - **Modificado**: indica si el mapa DITA se actualiza después de la última publicación. En función de esta información, puede decidir si desea volver a publicar la salida para este mapa DITA o no.
    - **Última generación**: Muestra la fecha y la hora de la última salida generada.
 
@@ -92,9 +94,36 @@ Para configurar y generar la salida mediante una colección de mapas, realice lo
 
    - Para generar la salida de las asignaciones seleccionadas, seleccione los archivos de asignación y haga clic en **Generar seleccionados**.
    - Para generar la salida de todos los mapas DITA con los ajustes preestablecidos configurados, haga clic en **Generar todo**.
+
    >[!IMPORTANT]
    >
    > Si un proceso de generación de salida para un ajuste preestablecido o un mapa DITA está en cola o en curso, no se puede iniciar otra tarea de generación de salida para el mismo ajuste preestablecido o mapa.
+
+## Configurar las propiedades de los metadatos
+
+En la colección de mapas, puede configurar las propiedades de metadatos de forma masiva para los mapas DITA. Seleccionar **Configurar metadatos**  para abrir **Metadatos del recurso** página. En el **Metadatos del recurso** , todos los mapas presentes en la colección se muestran a la izquierda.
+
+![configurar metadatos](images/map-collection-asset-metadata.png){width="800" align="left"}
+
+Siga estos pasos para configurar las propiedades de los metadatos:
+
+1. Puede elegir las asignaciones para las que desea actualizar los metadatos. De forma predeterminada, se seleccionan todas las asignaciones DITA presentes.
+
+1. Una vez seleccionadas las asignaciones DITA, se pueden ver propiedades como metadatos, programación (desactivación), referencias, estado del documento, etc.
+
+1. Actualice las propiedades de los metadatos.
+
+1. Clic **Guardar y cerrar** en la parte superior para guardar las actualizaciones.
+1. (Opcional) Al actualizar las etiquetas, también puede seleccionar Anexar en el **Guardar y cerrar** desplegable para anexar las nuevas etiquetas a la lista existente.
+1. Clic **Enviar** desde el **Guardar y cerrar** desplegable.
+Las propiedades de metadatos se actualizan para las asignaciones DITA que seleccione de forma masiva en la colección de asignaciones.
+
+>[!NOTE]
+> 
+>Para el **Estado del documento** , puede seleccionar sólo aquellos estados de documento que se permiten en común para todas las asignaciones DITA seleccionadas. Para obtener más información, consulte [**Estado del documento**](./web-editor-document-states.md).
+
+Las propiedades de metadatos están sincronizadas con las propiedades del archivo. Una vez actualizados, puede verlos desde el **Propiedades de archivo** Panel en el editor web.
+
 
 
 ## Eliminar una colección Map o un mapa DITA de la colección Map
@@ -102,7 +131,7 @@ Para configurar y generar la salida mediante una colección de mapas, realice lo
 - Para eliminar una colección de mapas, seleccione una colección en la página Colección de mapas y haga clic en **Eliminar**.
 - Para eliminar un mapa DITA de una colección de mapas, abra la colección de mapas en el modo Edición, seleccione el fichero de mapa DITA y pulse en **Quitar de la colección**.
 
-  De esta forma, también se eliminarán los ajustes preestablecidos o configuraciones regionales asociados al mapa DITA de la recopilación de mapas.
+De esta forma, también se eliminarán los ajustes preestablecidos o configuraciones regionales asociados al mapa DITA de la recopilación de mapas.
 
 
 ## Cancelar una tarea de generación de resultados de una colección de mapas

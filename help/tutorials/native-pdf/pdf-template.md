@@ -2,9 +2,9 @@
 title: Creación y personalización de plantillas de PDF nativas
 description: Obtenga información sobre cómo crear y personalizar plantillas de PDF nativas.
 exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
-source-git-commit: da6ada7329aa338849de86ebfda94587bbc4ab54
+source-git-commit: 9e806ae9a06eb77441e47413981f27f6e69bd2f9
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1161'
 ht-degree: 0%
 
 ---
@@ -136,7 +136,10 @@ Para personalizar una plantilla de PDF, realice los siguientes pasos:
      Además de la apariencia, también puede definir la disposición de los elementos de página, como el encabezado, el pie de página y las áreas de contenido de una página. Para obtener más información sobre cómo personalizar el diseño de una página, consulte [Creación y personalización de diseños de página](components-pdf-template.md#create-customize-page-layout).
 
    * Hojas de estilo: la configuración de la sección Hojas de estilo permite personalizar el aspecto de los componentes del diseño de página, como la TDC, el índice, el glosario, las citas, etc. Además, también se pueden personalizar estilos para el contenido DITA como encabezados, párrafos, listas, etc. Para obtener más información sobre el uso de las hojas de estilo, consulte [Uso de hojas de estilo para personalizar el PDF](components-pdf-template.md#stylesheet-customization).
-   * Recursos: Almacene los archivos de recursos que necesite para personalizar o diseñar plantillas de PDF. Los recursos, como logotipos, fuentes personalizadas, imágenes de fondo y mucho más, se almacenan en Recursos. Para obtener más información sobre el uso de los recursos, consulte [Trabajo con recursos](components-pdf-template.md#work-with-resources).
+   * Recursos: Almacene los archivos de recursos que necesite para personalizar o diseñar plantillas de PDF. Los recursos, como logotipos, fuentes personalizadas, imágenes de fondo y mucho más, se almacenan en Recursos.
+También puede utilizar los recursos presentes en cualquier otra ubicación del repositorio. No es necesario crear recursos duplicados para cada plantilla, sino que se pueden mantener en una carpeta compartida y utilizarlos en todas las plantillas de PDF nativas.
+
+     Para obtener más información sobre el uso de los recursos, consulte [Trabajo con recursos](components-pdf-template.md#work-with-resources).
    * Settings: configure los ajustes de salida para generar un PDF con la plantilla. Esta sección le permite definir la asignación de plantillas para varias páginas de un PDF, la página de inicio del capítulo, los marcadores de impresión, las citas, etc.
 También puede organizar el orden en que deben aparecer en la salida final del PDF.
 Para obtener más información sobre la aplicación de la configuración, consulte [Configuración avanzada del PDF](components-pdf-template.md#advanced-pdf-settings).

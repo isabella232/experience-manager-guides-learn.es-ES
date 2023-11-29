@@ -2,9 +2,9 @@
 title: Configuración de la generación de salida
 description: Obtenga información sobre cómo configurar los ajustes de generación de resultados
 exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
-source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '5340'
+source-wordcount: '5496'
 ht-degree: 1%
 
 ---
@@ -140,6 +140,23 @@ Siga las instrucciones que se indican en [Anulaciones de configuración](downloa
 | PID | Clave de propiedad | Valor de propiedad |
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `aemsite.pagetitle` | Boolean \(true/false\). Si desea generar un resultado utilizando el título de página, establezca esta propiedad en true. De forma predeterminada, se configura para utilizar el nombre de archivo.<br> **Valor predeterminado**: false |
+
+### AEM Configure la dirección URL de la salida del sitio de para utilizar el título del documento
+
+AEM Puede utilizar los títulos de los documentos en la dirección URL de la salida del sitio de la. AEM Si el nombre de archivo no existe o contiene todos los caracteres especiales, puede configurar el sistema para que reemplace los caracteres especiales con un separador en la dirección URL de la salida del sitio de la página de la página de la página de la página de la página de la página de la página de la página de la página de la página de salida. También puede configurarlo para que los reemplace por el nombre del primer tema secundario.
+
+
+Para configurar los nombres de página, realice los siguientes pasos:
+
+1. Siga las instrucciones que se indican en [Anulaciones de configuración](download-install-additional-config-override.md#) para crear el archivo de configuración.
+1. En el archivo de configuración, proporcione los siguientes detalles (propiedad) para configurar los nombres de página de los temas.
+
+| PID | Clave de propiedad | Valor de propiedad |
+|---|------------|--------------|
+| `com.adobe.fmdita.common.SanitizeNodeName` | `nodename.systemDefinedPageName` | Booleano (`true/false`). **Valor predeterminado**: `false` |
+
+Por ejemplo, si la variable *@navtitle* in `<topichead>` tiene todos los caracteres especiales y se establece la variable `aemsite.pagetitle` propiedad a true y, de forma predeterminada, utiliza un separador. Si establece la variable `nodename.systemDefinedPageName` propiedad a true, muestra el nombre del primer tema secundario.
+
 
 ### AEM Configure las reglas de saneamiento de nombres de archivo para crear temas y publicar resultados del sitio de la {#id2164D0KD0XA}
 

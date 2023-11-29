@@ -2,9 +2,9 @@
 title: Otras funciones del editor web
 description: AEM Explore otras funciones del editor web en Guías de la. AEM Aprenda a utilizar estas funciones para mejorar la creación en Guías de.
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
-source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '2136'
+source-wordcount: '2248'
 ht-degree: 0%
 
 ---
@@ -187,6 +187,15 @@ Además del menú contextual de la ruta de exploración, también se puede acced
 
 - Puede acceder al cuadro de diálogo Cambiar nombre de elemento invocando el menú Opciones de un elemento del panel Esquema.
 
+
+
+**Ajustar un elemento**
+
+- El ajuste de un elemento permite agregar una etiqueta de elemento al texto seleccionado. El texto se puede ajustar a cualquier elemento secundario según los estándares DITA. Por ejemplo, si tiene texto debajo de `note` , puede ajustar el texto a un elemento `p` Elemento.
+
+  El **Ajustar elemento** está disponible en el menú contextual de la ruta de exploración del tema. Para envolver un elemento, haga clic con el botón derecho en el elemento y abra el menú contextual. Seleccione el elemento de la lista **Ajustar elemento** diálogo. El texto aparece en el nuevo elemento.
+
+  También puede seleccionar el texto o el elemento en el contenido y, a continuación, seleccionar **Ajustar elemento**  del menú contextual.
 
 **Desenvolver un elemento**
 

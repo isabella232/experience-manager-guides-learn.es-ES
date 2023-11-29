@@ -1,10 +1,10 @@
 ---
 title: Administrar ajustes preestablecidos de salida del perfil global y de carpeta
 description: AEM Obtenga información sobre cómo crear, editar, cambiar el nombre, duplicar y eliminar ajustes preestablecidos de salida de perfil global y de carpeta como usuarios administrativos en las Guías de administración de perfiles.
-exl-id: 40ea464c-16c8-4c95-9c0e-61b6bad95272
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+exl-id: 549c9fe2-77f8-423c-8b3e-b43e56055732
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Realice los siguientes pasos para crear un ajuste preestablecido de salida para 
    - Nombre
    - Target \(para ajuste preestablecido de la base de conocimiento\)
 1. Seleccione el **Añadir a perfil de carpeta** para crear un ajuste preestablecido de salida para el perfil de carpeta relacionado y haga clic en **Añadir**. El ajuste preestablecido se crea y aparece bajo la etiqueta **Output** de todas las asignaciones relacionadas. \( ![](images/global-preset-icon.svg)El icono \) indica un ajuste preestablecido de nivel de perfil de carpeta.
-1. Introduzca los detalles de configuración.
+1. Introduzca los detalles de configuración. Para obtener más información sobre los ajustes preestablecidos de salida, consulte [Explicación de los ajustes preestablecidos de salida](./generate-output-understand-presets.md).
 
    >[!NOTE]
    >

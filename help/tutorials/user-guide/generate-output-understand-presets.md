@@ -1,11 +1,11 @@
 ---
 title: Explicación de los ajustes preestablecidos de salida
 description: AEM Comprenda los ajustes preestablecidos de salida en las guías de la. AEM Cree ajustes preestablecidos de salida desde el editor web y el panel de asignaciones para los formatos de sitio, PDF, HTML 5, EPUB, personalizado y JSON de la.
-exl-id: ff4dedbb-47c4-40c7-950c-51f70d5d4b1b
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+exl-id: 8eaf0765-8b66-47d6-9c40-888495baa711
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 2%
+source-wordcount: '208'
+ht-degree: 1%
 
 ---
 
@@ -34,5 +34,6 @@ En las siguientes secciones se explican las opciones disponibles para los format
 
 - **[JSON](generate-output-json.md)**
 
+Como administrador, Guías del Experience Manager le permite crear y administrar ajustes preestablecidos de salida para los Perfiles global y de carpeta. Para obtener más información, consulte [Administrar ajustes preestablecidos de salida del perfil global y de carpeta](./web-editor-manage-output-presets.md).
 
 **Tema principal:**[ Generación de salida](generate-output.md)

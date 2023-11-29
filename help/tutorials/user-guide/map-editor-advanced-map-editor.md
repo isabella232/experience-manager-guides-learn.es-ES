@@ -1,10 +1,10 @@
 ---
 title: Trabajo con el Editor de mapas avanzado
 description: AEM Aprenda a trabajar con el editor de mapas avanzado en Guías de. Conozca las funciones del editor de mapas avanzado. Editar temas mediante un mapa DITA y utilizar la vista de diseño, la vista de autor y el modo de vista previa.
-exl-id: 4f48d489-d13e-4285-8870-373f0324f5f6
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '3701'
+source-wordcount: '3707'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ Realice los siguientes pasos para crear el archivo de asignación con el Editor 
 
    El tema se añade en el mapa.
 
-   ![](images/map-editor-add-topic.png){width="800" align="left"}
+   ![añadir tema del editor de mapas](images/map-editor-add-topic.png){width="800" align="left"}
 
 1. Para agregar temas subsiguientes o un submapa, arrastre y suelte el tema o submapa en la ubicación requerida del mapa.
 
@@ -231,7 +231,7 @@ El panel Propiedades del contenido contiene información sobre el tipo de tema s
 
 - **Otros atributos** Si el administrador ha creado un perfil para atributos, obtendrá esos atributos junto con sus valores configurados. Con el panel de propiedades de contenido, puede elegir esos atributos y asignarlos al contenido relevante del tema. También puede asignar atributos configurados por el administrador en la variable **Mostrar atributos** pestaña en la configuración del editor. Los atributos definidos para un elemento se muestran en las vistas Diseño y Esquema. Esto le ayuda a echar un vistazo rápido a todos los temas de un mapa para los que se ha definido un atributo en particular. Por ejemplo, todos los temas que tienen el atributo de plataforma definido como &quot;Android&quot;.
 
-  ![](images/layout-inline-attributes.png){width="650" align="left"}
+  ![vista de diseño](images/layout-inline-attributes.png){width="650" align="left"}
 
 
   Para obtener más información, consulte la *Mostrar atributos* dentro de *Configuración del editor* descripción de la función en [Panel izquierdo](web-editor-features.md#id2051EA0M0HS) sección.

@@ -2,9 +2,9 @@
 title: PDF nativo | Generación de salida de PDF
 description: Obtenga información sobre cómo utilizar la publicación de PDF nativos, crear y generar un ajuste preestablecido de salida de PDF, descargar archivos temporales después de generar la salida de PDF AEM nativo y utilizar variables de idioma en las guías de usuario de los idiomas.
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: 4c10f2387208477bd2ba27188e8aeaa6f3a4a661
+source-git-commit: 1305c960df98553edbd1fb65c8f6e8da7c232087
 workflow-type: tm+mt
-source-wordcount: '3264'
+source-wordcount: '3327'
 ht-degree: 0%
 
 ---
@@ -165,8 +165,9 @@ Utilice las siguientes opciones para especificar la configuración avanzada para
 | **Utilizar resolución personalizada (píxeles por pulgada)** | Es la resolución de visualización de la página en píxeles por pulgada. Introduzca un valor preferido en el campo que aparece cuando se selecciona esta opción. El valor predeterminado es 96 píxeles por pulgada. Configure un valor más alto para que quepa más contenido en una pulgada y viceversa, si establece un valor más bajo. |
 | **Mostrar filigrana** | Seleccione esta opción para superponer una marca de agua en la salida. Puede escribir una nueva cadena de texto en el cuadro de texto con la letra mayúscula tal y como desee. <br><br>Utilice texto estático o variables de idioma para publicar la versión localizada de la marca de agua.  Según el idioma elegido, el valor localizado se selecciona automáticamente en la salida del PDF. Por ejemplo, puede imprimir &quot;Publicador&quot; como marca de agua en inglés y &quot;Auteure&quot; en francés.  <br> Formato: `${lng:<variable name>}`. Por ejemplo, `$ {lng:publisher-label}` donde `publisher-label` es una variable de idioma. <br> Pase el ratón sobre <img src="./assets/info-details.svg" alt= "icono de información" width="25"> cerca de la opción para ver más detalles al respecto. |
 | **Habilitar ecuaciones de MathML** | Seleccione esta opción para procesar las ecuaciones de MathML presentes en el contenido. Las ecuaciones se ignorarán de forma predeterminada. |
-| **conformidad del PDF** | Es el estándar en el que desea guardar el PDF para asegurarse de que es compatible. Seleccione en el menú desplegable para elegir entre la lista de estándares de PDF disponibles. Para obtener más información sobre los estándares admitidos, consulte [Acerca de los estándares PDF](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
 | **Descargar archivos temporales** | Seleccione esta opción si desea descargar los archivos de HTML provisionales creados al generar la salida del PDF nativo. Posteriormente, puede descargar los archivos temporales después de generar la salida. |
+| **conformidad del PDF** | Es el estándar en el que desea guardar el PDF para asegurarse de que es compatible. Seleccione en el menú desplegable para elegir entre la lista de estándares de PDF disponibles. Para obtener más información sobre los estándares admitidos, consulte [Acerca de los estándares PDF](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
+| **Propiedades del archivo** | Seleccione las propiedades que desee procesar como metadatos. La lista desplegable enumera las propiedades personalizadas y predeterminadas. Estas propiedades se definen desde la página Propiedades del fichero de mapa DITA o de mapa de libros. Una vez configuradas, estas propiedades también se copian en los temas del mapa. Las propiedades de metadatos seleccionadas se pasarán a la salida generada mediante Native-PDF. |
 
 ## Generar una salida de PDF {#generate-pdf-output}
 

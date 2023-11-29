@@ -2,9 +2,9 @@
 title: Crear y administrar líneas de base desde el editor web
 description: AEM Cree y administre líneas de base desde el editor web en Guías de. Obtenga información sobre cómo crear líneas de base a partir de etiquetas y aplicar filtros a las líneas de base.
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
-source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Puede crear una línea base desde el Editor Web realizando los siguientes pasos:
 1. En el panel Repositorio, abra el fichero de mapa DITA en la vista Mapa.
 1. Haga clic en **Administrar** pestaña. El **Línea base** El panel muestra las líneas de base del mapa DITA.
 
-   ![](images/baseline-manage.png){width="800" align="left"}
+   ![Panel Línea base](images/baseline-manage.png){width="800" align="left"}
 
 1. En el **Línea base** , haga clic en el icono + en la parte superior derecha. Puede crear una línea base con una versión específica de los temas y contenido referenciado disponible en una fecha y hora específicas, o con una etiqueta definida para una versión de los temas.
 1. Introduzca un nombre para la línea base en **Nombre de línea base**.
@@ -56,7 +56,7 @@ Puede crear una línea base desde el Editor Web realizando los siguientes pasos:
 
    Las líneas bases basadas en etiquetas se actualizan dinámicamente. Si genera una línea de base, descarga una línea de base o crea un proyecto de traducción utilizando una línea de base, los archivos se seleccionan dinámicamente en función de las etiquetas actualizadas. Por ejemplo, si ha utilizado la versión 1.2 de un tema con Label Release 1.0 para la línea de base y ha actualizado la versión 1.5 con Label Release 1.0 más adelante, la línea de base se actualizará dinámicamente y se utilizará la versión 1.5.
 
-   ![](images/dynamic-baseline.png){width="550" align="left"}
+   ![Crear una línea base](images/dynamic-baseline.png){width="550" align="left"}
 
    - **Seleccionar etiquetas**: Si los temas tienen etiquetas especificadas, las etiquetas se enumeran en la **Seleccionar etiquetas** desplegable. Puede elegir la etiqueta\(s\) de la lista. Las etiquetas seleccionadas primero reciben una prioridad mayor que las posteriores.
 
@@ -83,7 +83,9 @@ Puede gestionar las líneas base existentes mediante las distintas funciones del
 
   ![opciones de una línea base](images/baseline-options.png){width="800" align="left"}
 
-También se pueden realizar las siguientes operaciones en la instantánea desde el menú Opciones (Options):
+
+
+  También se pueden realizar las siguientes operaciones en la instantánea desde el menú Opciones (Options):
 
 - **Editar**, **Duplicado,** **Cambiar nombre**, o **Eliminar** una línea base existente.
 
@@ -106,7 +108,7 @@ También se pueden realizar las siguientes operaciones en la instantánea desde 
 
 Uso del icono Filtros en la **Filtros de línea base** panel puede aplicar filtros en la línea de base abierta en la ventana de edición de la línea de base:
 
-![](images/baseline-filter.png){width="350" align="left"}
+![filtros de línea base](images/baseline-filter.png){width="300" align="left"}
 
 - Filtre los archivos en función de sus nombres o ubicación.
 - Filtre los archivos en función de los valores de diferentes columnas, como Tipo de archivo, Tipo de referencia, etc.

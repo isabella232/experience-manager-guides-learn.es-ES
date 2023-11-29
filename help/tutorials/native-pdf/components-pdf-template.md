@@ -2,9 +2,9 @@
 title: Función de publicación nativa de PDF | Componentes de una plantilla de PDF
 description: Conozca los distintos componentes de una plantilla de PDF y cómo personalizarlos y configurarlos.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '4859'
+source-wordcount: '4947'
 ht-degree: 0%
 
 ---
@@ -420,6 +420,10 @@ Configure las opciones de producción de impresión para asignar marcas de impre
 
 Utilice el **Referencia cruzada** para definir cómo se publican las referencias cruzadas en el PDF. Puede dar formato a las referencias cruzadas para el título del tema, tablas, ilustraciones, etc.
 
+>[!NOTE]
+>
+> Si ha definido el texto del vínculo al insertar la referencia cruzada, tiene prioridad sobre el formato de referencia cruzada definido en la plantilla del PDF nativo.
+
 También puede utilizar variables para definir una referencia cruzada.  Cuando se utiliza una variable, su valor se selecciona de las propiedades. Puede utilizar una sola variable o una combinación de ellas para definir una referencia cruzada. También puede utilizar una combinación de una cadena y una variable.
 
 Por ejemplo, puede utilizar `View details on {chapter}`. Si el nombre del capítulo es &quot;Configuración general&quot;, la referencia cruzada en la salida es &quot;Ver detalles sobre la configuración general&quot;.
@@ -441,6 +445,22 @@ AEM Guías de proporciona las siguientes variables listas para usarse:
   >
   >Puede crear estilos de numeración automática para las etiquetas caption y figcaption.
 
+#### Formato de referencia cruzada predeterminado
+
+Si deja en blanco el campo de texto y no ha definido el texto del vínculo al insertar una referencia cruzada, Experience Manager Guides agrega las siguientes variables para las referencias cruzadas correspondientes:
+
+* **Título**: `{title}`
+* **Descripción**: `{description}`
+* **Párrafo**: `{bookmarkText}`
+* **Marcador**: `{bookmarkText}`
+* **Figura**: `{captionText}`
+* **Tabla**: `{captionText}`
+
+El orden de prioridad de las referencias cruzadas es el siguiente:
+* Texto del vínculo añadido en las referencias cruzadas
+* Formato de referencia cruzada definido en la plantilla del PDF nativo
+* Formato de referencia cruzada predeterminado
+
 
 #### Variables de idioma en referencias cruzadas
 
@@ -455,11 +475,12 @@ Por ejemplo, puede agregar una variable de idioma &quot;reference-label&quot; y 
 Al agregar `${lng:<variable name>}` en la sección Párrafo, las referencias cruzadas en los párrafos de la salida contienen el texto localizado y el número de página.\
 Por ejemplo, las siguientes capturas de pantalla muestran las referencias cruzadas &quot;Ver en la página 1&quot; en inglés y &quot;Einzelheiten finden Sie auf der Seite 1&quot; en alemán.
 
-<img src="./assets/english-output-corss-reference.png" alt="Resultado en inglés de una referencia cruzada en un párrafo" width ="800" border="2px solid blue">
+<img src="./assets/english-output-corss-reference.png" alt="Resultado en inglés de una referencia cruzada en un párrafo" width ="800" border="2px">
 
 *Una referencia cruzada dentro de un párrafo cuando se publica en inglés.*
 
-<img src="./assets/german-output-corss-reference.png" alt="Resultado alemán de una referencia cruzada en un párrafo" width ="800" border="2px solid blue">
+<img src="./assets/german-output-corss-reference.png" alt="Resultado alemán de una referencia cruzada en un párrafo" width ="800" border="2px">
+
 
 *Una referencia cruzada dentro de un párrafo cuando se publica en alemán.*
 

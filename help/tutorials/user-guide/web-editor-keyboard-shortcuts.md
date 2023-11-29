@@ -2,9 +2,9 @@
 title: Métodos abreviados de teclado en el Editor Web
 description: AEM Descubra los métodos abreviados de teclado que ahorran tiempo en el editor web de Guías de.
 exl-id: d843c5a9-04f8-44f2-9bf5-60cb4ed7fa38
-source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '347'
 ht-degree: 3%
 
 ---
@@ -24,13 +24,16 @@ En el Editor Web se pueden realizar muchas operaciones mediante los métodos abr
 | Aplicar formato de negrita al texto seleccionado | ***Ctrl***+***B*** | ***Comando***+***B*** |
 | Aplicar formato de cursiva al texto seleccionado | ***Ctrl***+***I*** | ***Comando***+***I*** |
 | Aplicar formato de subrayado al texto seleccionado | ***Ctrl***+***U*** | ***Comando***+***U*** |
+| Enfoque en el panel izquierdo | **Ctrl***+**Shift**+***1*** | ***Comando***+**Shift**+***1*** |
+| Enfoque en el panel derecho | **Ctrl***+**Shift**+***2*** | ***Comando***+**Shift**+***2*** |
+| Centrarse en el editor actual | **Ctrl***+**Shift**+***0*** | ***Comando***+**Shift**+***0*** |
 | Guardar documento en la vista Autor o Código fuente | ***Ctrl***+**Shift**+***S*** | ***Comando***+**Shift**+***S*** |
 | Guardar todos los documentos abiertos en la vista Autor o Código fuente | ***Ctrl***+***S*** | ***Comando***+***S*** |
 | Mostrar cuadro de diálogo Insertar elemento | ***Alt***+***Entrar*** | ***Opción***+***Entrar*** |
 | Mostrar cuadro de diálogo Insertar elemento para insertar el elemento antes del elemento seleccionado | ***Alt***+***Shift***+***Entrar*** | ***Opción***+***Shift***+***Entrar*** |
 | Mover el cursor una palabra a la izquierda. | ***Ctrl***+***Flecha izquierda*** | ***Opción***+***Flecha izquierda*** |
 | Mover el cursor una palabra a la derecha. | ***Ctrl***+***Flecha derecha*** | ***Opción***+***Flecha derecha*** |
-| Mover el cursor al principio de la línea actual. | ***Página principal*** | ***Comando***+***Flecha izquierda*** |
+| Mover el cursor al principio de la línea actual. | ***Inicio*** | ***Comando***+***Flecha izquierda*** |
 | Mover el cursor al final de la línea actual. | **Finalizar** | ***Comando***+***Flecha derecha*** |
 | Mover el cursor al principio del siguiente elemento. | ***Pestaña*** | ***Pestaña*** |
 | Aplicar sangría al elemento de la lista al siguiente nivel. | ***Pestaña*** | ***Pestaña*** |

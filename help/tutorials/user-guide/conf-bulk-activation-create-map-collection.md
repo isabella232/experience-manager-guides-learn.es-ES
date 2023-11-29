@@ -1,10 +1,10 @@
 ---
 title: Creación de una colección de mapas de activación masiva
 description: AEM Obtenga información sobre cómo crear una colección de mapas de activación masiva en las guías de.
-exl-id: 7d17fb37-9486-4a3b-a421-08e279c95b6c
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+exl-id: ea0bd465-a2d9-488f-83e9-62b336233eb1
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ La pestaña Mapas y ajustes preestablecidos presenta información en las siguien
   > La pequeña ![](images/global-preset-icon.svg) El icono indica un ajuste preestablecido de nivel de perfil de carpeta.
 - **Modificado**: indica si el mapa DITA se actualiza después de la última publicación. En función de esta información, puede decidir si desea activar o no la salida para este mapa DITA.
 - **Generado**: Muestra la fecha y la hora de la última salida generada.
-- **Publicado**: Muestra la fecha y la hora de la última salida \(o activada\) publicada. Si hace clic en el vínculo, la página Resultados de la activación se muestra con información sobre la ruta raíz en la que se activa el contenido.
+- **Publicado**: Muestra la fecha y la hora de la última salida publicada (o activada). Si selecciona el vínculo, la variable **Resultados de activación** , que contiene los registros con información sobre la ruta raíz en la que se activa el contenido.
 
 
 Las siguientes opciones de filtrado están disponibles en el panel izquierdo:
