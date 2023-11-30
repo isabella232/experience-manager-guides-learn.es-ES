@@ -1,9 +1,10 @@
 ---
 title: Notas de versión | Novedades de la versión de Adobe Experience Manager Guides, noviembre de 2023
 description: Conozca las funciones nuevas y mejoradas de la versión de noviembre de 2023 de las guías de Adobe Experience Manager as a Cloud Service.
-source-git-commit: 6cc5299f8f4566e38c5a8c96e17fadd915f6e206
+exl-id: 83c04e01-92f1-41b0-8866-a202f4106b51
+source-git-commit: 57ff1a3b6ceb9debc8e29065fd37cab21adc1b96
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
@@ -43,6 +44,7 @@ Para obtener más información, consulte [Configuración avanzada del PDF](../na
 ### Administración de recursos mejorada para plantillas de PDF nativas
 
 Las guías del Experience Manager ahora han mejorado la administración de recursos para plantillas de PDF nativas. Ahora puede compartir y reutilizar recursos, como imágenes, archivos CSS y archivos de fuentes, en varias plantillas de PDF nativas. Con esta mejora, la administración de los recursos de un gran conjunto de plantillas es mucho más sencilla. No es necesario crear recursos duplicados para cada plantilla y puede mantenerlos en una carpeta compartida y utilizarlos en todas las plantillas de PDF nativas.
+Para obtener más información, consulte [Plantilla de PDF](../native-pdf/pdf-template.md).
 
 ## Mejoras del editor web
 
@@ -64,6 +66,8 @@ Puede definir atributos de condición en los temas DITA. A continuación, utilic
 
 ![Ajustes preestablecidos de condición desde la pestaña Administrar del editor web ](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
 
+Para obtener más información, consulte [Usar ajustes preestablecidos de condición](../user-guide/generate-output-use-condition-presets.md).
+
 ### Restaurar fichas de archivo al actualizar el explorador
 
 Guías del Experience Manager restaura el estado de las fichas de archivo abiertas en el Editor Web al actualizar el explorador. Para obtener más información, consulte **Actualizar el explorador mientras edita los archivos** sección debajo de [Editar temas en el editor web](../user-guide/web-editor-edit-topics.md).
@@ -78,4 +82,3 @@ Para obtener más información, consulte **Desenvolver un elemento** de la secci
 Las Guías del Experience Manager ahora también permiten utilizar métodos abreviados de teclado para mover el cursor en el Editor Web. Puede utilizar los métodos abreviados del teclado para mover rápidamente una palabra a la izquierda o a la derecha. También puede desplazarse al principio o al final de la línea con la ayuda de los métodos abreviados de teclado.
 Ahora, también puede utilizar métodos abreviados de teclado para mover el cursor al principio del siguiente elemento o al final del elemento anterior.
 Obtenga más información acerca de [métodos abreviados de teclado en el Editor Web](../user-guide/web-editor-keyboard-shortcuts.md).
-
