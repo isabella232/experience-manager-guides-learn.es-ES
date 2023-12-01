@@ -1,10 +1,10 @@
 ---
 title: Flujo de trabajo de generación posterior
-description: Información general sobre el flujo de trabajo de generación posterior con un ejemplo
+description: Resumen del flujo de trabajo de generación posterior con un ejemplo
 exl-id: e19fdc0b-0ec6-46ce-81ed-e9490d12c029
-source-git-commit: 3cfa0a58c5681668fbb3c97dcbe1e8f7e32335fc
+source-git-commit: b8fed051e235146cd797af2524a68d8d2d0f16c6
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '320'
 ht-degree: 2%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 2%
 # AEM Publicación de guías de usuario - Flujo de trabajo de generación posterior
 
 AEM Guías le proporciona la flexibilidad para especificar un flujo de trabajo de generación posterior a la salida. AEM Puede realizar algunas tareas de posprocesamiento en la salida que se genera mediante las guías de.
-Por ejemplo, es posible que desee establecer determinadas propiedades en la salida del PDF o que desee enviar un correo electrónico a un conjunto de usuarios una vez generada la salida.
+Por ejemplo, es posible que desee establecer ciertas propiedades en la salida del PDF o que desee enviar un correo electrónico a un conjunto de usuarios una vez generada la salida.
 
 
 ## ¿Cuáles son los pasos necesarios para utilizar los flujos de trabajo de generación posterior?
@@ -21,7 +21,7 @@ Por ejemplo, es posible que desee establecer determinadas propiedades en la sali
 
 Cree un proceso de flujo de trabajo basado en Java o ECMA que realice la operación en la salida generada. Por ejemplo, copiar algunos metadatos del origen al contenido generado o manipular los metadatos de la salida generada.
 - Tomaremos un ejemplo de creación de un proceso de este tipo mediante el script ECMA (puede consultar el paquete adjunto)
-- Para el proceso de flujo de trabajo basado en Java, consulte la sección &quot;*Personalizar flujo de trabajo de generación posterior a la salida*&quot; de [Guía de instalación y configuración](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_Installation-Configuration-Guide_EN.pdf#page=119)
+- Para el proceso de flujo de trabajo basado en Java, consulte la sección &quot;*Personalizar flujo de trabajo de generación posterior a la salida*&quot; de [Guía de instalación y configuración](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/custom-workflow/customize-workflows.html?lang=en#id17A6GI004Y4)
 
 
 ### Crear un modelo del flujo de trabajo
