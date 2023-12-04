@@ -2,16 +2,16 @@
 title: Generación de resultados con [!DNL AEM Guides]
 description: Generación de resultados con [!DNL Adobe Experience Manager Guides]
 exl-id: 3786dc47-e006-4059-ba8f-4dc66dbbcf71
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 6a35536d55bec04d69d1c296b75b55f034f70186
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 2%
+source-wordcount: '45'
+ht-degree: 0%
 
 ---
 
-# Información general
+# Información general de generación de salida
 
-En este curso, aprenderá a hacer lo siguiente:
+En este conjunto de tutoriales, aprenderá a hacer lo siguiente:
 
 - [Comprensión del tablero de mapas](./introduction-to-the-map-dashboard.md)
 - [Trabajo con informes](./working-with-reports.md)
