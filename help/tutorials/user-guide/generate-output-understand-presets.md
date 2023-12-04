@@ -1,11 +1,10 @@
 ---
 title: Explicación de los ajustes preestablecidos de salida
 description: AEM Comprenda los ajustes preestablecidos de salida en las guías de la. AEM Cree ajustes preestablecidos de salida desde el editor web y el panel de asignaciones para los formatos de sitio, PDF, HTML 5, EPUB, personalizado y JSON de la.
-exl-id: 8eaf0765-8b66-47d6-9c40-888495baa711
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '208'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -26,7 +25,7 @@ En las siguientes secciones se explican las opciones disponibles para los format
 
 - **[PDF](generate-output-pdf.md)**
 
-- **[HTML5](generate-output-html5.md)**
+- **[HTML 5](generate-output-html5.md)**
 
 - **[EPUB](generate-output-epub.md)**
 

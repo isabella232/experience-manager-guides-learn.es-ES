@@ -1,13 +1,12 @@
 ---
 title: Administración de usuarios y seguridad
 description: Descubra cómo funcionan la administración y la seguridad de los usuarios
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 11%
+source-wordcount: '718'
+ht-degree: 10%
 
 ---
-
 
 # Administración de usuarios y seguridad {#id181AED00G5Z}
 
@@ -87,13 +86,13 @@ La siguiente lista contiene algunas recomendaciones y puntos relacionados con gr
 
 - De forma predeterminada, *Editores* Se les concede acceso y permisos en las siguientes carpetas de DAM:
 
-   - ``/var/dxml``–\> Leer y escribir
+   - ``/var/dxml``-\> Lectura y escritura
 
-   - `/content/dam/fmdita-outputs` –\> Leer y escribir
+   - `/content/dam/fmdita-outputs` -\> Lectura y escritura
 
-   - `/content/output/sites` –\> Leer y escribir
+   - `/content/output/sites` -\> Lectura y escritura
 
-   Debe conceder permisos explícitos de lectura y escritura al editor si utiliza cualquier otra ubicación que no sea la predeterminada mencionada anteriormente.
+  Debe conceder permisos explícitos de lectura y escritura al editor si utiliza cualquier otra ubicación que no sea la predeterminada mencionada anteriormente.
 
 - Todos los usuarios en *Autores*, *Revisores*, y *Editores* Los grupos de tienen acceso de lectura a todo el contenido de DAM.
 
@@ -106,4 +105,3 @@ La siguiente lista contiene algunas recomendaciones y puntos relacionados con gr
 - Para otorgar a un usuario derechos para cambiar el estado de un documento, asegúrese de agregar el usuario en la sección de transición de estado del perfil de estado del documento.
 
 [1](#fnsrc_1) If *Autores* y *Editores* están invitados a una revisión.[2](#fnsrc_2) Según los derechos otorgados al usuario en el perfil de estado del documento.
-

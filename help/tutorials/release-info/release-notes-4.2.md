@@ -1,11 +1,10 @@
 ---
 title: Notas de versión | Versión de Adobe Experience Manager Guides 4.2
 description: Obtenga información acerca de las correcciones de errores y cómo actualizar a las versiones 4.2 de las guías de Adobe Experience Manager
-exl-id: 8a7fef77-63af-462f-89c5-054ab31e079b
-source-git-commit: b7a6cb6086e94e2c0cbed8e35ca8d194a4fa36d4
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1338'
-ht-degree: 6%
+source-wordcount: '1391'
+ht-degree: 1%
 
 ---
 
@@ -42,23 +41,23 @@ Paquete de servicio 15, 14, 13 o 12 de la versión 6.5
 
 Para obtener más información, consulte la *Requisitos técnicos* de la guía Instalar y configurar guías de Adobe Experience Manager.
 
-### FrameMaker y FrameMaker Publishing Server
+### FRAMEMAKER y FRAMEMAKER PUBLISHING SERVER
 
-| Edición | FMPS 2022 | FMPS 2020 | Fm 2022 | Fm 2020 |
+| Versión | FMPS 2022 | FMPS 2020 | Fm 2022 | Fm 2020 |
 | --- | --- | --- | --- | --- |
 | 4.2 (no UUID) | 2022 o superior | 2020.2 o superior* | 2022 o superior | 2020.3 o superior |
 | 4.2 (UUID) | 2022 o superior | 2020.2 o superior* | 2022 o superior | 2020.4 o superior |
-|  |  |  |  |
+| | | | |
 
 AEM *La línea de base y las condiciones creadas en la versión de FMPS a partir de 2020.2 son compatibles con las versiones de FMPS.
 
 ### Conector de oxígeno
 
-| Edición | Ventanas de conector de oxígeno | Conector de oxígeno Mac | Editar en ventanas de oxígeno | Editar en Oxygen Mac |
+| Versión | Ventanas de conector de oxígeno | Conector de oxígeno Mac | Editar en ventanas de oxígeno | Editar en Oxygen Mac |
 | --- | --- | --- |--- |--- |
-| 4.2 (no UUID) | 2.1-regular-4 | 2.1-regular-4 | 1.6 | 1.6 |
-| 4.2 (UUID) | 2.8-uuid-8 | 2.8-uuid-8 | 2.3 | 2.3 |
-|  |  |  |
+| 4.2 (no UUID) | 2.1-regular-4 | 2.1-regular-4 | 1,6 | 1,6 |
+| 4.2 (UUID) | 2.8-uuid-8 | 2.8-uuid-8 | 2,3 | 2,3 |
+|  |  |   |
 
 ## Problemas solucionados
 
@@ -134,7 +133,7 @@ A continuación se enumeran los errores corregidos en varias áreas:
 * PDF nativo | Las referencias clave para los keydefs con vínculos de imagen o externos no se resuelven. (10063)
 * PDF nativo | El apéndice se muestra como un capítulo en el PDF generado. (9829)
 * La pestaña Plantilla del editor xml no se muestra a los administradores de perfil de carpeta. (10266)
-* La publicación de línea de base falla para el PDF generado mediante FrameMaker Publishing Server 2020. (10551)
+* La publicación de línea de base falla en el PDF generado mediante FrameMaker Publishing Server 2020. (10551)
 * Error de aplicación al hacer clic en el botón Editar después de seleccionar todos los ajustes preestablecidos mediante la casilla de verificación Ajustes preestablecidos de salida en la ventana emergente Generación rápida. (10388)
 * Si la pestaña Salida del editor web tiene más ajustes preestablecidos, la sección de ajustes preestablecidos no se puede desplazar verticalmente y no muestra todos los ajustes preestablecidos disponibles. (9787)
 * No se pueden eliminar los ajustes preestablecidos del flujo de trabajo de salida al publicar mediante el editor. (9100)

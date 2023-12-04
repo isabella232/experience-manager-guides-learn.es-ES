@@ -1,13 +1,12 @@
 ---
 title: AEM Configure nombres de archivo válidos para la salida del sitio de la
 description: AEM Obtenga información sobre cómo configurar nombres de archivo válidos para la salida del sitio de la
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '146'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
-
 
 # AEM Configure nombres de archivo válidos para la salida del sitio de la {#id214GK0X0KXA}
 
@@ -20,4 +19,3 @@ Siga las instrucciones que se indican en [Anulaciones de configuración](downloa
 | `com.adobe.fmdita.common.SanitizeNodeNameImpl` | `aemsite.DisallowedFileNameChars` | AEM Agregue los caracteres que desee reemplazar con un guion bajo en los nombres de archivo de salida del sitio de la. <br> **Valor predeterminado**: ``'<\>\`@$`` |
 
 **Tema principal:**[ Configurar nombres de archivo](conf-file-names.md)
-

@@ -1,13 +1,12 @@
 ---
 title: Traducir contenido
 description: Aprenda a traducir contenido
-source-git-commit: 4d54c52b8771b0c5a40018cfec3a6586029af2fb
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 18%
+source-wordcount: '651'
+ht-degree: 11%
 
 ---
-
 
 # Traducir contenido {#id181GB0400UI}
 
@@ -22,15 +21,15 @@ La traducción de contenido implica los siguientes pasos:
 
 1. AEM Conéctese con su [proveedor de servicios de traducción](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) y cree configuraciones del marco de trabajo de integración de traducciones.
 
-1. Asociar las páginas del maestro de idioma con el servicio de traducción y las configuraciones del marco de trabajo.
+1. Asocie las páginas del maestro de idioma con el servicio de traducción y las configuraciones del marco de trabajo.
 
 1. Identificar el tipo de [contenido para traducir](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=en).
 
 1. [Preparar el contenido para su traducción](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=en) creando el maestro de idioma y las páginas raíz de las copias de idioma.
 
-1. Crear [proyectos de traducción](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=es) para recopilar el contenido que se va a traducir y preparar el proceso de traducción.
+1. Crear [proyectos de traducción](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) para recopilar el contenido que se va a traducir y preparar el proceso de traducción.
 
-1. Utilice los proyectos de traducción para lo siguiente [administrar la traducción de contenido](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=es) proceso.
+1. Utilice los proyectos de traducción para lo siguiente [administrar la traducción de contenido](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) proceso.
 
 
 AEM AEM Cuando el proveedor de servicios de traducción no proporciona un conector para la integración con la traducción, a continuación, admite la exportación manual y la importación de contenido traducido en formato XML, de forma que se admita el uso de la.
@@ -82,4 +81,3 @@ Siga las instrucciones que se indican en [Anulaciones de configuración](downloa
 | PID | Clave de propiedad | Valor de propiedad |
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | Booleano: <br> - Si no desea ejecutar la operación de posprocesamiento en los archivos temporales, *Deshabilitar* \( false\) la variable **Copias de idioma posteriores al procesamiento** opción.<br> : Si desea ejecutar la operación de posprocesamiento en los archivos temporales, *Activar* \( true\) el **Copias de idioma posteriores al procesamiento** opción.<br> **Valor predeterminado**: false |
-

@@ -1,13 +1,12 @@
 ---
 title: API basadas en Java para trabajar con líneas de base y etiquetas
 description: Obtenga información acerca de las API basadas en Java para trabajar con líneas de base y etiquetas
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '890'
 ht-degree: 0%
 
 ---
-
 
 # API basadas en Java para trabajar con líneas de base y etiquetas {#id175UB30E05Z}
 
@@ -109,4 +108,3 @@ String label) throws GuidesApiException
 **Devuelve**: el mapa con *clave:valor* par de `path:deletedlabels` para todos los archivos de la línea de base.
 
 **Excepción**: lanzamientos ``RepositoryException`, `VersionException`, `Exception``.
-

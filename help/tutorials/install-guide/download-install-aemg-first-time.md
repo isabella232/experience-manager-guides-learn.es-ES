@@ -1,13 +1,12 @@
 ---
 title: AEM Descargar e instalar guías de la comunidad de usuarios por primera vez
 description: AEM Obtenga información sobre cómo descargar e instalar guías de por primera vez
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 2%
+source-wordcount: '232'
+ht-degree: 0%
 
 ---
-
 
 # AEM Descargar e instalar guías de la comunidad de usuarios por primera vez {#id213BCL00KEV}
 
@@ -25,7 +24,7 @@ AEM Realice los siguientes pasos para descargar e instalar guías de recursos po
    http://<server name>:<port>/crx/packmgr/index.jsp
    ```
 
-   AEM El Administrador de paquetes administra los paquetes en la instalación local de la. Para obtener más información sobre cómo trabajar con el Administrador de paquetes, consulte [Cómo trabajar con paquetes](https://helpx.adobe.com/es/experience-manager/6-5/sites/administering/using/package-manager.html) AEM en la documentación de.
+   AEM El Administrador de paquetes administra los paquetes en la instalación local de la. Para obtener más información sobre cómo trabajar con el Administrador de paquetes, consulte [Cómo trabajar con paquetes](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html) AEM en la documentación de.
 
    ![](assets/package-manager.png){width="650" align="left"}
 
@@ -49,4 +48,3 @@ AEM Realice los siguientes pasos para descargar e instalar guías de recursos po
 > AEM Realice el procedimiento de instalación en todas las instancias de los servidores de la instalación de la aplicación de.
 
 **Tema principal:**[ Descargar e instalar](download-install.md)
-

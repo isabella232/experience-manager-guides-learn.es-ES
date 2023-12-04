@@ -1,13 +1,12 @@
 ---
 title: Configuración y personalización de flujos de trabajo
 description: Obtenga información sobre cómo configurar y personalizar flujos de trabajo
-source-git-commit: 9fe396dcfd2e3570ec386c958d7d4efdb4d608e5
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1781'
-ht-degree: 4%
+source-wordcount: '1744'
+ht-degree: 1%
 
 ---
-
 
 # Configuración y personalización de flujos de trabajo {#id181AI0OJ0RO}
 
@@ -15,11 +14,11 @@ Los flujos de trabajo permiten automatizar las actividades \(\) de Adobe Experie
 
 AEM Para obtener más información sobre los flujos de trabajo en la, consulte:
 
-- [Administración de flujos de trabajo](https://helpx.adobe.com/es/experience-manager/6-5/sites/administering/using/workflows.html)
+- [Administración de flujos de trabajo](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)
 
-- Aplicación y participación en flujos de trabajo: [Uso de flujos de trabajo](https://helpx.adobe.com/es/experience-manager/6-5/sites/authoring/using/workflows.html).
+- Aplicación y participación en flujos de trabajo: [Uso de flujos de trabajo](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/workflows.html).
 
-- Creación de modelos de flujo de trabajo y ampliación de funciones de flujo de trabajo: [Desarrollo y ampliación de flujos de trabajo](https://helpx.adobe.com/es/experience-manager/6-5/sites/developing/using/workflows.html).
+- Creación de modelos de flujo de trabajo y ampliación de funciones de flujo de trabajo: [Desarrollo y ampliación de flujos de trabajo](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/workflows.html).
 
 - Mejora del rendimiento de los flujos de trabajo que utilizan recursos de servidor significativos: [Procesamiento de flujo de trabajo simultáneo](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
 
@@ -28,7 +27,7 @@ AEM En las secciones de este tema se describen las distintas personalizaciones q
 
 ## Personalizar flujo de trabajo de revisión {#id176NE0C00HS}
 
-El equipo de creación de contenido de cada organización trabaja de forma específica para satisfacer sus necesidades empresariales. En algunas organizaciones hay un editor dedicado, mientras que otras organizaciones podrían tener un sistema automatizado de revisión editorial. Por ejemplo, en una organización, un flujo de trabajo típico de creación y publicación podría incluir tareas como: cada vez que un autor termina de crear contenido, va automáticamente a los revisores y, cuando se completa la revisión, va al editor para generar el resultado final. AEM AEM En la práctica, las actividades que realice en el contenido y los recursos se pueden combinar en forma de proceso y asignarse a un flujo de trabajo de. AEM Para obtener más información sobre los flujos de trabajo en la, consulte [Administración de flujos de trabajo](https://helpx.adobe.com/es/experience-manager/6-5/sites/administering/using/workflows.html) AEM en la documentación de.
+El equipo de creación de contenido de cada organización trabaja de forma específica para satisfacer sus necesidades empresariales. En algunas organizaciones hay un editor dedicado, mientras que otras organizaciones podrían tener un sistema automatizado de revisión editorial. Por ejemplo, en una organización, un flujo de trabajo típico de creación y publicación podría incluir tareas como: cada vez que un autor termina de crear contenido, va automáticamente a los revisores y, cuando se completa la revisión, va al editor para generar el resultado final. AEM AEM En la práctica, las actividades que realice en el contenido y los recursos se pueden combinar en forma de proceso y asignarse a un flujo de trabajo de. AEM Para obtener más información sobre los flujos de trabajo en la, consulte [Administración de flujos de trabajo](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html) AEM en la documentación de.
 
 AEM Guías de le permite personalizar el flujo de trabajo de revisión predeterminado. Puede utilizar los cuatro procesos personalizados siguientes relacionados con la revisión con el resto de los flujos de trabajo de creación o publicación.
 
@@ -184,7 +183,7 @@ Siga estos pasos para personalizar la variable *Recurso de actualización DAM* f
    jcr:content/metadata/dc:format!=application/xml
    ```
 
-1. Haga clic en **Guardar y cerrar**
+1. Clic **Guardar y cerrar**
 
 
 ## Configurar el flujo de trabajo XML posterior al procesamiento {#id18CJB03J0Y4}
@@ -204,5 +203,4 @@ AEM Las siguientes propiedades rigen la forma en que las guías de recursos ejec
 | Propiedad | Nombre de paquete | Descripción |
 |--------|-----------|-----------|
 | Salidas dinámicas | `com.adobe.fmdita.postprocess.PostProcessObservation` | Para todos los archivos en los que no se ha realizado el posprocesamiento, recupera las referencias salientes analizando los archivos de tema. Se recomienda mantener esta opción desactivada, ya que tiene la posibilidad de sobrecargar el sistema si el número de archivos que se van a procesar es grande. |
-| Subprocesos de procesamiento posterior | `com.adobe.fmdita.config.ConfigManager` | Establece el número de subprocesos de posprocesamiento que se utilizarán para el flujo de trabajo de posprocesamiento. <br>El valor predeterminado es 1. |
-
+| Threads de procesamiento posterior | `com.adobe.fmdita.config.ConfigManager` | Establece el número de subprocesos de posprocesamiento que se utilizarán para el flujo de trabajo de posprocesamiento. <br>El valor predeterminado es 1. |

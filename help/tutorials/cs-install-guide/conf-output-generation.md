@@ -1,11 +1,10 @@
 ---
 title: Configuración de la generación de salida
 description: Obtenga información sobre cómo configurar los ajustes de generación de resultados
-exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '5496'
-ht-degree: 1%
+source-wordcount: '5470'
+ht-degree: 0%
 
 ---
 
@@ -244,7 +243,7 @@ AEM De forma predeterminada, puede buscar una cadena en los títulos solo dentro
 
 AEM Para habilitar la búsqueda, debe configurar el acoplamiento de la estructura de nodos del sitio de la red de distribución de contenido ().
 
-PRECAUCIÓN:
+ATENCIÓN:
 
 Puede buscar hasta 1 MB de contenido plano. Por ejemplo, en la captura de pantalla anterior, puede buscar si el contenido de &lt;p> es &lt;= 1 Mb.
 
@@ -305,7 +304,7 @@ Para añadir los metadatos necesarios en el sistema, realice los siguientes paso
 
 1. Haga clic en **Esquemas de metadatos** mosaico.
 
-   Se muestra la página Formularios de esquema de metadatos.
+   Se muestra la página Forms del esquema de metadatos.
 
 1. Seleccione el **predeterminado** de la lista.
 

@@ -1,13 +1,12 @@
 ---
 title: AEM Verificar la instalación de guías de
 description: AEM Obtenga información sobre cómo verificar la instalación de las guías de
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 5%
+source-wordcount: '128'
+ht-degree: 0%
 
 ---
-
 
 # AEM Verificar la instalación de guías de {#id213BD030FBE}
 
@@ -27,4 +26,3 @@ AEM Una vez que haya instalado las guías de la aplicación, debe comprobar si l
 
 
 **Tema principal:**[ Descargar e instalar](download-install.md)
-

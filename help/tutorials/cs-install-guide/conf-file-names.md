@@ -1,13 +1,12 @@
 ---
 title: Configurar nombres de archivo
 description: Obtenga información sobre cómo configurar nombres de archivo
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 0%
 
 ---
-
 
 # Configurar nombres de archivo {#id214BD010GXA}
 
@@ -18,5 +17,3 @@ En este tema se explica cómo trabajar con nombres de archivo para los archivos 
 - **[Configure Regx para caracteres de nombre de archivo válidos](conf-file-names-valid-regx.md)**
 
 - **[AEM Configure nombres de archivo válidos para la salida del sitio de la](conf-file-names-valid-regx-aem-site-output.md)**
-
-

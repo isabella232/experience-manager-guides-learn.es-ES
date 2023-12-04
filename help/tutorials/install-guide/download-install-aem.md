@@ -1,13 +1,12 @@
 ---
 title: Instalación de Adobe Experience Manager
 description: Obtenga información sobre cómo instalar Adobe Experience Manager
-source-git-commit: 6a8df1d3fe3fc095f1b18aed4546dc723898f0e6
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
-
 
 # Instalación de Adobe Experience Manager {#id213BCI020E8}
 
@@ -35,4 +34,3 @@ AEM Si planea actualizar la instancia de, debe seguir la secuencia indicada:
 > Existen varias recomendaciones de optimización del rendimiento que puede considerar para mejorar el rendimiento del sistema. Consulte [Recommendations para la optimización del rendimiento](download-install-recommend-perf-optimiz.md#) para obtener más información.
 
 **Tema principal:**[ Descargar e instalar](download-install.md)
-

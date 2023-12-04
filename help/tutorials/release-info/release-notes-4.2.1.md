@@ -1,11 +1,10 @@
 ---
 title: Notas de versión | Instrucciones de actualización y problemas corregidos en la versión 4.2.1 de Adobe Experience Manager Guides
 description: Obtenga información acerca de las correcciones de errores y cómo actualizar a las versiones 4.2.1 de las guías de Adobe Experience Manager
-exl-id: 19b23164-4a07-4748-a8c4-1760bfdb2ca6
-source-git-commit: 6d7b17709e7a17c30b544a7f3f3707328431aac0
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 5%
+source-wordcount: '876'
+ht-degree: 1%
 
 ---
 
@@ -44,23 +43,23 @@ Paquete de servicio 15, 14, 13 o 12 de la versión 6.5
 
 Para obtener más información, consulte la *Requisitos técnicos* de la guía Instalar y configurar guías de Adobe Experience Manager.
 
-### FrameMaker y FrameMaker Publishing Server
+### FRAMEMAKER y FRAMEMAKER PUBLISHING SERVER
 
-| Edición | FMPS 2022 | FMPS 2020 | Fm 2022 | Fm 2020 |
+| Versión | FMPS 2022 | FMPS 2020 | Fm 2022 | Fm 2020 |
 | --- | --- | --- | --- | --- |
 | 4.2.1 (no UUID) | 2022 o superior | 2020.2 o superior* | 2022 o superior | 2020.3 o superior |
 | 4.2.1 (UUID) | 2022 o superior | 2020.2 o superior* | 2022 o superior | 2020.4 o superior |
-|  |  |  |  |
+| | | | |
 
 AEM *La línea de base y las condiciones creadas en la versión de FMPS a partir de 2020.2 son compatibles con las versiones de FMPS.
 
 ### Conector de oxígeno
 
-| Edición | Ventanas de conector de oxígeno | Conector de oxígeno Mac | Editar en ventanas de oxígeno | Editar en Oxygen Mac |
+| Versión | Ventanas de conector de oxígeno | Conector de oxígeno Mac | Editar en ventanas de oxígeno | Editar en Oxygen Mac |
 | --- | --- | --- |--- |--- |
-| 4.2.1 (no UUID) | 2.2-regular-3 | 2.2-regular-3 | 1.6 | 1.6 |
-| 4.2.1 (UUID) | 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 |
-|  |  |  |
+| 4.2.1 (no UUID) | 2.2-regular-3 | 2.2-regular-3 | 1,6 | 1,6 |
+| 4.2.1 (UUID) | 2.9-uuid-2 | 2.9-uuid-2 | 2,3 | 2,3 |
+|  |  |   |
 
 ## Problemas solucionados
 

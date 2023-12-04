@@ -1,13 +1,12 @@
 ---
 title: Configurar el valor predeterminado para la vista de etiquetas
 description: Obtenga información sobre cómo configurar el valor predeterminado para la vista de etiquetas
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 0%
 
 ---
-
 
 # Configurar el valor predeterminado para la vista de etiquetas {#id223GN0M0NDC}
 
@@ -35,4 +34,3 @@ AEM Las guías de usuario le permiten configurar el estado predeterminado de la 
 > La preferencia del usuario en el Editor Web para habilitar/deshabilitar la Vista de etiquetas tiene prioridad sobre este valor predeterminado. Por lo tanto, si un usuario habilita la Vista de etiquetas desde el Editor web, permanecerá habilitada incluso en todas las sesiones.
 
 **Tema principal:**[ Personalizar editor web](conf-web-editor.md)
-

@@ -1,13 +1,12 @@
 ---
 title: Migración de contenido no DITA
 description: Obtenga información sobre cómo migrar contenido no DITA
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '2792'
+source-wordcount: '2761'
 ht-degree: 0%
 
 ---
-
 
 # Migración de contenido no DITA {#id181AH0R02HT}
 
@@ -79,17 +78,17 @@ Realice los siguientes pasos para convertir los documentos de Word existentes en
 
    - En el `s2tMap` , especifique la ubicación del archivo de asignación que contiene asignaciones para estilos de documento de Word a elementos DITA. La asignación predeterminada se almacena en el archivo ubicado en:
 
-      ```XML
-      /libs/fmdita/word2dita/word-builtin-styles-style2tagmap.xml
-      ```
+     ```XML
+     /libs/fmdita/word2dita/word-builtin-styles-style2tagmap.xml
+     ```
 
-      >[!NOTE]
-      >
-      > Para obtener más información sobre la estructura de `word-builtin-styles-style2tagmap.xml` y cómo puede personalizarlo, consulte [Asignación de estilo a etiqueta](http://www.dita4publishers.org/docs/repo/org.dita4publishers.word2dita/word2dita/style-to-tag-map-overview.html) in *Guía del usuario de DITA para editores*.
+     >[!NOTE]
+     >
+     > Para obtener más información sobre la estructura de `word-builtin-styles-style2tagmap.xml` y cómo puede personalizarlo, consulte [Asignación de estilo a etiqueta](http://www.dita4publishers.org/docs/repo/org.dita4publishers.word2dita/word2dita/style-to-tag-map-overview.html) in *Guía del usuario de DITA para editores*.
 
    - En el elemento props2Propagate, especifique las propiedades que deben pasarse al mapa DITA. Esta propiedad es necesaria para pasar metadatos predeterminados como dc:title, dc:subject, dam:keywords, dam:category de metadatos de documento a recursos DITA convertidos.
 
-1. Guarde el `w2d_io.xml` archivo.
+1. Guarde el archivo `w2d_io.xml`.
 
 1. Después de configurar los parámetros necesarios en la variable `w2d_io.xml` AEM , inicie sesión en la interfaz de usuario de Assets y ábrala.
 
@@ -102,7 +101,7 @@ Uso del `config` `/config` , puede definir uno o varios bloques de configuracion
 
 ## Migrar documentos de Adobe InDesign {#id195AD0B0K5Z}
 
-AEM Guías de le permite convertir documentos de InDesign. Al igual que FrameMaker, el InDesign también permite crear documentos no estructurados y estructurados. Los documentos no estructurados utilizan los estilos de párrafo y carácter para dar formato al contenido. El documento estructurado utiliza elementos y sus atributos correspondientes.
+AEM Guías de le permite convertir documentos de InDesign. Al igual que el FrameMaker, el InDesign también le permite crear documentos no estructurados y estructurados. Los documentos no estructurados utilizan los estilos de párrafo y carácter para dar formato al contenido. El documento estructurado utiliza elementos y sus atributos correspondientes.
 
 El proceso de conversión requiere la asignación de los formatos de estilo de párrafo y carácter a los elementos DITA relevantes. Del mismo modo, en el caso de los documentos estructurados, el fichero de asignación contendrá una asignación uno a uno de elementos y atributos de InDesign con elementos y atributos DITA.
 
@@ -141,15 +140,15 @@ Realice los siguientes pasos para convertir los documentos de InDesign existente
 
    - En el `mapStyle` , especifique la ubicación del fichero de mapa que contiene asignaciones para estilos de documento de InDesign a elementos DITA. La asignación predeterminada se almacena en el archivo ubicado en:
 
-      ```XML
-      /stmap.adobeidml.xml
-      ```
+     ```XML
+     /stmap.adobeidml.xml
+     ```
 
-      >[!NOTE]
-      >
-      > Para obtener más información sobre la estructura de `stmap.adobeidml.xml` y cómo puede personalizarlo, consulte el [Preparar el archivo de asignación para la migración de InDesign a DITA](appendix.md#id194AF0003HT) sección en *Apéndice*.
+     >[!NOTE]
+     >
+     > Para obtener más información sobre la estructura de `stmap.adobeidml.xml` y cómo puede personalizarlo, consulte el [Preparar el archivo de asignación para la migración de InDesign a DITA](appendix.md#id194AF0003HT) sección en *Apéndice*.
 
-1. Guarde el `idml2dita_io.xml` archivo.
+1. Guarde el archivo `idml2dita_io.xml`.
 
 1. Después de configurar los parámetros necesarios en la variable `idml2dita_io.xml` AEM , inicie sesión en la interfaz de usuario de Assets y ábrala.
 
@@ -175,42 +174,42 @@ Se deben tener en cuenta los siguientes puntos a la hora de cargar los documento
 
 - Cree un archivo index.html y agregue vínculos a los temas que desee agregar en el índice. Este fichero index.html se utiliza para crear el fichero de mapa DITA. En el archivo index.html, también puede crear una lista de temas anidados como se muestra en el siguiente ejemplo de código:
 
-   ```XML
-   <?xml version="1.0" encoding="UTF-8"?>
-   <html
-   xmlns="http://www.w3.org/1999/xhtml">
-       <head>
-           <title>Sample Index File</title>
-       </head>
-       <body>
-           <h1>Sample Index</h1>
-           <div class="content">
-               <ul class="book">
-                   <li class="topicref">
-                       <a href="Topic1.html">Topic 1</a>
-                       <ul class="book">
-                           <li class="topicref">
-                               <a href="Topic1-1.html">Topic 1.1</a>
-                           </li>
-                           <li class="topicref">
-                               <a href="Topic1-2.html">Topic 1.2</a>
-                           </li>
-                       </ul>
-                   </li>
-                   <li class="topicref">
-                       <a href="Topic2.html">Topic 2</a>
-                   </li>
-               </ul>
-           </div>
-       </body>
-   </html>
-   ```
+  ```XML
+  <?xml version="1.0" encoding="UTF-8"?>
+  <html
+  xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+          <title>Sample Index File</title>
+      </head>
+      <body>
+          <h1>Sample Index</h1>
+          <div class="content">
+              <ul class="book">
+                  <li class="topicref">
+                      <a href="Topic1.html">Topic 1</a>
+                      <ul class="book">
+                          <li class="topicref">
+                              <a href="Topic1-1.html">Topic 1.1</a>
+                          </li>
+                          <li class="topicref">
+                              <a href="Topic1-2.html">Topic 1.2</a>
+                          </li>
+                      </ul>
+                  </li>
+                  <li class="topicref">
+                      <a href="Topic2.html">Topic 2</a>
+                  </li>
+              </ul>
+          </div>
+      </body>
+  </html>
+  ```
 
-   Observe que cada `ul` la etiqueta debe tener el valor `class` atributo establecido en `book`. Del mismo modo, cada `li` de la etiqueta `class` se debe establecer en `topicref`.
+  Observe que cada `ul` la etiqueta debe tener el valor `class` atributo establecido en `book`. Del mismo modo, cada `li` de la etiqueta `class` se debe establecer en `topicref`.
 
 - Si utiliza estilos en línea, convierta los estilos en línea a clases de estilos basadas en CSS en el archivo XHTML. A continuación, utilice la asignación de atributos de estilo para convertir estos estilos basados en clases a DITA `outputclass` en el fichero DITA convertido.
 
-   Al generar la salida del HTML AEM o del sitio de la a partir de estos archivos DITA, la variable `outputclass` Los atributos de se pueden utilizar para aplicar la clase de estilo en el HTML AEM o sitio de la aplicación generado para que coincida con el contenido del HTML de origen.
+  Al generar la salida del HTML AEM o del sitio de la a partir de estos archivos DITA, la variable `outputclass` Los atributos de se pueden utilizar para aplicar la clase de estilo en el HTML AEM o sitio de la aplicación generado para que coincida con el contenido del HTML de origen.
 
 
 Aparte de las consideraciones para crear el archivo ZIP, el documento XHTML también debe estar bien estructurado. Por ejemplo, el documento debe tener un *Título*, seguido de *Encabezado 1*, *Encabezado 2*, etc. Cada uno de los encabezados debe tener algún contenido. Si el documento no está bien estructurado, es posible que el proceso de migración no funcione según lo esperado.
@@ -237,7 +236,7 @@ Para convertir el documento XHTML existente en un tema DITA, realice los siguien
 
    - Para el `createRev` , especifique si se va a crear una nueva versión del tema DITA convertido \(`true`\) o no \(`false`\).
 
-1. Guarde el `h2d_io.xml` archivo.
+1. Guarde el archivo `h2d_io.xml`.
 
 1. Después de configurar los parámetros necesarios en la variable `h2d_io.xml` AEM , inicie sesión en la interfaz de usuario de Assets y ábrala.
 
@@ -266,7 +265,7 @@ Uso del `<config> </config>` , puede definir uno o varios bloques de configuraci
 
 ## Migrar documentos de FrameMaker no estructurados {#id1949B050VUI}
 
-AEM Guías de le permite convertir el FrameMaker desestructurado existente \(`.fm` y `.book`\) documentos en documentos DITA. El primer paso es crear asignaciones de estilos mediante FrameMaker y guardar esa configuración en un archivo .sts. A continuación, si está utilizando DITA personalizado, puede asignar los elementos personalizados con los formatos de origen de FrameMaker en `ditaElems.xml` archivo. Por ejemplo, si ha creado un elemento personalizado denominado `impnote` para gestionar todas las notas importantes, puede definir este elemento personalizado en la variable `ditaElems.xml` archivo. AEM Una vez definido este elemento personalizado, las guías de usuario no generarían un error al convertir el documento de FrameMaker que contiene `impnote` Elemento.
+AEM Guías de le permite convertir el FrameMaker desestructurado existente \(`.fm` y `.book`\) documentos en documentos DITA. El primer paso es crear asignaciones de estilos mediante el FrameMaker y guardar esa configuración en un archivo .sts. A continuación, si utiliza DITA personalizado, puede asignar los elementos personalizados con los formatos de FrameMaker de origen en la `ditaElems.xml` archivo. Por ejemplo, si ha creado un elemento personalizado denominado `impnote` para gestionar todas las notas importantes, puede definir este elemento personalizado en la variable `ditaElems.xml` archivo. AEM Una vez definido este elemento personalizado, las guías de recursos no generarían un error al convertir el documento de FrameMaker que contiene `impnote` Elemento.
 
 Además, si desea especificar atributos adicionales con el elemento DITA personalizado o válido, puede definirlos en el archivo style2attrMap.xml. Por ejemplo, puede especificar la variable `type` atributo con el valor de `important` que se transmitirá con el `impnote` Elemento. Esta información adicional se puede especificar en el archivo style2attrMap.xml.
 
@@ -274,7 +273,7 @@ Además de especificar
 
 Para convertir los documentos de FrameMaker no estructurados existentes al formato DITA, realice los siguientes pasos:
 
-1. Cree asignaciones de estilos en FrameMaker y guarde esa configuración en un archivo .sts.
+1. Cree asignaciones de estilos en el FrameMaker y guarde esa configuración en un archivo .sts.
 
 1. AEM Inicie sesión en la aplicación y abra el modo CRXDE Lite.
 
@@ -310,7 +309,7 @@ Para convertir los documentos de FrameMaker no estructurados existentes al forma
 
    - En el `ditaVal` , especifique el valor del atributo asignado. Si no tiene ningún valor, puede dejar esta entrada en blanco.
 
-1. Guarde el `style2attrMap.xml` archivo.
+1. Guarde el archivo `style2attrMap.xml`.
 
 1. Después de configurar los parámetros necesarios en la variable `style2attrMap.xml` AEM , inicie sesión en la interfaz de usuario de Assets y ábrala.
 
@@ -322,7 +321,7 @@ Para convertir los documentos de FrameMaker no estructurados existentes al forma
 
    >[!NOTE]
    >
-   > Debe utilizar el mismo archivo de configuración \(.sts\) que creó en FrameMaker. Especifique también el Nombre de configuración y la Ruta de destino.
+   > Debe utilizar el mismo archivo de configuración \(.sts\) que creó en el FrameMaker. Especifique también el Nombre de configuración y la Ruta de destino.
 
 1. Haga clic en **Generar** para iniciar el proceso de generación de resultados.
 
@@ -361,7 +360,7 @@ Para convertir los documentos estructurados existentes al formato DITA, realice 
 
    - Para el `createRev` , especifique si se va a crear una nueva versión del tema DITA convertido \(`true`\) o no \(`false`\).
 
-1. Guarde el `XSLConfig.xml` archivo.
+1. Guarde el archivo `XSLConfig.xml`.
 
 1. Después de configurar los parámetros necesarios en la variable `XSLConfig.xml` AEM , inicie sesión en la interfaz de usuario de Assets y ábrala.
 
@@ -373,4 +372,3 @@ Para convertir los documentos estructurados existentes al formato DITA, realice 
 Uso del `<config> </config>` , puede definir uno o varios bloques de configuraciones para la conversión. El flujo de trabajo de conversión se ejecuta y la salida final en forma de tema DITA se guarda en la ubicación especificada en la `outputDir` Elemento.
 
 **Tema principal:**[ Migrar contenido existente](migrate-content.md)
-

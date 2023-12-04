@@ -1,9 +1,9 @@
 ---
 title: Notas de versión | Adobe Experience Manager Guides as a Cloud Service, versión de abril de 2023
 description: Lanzamiento de abril de 2023 de Adobe Experience Manager Guides as a Cloud Service
-source-git-commit: 4bb9ce2690a2e76a5b2a93b65db7dd452e15d295
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -38,8 +38,7 @@ La vista Esquema proporciona las siguientes mejoras:
 
 ## AEM Publicación basada en microservicios para Guías de as a Cloud Service
 
-AEM Guides as a Cloud Service de proporciona la función para ejecutar grandes cargas de trabajo de publicación simultáneamente con publicaciones basadas en microservicios y aprovechar la plataforma sin servidor de Adobe I/O Runtime líder en el sector.
+AEM Guides as a Cloud Service proporciona la función para ejecutar grandes cargas de trabajo de publicación simultáneamente con publicaciones basadas en microservicios y aprovechar la plataforma sin servidor de Adobe I/O Runtime líder en el sector.
 
 Ahora, en la versión de abril, puede ejecutar varias solicitudes de publicación simultáneamente y generar salidas de PDF masivas de forma muy eficaz mediante la publicación de PDF nativos basada en microservicios.
 Para obtener más información, consulte [AEM Configuración de una nueva publicación basada en microservicios para guías de la aplicación de la as a Cloud Service](../knowledge-base/publishing/configure-microservices.md).
-

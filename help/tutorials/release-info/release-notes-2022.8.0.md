@@ -1,11 +1,10 @@
 ---
 title: Notas de versión | Versión as a Cloud Service de las guías de Adobe Experience Manager, agosto de 2022
 description: Versión de agosto de Adobe Experience Manager Guides as a Cloud Service
-exl-id: a01bfe8a-4715-438c-bb94-aa1d31f6662d
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1156'
-ht-degree: 2%
+source-wordcount: '1169'
+ht-degree: 0%
 
 ---
 
@@ -14,20 +13,20 @@ ht-degree: 2%
 ## Actualización a la versión de agosto
 
 Actualice las guías de Adobe Experience Manager actuales as a Cloud Service (más adelante denominadas *AEM Guías de as a Cloud Service*) realizando los siguientes pasos:
-1. Consulte el código Git de los Cloud Services y cambie a la rama configurada en la canalización de Cloud Services correspondiente al entorno que desee actualizar.
-1. Actualizar `<dox.version>` propiedad en `/dox/dox.installer/pom.xml` de su código Git de Cloud Services a 2022.8.167.
-1. Confirme los cambios y ejecute la canalización de Cloud Services AEM para actualizar a la versión de agosto de las guías de la aplicación as a Cloud Service de la.
+1. Consulte el código Git de los Cloud Service y cambie a la rama configurada en la canalización de Cloud Service correspondiente al entorno que desee actualizar.
+1. Actualizar `<dox.version>` propiedad en `/dox/dox.installer/pom.xml` de su código Git de Cloud Service a 2022.8.167.
+1. Confirme los cambios y ejecute la canalización de Cloud Service AEM para actualizar a la versión de agosto de las guías de la aplicación as a Cloud Service de la.
 
 ## Matriz de compatibilidad
 
 AEM En esta sección se muestra la matriz de compatibilidad para las aplicaciones de software compatibles con las guías de la versión de Agosto de 2022 as a Cloud Service por las Guías de.
 
-### FrameMaker y FrameMaker Publishing Server
+### FRAMEMAKER y FRAMEMAKER PUBLISHING SERVER
 
 | FMPS | FrameMaker |
 | --- | --- |
 | No compatible | Actualización 4 de 2020 y posterior |
-|  |  |
+| | |
 
 AEM *La línea de base y las condiciones creadas en la versión de FMPS a partir de 2020.2 son compatibles con las versiones de FMPS.
 
@@ -105,7 +104,7 @@ A continuación se enumeran los errores corregidos en varias áreas:
 * No se pueden arrastrar y soltar plantillas de temas o asignaciones desde **Plantillas** a la plantilla de asignación personalizada en el editor web. (9846)
 * No se puede crear un nuevo tema o plantilla de mapa en la subcarpeta de un mapa o plantilla de tema. (9888)
 * No hay ninguna opción para examinar los temas o mapas presentes dentro de las subcarpetas de un mapa o plantilla de tema. (9889)
-* Cuando se actualiza y se guarda un fichero de Schematron junto con el fichero DITA, no se muestra el panel derecho (si el fichero DITA rompe las validaciones presentes en el fichero de Schematron). (9986)
+* Cuando se actualiza y se guarda un fichero de Schematron junto con el fichero DITA, no se muestra el panel derecho (si el fichero DITA rompe las validaciones presentes en el fichero de Schematron). (986)
 * Se puede crear un nuevo ajuste preestablecido de salida duplicado si su nombre es el mismo que el de un ajuste preestablecido existente. (9997)
 * Las imágenes de SVG se dañan y no se publican correctamente al generar la salida del HTML. (9949)
 
@@ -120,11 +119,11 @@ Utilice la solución dada para los siguientes problemas conocidos:
 
 * La vista Presentación no está visible en el editor de mapas.
 
-   **Solución**: Actualice ui_config.json en el Perfil de carpetas.
+  **Solución**: Actualice ui_config.json en el Perfil de carpetas.
 
 * Symbols.json se sobrescribe, por lo que se produce el problema 8919.
 
-   **Solución**: el archivo symbol.json actualizado debe combinarse con el archivo symbol.json anulado.
+  **Solución**: el archivo symbol.json actualizado debe combinarse con el archivo symbol.json anulado.
 
 ### Otros problemas conocidos
 

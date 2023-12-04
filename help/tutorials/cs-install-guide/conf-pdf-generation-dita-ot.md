@@ -1,13 +1,12 @@
 ---
 title: Configuración de la generación de PDF de tema único
 description: Obtenga información sobre cómo configurar la generación de PDF de un solo tema
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
-
 
 # Configuración de la generación de PDF de tema único {#id22ADC70M0XA}
 
@@ -57,4 +56,3 @@ Para activar la generación del PDF antiguo mediante DITA-OT desde el modo de vi
 Después de realizar los pasos dados anteriormente, si elige el mismo perfil de carpeta de Preferencias de usuario en el Editor Web, verá la opción de generación de PDF en el modo de vista previa de un tema.
 
 **Tema principal:**[ Personalizar editor web](conf-web-editor.md)
-

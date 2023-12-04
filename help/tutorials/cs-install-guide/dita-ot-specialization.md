@@ -1,13 +1,12 @@
 ---
 title: Utilizar la especialización personalizada DITA-OT y DITA
 description: Aprenda a utilizar la especialización personalizada DITA-OT y DITA
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '1697'
 ht-degree: 0%
 
 ---
-
 
 # Utilizar la especialización personalizada DITA-OT y DITA {#id181GAJ0005Z}
 
@@ -141,5 +140,3 @@ AEM Realice los siguientes pasos para crear un nuevo perfil y configurarlo para 
    Para obtener más información sobre otras propiedades de la página Perfiles, consulte la tabla de propiedades en [Paso 6](#id17A9F0D075Z) de la [Uso de complementos DITA-OT personalizados](#id181NH1020L7) sección.
 
 1. Clic **Listo** para guardar el perfil.
-
-

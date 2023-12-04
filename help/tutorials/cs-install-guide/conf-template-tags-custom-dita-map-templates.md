@@ -1,13 +1,12 @@
 ---
 title: Configuración de una plantilla de mapa DITA personalizada
 description: Obtenga información sobre cómo configurar una plantilla de mapa DITA personalizada
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 1%
 
 ---
-
 
 # Configuración de una plantilla de mapa DITA personalizada {#id1774F04F05Z}
 
@@ -53,4 +52,3 @@ La próxima vez que cree un nuevo mapa, la plantilla se mostrará en la página 
 > Consulte *las plantillas personalizadas* de la guía de prácticas recomendadas para conocer las prácticas recomendadas sobre el uso de plantillas de mapas personalizadas.
 
 **Tema principal:**[ Configuración de plantillas de temas y mapas](conf-template-tags.md)
-

@@ -1,10 +1,10 @@
 ---
 title: Configuración de la generación de salida
 description: Obtenga información sobre cómo configurar los ajustes de generación de resultados
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '5761'
-ht-degree: 1%
+source-wordcount: '5762'
+ht-degree: 0%
 
 ---
 
@@ -37,9 +37,9 @@ El **Ocultar ficha Línea base** La opción no está activada de forma predeterm
    > Esta configuración está desactivada de forma predeterminada y la pestaña Línea base está disponible en el panel de asignaciones.
 
 
-## Configurar FrameMaker Publishing Server {#id1678G0Z0TN6}
+## Configuración del FrameMaker Publishing Server {#id1678G0Z0TN6}
 
-Puede utilizar FrameMaker Publishing Server \(FMPS\) para generar resultados para el contenido DITA. La configuración de FMPS le permite generar salidas en varios formatos compatibles con FMPS.
+Puede utilizar el FrameMaker Publishing Server \(FMPS\) para generar resultados para el contenido DITA. La configuración de FMPS le permite generar salidas en varios formatos compatibles con FMPS.
 
 >[!NOTE]
 >
@@ -53,13 +53,13 @@ AEM Para configurar las guías de la para que utilicen FMPS, actualice las sigui
 
 | Propiedad | Descripción |
 |--------|-----------|
-| Dominio de inicio de sesión de FrameMaker Publishing Server | Especifique el nombre de dominio o el nombre del grupo de trabajo en el que está alojado FrameMaker Publishing Server. En función de la versión de FMPS, proporcione el nombre de dominio como:   **FMPS 2020**: Dirección IP 192.168.1.101 <br>- **FMPS 2019 y anteriores**: dirección IP o nombre de dominio |
-| URL de FrameMaker Publishing Server | Especifique la URL de FrameMaker Publishing Server. En función de la versión de FMPS, proporcione la URL de FMPS como:<br>- **FMPS 2020**: `http://<fmps_ip>:<port>` \(http://192.168.1.101:7000\) <br> - **FMPS 2019 y anteriores**: `http://<fmps_ip>:<port>/fmserver/v1/` |
-| Versión de FMPS | Especifique el número de versión de FrameMaker Publishing Server. En función de la versión de FMPS, proporcione la información de la versión como: <br>- **FMPS 2020**: 2020 <br> - **FMPS 2019 y anteriores**: 2019 o 2017 |
-| Nombre de usuario y contraseña de FrameMaker Publishing Server | Especifique el nombre de usuario y la contraseña para acceder a FrameMaker Publishing Server. |
-| Tiempo de espera de FMPS | \(*Opcional* AEM \) Especifique el tiempo \(en segundos\) durante el que Guías de la aplicación espera una respuesta de FrameMaker Publishing Server. AEM Si no se recibe ninguna respuesta en el tiempo especificado, Guías de publicación finaliza la tarea de publicación y la tarea se marca como fallida. <br> Valor predeterminado: 300 segundos \(5 minutos\) |
-| AEM Dirección URL externa | *\(Opcional\)* AEM Dirección URL donde el servidor de publicación de FrameMaker colocará los archivos de salida generados. Por ejemplo, `http://<server-name>:<port>/`. |
-| AEM Nombre de usuario y contraseña de administrador | *\(Opcional\)* AEM El nombre de usuario y la contraseña de un administrador de la configuración de su. AEM FrameMaker Publishing Server lo utilizará para comunicarse con los usuarios de la aplicación de forma que puedan comunicarse con el servidor de publicación de. |
+| Dominio de inicio de sesión de FrameMaker Publishing Server | Especifique el nombre de dominio o el nombre del grupo de trabajo en el que está alojado el FrameMaker Publishing Server. En función de la versión de FMPS, proporcione el nombre de dominio como:   **FMPS 2020**: Dirección IP 192.168.1.101 <br>- **FMPS 2019 y anteriores**: dirección IP o nombre de dominio |
+| URL de FrameMaker Publishing Server | Especifique la dirección URL del FrameMaker Publishing Server. En función de la versión de FMPS, proporcione la URL de FMPS como:<br>- **FMPS 2020**: `http://<fmps_ip>:<port>` \(http://192.168.1.101:7000\) <br> - **FMPS 2019 y anteriores**: `http://<fmps_ip>:<port>/fmserver/v1/` |
+| Versión de FMPS | Especifique el número de versión del FrameMaker Publishing Server. En función de la versión de FMPS, proporcione la información de la versión como: <br>- **FMPS 2020**: 2020 <br> - **FMPS 2019 y anteriores**: 2019 o 2017 |
+| Nombre de usuario y contraseña de FrameMaker Publishing Server | Especifique el nombre de usuario y la contraseña para acceder al FrameMaker Publishing Server. |
+| Tiempo de espera de FMPS | \(*Opcional* AEM \) Especifique el tiempo \(en segundos\) durante el que Guías de la aplicación espera una respuesta del FrameMaker Publishing Server. AEM Si no se recibe ninguna respuesta en el tiempo especificado, Guías de publicación finaliza la tarea de publicación y la tarea se marca como fallida. <br> Valor predeterminado: 300 segundos \(5 minutos\) |
+| AEM Dirección URL externa | *\(Opcional\)* AEM Dirección URL donde el FrameMaker Publishing Server colocará los archivos de salida generados. Por ejemplo, `http://<server-name>:<port>/`. |
+| AEM Nombre de usuario y contraseña de administrador | *\(Opcional\)* AEM El nombre de usuario y la contraseña de un administrador de la configuración de su. El FrameMaker Publishing Server AEM utilizará esto para comunicarse con los usuarios de la red de área de trabajo de la red de área de trabajo. |
 | Tiempo de espera de ejecución de tarea FMPS | Esta configuración solo es aplicable a FMPS 2020. Especifique el tiempo \(en segundos\) después del cual FMPS dejará de esperar a que se ejecute este proceso. |
 
 ## AEM Configuración de la publicación combinada en un sitio de existente {#id1691I0V0MGR}
@@ -371,7 +371,7 @@ Para añadir los metadatos necesarios en el sistema, realice los siguientes paso
 
 1. Haga clic en **Esquemas de metadatos** mosaico.
 
-   Se muestra la página Formularios de esquema de metadatos.
+   Se muestra la página Forms del esquema de metadatos.
 
 1. Seleccione el **predeterminado** de la lista.
 
@@ -638,11 +638,11 @@ AEM Guías de proporciona la `apps.fmdita.dashboard-extn` categoría para person
 
 >[!NOTE]
 >
-> AEM Para obtener más información sobre la creación de la biblioteca de cliente de, consulte [Uso de bibliotecas del lado del cliente](https://helpx.adobe.com/es/experience-manager/6-4/sites/developing/using/clientlibs.html).
+> AEM Para obtener más información sobre la creación de la biblioteca de cliente de, consulte [Uso de bibliotecas del lado del cliente](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/clientlibs.html).
 
 ## Controlar la representación de imágenes durante la generación de salida {#id177BF0G0VY4}
 
-AEM viene con un conjunto de flujos de trabajo predeterminados y controladores de medios para procesar recursos. AEM En la práctica, hay flujos de trabajo predefinidos para gestionar el procesamiento de recursos para los tipos MIME más comunes. AEM Normalmente, para cada imagen que carga, se crean varias representaciones de la misma en formato binario, lo que hace que la imagen se cree más de una vez. Estas representaciones pueden tener un tamaño diferente, con una resolución diferente, con una marca de agua agregada o cualquier otra característica modificada. AEM Para obtener más información sobre cómo gestiona los recursos los recursos, consulte [Processing Assets Using Media Handlers and Workflows](https://helpx.adobe.com/experience-manager/6-5/assets/using/media-handlers.html) AEM en la documentación de.
+AEM viene con un conjunto de flujos de trabajo predeterminados y controladores de medios para procesar recursos. AEM En la práctica, hay flujos de trabajo predefinidos para gestionar el procesamiento de recursos para los tipos MIME más comunes. AEM Normalmente, para cada imagen que carga, se crean varias representaciones de la misma en formato binario, lo que hace que la imagen se cree más de una vez. Estas representaciones pueden tener un tamaño diferente, con una resolución diferente, con una marca de agua agregada o cualquier otra característica modificada. AEM Para obtener más información sobre cómo gestiona los recursos los recursos, consulte [Procesamiento de recursos mediante controladores de medios y flujos de trabajo](https://helpx.adobe.com/experience-manager/6-5/assets/using/media-handlers.html) AEM en la documentación de.
 
 AEM Guías de le permite configurar qué representación de imagen utilizar en el momento de generar la salida para los documentos. Por ejemplo, puede elegir una de las representaciones de imágenes predeterminadas o crear una y utilizar la misma para publicar los documentos. La asignación de representación de imágenes para publicar los documentos se almacena en `/libs/fmdita/config/ **renditionmap.xml**` archivo. Un fragmento de `renditionmap.xml` es el siguiente:
 
@@ -726,4 +726,3 @@ Se puede cambiar el número máximo de salidas generadas que se muestran en la f
 AEM Guías de le permite configurar el tamaño del grupo de procesos de generación de salida que controla el número de procesos de generación de salida que se ejecutan simultáneamente. De forma predeterminada, el tamaño del grupo de procesos está establecido en el número de núcleos de procesamiento disponibles en el sistema más uno. Puede que desee cambiar este valor a 1 si desea una publicación secuencial. En este caso, se ejecuta la primera tarea de publicación y la siguiente tarea de publicación se almacena en la cola de publicación.
 
 Para cambiar el tamaño del grupo de procesamiento de generación de salida, actualice el **Tamaño del grupo de generación** configuración en la `com.adobe.fmdita.publish.manager.PublishThreadManagerImpl` paquete.
-

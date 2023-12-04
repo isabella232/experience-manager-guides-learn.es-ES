@@ -1,13 +1,12 @@
 ---
 title: Configurar la solicitud para proteger un archivo al cerrar
 description: Obtenga información sobre cómo configurar el mensaje para proteger un archivo al cerrar
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 1%
 
 ---
-
 
 # Configurar la solicitud para proteger un archivo al cerrar {#id222HC040PE8}
 
@@ -35,4 +34,3 @@ Cuando esta configuración está habilitada, la variable **Desbloquear el archiv
 Para obtener más información, consulte *Escenarios de archivo, cerrar y guardar* de la guía as a Cloud Service Uso de guías de Adobe Experience Manager.
 
 **Tema principal:**[ Personalizar editor web](conf-web-editor.md)
-

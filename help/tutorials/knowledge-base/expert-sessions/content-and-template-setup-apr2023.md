@@ -1,9 +1,9 @@
 ---
 title: Configuración de contenido y plantillas
 description: AEM Descubra qué se debe tener en cuenta para configurar el contenido y las plantillas en las guías de la.
-source-git-commit: 87c92776f417aba49096b447baf81916dea5d57f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '275'
 ht-degree: 1%
 
 ---
@@ -58,8 +58,7 @@ En esta sesión, aprendió lo siguiente:
 >
 > AEM Las funciones que se muestran en esta sesión están disponibles en las siguientes versiones de las Guías de:
 > - Local: 4.2 o posterior
-> - Cloud Services: 2303 o posterior
-
+> - Cloud Service: 2303 o posterior
 
 
 ## Próxima sesión de expertos

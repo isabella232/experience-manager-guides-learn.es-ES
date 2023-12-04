@@ -1,13 +1,12 @@
 ---
 title: Configuración de estados de documento
 description: Obtenga información sobre cómo configurar estados de documento
-source-git-commit: cf1b9812cb6bb00319eb8fe23162d3830c82b1b1
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '1131'
 ht-degree: 0%
 
 ---
-
 
 # Configuración de estados de documento {#id181GB0400UI}
 
@@ -45,12 +44,13 @@ Para crear estados de documento utilizando el Perfil de carpeta, realice los sig
    - Especifique la ruta en la que desea aplicar el nuevo perfil.
    - Especifique los estados del documento en la variable **Estados permitidos** bajo **Estados Unidos**. Los estados de documento predeterminados son Borrador, Editar, En revisión, Aprobado y Listo.
 
-      Haga clic en **Añadir** para añadir un estado de documento.
+     Haga clic en **Añadir** para añadir un estado de documento.
 
       - Haga clic en el icono Eliminar para eliminar un estado de documento.
-      >[!NOTE]
-      >
-      > No elimine un estado de documento si los documentos siguen en ese estado. Si elimina el estado de un documento, no podrá cambiar el estado de dicho documento a menos que pertenezca al *administrador* grupo de usuarios.
+
+     >[!NOTE]
+     >
+     > No elimine un estado de documento si los documentos siguen en ese estado. Si elimina el estado de un documento, no podrá cambiar el estado de dicho documento a menos que pertenezca al *administrador* grupo de usuarios.
 
    - Especifique el estado de inicio del documento en la **Estado de inicio**.
    - Especifique el estado final del documento en la **Estado final**.
@@ -61,11 +61,10 @@ Para crear estados de documento utilizando el Perfil de carpeta, realice los sig
       - Haga clic en **Añadir** para añadir una transición de estado.
 
       - Haga clic en el icono Eliminar para eliminar una transición de estado.
-      >[!NOTE]
-      >
-      > No elimine una transición de estado si los documentos siguen en `From` estado. Si elimina una transición de estado, no podrá cambiar el estado del documento de dichos documentos a menos que pertenezca al *administrador* grupo de usuarios.
 
-
+     >[!NOTE]
+     >
+     > No elimine una transición de estado si los documentos siguen en `From` estado. Si elimina una transición de estado, no podrá cambiar el estado del documento de dichos documentos a menos que pertenezca al *administrador* grupo de usuarios.
 
 1. Haga clic en **Listo**.
 
@@ -138,9 +137,9 @@ Siga estos pasos para automatizar el cambio de estado del documento:
    - Active la casilla de verificación Avance del controlador.
    - Introduzca el nombre del estado del documento en la **Argumentos** cuadro de texto.
 
-      >[!NOTE]
-      >
-      > Asegúrese de introducir el estado correcto del documento en el cuadro de texto Argumento. Si escribe un nombre incorrecto, el documento se establecerá en un estado de documento incorrecto.
+     >[!NOTE]
+     >
+     > Asegúrese de introducir el estado correcto del documento en el cuadro de texto Argumento. Si escribe un nombre incorrecto, el documento se establecerá en un estado de documento incorrecto.
 
 1. Clic **Guardar** para guardar el flujo de trabajo.
 
@@ -168,5 +167,3 @@ AEM Guías de documentos proporciona un flujo de trabajo de aprobación de docum
       "approvalWorkflow":  true 
    }
    ```
-
-

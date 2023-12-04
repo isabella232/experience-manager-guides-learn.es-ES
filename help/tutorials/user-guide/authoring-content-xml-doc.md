@@ -1,8 +1,7 @@
 ---
 title: AEM Creación de contenido mediante guías de
 description: AEM Cree contenido de forma eficaz mediante las guías de. AEM Obtenga información sobre cómo crear, editar y publicar documentos en las guías de la.
-exl-id: 6a6354ce-29cc-4bd7-8235-579fe3647682
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 0%

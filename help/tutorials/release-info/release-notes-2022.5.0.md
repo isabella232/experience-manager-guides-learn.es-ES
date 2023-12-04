@@ -1,11 +1,10 @@
 ---
 title: Notas de versión | Versión as a Cloud Service de las guías de Adobe Experience Manager, mayo de 2022
 description: Lanzamiento de mayo de las guías de Adobe Experience Manager as a Cloud Service
-exl-id: 7928a300-5ec9-492c-b9be-02b6f87638c6
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1874'
-ht-degree: 4%
+source-wordcount: '1887'
+ht-degree: 0%
 
 ---
 
@@ -14,20 +13,20 @@ ht-degree: 4%
 ## Actualización a la versión de mayo
 
 Actualice las guías de Adobe Experience Manager actuales as a Cloud Service (más adelante denominadas *AEM Guías de as a Cloud Service*) realizando los siguientes pasos:
-1. Consulte el código Git de los Cloud Services y cambie a la rama configurada en la canalización de Cloud Services correspondiente al entorno que desee actualizar.
-1. Actualizar `<dox.version>` propiedad en `/dox/dox.installer/pom.xml` de su código Git de Cloud Services a 2022.5.144.
-1. Confirme los cambios y ejecute la canalización de Cloud Services AEM para actualizar a la versión de mayo de las guías de los as a Cloud Service.
+1. Consulte el código Git de los Cloud Service y cambie a la rama configurada en la canalización de Cloud Service correspondiente al entorno que desee actualizar.
+1. Actualizar `<dox.version>` propiedad en `/dox/dox.installer/pom.xml` de su código Git de Cloud Service a 2022.5.144.
+1. Confirme los cambios y ejecute la canalización de Cloud Service AEM para actualizar a la versión de mayo de las guías de los as a Cloud Service.
 
 ## Matriz de compatibilidad
 
 AEM En esta sección se enumera la matriz de compatibilidad para las aplicaciones de software compatibles con las guías de la aplicación de la versión as a Cloud Service para mayo de 2022 de las Guías de.
 
-### FrameMaker y FrameMaker Publishing Server
+### FRAMEMAKER y FRAMEMAKER PUBLISHING SERVER
 
 | FMPS | FrameMaker |
 | --- | --- |
 | No compatible | Actualización 4 de 2020 y posterior |
-|  |  |
+| | |
 
 AEM *La línea de base y las condiciones creadas en la versión de FMPS a partir de 2020.2 son compatibles con las versiones de FMPS.
 
@@ -72,8 +71,7 @@ La plantilla de mapa personalizada puede ayudarle a replicar muy fácilmente las
 ### Proceso de traducción mejorado
 
 * **Capacidad para crear un proyecto de traducción de ámbito**
-Si necesita crear únicamente el ámbito para traducir un proyecto, puede seleccionar 
-**Crear un nuevo proyecto de traducción de ámbito**. Esto no enviará las copias para su traducción y se mantendrá el estado de traducción original de los archivos.
+Si necesita crear únicamente el ámbito para traducir un proyecto, puede seleccionar **Crear un nuevo proyecto de traducción de ámbito**. Esto no enviará las copias para su traducción y se mantendrá el estado de traducción original de los archivos.
 
 ![proyecto de traducción de ámbito](assets/scoping-translation-project.png)
 
@@ -99,7 +97,7 @@ Para obtener más información sobre la traducción, consulte *Traducir document
 * Desde el panel de mapas puede seleccionar varios archivos DITAVAL para generar contenido condicionado. Puede mantener el orden de los archivos añadiendo o eliminando archivos. AEM También puede pasar el ratón sobre el nombre del archivo para ver la ruta en el repositorio de donde se almacena el archivo.
 
 * **Función obsoleta**
-AEM El formato as a Cloud Service ya no admite la generación de formato de salida DITA para documentos FrameMaker. Esta opción DITA también se ha eliminado de los ajustes preestablecidos de salida del tablero de mandos Mapa.
+AEM El formato as a Cloud Service ya no admite la generación de formato de salida DITA para documentos de FrameMaker. Esta opción DITA también se ha eliminado de los ajustes preestablecidos de salida del tablero de mandos Mapa.
 
 ### Publicación basada en artículos mejorada
 

@@ -1,13 +1,12 @@
 ---
 title: Configuración del número de LimitReads de una consulta
 description: Obtenga información sobre cómo configurar el número de LimitReads para una consulta
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 2%
 
 ---
-
 
 # Configuración del número de LimitReads de una consulta {#id231RC0HL0ID}
 
@@ -31,4 +30,3 @@ Para aumentar el número de nodos que una consulta puede leer a la vez, realice 
 Cuando se aumenta este valor de atributo, se ayuda a generar el informe para mapas DITA más grandes.
 
 **Tema principal:**[ Personalizar editor web](conf-web-editor.md)
-

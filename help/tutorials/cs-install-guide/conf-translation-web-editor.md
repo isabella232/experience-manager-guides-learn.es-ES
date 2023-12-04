@@ -1,13 +1,12 @@
 ---
 title: Configuración de la función de traducción en el editor web
 description: Obtenga información sobre cómo configurar la función de traducción en el editor web
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 0%
 
 ---
-
 
 # Configuración de la función de traducción en el editor web {#id21BONI0J0YR}
 
@@ -46,4 +45,3 @@ Para ocultar la variable **Administrar** en el Editor Web, realice los siguiente
 Tenga en cuenta que la variable **Administrar** el filtro ya no está disponible.
 
 **Tema principal:**[ Personalizar editor web](conf-web-editor.md)
-

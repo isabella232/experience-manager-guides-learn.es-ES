@@ -1,13 +1,12 @@
 ---
 title: Utilizar la especialización personalizada DITA-OT y DITA
 description: Aprenda a utilizar la especialización personalizada DITA-OT y DITA
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '2075'
+source-wordcount: '2093'
 ht-degree: 0%
 
 ---
-
 
 # Utilizar la especialización personalizada DITA-OT y DITA {#id181GAJ0005Z}
 
@@ -62,7 +61,6 @@ AEM Realice los siguientes pasos para cargar el complemento DITA-OT personalizad
    - Ejecute el integrador \(para instalar el complemento personalizado\) en un sistema operativo Mac/Linux para evitar problemas con los separadores de archivos: como los sistemas operativos Windows y Linux tienen diferentes separadores de archivos, el complemento integrado en el sistema operativo Mac/Linux es compatible con la configuración de Windows y Linux.
    - Asegúrese de que la variable `DITA-OT.ZIP` contiene una carpeta denominada &quot;DITA-OT&quot; que contiene todos los plugins y archivos relevantes.
    - Compruebe que `DITA-OT.ZIP` AEM el archivo que cree es del tipo mime: &quot;nt:file&quot; \(corresponde al tipo principal de archivo ZIP cuando se carga en el servidor de correo electrónico al cargar el archivo en el servidor de correo electrónico). AEM Utilice una herramienta WebDAV o una implementación de código para cargar este archivo ZIP en la ruta deseada en la. AEM AEM \(No utilice el administrador de paquetes de la aplicación para implementar este archivo ZIP, ya que este ZIP no es un paquete de contenido de la aplicación, sino solo un archivo de almacenamiento.\)
-
    >[!NOTE]
    >
    > Se recomienda no sobrescribir el paquete DITA-OT predeterminado. Debe cargar el paquete DITA-OT personalizado que contiene el complemento en alguna otra ubicación de la `apps` carpeta.
@@ -191,4 +189,3 @@ AEM Realice los siguientes pasos para crear un nuevo perfil y configurarlo para 
 >[!NOTE]
 >
 > AEM Puede exportar el perfil DITA personalizado como paquete y cargarlo en las demás instancias de guías de la aplicación para ahorrar tiempo. Para obtener más información, consulte [Apéndice.md](appendix.md).
-

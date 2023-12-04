@@ -1,13 +1,12 @@
 ---
 title: Apéndice
 description: Obtenga información sobre cómo preparar documentos de InDesign para la migración
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '2866'
+source-wordcount: '2852'
 ht-degree: 0%
 
 ---
-
 
 # Apéndice {#id195AD0L60Y4}
 
@@ -249,7 +248,7 @@ Los atributos utilizados en `doctypeParaRule` se explican a continuación:
 
 Las reglas de ajuste de elementos definen las formas de ajustar o mover elementos del documento entrante a un elemento predefinido de acuerdo con un conjunto de valores de atributo.
 
-***`wrap`element***
+***`wrap`elemento***
 
 Este es un elemento opcional. El `wrap` enumera los elementos que se ajustarán o moverán. El ajuste se suele utilizar cuando una serie de elementos debe recibir un elemento principal común. Por ejemplo, varias `li` elementos que se agrupan en una `ol` Elemento. Además, `wrap` se puede utilizar para mover elementos como títulos para figuras y tablas.
 
@@ -376,7 +375,7 @@ El `charRule` Los elementos de se describen a continuación:
 >
 > No habrá asignación para el estilo de carácter integrado `[No character style]` cuando `local="0"`, ya que se eliminan durante el preprocesamiento.
 
-***`charRule`element***
+***`charRule`elemento***
 
 Este es un elemento opcional.
 
@@ -460,11 +459,11 @@ El `mapDoctypeElemRule` es obligatorio. Los atributos de este elemento no se deb
 
 Consulte [\#id194CG600NY4](#id194CG600NY4).
 
-**`elementRules`element**
+**`elementRules`elemento**
 
 Esto enumera todas las [\#id194CGC00SHS](#id194CGC00SHS)elementos.
 
-**`elementRule`element**
+**`elementRule`elemento**
 
 El `elementRule` es obligatorio. Estas son las reglas de asignación para todos los elementos de origen. Aunque un documento de InDesign no contiene elementos de estilo no estructurados, se omiten para el contenido estructurado a menos que la etiqueta &#39;***modo híbrido*** El procesamiento de está habilitado.
 
@@ -485,5 +484,3 @@ Los atributos utilizados en `elementRule` se explican a continuación:
 - `@context`: este atributo se utiliza para vincular a una regla de ajuste específica cuando hay más de una opción de envoltorio disponible. Ejemplo: el `li` elemento puede estar envuelto en una `ol`, o a `ul` Elemento.
 
 - `@commentOut`: Este atributo permite ajustar el elemento de destino en los comentarios XML para que la información no se pierda, pero el usuario la pueda gestionar manualmente. Esto resulta útil si no se puede forzar que el contenido de origen se ajuste a las reglas de estructura DITA.
-
-

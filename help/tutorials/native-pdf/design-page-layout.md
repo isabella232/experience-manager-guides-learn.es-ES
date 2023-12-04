@@ -1,10 +1,9 @@
 ---
 title: Función de publicación nativa de PDF | Diseño de una página
 description: Aprenda a diseñar el diseño de página para presentar la información en diferentes secciones de la salida del PDF.
-exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
-source-git-commit: 5abcc887a24d838caabdf9a34a84ebc851ed4cbf
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '4807'
+source-wordcount: '4825'
 ht-degree: 0%
 
 ---

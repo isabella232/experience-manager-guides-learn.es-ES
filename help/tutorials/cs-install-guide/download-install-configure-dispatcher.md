@@ -1,13 +1,12 @@
 ---
 title: Configurar Dispatcher
 description: Obtenga información sobre cómo configurar Dispatcher
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 22%
+source-wordcount: '81'
+ht-degree: 19%
 
 ---
-
 
 # Configurar Dispatcher {#id213BCM0M05U}
 
@@ -21,4 +20,3 @@ Dispatcher es la herramienta de almacenamiento en caché o de equilibrio de carg
 > AEM as a cloud service no es compatible con dispatcher para instancias de autor.
 
 **Tema principal:**[ Descargar e instalar](download-install.md)
-

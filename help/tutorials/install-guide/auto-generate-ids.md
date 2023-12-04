@@ -1,13 +1,12 @@
 ---
 title: Generar automáticamente ID de elementos
 description: Obtenga información sobre cómo generar automáticamente ID de elementos
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
-
 
 # Generar automáticamente ID de elementos {#id20CIL40016I}
 
@@ -43,4 +42,3 @@ Realice los siguientes pasos para configurar los elementos para que tengan un ID
 
 
 **Tema principal:**[ Personalizar editor web](conf-web-editor.md)
-

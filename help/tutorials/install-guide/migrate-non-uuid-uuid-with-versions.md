@@ -1,15 +1,12 @@
 ---
 title: Conversión de contenido no UUID con versiones a contenido UUID
 description: Obtenga información sobre cómo migrar contenido que no sea UUID con versiones de.
-source-git-commit: 33cdc1b14db0d123c01bbc719c2833ce0df4c9d9
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1272'
-ht-degree: 3%
+source-wordcount: '1287'
+ht-degree: 1%
 
 ---
-
-
-
 
 # Migración de contenido que no sea UUID con versiones
 
@@ -87,7 +84,7 @@ Ejecute la consulta determinada en una carpeta con datos más pequeños antes de
 
 | URL de extremo | Tipo de solicitud | Parámetro de consulta | Resultados esperados |
 |---|---|---|---|
-| `/bin/guides/uuid_upgrade`<br><br> **Por ejemplo**: `http://localhost:4502/bin/guides/uuid_upgrade?root=/content/dam/test` | GET | **raíz**: carpeta raíz <br>**Valor**: /content/dam para todo el repositorio.<br><br>**ignoreImageVersions**<br> **Valor**: true/false (ignora el procesamiento de las versiones de la imagen. El valor predeterminado es False) | Informe de migración con Lista de archivos migrados correctamente, no se pudo actualizar, se actualizó con errores y el tiempo total empleado. <br><br> **Salida de ejemplo**: <br> [INFORMACIÓN] Error en la lista de archivos:0 <br>[INFORMACIÓN] No. de archivos actualizados correctamente: 2241 <br>[INFORMACIÓN] No. Número de archivos actualizados con errores: 28 <br>[INFORMACIÓN] No. No se pudo actualizar el número de archivos: 0 <br> [INFORMACIÓN] Tiempo total empleado: 0:37:03,131 |
+| `/bin/guides/uuid_upgrade`<br><br> **Por ejemplo**: `http://localhost:4502/bin/guides/uuid_upgrade?root=/content/dam/test` | GET | **raíz**: carpeta raíz <br>**Valor**: /content/dam para todo el repositorio.<br><br>**ignoreImageVersions**<br> **Valor**: true/false (ignora el procesamiento de las versiones de la imagen. El valor predeterminado es false) | Informe de migración con Lista de archivos migrados correctamente, no se pudo actualizar, se actualizó con errores y el tiempo total empleado. <br><br> **Salida de ejemplo**: <br> [INFORMACIÓN] Error en la lista de archivos:0 <br>[INFORMACIÓN] No. de archivos actualizados correctamente: 2241 <br>[INFORMACIÓN] No. Número de archivos actualizados con errores: 28 <br>[INFORMACIÓN] No. No se pudo actualizar el número de archivos: 0 <br> [INFORMACIÓN] Tiempo total empleado: 0:37:03,131 |
 
 >[!NOTE]
 >
@@ -101,7 +98,7 @@ Ejecute la consulta en la carpeta que ya ha migrado para migrar las líneas de b
 
 | URL de extremo | Tipo de solicitud | Parámetro de consulta | Resultados esperados |
 |---|---|---|---|
-| `/bin/guides/baseline_uuid_upgrade`<br><br> **Por ejemplo**: ` http://localhost:4502/bin/guides/baseline_uuid_upgrade?root=/content/dam/test` | GET | **raíz**: carpeta raíz <br> **Valor**: /content/dam para todo el repositorio. <br><br> **ignoreImageVersions**<br> **Valor**: true/false <br>(Omite el procesamiento de las versiones de la imagen. El valor predeterminado es False) <br><br> **doReviews** <br> **Valor**: true/false <br> (Si las revisiones deben actualizarse o no. El valor predeterminado es False.) Informe de migración con Lista de archivos migrados correctamente, no se pudo actualizar, se actualizó con errores y el tiempo total empleado. <br> <br> **Salida de ejemplo**:<br>[INFORMACIÓN] Error en la lista de archivos <br> [INFORMACIÓN] No. de archivos actualizados correctamente 2241<br> [INFORMACIÓN] No. de archivos actualizados con errores 28<br>[INFORMACIÓN] No. de archivos no se pudo actualizar 0<br>[INFORMACIÓN] Tiempo total empleado: 0:37:03,131 |
+| `/bin/guides/baseline_uuid_upgrade`<br><br> **Por ejemplo**: ` http://localhost:4502/bin/guides/baseline_uuid_upgrade?root=/content/dam/test` | GET | **raíz**: carpeta raíz <br> **Valor**: /content/dam para todo el repositorio. <br><br> **ignoreImageVersions**<br> **Valor**: true/false <br>(Omite el procesamiento de las versiones de la imagen. El valor predeterminado es false) <br><br> **doReviews** <br> **Valor**: true/false <br> (Si las revisiones deben actualizarse o no. El valor predeterminado es false). Informe de migración con Lista de archivos migrados correctamente, no se pudo actualizar, se actualizó con errores y el tiempo total empleado. <br> <br> **Salida de ejemplo**:<br>[INFORMACIÓN] Error en la lista de archivos <br> [INFORMACIÓN] No. de archivos actualizados correctamente 2241<br> [INFORMACIÓN] No. de archivos actualizados con errores 28<br>[INFORMACIÓN] No. de archivos no se pudo actualizar 0<br>[INFORMACIÓN] Tiempo total empleado: 0:37:03,131 |
 
 
 ### Paso 3: Restaurar la configuración

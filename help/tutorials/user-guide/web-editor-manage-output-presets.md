@@ -1,8 +1,7 @@
 ---
 title: Administrar ajustes preestablecidos de salida del perfil global y de carpeta
 description: AEM Obtenga información sobre cómo crear, editar, cambiar el nombre, duplicar y eliminar ajustes preestablecidos de salida de perfil global y de carpeta como usuarios administrativos en las Guías de administración de perfiles.
-exl-id: 549c9fe2-77f8-423c-8b3e-b43e56055732
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 0%

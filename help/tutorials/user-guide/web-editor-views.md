@@ -1,8 +1,7 @@
 ---
 title: Vistas del Editor web
 description: Ver documentos en los modos de autor, origen y vista previa. Obtenga información sobre cómo ver contenido basado en filtros condicionales, ver las marcas de seguimiento de cambios y exportar un tema como PDF AEM en las guías de la.
-exl-id: 86d8abc2-1d0e-4744-91c9-848c00447971
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 0%
@@ -47,7 +46,7 @@ Para obtener más información, consulte la **Buscar y reemplazar** descripción
 
 - La vista Código fuente proporciona muchos métodos abreviados para ayudarle a desplazarse rápidamente por un documento y trabajar con él. En la tabla siguiente se enumeran las acciones admitidas y sus teclas de método abreviado:
 
-  | Para ello, haga lo siguiente | Utilizar este acceso directo |
+  | Para ello | Utilizar este acceso directo |
   |----------|-----------------|
   | Añadir varios cursores | **Ctrl**+Clic izquierdo |
   | Varias selecciones de texto no consecutivas | **Ctrl**+Haga clic con el botón izquierdo para arrastrar y seleccionar texto |

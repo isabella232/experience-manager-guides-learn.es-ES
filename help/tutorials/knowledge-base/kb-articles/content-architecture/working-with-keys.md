@@ -2,10 +2,9 @@
 title: Uso de claves
 description: Cómo crear claves para utilizarlas en el contenido de la organización
 role: Admin
-exl-id: b8e3a6d2-ea82-4fdb-bd16-3f4b6594af52
-source-git-commit: c8feab55ed3b8e7b36ec46b21f63155766627e40
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
@@ -56,8 +55,8 @@ Aquí ha definido dos definiciones, como se muestra arriba, siempre que [!UICONT
 
 + Edite el tema y añada el valor clave mediante la variable [!UICONTROL keyref].
 + Como se muestra en la captura de pantalla, aparecerá una pequeña ventana desde donde se pueden elegir las palabras clave. Esto se mostrará cuando añada el elemento &quot;keyword&quot;.
-   ![Insertar elemento](assets/insert_element.png)
-   ![Ref clave](assets/key_ref.png)
+  ![Insertar elemento](assets/insert_element.png)
+  ![Ref clave](assets/key_ref.png)
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>

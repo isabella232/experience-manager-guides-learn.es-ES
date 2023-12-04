@@ -1,8 +1,7 @@
 ---
 title: Función de publicación nativa de PDF | Aplicar estilo personalizado en entradas del índice y contenido del tema
 description: Aprenda a crear hojas de estilo de uso y a crear estilos para el contenido.
-exl-id: f65c9683-a1fc-432a-854b-83e8f39d7dae
-source-git-commit: e2349fc14143e5e49f8672ef1bfa48984df3b1c7
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%

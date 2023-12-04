@@ -1,8 +1,7 @@
 ---
 title: Informe de estado de conversión
 description: AEM Convierta documentos de diferentes formatos en DITA en las guías de la. Obtenga información sobre cómo añadir filtros y ver un informe de estado de conversión.
-exl-id: 41887af2-404f-41d7-b54c-ec49797200f0
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
@@ -27,7 +26,7 @@ Siga estos pasos para ver el informe de estado de conversión:
 
 1. La página del informe se divide en dos partes:
 
-   - **Filter:**
+   - **Filtro:**
 
      Puede filtrar los datos del informe en función del Tipo de archivo y el Estado de conversión. En Tipo de archivo, puede elegir ver los datos del informe de los documentos de tipo Documento de Word, HTML estructurado, XML y DocBook. En Estado, puede elegir ver los datos del informe de las tareas que se han ejecutado correctamente, con error, activas o en cola.
 

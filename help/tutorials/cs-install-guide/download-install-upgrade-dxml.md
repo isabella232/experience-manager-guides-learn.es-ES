@@ -1,13 +1,12 @@
 ---
 title: AEM Guías de actualización
 description: AEM Obtenga información sobre cómo actualizar las guías de la
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
-
 
 # AEM Guías de actualización {#id213BD050YPH}
 
@@ -29,4 +28,3 @@ ht-degree: 0%
 AEM Después de completar el proceso de actualización, todos los usuarios deben borrar la memoria caché del explorador antes de utilizar la versión actualizada de las guías de la aplicación de la versión de la aplicación de la versión de la versión de la.
 
 **Tema principal:**[ Descargar e instalar](download-install.md)
-

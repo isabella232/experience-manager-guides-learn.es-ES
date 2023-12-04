@@ -1,13 +1,12 @@
 ---
 title: Incluir @navtitle atributo de forma predeterminada
 description: Obtenga información sobre cómo incluir @navtitle atributo de forma predeterminada
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 1%
 
 ---
-
 
 # Incluir @navtitle atributo de forma predeterminada {#id2115BC0J0XA}
 
@@ -52,4 +51,3 @@ Para incluir `@navtitle` de forma predeterminada, en las propiedades de los arch
 Con esta configuración, cada archivo de referencia que añada a un mapa contendrá el `@navtitle` de forma predeterminada.
 
 **Tema principal:**[ Personalizar editor web](conf-web-editor.md)
-

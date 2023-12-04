@@ -1,13 +1,12 @@
 ---
 title: Notas de versión | Adobe Experience Manager Guides as a Cloud Service, versión de febrero de 2023
 description: Lanzamiento de febrero de las guías de Adobe Experience Manager as a Cloud Service
-source-git-commit: 4bb9ce2690a2e76a5b2a93b65db7dd452e15d295
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1428'
+source-wordcount: '1426'
 ht-degree: 0%
 
 ---
-
 
 # Novedades de la versión de febrero de 2023 de Adobe Experience Manager Guides as a Cloud Service
 
@@ -55,7 +54,7 @@ AEM Ahora, las guías de usuario de proporcionan un UX mejorado que le ayuda a r
 * Al utilizar los filtros, los comentarios del panel derecho se filtran según la selección y el número de comentarios del panel izquierdo se actualiza en consecuencia.
 
 
-   <img alt="revisar tarea" src="assets/comment-pop-up-panel.png" width="600">
+  <img alt="revisar tarea" src="assets/comment-pop-up-panel.png" width="600">
 
 
 
@@ -141,4 +140,3 @@ Ahora puede aplicar estilo al marcador de página en las notas al pie. Por ejemp
 Ahora, las guías del PDF le permiten identificar rápidamente los temas modificados en la tabla de contenido de la salida del AEM.  Muestra una barra de cambios a la izquierda de los temas modificados en el índice. Puede hacer clic en el tema del índice y ver los cambios detallados.
 
 <img src="assets/change-marker-toc.png" alt="Cambiar marcador en TDC " width="500">
-

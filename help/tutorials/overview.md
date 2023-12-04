@@ -1,11 +1,10 @@
 ---
 title: Tutorials para guías del Experience Manager
 description: Busque vídeos de tutoriales para Experience Manager Guides (anteriormente XML Documentation para Adobe Experience Manager). Obtenga información acerca de la compatibilidad nativa con DITA y la creación estructurada en Experience Manager.
-exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
-source-git-commit: 7fa60a962a94ad5011359398cc668f8080859a8c
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 2%
+source-wordcount: '303'
+ht-degree: 0%
 
 ---
 
@@ -25,16 +24,16 @@ Con [!DNL AEM Guides] solución, las empresas pueden ofrecer experiencias person
 
 * **[[!DNL AEM Guides] Curso de introducción](../courses/course-1/overview.md)**
 
-   _Aprenda a crear, organizar y publicar contenido con [!DNL Adobe Experience Manager Guides]._
+  _Aprenda a crear, organizar y publicar contenido con [!DNL Adobe Experience Manager Guides]._
 
 
 * **[[!DNL AEM Guides] Creación en el editor web integrado](../courses/course-3/overview.md)**
 
-   _Aprenda a crear contenido con el editor web nativo de  [!DNL Adobe Experience Manager Guides]. Obtenga una comprensión completa de las preferencias de usuario, la configuración del editor, las barras de herramientas y mucho más._
+  _Aprenda a crear contenido con el editor web nativo de  [!DNL Adobe Experience Manager Guides]. Obtenga una comprensión completa de las preferencias de usuario, la configuración del editor, las barras de herramientas y mucho más._
 
 * **[Generación de resultados con [!DNL AEM Guides]](../courses/course-2/overview.md)**
 
-   _Obtenga información sobre cómo generar resultados mediante [!DNL Adobe Experience Manager Guides]. Obtenga información acerca de las distintas funciones disponibles para la generación de resultados: informes, líneas de base, condiciones, resolución de problemas, publicación por lotes y activación._
+  _Obtenga información sobre cómo generar resultados mediante [!DNL Adobe Experience Manager Guides]. Obtenga información acerca de las distintas funciones disponibles para la generación de resultados: informes, líneas de base, condiciones, resolución de problemas, publicación por lotes y activación._
 
 
 <!--

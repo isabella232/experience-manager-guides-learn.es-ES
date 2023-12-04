@@ -1,10 +1,10 @@
 ---
 title: Notas de versión | Instrucciones de actualización y problemas corregidos en la versión 4.3.1 de Adobe Experience Manager Guides
 description: Obtenga información acerca de las correcciones de errores y cómo actualizar a las versiones 4.3.1 de las guías de Adobe Experience Manager
-source-git-commit: eb22fe5d4872b0e5c6594869193799fd9e64d95d
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1216'
-ht-degree: 5%
+source-wordcount: '1306'
+ht-degree: 1%
 
 ---
 
@@ -61,8 +61,8 @@ AEM *La línea de base y las condiciones creadas en la versión de FMPS a partir
 
 | Versión | Ventanas de conector de oxígeno | Conector de oxígeno Mac | Editar en ventanas de oxígeno | Editar en Oxygen Mac |
 | --- | --- | --- |--- |--- |
-| 4.3.1 (no UUID) | 2.3-regular-5 | 2.3-regular-5 | 1.6 | 1.6 |
-| 4.3.1 (UUID) | 3.2-uuid-5 | 3.2-uuid-5 | 2.3 | 2.3 |
+| 4.3.1 (no UUID) | 2.3-regular-5 | 2.3-regular-5 | 1,6 | 1,6 |
+| 4.3.1 (UUID) | 3.2-uuid-5 | 3.2-uuid-5 | 2,3 | 2,3 |
 |  |  |   |
 
 

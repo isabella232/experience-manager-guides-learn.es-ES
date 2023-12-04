@@ -1,13 +1,12 @@
 ---
 title: Migración de contenido no DITA
 description: Obtenga información sobre cómo migrar contenido no DITA
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '2936'
+source-wordcount: '2889'
 ht-degree: 0%
 
 ---
-
 
 # Migración de contenido no DITA {#id181AH0R02HT}
 
@@ -157,7 +156,7 @@ Realice los siguientes pasos para convertir los documentos de InDesign existente
      >
      > Para obtener más información sobre la estructura de `stmap.adobeidml.xml` y cómo puede personalizarlo, consulte la sección [apéndice.md\#id194AF0003HT](appendix.md#id194AF0003HT) en el apéndice.
 
-1. Guarde el `idml2dita_io.xml` archivo.
+1. Guarde el archivo `idml2dita_io.xml`.
 
 1. Después de configurar los parámetros necesarios en la variable `idml2dita_io.xml` AEM , inicie sesión en la interfaz de usuario de Assets y ábrala.
 
@@ -282,7 +281,7 @@ Además de especificar
 
 Para convertir los documentos de FrameMaker no estructurados existentes al formato DITA, realice los siguientes pasos:
 
-1. Cree asignaciones de estilos en FrameMaker y guarde esa configuración en un archivo .sts.
+1. Cree asignaciones de estilos en el FrameMaker y guarde esa configuración en un archivo .sts.
 
 1. Utilice el Administrador de paquetes para descargar el archivo /libs/fmdita/config/ditaElems.xml.
 
@@ -320,7 +319,7 @@ Para convertir los documentos de FrameMaker no estructurados existentes al forma
 
    - En el `ditaVal` , especifique el valor del atributo asignado. Si no tiene ningún valor, puede dejar esta entrada en blanco.
 
-1. Guarde el `style2attrMap.xml` archivo.
+1. Guarde el archivo `style2attrMap.xml`.
 
 1. Después de configurar los parámetros necesarios en la variable `style2attrMap.xml` AEM , inicie sesión en la interfaz de usuario de Assets y ábrala.
 
@@ -332,7 +331,7 @@ Para convertir los documentos de FrameMaker no estructurados existentes al forma
 
    >[!NOTE]
    >
-   > Debe utilizar el mismo archivo de configuración \(.sts\) que creó en FrameMaker. Especifique también el Nombre de configuración y la Ruta de destino.
+   > Debe utilizar el mismo archivo de configuración \(.sts\) que creó en el FrameMaker. Especifique también el Nombre de configuración y la Ruta de destino.
 
 1. Haga clic en **Generar** para iniciar el proceso de generación de resultados.
 
@@ -365,7 +364,7 @@ Para convertir los documentos estructurados existentes al formato DITA, realice 
 
    - Para el `createRev` , especifique si se va a crear una nueva versión del tema DITA convertido \(`true`\) o no \(`false`\).
 
-1. Guarde el `XSLConfig.xml` archivo.
+1. Guarde el archivo `XSLConfig.xml`.
 
 1. Después de configurar los parámetros necesarios en la variable `XSLConfig.xml` AEM , inicie sesión en la interfaz de usuario de Assets y ábrala.
 
@@ -377,4 +376,3 @@ Para convertir los documentos estructurados existentes al formato DITA, realice 
 Uso del `<config> </config>` , puede definir uno o varios bloques de configuraciones para la conversión. El flujo de trabajo de conversión se ejecuta y la salida final en forma de tema DITA se guarda en la ubicación especificada en la `outputDir` Elemento.
 
 **Tema principal:**[ Migrar contenido existente](migrate-content.md)
-

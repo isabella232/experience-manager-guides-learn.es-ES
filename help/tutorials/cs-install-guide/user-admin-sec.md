@@ -1,13 +1,12 @@
 ---
 title: Administración de usuarios y seguridad
 description: Descubra cómo funcionan la administración de usuarios y la seguridad
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 12%
+source-wordcount: '708'
+ht-degree: 10%
 
 ---
-
 
 # Administración de usuarios y seguridad {#id181AED00G5Z}
 
@@ -82,11 +81,11 @@ La siguiente lista contiene algunas recomendaciones y puntos relacionados con gr
 
 - De forma predeterminada, *Editores* Se les concede acceso y permisos en las siguientes carpetas de DAM:
 
-   - `/content/fmdita` –\> Leer y escribir
+   - `/content/fmdita` -\> Lectura y escritura
 
-   - `/content/dam/fmdita-outputs` –\> Leer y escribir
+   - `/content/dam/fmdita-outputs` -\> Lectura y escritura
 
-   - `/content/output/sites` –\> Leer y escribir
+   - `/content/output/sites` -\> Lectura y escritura
 
   Debe conceder permisos explícitos de lectura y escritura al editor si utiliza cualquier otra ubicación que no sea la predeterminada mencionada anteriormente.
 
@@ -101,4 +100,3 @@ La siguiente lista contiene algunas recomendaciones y puntos relacionados con gr
 - Para otorgar a un usuario derechos para cambiar el estado de un documento, asegúrese de agregar el usuario en la sección de transición de estado del perfil de estado del documento.
 
 [1](#fnsrc_1) If *Autores* y *Editores* están invitados a una revisión.[2](#fnsrc_2) Según los derechos otorgados al usuario en el perfil de estado del documento.
-

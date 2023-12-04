@@ -1,9 +1,9 @@
 ---
 title: Apéndice
 description: Obtenga información sobre cómo preparar archivos de InDesign para la conversión
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '2861'
+source-wordcount: '2851'
 ht-degree: 0%
 
 ---
@@ -199,7 +199,7 @@ Los atributos utilizados en `doctypeParaRule` se explican a continuación:
 
 Las reglas de ajuste de elementos definen las formas de ajustar o mover elementos del documento entrante a un elemento predefinido de acuerdo con un conjunto de valores de atributo.
 
-***`wrap`element***
+***`wrap`elemento***
 
 Este es un elemento opcional. El `wrap` enumera los elementos que se ajustarán o moverán. El ajuste se suele utilizar cuando una serie de elementos debe recibir un elemento principal común. Por ejemplo, varias `li` elementos que se agrupan en una `ol` Elemento. Además, `wrap` se puede utilizar para mover elementos como títulos para figuras y tablas.
 
@@ -209,43 +209,43 @@ Los atributos utilizados en `wrap` se explican a continuación:
 - `@wrapper`: Nombre del elemento envolvente.
 - `@context`: Proporciona una forma de refinar aún más la forma en que se ajusta un elemento determinado. El siguiente ejemplo muestra una forma de asignar una serie de `li` elementos en una lista ordenada `ol` o una lista desordenada `ul` según el `@context` value \(el contexto se define en la variable `paraRule` element\):
 
-   ```XML
-   <wrap elements="li+" context="number" wrapper="ol">
-      <attributeRules createID="true"/>
-   </wrap>
-   <wrap elements="li+" context="bullet" wrapper="ul">
-      <attributeRules createID="true"/>
-   </wrap>
-   ```
+  ```XML
+  <wrap elements="li+" context="number" wrapper="ol">
+     <attributeRules createID="true"/>
+  </wrap>
+  <wrap elements="li+" context="bullet" wrapper="ul">
+     <attributeRules createID="true"/>
+  </wrap>
+  ```
 
 
 El siguiente ejemplo muestra cómo crear un `fig` elemento de un `title` y un `image` elemento:
 
 - `@elements`: Los elementos enumerados y separados por una coma se incluyen dentro del elemento llamado en la variable `@wrapper` atributo. Debido a la práctica común de incluir títulos de figuras debajo de la imagen, el título será el siguiente `title` inmediatamente después del elemento `image`.
 
-   La siguiente regla de ajuste:
+  La siguiente regla de ajuste:
 
-   ```XML
-   <wrap elements="title, image" context="FigTitle" wrapper="fig">
-      <attributeRules createID="true"/>
-   </wrap>
-   ```
+  ```XML
+  <wrap elements="title, image" context="FigTitle" wrapper="fig">
+     <attributeRules createID="true"/>
+  </wrap>
+  ```
 
-   Convierte el siguiente XML intermedio:
+  Convierte el siguiente XML intermedio:
 
-   ```XML
-   <image href="Links/myImage.png" scale="59">
-      <title>IDML2DITA workflow</title>
-   ```
+  ```XML
+  <image href="Links/myImage.png" scale="59">
+     <title>IDML2DITA workflow</title>
+  ```
 
-   En la siguiente estructura de figura DITA válida:
+  En la siguiente estructura de figura DITA válida:
 
-   ```XML
-   <fig id="id397504">
-      <title>IDML2DITA workflow</title>
-      <image href="Links/myImage.png" scale="59">
-   </fig>
-   ```
+  ```XML
+  <fig id="id397504">
+     <title>IDML2DITA workflow</title>
+     <image href="Links/myImage.png" scale="59">
+  </fig>
+  ```
 
 - `@wrapper`: Nombre del elemento envolvente.
 - `@context`: Proporciona una forma de refinar aún más la forma en que se ajusta un elemento determinado \(el contexto se define en la variable `paraRule` element\).
@@ -254,33 +254,33 @@ El siguiente ejemplo muestra cómo mover una `title` en un `table`:
 
 - `@elements`: La `title` que se encuentra inmediatamente antes o inmediatamente después de un elemento `table` se incluirá en el elemento llamado en la variable `@wrapper` atributo. Un predicado de estilo XPath puede identificar la posición del elemento title como `[before]` o `[after]`.
 
-   Ejemplo: La siguiente regla de ajuste:
+  Ejemplo: La siguiente regla de ajuste:
 
-   ```XML
-   <wrap elements="title[before]" context="TableTitle" wrapper="table">
-      <attributeRules createID="true"/>
-   </wrap>
-   ```
+  ```XML
+  <wrap elements="title[before]" context="TableTitle" wrapper="table">
+     <attributeRules createID="true"/>
+  </wrap>
+  ```
 
-   Convierte el siguiente XML intermedio:
+  Convierte el siguiente XML intermedio:
 
-   ```XML
-   <title>IDML2DITA workflow</title>
-   <table id="id289742" outputclass="BasicTable">
-      <tgroup cols="2">
-         <colspec colname="0" colwidth="0.7*">
-            <colspec colname="1" colwidth="0.3*">
-   ```
+  ```XML
+  <title>IDML2DITA workflow</title>
+  <table id="id289742" outputclass="BasicTable">
+     <tgroup cols="2">
+        <colspec colname="0" colwidth="0.7*">
+           <colspec colname="1" colwidth="0.3*">
+  ```
 
-   En esta estructura de figura DITA válida:
+  En esta estructura de figura DITA válida:
 
-   ```XML
-   <table id="id289742" outputclass="BasicTable">
-      <title>IDML2DITA workflow</title>
-      <tgroup cols="2">
-         <colspec colname="0" colwidth="0.7*">
-            <colspec colname="1" colwidth="0.3*">
-   ```
+  ```XML
+  <table id="id289742" outputclass="BasicTable">
+     <title>IDML2DITA workflow</title>
+     <tgroup cols="2">
+        <colspec colname="0" colwidth="0.7*">
+           <colspec colname="1" colwidth="0.3*">
+  ```
 
 - `@wrapper`: Nombre del elemento envolvente.
 
@@ -291,7 +291,7 @@ El siguiente ejemplo muestra cómo mover una `title` en un `table`:
 
 El `<paragraphStyleRule>` Los elementos de se describen a continuación:
 
-***`paraRule`element***
+***`paraRule`elemento***
 
 El `paraRule` es obligatorio. Esto especifica las reglas de asignación para todos los estilos de párrafo. En un documento de InDesign, todo el texto está contenido en una subestructura de Estilos de párrafo, incluso los párrafos sin ningún estilo reciben un nombre `[No paragraph style]`. Los corchetes indican un nombre de estilo de InDesign integrado.
 
@@ -326,7 +326,7 @@ El `charRule` Los elementos de se describen a continuación:
 >
 > No habrá asignación para el estilo de carácter integrado `[No character style]` cuando `local="0"`, ya que se eliminan durante el preprocesamiento.
 
-***`charRule`element***
+***`charRule`elemento***
 
 Este es un elemento opcional.
 
@@ -475,4 +475,3 @@ También puede crear un registrador independiente para esta ejecución de script
 - Configúrelo en. `DEBUG`
 
 El archivo de registro creado registrará toda la información relacionada con la ejecución de secuencias de comandos y resulta útil en caso de que se agote el tiempo de espera de la sesión del explorador, al tiempo que se activa la secuencia de comandos desde el explorador.
-

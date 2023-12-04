@@ -1,13 +1,12 @@
 ---
 title: Configuración de la búsqueda para la IU de AEM Assets
 description: Obtenga información sobre cómo configurar la búsqueda para la IU de AEM Assets
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1585'
-ht-degree: 1%
+source-wordcount: '1580'
+ht-degree: 0%
 
 ---
-
 
 # Configuración de la búsqueda para la IU de AEM Assets {#id192SC800MY4}
 
@@ -233,5 +232,3 @@ Realice los siguientes pasos para excluir la carpeta de traducción temporal de 
    | Nombre de la propiedad | Tipo | Valor  |
    |-------------|----|-----|
    | excludedPaths | Cadena\[\] | Agregue los siguientes valores a esta propiedad:<br> `/content/dam/projects/translation\_output` |
-
-

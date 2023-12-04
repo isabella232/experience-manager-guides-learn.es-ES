@@ -1,10 +1,9 @@
 ---
 title: Conozca las funciones del editor web
 description: AEM Descubra las funciones del editor web en las guías de la. Conocer la interfaz del editor web, incluida la barra de herramientas principal, la barra de herramientas secundaria, el panel izquierdo, el área de edición de contenido y el panel derecho.
-exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '17231'
+source-wordcount: '17222'
 ht-degree: 0%
 
 ---
@@ -25,7 +24,7 @@ La siguiente subsección detalla las distintas secciones del editor web.
 
 La barra de herramientas principal se encuentra en la parte superior de la interfaz del Editor Web y proporciona funciones de nivel de archivo y varios modos de creación disponibles en el Editor Web. Las funciones disponibles en la barra de herramientas superior se explican de la siguiente manera:
 
-**Guardar todos** - ![](images/SaveFloppy_icon.svg)
+**Guardar todo** - ![](images/SaveFloppy_icon.svg)
 
 Guarda los cambios realizados en todos los temas abiertos. Si tiene varios temas abiertos en el Editor Web, haga clic en **Guardar todo** o utilizando el **Crtl**+**S** teclas de método abreviado guarda todos los documentos con un solo clic. No es necesario guardar cada documento individualmente.
 

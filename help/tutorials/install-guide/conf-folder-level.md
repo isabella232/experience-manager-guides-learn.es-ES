@@ -1,10 +1,9 @@
 ---
 title: Configuración de perfiles globales o de nivel de carpeta
 description: Obtenga información sobre cómo configurar perfiles globales o de nivel de carpeta
-exl-id: 3370e22c-b996-4261-b250-8b8f8667c2a0
-source-git-commit: 192d807d0020193f39e8340fb6c0b6a50c6489f8
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '3891'
+source-wordcount: '3896'
 ht-degree: 0%
 
 ---
@@ -39,7 +38,7 @@ Con el mosaico Perfiles de carpeta en la configuración de las Guías, puede est
 
    - Solución de problemas
 
-   - Blank
+   - En blanco
 
    - DITAVAL
 
@@ -443,7 +442,7 @@ Con el archivo de configuración de esta sección, puede crear algunos fragmento
 }
 ```
 
-Se requieren los siguientes detalles para crear un fragmento:
+Se requieren los siguientes detalles para crear un fragmento de código:
 
 - **snippetID:**   Un ID único para el fragmento. Puede tomar un valor alfanumérico.
 

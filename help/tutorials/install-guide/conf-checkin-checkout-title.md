@@ -1,7 +1,7 @@
 ---
 title: Configurar título para los iconos Proteger y Desproteger
 description: Obtenga información sobre cómo configurar el título de los iconos Proteger y Desproteger
-source-git-commit: bb4b875864b31197437a944ded5862bbf937bc29
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%
@@ -29,4 +29,3 @@ AEM Guías de la aplicación le permite configurar el título para los iconos Pr
    ```
 
 1. Guarde el archivo y cárguelo.
-

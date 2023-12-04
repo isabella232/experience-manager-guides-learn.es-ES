@@ -3,14 +3,12 @@ title: Complemento de oxígeno para guías de Adobe Experience Manager
 description: Aprenda a utilizar el complemento Oxygen para las guías de Adobe Experience Manager para crear y administrar su contenido.
 hide: true
 hidefromtoc: true
-exl-id: 2db9a34e-2efa-47ad-ba6b-02afc5197669
-source-git-commit: 23c1dfb405643bd9f5906807dddc4fff3f2e8535
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '6120'
+source-wordcount: '6101'
 ht-degree: 0%
 
 ---
-
 
 # Complemento de oxígeno para guías de Adobe Experience Manager {#id1645H6010Q5}
 
@@ -36,14 +34,14 @@ Una vez que tenga el instalador, instálelo en el equipo local donde esté insta
 
 - Sistema operativo compatible con Oxygen XML Author versión 25.1
 
-- Kit de desarrollo de Java
+- Java Development Kit
    - Oracle SE 8 JRE 1.8
 
 ### Instalación del complemento en Windows
 
 >[!IMPORTANT]
 >
->Si tiene una versión anterior del complemento instalado en el sistema, asegúrese de desinstalarlo antes de iniciar el proceso de instalación. Consulte la **Desinstalación de paquetes** de la sección [Cómo trabajar con paquetes](https://helpx.adobe.com/es/experience-manager/6-4/sites/administering/using/package-manager.html) artículo para obtener instrucciones de desinstalación.
+>Si tiene una versión anterior del complemento instalado en el sistema, asegúrese de desinstalarlo antes de iniciar el proceso de instalación. Consulte la **Desinstalación de paquetes** de la sección [Cómo trabajar con paquetes](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) artículo para obtener instrucciones de desinstalación.
 
 Realice los siguientes pasos en el sistema donde está instalado Oxygen XML Author:
 
@@ -77,7 +75,7 @@ Realice los siguientes pasos en el sistema donde está instalado Oxygen XML Auth
 
 >[!IMPORTANT]
 >
->Si tiene una versión anterior del complemento instalado en el sistema, asegúrese de desinstalarlo antes de iniciar el proceso de instalación. Consulte la **Desinstalación de paquetes** de la sección [Cómo trabajar con paquetes](https://helpx.adobe.com/es/experience-manager/6-4/sites/administering/using/package-manager.html) instrucciones de desinstalación del artículo.
+>Si tiene una versión anterior del complemento instalado en el sistema, asegúrese de desinstalarlo antes de iniciar el proceso de instalación. Consulte la **Desinstalación de paquetes** de la sección [Cómo trabajar con paquetes](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) instrucciones de desinstalación del artículo.
 
 Realice los siguientes pasos en el sistema donde está instalado Oxygen XML Author:
 
@@ -253,7 +251,7 @@ Realice los siguientes pasos para configurar atributos de generación de perfile
 
 1. En el **Extensiones** , realice los cambios siguientes:
    - Clic **Elegir** junto al **Escuchador de estado de extensión de autor** bajo **Extensiones individuales** y seleccione CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn en el **Clase** lista. Haga clic en **Aceptar**.
-   - Clic **Elegir** junto al **Editor de valores de atributos personalizados de autor** bajo **Extensiones individuales** y seleccione CustomValueEditor - com.adobe.o2.framework.extn en la **Clase** lista. Haga clic en **Aceptar**.
+   - Clic **Elegir** junto al **Editor de valores de atributos personalizados de autor** bajo **Extensiones individuales** y seleccione CustomValueEditor - com.adobe.o2.framework.extn en la **Clase** lista. Clic **OK**.
 La siguiente captura de pantalla muestra el **Extensión** Ficha para temas de DITA:
 
      ![Extensión configurada para temas DITA](images/dita-topic-extension-tab.png){width="650" align="left"}
@@ -749,5 +747,3 @@ Solución: realice los siguientes pasos para configurar los registradores de Xyg
 
 
 Con los pasos anteriores, los registros se habilitarán y puede utilizarlos para depurar los problemas.
-
-

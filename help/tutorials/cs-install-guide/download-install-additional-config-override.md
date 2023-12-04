@@ -1,13 +1,12 @@
 ---
 title: Anulaciones de configuración
 description: Obtenga información sobre cómo configurar las anulaciones de configuración
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
-
 
 # Anulaciones de configuración {#id216IFC003XA}
 
@@ -39,4 +38,3 @@ Para realizar cualquier actualización de la configuración, se debe utilizar el
 
 
 **Tema principal:**[ Descargar e instalar](download-install.md)
-

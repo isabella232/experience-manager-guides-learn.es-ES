@@ -1,13 +1,12 @@
 ---
 title: API basada en Java para trabajar con la generación de resultados
 description: Obtenga información acerca de la API basada en Java para trabajar con la generación de resultados
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
-
 
 # API basada en Java para trabajar con la generación de resultados {#id175UB30E05Z}
 
@@ -48,4 +47,3 @@ throws GuidesApiException
 **Parámetros**: |Nombre|Tipo|Descripción| |----|----|-----------| |`session`|javax.jcr.Session|Una sesión JCR válida.| |``sourcePath``AEM |Cadena|Ruta de acceso \(en el repositorio de\) del archivo de asignación DITA para el que se debe generar la salida.| |``outputName``|Cadena|Nombre del ajuste preestablecido de salida\(s\) que se va a utilizar para generar la salida. Se pueden especificar varios ajustes preestablecidos de salida utilizando un delimitador de barra vertical \(&quot;\|&quot;\), por ejemplo `aemsite\|pdfoutput`.|
 
 **Excepción**: lanzamientos ``javax.jcr.RepositoryException``, `java.io.IOException`, y `java.lang.Exception`.
-

@@ -1,10 +1,9 @@
 ---
 title: Función de publicación nativa de PDF | Componentes de una plantilla de PDF
 description: Conozca los distintos componentes de una plantilla de PDF y cómo personalizarlos y configurarlos.
-exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '4947'
+source-wordcount: '4975'
 ht-degree: 0%
 
 ---
@@ -64,7 +63,7 @@ La configuración del componente Diseños de página permite diseñar la estruct
 
 1. En el _Duplicar diseño_ , introduzca un nombre para el diseño de página.
 
-1. Haga clic en **Listo**.
+1. Clic **Listo**.
 Se crea una copia del diseño de página seleccionado y se agrega en Diseños de página.
 
 ### Personalizar un diseño de página {#customize-page-layout}
@@ -187,7 +186,7 @@ Para agregar un archivo de recursos a la carpeta Recursos, siga los siguientes p
 
 1. Clic **Elegir archivos** para examinar el archivo de recursos desde el equipo local
 
-1. Haga clic en **Cargar**.
+1. Clic **Cargar**.
 El archivo seleccionado se importa y se enumera en la carpeta Recursos.
 
 ## Configuración avanzada del PDF {#advanced-pdf-settings}

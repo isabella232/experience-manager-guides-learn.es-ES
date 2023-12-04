@@ -1,13 +1,12 @@
 ---
 title: Configurar filtros para cuadro de diálogo de exploración de archivos
 description: Obtenga información sobre cómo configurar filtros para el cuadro de diálogo de exploración de archivos
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%
 
 ---
-
 
 # Configurar filtros para cuadro de diálogo de exploración de archivos {#id20CIL7009GN}
 
@@ -65,5 +64,3 @@ Realice los siguientes pasos para agregar las opciones de filtrado de archivos p
    Al iniciar el cuadro de diálogo de exploración de archivos, se muestran las opciones de filtro configuradas en el archivo ui\_config.json.
 
    ![](assets/file-browse-custom-filters.png){width="300" align="left"}
-
-

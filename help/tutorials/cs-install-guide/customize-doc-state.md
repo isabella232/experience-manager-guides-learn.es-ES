@@ -1,13 +1,12 @@
 ---
 title: Configuración de estados de documento
 description: Obtenga información sobre cómo configurar estados de documento
-source-git-commit: e3b2fc8c96ce535bb91e7bce935720aa389a917a
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 0%
 
 ---
-
 
 # Configuración de estados de documento {#id181GB0400UI}
 
@@ -178,4 +177,3 @@ AEM Guías de documentos proporciona un flujo de trabajo de aprobación de docum
    ```
 
 1. Guarde el archivo y cárguelo.
-

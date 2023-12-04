@@ -1,13 +1,12 @@
 ---
 title: Configurar los caracteres especiales permitidos
 description: Aprenda a configurar los caracteres especiales permitidos
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 0%
 
 ---
-
 
 # Configurar los caracteres especiales permitidos {#id20CIL600035}
 
@@ -42,8 +41,7 @@ La estructura del `symbols.json` se explica a continuación:
 - `"items"`: define la colección de caracteres especiales de la categoría.
 - `"name": "←", "title": "Left Arrow"`: Esta es la definición del carácter especial. Comienza con el `"name"` etiqueta, que no debe cambiarse. El nombre va seguido del carácter especial. El `"title"` es el nombre o título del carácter especial que aparece como información de objeto para ese carácter especial.
 
-   Puede definir varias definiciones de caracteres especiales dentro de una categoría.
+  Puede definir varias definiciones de caracteres especiales dentro de una categoría.
 
 
 **Tema principal:**[ Personalizar editor web](conf-web-editor.md)
-

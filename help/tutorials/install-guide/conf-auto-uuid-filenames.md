@@ -1,13 +1,12 @@
 ---
 title: Configurar nombres de archivo automáticos basados en UUID
 description: Aprenda a configurar nombres de archivo automáticos basados en UUID
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 0%
 
 ---
-
 
 # Configurar nombres de archivo automáticos basados en UUID {#id205QG070D5Z}
 
@@ -35,4 +34,3 @@ Realice los siguientes pasos para asignar automáticamente el nombre de archivo 
 > Esta opción está desactivada de forma predeterminada. Cuando esta opción está activada, los autores no verán la opción de especificar el nombre del archivo al crear un nuevo tema o archivo de asignación. Se puede crear un nuevo tema o archivo de asignación desde la interfaz de usuario de Assets y el editor web.
 
 **Tema principal:**[ Configurar nombres de archivo](conf-file-names.md)
-

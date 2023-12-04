@@ -2,11 +2,10 @@
 title: Trabajo con contenido condicional
 description: Obtenga información sobre cómo crear condiciones y configurar la generación de contenido condicional en [!DNL AEM Guides]
 role: User
-exl-id: a86007e3-48d1-458b-84a7-b683e113e5b2
-source-git-commit: c8feab55ed3b8e7b36ec46b21f63155766627e40
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 1%
+source-wordcount: '199'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +19,7 @@ ht-degree: 1%
 
 * Por ejemplo, los autores pueden agregar atributos como versión 1.0 y versión 2.0 en el contenido y utilizar condiciones para incluir la versión 1.0 para la versión 1.0 y excluir la versión 2.0.
 
-**Etapa 1**
+**Paso 1**
 
 Defina las condiciones relevantes para la documentación de en [!UICONTROL Perfiles de carpeta]: Consulte la sección **Configurar atributos condicionales para perfiles globales o de nivel de carpeta** in [Página 69 de la Guía de instalación y configuración](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf)
 

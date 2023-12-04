@@ -1,10 +1,10 @@
 ---
 title: Notas de versión | Instrucciones de actualización y problemas corregidos en la versión 4.3.0 de Adobe Experience Manager Guides
 description: Obtenga información acerca de las correcciones de errores y cómo actualizar a las versiones 4.3.0 de las guías de Adobe Experience Manager
-source-git-commit: b53f76c2f0234c1ef6c65d954311e3f8c980ffe2
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '998'
-ht-degree: 5%
+source-wordcount: '1086'
+ht-degree: 1%
 
 ---
 
@@ -49,7 +49,7 @@ Para obtener más información, consulte la *Requisitos técnicos* de la guía I
 
 ### FRAMEMAKER y FRAMEMAKER PUBLISHING SERVER
 
-| Edición | FMPS 2022 | FMPS 2020 | Fm 2022 | Fm 2020 |
+| Versión | FMPS 2022 | FMPS 2020 | Fm 2022 | Fm 2020 |
 | --- | --- | --- | --- | --- |
 | 4.3.0 (no UUID) | 2022 o superior | 2020.2 o superior* | 2022 o superior | 2020.3 o superior |
 | 4.3.0 (UUID) | 2022 o superior | 2020.2 o superior* | 2022 o superior | 2020.4 o superior |
@@ -59,10 +59,10 @@ AEM *La línea de base y las condiciones creadas en la versión de FMPS a partir
 
 ### Conector de oxígeno
 
-| Edición | Ventanas de conector de oxígeno | Conector de oxígeno Mac | Editar en ventanas de oxígeno | Editar en Oxygen Mac |
+| Versión | Ventanas de conector de oxígeno | Conector de oxígeno Mac | Editar en ventanas de oxígeno | Editar en Oxygen Mac |
 | --- | --- | --- |--- |--- |
-| 4.3.0 (no UUID) | 2.3-regular-5 | 2.3-regular-5 | 1.6 | 1.6 |
-| 4.3.0 (UUID) | 3.0-uuid-4 | 3.0-uuid-3 | 2.3 | 2.3 |
+| 4.3.0 (no UUID) | 2.3-regular-5 | 2.3-regular-5 | 1,6 | 1,6 |
+| 4.3.0 (UUID) | 3.0-uuid-4 | 3.0-uuid-3 | 2,3 | 2,3 |
 |  |  |   |
 
 ## Problemas solucionados

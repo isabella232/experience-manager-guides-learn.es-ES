@@ -1,13 +1,12 @@
 ---
 title: La API de REST funciona con atributos condicionales
 description: Obtenga información acerca de la API de REST para trabajar con atributos condicionales
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 2%
+source-wordcount: '147'
+ht-degree: 0%
 
 ---
-
 
 # La API de REST funciona con atributos condicionales {#id175UB30E05Z}
 
@@ -40,4 +39,3 @@ http://*&lt;aem-guides-server>*: *&lt;port-number>*/bin/fmdita/folderprofiles
 
 **Valores de respuesta**:\
 Devuelve una respuesta HTTP 200 \(Correcto\).
-

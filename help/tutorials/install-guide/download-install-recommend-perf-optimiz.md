@@ -1,13 +1,12 @@
 ---
 title: Recommendations para la optimización del rendimiento
 description: Conozca Recommendations para la optimización del rendimiento
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '967'
 ht-degree: 0%
 
 ---
-
 
 # Recommendations para la optimización del rendimiento {#id213BD0JG0XA}
 
@@ -116,7 +115,7 @@ Un mayor número de **AEM Limitar páginas del sitio en el montón** AEM optimiz
 **¿Cuál es el cambio?**
 Este cambio es necesario si se carga contenido DITA de forma masiva.
 
-Configure las variables **Subprocesos de procesamiento posterior** propiedad en `com.adobe.fmdita.config.ConfigManager` hasta `1`.
+Configure las variables **Threads de procesamiento posterior** propiedad en `com.adobe.fmdita.config.ConfigManager` hasta `1`.
 
 **¿Cuándo configurar?**
 Esto se puede hacer en tiempo de ejecución.
@@ -125,4 +124,3 @@ Esto se puede hacer en tiempo de ejecución.
 Este cambio reduce el tiempo de posprocesamiento en cargas masivas de ficheros DITA.
 
 **Tema principal:**[ Descargar e instalar](download-install.md)
-

@@ -1,8 +1,7 @@
 ---
 title: PDF
 description: Genere y configure la salida del PDF para documentos de FrameMaker AEM en Guías de.
-exl-id: ece004ed-5233-460b-889d-94e693ceed93
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 3%
@@ -27,7 +26,7 @@ Las siguientes opciones están disponibles para la salida del PDF:
 | Generar PDF para cada archivo del libro | Si está generando resultados para un archivo de libro, seleccione esta opción para generar un PDF independiente para cada archivo del libro. |
 | Generar PDF solo para revisión | Seleccione esta opción para generar un PDF con la función de comentarios habilitada. |
 | Crear un destino con nombre para todos los elementos y párrafos | Seleccione esta opción para crear destinos con nombre basados en elementos y párrafos. |
-| **Ajustes de visualización** |
+| **Configuración de visualización** |
 | Abrir documento en la página | Especifique el número de página que debe mostrarse al abrir el PDF. |
 | Nivel de zoom inicial | Elija el nivel de zoom del documento. |
 | Marca de registro | Para imprimir un documento con marcas de recorte y de registro, elija una opción en la lista desplegable Marcas de registro. |

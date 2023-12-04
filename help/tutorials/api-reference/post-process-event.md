@@ -1,13 +1,12 @@
 ---
 title: Controlador de eventos de posprocesamiento
 description: Obtenga información acerca del controlador de eventos posteriores al procesamiento
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '198'
 ht-degree: 1%
 
 ---
-
 
 # Controlador de eventos de posprocesamiento {#id175UB30E05Z}
 
@@ -33,4 +32,3 @@ com/adobe/fmdita/postprocess/complete
 ```
 
 **Parámetros**: |Nombre|Tipo|Descripción| |----|----|-----------| |`path`|Cadena|Ruta del archivo que activó este evento. Normalmente, es el archivo en el que se ha realizado una operación.| |`status`|Cadena|Estado de devolución de la operación realizada. Las opciones posibles son: - <br>- CORRECTO: la operación de posprocesamiento se completó correctamente. <br>- COMPLETADA CON ERRORES: la operación de posprocesamiento se completó, pero con algunos errores. <br>- ERROR: error en la operación posterior al procesamiento debido a un error grave.| |`message`|Cadena|En caso de que el estado se COMPLETE CON ERRORES o FALLE, este parámetro contiene los detalles sobre el error o el motivo del error.| |`operation`|Cadena|Operación de posprocesamiento realizada en el archivo. Las opciones posibles son:<br>- Suma <br>- Actualización <br>- Eliminación|
-

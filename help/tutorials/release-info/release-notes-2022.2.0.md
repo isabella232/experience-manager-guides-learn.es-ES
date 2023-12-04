@@ -1,11 +1,10 @@
 ---
 title: Notas de la versión para [!DNL AEM Guides], versión de febrero de 2022
 description: Lanzamiento de febrero de [!DNL Adobe Experience Manager Guides] as a Cloud Service
-exl-id: eb7ff475-bb5b-4d32-b291-024147fbfed1
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 3%
+source-wordcount: '974'
+ht-degree: 0%
 
 ---
 
@@ -14,20 +13,20 @@ ht-degree: 3%
 ## Actualización a la versión de febrero
 
 Actualice el actual [!DNL Adobe Experience Manager Guides] as a Cloud Service (denominado posteriormente [!DNL AEM Guides] as a Cloud Service) realizando los siguientes pasos:
-1. Consulte el código Git de los Cloud Services y cambie a la rama configurada en la canalización de Cloud Services correspondiente al entorno que desee actualizar.
-1. Actualizar `<dox.version>` propiedad en `/dox/dox.installer/pom.xml` de su código Git de Cloud Services a 2022.2.114.
-1. Confirme los cambios y ejecute la canalización de Cloud Services para actualizar a la versión de febrero de [!DNL AEM Guides] as a Cloud Service.
+1. Consulte el código Git de los Cloud Service y cambie a la rama configurada en la canalización de Cloud Service correspondiente al entorno que desee actualizar.
+1. Actualizar `<dox.version>` propiedad en `/dox/dox.installer/pom.xml` de su código Git de Cloud Service a 2022.2.114.
+1. Confirme los cambios y ejecute la canalización de Cloud Service para actualizar a la versión de febrero de [!DNL AEM Guides] as a Cloud Service.
 
 ## Matriz de compatibilidad
 
 En esta sección se muestra la matriz de compatibilidad para las aplicaciones de software compatibles con [!DNL AEM Guides] Versión as a Cloud Service de febrero de 2022.
 
-### FrameMaker y FrameMaker Publishing Server
+### FRAMEMAKER y FRAMEMAKER PUBLISHING SERVER
 
 | FMPS | FrameMaker |
 | --- | --- |
 | No compatible | Actualización 4 de 2020 y posterior |
-|  |  |
+| | |
 
 
 ### Conector de oxígeno

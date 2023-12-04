@@ -1,15 +1,12 @@
 ---
 title: Personalización y configuración de la función de publicación PDF nativo
 description: Obtenga información sobre cómo personalizar y configurar los distintos componentes de la función de PDF nativo.
-source-git-commit: 7bee42be8975ee25254e185edee67778ff3e1294
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 0%
 
 ---
-
-
-
 
 # Publicación de PDF nativa
 
@@ -30,4 +27,3 @@ Para obtener más información, consulte lo siguiente:
    * [Añadir un marcador personalizado en la salida del PDF](../native-pdf/add-custom-bookmark.md)
    * [Usar JavaScript para trabajar con contenido o estilo](../native-pdf/use-javascript-content-style.md)
    * [Usar estilos personalizados en las notas al pie](../native-pdf/footnote-number-style.md)
-

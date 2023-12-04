@@ -1,13 +1,12 @@
 ---
 title: Establecer el Editor de mapas avanzado como predeterminado
 description: Aprenda a establecer el Editor de mapas avanzado como predeterminado
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 0%
 
 ---
-
 
 # Establecer el Editor de mapas avanzado como predeterminado {#id181AI0003PN}
 
@@ -30,5 +29,3 @@ Realice los siguientes pasos para hacer que el Editor de Mapas Avanzado sea el e
 1. Seleccione el **Ocultar editor de mapas básico** opción.
 
    Con esta opción seleccionada, los usuarios no verán el vínculo Editor de mapas básico en ninguna parte de la interfaz de usuario. De forma predeterminada, los archivos de asignación se abrirán en el Editor de mapas avanzado.
-
-

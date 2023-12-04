@@ -1,13 +1,12 @@
 ---
 title: Configurar la opción de edición en Oxígeno
 description: Aprenda a configurar la opción de edición en el complemento Conector de oxígeno.
-source-git-commit: a209e46e41055348402292e20c229890cd0c01cf
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 1%
 
 ---
-
 
 # Configurar la opción de edición en Oxígeno
 
@@ -26,4 +25,3 @@ Siga las instrucciones que se indican en [Anulaciones de configuración](downloa
 > Esta configuración está deshabilitada de forma predeterminada y la opción no está disponible en el Editor web.
 
 **Tema principal:**[ Personalizar editor web](conf-web-editor.md)
-

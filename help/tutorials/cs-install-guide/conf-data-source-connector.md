@@ -1,13 +1,12 @@
 ---
 title: Configuración de un conector de fuente de datos
 description: Obtenga información sobre cómo configurar un conector de fuente de datos
-source-git-commit: fc142d8a6e907fac1321dfd5c2cb9615d523709d
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 1%
+source-wordcount: '454'
+ht-degree: 0%
 
 ---
-
 
 # Configuración de un conector de fuente de datos
 
@@ -281,4 +280,3 @@ Por ejemplo,  `/content/dam/jira.json`
 Puede registrar la configuración mediante la API de REST. Para obtener más información, consulte *API de REST para registrar un conector de fuente de datos* de la Referencia de API para Guías de Adobe Experience Manager.
 
 Una vez configurado el origen de datos, el conector se muestra en el panel Fuentes de datos del Editor web. A continuación, puede conectarse al origen de datos e insertar un fragmento de contenido en los temas. Para obtener más información, consulte [Inserción de un fragmento de contenido desde la fuente de datos](../user-guide/web-editor-content-snippet.md).
-

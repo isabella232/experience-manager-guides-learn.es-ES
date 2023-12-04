@@ -1,13 +1,12 @@
 ---
 title: Administración de versiones
 description: Obtenga información sobre cómo administrar versiones
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1498'
-ht-degree: 1%
+source-wordcount: '1502'
+ht-degree: 0%
 
 ---
-
 
 # Administración de versiones {#id181GB000XY4}
 
@@ -169,4 +168,3 @@ Siga estos pasos para purgar las versiones anteriores:
 >[!NOTE]
 >
 > El informe se descarga en la siguiente ubicación: `/var/dxml/versionpurge`
-

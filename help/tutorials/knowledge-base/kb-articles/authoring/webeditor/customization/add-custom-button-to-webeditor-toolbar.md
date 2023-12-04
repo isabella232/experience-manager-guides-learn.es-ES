@@ -1,10 +1,9 @@
 ---
 title: Agregar nuevo botón procesable personalizado en la barra de herramientas del editor web
 description: Aprenda a añadir un nuevo botón personalizado en la barra de herramientas del editor web y a llamar a JavaScript para utilizarlo de forma personalizada.
-exl-id: 118c4545-9eda-4e1e-a224-843767e49b5b
-source-git-commit: ed3adf0cf8006c76461de34c6a2a4ba38d8b3406
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -64,7 +63,7 @@ Utilice los perfiles de carpeta para comprobar la *ui_config.json* en la pestañ
 
 
 - Después de guardar el perfil de carpeta, cree una &quot;cq:ClientLibraryFolder&quot; en un directorio de proyecto (puede estar en */apps*) y agregue propiedades como se muestra en la captura de pantalla siguiente:
-   ![Configuración de la biblioteca de cliente para el editor web](../../../assets/authoring/webeditor-add-customtoolbarbutton-clientlibrarysettings.png)
+  ![Configuración de la biblioteca de cliente para el editor web](../../../assets/authoring/webeditor-add-customtoolbarbutton-clientlibrarysettings.png)
 
 ```
 This example uses "coralui3" library to show a dialog as it is used in the Javascript sample we presented.

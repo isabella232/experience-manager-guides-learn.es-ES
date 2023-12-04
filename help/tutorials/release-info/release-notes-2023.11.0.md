@@ -1,11 +1,10 @@
 ---
 title: Notas de versión | Instrucciones de actualización y problemas corregidos en las guías de Adobe Experience Manager, versión de noviembre de 2023
 description: Obtenga información acerca de las correcciones de errores y cómo actualizar a la versión de noviembre de 2023 de las guías de Adobe Experience Manager as a Cloud Service
-exl-id: 80839890-075f-4187-a167-444c73215496
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1640'
-ht-degree: 3%
+source-wordcount: '1673'
+ht-degree: 0%
 
 ---
 
@@ -123,7 +122,7 @@ Esta sección enumera la matriz de compatibilidad para las aplicaciones de softw
 
 | Versión de Experience Manager Guides as a Cloud | Ventanas de conector de oxígeno | Conector de oxígeno Mac | Editar en ventanas de oxígeno | Editar en Oxygen Mac |
 | --- | --- | --- | --- | --- |
-| 2023.11.0 | 3.2-uuid 5 | 3.2-uuid 5 | 2.3 | 2.3 |
+| 2023.11.0 | 3.2-uuid 5 | 3.2-uuid 5 | 2,3 | 2,3 |
 |  |  |  |  |
 
 

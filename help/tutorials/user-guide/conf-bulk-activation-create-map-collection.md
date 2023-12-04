@@ -1,8 +1,7 @@
 ---
 title: Creación de una colección de mapas de activación masiva
 description: AEM Obtenga información sobre cómo crear una colección de mapas de activación masiva en las guías de.
-exl-id: ea0bd465-a2d9-488f-83e9-62b336233eb1
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 0%

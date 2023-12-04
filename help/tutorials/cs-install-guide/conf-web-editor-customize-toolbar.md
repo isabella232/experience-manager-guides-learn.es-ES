@@ -1,13 +1,12 @@
 ---
 title: Personalizar barra de herramientas
 description: Aprenda a personalizar la barra de herramientas
-source-git-commit: 7306c1c3fbf37c049f9de1b2b492bb9b8906b065
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '956'
 ht-degree: 0%
 
 ---
-
 
 # Personalizar barra de herramientas {#id172FB00L0V6}
 
@@ -139,4 +138,3 @@ Realice los siguientes pasos para eliminar cualquier función no deseada de la b
 
 
 **Tema principal:**[ Personalizar editor web](conf-web-editor.md)
-

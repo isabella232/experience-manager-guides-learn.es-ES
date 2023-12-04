@@ -1,13 +1,12 @@
 ---
 title: Instalación de paquetes para la publicación basada en artículos
 description: Obtenga información sobre cómo instalar paquetes para la publicación basada en artículos
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 0%
 
 ---
-
 
 # Instalación de paquetes para la publicación basada en artículos {#id21BNL02052Z}
 
@@ -19,4 +18,3 @@ Para habilitar la publicación basada en artículos, descargue e instale los sig
 - Paquete de componentes para la publicación basada en artículos
 
 **Tema principal:**[ Personalizar editor web](conf-web-editor.md)
-

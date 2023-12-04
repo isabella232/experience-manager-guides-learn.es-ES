@@ -1,11 +1,10 @@
 ---
 title: Notas de versión | Versión as a Cloud Service de las guías de Adobe Experience Manager, noviembre de 2022
 description: Versión de noviembre de Adobe Experience Manager Guides as a Cloud Service
-exl-id: 9f329ec1-dd74-47cc-8567-3fadd962584a
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1372'
-ht-degree: 2%
+source-wordcount: '1384'
+ht-degree: 0%
 
 ---
 
@@ -14,9 +13,9 @@ ht-degree: 2%
 ## Actualización a la versión de noviembre
 
 Actualice las guías de Adobe Experience Manager actuales as a Cloud Service (más adelante denominadas *AEM Guías de as a Cloud Service*) realizando los siguientes pasos:
-1. Consulte el código Git de los Cloud Services y cambie a la rama configurada en la canalización de Cloud Services correspondiente al entorno que desea actualizar.
-1. Actualizar `<dox.version>` propiedad en `/dox/dox.installer/pom.xml` de su código Git de Cloud Services a 2022.11.198.
-1. Confirme los cambios y ejecute la canalización de Cloud Services AEM para actualizar a la versión de noviembre de las guías de los usuarios as a Cloud Service de la versión de noviembre de la versión de las guías de los usuarios de la aplicación de.
+1. Consulte el código Git de los Cloud Service y cambie a la rama configurada en la canalización de Cloud Service correspondiente al entorno que desea actualizar.
+1. Actualizar `<dox.version>` propiedad en `/dox/dox.installer/pom.xml` de su código Git de Cloud Service a 2022.11.198.
+1. Confirme los cambios y ejecute la canalización de Cloud Service AEM para actualizar a la versión de noviembre de las guías de los usuarios as a Cloud Service de la versión de noviembre de la versión de las guías de los usuarios de la aplicación de.
 
 ## AEM Pasos para indexar el contenido existente (solo si se encuentra en una versión anterior a la versión de septiembre de Guías de as a Cloud Service)
 
@@ -26,8 +25,7 @@ Realice los siguientes pasos para indexar el contenido existente y utilice el nu
 (Opcional: puede pasar rutas específicas de los mapas para indexarlas, de forma predeterminada se indexarán todas las asignaciones || Ejemplo : `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 * La API devolverá un jobId. Para comprobar el estado del trabajo, puede enviar una solicitud de GET con el ID del trabajo al mismo punto final: `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
-(Por ejemplo: http://&lt;
-_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
+(Por ejemplo: http://&lt;_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
 
 * Una vez completado el trabajo, la solicitud de GET anterior responderá correctamente y mencionará si alguna asignación ha fallado. Los mapas indexados correctamente se pueden confirmar desde los registros del servidor.
 
@@ -35,12 +33,12 @@ _localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981
 
 AEM En esta sección se muestra la matriz de compatibilidad para las aplicaciones de software compatibles con las guías de la aplicación de la versión de noviembre de 2022 as a Cloud Service por las Guías de.
 
-### FrameMaker y FrameMaker Publishing Server
+### FRAMEMAKER y FRAMEMAKER PUBLISHING SERVER
 
 | FMPS | FrameMaker |
 | --- | --- |
 | No compatible | Actualización 4 de 2020 y posterior |
-|  |  |
+| | |
 
 AEM *La línea de base y las condiciones creadas en la versión de FMPS a partir de 2020.2 son compatibles con las versiones de FMPS.
 
@@ -48,7 +46,7 @@ AEM *La línea de base y las condiciones creadas en la versión de FMPS a partir
 
 | AEM Versión de Guides as a Cloud de | Ventanas de conector de oxígeno | Conector de oxígeno Mac | Editar en ventanas de oxígeno | Editar en Oxygen Mac |
 | --- | --- | --- | --- | --- |
-| 2022.11.0 | 2.7.13 | 2.7.13 | 2.3 | 2.3 |
+| 2022.11.0 | 2.7.13 | 2.7.13 | 2,3 | 2,3 |
 |  |  |  |  |
 
 
@@ -140,7 +138,7 @@ A continuación se enumeran los errores corregidos en varias áreas:
 * Al pulsar Retroceso al final de un elemento de la lista, se elimina toda la lista. (10540)
 * Al utilizar un PDF nativo, exporte el anidado `<indexterm>` no están anidadas en el índice. (10521)
 * **Sangría automática** de la barra de herramientas no aparece en la vista Código fuente. (10448)
-* El primer carácter de un elemento de la lista se pierde mientras la lista se crea en el editor. (10447)
+* El primer carácter de un elemento de lista se pierde mientras la lista se crea en el editor. (10447)
 * Aparecen varias ventanas emergentes si se cambia y se guarda cualquier versión de recurso DITA en la ventana de edición de línea base. (10399)
 * Error de aplicación al hacer clic en **Editar** después de seleccionar todos los ajustes preestablecidos de salida en el panel Generación rápida. (10388)
 * Los metadatos personalizados para el tema DITA no se conservan cuando se realiza una acción de copiar y pegar desde la interfaz de usuario de Assets. (10367)

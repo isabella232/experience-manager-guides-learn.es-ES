@@ -1,13 +1,12 @@
 ---
 title: Acerca de esta guía
 description: Obtenga información acerca de esta guía
-source-git-commit: cf1b9812cb6bb00319eb8fe23162d3830c82b1b1
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '580'
 ht-degree: 0%
 
 ---
-
 
 # Acerca de esta guía {#id175MC0P0S5Z}
 
@@ -28,7 +27,7 @@ La información de esta guía está organizada de la siguiente manera:
 
 - [Acerca de esta guía](#id175MC0P0S5Z): Este tema proporciona una introducción a esta guía, a la audiencia objetivo y a cómo se organiza la información en esta guía.
 
-- [Descargar e instalar](download-install.md#)AEM : En este tema se describe cómo descargar, instalar o actualizar guías de la aplicación de.
+- [Descargar e instalar](download-install.md#)AEM : En este tema se describe cómo descargar, instalar o actualizar guías de usuario de.
 
 - [Administración de usuarios y seguridad](user-admin-sec.md#)AEM AEM : En este tema se describe el concepto principal de usuarios y autenticación en y los grupos de usuarios predeterminados creados por las guías de usuario de.
 
@@ -71,4 +70,3 @@ AEM A continuación se muestra una lista de otros recursos útiles de las guías
 - Guía de referencia de API
 - Guía de inicio rápido
 - [Página de archivado de ayuda](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \(acceder a la documentación de la versión anterior\)
-

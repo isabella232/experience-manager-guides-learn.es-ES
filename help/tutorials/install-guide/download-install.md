@@ -1,13 +1,12 @@
 ---
 title: Descargar e instalar
 description: Descubra cómo descargar e instalar
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '134'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
-
 
 # Descargar e instalar {#id1645E0O04MK}
 
@@ -30,5 +29,3 @@ AEM Antes de comenzar el proceso de descarga e instalación, debe asegurarse de 
 - **[AEM Desinstalación de guías de](download-install-unistall-aemg.md)**
 
 - **[Recommendations para la optimización del rendimiento](download-install-recommend-perf-optimiz.md)**
-
-

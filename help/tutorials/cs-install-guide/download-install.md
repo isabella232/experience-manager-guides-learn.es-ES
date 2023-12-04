@@ -1,13 +1,12 @@
 ---
 title: Descargar e instalar
 description: Descubra cómo descargar e instalar
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '53'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
-
 
 # Descargar e instalar {#id1645E0O04MK}
 
@@ -24,5 +23,3 @@ AEM Las guías de la aplicación están disponibles a través del repositorio de
 - **[Anulaciones de configuración](download-install-additional-config-override.md)**
 
 - **[Recommendations para la optimización del rendimiento](download-install-recommend-perf-optimiz.md)**
-
-

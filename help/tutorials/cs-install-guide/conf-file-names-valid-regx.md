@@ -1,13 +1,12 @@
 ---
 title: Configure Regx para caracteres de nombre de archivo válidos
 description: Obtenga información sobre cómo configurar Regx para caracteres de nombre de archivo válidos
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
-
 
 # Configure Regx para caracteres de nombre de archivo válidos {#id214BD0550E8}
 
@@ -30,4 +29,3 @@ Siga las instrucciones que se indican en [Anulaciones de configuración](downloa
 > AEM De forma similar a la lista de caracteres de nombre de archivo válidos, también puede especificar una lista de caracteres de nombre de archivo válidos para la salida de sitio de la lista de nombres de archivo de salida de la página de datos de sitio de. Para obtener más información, consulte [AEM Configure nombres de archivo válidos para la salida del sitio de la](conf-file-names-valid-regx-aem-site-output.md#).
 
 **Tema principal:**[ Configurar nombres de archivo](conf-file-names.md)
-

@@ -1,13 +1,12 @@
 ---
 title: Abrir un tema DITA o archivos de asignación en la misma ficha
 description: Obtenga información sobre cómo abrir un tema o asignar archivos DITA en la misma pestaña
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '208'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
-
 
 # Abrir un tema DITA o archivos de asignación en la misma ficha {#id223HH0301J3}
 
@@ -33,4 +32,3 @@ Esta configuración afecta a los siguientes lugares desde donde puede acceder a 
 
 
 **Tema principal:**[ Personalizar editor web](conf-web-editor.md)
-

@@ -1,13 +1,12 @@
 ---
 title: API de REST para trabajar con mapas DITA
 description: Obtenga información acerca de la API de REST para trabajar con mapas DITA
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 0%
 
 ---
-
 
 # API de REST para trabajar con mapas DITA {#id175UB30E05Z}
 
@@ -43,4 +42,3 @@ Método de GET que recupera el estado de exportación de un mapa DITA con todos 
 |Nombre|Tipo|Descripción|Requerida| ----|----|--------|----------- |`jobId`|Cadena|Sí|ID de trabajo recuperado cuando se inició el trabajo de exportación.|
 
 **Valores de respuesta**: |Elemento|Descripción| |-------|-----------| |`status`|El estado del trabajo de exportación. Las opciones posibles son: INICIADO, FALLIDO, EN CURSO, CORRECTO, FALTANTE, ELIMINADO| |`jobId`|El identificador único del trabajo. Se puede utilizar más adelante para consultar el estado.| |`errorMessage`|El mensaje de error del trabajo en caso de error \(si el estado es FAILED, MISSING o DELETED\).| |`filePath`|Ruta de archivo del ZIP. Solo está presente cuando se completa el trabajo y el estado es CORRECTO. Se puede usar para descargar el archivo ZIP.|
-

@@ -1,13 +1,12 @@
 ---
 title: Configurar los caracteres especiales permitidos
 description: Aprenda a configurar los caracteres especiales permitidos
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 0%
 
 ---
-
 
 # Configurar los caracteres especiales permitidos {#id20CIL600035}
 
@@ -44,4 +43,3 @@ La estructura del `symbols.json` se explica a continuación:
 
 
 **Tema principal:**[ Personalizar editor web](conf-web-editor.md)
-

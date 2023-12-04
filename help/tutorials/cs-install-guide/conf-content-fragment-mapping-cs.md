@@ -1,13 +1,12 @@
 ---
 title: Configure la asignación basada en JSON entre un tema y un modelo de fragmento de contenido.
 description: Obtenga información sobre cómo configurar la asignación basada en JSON entre un tema y un modelo de fragmento de contenido.
-source-git-commit: dd677257d94015d888705e4b6a43ae877e58be4b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
 
 ---
-
 
 # Creación de una asignación entre un tema y un fragmento de contenido
 

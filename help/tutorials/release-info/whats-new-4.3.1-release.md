@@ -1,9 +1,9 @@
 ---
 title: Notas de versión | Novedades de la versión 4.3.1 de las guías de Adobe Experience Manager
 description: Obtenga información acerca de las funciones nuevas y mejoradas de las versiones 4.3.1 de Adobe Experience Manager Guides
-source-git-commit: a865630527045574ef5a96622537e767eacd9fc2
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1127'
 ht-degree: 0%
 
 ---

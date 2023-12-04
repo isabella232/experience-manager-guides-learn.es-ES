@@ -1,13 +1,12 @@
 ---
 title: Cargar contenido DITA existente
 description: Obtenga información sobre cómo cargar contenido DITA existente
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1201'
 ht-degree: 0%
 
 ---
-
 
 # Cargar contenido DITA existente {#id176FF000JUI}
 
@@ -40,11 +39,11 @@ Siga estos pasos para usar WinSCP para cargar archivos:
 
 ## Usar FrameMaker
 
-Adobe FrameMaker AEM AEM incluye un potente conector de que permite cargar fácilmente los documentos DITA y otros documentos de FrameMaker \(.book y .fm\) en la interfaz de usuario de. Puede utilizar varias funcionalidades de carga de archivos, como cargar un solo archivo o cargar una carpeta completa con o sin dependencias \(como referencias de contenido, referencias cruzadas y gráficos\).
+Adobe FrameMaker AEM incluye un potente conector de que permite cargar fácilmente los documentos DITA y de FrameMaker AEM \(.book y .fm\) existentes en la interfaz de usuario de. Puede utilizar varias funcionalidades de carga de archivos, como cargar un solo archivo o cargar una carpeta completa con o sin dependencias \(como referencias de contenido, referencias cruzadas y gráficos\).
 
-AEM Siga estos pasos para utilizar el conector de de FrameMaker para cargar contenido:
+Siga estos pasos para utilizar el conector de de FrameMaker AEM para cargar contenido:
 
-1. Inicie FrameMaker.
+1. Iniciar FrameMaker.
 
 1. Abra el **Connection Manager** diálogo.
 
@@ -57,7 +56,7 @@ AEM Siga estos pasos para utilizar el conector de de FrameMaker para cargar cont
 
    - **Nombre de usuario**/**Contraseña** AEM : introduzca el nombre de usuario y la contraseña para acceder al servidor de la.
 
-1. Haga clic en **Conectar**.
+1. Clic **Connect**.
 
    AEM Una vez que la conexión se haya establecido correctamente, los recursos del repositorio de se mostrarán en la ventana Administrador de repositorios.
 
@@ -175,4 +174,3 @@ Especifique los siguientes parámetros para agregar información de metadatos:
 
 
 **Tema principal:**[ Migrar contenido existente](migrate-content.md)
-

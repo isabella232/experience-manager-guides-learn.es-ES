@@ -1,11 +1,10 @@
 ---
 title: Actualizar guías de Adobe Experience Manager
 description: Obtenga información sobre cómo actualizar las guías de Adobe Experience Manager
-exl-id: f058b39f-7408-4874-942b-693e133886cf
-source-git-commit: 6078cb1856ba45524e46165d546daf4109e9b2b2
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '4349'
-ht-degree: 1%
+source-wordcount: '4470'
+ht-degree: 0%
 
 ---
 
@@ -522,7 +521,7 @@ Realice los siguientes pasos para posprocesar el contenido existente y utilizar 
 1. Volver al valor predeterminado o al valor existente anterior de `queryLimitReads` si lo ha cambiado en el paso 1.
 
 
-4.3.1
+4.3.1.
 
 ## Actualización a la versión 4.3.1 {#upgrade-version-4-3-1}
 

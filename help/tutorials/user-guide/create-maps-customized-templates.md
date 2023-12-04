@@ -1,10 +1,9 @@
 ---
 title: Creación de mapas basados en plantillas personalizadas
 description: AEM Aprenda a crear una plantilla de personalizaciones, utilizarla para crear nuevos archivos de asignación y pasar el título definido a un mapa DITA en las guías de la.
-exl-id: 02513148-3876-4549-962a-9984f619030f
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---

@@ -1,13 +1,12 @@
 ---
 title: PDF nativo | Configuración de indicadores JVM para la publicación de PDF nativos
 description: Configuración de indicadores JVM para la publicación de PDF nativos
-source-git-commit: cfb1197d0aad7ea3771bc6e1a73c02f540cef0c9
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 1%
 
 ---
-
 
 # Configuración de indicadores JVM para la publicación de PDF nativos
 

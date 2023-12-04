@@ -1,13 +1,12 @@
 ---
 title: Configurar mensaje para guardar como nueva versión al cerrar
 description: Obtenga información sobre cómo configurar el mensaje para guardar como una nueva versión al cerrar
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 1%
 
 ---
-
 
 # Configurar mensaje para guardar como nueva versión al cerrar {#id222HBI00XXA}
 
@@ -24,4 +23,3 @@ Cuando esta configuración está habilitada, la variable **Guardar como nueva ve
 Para obtener más información, consulte *Escenarios de archivo, cerrar y guardar* de la guía as a Cloud Service Uso de guías de Adobe Experience Manager.
 
 **Tema principal:**[ Personalizar editor web](conf-web-editor.md)
-

@@ -1,13 +1,12 @@
 ---
 title: API de REST para la administración de resultados
 description: Obtenga información acerca de las API de REST para Output management
-source-git-commit: 4dcd90422f02f3b45aa74137fe58609962b09b49
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1175'
 ht-degree: 0%
 
 ---
-
 
 # API de REST para la administración de resultados {#id175UB30E05Z}
 
@@ -134,4 +133,3 @@ Método de POST que elimina un ajuste preestablecido de salida.
 **Parámetros**: |Nombre|Tipo|Descripción|Requerida| ----|----|--------|----------- |`:operation`|Cadena|Sí|Nombre de la operación a la que se llama. El valor de este parámetro es `deleteoutput`.<br> **Nota:** El valor distingue entre mayúsculas y minúsculas.| |`sourcePath`|Cadena|Sí|Ruta absoluta del archivo de mapa DITA.| |`outputName`|Cadena|Sí|Nombre del ajuste preestablecido de salida que se va a eliminar.|
 
 **Valores de respuesta**: Devuelve una respuesta HTTP 200 \(Correcto\).
-

@@ -1,11 +1,10 @@
 ---
 title: Notas de versión | Versión de Adobe Experience Manager Guides 4.1
 description: Última versión de Adobe Experience Manager Guides
-exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '3532'
-ht-degree: 3%
+source-wordcount: '3644'
+ht-degree: 1%
 
 ---
 
@@ -40,23 +39,23 @@ Paquete de servicio 13, 12, 11 o 10 de la versión 6.5
 Para obtener más información, consulte la sección Requisitos técnicos en la guía Instalar y configurar guías de Adobe Experience Manager.
 
 
-### FrameMaker y FrameMaker Publishing Server
+### FRAMEMAKER y FRAMEMAKER PUBLISHING SERVER
 
-| Edición | FMPS 2020 | FMPS 2019 | Fm 2020 | Fm 2019 |
+| Versión | FMPS 2020 | FMPS 2019 | Fm 2020 | Fm 2019 |
 | --- | --- | --- | --- | --- |
 | 4.1.3 (no UUID) | 2020.2 o superior* | 2019 | 2020.3 o superior | 2019.8 (última actualización) |
 | 4.1.3 (UUID) | 2020.2 o superior* | No compatible | 2020.4 o superior | No compatible |
-|  |  |  |  |
+| | | | |
 
 AEM *La línea de base y las condiciones creadas en la versión de FMPS a partir de 2020.2 son compatibles con las versiones de FMPS.
 
 ### Conector de oxígeno
 
-| Edición | Ventanas de conector de oxígeno | Conector de oxígeno Mac | Editar en ventanas de oxígeno | Editar en Oxygen Mac |
+| Versión | Ventanas de conector de oxígeno | Conector de oxígeno Mac | Editar en ventanas de oxígeno | Editar en Oxygen Mac |
 | --- | --- | --- |--- |--- |
-| 4.1.3 (no UUID) | 2.0 | 2.0 | 1.6 | 1.6 |
-| 4.1.3 (UUID) | 2.7 | 2.7 | 2.3 | 2.3 |
-|  |  |  |
+| 4.1.3 (no UUID) | 2.0 | 2.0 | 1,6 | 1,6 |
+| 4.1.3 (UUID) | 2,7 | 2,7 | 2,3 | 2,3 |
+|  |  |   |
 
 
 ## Problemas solucionados
@@ -83,23 +82,23 @@ Paquete de servicio 13, 12, 11 o 10 de la versión 6.5
 Para obtener más información, consulte la sección Requisitos técnicos en la guía Instalar y configurar guías de Adobe Experience Manager.
 
 
-### FrameMaker y FrameMaker Publishing Server
+### FRAMEMAKER y FRAMEMAKER PUBLISHING SERVER
 
-| Edición | FMPS 2020 | FMPS 2019 | Fm 2020 | Fm 2019 |
+| Versión | FMPS 2020 | FMPS 2019 | Fm 2020 | Fm 2019 |
 | --- | --- | --- | --- | --- |
 | 4.1.2 (no UUID) | 2020.2 o superior* | 2019 | 2020.3 o superior | 2019.8 (última actualización) |
 | 4.1.2 (UUID) | 2020.2 o superior* | No compatible | 2020.4 o superior | No compatible |
-|  |  |  |  |
+| | | | |
 
 AEM *La línea de base y las condiciones creadas en la versión de FMPS a partir de 2020.2 son compatibles con las versiones de FMPS.
 
 ### Conector de oxígeno
 
-| Edición | Ventanas de conector de oxígeno | Conector de oxígeno Mac | Editar en ventanas de oxígeno | Editar en Oxygen Mac |
+| Versión | Ventanas de conector de oxígeno | Conector de oxígeno Mac | Editar en ventanas de oxígeno | Editar en Oxygen Mac |
 | --- | --- | --- |--- |--- |
-| 4.1.2 (no UUID) | 2.0 | 2.0 | 1.6 | 1.6 |
-| 4.1.2 (UUID) | 2.7 | 2.7 | 2.3 | 2.3 |
-|  |  |  |
+| 4.1.2 (no UUID) | 2.0 | 2.0 | 1,6 | 1,6 |
+| 4.1.2 (UUID) | 2,7 | 2,7 | 2,3 | 2,3 |
+|  |  |   |
 
 
 ## Problemas solucionados
@@ -117,7 +116,7 @@ A continuación se enumeran los errores corregidos en varias áreas:
 
 * La línea de base exportada durante la traducción no se carga en la pestaña de línea de base del editor.
 
-   **Solución**: utilice la ficha Línea base del tablero de mandos de mapa DITA.
+  **Solución**: utilice la ficha Línea base del tablero de mandos de mapa DITA.
 
 ## 4,1 | Notas de la versión
 
@@ -140,22 +139,22 @@ Para obtener más información, consulte la sección Requisitos técnicos en la 
 
 
 
-### FrameMaker y FrameMaker Publishing Server
+### FRAMEMAKER y FRAMEMAKER PUBLISHING SERVER
 
-| Edición | FMPS 2020 | FMPS 2019 | Fm 2020 | Fm 2019 |
+| Versión | FMPS 2020 | FMPS 2019 | Fm 2020 | Fm 2019 |
 | --- | --- | --- | --- | --- |
 | 4.1 (no UUID) | 2020.2 o superior* | 2019 | 2020.3 o superior | 2019.8 (última actualización) |
 | 4.1 (UUID) | 2020.2 o superior* | No compatible | 2020.4 o superior | No compatible |
-|  |  |  |  |
+| | | | |
 
 AEM *La línea de base y las condiciones creadas en la versión de FMPS a partir de 2020.2 son compatibles con las versiones de FMPS.
 
 ### Conector de oxígeno
 
-| Edición | Ventanas de conector de oxígeno | Conector de oxígeno Mac | Editar en ventanas de oxígeno | Editar en Oxygen Mac |
+| Versión | Ventanas de conector de oxígeno | Conector de oxígeno Mac | Editar en ventanas de oxígeno | Editar en Oxygen Mac |
 | --- | --- | --- |--- |--- |
-| 4.1 (no UUID) | 2.0 | 2.0 | 1.6 | 1.6 |
-| 4.1 (UUID) | 2.7 | 2.7 | 2.3 | 2.3 |
+| 4.1 (no UUID) | 2.0 | 2.0 | 1,6 | 1,6 |
+| 4.1 (UUID) | 2,7 | 2,7 | 2,3 | 2,3 |
 |  |  |  |
 
 
@@ -248,8 +247,7 @@ Para obtener más información, consulte *Escenarios de archivo, cerrar y guarda
 ![insertar palabra clave](assets/insert-keyword.png)
 
 * **Compatibilidad con documentos de Markdown**
-Markdown es un lenguaje de marcado ligero que puede ayudarle a agregar elementos de formato a documentos de texto sin formato. El editor web permite utilizar documentos Markdown (.md) junto con documentos DITA. Se puede crear y previsualizar fácilmente un documento Markdown en el Editor Web, así como añadirlo en el fichero de mapa a través del editor de mapas DITA.  Para obtener más información, consulte 
-*Creación de documentos de Markdown desde el editor web* de la guía Uso de guías de Adobe Experience Manager.
+Markdown es un lenguaje de marcado ligero que puede ayudarle a agregar elementos de formato a documentos de texto sin formato. El editor web permite utilizar documentos Markdown (.md) junto con documentos DITA. Se puede crear y previsualizar fácilmente un documento Markdown en el Editor Web, así como añadirlo en el fichero de mapa a través del editor de mapas DITA.  Para obtener más información, consulte *Creación de documentos de Markdown desde el editor web* de la guía Uso de guías de Adobe Experience Manager.
 
 ![admitir markdown](assets/create-markdown-dita-topic.png)
 
@@ -283,8 +281,7 @@ Nota: La ficha Línea base del tablero de mandos de asignación está oculta por
 ### Proceso de traducción mejorado
 
 * **Capacidad para crear un proyecto de traducción de ámbito**
-Si necesita crear únicamente el ámbito para traducir un proyecto, puede seleccionar 
-**Crear un nuevo proyecto de traducción de ámbito**. Esto no enviará las copias para su traducción y se mantendrá el estado de traducción original de los archivos.
+Si necesita crear únicamente el ámbito para traducir un proyecto, puede seleccionar **Crear un nuevo proyecto de traducción de ámbito**. Esto no enviará las copias para su traducción y se mantendrá el estado de traducción original de los archivos.
 
 ![proyecto de traducción de ámbito](assets/scoping-translation-project.png)
 
@@ -320,7 +317,7 @@ Cuando selecciona descargar el mapa DITA, la solicitud se pone en cola y recibe 
 
 ### Función obsoleta
 
-AEM Guías de texto ya no admite la generación de formato de salida DITA para documentos FrameMaker. Esta opción DITA también se ha eliminado de los ajustes preestablecidos de salida del tablero de mandos Mapa.
+AEM Guías de la aplicación ya no admite la generación de formato de salida DITA para documentos de FrameMaker. Esta opción DITA también se ha eliminado de los ajustes preestablecidos de salida del tablero de mandos Mapa.
 
 ## Problemas solucionados
 
@@ -370,7 +367,7 @@ A continuación se enumeran los errores corregidos en varias áreas:
 * Los recursos DITA recién creados siempre los extrae otro usuario. (9387)
 * El error siempre se registra al crear contenido nuevo. (9388)
 * La tercera pantalla del proceso de creación de la tarea de revisión no muestra la lista de glosarios. (4558)
-* Se han asignado referencias UUID incorrectas al cargar varios archivos desde FrameMaker/Oxygen Connector. (8269)
+* Se han asignado referencias UUID incorrectas al cargar varios archivos desde el conector de FrameMaker/oxígeno. (8269)
 * No se envía una notificación por correo electrónico cuando se reasigna una tarea de revisión en la bandeja de entrada. (8376)
 * El segundo usuario administrador no se puede agregar como primer usuario administrador a una carpeta. (8430)
 * **Aplicar etiquetas** El cuadro de diálogo de la pestaña Línea de base no muestra etiquetas en la lista desplegable. (8455)

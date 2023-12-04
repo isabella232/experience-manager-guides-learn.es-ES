@@ -1,8 +1,7 @@
 ---
 title: Documentos de Markdown del autor
 description: Crear documentos Markdown desde el editor web. AEM Obtenga información sobre cómo crear y previsualizar un tema de Markdown en las guías de la aplicación de.
-exl-id: ad20ca0b-a01d-4e72-8e3e-1d6feb41e52a
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 0%

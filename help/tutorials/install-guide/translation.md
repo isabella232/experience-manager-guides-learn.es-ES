@@ -1,13 +1,12 @@
 ---
 title: AEM Traducción de contenido en guías de
 description: Aprenda a traducir contenido
-source-git-commit: 9fe396dcfd2e3570ec386c958d7d4efdb4d608e5
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 12%
+source-wordcount: '707'
+ht-degree: 9%
 
 ---
-
 
 # Traducir contenido {#id181GB0400UI}
 
@@ -82,6 +81,7 @@ En función del flujo de trabajo de traducción utilizado en la configuración, 
    - Si utiliza la traducción humana, *Deshabilitar* el **Flujo de trabajo de traducción basado en componentes** opción.
 
    - Si utiliza la traducción automática, *Activar* el **Flujo de trabajo de traducción basado en componentes** opción.
+
    >[!NOTE]
    >
    > Si utiliza el conector de traducción, asegúrese de haber configurado el conector como se describe en la sección *[Configuración del marco de trabajo de integración de traducción](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)* AEM tema en la documentación de la.
@@ -116,5 +116,3 @@ De forma predeterminada, la opción posprocesar archivos temporales está desact
    - Si desea ejecutar la operación de posprocesamiento en los archivos temporales, *Activar* el **Copias de idioma posteriores al procesamiento** opción.
 
 1. Haga clic en **Guardar**.
-
-

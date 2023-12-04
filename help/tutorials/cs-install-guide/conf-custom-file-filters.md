@@ -1,13 +1,12 @@
 ---
 title: Configurar filtros para cuadro de diálogo de exploración de archivos
 description: Obtenga información sobre cómo configurar filtros para el cuadro de diálogo de exploración de archivos
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 0%
 
 ---
-
 
 # Configurar filtros para cuadro de diálogo de exploración de archivos {#id20CIL7009GN}
 
@@ -63,4 +62,3 @@ Realice los siguientes pasos para agregar las opciones de filtrado de archivos p
 
 
 **Tema principal:**[ Personalizar editor web](conf-web-editor.md)
-

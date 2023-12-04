@@ -1,13 +1,12 @@
 ---
 title: Configuración y personalización de flujos de trabajo
 description: Obtenga información sobre cómo configurar y personalizar flujos de trabajo
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1387'
-ht-degree: 2%
+source-wordcount: '1362'
+ht-degree: 1%
 
 ---
-
 
 # Configuración y personalización de flujos de trabajo {#id181AI0OJ0RO}
 
@@ -153,4 +152,3 @@ generatedPath;
 ```
 
 Una vez creado el script, invoque al script personalizado en el flujo de trabajo. A continuación, según sus necesidades, puede llamar a los demás procesos de flujo de trabajo. Una vez diseñado el flujo de trabajo personalizado, llame al método *Finalizar generación posterior* como último paso del proceso de flujo de trabajo. El *Finalizar generación posterior* Este paso garantiza que el estado de la tarea de generación de resultados se actualice a *Finalizado* al finalizar el proceso de generación de resultados. Después de crear un flujo de trabajo de generación posterior a la salida personalizado, puede configurarlo con cualquiera de los ajustes preestablecidos de generación de salida. Seleccione el flujo de trabajo necesario en la *Ejecutar flujo de trabajo posterior a generación* propiedad del ajuste preestablecido requerido. Cuando se ejecuta una tarea de generación de resultados mediante el ajuste preestablecido de salida configurado, el estado de la tarea \(en la pestaña Salida\) cambia a *Procesamiento posterior*.
-

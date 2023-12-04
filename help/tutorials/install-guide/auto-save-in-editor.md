@@ -1,13 +1,12 @@
 ---
 title: Configurar el guardado automático de archivos en el Editor web
 description: Obtenga información sobre cómo configurar el guardado automático de archivos en el Editor Web
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 1%
 
 ---
-
 
 # Configurar el guardado automático de archivos en el Editor web {#id199CC0J0M5Z}
 
@@ -33,4 +32,3 @@ La función de guardado automático no está activada de forma predeterminada y 
 
 
 **Tema principal:**[ Personalizar editor web](conf-web-editor.md)
-

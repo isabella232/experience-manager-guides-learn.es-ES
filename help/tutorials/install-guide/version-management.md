@@ -1,13 +1,12 @@
 ---
 title: Administración de versiones
 description: Descubra cómo funciona la administración de versiones
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1662'
 ht-degree: 0%
 
 ---
-
 
 # Administración de versiones {#id181GB000XY4}
 
@@ -176,11 +175,11 @@ Para definir quién puede eliminar un archivo que contenga referencias o al que 
 
    - allow\_unsafe\_delete\_for\_all: conceder permiso a todos los usuarios para eliminar archivos. En este caso, si el archivo\(s\) contiene(n) referencias o es referenciado(s) por otros archivos, también puede eliminar a la fuerza dicho archivo\(s\). Antes de eliminar el archivo, se le mostrará un mensaje con las referencias, puede cancelar la operación de eliminación, quitar las referencias y, finalmente, eliminar el archivo\(s\). O bien, puede eliminar a la fuerza el archivo sin eliminar las referencias.
 
-      ![](assets/allow_unsafe_delete-force-delete.PNG){width="550" align="left"}
+     ![](assets/allow_unsafe_delete-force-delete.PNG){width="550" align="left"}
 
    - allow\_unsafe\_delete\_for\_delete\_assets\_group: un administrador o un usuario que pertenece a *delete-assets* El grupo puede eliminar archivos. Si algún otro usuario intenta eliminar archivos con referencias, no se le permitirá eliminar dichos archivos hasta que se eliminen todas las referencias. La siguiente captura de pantalla aparece cuando un usuario, que no tiene permisos de, intenta eliminar archivos.
 
-      ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG){width="550" align="left"}
+     ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG){width="550" align="left"}
 
    - block\_unsafe\_delete\_for\_all: Impedir que todos los usuarios \(incluidos los administradores\) eliminen archivos hasta que se eliminen las referencias al archivo y desde él.
 
@@ -214,9 +213,9 @@ Siga estos pasos para purgar las versiones anteriores:
 - **Conservar Versiones Creadas Dentro Del Periodo \(En Días\)**: introduzca la antigüedad máxima de una versión en días. Las versiones anteriores al número determinado de días pueden depurarse si se cumplen otras condiciones de depuración. Por ejemplo, si se introduce 100, todas las versiones creadas antes de 100 días cumplen los requisitos para ser depuradas en caso de que se cumplan otras condiciones de depuración.
 - **Ruta**: seleccione la ruta del archivo o la carpeta cuyos archivos desea purgar.
 
-   >[!NOTE]
-   >
-   > Sólo se pueden depurar ficheros DITA.
+  >[!NOTE]
+  >
+  > Sólo se pueden depurar ficheros DITA.
 
 1. Clic **Previsualizar informe de purga**.
 
@@ -239,4 +238,3 @@ Siga estos pasos para purgar las versiones anteriores:
 >[!NOTE]
 >
 > El informe se descarga en la siguiente ubicación: /var/dxml/versionpurge
-

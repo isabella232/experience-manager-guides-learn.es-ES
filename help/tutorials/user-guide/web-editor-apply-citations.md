@@ -1,13 +1,12 @@
 ---
 title: Añadir y administrar citas en el contenido
 description: AEM Añada y administre citas en Guías de. Aprenda a aplicar, importar, filtrar, buscar, cambiar el estilo de las citas, editar, previsualizar, insertar, eliminar y generar resultados de contenido con citas.
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1877'
+source-wordcount: '1887'
 ht-degree: 0%
 
 ---
-
 
 # Añadir y administrar citas en el contenido
 
@@ -133,7 +132,7 @@ Las siguientes opciones están disponibles en la lista desplegable:
 | MLA | APA | Chicago | IEEE | AHA |
 |---|---|---|---|---|
 | Estilo de asociación de idioma moderno <br> | American Psychological Association Style | Manual de estilo de Chicago | Instituto de Ingenieros Eléctricos y Electrónicos Estilo | American Heart Association Style |
-| Ejemplo:<br> Crawford, Claire, et al. *Contenido emocional de recuerdos oscuros*.Editado por Memory, vol 16, 2010, Amsterdam. | Ejemplo: <br> Crawford, C., J. y C. (2010). *Contenido emocional de recuerdos oscuros* (505-16 ed.). 10.1080/ 09658210902067289 | Ejemplo: <br> Crawford, Claire, et al. *Contenido emocional de recuerdos oscuros*. 505-16, 2010. | Ejemplo: <br> C. Crawford, J. , y C. , *Contenido emocional de recuerdos oscuros*. Amsterdam, 2010. | Ejemplo: <br> C. Crawford, J. , y C. , *Contenido emocional de recuerdos oscuros*. Amsterdam, 2010. |
+| Ejemplo:<br> Crawford, Claire, et al. *Contenido emocional de recuerdos oscuros*.Editado por Memory, vol 16, 2010, Amsterdam. | Ejemplo: <br> Crawford, C., J. y C. (2010). *Contenido emocional de recuerdos oscuros* (505-16 ed.). 10,1080/ 09658210902067289 | Ejemplo: <br> Crawford, Claire, et al. *Contenido emocional de recuerdos oscuros*. 505-16, 2010. | Ejemplo: <br> C. Crawford, J. , y C. , *Contenido emocional de recuerdos oscuros*. Amsterdam, 2010. | Ejemplo: <br> C. Crawford, J. , y C. , *Contenido emocional de recuerdos oscuros*. Amsterdam, 2010. |
 
 
 ## Editar una cita
@@ -142,7 +141,7 @@ Para editar la cita, siga estos pasos:
 
 1. Pase el ratón sobre el nombre de la cita de la lista. Seleccionar  ![](images/options.svg) el **Opciones** icono.
 
-1. Seleccione **Editar**.
+1. Seleccionar  **Editar**.
 
 El **Editar cita** se abre el cuadro de diálogo.
 
@@ -159,7 +158,7 @@ Para obtener una vista previa de una cita, siga estos pasos:
 
 Pase el ratón sobre el nombre de la cita de la lista. Seleccionar     ![](images/options.svg) **Opciones** icono.
 
-1. Seleccione **Vista previa**.
+1. Seleccionar **Previsualizar**.
 Puede obtener una vista previa del contenido y el formato de la cita en el panel de vista previa.
 
    >[!NOTE]
@@ -191,7 +190,7 @@ Puede insertar citas al tema desde la barra de herramientas principal o el panel
    ![diálogo de cita](images/citation-dialog-main-toolbar.png){width="300" align="left"}
 1. Puede filtrar las citas escribiendo los primeros alfabetos en el panel de búsqueda del **Cita** Cuadro de diálogo.
 
-1. Haga clic en **Listo**.
+1. Clic **Listo**.
 La cita seleccionada se agrega en la ubicación del cursor en el tema.
 
 

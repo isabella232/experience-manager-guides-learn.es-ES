@@ -1,10 +1,9 @@
 ---
 title: Administración de archivos y carpetas
 description: AEM Obtenga información sobre cómo administrar archivos y carpetas en las guías de. Copiar y pegar, arrastrar y soltar, eliminar, mover archivos y carpetas de forma masiva y buscar contenido DITA.
-exl-id: e7810b06-f49f-467a-b987-a5e6f731d4cf
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '3102'
+source-wordcount: '3108'
 ht-degree: 0%
 
 ---
@@ -135,7 +134,7 @@ Para mover archivos de forma masiva, realice los siguientes pasos:
 
    >[!TIP]
    >
-   > Seleccione lo siguiente <img src="images/info-icon.svg" width="25">   cerca de cualquier campo para ver más detalles sobre él.
+   > Seleccionar <img src="images/info-icon.svg" width="25">   cerca de cualquier campo para ver más detalles sobre él.
 
 
    - **Añadir sufijo a carpetas duplicadas**: Si está moviendo carpetas que tienen el mismo nombre, debe seleccionar esta opción. Por ejemplo, en la captura de pantalla anterior, **Ruta de origen** contiene el nombre de las carpetas que se van a mover. La carpeta denominada tema existe en dos ubicaciones diferentes: prueba A y prueba B. Al seleccionar esta opción, las carpetas se moverán correctamente. La primera carpeta que se mueva recibirá el nombre de tema, mientras que la segunda carpeta recibirá el nombre de tema0. La operación de mover agrega un sufijo en la serie secuencial \(0, 1, 2, etc.\) a las carpetas con el mismo nombre.
@@ -176,7 +175,7 @@ Para mover archivos de forma masiva, realice los siguientes pasos:
 
    >[!TIP]
    >
-   > Seleccione lo siguiente <img src="images/info-icon.svg" width="25">   cerca de cualquier campo para ver más detalles sobre él.
+   > Seleccionar <img src="images/info-icon.svg" width="25">   cerca de cualquier campo para ver más detalles sobre él.
 
    - **Tamaño del lote**: especifique el número de archivos que desea mover en un solo lote. Los valores predeterminados son 50 archivos.
    - **Intervalo de suspensión**: especifique el tiempo en segundos que el proceso esperará antes de iniciar el siguiente lote. Durante este intervalo de tiempo de suspensión, el sistema corrige las referencias hacia y desde los archivos movidos. El intervalo de suspensión predeterminado es de 60 segundos.

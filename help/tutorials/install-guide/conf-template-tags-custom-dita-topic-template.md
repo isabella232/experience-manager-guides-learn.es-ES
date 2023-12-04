@@ -1,8 +1,7 @@
 ---
 title: Configurar plantilla de tema DITA personalizada
 description: Obtenga información sobre cómo configurar una plantilla de tema DITA personalizada
-exl-id: f79165ef-5118-4574-815d-c4ecb2f7d58b
-source-git-commit: ecd5c315da5d450f29ee5d44cb19bc3546a19d1c
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 2%
@@ -25,7 +24,7 @@ AEM Las guías de la aplicación incluyen las siguientes plantillas de temas DIT
 
 - Solución de problemas
 
-- Blank
+- En blanco
 
 
 Puede utilizar cualquiera de estas plantillas para crear temas o plantillas según sus necesidades de creación. La plantilla DITA en blanco no contiene estructura ni elementos como las demás plantillas. Se puede utilizar la plantilla en blanco como base si la plantilla está altamente personalizada y no se basa en ninguna plantilla de tema DITA normal.

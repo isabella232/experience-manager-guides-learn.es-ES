@@ -1,10 +1,10 @@
 ---
 title: Notas de versión | Instrucciones de actualización y problemas corregidos en las guías de Adobe Experience Manager, versión de septiembre de 2023
 description: Obtenga información acerca de las correcciones de errores y cómo actualizar a la versión de septiembre de 2023 de las guías de Adobe Experience Manager as a Cloud Service
-source-git-commit: 3f79dfbc747b3d2efc05608d05df6ba45e53d877
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1458'
-ht-degree: 3%
+source-wordcount: '1486'
+ht-degree: 0%
 
 ---
 
@@ -112,7 +112,7 @@ AEM En esta sección se muestra la matriz de compatibilidad para las aplicacione
 
 | AEM Versión de Guides as a Cloud de | Ventanas de conector de oxígeno | Conector de oxígeno Mac | Editar en ventanas de oxígeno | Editar en Oxygen Mac |
 | --- | --- | --- | --- | --- |
-| 2023.09.0 | 3.1-uuid 17 | 3.1-uuid 17 | 2.3 | 2.3 |
+| 2023.09.0 | 3.1-uuid 17 | 3.1-uuid 17 | 2,3 | 2,3 |
 |  |  |  |  |
 
 
@@ -176,7 +176,3 @@ A continuación se enumeran los errores corregidos en varias áreas:
 
 - El proceso para exportar una línea base con el nombre cambiado para una traducción falla. (12993)
 - El título del archivo traducido se muestra en lugar del título del archivo de origen. (11630)
-
-
-
-

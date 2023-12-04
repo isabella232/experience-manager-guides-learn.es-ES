@@ -1,8 +1,7 @@
 ---
 title: Informe de historial de versiones de archivos revertidos
 description: AEM Vea los informes del historial de versiones de los archivos revertidos en las Guías de. AEM Obtenga información sobre cómo acceder a los registros de versión de reversión desde la interfaz de usuario de Assets, la previsualización de temas y la selección de herramientas de.
-exl-id: fa90b373-742a-4102-b00f-07e4113fef98
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%

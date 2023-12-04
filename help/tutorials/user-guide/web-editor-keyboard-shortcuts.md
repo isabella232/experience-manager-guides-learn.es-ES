@@ -1,11 +1,10 @@
 ---
 title: Métodos abreviados de teclado en el Editor Web
 description: AEM Descubra los métodos abreviados de teclado que ahorran tiempo en el editor web de Guías de.
-exl-id: d843c5a9-04f8-44f2-9bf5-60cb4ed7fa38
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 3%
+source-wordcount: '353'
+ht-degree: 0%
 
 ---
 
@@ -34,13 +33,13 @@ En el Editor Web se pueden realizar muchas operaciones mediante los métodos abr
 | Mover el cursor una palabra a la izquierda. | ***Ctrl***+***Flecha izquierda*** | ***Opción***+***Flecha izquierda*** |
 | Mover el cursor una palabra a la derecha. | ***Ctrl***+***Flecha derecha*** | ***Opción***+***Flecha derecha*** |
 | Mover el cursor al principio de la línea actual. | ***Inicio*** | ***Comando***+***Flecha izquierda*** |
-| Mover el cursor al final de la línea actual. | **Finalizar** | ***Comando***+***Flecha derecha*** |
-| Mover el cursor al principio del siguiente elemento. | ***Pestaña*** | ***Pestaña*** |
-| Aplicar sangría al elemento de la lista al siguiente nivel. | ***Pestaña*** | ***Pestaña*** |
+| Mover el cursor al final de la línea actual. | **Fin** | ***Comando***+***Flecha derecha*** |
+| Mover el cursor al principio del siguiente elemento. | ***Ficha*** | ***Ficha*** |
+| Aplicar sangría al elemento de la lista al siguiente nivel. | ***Ficha*** | ***Ficha*** |
 | Mover el cursor al final del elemento anterior. | ***Shift***+***Ficha*** | ***Shift***+***Ficha*** |
 | Anular la sangría del elemento de lista al nivel anterior. | ***Shift***+***Ficha*** | ***Shift***+***Ficha*** |
 | Sangría automática de XML en la vista Código fuente | ***Ctrl***+***Alt***+***L*** | ***Comando***+***Opción***+***L*** |
-| Dividir el elemento actual | ***Entrar*** | ***Devolver*** |
+| Dividir el elemento actual | ***Entrar*** | ***Volver*** |
 | Copiar el texto seleccionado | ***Ctrl***+**C** | ***Comando***+**C** |
 | Pegar | ***Ctrl***+**V** | ***Comando***+**V** |
 | Pegar y hacer coincidir formato | ***Ctrl***+***Shift***+**V** | ***Comando***+***Shift***+**V** |

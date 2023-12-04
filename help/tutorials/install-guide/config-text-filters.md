@@ -1,13 +1,12 @@
 ---
 title: Configuración de filtros de texto
 description: Obtenga información sobre cómo configurar filtros de texto
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%
 
 ---
-
 
 # Configuración de filtros de texto {#id21BPD0FK0XA}
 
@@ -100,4 +99,3 @@ Siga estos pasos para configurar los filtros de texto:
 Los filtros configurados están disponibles en el panel Filtros.
 
 **Tema principal:**[ Personalizar editor web](conf-web-editor.md)
-

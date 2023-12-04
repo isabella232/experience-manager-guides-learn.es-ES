@@ -1,10 +1,9 @@
 ---
 title: Informe de mapa DITA del editor web
 description: AEM Genere informes de mapas DITA desde el editor web en las guías de la. Obtenga información sobre cómo generar un CSV para informes de lista de temas, multimedia, metadatos y vínculos rotos.
-exl-id: b1011cec-6374-4026-bf1c-54a1981c760e
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '2367'
+source-wordcount: '2366'
 ht-degree: 0%
 
 ---

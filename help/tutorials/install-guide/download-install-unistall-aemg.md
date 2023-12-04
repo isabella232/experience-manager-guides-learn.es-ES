@@ -1,13 +1,12 @@
 ---
 title: AEM Desinstalación de guías de
 description: AEM Obtenga información sobre cómo desinstalar las guías de
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
 
 ---
-
 
 # AEM Desinstalación de guías de {#id21BHG0C0SXA}
 
@@ -47,4 +46,3 @@ Para limpiar los archivos residuales después de la desinstalación, realice los
 1. Limpie la caché del explorador.
 
 **Tema principal:**[ Descargar e instalar](download-install.md)
-

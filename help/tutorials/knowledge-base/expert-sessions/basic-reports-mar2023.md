@@ -1,10 +1,9 @@
 ---
 title: AEM Informes en las guías de la
 description: AEM Descubra cuáles son todos los informes disponibles en la para ayudar a los usuarios a mejorar la calidad del contenido.
-exl-id: f0d761ff-efea-452c-bb8e-865f34a182fc
-source-git-commit: 7871a54f3181fd114e24e0e10cfc15351cefd761
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '263'
 ht-degree: 1%
 
 ---
@@ -59,8 +58,7 @@ En esta sesión, aprendió lo siguiente:
 >
 > AEM Las funciones que se muestran en esta sesión están disponibles en las siguientes versiones de las Guías de:
 > - Local: 4.2 o posterior
-> - Cloud Services: 2302 o posterior
-
+> - Cloud Service: 2302 o posterior
 
 
 ## Próxima sesión de expertos

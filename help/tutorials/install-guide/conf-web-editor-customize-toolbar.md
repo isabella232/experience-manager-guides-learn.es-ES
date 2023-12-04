@@ -1,13 +1,12 @@
 ---
 title: Personalizar barra de herramientas
 description: Aprenda a personalizar la barra de herramientas
-source-git-commit: ef2e99db8c298d34af5777baa48886a55ac32590
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 0%
 
 ---
-
 
 # Personalizar barra de herramientas {#id172FB00L0V6}
 
@@ -48,20 +47,20 @@ Siga estos pasos para agregar una función a la barra de herramientas del Editor
 
    - **elementos:** Especifique la definición de todos los grupos en la barra de herramientas. Cada grupo puede contener uno o varios iconos de la barra de herramientas. Para definir iconos dentro de un grupo de barras de herramientas, debe definir de nuevo la variable `type` dentro del atributo `items`y establezca su valor en `buttonGroup`. Especifique uno o varios nombres de clase en la variable `extraclass` propiedad. Especifique el nombre de la función en la `label` propiedad. El siguiente fragmento de la `ui_config.json` archivo muestra la definición del bloque de barra de herramientas principal, seguido del `buttonGroup` definición:
 
-      ```json
-      "toolbar": {    
-        "type": "blockGroup",    
-        "extraclass": 
-        "toolbar operations",    
-          "items": [      
-            {        
-              "type": "buttonGroup",        
-              "extraclass": "left-controls",        
-              "label": "Left Controls",        
-              "items": [
-      ```
+     ```json
+     "toolbar": {    
+       "type": "blockGroup",    
+       "extraclass": 
+       "toolbar operations",    
+         "items": [      
+           {        
+             "type": "buttonGroup",        
+             "extraclass": "left-controls",        
+             "label": "Left Controls",        
+             "items": [
+     ```
 
-      Dentro de `items` , debe especificar la definición de uno o más iconos de la barra de herramientas.
+     Dentro de `items` , debe especificar la definición de uno o más iconos de la barra de herramientas.
 Debe definir las siguientes propiedades para añadir un icono de la barra de herramientas:
 
    - **tipo:** Especificar `button` como el `type` valor. Este valor indica que está agregando un botón de barra de herramientas.
@@ -74,9 +73,9 @@ Debe definir las siguientes propiedades para añadir un icono de la barra de her
 
    - **al hacer clic:** Especifique el nombre del comando definido para la función en el archivo JavaScript. Si el comando requiere parámetros de entrada, especifique el nombre del comando como:
 
-      ```JavaScript
-      "on-click": {"name": "AUTHOR_INSERT_ELEMENT", "args": "simpletable"}
-      ```
+     ```JavaScript
+     "on-click": {"name": "AUTHOR_INSERT_ELEMENT", "args": "simpletable"}
+     ```
 
    - **mostrar u ocultar:** Si está definiendo la variable `show` y, a continuación, especifique los modos en los que se muestra el icono. Los valores posibles son: `@isAuthorMode`, `@isSourceMode`, `@isPreviewMode`, `true` \(mostrar en todos los modos\), o `false` \(ocultar en todos los modos\).
 
@@ -234,4 +233,3 @@ El `ui_config.json` El archivo tiene tres secciones:
 
 
 **Tema principal:**[ Personalizar editor web](conf-web-editor.md)
-

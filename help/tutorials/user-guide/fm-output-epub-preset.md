@@ -1,8 +1,7 @@
 ---
 title: EPUB
 description: Genere y configure la salida de EPUB para documentos de FrameMaker AEM en Guías de.
-exl-id: 5c9d4b78-94bd-46b7-891e-33d7df596ca3
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 4%

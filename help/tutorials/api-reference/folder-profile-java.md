@@ -1,13 +1,12 @@
 ---
 title: API basada en Java para trabajar con perfiles de carpeta
 description: Obtenga información acerca de la API basada en Java para trabajar con perfiles de carpeta
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
-
 
 # API basada en Java para trabajar con perfiles de carpeta {#id175UB30E05Z}
 
@@ -62,4 +61,3 @@ Session session) throws GuidesApiException
 - Si se llama a la API mediante una sesión de usuario no autorizada, como el usuario que no es administrador del perfil de carpeta dado.
 
 [1](#fnsrc_1) El `attributeNames`, `values`, y `labels` en el mismo índice de una lista de matriz debe corresponder a la misma entrada.
-

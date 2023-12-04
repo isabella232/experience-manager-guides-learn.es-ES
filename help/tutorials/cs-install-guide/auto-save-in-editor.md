@@ -1,13 +1,12 @@
 ---
 title: Configurar el guardado automático de archivos en el Editor web
 description: Obtenga información sobre cómo configurar el guardado automático de archivos en el Editor Web
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 1%
 
 ---
-
 
 # Configurar el guardado automático de archivos en el Editor web {#id199CC0J0M5Z}
 
@@ -23,4 +22,3 @@ Siga las instrucciones que se indican en [Anulaciones de configuración](downloa
 | `xmleditor.autosaveinterval` | Especifique el intervalo de tiempo en segundos para almacenar en déclencheur la función de guardado automático. |
 
 **Tema principal:**[ Personalizar editor web](conf-web-editor.md)
-

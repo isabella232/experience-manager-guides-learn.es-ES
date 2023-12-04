@@ -1,10 +1,9 @@
 ---
 title: Notas de versión | Adobe Experience Manager Guides as a Cloud Service, versión de marzo de 2023
 description: Lanzamiento de marzo de Adobe Experience Manager Guides as a Cloud Service
-exl-id: b3fe7cc8-1654-467a-ab18-6e6912855ecc
-source-git-commit: 4bb9ce2690a2e76a5b2a93b65db7dd452e15d295
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '149'
 ht-degree: 0%
 
 ---

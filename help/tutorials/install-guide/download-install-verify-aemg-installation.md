@@ -1,13 +1,12 @@
 ---
 title: AEM Verificar la instalación de guías de
 description: AEM Obtenga información sobre cómo verificar la instalación de las guías de
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 0%
 
 ---
-
 
 # AEM Verificar la instalación de guías de {#id213BD030FBE}
 
@@ -33,4 +32,3 @@ AEM Una vez que haya instalado las guías de la aplicación, debe comprobar si l
 > Existen varias recomendaciones de optimización del rendimiento que puede considerar para mejorar el rendimiento del sistema. Consulte [Recommendations para la optimización del rendimiento](download-install-recommend-perf-optimiz.md#) para obtener más información.
 
 **Tema principal:**[ Descargar e instalar](download-install.md)
-

@@ -1,13 +1,12 @@
 ---
 title: Establecer el Editor de mapas avanzado como predeterminado
 description: Aprenda a establecer el Editor de mapas avanzado como predeterminado
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 0%
 
 ---
-
 
 # Establecer el Editor de mapas avanzado como predeterminado {#id181AI0003PN}
 
@@ -26,4 +25,3 @@ Siga las instrucciones que se indican en [Anulaciones de configuración](downloa
 > De forma predeterminada, cuando un autor crea un archivo de mapa y elige abrirlo para editarlo, se inicia el Editor de mapas básico. Cuando se selecciona la opción Editar para un archivo de asignación desde la interfaz de usuario de Assets, también se abre en el Editor de mapas básico.
 
 **Tema principal:**[ Personalizar editor web](conf-web-editor.md)
-

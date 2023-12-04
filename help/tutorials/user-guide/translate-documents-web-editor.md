@@ -1,11 +1,10 @@
 ---
 title: Traducir documentos desde el editor web
 description: Traduzca el contenido a varios idiomas desde el editor web. AEM Obtenga información sobre cómo crear un proyecto de traducción, agregar reglas, ver versiones y descartar archivos no sincronizados en las guías del usuario.
-exl-id: 02fc2b51-5b9a-4ad6-9e2e-726ab7602514
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1904'
-ht-degree: 1%
+source-wordcount: '1907'
+ht-degree: 0%
 
 ---
 
@@ -54,7 +53,7 @@ Antes de realizar los pasos de este procedimiento, asegúrese de haber creado la
 
    **Usar la última versión como en**: elija filtrar la versión de los temas en función de su fecha y hora de creación. Al seleccionar una fecha y hora, solo se muestra la última versión de los archivos creados en la fecha y la hora seleccionadas o antes.
 
-1. Haga clic en **Aplicar**. Se muestra una lista con detalles de temas y recursos asociados.
+1. Clic **Aplicar**. Se muestra una lista con detalles de temas y recursos asociados.
 1. Seleccione los temas que desee enviar para su traducción. También puede utilizar las opciones de filtrado de temas para las siguientes columnas:
 
    - **Título**: título del archivo de origen.  Pase el ratón sobre el título del archivo de origen para ver el título del archivo de destino o traducido.

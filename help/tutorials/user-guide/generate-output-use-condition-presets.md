@@ -1,10 +1,9 @@
 ---
 title: Usar ajustes preestablecidos de condición
 description: AEM Conozca el uso de ajustes preestablecidos de condición en las guías de la. AEM Obtenga información sobre cómo crear, editar, copiar y eliminar ajustes preestablecidos de condición en la aplicación de.
-exl-id: f6865a34-abdd-4d23-b903-0211bebd13b7
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1202'
+source-wordcount: '1210'
 ht-degree: 1%
 
 ---
@@ -43,7 +42,7 @@ Puede crear un ajuste preestablecido de condición de los temas realizando los s
    >
    > Verá un error si el campo de nombre está vacío o si introduce un carácter no válido o un nombre que sea el mismo que un ajuste preestablecido de condición existente. Puede utilizar un guión &quot;-&quot; o un guion bajo &quot;_&quot; como separador.
 
-1. Seleccione **Crear**.
+1. Seleccionar **Crear**.
 El nuevo ajuste preestablecido de condición se añade a la lista.
 1. Haga doble clic en un ajuste preestablecido de condición para ver los atributos y las acciones.
 El **Atributos** el panel muestra todos los atributos añadidos a cualquier referencia presente en el mapa. El panel derecho muestra únicamente las condiciones que ha añadido a los ajustes preestablecidos de condición.

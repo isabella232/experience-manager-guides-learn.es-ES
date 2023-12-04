@@ -1,10 +1,9 @@
 ---
 title: Aspectos básicos de publicación de PDF nativo
 description: Obtenga información sobre cómo publicar PDF AEM mediante el motor de PDF nativo en Guías de.
-exl-id: e7ba6d2d-ebfb-4400-9b10-c4fb173123cf
-source-git-commit: 093cb6c3b3a523e56f401e813c2b51a414c725d2
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '204'
 ht-degree: 1%
 
 ---
@@ -49,8 +48,7 @@ En esta sesión, aprenderá lo siguiente:
 >
 > AEM Las funciones que se muestran en esta sesión están disponibles en las siguientes versiones de las Guías de:
 > - Local 4.2 o posterior
-> - Cloud Services 2211 y posterior
-
+> - Cloud Service 2211 y posterior
 
 ## Contáctenos.
 

@@ -1,10 +1,9 @@
 ---
 title: Inserción de un fragmento de contenido desde la fuente de datos
 description: AEM Utilice los datos de su fuente de datos en las guías de la. Aprenda a insertar un fragmento de contenido desde la fuente de datos. Cree un tema con el generador de temas.
-exl-id: fbd5eff2-451b-49d6-ba77-6eb271e94349
-source-git-commit: f7a0140a274a83dfeb6a1ba70ae9c09297d1754c
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '2060'
+source-wordcount: '2066'
 ht-degree: 0%
 
 ---
@@ -49,7 +48,7 @@ Puede alternar entre la vista de lista o la vista de mosaico para ver los distin
 
 Seleccione una fuente de datos para ver los generadores de fragmentos de contenido y los generadores de temas disponibles para la fuente de datos seleccionada.
 
-### Vista en lista  ![](images/data-sources-list-view-icon.svg)
+### Vista de lista  ![](images/data-sources-list-view-icon.svg)
 
 ![](images/data-sources-list-view.png){width="300" align="left"}
 

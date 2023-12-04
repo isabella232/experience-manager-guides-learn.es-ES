@@ -1,11 +1,10 @@
 ---
 title: Notas de versión | Adobe Experience Manager Guides as a Cloud Service, versión de marzo de 2023
 description: Lanzamiento de marzo de Adobe Experience Manager Guides as a Cloud Service
-exl-id: c62a65fb-b52d-455d-b42c-f0b19b4d5f63
-source-git-commit: f419281cdecb570f9e5c7ce5cd4c831cae349e11
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 2%
+source-wordcount: '561'
+ht-degree: 0%
 
 ---
 
@@ -18,9 +17,9 @@ Para obtener más información sobre las nuevas funciones y mejoras, consulte [A
 ## Actualizar a la versión de marzo de 2023
 
 AEM Actualice la configuración as a Cloud Service de las guías de usuario actuales realizando los siguientes pasos:
-1. Consulte el código Git de los Cloud Services y cambie a la rama configurada en la canalización de Cloud Services correspondiente al entorno que desea actualizar.
-2. Actualizar `<dox.version>` propiedad en `/dox/dox.installer/pom.xml` de su código Git de Cloud Services a 2023.3.242.
-3. Confirme los cambios y ejecute la canalización de Cloud Services AEM para actualizar a la versión de marzo de 2023 de las guías de la as a Cloud Service.
+1. Consulte el código Git de los Cloud Service y cambie a la rama configurada en la canalización de Cloud Service correspondiente al entorno que desea actualizar.
+2. Actualizar `<dox.version>` propiedad en `/dox/dox.installer/pom.xml` de su código Git de Cloud Service a 2023.3.242.
+3. Confirme los cambios y ejecute la canalización de Cloud Service AEM para actualizar a la versión de marzo de 2023 de las guías de la as a Cloud Service.
 
 ## AEM Pasos para indexar el contenido existente (solo si se encuentra en una versión anterior a la versión de septiembre de Guías de as a Cloud Service)
 
@@ -50,7 +49,7 @@ AEM En esta sección se muestra la matriz de compatibilidad para las aplicacione
 
 | AEM Versión de Guides as a Cloud de | Ventanas de conector de oxígeno | Conector de oxígeno Mac | Editar en ventanas de oxígeno | Editar en Oxygen Mac |
 | --- | --- | --- | --- | --- |
-| 2023.03.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 |
+| 2023.03.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2,3 | 2,3 |
 |  |  |  |  |
 
 ## Problemas solucionados

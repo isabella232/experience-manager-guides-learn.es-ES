@@ -1,13 +1,12 @@
 ---
 title: Configurar la visualización de vínculos basados en UUID
 description: Obtenga información sobre cómo configurar la visualización de vínculos basados en UUID
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 1%
 
 ---
-
 
 # Configurar la visualización de vínculos basados en UUID {#id2035G20M0QN}
 
@@ -20,4 +19,3 @@ Siga las instrucciones que se indican en [Anulaciones de configuración](downloa
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.uuid` | Boolean \(true/false\). Si desea mostrar la ruta relativa del contenido vinculado, establezca esta propiedad en false. <br> **Valor predeterminado**: true |
 
 **Tema principal:**[ Personalizar editor web](conf-web-editor.md)
-

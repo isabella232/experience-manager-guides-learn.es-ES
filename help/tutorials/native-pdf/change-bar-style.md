@@ -1,8 +1,7 @@
 ---
 title: Función de publicación nativa de PDF | Trabajar con estilos de barras de cambios personalizados
 description: Aprenda a aplicar estilos en las barras de cambios.
-exl-id: a81ec56c-ccbb-4599-a696-8edef7a73cdd
-source-git-commit: 7b48633ef2418fa7c91842a8d2c2a4177017ef58
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%

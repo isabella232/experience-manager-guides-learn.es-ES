@@ -1,8 +1,7 @@
 ---
 title: Edición de una colección de mapas de activación masiva
 description: AEM Utilice el tablero de publicación masiva en las guías de la. Aprenda a editar una colección de mapas de activación masiva añadiendo o eliminando archivos de mapa.
-exl-id: 110eba52-c886-4148-aff9-9c4e1d3d85bd
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 1%

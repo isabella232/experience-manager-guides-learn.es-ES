@@ -1,13 +1,12 @@
 ---
 title: AEM Administración de etiquetas para archivos DITA en las guías de la
 description: AEM Breve artículo sobre la administración de cq:tags en Guías de
-source-git-commit: 06f7adfd4fbbc3b51c6d6c08689697c20c8ce8fe
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '280'
 ht-degree: 1%
 
 ---
-
 
 # Adición, eliminación y administración de etiquetas en el contenido DITA
 
@@ -27,7 +26,7 @@ AEM AEM El etiquetado es una función nativa de la, y el administrador de la apl
 
 AEM Existen varias formas de añadir etiquetas al contenido DITA, pero este artículo se concentrará en la interfaz de usuario del editor web de Guías.
 
-### Etapas:
+### Pasos:
 
 1. Ir a la vista del repositorio en la IU de Guides
 2. Haga doble clic en ditamap y abra en la vista de mapa
@@ -60,4 +59,3 @@ También puede quitar las etiquetas existentes que son comunes en los archivos s
 
 
 **Póngase en contacto con su CSM correspondiente para cualquier otra consulta**
-

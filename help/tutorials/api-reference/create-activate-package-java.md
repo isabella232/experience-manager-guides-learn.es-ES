@@ -1,13 +1,12 @@
 ---
 title: API basada en Java para crear y activar paquetes
 description: Obtenga información acerca de la API basada en Java para crear y activar paquetes
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
-
 
 # API basada en Java para crear y activar paquetes {#id175UB30E05Z}
 
@@ -90,4 +89,3 @@ La consulta JSON de ejemplo consta de las siguientes reglas:
 - En el paquete solo se incluyen las imágenes .png, .jpg y .gif en la ruta /content/dam/nested.
 - Todos los nodos bajo /content/output/sites/hierarchy\_ditamap están incluidos en el paquete.
 - Las rutas presentes en el `fileReference` La propiedad de nodos bajo /content/output/sites/hierarchy\_ditamap se incluye en el paquete.
-

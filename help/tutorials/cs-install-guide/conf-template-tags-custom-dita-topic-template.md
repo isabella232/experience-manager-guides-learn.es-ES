@@ -1,13 +1,12 @@
 ---
 title: Configurar plantilla de tema DITA personalizada
 description: Obtenga información sobre cómo configurar una plantilla de tema DITA personalizada
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 2%
 
 ---
-
 
 # Configurar plantilla de tema DITA personalizada {#id16A7G0O02TD}
 
@@ -25,7 +24,7 @@ AEM Las guías de la aplicación incluyen las siguientes plantillas de temas DIT
 
 - Solución de problemas
 
-- Blank
+- En blanco
 
 
 Puede utilizar cualquiera de estas plantillas para crear temas o plantillas según sus necesidades de creación. La plantilla DITA en blanco no contiene estructura ni elementos como las demás plantillas. Se puede utilizar la plantilla en blanco como base si la plantilla está altamente personalizada y no se basa en ninguna plantilla de tema DITA normal.
@@ -62,4 +61,3 @@ Siga las instrucciones que se indican en [Anulaciones de configuración](downloa
 | `com.adobe.fmdita.config.ConfigManager` | `topic.templates` | Especifique una ubicación para almacenar plantillas personalizadas.<br> Si la ubicación especificada existe en DAM, todas las plantillas predeterminadas de temas y asignaciones se copian en esa carpeta. Si la ubicación no existe, la carpeta se creará con todas las plantillas predeterminadas de asignación y tema. |
 
 **Tema principal:**[ Configuración de plantillas de temas y mapas](conf-template-tags.md)
-
